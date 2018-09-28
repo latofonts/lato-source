@@ -49,7 +49,7 @@ Lato is a sanserif typeface family designed in the Summer 2010 and extended in t
 - Merged the distribution again
 - Autohinted with updated ttfautohint 0.4 (which no longer causes Adobe and iOS problems) except the Hai and Lig weights which are hinted in FLS 5.1.
 
-# Version 1.102 (2011-10-28)
+### Version 1.102 (2011-10-28)
 
 - Added OpenType Layout features
 - Split between desktop and web versions
