@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+ <axes>
+  <axis name="weight" minimum="100" maximum="900" default="400" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="100" output="0"/>
+   <map input="200" output="100"/>
+   <map input="300" output="250"/>
+   <map input="400" output="540"/>
+   <map input="500" output="600"/>
+   <map input="600" output="666"/>
+   <map input="700" output="780"/>
+   <map input="800" output="880"/>
+   <map input="900" output="1000"/>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Black Italic" familyname="Lato VF" stylename="Black Italic" filename="masters/LatoVF-BlackItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </source>
+  <source name="Hairline Italic" familyname="Lato VF" stylename="Thin Italic" filename="masters/LatoVF-HairlineItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Italic" familyname="Lato VF" stylename="Italic" filename="masters/LatoVF-Italic.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="540"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="Hairline Italic" familyname="Lato VF" stylename="Hairline Italic" filename="instances/LatoVF-HairlineItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </instance>
+  <instance name="Thin Italic" familyname="Lato VF" stylename="Thin Italic" filename="instances/LatoVF-ThinItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="100"/>
+   </location>
+  </instance>
+  <instance name="Light Italic" familyname="Lato VF" stylename="Light Italic" filename="instances/LatoVF-LightItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="250"/>
+   </location>
+  </instance>
+  <instance name="Italic" familyname="Lato VF" stylename="Italic" filename="instances/LatoVF-Italic.ufo">
+   <location>
+    <dimension name="weight" xvalue="540"/>
+   </location>
+  </instance>
+  <instance name="Medium Italic" familyname="Lato VF" stylename="Medium Italic" filename="instances/LatoVF-MediumItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance name="Semibold Italic" familyname="Lato VF" stylename="Semibold Italic" filename="instances/LatoVF-SemiboldItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="666"/>
+   </location>
+  </instance>
+  <instance name="Bold Italic" familyname="Lato VF" stylename="Bold Italic" filename="instances/LatoVF-BoldItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="780"/>
+   </location>
+  </instance>
+  <instance name="Heavy Italic" familyname="Lato VF" stylename="Heavy Italic" filename="instances/LatoVF-HeavyItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="880"/>
+   </location>
+  </instance>
+  <instance name="Black Italic" familyname="Lato VF" stylename="Black Italic" filename="instances/LatoVF-BlackItalic.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </instance>
+ </instances>
+    <lib>
+        <dict>
+            <key>org.statmake.additionalLocations</key>
+            <dict>
+                <key>Italic</key>
+                <integer>1</integer>
+            </dict>
+        </dict>
+    </lib>
+</designspace>

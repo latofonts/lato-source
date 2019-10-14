@@ -1,16 +1,24 @@
 # Sources for the Lato font family
 
-- Version 3.001-dev; Latin+Cyrillic+Greek+IPA opensource
+- Version 3.002-dev; Latin+Cyrillic+Greek+IPA opensource
 - Created by: tyPoland Lukasz Dziedzic
 - Designed by: Łukasz Dziedzic with Adam Twardoch and Botio Nikoltchev
-- Creation year: 2018
-- Copyright (c) 2010-2018 by tyPoland Lukasz Dziedzic with Reserved Font Name “Lato”. Licensed under the Licensed under the [SIL Open Font License, Version 1.1](./LICENSE.txt).
+- Creation year: 2019
+- Copyright (c) 2010-2019 by tyPoland Lukasz Dziedzic with Reserved Font Name “Lato”. Licensed under the Licensed under the [SIL Open Font License, Version 1.1](./LICENSE.txt).
 - Lato is a trademark of tyPoland Lukasz Dziedzic.
 - Website URL: http://www.latofonts.com/
 
-Lato is a sanserif typeface family designed in the Summer 2010 and extended in the Summer 2013 by Warsaw-based designer Lukasz Dziedzic ("Lato" means "Summer" in Polish). It tries to carefully balance some potentially conflicting priorities: it should seem quite "transparent" when used in body text but would display some original traits when used in larger sizes. The classical proportions, particularly visible in the uppercase, give the letterforms familiar harmony and elegance. At the same time, its sleek sanserif look makes evident the fact that Lato was designed in the 2010s, even though it does not follow any current trend. The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness. In 2013-2014, the family was greatly extended (with the help of Adam Twardoch and Botio Nikoltchev) to cover 3000+ glyphs over nine weights with italics. It now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. The Lato fonts are available free of charge under the SIL Open Font License from http://www.latofonts.com/
+Lato is a sanserif typeface family designed in the Summer 2010 and extended in the Summer 2013 by Warsaw-based designer Lukasz Dziedzic ("Lato" means "Summer" in Polish). It tries to carefully balance some potentially conflicting priorities: it should seem quite "transparent" when used in body text but would display some original traits when used in larger sizes. The classical proportions, particularly visible in the uppercase, give the letterforms familiar harmony and elegance. At the same time, its sleek sanserif look makes evident the fact that Lato was designed in the 2010s, even though it does not follow any current trend. The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness. In 2013-2014, the family was greatly extended (with the help of Adam Twardoch and Botio Nikoltchev) to cover 3000+ glyphs over nine weights with italics. It now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. The Lato fonts are available free of charge under the SIL Open Font License from https://www.latofonts.com/
 
 ## Changelog
+
+### Version 3.002-dev (2019-10-14)
+
+- Added the sources in FontLab VI VFC & VFJ format (`20-VFC-2M-designsource` folder has 2 masters, `30-VFC-3M-production` has 3 masters, needed for VF export)
+- Renamed glyphs for more consistent experience
+- Updated OpenType feature definitions
+- Moved ligatures that involve `i` and `j` to `dlig` feature (by popular demand)
+- Added accented “legible” `.ss05` forms
 
 ### Version 3.001-dev (2018-09-28)
 
@@ -34,7 +42,7 @@ Lato is a sanserif typeface family designed in the Summer 2010 and extended in t
 
 ### Version 2.010 (2014-09-01)
 
-- Improved some contour bugs and diacritics positioning. 
+- Improved some contour bugs and diacritics positioning.
 - Improved outline quality.
 - Revised OTL features so that they work in browsers (ot-sanitise).
 - Autohinted using ttfautohint 1.1.
