@@ -1,0 +1,83 @@
+import os
+import os.path
+import glob
+from fontlab import *
+from PythonQt import QtGui
+ws = flWorkspace.instance()
+main = ws.mainWindow
+item = flItems
+qapp = QtGui.QApplication.instance()
+pref = flPreferences()
+
+fontRelFolder = os.path.join(os.path.dirname(__file__), '..', 'sources')
+outRelFolder = os.path.join(os.path.dirname(__file__), '..', 'build')
+
+class ExportFont(object):
+
+    def __init__(self):
+        self.fontFolder = None
+        self.fontPaths = None
+        self.fontPath = None
+        self.fp = None
+
+    def getFontPaths(self, fontFolder = None):
+        if not fontFolder:
+            self.fontFolder = fontRelFolder
+        self.fontPaths = glob.glob(os.path.join(self.fontFolder, '*.vfj'))
+        if not len(self.fontPaths):
+            self.fontFolder = QtGui.QFileDialog.getExistingDirectory(None, 'Choose folder with VFJ files', self.fontFolder, QFileDialog.ShowDirsOnly)
+            if self.fontFolder:
+                self.fontPaths = glob.glob(os.path.join(self.fontFolder, '*.vfj'))
+        if not len(self.fontPaths):
+            print("No VFJ files found in folder!")
+
+    def openFont(self, fontPath):
+        main.loadFont(fontPath)
+        self.fp = ws.currentPackage
+        self.fg = CurrentFont()
+        self.fontPath = self.fp.path
+        self.subFolder = os.path.splitext(os.path.basename(self.fontPath))[0]
+        #print(self.fp, self.fg)
+
+    def exportFontDSUFO(self, outFolder = None):
+        if not outFolder:
+            outFolder = os.path.join(outRelFolder, self.subFolder, 'ds-ufo')
+        if not os.path.isdir(outFolder):
+            os.makedirs(outFolder)
+        ec = ExportControl()
+        ec.profileName = "DesignSpace + UFO"
+        ec.destinationMode = pref.DestinationFolder
+        ec.conflictMode = pref.ConflictOverwrite
+        ec.contentMode = pref.ContentInstances
+        ec.destinationFolder = outFolder
+        ec.groupProfiles = False
+        ec.groupFamily = False
+        ws.exportFont(self.fp, ec)
+
+    def exportFontInstUFO(self, outFolder = None):
+        if not outFolder:
+            outFolder = os.path.join(outRelFolder, self.subFolder, 'ds-ufo', 'masters')
+        if not os.path.isdir(outFolder):
+            os.makedirs(outFolder)
+        ec = ExportControl()
+        ec.profileName = "UFO Package"
+        ec.destinationMode = pref.DestinationFolder
+        ec.conflictMode = pref.ConflictOverwrite
+        ec.contentMode = pref.ContentInstances
+        ec.destinationFolder = outFolder
+        ec.groupProfiles = False
+        ec.groupFamily = False
+        ws.exportFont(self.fp, ec)
+
+    def main(self):
+        self.getFontPaths()
+        for fontPath in self.fontPaths:
+            print(fontPath)
+            self.openFont(fontPath)
+            self.exportFontDSUFO()
+            self.exportFontInstUFO()
+
+if __name__ == "__main__":
+    ex = ExportFont()
+    ex.main()
+    qapp.quit()
