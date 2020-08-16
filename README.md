@@ -34,6 +34,24 @@ python3 -m pip install --user --upgrade git+https://github.com/fonttools/fonttoo
 python3 03_build_lato_fontmake.py
 ```
 
+## Technical details
+
+### Selective building
+
+With `python3 03_build_lato_fontmake.py -h` you can check additional build options. For example, `python3 03_build_lato_fontmake.py ttf` will only build static TTFs.
+
+### Mark attachment
+
+In this version, dynamic mark attachment (`mark` and `mkmk` is limited to combining marks, and to Latin and Cyrillic base glyphs that don’t have precomposed marks). In FontLab, in Glyph panel, OT Glyph Definition Class for those base glyphs is set to Simple, which translates to the `otsimp` virtual tag. The marks are set as Mark, which translates to the `otmark` virtual tag. The FEA code has a portion between `#> vtags` and `#< vtags` which includes the virtual tags as FEA classes. Then the portion:
+
+```
+table GDEF {
+    GlyphClassDef @otsimp, @otliga, @otmark, [];
+} GDEF;
+```
+
+ensures that `fontmake` only builds anchor-based mark attachment (`mark` and `mkmk` for the `@otsimp` base glyphs and `@otmark` marks).
+
 ## Changelog
 
 ### Version 3.100.dev2 (2020-08-16)
@@ -44,10 +62,9 @@ python3 03_build_lato_fontmake.py
 - Added the `ss06` feature for Serbian localized glyphs
 - Renamed glyphs in source to use `.glyphs`-compatible names
 - Added scripted build system (see Building)
-- Improved anchors for `mark` & `mkmk` (WIP)
-- Added `table STAT` definition in FEA
+- Improved anchors for `mark` & `mkmk`, limiting them to non-accented Latin and Cyrillic base letters, and to combining marks.
+- Added `table STAT` definition in FEA — note: for this reason, the features don’t compile in FontLab. 
 - **TODO** Automate `STAT` building either via statmake or FEA. Right now it’s done via FEA but it’s stupid since the statics get the STAT for the VF. Perhaps just remove STAT from the statics in a postprocessing step
-- **TODO** Reduce the amount of glyphs for which `mark` and `mkmk` are generated. Right now the ufo2ft feature builder makes the feature for far too many glyphs which bloats the fonts. Customize the feature writer.
 
 ### Version 3.002.dev1 (2019-10-14)
 

@@ -6,12 +6,28 @@ from ufo2ft import CFFOptimization
 
 class LatoFontMake(object):
 
-    def __init__(self):
+    def __init__(self, config):
+        self.build = config.get('build', 'all')
         self.cwd = os.path.dirname(__file__)
         self.basefonts = {
             'Lato3Upr': None,
             'Lato3Ita': None,
         }
+        if self.build in ('all', 'vf', 'vf2'):
+            for basefont in self.basefonts:
+                self.buildVF2(basefont)
+        if self.build in ('all', 'vf', 'vf3'):
+            for basefont in self.basefonts:
+                self.buildVF3(basefont)
+        if self.build in ('all', 'ttf'):
+            for basefont in self.basefonts:
+                self.buildTTF(basefont)
+        if self.build in ('all', 'otf'):
+            for basefont in self.basefonts:
+                self.buildOTF(basefont)
+        if self.build in ('test'):
+            for basefont in self.basefonts:
+                self.buildTest(basefont)
 
     def build_fontmake(self, designspace_path, output = ['variable'], output_dir = None, remove_overlaps = False, interpolate = False, autohint = None):
         if not os.path.isdir(output_dir):
@@ -26,7 +42,7 @@ class LatoFontMake(object):
             'remove_overlaps': remove_overlaps,
             'overlaps_backend': 'booleanOperations',
             'autohint': autohint,
-            'use_production_names': True
+            'use_production_names': False
         }
         if 'variable' in output:
             fontmake_args['optimize_gvar'] = True
@@ -74,16 +90,29 @@ class LatoFontMake(object):
         interpolate = True
         self.build_fontmake(designspace_path, output, output_dir, remove_overlaps, interpolate)
 
-    def main(self):
-        for basefont in self.basefonts:
-            self.buildVF2(basefont)
-        for basefont in self.basefonts:
-            self.buildVF3(basefont)
-        for basefont in self.basefonts:
-            self.buildTTF(basefont)
-        for basefont in self.basefonts:
-            self.buildOTF(basefont)
+    def buildTest(self, basefont):
+        print('\n\nBuilding %s test font...' % basefont)
+        designspace_path = os.path.join(self.cwd, '..', 'sources', basefont+'Test.designspace')
+        output = ['ttf']
+        output_dir = os.path.join('..', 'build', basefont+'Test', 'test-ttf')
+        remove_overlaps = True
+        interpolate = True
+        self.build_fontmake(designspace_path, output, output_dir, remove_overlaps, interpolate)
 
 if __name__ == "__main__":
-    mk = LatoFontMake()
-    mk.main()
+    import argparse
+
+    # ...
+    parser = argparse.ArgumentParser(
+        prog="build_lato_fontmake",
+        description="""Build Lato variable and static fonts from DesignSpace+UFO\
+                        source using fontmake"""
+    )
+    parser.add_argument(
+        "build",
+        nargs="?",
+        default='all',
+        choices=['all', 'vf', 'vf2', 'vf3', 'otf', 'ttf', 'test']
+    )
+
+    mk = LatoFontMake(vars(parser.parse_args()))

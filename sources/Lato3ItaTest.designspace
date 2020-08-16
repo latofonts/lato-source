@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+    <axes>
+        <axis default="100" name="weight" tag="wght" minimum="100" maximum="900">
+            <labelname xml:lang="en">Weight</labelname>
+            <map input="100" output="0" />
+            <map input="200" output="100" />
+            <map input="300" output="250" />
+            <map input="400" output="540" />
+            <map input="500" output="600" />
+            <map input="600" output="666" />
+            <map input="700" output="780" />
+            <map input="800" output="880" />
+            <map input="900" output="1000" />
+        </axis>
+    </axes>
+    <sources>
+        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
+            <location>
+                <dimension name="weight" xvalue="780" />
+            </location>
+        </instance>
+    </instances>
+</designspace>
