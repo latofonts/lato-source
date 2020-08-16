@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="100" name="weight" tag="wght" default="100" maximum="900">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="0" input="100"/>
+   <map output="100" input="200"/>
+   <map output="250" input="300"/>
+   <map output="540" input="400"/>
+   <map output="600" input="500"/>
+   <map output="666" input="600"/>
+   <map output="780" input="700"/>
+   <map output="880" input="800"/>
+   <map output="1000" input="900"/>
+  </axis>
+ </axes>
+ <sources>
+  <source filename="masters/Lato-BlackItalic.ufo" name="BlackItalic" familyname="Lato" stylename="Black Italic">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </source>
+  <source filename="masters/Lato-HairlineItalic.ufo" name="HairlineItalic" familyname="Lato" stylename="Hairline Italic">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance filename="instances/Lato-HairlineItalic.ufo" name="Hairline Italic" familyname="Lato" stylename="Hairline Italic">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-ThinItalic.ufo" name="Thin Italic" familyname="Lato" stylename="Thin Italic">
+   <location>
+    <dimension name="weight" xvalue="100"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-LightItalic.ufo" name="Light Italic" familyname="Lato" stylename="Light Italic">
+   <location>
+    <dimension name="weight" xvalue="250"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-Italic.ufo" name="Italic" familyname="Lato" stylename="Italic">
+   <location>
+    <dimension name="weight" xvalue="540"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-MediumItalic.ufo" name="Medium Italic" familyname="Lato" stylename="Medium Italic">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-SemiboldItalic.ufo" name="Semibold Italic" familyname="Lato" stylename="Semibold Italic">
+   <location>
+    <dimension name="weight" xvalue="666"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-BoldItalic.ufo" name="Bold Italic" familyname="Lato" stylename="Bold Italic">
+   <location>
+    <dimension name="weight" xvalue="780"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-HeavyItalic.ufo" name="Heavy Italic" familyname="Lato" stylename="Heavy Italic">
+   <location>
+    <dimension name="weight" xvalue="880"/>
+   </location>
+  </instance>
+  <instance filename="instances/Lato-BlackItalic.ufo" name="Black Italic" familyname="Lato" stylename="Black Italic">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

@@ -9,8 +9,9 @@ item = flItems
 qapp = QtGui.QApplication.instance()
 pref = flPreferences()
 
-fontRelFolder = os.path.join(os.path.dirname(__file__), '..', 'sources')
-outRelFolder = os.path.join(os.path.dirname(__file__), '..', 'build')
+cwd = os.path.dirname(__file__)
+fontRelFolder = os.path.join(cwd, '..', 'sources')
+outRelFolder = os.path.join(cwd, '..', 'build')
 
 class ExportFont(object):
 

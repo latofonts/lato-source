@@ -1,10 +1,10 @@
 # Sources for the Lato font family
 
-- Version 3.002-dev; Latin+Cyrillic+Greek+IPA opensource
+- Version 3.100.dev2; Latin+Cyrillic+Greek+IPA opensource
 - Created by: tyPoland Lukasz Dziedzic
 - Designed by: Łukasz Dziedzic with Adam Twardoch and Botio Nikoltchev
-- Creation year: 2019
-- Copyright (c) 2010-2019 by tyPoland Lukasz Dziedzic with Reserved Font Name “Lato”. Licensed under the Licensed under the [SIL Open Font License, Version 1.1](./LICENSE.txt).
+- Creation year: 2020
+- Copyright (c) 2010-2020 by tyPoland Lukasz Dziedzic with Reserved Font Name “Lato”. Licensed under the Licensed under the [SIL Open Font License, Version 1.1](./LICENSE.txt).
 - Lato is a trademark of tyPoland Lukasz Dziedzic.
 - Website URL: http://www.latofonts.com/
 
@@ -14,9 +14,40 @@ Lato is a sanserif typeface family designed in the Summer 2010 and extended in t
 
 To contact the Lato team, create a Github account and open a [Github issue](https://github.com/latofonts/lato-source/issues) on this repository.
 
+## Building
+
+1. Download or clone this repo
+2. Download and install most recent [FontLab 7](https://download.fontlab.com/)
+3. Install Python 3
+4. Run:
+
+```
+python3 -m pip install --user --upgrade git+https://github.com/fonttools/fonttools/@feaLib-STAT#egg=fonttools[interpolatable,lxml,plot,symfont,type1,ufo,unicode,woff] git+https://github.com/googlefonts/fontmake afdko psautohint
+```
+
+5. Go to the [`tools`](tools) folder
+6. Run FontLab 7
+7. In FontLab 7, open the [`01_export_fontlab_lato.vfpy`](tools/01_export_fontlab_lato.vfpy) script. Wait until it exports the fonts as DesignSpace + UFO and quits
+8. In Terminal, go to the [`tools`](tools) folder and run:
+
+```
+python3 03_build_lato_fontmake.py
+```
+
 ## Changelog
 
-### Version 3.002-dev (2019-10-14)
+### Version 3.100.dev2 (2020-08-16)
+
+- The [`sources`](sources) are now [FontLab 7](https://www.fontlab.com/7) VFJ, with 2 masters (Hairline, Black) in 2 fonts (Upright, Italic)
+- Added a few more `.ss05` glyphs
+- Redesigned the `_i` ligatures to have a dot, and moved them to `liga`
+- Added the `ss06` feature for Serbian localized glyphs
+- Renamed glyphs in source to use `.glyphs`-compatible names
+- Added scripted build system (see Building)
+- Improved anchors for `mark` & `mkmk` (WIP)
+- Added `table STAT` definition in FEA
+
+### Version 3.002.dev1 (2019-10-14)
 
 - Added the sources in FontLab VI VFC & VFJ format (`20-VFC-2M-designsource` folder has 2 masters, `30-VFC-3M-production` has 3 masters, needed for VF export)
 - Renamed glyphs for more consistent experience
@@ -24,7 +55,7 @@ To contact the Lato team, create a Github account and open a [Github issue](http
 - Moved ligatures that involve `i` and `j` to `dlig` feature (by popular demand)
 - Added accented “legible” `.ss05` forms
 
-### Version 3.001-dev (2018-09-28)
+### Version 3.001.dev0 (2018-09-28)
 
 - **Note: This is work in progress**
 - Published the sources in FontLab Studio 5 VFB format

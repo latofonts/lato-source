@@ -1,0 +1,1719 @@
+#> classes
+#/> tags
+@_bottom = [_arrowheadleftbelow _arrowheadrightbelow _arrowheadsrightdownbelow _arrowheadsrightupbelow _arrowupbelow _brevebelow _breveinvertedbelow _caronbelow _circumflexbelow _commaaccent _descendercyr _dotbelow _ringhalfleftmod _ringhalfrightmod _tildebelow acutebelowcomb acutelowmod arrowdoublerightbelowcomb arrowheadleftbelowcomb arrowheadrightbelowcomb arrowheadrightheaddownbelow arrowheadrightheadupbelowcomb arrowleftrightbelowcomb arrowupbelowcomb asteriskbelowcomb brevebelowcomb breveinvertedbelowcomb bridgebelowcomb bridgeinvertedbelowcomb caronbelowcomb cedilla circumflexbelowcomb dblarchinvertedbelowcomb dbllowlinecomb dieresisbelowcomb dotbelowcomb doublebrevebelowcomb doublemacronbelowcomb doubleringbelowcomb doubleverticallinebelowcomb downtackbelowcomb equalbelowcomb gravebelowcomb gravelowmod leftanglebelowcomb lefttackbelowcomb lowleftarrowheadmod lowlinecomb lowrightarrowheadmod lowringmod lowtildemod macronbelowcomb macronlowmod minusbelowcomb ogonek palatalhookcomb plusbelowcomb rbelowcomb righttackbelowcomb ringbelowcomb ringhalfleftbelowcomb ringhalfrightbelowcomb seagullbelowcomb snakebelowcomb squarebelowcomb tilde tildebelowcomb uptackbelowcomb verticallinebelowcomb xbelowcomb ypogegrammeni ypogegrammenicomb];
+@_top = [_acute_dotaccent _acutedotted _arrowheadleftmod _arrowheadrightabove _arrowleftrightbelow _arrowupbelow _breve_acute _breve_grave _breve_ocrHook _breve_tilde _breveinverted _bridgeabove _candrabindu _caron_dotaccent _circumflex_acute _circumflex_grave _circumflex_ocrHook _circumflex_tilde _commaabove _commaaboverev _dasiacyr _dblgrave _dblvertline _dieresis_acute _dieresis_caron _dieresis_grave _dieresis_macron _fermata _gravedotted _halfringleft _halfringright _hook _koronis _macron_acute _macron_dasia_oxia _macron_dasia_varia _macron_dieresis _macron_dotaccent _macron_grave _macron_psili_oxia _macron_psili_varia _multiply _nottilde _otmarkcyr _palatalcyr _psilicyr _stroke _suspensionbelow _tilde_acute _tilde_dieresis _tilde_macron _titlocyr _verticallinelowmod _vertline _vtilde _zigzag acomb acute acutedottedcomb almostequaltoabovecomb arighthalfring arrowheadleftabovecomb arrowheadrightabovecomb breve breve.cyrl breve.cyrl.small breve.grek breveinvertedcomb candraBinducomb caron circumflex colontriangularhalfmod colontriangularmod commaabovecomb commaaccentcomb.salt commareversedabovecomb dasia dasiaoxia dasiaoxiacomb dasiaoxiacomb.case dasiaperispomeni dasiaperispomenicomb dasiaperispomenicomb.case dasiapneumatacomb-cy dasiavaria dasiavariacomb dasiavariacomb.case dblgravecomb dblverticallineabovecomb dialytikaoxia dialytikaoxiacomb dialytikaoxiacomb.case dialytikaperispomeni dialytikavaria dieresis dieresis.narrow dieresistonos dotaccent dotaccent.i dothorizontalbarmod dotslashmod dotverticalbarmod fermatacomb fourthtonechinese grave gravedottedcomb hookabovecomb hookabovecomb.case hungarumlaut koronis koroniscomb lefthalfringabovecomb lowdownarrowheadmod lowleftarrowmod lowuparrowheadmod macron macron.grek macrondasiaoxiacomb macrondasiavariacomb macronpsilioxiacomb macronpsilivariacomb nottildeabovecomb oxia palatalizationcomb-cy perispomeni psili psilioxia psilioxiacomb psilioxiacomb.case psiliperispomeni psiliperispomenicomb psiliperispomenicomb.case psilipneumatacomb-cy psilivaria psilivariacomb psilivariacomb.case righthalfringabovecomb ring ringacute ringhalfleft ringhalfleftcentered ringhalfright ringhalfrightcentered suspensioncomb suspensioncomb.case tilde tildeverticalcomb titlocomb-cy tonos varia verticallineabovecomb voicingmod xabovecomb ypogegrammenicomb.case zigzagabovecomb];
+#/< tags
+#< classes
+
+
+languagesystem DFLT dflt; # Default default
+languagesystem latn dflt; # Latin default
+languagesystem latn ROM ; # Latin Romanian
+languagesystem latn TRK ; # Latin Turkish
+languagesystem bopo dflt; # Bopomofo default
+languagesystem copt dflt; # Coptic default
+languagesystem cyrl dflt; # Cyrillic default
+languagesystem cyrl BOS ; # Cyrillic Bosnian
+languagesystem cyrl SRB ; # Cyrillic Serbian
+languagesystem grek dflt; # Greek default
+languagesystem hebr dflt; # Hebrew default
+
+table STAT {
+
+    ElidedFallbackName {
+        name "Italic";
+    };
+
+    DesignAxis wght 0 {
+        name "Weight";
+    };
+    DesignAxis ital 1 {
+        name "Italic";
+    };
+
+    AxisValue {
+        location wght 100;
+        name "Thin";
+    };
+    AxisValue {
+        location wght 200;
+        name "Extra Light";
+    };
+    AxisValue {
+        location wght 300;
+        name "Light";
+    };
+    AxisValue {
+        location wght 400 700;
+        name "Regular";
+        flag ElidableAxisValueName;
+    };
+    AxisValue {
+        location wght 500;
+        name "Medium";
+    };
+    AxisValue {
+        location wght 600;
+        name "Semibold";
+    };
+    AxisValue {
+        location wght 700;
+        name "Bold";
+    };
+    AxisValue {
+        location wght 800;
+        name "Extra Bold";
+    };
+    AxisValue {
+        location wght 700;
+        name "Black";
+    };
+
+    AxisValue {
+        location ital 1;
+        name "Italic";
+    };
+
+} STAT;
+
+#> otclasses
+@calt = [Alphatonos Alphapsili Alphapsilioxia Alphapsilivaria Alphapsiliperispomeni Alphadasia Alphadasiaoxia Alphadasiavaria Alphadasiaperispomeni Alphaoxia Alphavaria Alphamacron Alphavrachy Alphapsiliprosgegrammeni Alphapsilioxiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphadasiavariaprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilontonos Epsilonpsili Epsilonpsilioxia Epsilonpsilivaria Epsilondasia Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonvaria Etatonos Etapsili Etapsilioxia Etapsilivaria Etapsiliperispomeni Etadasia Etadasiaoxia Etadasiavaria Etadasiaperispomeni Etaoxia Etavaria Etapsiliprosgegrammeni Etapsilioxiaprosgegrammeni Etapsilivariaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etadasiavariaprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotatonos Iotapsili Iotapsilioxia Iotapsilivaria Iotapsiliperispomeni Iotadasia Iotadasiaoxia Iotadasiavaria Iotadasiaperispomeni Iotaoxia Iotavaria Iotamacron Iotavrachy Omicrontonos Omicronpsili Omicronpsilioxia Omicronpsilivaria Omicrondasia Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronvaria Rhodasia Upsilontonos Upsilondasia Upsilondasiaoxia Upsilondasiavaria Upsilondasiaperispomeni Upsilonoxia Upsilonvaria Upsilonmacron Upsilonvrachy Omegatonos Omegapsili Omegapsilioxia Omegapsilivaria Omegapsiliperispomeni Omegadasia Omegadasiaoxia Omegadasiavaria Omegadasiaperispomeni Omegaoxia Omegavaria Omegapsiliprosgegrammeni Omegapsilioxiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegadasiavariaprosgegrammeni Omegadasiaperispomeniprosgegrammeni UpsilonacutehookSymbol];
+@calt2 = [Alphatonos Epsilontonos Omicrontonos Upsilontonos Alphapsilioxia Alphapsilivaria Alphapsiliperispomeni Alphadasiaoxia Alphadasiavaria Alphadasiaperispomeni Alphaoxia Alphavaria Epsilonpsilioxia Epsilonpsilivaria Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonvaria Omicronpsilioxia Omicronpsilivaria Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronvaria Upsilondasiaoxia Upsilondasiavaria Upsilondasiaperispomeni Upsilonoxia Upsilonvaria];
+@calt3 = [Alphatonos Epsilontonos Etatonos Omicrontonos Omegatonos Alphapsilioxia Alphapsilivaria Alphapsiliperispomeni Alphadasiaoxia Alphadasiavaria Alphadasiaperispomeni Alphaoxia Alphavaria Epsilonpsilioxia Epsilonpsilivaria Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonvaria Etapsilioxia Etapsilivaria Etapsiliperispomeni Etadasiaoxia Etadasiavaria Etadasiaperispomeni Etaoxia Etavaria Omicronpsilioxia Omicronpsilivaria Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronvaria Omegapsilioxia Omegapsilivaria Omegapsiliperispomeni Omegadasiaoxia Omegadasiavaria Omegadasiaperispomeni Omegaoxia Omegavaria];
+@calt4 = [Alpha Alphatonos Beta Gamma Delta Epsilon Epsilontonos Zeta Eta Etatonos Theta Iota Iotadieresis Iotatonos Kappa Lambda Mu Nu Xi Omicron Omicrontonos Pi Rho Sigma Tau Upsilon Upsilondieresis Upsilontonos Phi Chi Psi Omega Omegatonos UpsilonhookSymbol Digamma KoppaArchaic Koppa San Sampi Stigma SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Alphapsili Alphapsilioxia Alphapsilivaria Alphapsiliperispomeni Alphadasia Alphadasiaoxia Alphadasiavaria Alphadasiaperispomeni Alphaoxia Alphavaria Alphamacron Alphavrachy Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphapsilioxiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphadasiavariaprosgegrammeni Alphadasiaperispomeniprosgegrammeni SigmaLunateSymbol Epsilonpsili Epsilonpsilioxia Epsilonpsilivaria Epsilondasia Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonvaria Etapsili Etapsilioxia Etapsilivaria Etapsiliperispomeni Etadasia Etadasiaoxia Etadasiavaria Etadasiaperispomeni Etaoxia Etavaria Etaprosgegrammeni Etapsiliprosgegrammeni Etapsilioxiaprosgegrammeni Etapsilivariaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etadasiavariaprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotapsilioxia Iotapsilivaria Iotapsiliperispomeni Iotadasia Iotadasiaoxia Iotadasiavaria Iotadasiaperispomeni Iotaoxia Iotavaria Iotamacron Iotavrachy Omicronpsili Omicronpsilioxia Omicronpsilivaria Omicrondasia Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronvaria Rhodasia Sho Upsilondasia Upsilondasiaoxia Upsilondasiavaria Upsilondasiaperispomeni Upsilonoxia Upsilonvaria Upsilonmacron Upsilonvrachy Omegapsili Omegapsilioxia Omegapsilivaria Omegapsiliperispomeni Omegadasia Omegadasiaoxia Omegadasiavaria Omegadasiaperispomeni Omegaoxia Omegavaria Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegapsilioxiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegadasiavariaprosgegrammeni Omegadasiaperispomeniprosgegrammeni ThetaSymbol UpsilonacutehookSymbol UpsilondieresishookSymbol];
+@ccmp = [breveinverteddoublecomb strokelongcomb homotheticabovecomb almostequaltoabovecomb macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb graveacutegravecomb acutegraveacutecomb dbloverlinecomb gravecomb acutecomb circumflexcomb caroncomb tildecomb dieresiscomb macroncomb brevecomb ringcomb hungarumlautcomb dotaccentcomb overlinecomb verticallineabovecomb dblverticallineabovecomb dblgravecomb candraBinducomb breveinvertedcomb commaabovecomb koroniscomb commareversedabovecomb leftangleabovecomb gbridgeabovecomb xabovecomb tildeverticalcomb nottildeabovecomb arrowheadrightabovecomb lefthalfringabovecomb fermatacomb righthalfringabovecomb zigzagabovecomb doublebrevecomb doublemacroncomb tildedoublecomb acomb ecomb icomb ocomb ucomb ccomb dcomb hcomb mcomb rcomb tcomb vcomb xcomb gravedottedcomb acutedottedcomb arrowheadleftabovecomb palatalizationcomb-cy dasiapneumatacomb-cy psilipneumatacomb-cy brevecomb.cyrl strokeshortcomb slashshortcomb psilicomb dasiacomb oxiacomb variacomb perispomenicomb psilioxiacomb psilivariacomb psiliperispomenicomb dasiaoxiacomb dasiavariacomb dasiaperispomenicomb dialytikaoxiacomb dialytikavariacomb dialytikaperispomenicomb ypogegrammenicomb slashlongcomb gravetonecomb acutetonecomb tildeoverlaycomb hookabovecomb dotaboverightcomb commaturnedabovecomb];
+@ccmp2 = [A Aacute Abreve Acircumflex Agrave Adieresis Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde IJ J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent b d dcaron dcroat f h hbar hcircumflex k kcommaaccent l lcaron lcommaaccent ldot lslash Eth eth Thorn Eng germandbls longs thorn Alpha Alphatonos Beta Gamma Delta Epsilon Epsilontonos Zeta Eta Etatonos Theta Iota Iotadieresis Iotatonos Kappa Lambda Mu Nu Xi Omicron Omicrontonos Pi Rho Sigma Tau Upsilon Upsilondieresis Upsilontonos Phi Chi Psi Omega Omegatonos beta delta zeta theta lambda xi phi psi Ohorn Uhorn Aringacute at.case beta.salt theta.salt Gcaron LJ Lj NJ Nj hookabovecomb.case Be-cy Ge-cy Gheupturn-cy De-cy Zhe-cy Ze-cy Ii-cy Ka-cy El-cy Lje-cy Nje-cy Fita-cy Pe-cy U-cy Izhitsa-cy Ef-cy Tse-cy Dzhe-cy Che-cy Sha-cy Shcha-cy Hardsign-cy Yeru-cy Softsign-cy Ereversed-cy E-cy Iu-cy Ia-cy Dje-cy Tshe-cy Yat-cy be-cy be-cy.cyrlSRB ef-cy dje-cy yat-cy Bhook Tonesix Oopen Chook Dhook Dtopbar Ereversed Schwa Eopen Fhook Ghook Gammaafrican Iotaafrican Khook Mturned Nhookleft Ocenteredtilde Oi Phook Yr Tonetwo Thook Tretroflexhook Upsilonafrican Vhook Yhook Zstroke Ezh Ezhreversed Tonefive Gstroke Hwair Wynn Nlongrightleg OU Zhook Ubar Qhooktail Rstroke Ystroke Udieresisbelow Rtail Kdescender Zdescender Onehundredreversed-roman Fturned Halfh UpsilonhookSymbol Digamma KoppaArchaic Koppa San Sampi Stigma Iishorttail-cy Semisoftsign-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Haabkhasian-cy Tedescender-cy Ustraightstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Cheabkhasian-cy Chedescenderabkhasian-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Schwa-cy Dzeabkhasian-cy Obarred-cy Gedescender-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Shei-coptic Fei-coptic Khei-coptic Hori-coptic Gangia-coptic Shima-coptic Dei-coptic Omega-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Uk-cy Omegaroundcyr Omegatitlocyr Koppa-cy breveinverteddoublecomb.case Istroke SigmaLunateReversedSymbol Oogonek Ldoublebar Lmiddletilde Dcedilla Zedescender-cy Esdescender-cy SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol strokelongcomb.case dbloverlinecomb.case Hcedilla gravecomb.case acutecomb.case circumflexcomb.case caroncomb.case tildecomb.case dieresiscomb.case macroncomb.case brevecomb.case ringcomb.case hungarumlautcomb.case dotaccentcomb.case A-cy Adotbelow Ahookabove Acircumflexacute Acircumflexgrave Acircumflexhookabove Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehookabove Abrevetilde Abrevedotbelow Acaron Adieresismacron Adotmacron Adblgrave Ainvertedbreve Adotaccent Astroke Alphapsili Alphapsilioxia Alphapsilivaria Alphapsiliperispomeni Alphadasia Alphadasiaoxia Alphadasiavaria Alphadasiaperispomeni Alphaoxia Alphavaria Alphamacron Alphavrachy Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphapsilioxiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphadasiavariaprosgegrammeni Alphadasiaperispomeniprosgegrammeni Abreve-cy Adieresis-cy Aringbelow AEmacron Aie-cy Ve-cy Bstroke Bdotaccent Bdotbelow Blinebelow Es-cy Cstroke SigmaLunateSymbol Ccedillaacute Ddotaccent Ddotbelow Dlinebelow Dcircumflexbelow DZ Dz Dafrican Ie-cy Iegrave-cy Io-cy Edotbelow Ehookabove Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ecircumflexdotbelow Edblgrave Einvertedbreve Ecedilla Estroke Emacrongrave Emacronacute Ecircumflexbelow Etildebelow Ecedillabreve Epsilonpsili Epsilonpsilioxia Epsilonpsilivaria Epsilondasia Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonvaria Iebreve-cy Fdotaccent Gacute Gmacron En-cy Hcaron Hdotaccent Hdotbelow Hdieresis Hbrevebelow Etapsili Etapsilioxia Etapsilivaria Etapsiliperispomeni Etadasia Etadasiaoxia Etadasiavaria Etadasiaperispomeni Etaoxia Etavaria Etaprosgegrammeni Etapsiliprosgegrammeni Etapsilioxiaprosgegrammeni Etapsilivariaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etadasiavariaprosgegrammeni Etadasiaperispomeniprosgegrammeni I-cy Yi-cy Ihookabove Idotbelow Icaron Idblgrave Iinvertedbreve Itildebelow Idieresisacute Iotapsili Iotapsilioxia Iotapsilivaria Iotapsiliperispomeni Iotadasia Iotadasiaoxia Iotadasiavaria Iotadasiaperispomeni Iotaoxia Iotavaria Iotamacron Iotavrachy Palochka-cy Je-cy Jstroke Kcaron Kacute Kdotbelow Klinebelow Lbar Ldotbelow Ldotbelowmacron Llinebelow Lcircumflexbelow Em-cy Macute Mdotaccent Mdotbelow Ngrave Ndotaccent Ndotbelow Nlinebelow Ncircumflexbelow O-cy Odotbelow Ohookabove Ocircumflexacute Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ocircumflexdotbelow Ocaron Oogonekmacron Odblgrave Oinvertedbreve Odieresismacron Otildemacron Odotaccent Odotaccentmacron Otildeacute Otildedieresis Omacrongrave Omacronacute Omicronpsili Omicronpsilioxia Omicronpsilivaria Omicrondasia Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronvaria Odieresis-cy Er-cy Pacute Pdotaccent Pstroke Rhodasia Ertick-cy Sho Rdblgrave Rinvertedbreve Rdotaccent Rdotbelow Rdotbelowmacron Rlinebelow Dze-cy Sdotaccent Sdotbelow Sacutedotaccent Scarondotaccent Sdotbelowdotaccent Te-cy Tdiagonalstroke Tdotaccent Tdotbelow Tlinebelow Tcircumflexbelow Udotbelow Uhookabove Ucaron Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udblgrave Uinvertedbreve Utildebelow Ucircumflexbelow Utildeacute Umacrondieresis Vtilde Vdotbelow Wdotaccent Wdotbelow Ha-cy Xdotaccent Xdieresis Ydotbelow Ytilde Yhookabove Ymacron Ydotaccent Upsilondasia Upsilondasiaoxia Upsilondasiavaria Upsilondasiaperispomeni Upsilonoxia Upsilonvaria Upsilonmacron Upsilonvrachy Ustraight-cy Zcircumflex Zdotbelow Zlinebelow tshe-cy Vturned Esh Psi-cy Omegapsili Omegapsilioxia Omegapsilivaria Omegapsiliperispomeni Omegadasia Omegadasiaoxia Omegadasiavaria Omegadasiaperispomeni Omegaoxia Omegavaria Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegapsilioxiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegadasiavariaprosgegrammeni Omegadasiaperispomeniprosgegrammeni Btopbar Gje-cy Zhebreve-cy Zhedieresis-cy Zedieresis-cy Iishort-cy Iigrave-cy Imacron-cy Idieresis-cy Kje-cy ThetaSymbol Ushort-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Edieresis-cy Izhitsadblgrave-cy Ohornacute Ohorngrave Ohornhookabove Ohorntilde Ohorndotbelow Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhorndotbelow overlinecomb.case vertlinecomb.case dblvertlinecomb.case dblgravecomb.case candraBinducomb.case breveinvertedcomb.case commaabovecomb.case commareversedabovecomb.case leftangleabovecomb.case bridgeabovecomb.case xabovecomb.case tildeverticalcomb.case nottildeabovecomb.case arrowheadrightabovecomb.case lefthalfringabovecomb.case fermatacomb.case righthalfringabovecomb.case zigzagabovecomb.case dblbrevecomb.case dblmacroncomb.case dbltildecomb.case acomb.case ecomb.case icomb.case ocomb.case ucomb.case ccomb.case dcomb.case hcomb.case mcomb.case rcomb.case tcomb.case vcomb.case xcomb.case gravedottedcomb.case acutedottedcomb.case arrowheadleftabovecomb.case Ezhcaron Yogh Glottalstop UpsilonacutehookSymbol UpsilondieresishookSymbol Upsilondasiaoxia.salt Upsilondasiavaria.salt Upsilondasiaperispomeni.salt Upsilonoxia.salt Upsilonvaria.salt Upsilonmacron.salt Upsilonvrachy.salt Upsilondasia.salt Hdescender Schwadieresis-cy Obarreddieresis-cy palatalcyrcomb.case dasiacyrcomb.case psilicyrcomb.case Otcyr brevecomb.cyrl.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case gravetonecomb.case acutetonecomb.case psilioxiacomb.case perispomenicomb.case variacomb.case oxiacomb.case dasiacomb.case psilicomb.case psilivariacomb.case psiliperispomenicomb.case dasiaoxiacomb.case dasiavariacomb.case dasiaperispomenicomb.case dialytikaoxiacomb.case dialytikavariacomb.case dialytikaperispomenicomb.case koroniscomb.case ypogegrammenicomb.case homotheticabovecomb.case almostequaltoabovecomb.case macronacutecomb.case dotaboverightcomb.case commaturnedabovecomb.case gravemacroncomb.case macrongravecomb.case acutemacroncomb.case graveacutegravecomb.case acutegraveacutecomb.case tildeoverlaycomb.case DZcaron Dzcaron];
+@ccmp3 = [gravecomb hookabovecomb tildecomb acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb hungarumlautcomb macroncomb ringcomb breveinverteddoublecomb strokelongcomb homotheticabovecomb almostequaltoabovecomb macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb graveacutegravecomb acutegraveacutecomb dbloverlinecomb overlinecomb verticallineabovecomb dblverticallineabovecomb dblgravecomb candraBinducomb breveinvertedcomb commaabovecomb koroniscomb commareversedabovecomb leftangleabovecomb gbridgeabovecomb xabovecomb tildeverticalcomb nottildeabovecomb arrowheadrightabovecomb lefthalfringabovecomb fermatacomb righthalfringabovecomb zigzagabovecomb doublebrevecomb doublemacroncomb tildedoublecomb acomb ecomb icomb ocomb ucomb ccomb dcomb hcomb mcomb rcomb tcomb vcomb xcomb gravedottedcomb acutedottedcomb arrowheadleftabovecomb palatalizationcomb-cy dasiapneumatacomb-cy psilipneumatacomb-cy brevecomb.cyrl.case strokeshortcomb slashshortcomb psilicomb dasiacomb oxiacomb variacomb perispomenicomb psilioxiacomb psilivariacomb psiliperispomenicomb dasiaoxiacomb dasiavariacomb dasiaperispomenicomb dialytikaoxiacomb dialytikavariacomb dialytikaperispomenicomb ypogegrammenicomb slashlongcomb gravetonecomb acutetonecomb tildeoverlaycomb dotaboverightcomb commaturnedabovecomb];
+@frac = [n comma period parenleft parenright currency euro dollar cent sterling yen numbersign zero one two three four five seven nine plus minus equal franc lira peseta six eight];
+@frac2 = [n zero one two three four five six seven eight nine comma period currency cent dollar franc sterling yen lira peseta numbersign plus parenleft parenright equal minus euro];
+@frac3 = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr numbersign.numr plus.numr minus.numr equal.numr comma.numr period.numr n.numr currency.numr dollar.numr cent.numr sterling.numr yen.numr franc.numr lira.numr peseta.numr euro.numr parenleft.numr parenright.numr];
+@frac4 = [fraction zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom numbersign.dnom plus.dnom minus.dnom equal.dnom comma.dnom period.dnom n.dnom currency.dnom dollar.dnom cent.dnom sterling.dnom yen.dnom franc.dnom lira.dnom peseta.dnom euro.dnom parenleft.dnom parenright.dnom];
+#< otclasses
+
+lookup calt_ccmp_1 {
+# GSUB lookup 4, type 11 (Single)
+  sub i by idotless;
+  sub iogonek by idotless_ogonek;
+  sub j by jdotless;
+  sub breveinverteddoublecomb by breveinverteddoublecomb.case;
+  sub istroke by dotlessistroke;
+  sub strokelongcomb by strokelongcomb.case;
+  sub dbloverlinecomb by dbloverlinecomb.case;
+  sub gravecomb by gravecomb.case;
+  sub acutecomb by acutecomb.case;
+  sub circumflexcomb by circumflexcomb.case;
+  sub caroncomb by caroncomb.case;
+  sub tildecomb by tildecomb.case;
+  sub dieresiscomb by dieresiscomb.case;
+  sub macroncomb by macroncomb.case;
+  sub brevecomb by brevecomb.case;
+  sub ringcomb by ringcomb.case;
+  sub hungarumlautcomb by hungarumlautcomb.case;
+  sub dotaccentcomb by dotaccentcomb.case;
+  sub brevecomb.cyrl by brevecomb.cyrl.case;
+  sub strokeshortcomb by strokeshortcomb.case;
+  sub slashshortcomb by slashshortcomb.case;
+  sub psilicomb by psilicomb.case;
+  sub dasiacomb by dasiacomb.case;
+  sub oxiacomb by oxiacomb.case;
+  sub variacomb by variacomb.case;
+  sub perispomenicomb by perispomenicomb.case;
+  sub psilioxiacomb by psilioxiacomb.case;
+  sub psilivariacomb by psilivariacomb.case;
+  sub psiliperispomenicomb by psiliperispomenicomb.case;
+  sub dasiaoxiacomb by dasiaoxiacomb.case;
+  sub dasiavariacomb by dasiavariacomb.case;
+  sub dasiaperispomenicomb by dasiaperispomenicomb.case;
+  sub dialytikaoxiacomb by dialytikaoxiacomb.case;
+  sub dialytikavariacomb by dialytikavariacomb.case;
+  sub dialytikaperispomenicomb by dialytikaperispomenicomb.case;
+  sub ypogegrammenicomb by ypogegrammenicomb.case;
+  sub slashlongcomb by slashlongcomb.case;
+  sub gravetonecomb by gravetonecomb.case;
+  sub acutetonecomb by acutetonecomb.case;
+  sub tildeoverlaycomb by tildeoverlaycomb.case;
+  sub hookabovecomb by hookabovecomb.case;
+  sub dotaboverightcomb by dotaboverightcomb.case;
+  sub commaturnedabovecomb by commaturnedabovecomb.case;
+  sub homotheticabovecomb by homotheticabovecomb.case;
+  sub almostequaltoabovecomb by almostequaltoabovecomb.case;
+  sub macronacutecomb by macronacutecomb.case;
+  sub gravemacroncomb by gravemacroncomb.case;
+  sub macrongravecomb by macrongravecomb.case;
+  sub acutemacroncomb by acutemacroncomb.case;
+  sub graveacutegravecomb by graveacutegravecomb.case;
+  sub acutegraveacutecomb by acutegraveacutecomb.case;
+  sub Iota by Iotadieresis;
+  sub Upsilon by Upsilondieresis;
+  sub idotbelow by dotlessidotbelow;
+  sub itildebelow by dotlessitildebelow;
+  sub jstroke by jdotlessstroke;
+  sub overlinecomb by overlinecomb.case;
+  sub verticallineabovecomb by vertlinecomb.case;
+  sub dblverticallineabovecomb by dblvertlinecomb.case;
+  sub dblgravecomb by dblgravecomb.case;
+  sub candraBinducomb by candraBinducomb.case;
+  sub breveinvertedcomb by breveinvertedcomb.case;
+  sub commaabovecomb by commaabovecomb.case;
+  sub koroniscomb by koroniscomb.case;
+  sub commareversedabovecomb by commareversedabovecomb.case;
+  sub leftangleabovecomb by leftangleabovecomb.case;
+  sub gbridgeabovecomb by bridgeabovecomb.case;
+  sub xabovecomb by xabovecomb.case;
+  sub tildeverticalcomb by tildeverticalcomb.case;
+  sub nottildeabovecomb by nottildeabovecomb.case;
+  sub arrowheadrightabovecomb by arrowheadrightabovecomb.case;
+  sub lefthalfringabovecomb by lefthalfringabovecomb.case;
+  sub fermatacomb by fermatacomb.case;
+  sub righthalfringabovecomb by righthalfringabovecomb.case;
+  sub zigzagabovecomb by zigzagabovecomb.case;
+  sub doublebrevecomb by dblbrevecomb.case;
+  sub doublemacroncomb by dblmacroncomb.case;
+  sub tildedoublecomb by dbltildecomb.case;
+  sub acomb by acomb.case;
+  sub ecomb by ecomb.case;
+  sub icomb by icomb.case;
+  sub ocomb by ocomb.case;
+  sub ucomb by ucomb.case;
+  sub ccomb by ccomb.case;
+  sub dcomb by dcomb.case;
+  sub hcomb by hcomb.case;
+  sub mcomb by mcomb.case;
+  sub rcomb by rcomb.case;
+  sub tcomb by tcomb.case;
+  sub vcomb by vcomb.case;
+  sub xcomb by xcomb.case;
+  sub gravedottedcomb by gravedottedcomb.case;
+  sub acutedottedcomb by acutedottedcomb.case;
+  sub arrowheadleftabovecomb by arrowheadleftabovecomb.case;
+  sub palatalizationcomb-cy by palatalcyrcomb.case;
+  sub dasiapneumatacomb-cy by dasiacyrcomb.case;
+  sub psilipneumatacomb-cy by psilicyrcomb.case;
+} calt_ccmp_1;
+
+lookup calt_1_4 {
+# GSUB lookup 13, type 11 (Single)
+  sub Alphatonos by Alpha;
+  sub Alphapsili by Alpha;
+  sub Alphapsilioxia by Alpha;
+  sub Alphapsilivaria by Alpha;
+  sub Alphapsiliperispomeni by Alpha;
+  sub Alphadasia by Alpha;
+  sub Alphadasiaoxia by Alpha;
+  sub Alphadasiavaria by Alpha;
+  sub Alphadasiaperispomeni by Alpha;
+  sub Alphaoxia by Alpha;
+  sub Alphavaria by Alpha;
+  sub Alphamacron by Alpha;
+  sub Alphavrachy by Alpha;
+  sub Alphapsiliprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphapsilioxiaprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphapsilivariaprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphapsiliperispomeniprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphadasiaprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphadasiaoxiaprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphadasiavariaprosgegrammeni by Alphaprosgegrammeni;
+  sub Alphadasiaperispomeniprosgegrammeni by Alphaprosgegrammeni;
+  sub Epsilontonos by Epsilon;
+  sub Epsilonpsili by Epsilon;
+  sub Epsilonpsilioxia by Epsilon;
+  sub Epsilonpsilivaria by Epsilon;
+  sub Epsilondasia by Epsilon;
+  sub Epsilondasiaoxia by Epsilon;
+  sub Epsilondasiavaria by Epsilon;
+  sub Epsilonoxia by Epsilon;
+  sub Epsilonvaria by Epsilon;
+  sub Etatonos by Eta;
+  sub Etapsili by Eta;
+  sub Etapsilioxia by Eta;
+  sub Etapsilivaria by Eta;
+  sub Etapsiliperispomeni by Eta;
+  sub Etadasia by Eta;
+  sub Etadasiaoxia by Eta;
+  sub Etadasiavaria by Eta;
+  sub Etadasiaperispomeni by Eta;
+  sub Etaoxia by Eta;
+  sub Etavaria by Eta;
+  sub Etapsiliprosgegrammeni by Etaprosgegrammeni;
+  sub Etapsilioxiaprosgegrammeni by Etaprosgegrammeni;
+  sub Etapsilivariaprosgegrammeni by Etaprosgegrammeni;
+  sub Etapsiliperispomeniprosgegrammeni by Etaprosgegrammeni;
+  sub Etadasiaprosgegrammeni by Etaprosgegrammeni;
+  sub Etadasiaoxiaprosgegrammeni by Etaprosgegrammeni;
+  sub Etadasiavariaprosgegrammeni by Etaprosgegrammeni;
+  sub Etadasiaperispomeniprosgegrammeni by Etaprosgegrammeni;
+  sub Iotatonos by Iota;
+  sub Iotapsili by Iota;
+  sub Iotapsilioxia by Iota;
+  sub Iotapsilivaria by Iota;
+  sub Iotapsiliperispomeni by Iota;
+  sub Iotadasia by Iota;
+  sub Iotadasiaoxia by Iota;
+  sub Iotadasiavaria by Iota;
+  sub Iotadasiaperispomeni by Iota;
+  sub Iotaoxia by Iota;
+  sub Iotavaria by Iota;
+  sub Iotamacron by Iota;
+  sub Iotavrachy by Iota;
+  sub Omicrontonos by Omicron;
+  sub Omicronpsili by Omicron;
+  sub Omicronpsilioxia by Omicron;
+  sub Omicronpsilivaria by Omicron;
+  sub Omicrondasia by Omicron;
+  sub Omicrondasiaoxia by Omicron;
+  sub Omicrondasiavaria by Omicron;
+  sub Omicronoxia by Omicron;
+  sub Omicronvaria by Omicron;
+  sub Rhodasia by Rho;
+  sub Upsilontonos by Upsilon;
+  sub Upsilondasia by Upsilon;
+  sub Upsilondasiaoxia by Upsilon;
+  sub Upsilondasiavaria by Upsilon;
+  sub Upsilondasiaperispomeni by Upsilon;
+  sub Upsilonoxia by Upsilon;
+  sub Upsilonvaria by Upsilon;
+  sub Upsilonmacron by Upsilon;
+  sub Upsilonvrachy by Upsilon;
+  sub Omegatonos by Omega;
+  sub Omegapsili by Omega;
+  sub Omegapsilioxia by Omega;
+  sub Omegapsilivaria by Omega;
+  sub Omegapsiliperispomeni by Omega;
+  sub Omegadasia by Omega;
+  sub Omegadasiaoxia by Omega;
+  sub Omegadasiavaria by Omega;
+  sub Omegadasiaperispomeni by Omega;
+  sub Omegaoxia by Omega;
+  sub Omegavaria by Omega;
+  sub Omegapsiliprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegapsilioxiaprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegapsilivariaprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegapsiliperispomeniprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegadasiaprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegadasiaoxiaprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegadasiavariaprosgegrammeni by Omegaprosgegrammeni;
+  sub Omegadasiaperispomeniprosgegrammeni by Omegaprosgegrammeni;
+  sub UpsilonacutehookSymbol by UpsilonhookSymbol;
+} calt_1_4;
+
+lookup frac_1_2 {
+# GSUB lookup 51, type 11 (Single)
+  sub n by n.numr;
+  sub comma by comma.numr;
+  sub period by period.numr;
+  sub slash by fraction;
+  sub parenleft by parenleft.numr;
+  sub parenright by parenright.numr;
+  sub currency by currency.numr;
+  sub euro by euro.numr;
+  sub dollar by dollar.numr;
+  sub cent by cent.numr;
+  sub sterling by sterling.numr;
+  sub yen by yen.numr;
+  sub numbersign by numbersign.numr;
+  sub zero by zero.numr;
+  sub one by one.numr;
+  sub two by two.numr;
+  sub three by three.numr;
+  sub four by four.numr;
+  sub five by five.numr;
+  sub seven by seven.numr;
+  sub nine by nine.numr;
+  sub plus by plus.numr;
+  sub minus by minus.numr;
+  sub equal by equal.numr;
+  sub franc by franc.numr;
+  sub lira by lira.numr;
+  sub peseta by peseta.numr;
+  sub six by six.numr;
+  sub eight by eight.numr;
+} frac_1_2;
+
+lookup frac_1_14 {
+# GSUB lookup 52, type 11 (Single)
+  sub space by thinspace;
+  sub n by n.dnom;
+  sub comma by comma.dnom;
+  sub period by period.dnom;
+  sub parenleft by parenleft.dnom;
+  sub parenright by parenright.dnom;
+  sub currency by currency.dnom;
+  sub euro by euro.dnom;
+  sub dollar by dollar.dnom;
+  sub cent by cent.dnom;
+  sub sterling by sterling.dnom;
+  sub yen by yen.dnom;
+  sub numbersign by numbersign.dnom;
+  sub zero by zero.dnom;
+  sub one by one.dnom;
+  sub two by two.dnom;
+  sub three by three.dnom;
+  sub four by four.dnom;
+  sub five by five.dnom;
+  sub seven by seven.dnom;
+  sub nine by nine.dnom;
+  sub plus by plus.dnom;
+  sub minus by minus.dnom;
+  sub equal by equal.dnom;
+  sub franc by franc.dnom;
+  sub lira by lira.dnom;
+  sub peseta by peseta.dnom;
+  sub six by six.dnom;
+  sub eight by eight.dnom;
+} frac_1_14;
+
+lookup ordn_1_2 {
+# GSUB lookup 53, type 11 (Single)
+  sub A by ordfeminine;
+  sub O by ordmasculine;
+  sub a by ordfeminine;
+  sub o by ordmasculine;
+} ordn_1_2;
+
+lookup sinf_subs_1 {
+# GSUB lookup 19, type 11 (Single)
+  sub n by ninferior;
+  sub comma by comma.sinf;
+  sub period by period.sinf;
+  sub parenleft by parenleftinferior;
+  sub parenright by parenrightinferior;
+  sub currency by currency.sinf;
+  sub euro by euro.sinf;
+  sub dollar by dollar.sinf;
+  sub cent by cent.sinf;
+  sub sterling by sterling.sinf;
+  sub yen by yen.sinf;
+  sub numbersign by numbersign.sinf;
+  sub zero by zeroinferior;
+  sub one by oneinferior;
+  sub two by twoinferior;
+  sub three by threeinferior;
+  sub four by fourinferior;
+  sub five by fiveinferior;
+  sub seven by seveninferior;
+  sub nine by nineinferior;
+  sub plus by plusinferior;
+  sub minus by minusinferior;
+  sub equal by equalinferior;
+  sub franc by franc.sinf;
+  sub lira by lira.sinf;
+  sub peseta by peseta.sinf;
+  sub six by sixinferior;
+  sub eight by eightinferior;
+} sinf_subs_1;
+
+
+#
+# Feature definitions
+#
+
+
+
+
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature case;
+  feature numr;
+  feature dnom;
+  feature locl;
+  feature sinf;
+  feature subs;
+  feature sups;
+  feature ss01;
+  feature ss02;
+  feature ss03;
+  feature ss04;
+  feature ss05;
+  feature ss06;
+  feature ss07;
+  feature salt;
+  feature onum;
+  feature lnum;
+  feature tnum;
+  feature pnum;
+  feature hist;
+#< feature
+} aalt;
+feature ccmp {
+# GSUB feature: Glyph Composition / Decomposition
+# Lookups: 5
+
+  sub dieresis oxia by dialytikaoxia;
+  sub dieresis varia by dialytikavaria;
+  sub dieresis perispomeni by dialytikaperispomeni;
+  sub psili oxia by psilioxia;
+  sub psili varia by psilivaria;
+  sub psili perispomeni by psiliperispomeni;
+  sub dasia oxia by dasiaoxia;
+  sub dasia varia by dasiavaria;
+  sub dasia perispomeni by dasiaperispomeni;
+  sub dieresiscomb macroncomb oxiacomb by dialytikamacronoxiacomb;
+  sub dieresiscomb macroncomb variacomb by dialytikamacronvariacomb;
+  sub dieresiscomb brevecomb oxiacomb by dialytikabreveoxiacomb;
+  sub dieresiscomb brevecomb variacomb by dialytikabrevevariacomb;
+  sub dieresiscomb oxiacomb by dialytikaoxiacomb;
+  sub dieresiscomb variacomb by dialytikavariacomb;
+  sub dieresiscomb perispomenicomb by dialytikaperispomenicomb;
+  sub macroncomb psilicomb oxiacomb by macronpsilioxiacomb;
+  sub macroncomb psilicomb variacomb by macronpsilivariacomb;
+  sub macroncomb dasiacomb oxiacomb by macrondasiaoxiacomb;
+  sub macroncomb dasiacomb variacomb by macrondasiavariacomb;
+  sub brevecomb psilicomb oxiacomb by brevepsilioxiacomb;
+  sub brevecomb psilicomb variacomb by brevepsilivariacomb;
+  sub brevecomb dasiacomb oxiacomb by brevedasiaoxiacomb;
+  sub brevecomb dasiacomb variacomb by brevedasiavariacomb;
+  sub psilicomb oxiacomb by psilioxiacomb;
+  sub psilicomb variacomb by psilivariacomb;
+  sub psilicomb perispomenicomb by psiliperispomenicomb;
+  sub dasiacomb oxiacomb by dasiaoxiacomb;
+  sub dasiacomb variacomb by dasiavariacomb;
+  sub dasiacomb perispomenicomb by dasiaperispomenicomb;
+  sub @ccmp2 @ccmp' lookup calt_ccmp_1;
+
+  lookup ccmp_1_3 {
+  # GSUB lookup 6, type 16 (Chaining Context)
+    lookupflag 256;
+    sub [i iogonek istroke idotbelow itildebelow]' lookup calt_ccmp_1 @ccmp3;
+  } ccmp_1_3;
+
+
+  lookup ccmp_1_4 {
+  # GSUB lookup 7, type 16 (Chaining Context)
+    lookupflag 256;
+    sub [j jstroke]' lookup calt_ccmp_1 @ccmp3;
+  } ccmp_1_4;
+
+  sub tonebarextrahighmod tonebarextrahighmod tonebarhighmod by toneXH_XH_H;
+  sub tonebarextrahighmod tonebarextrahighmod tonebarmidmod by toneXH_XH_M;
+  sub tonebarextrahighmod tonebarextrahighmod tonebarlowmod by toneXH_XH_L;
+  sub tonebarextrahighmod tonebarextrahighmod tonebarextralowmod by toneXH_XH_XL;
+  sub tonebarextrahighmod tonebarhighmod tonebarextrahighmod by toneXH_H_XH;
+  sub tonebarextrahighmod tonebarhighmod tonebarhighmod by toneXH_H_H;
+  sub tonebarextrahighmod tonebarhighmod tonebarmidmod by toneXH_H_M;
+  sub tonebarextrahighmod tonebarhighmod tonebarlowmod by toneXH_H_L;
+  sub tonebarextrahighmod tonebarhighmod tonebarextralowmod by toneXH_H_XL;
+  sub tonebarextrahighmod tonebarmidmod tonebarextrahighmod by toneXH_M_XH;
+  sub tonebarextrahighmod tonebarmidmod tonebarhighmod by toneXH_M_H;
+  sub tonebarextrahighmod tonebarmidmod tonebarmidmod by toneXH_M_M;
+  sub tonebarextrahighmod tonebarmidmod tonebarlowmod by toneXH_M_L;
+  sub tonebarextrahighmod tonebarmidmod tonebarextralowmod by toneXH_M_XL;
+  sub tonebarextrahighmod tonebarlowmod tonebarextrahighmod by toneXH_L_XH;
+  sub tonebarextrahighmod tonebarlowmod tonebarhighmod by toneXH_L_H;
+  sub tonebarextrahighmod tonebarlowmod tonebarmidmod by toneXH_L_M;
+  sub tonebarextrahighmod tonebarlowmod tonebarlowmod by toneXH_L_L;
+  sub tonebarextrahighmod tonebarlowmod tonebarextralowmod by toneXH_L_XL;
+  sub tonebarextrahighmod tonebarextralowmod tonebarextrahighmod by toneXH_XL_XH;
+  sub tonebarextrahighmod tonebarextralowmod tonebarhighmod by toneXH_XL_H;
+  sub tonebarextrahighmod tonebarextralowmod tonebarmidmod by toneXH_XL_M;
+  sub tonebarextrahighmod tonebarextralowmod tonebarlowmod by toneXH_XL_L;
+  sub tonebarextrahighmod tonebarextralowmod tonebarextralowmod by toneXH_XL_XL;
+  sub tonebarextrahighmod tonebarhighmod by toneXH_H;
+  sub tonebarextrahighmod tonebarmidmod by toneXH_M;
+  sub tonebarextrahighmod tonebarlowmod by toneXH_L;
+  sub tonebarextrahighmod tonebarextralowmod by toneXH_XL;
+  sub tonebarhighmod tonebarextrahighmod tonebarextrahighmod by toneH_XH_XH;
+  sub tonebarhighmod tonebarextrahighmod tonebarhighmod by toneH_XH_H;
+  sub tonebarhighmod tonebarextrahighmod tonebarmidmod by toneH_XH_M;
+  sub tonebarhighmod tonebarextrahighmod tonebarlowmod by toneH_XH_L;
+  sub tonebarhighmod tonebarextrahighmod tonebarextralowmod by toneH_XH_XL;
+  sub tonebarhighmod tonebarhighmod tonebarextrahighmod by toneH_H_XH;
+  sub tonebarhighmod tonebarhighmod tonebarmidmod by toneH_H_M;
+  sub tonebarhighmod tonebarhighmod tonebarlowmod by toneH_H_L;
+  sub tonebarhighmod tonebarhighmod tonebarextralowmod by toneH_H_XL;
+  sub tonebarhighmod tonebarmidmod tonebarextrahighmod by toneH_M_XH;
+  sub tonebarhighmod tonebarmidmod tonebarhighmod by toneH_M_H;
+  sub tonebarhighmod tonebarmidmod tonebarmidmod by toneH_M_M;
+  sub tonebarhighmod tonebarmidmod tonebarlowmod by toneH_M_L;
+  sub tonebarhighmod tonebarmidmod tonebarextralowmod by toneH_M_XL;
+  sub tonebarhighmod tonebarlowmod tonebarextrahighmod by toneH_L_XH;
+  sub tonebarhighmod tonebarlowmod tonebarhighmod by toneH_L_H;
+  sub tonebarhighmod tonebarlowmod tonebarmidmod by toneH_L_M;
+  sub tonebarhighmod tonebarlowmod tonebarlowmod by toneH_L_L;
+  sub tonebarhighmod tonebarlowmod tonebarextralowmod by toneH_L_XL;
+  sub tonebarhighmod tonebarextralowmod tonebarextrahighmod by toneH_XL_XH;
+  sub tonebarhighmod tonebarextralowmod tonebarhighmod by toneH_XL_H;
+  sub tonebarhighmod tonebarextralowmod tonebarmidmod by toneH_XL_M;
+  sub tonebarhighmod tonebarextralowmod tonebarlowmod by toneH_XL_L;
+  sub tonebarhighmod tonebarextralowmod tonebarextralowmod by toneH_XL_XL;
+  sub tonebarhighmod tonebarextrahighmod by toneH_XH;
+  sub tonebarhighmod tonebarmidmod by toneH_M;
+  sub tonebarhighmod tonebarlowmod by toneH_L;
+  sub tonebarhighmod tonebarextralowmod by toneH_XL;
+  sub tonebarmidmod tonebarextrahighmod tonebarextrahighmod by toneM_XH_XH;
+  sub tonebarmidmod tonebarextrahighmod tonebarhighmod by toneM_XH_H;
+  sub tonebarmidmod tonebarextrahighmod tonebarmidmod by toneM_XH_M;
+  sub tonebarmidmod tonebarextrahighmod tonebarlowmod by toneM_XH_L;
+  sub tonebarmidmod tonebarextrahighmod tonebarextralowmod by toneM_XH_XL;
+  sub tonebarmidmod tonebarhighmod tonebarextrahighmod by toneM_H_XH;
+  sub tonebarmidmod tonebarhighmod tonebarhighmod by toneM_H_H;
+  sub tonebarmidmod tonebarhighmod tonebarmidmod by toneM_H_M;
+  sub tonebarmidmod tonebarhighmod tonebarlowmod by toneM_H_L;
+  sub tonebarmidmod tonebarhighmod tonebarextralowmod by toneM_H_XL;
+  sub tonebarmidmod tonebarmidmod tonebarextrahighmod by toneM_M_XH;
+  sub tonebarmidmod tonebarmidmod tonebarhighmod by toneM_M_H;
+  sub tonebarmidmod tonebarmidmod tonebarlowmod by toneM_M_L;
+  sub tonebarmidmod tonebarmidmod tonebarextralowmod by toneM_M_XL;
+  sub tonebarmidmod tonebarlowmod tonebarextrahighmod by toneM_L_XH;
+  sub tonebarmidmod tonebarlowmod tonebarhighmod by toneM_L_H;
+  sub tonebarmidmod tonebarlowmod tonebarmidmod by toneM_L_M;
+  sub tonebarmidmod tonebarlowmod tonebarlowmod by toneM_L_L;
+  sub tonebarmidmod tonebarlowmod tonebarextralowmod by toneM_L_XL;
+  sub tonebarmidmod tonebarextralowmod tonebarextrahighmod by toneM_XL_XH;
+  sub tonebarmidmod tonebarextralowmod tonebarhighmod by toneM_XL_H;
+  sub tonebarmidmod tonebarextralowmod tonebarmidmod by toneM_XL_M;
+  sub tonebarmidmod tonebarextralowmod tonebarlowmod by toneM_XL_L;
+  sub tonebarmidmod tonebarextralowmod tonebarextralowmod by toneM_XL_XL;
+  sub tonebarmidmod tonebarextrahighmod by toneM_XH;
+  sub tonebarmidmod tonebarhighmod by toneM_H;
+  sub tonebarmidmod tonebarlowmod by toneM_L;
+  sub tonebarmidmod tonebarextralowmod by toneM_XL;
+  sub tonebarlowmod tonebarextrahighmod tonebarextrahighmod by toneL_XH_XH;
+  sub tonebarlowmod tonebarextrahighmod tonebarhighmod by toneL_XH_H;
+  sub tonebarlowmod tonebarextrahighmod tonebarmidmod by toneL_XH_M;
+  sub tonebarlowmod tonebarextrahighmod tonebarlowmod by toneL_XH_L;
+  sub tonebarlowmod tonebarextrahighmod tonebarextralowmod by toneL_XH_XL;
+  sub tonebarlowmod tonebarhighmod tonebarextrahighmod by toneL_H_XH;
+  sub tonebarlowmod tonebarhighmod tonebarhighmod by toneL_H_H;
+  sub tonebarlowmod tonebarhighmod tonebarmidmod by toneL_H_M;
+  sub tonebarlowmod tonebarhighmod tonebarlowmod by toneL_H_L;
+  sub tonebarlowmod tonebarhighmod tonebarextralowmod by toneL_H_XL;
+  sub tonebarlowmod tonebarmidmod tonebarextrahighmod by toneL_M_XH;
+  sub tonebarlowmod tonebarmidmod tonebarhighmod by toneL_M_H;
+  sub tonebarlowmod tonebarmidmod tonebarmidmod by toneL_M_M;
+  sub tonebarlowmod tonebarmidmod tonebarlowmod by toneL_M_L;
+  sub tonebarlowmod tonebarmidmod tonebarextralowmod by toneL_M_XL;
+  sub tonebarlowmod tonebarlowmod tonebarextrahighmod by toneL_L_XH;
+  sub tonebarlowmod tonebarlowmod tonebarhighmod by toneL_L_H;
+  sub tonebarlowmod tonebarlowmod tonebarmidmod by toneL_L_M;
+  sub tonebarlowmod tonebarlowmod tonebarextralowmod by toneL_L_XL;
+  sub tonebarlowmod tonebarextralowmod tonebarextrahighmod by toneL_XL_XH;
+  sub tonebarlowmod tonebarextralowmod tonebarhighmod by toneL_XL_H;
+  sub tonebarlowmod tonebarextralowmod tonebarmidmod by toneL_XL_M;
+  sub tonebarlowmod tonebarextralowmod tonebarlowmod by toneL_XL_L;
+  sub tonebarlowmod tonebarextralowmod tonebarextralowmod by toneL_XL_XL;
+  sub tonebarlowmod tonebarextrahighmod by toneL_XH;
+  sub tonebarlowmod tonebarhighmod by toneL_H;
+  sub tonebarlowmod tonebarmidmod by toneL_M;
+  sub tonebarlowmod tonebarextralowmod by toneL_XL;
+  sub tonebarextralowmod tonebarextrahighmod tonebarextrahighmod by toneXL_XH_XH;
+  sub tonebarextralowmod tonebarextrahighmod tonebarhighmod by toneXL_XH_H;
+  sub tonebarextralowmod tonebarextrahighmod tonebarmidmod by toneXL_XH_M;
+  sub tonebarextralowmod tonebarextrahighmod tonebarlowmod by toneXL_XH_L;
+  sub tonebarextralowmod tonebarextrahighmod tonebarextralowmod by toneXL_XH_XL;
+  sub tonebarextralowmod tonebarhighmod tonebarextrahighmod by toneXL_H_XH;
+  sub tonebarextralowmod tonebarhighmod tonebarhighmod by toneXL_H_H;
+  sub tonebarextralowmod tonebarhighmod tonebarmidmod by toneXL_H_M;
+  sub tonebarextralowmod tonebarhighmod tonebarlowmod by toneXL_H_L;
+  sub tonebarextralowmod tonebarhighmod tonebarextralowmod by toneXL_H_XL;
+  sub tonebarextralowmod tonebarmidmod tonebarextrahighmod by toneXL_M_XH;
+  sub tonebarextralowmod tonebarmidmod tonebarhighmod by toneXL_M_H;
+  sub tonebarextralowmod tonebarmidmod tonebarmidmod by toneXL_M_M;
+  sub tonebarextralowmod tonebarmidmod tonebarlowmod by toneXL_M_L;
+  sub tonebarextralowmod tonebarmidmod tonebarextralowmod by toneXL_M_XL;
+  sub tonebarextralowmod tonebarlowmod tonebarextrahighmod by toneXL_L_XH;
+  sub tonebarextralowmod tonebarlowmod tonebarhighmod by toneXL_L_H;
+  sub tonebarextralowmod tonebarlowmod tonebarmidmod by toneXL_L_M;
+  sub tonebarextralowmod tonebarlowmod tonebarlowmod by toneXL_L_L;
+  sub tonebarextralowmod tonebarlowmod tonebarextralowmod by toneXL_L_XL;
+  sub tonebarextralowmod tonebarextralowmod tonebarextrahighmod by toneXL_XL_XH;
+  sub tonebarextralowmod tonebarextralowmod tonebarhighmod by toneXL_XL_H;
+  sub tonebarextralowmod tonebarextralowmod tonebarmidmod by toneXL_XL_M;
+  sub tonebarextralowmod tonebarextralowmod tonebarlowmod by toneXL_XL_L;
+  sub tonebarextralowmod tonebarextrahighmod by toneXL_XH;
+  sub tonebarextralowmod tonebarhighmod by toneXL_H;
+  sub tonebarextralowmod tonebarmidmod by toneXL_M;
+  sub tonebarextralowmod tonebarlowmod by toneXL_L;
+
+} ccmp;
+
+
+
+
+feature case {
+# Case Sensitive Forms
+
+#> feature
+  sub acomb by acomb.case;
+  sub acute by acute.case;
+  sub acutecomb by acutecomb.case;
+  sub acutedottedcomb by acutedottedcomb.case;
+  sub acutegraveacutecomb by acutegraveacutecomb.case;
+  sub acutemacroncomb by acutemacroncomb.case;
+  sub acutetonecomb by acutetonecomb.case;
+  sub almostequaltoabovecomb by almostequaltoabovecomb.case;
+  sub anoteleia by anoteleia.case;
+  sub arrowheadleftabovecomb by arrowheadleftabovecomb.case;
+  sub arrowheadrightabovecomb by arrowheadrightabovecomb.case;
+  sub asciitilde by asciitilde.case;
+  sub at by at.case;
+  sub braceleft by braceleft.case;
+  sub braceright by braceright.case;
+  sub bracketleft by bracketleft.case;
+  sub bracketright by bracketright.case;
+  sub breve by breve.case;
+  sub brevecomb by brevecomb.case;
+  sub breveinvertedcomb by breveinvertedcomb.case;
+  sub breveinverteddoublecomb by breveinverteddoublecomb.case;
+  sub bullet by bullet.case;
+  sub candraBinducomb by candraBinducomb.case;
+  sub caron by caron.case;
+  sub caroncomb by caroncomb.case;
+  sub ccomb by ccomb.case;
+  sub circumflex by circumflex.case;
+  sub circumflexcomb by circumflexcomb.case;
+  sub commaabovecomb by commaabovecomb.case;
+  sub commareversedabovecomb by commareversedabovecomb.case;
+  sub commaturnedabovecomb by commaturnedabovecomb.case;
+  sub dasiacomb by dasiacomb.case;
+  sub dasiaoxiacomb by dasiaoxiacomb.case;
+  sub dasiaperispomenicomb by dasiaperispomenicomb.case;
+  sub dasiavariacomb by dasiavariacomb.case;
+  sub dblgravecomb by dblgravecomb.case;
+  sub dbloverlinecomb by dbloverlinecomb.case;
+  sub dcomb by dcomb.case;
+  sub dialytikaoxiacomb by dialytikaoxiacomb.case;
+  sub dialytikaperispomenicomb by dialytikaperispomenicomb.case;
+  sub dialytikavariacomb by dialytikavariacomb.case;
+  sub dieresis by dieresis.case;
+  sub dieresiscomb by dieresiscomb.case;
+  sub dotaboverightcomb by dotaboverightcomb.case;
+  sub dotaccent by dotaccent.case;
+  sub dotaccentcomb by dotaccentcomb.case;
+  sub eSign-myanmar by eSign-myanmar.case;
+  sub ecomb by ecomb.case;
+  sub emdash by emdash.case;
+  sub endash by endash.case;
+  sub exclamdown by exclamdown.case;
+  sub fermatacomb by fermatacomb.case;
+  sub figuredash by figuredash.case;
+  sub grave by grave.case;
+  sub graveacutegravecomb by graveacutegravecomb.case;
+  sub gravecomb by gravecomb.case;
+  sub gravedottedcomb by gravedottedcomb.case;
+  sub gravemacroncomb by gravemacroncomb.case;
+  sub gravetonecomb by gravetonecomb.case;
+  sub guillemetleft by guillemetleft.case;
+  sub guillemetright by guillemetright.case;
+  sub guilsinglleft by guilsinglleft.case;
+  sub guilsinglright by guilsinglright.case;
+  sub hcomb by hcomb.case;
+  sub homotheticabovecomb by homotheticabovecomb.case;
+  sub hookabovecomb by hookabovecomb.case;
+  sub horizontalbar by horizontalbar.case;
+  sub hungarumlaut by hungarumlaut.case;
+  sub hungarumlautcomb by hungarumlautcomb.case;
+  sub iMark-myanmar by iMark-myanmar.case;
+  sub icomb by icomb.case;
+  sub koroniscomb by koroniscomb.case;
+  sub leftangleabovecomb by leftangleabovecomb.case;
+  sub lefthalfringabovecomb by lefthalfringabovecomb.case;
+  sub macron by macron.case;
+  sub macronacutecomb by macronacutecomb.case;
+  sub macroncomb by macroncomb.case;
+  sub macrongravecomb by macrongravecomb.case;
+  sub mcomb by mcomb.case;
+  sub nottildeabovecomb by nottildeabovecomb.case;
+  sub ocomb by ocomb.case;
+  sub ordfeminine by ordfeminine.case;
+  sub overlinecomb by overlinecomb.case;
+  sub oxiacomb by oxiacomb.case;
+  sub parenleft by parenleft.case;
+  sub parenright by parenright.case;
+  sub periodcentered by periodcentered.case2;
+  sub perispomenicomb by perispomenicomb.case;
+  sub psilicomb by psilicomb.case;
+  sub psilioxiacomb by psilioxiacomb.case;
+  sub psiliperispomenicomb by psiliperispomenicomb.case;
+  sub psilivariacomb by psilivariacomb.case;
+  sub questiondown by questiondown.case;
+  sub rcomb by rcomb.case;
+  sub registered by registered.case;
+  sub righthalfringabovecomb by righthalfringabovecomb.case;
+  sub ring by ring.case;
+  sub ringacute by ringacute.case;
+  sub ringcomb by ringcomb.case;
+  sub slashlongcomb by slashlongcomb.case;
+  sub slashshortcomb by slashshortcomb.case;
+  sub strokelongcomb by strokelongcomb.case;
+  sub strokeshortcomb by strokeshortcomb.case;
+  sub suspensioncomb by suspensioncomb.case;
+  sub tcomb by tcomb.case;
+  sub tilde by tilde.case;
+  sub tildecomb by tildecomb.case;
+  sub tildeoverlaycomb by tildeoverlaycomb.case;
+  sub tildeverticalcomb by tildeverticalcomb.case;
+  sub uMark-myanmar by uMark-myanmar.case;
+  sub ucomb by ucomb.case;
+  sub variacomb by variacomb.case;
+  sub vcomb by vcomb.case;
+  sub xabovecomb by xabovecomb.case;
+  sub xcomb by xcomb.case;
+  sub ypogegrammenicomb by ypogegrammenicomb.case;
+  sub zigzagabovecomb by zigzagabovecomb.case;
+  script cyrl; # Cyrillic
+  sub breve by breve.cyrl.case;
+  sub brevecomb by brevecomb.cyrl.case;
+#< feature
+} case;
+
+
+
+feature numr {
+# Numerator
+
+#> feature
+  sub cent by cent.numr;
+  sub comma by comma.numr;
+  sub currency by currency.numr;
+  sub dollar by dollar.numr;
+  sub eight by eight.numr;
+  sub equal by equal.numr;
+  sub euro by euro.numr;
+  sub five by five.numr;
+  sub four by four.numr;
+  sub franc by franc.numr;
+  sub lira by lira.numr;
+  sub minus by minus.numr;
+  sub n by n.numr;
+  sub nine by nine.numr;
+  sub numbersign by numbersign.numr;
+  sub one by one.numr;
+  sub parenleft by parenleft.numr;
+  sub parenright by parenright.numr;
+  sub period by period.numr;
+  sub peseta by peseta.numr;
+  sub plus by plus.numr;
+  sub seven by seven.numr;
+  sub six by six.numr;
+  sub sterling by sterling.numr;
+  sub three by three.numr;
+  sub two by two.numr;
+  sub yen by yen.numr;
+  sub zero by zero.numr;
+#< feature
+} numr;
+
+
+
+feature dnom {
+# Denominator
+
+#> feature
+  sub cent by cent.dnom;
+  sub comma by comma.dnom;
+  sub currency by currency.dnom;
+  sub dollar by dollar.dnom;
+  sub eight by eight.dnom;
+  sub equal by equal.dnom;
+  sub euro by euro.dnom;
+  sub five by five.dnom;
+  sub four by four.dnom;
+  sub franc by franc.dnom;
+  sub lira by lira.dnom;
+  sub minus by minus.dnom;
+  sub n by n.dnom;
+  sub nine by nine.dnom;
+  sub numbersign by numbersign.dnom;
+  sub one by one.dnom;
+  sub parenleft by parenleft.dnom;
+  sub parenright by parenright.dnom;
+  sub period by period.dnom;
+  sub peseta by peseta.dnom;
+  sub plus by plus.dnom;
+  sub seven by seven.dnom;
+  sub six by six.dnom;
+  sub sterling by sterling.dnom;
+  sub three by three.dnom;
+  sub two by two.dnom;
+  sub yen by yen.dnom;
+  sub zero by zero.dnom;
+#< feature
+} dnom;
+
+
+
+feature calt {
+# GSUB feature: Contextual Alternates
+# Lookups: 2
+
+  sub @calt2 Iota' lookup calt_ccmp_1;
+  sub @calt3 Upsilon' lookup calt_ccmp_1;
+  sub @calt' lookup calt_1_4 @calt4;
+  sub @calt4 @calt' lookup calt_1_4;
+  sub @calt' lookup calt_1_4 space @calt4;
+  sub @calt4 space @calt' lookup calt_1_4;
+
+} calt;
+
+
+
+
+feature locl {
+# GSUB feature: Localized Forms
+# Lookups: 4
+
+  script latn; # Latin
+    language ROM ; # Romanian
+    lookup latn_ROM { 
+      sub Scedilla by Scommaaccent;
+      sub scedilla by scommaaccent;
+      sub Tcedilla by Tcommaaccent;
+      sub tcedilla by tcommaaccent;
+    } latn_ROM;
+
+  script cyrl; # Cyrillic
+    lookup cyrl { 
+     sub breve by breve.cyrl;
+     sub brevecomb by brevecomb.cyrl;
+    } cyrl;
+    language SRB ; # Serbian
+    lookup cyrl_SRB { 
+      sub be-cy by be-cy.cyrlSRB;
+      sub de-cy by de-cy.cyrlSRB;
+      sub te-cy by te-cy.cyrlSRB;
+      sub pe-cy by pe-cy.cyrlSRB;
+    } cyrl_SRB;
+    language BOS ; # Bosnian
+    lookup cyrl_SRB;
+
+  script grek; # Greek
+    lookup grek {
+      sub grave by varia;
+      sub acute by oxia;
+      sub gravecomb by variacomb;
+      sub acutecomb by oxiacomb;
+      sub commaabovecomb by psilicomb;
+      sub commareversedabovecomb by dasiacomb;
+    } grek;
+
+} locl;
+
+
+
+
+feature sinf {
+# GSUB feature: Scientific Inferiors
+# Lookups: 1
+
+  lookup sinf_subs_1;
+
+} sinf;
+
+feature subs {
+# GSUB feature: Subscript
+# Lookups: 1
+
+  lookup sinf_subs_1;
+
+} subs;
+
+feature sups {
+# GSUB feature: Superscript
+# Lookups: 1
+
+  sub A by A.sups;
+  sub AE by AEModifier;
+  sub B by B.sups;
+  sub C by C.sups;
+  sub D by D.sups;
+  sub E by E.sups;
+  sub F by F.sups;
+  sub G by G.sups;
+  sub H by H.sups;
+  sub I by I.sups;
+  sub J by J.sups;
+  sub K by K.sups;
+  sub L by L.sups;
+  sub M by M.sups;
+  sub N by N.sups;
+  sub O by O.sups;
+  sub P by P.sups;
+  sub Q by Q.sups;
+  sub R by R.sups;
+  sub S by S.sups;
+  sub T by T.sups;
+  sub U by U.sups;
+  sub V by V.sups;
+  sub W by W.sups;
+  sub X by X.sups;
+  sub Y by Y.sups;
+  sub Z by Z.sups;
+  sub a by a.sups;
+  sub b by b.sups;
+  sub c by c.sups;
+  sub d by d.sups;
+  sub eth by ethmod;
+  sub e by e.sups;
+  sub f by f.sups;
+  sub g by g.sups;
+  sub h by h.sups;
+  sub i by i.sups;
+  sub j by j.sups;
+  sub k by k.sups;
+  sub m by m.sups;
+  sub n by nmod;
+  sub eng by engmod;
+  sub o by o.sups;
+  sub p by p.sups;
+  sub q by q.sups;
+  sub r by r.sups;
+  sub s by s.sups;
+  sub t by t.sups;
+  sub u by u.sups;
+  sub v by v.sups;
+  sub w by w.sups;
+  sub x by x.sups;
+  sub y by y.sups;
+  sub z by z.sups;
+  sub beta by betamod;
+  sub gamma by gammamod;
+  sub delta by deltamod;
+  sub theta by thetamod;
+  sub phi by phi-grmod;
+  sub chi by chimod;
+  sub en-cy by enmod-cy;
+  sub comma by comma.sups;
+  sub period by period.sups;
+  sub parenleft by parenleftsuperior;
+  sub parenright by parenrightsuperior;
+  sub currency by currency.sups;
+  sub euro by euro.sups;
+  sub dollar by dollar.sups;
+  sub cent by cent.sups;
+  sub sterling by sterling.sups;
+  sub yen by yen.sups;
+  sub numbersign by numbersign.sups;
+  sub zero.onum_pnum by zerosuperior;
+  sub one.onum_pnum by onesuperior;
+  sub two.onum_pnum by twosuperior;
+  sub three.onum_pnum by threesuperior;
+  sub four.onum_pnum by foursuperior;
+  sub five.onum_pnum by fivesuperior;
+  sub six.onum_pnum by sixsuperior;
+  sub seven.onum_pnum by sevensuperior;
+  sub eight.onum_pnum by eightsuperior;
+  sub nine.onum_pnum by ninesuperior;
+  sub zero.onum_tnum by zerosuperior;
+  sub one.onum_tnum by onesuperior;
+  sub two.onum_tnum by twosuperior;
+  sub three.onum_tnum by threesuperior;
+  sub four.onum_tnum by foursuperior;
+  sub five.onum_tnum by fivesuperior;
+  sub six.onum_tnum by sixsuperior;
+  sub seven.onum_tnum by sevensuperior;
+  sub eight.onum_tnum by eightsuperior;
+  sub nine.onum_tnum by ninesuperior;
+  sub zero.lnum_pnum by zerosuperior;
+  sub one.lnum_pnum by onesuperior;
+  sub two.lnum_pnum by twosuperior;
+  sub three.lnum_pnum by threesuperior;
+  sub four.lnum_pnum by foursuperior;
+  sub five.lnum_pnum by fivesuperior;
+  sub seven.lnum_pnum by sevensuperior;
+  sub nine.lnum_pnum by ninesuperior;
+  sub zero by zerosuperior;
+  sub one by onesuperior;
+  sub two by twosuperior;
+  sub three by threesuperior;
+  sub four by foursuperior;
+  sub five by fivesuperior;
+  sub seven by sevensuperior;
+  sub nine by ninesuperior;
+  sub plus by plussuperior;
+  sub minus by minussuperior;
+  sub equal by equalsuperior;
+  sub Ereversed by EReversedmod;
+  sub OU by OUmod;
+  sub tpalatalhook by tpalatalhookmod;
+  sub aturned by aTurnedmod;
+  sub alpha-latin by alphamod-latin;
+  sub alphaturned-latin by alphaturnedmod-latin;
+  sub oopen by oOpenmod;
+  sub ccurl by ccurlmod;
+  sub schwa by schwamod;
+  sub eopen by eOpenmod;
+  sub gamma-latin by gammamod-latin;
+  sub hturned by hturnedmod;
+  sub hhook by hhookmod;
+  sub lhookretroflex by lretroflexhookmod;
+  sub mturned by mTurnedmod;
+  sub mlonglegturned by mlonglegturnedmod;
+  sub mhook by mhookmod;
+  sub nhookleft by nlefthookmod;
+  sub nhookretroflex by nretroflexhookmod;
+  sub Nsmall by Nsmallmodifier;
+  sub obarred by barredomod;
+  sub rturned by rturnedmod;
+  sub rhookturned by rhookturnedmod;
+  sub Rsmallinverted by Rsmallinvertedmod;
+  sub shook by shookmod;
+  sub esh by eshmod;
+  sub ubar by ubarmod;
+  sub upsilon-latin by upsilonmod;
+  sub vhook by vhookmod;
+  sub vturned by vturnedmod;
+  sub zretroflexhook by zretroflexhookmod;
+  sub zcurl by zcurlmod;
+  sub ezh by ezhmod;
+  sub glottalstopreversed by glottalstopreversedsuperior;
+  sub jcrossedtail by jcrossedtailmod;
+  sub Lsmall by Lsmallmod;
+  sub aeTurned by aeTurnedmod;
+  sub oTophalf by oTophalfmod;
+  sub oBottomhalf by oBottomhalfmod;
+  sub Usmall by Usmallmod;
+  sub uSideways by uSidewaysmod;
+  sub ain by ainmod;
+  sub franc by franc.sups;
+  sub lira by lira.sups;
+  sub peseta by peseta.sups;
+  sub l by l.sups;
+  sub six by sixsuperior;
+  sub eight by eightsuperior;
+  sub six.lnum_pnum by sixsuperior;
+  sub eight.lnum_pnum by eightsuperior;
+  sub jdotlessstroke by jdotlessstrokemod;
+  sub istroke by istrokemod;
+  sub idotlessstroke by IstrokeSmallmod;
+  sub lpalatalhook by lpalatalhookmod;
+  sub gsingle by scriptgmod;
+  sub Ismall by Ismallmod;
+  sub iota-latin by iotamod;
+  sub phi-latin by phimod;
+  sub eopenreversed by eTurnedopenmod;
+
+} sups;
+
+
+
+
+feature frac {
+# GSUB feature: Fractions
+# Lookups: 13
+
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 @frac2 slash;
+  ignore sub slash @frac2 @frac2 slash';
+  ignore sub slash' @frac2 @frac2 slash;
+  ignore sub slash @frac2 slash';
+  ignore sub slash' @frac2 slash;
+  ignore sub slash slash';
+  ignore sub slash' slash;
+  sub @frac2 slash' lookup frac_1_2 @frac2;
+  sub @frac' lookup frac_1_2 fraction;
+  sub @frac' lookup frac_1_2 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac' lookup frac_1_2 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 @frac3 fraction;
+  sub @frac4 @frac' lookup frac_1_14;
+  sub @frac2 space' lookup frac_1_14 @frac3;
+
+} frac;
+
+
+
+
+feature ordn {
+# GSUB feature: Ordinals
+# Lookups: 2
+
+  sub [zero one two three four five seven nine six eight] [A a]' lookup ordn_1_2;
+  sub [zero one two three four five seven nine six eight] [O o]' lookup ordn_1_2;
+  sub N o period by numero;
+
+} ordn;
+
+
+
+
+feature ss01 {
+# Stylistic Set 01–20
+
+#> feature
+  sub Eng by Eng.ss01;
+#< feature
+} ss01;
+
+
+
+feature ss02 {
+# GSUB feature: Stylistic Set 2
+# Lookups: 1
+
+  sub Eng by Eng.ss02;
+  sub Upsilon by UpsilonhookSymbol;
+  sub Upsilontonos by UpsilonacutehookSymbol;
+  sub Upsilondieresis by UpsilondieresishookSymbol;
+  sub Upsilondasia by Upsilondasia.salt;
+  sub Upsilondasiaoxia by Upsilondasiaoxia.salt;
+  sub Upsilondasiavaria by Upsilondasiavaria.salt;
+  sub Upsilondasiaperispomeni by Upsilondasiaperispomeni.salt;
+  sub Upsilonoxia by Upsilonoxia.salt;
+  sub Upsilonvaria by Upsilonvaria.salt;
+  sub Upsilonmacron by Upsilonmacron.salt;
+  sub Upsilonvrachy by Upsilonvrachy.salt;
+
+} ss02;
+
+
+
+
+feature ss03 {
+# GSUB feature: Stylistic Set 3
+# Lookups: 1
+
+  sub Eng by Eng.ss03;
+  sub beta by beta.salt;
+  sub theta by theta.salt;
+  sub xi by xi.salt;
+  sub phi by phi.salt;
+
+} ss03;
+
+
+
+
+feature ss04 {
+# GSUB feature: Stylistic Set 4
+# Lookups: 1
+
+  sub g by g.salt;
+  sub gstroke by gstroke.salt;
+  sub gcircumflex by gcircumflex.salt;
+  sub gbreve by gbreve.salt;
+  sub gdotaccent by gdotaccent.salt;
+  sub gcommaaccent by gcommaaccent.salt;
+  sub gcaron by gcaron.salt;
+  sub gacute by gacute.salt;
+  sub gmacron by gmacron.salt;
+
+} ss04;
+
+
+
+
+feature ss05 {
+# Stylistic Set 01–20
+
+#> feature
+  sub I by I.ss05;
+  sub IJ by IJ.ss05;
+  sub Iacute by Iacute.ss05;
+  sub Ibreve by Ibreve.ss05;
+  sub Icaron by Icaron.ss05;
+  sub Icircumflex by Icircumflex.ss05;
+  sub Idblgrave by Idblgrave.ss05;
+  sub Idieresis by Idieresis.ss05;
+  sub Idieresisacute by Idieresisacute.ss05;
+  sub Idotaccent by Idotaccent.ss05;
+  sub Idotbelow by Idotbelow.ss05;
+  sub Igrave by Igrave.ss05;
+  sub Ihookabove by Ihookabove.ss05;
+  sub Iinvertedbreve by Iinvertedbreve.ss05;
+  sub Imacron by Imacron.ss05;
+  sub Iogonek by Iogonek.ss05;
+  sub Itilde by Itilde.ss05;
+  sub Itildebelow by Itildebelow.ss05;
+  sub l by l.ss05;
+  sub lacute by lacute.ss05;
+  sub lbar by lbar.ss05;
+  sub lcaron by lcaron.ss05;
+  sub lcircumflexbelow by lcircumflexbelow.ss05;
+  sub lcommaaccent by lcommaaccent.ss05;
+  sub ldotbelow by ldotbelow.ss05;
+  sub ldotbelowmacron by ldotbelowmacron.ss05;
+  sub ldoublebar by ldoublebar.ss05;
+  sub lj by lj.ss05;
+  sub llinebelow by llinebelow.ss05;
+  sub lmiddletilde by lmiddletilde.ss05;
+  sub lslash by lslash.ss05;
+#< feature
+} ss05;
+
+
+feature ss06 {
+# GSUB feature: Stylistic Set 6
+# Lookups: 2
+
+  sub i j by ij.ss06;
+  sub ij by ij.ss06;
+
+} ss06;
+
+
+
+
+feature ss07 {
+# Stylistic Set 01–20
+
+  lookup cyrl_SRB;
+} ss07;
+feature salt {
+# Stylistic Alternates
+
+#> feature
+  sub Eng from [Eng.ss01 Eng.ss02 Eng.ss03];
+  sub I from [I.ss05];
+  sub IJ from [IJ.ss05];
+  sub Iacute from [Iacute.ss05];
+  sub Ibreve from [Ibreve.ss05];
+  sub Icaron from [Icaron.ss05];
+  sub Icircumflex from [Icircumflex.ss05];
+  sub Idblgrave from [Idblgrave.ss05];
+  sub Idieresis from [Idieresis.ss05];
+  sub Idieresisacute from [Idieresisacute.ss05];
+  sub Idotaccent from [Idotaccent.ss05];
+  sub Idotbelow from [Idotbelow.ss05];
+  sub Igrave from [Igrave.ss05];
+  sub Ihookabove from [Ihookabove.ss05];
+  sub Iinvertedbreve from [Iinvertedbreve.ss05];
+  sub Imacron from [Imacron.ss05];
+  sub Iogonek from [Iogonek.ss05];
+  sub Itilde from [Itilde.ss05];
+  sub Itildebelow from [Itildebelow.ss05];
+  sub Omega from [Omega.salt];
+  sub Upsilondasia from [Upsilondasia.salt];
+  sub Upsilondasiaoxia from [Upsilondasiaoxia.salt];
+  sub Upsilondasiaperispomeni from [Upsilondasiaperispomeni.salt];
+  sub Upsilondasiavaria from [Upsilondasiavaria.salt];
+  sub Upsilonmacron from [Upsilonmacron.salt];
+  sub Upsilonoxia from [Upsilonoxia.salt];
+  sub Upsilonvaria from [Upsilonvaria.salt];
+  sub Upsilonvrachy from [Upsilonvrachy.salt];
+  sub beta from [beta.salt];
+  sub commaaccentcomb from [commaaccentcomb.salt];
+  sub florin from [florin.salt];
+  sub g from [g.salt];
+  sub gacute from [gacute.salt];
+  sub gbreve from [gbreve.salt];
+  sub gcaron from [gcaron.salt];
+  sub gcircumflex from [gcircumflex.salt];
+  sub gcommaaccent from [gcommaaccent.salt];
+  sub gdotaccent from [gdotaccent.salt];
+  sub gmacron from [gmacron.salt];
+  sub gstroke from [gstroke.salt];
+  sub ij from [ij.ss06];
+  sub l from [l.ss05];
+  sub lacute from [lacute.ss05];
+  sub lbar from [lbar.ss05];
+  sub lcaron from [lcaron.ss05];
+  sub lcircumflexbelow from [lcircumflexbelow.ss05];
+  sub lcommaaccent from [lcommaaccent.ss05];
+  sub ldotbelow from [ldotbelow.ss05];
+  sub ldotbelowmacron from [ldotbelowmacron.ss05];
+  sub ldoublebar from [ldoublebar.ss05];
+  sub lj from [lj.ss05];
+  sub llinebelow from [llinebelow.ss05];
+  sub lmiddletilde from [lmiddletilde.ss05];
+  sub lslash from [lslash.ss05];
+  sub phi from [phi.salt];
+  sub theta from [theta.salt];
+  sub xi from [xi.salt];
+#< feature
+} salt;
+
+
+
+feature liga {
+# GSUB feature: Standard Ligatures
+# Lookups: 1
+
+  sub f f i by f_f_i;
+  sub f f iogonek by f_f_iogonek;
+  sub f f j by f_f_j;
+  sub f f idotbelow by f_f_idotbelow;
+  sub f i by fi;
+  sub f iogonek by f_iogonek;
+  sub f j by f_j;
+  sub f idotbelow by f_idotbelow;
+  sub f_f i by f_f_i;
+  sub f_f iogonek by f_f_iogonek;
+  sub f_f j by f_f_j;
+  sub f_f idotbelow by f_f_idotbelow;
+  sub f f idotless ogonek by f_f_idotless_ogonek;
+  sub f f b by f_f_b;
+  sub f f h by f_f_h;
+  sub f f idotless by f_f_idotless;
+  sub f f jdotless by f_f_jdotless;
+  sub f f k by f_f_k;
+  sub f f t by f_f_t;
+  sub f f idotless_ogonek by f_f_idotless_ogonek;
+  sub f f l by f_f_l;
+  sub f f istroke by f_f_istroke;
+  sub f f itildebelow by f_f_itildebelow;
+  sub f f igrave by f_f_igrave;
+  sub f f iacute by f_f_iacute;
+  sub f f icircumflex by f_f_icircumflex;
+  sub f f itilde by f_f_itilde;
+  sub f f idieresis by f_f_idieresis;
+  sub f f imacron by f_f_imacron;
+  sub f f ibreve by f_f_ibreve;
+  sub f f ihookabove by f_f_ihookabove;
+  sub f f icaron by f_f_icaron;
+  sub f f dotlessitildebelow by f_f_dotlessitildebelow;
+  sub f f idieresisacute by f_f_idieresisacute;
+  sub f f dotlessistroke by f_f_dotlessibar;
+  sub f f dotlessidotbelow by f_f_dotlessidotbelow;
+  sub f f iinvertedbreve by f_f_iinvertedbreve;
+  sub f f idblgrave by f_f_idblgrave;
+  sub f idotless ogonek by f_idotless_ogonek;
+  sub f b by f_b;
+  sub f f by f_f;
+  sub f h by f_h;
+  sub f idotless by f_idotless;
+  sub f jdotless by f_jdotless;
+  sub f k by f_k;
+  sub f lcaron by f_lcaron;
+  sub f t by f_t;
+  sub f tcaron by f_tcaron;
+  sub f idotless_ogonek by f_idotless_ogonek;
+  sub f l by fl;
+  sub f istroke by f_istroke;
+  sub f itildebelow by f_itildebelow;
+  sub f igrave by f_igrave;
+  sub f iacute by f_iacute;
+  sub f icircumflex by f_icircumflex;
+  sub f itilde by f_itilde;
+  sub f idieresis by f_idieresis;
+  sub f imacron by f_imacron;
+  sub f ibreve by f_ibreve;
+  sub f ihookabove by f_ihookabove;
+  sub f icaron by f_icaron;
+  sub f dotlessitildebelow by f_dotlessitildebelow;
+  sub f idieresisacute by f_idieresisacute;
+  sub f dotlessistroke by f_dotlessibar;
+  sub f dotlessidotbelow by f_dotlessidotbelow;
+  sub f iinvertedbreve by f_iinvertedbreve;
+  sub f idblgrave by f_idblgrave;
+  sub f jcircumflex by f_jcircumflex;
+  sub f lacute by f_lacute;
+  sub f lcommaaccent by f_lcommaaccent;
+  sub f tcommaaccent by f_tcommaaccent;
+  sub t t idotless ogonek by t_t_idotless_ogonek;
+  sub t idotless ogonek by t_idotless_ogonek;
+  sub t t f by t_t_f;
+  sub t t i by t_t_i;
+  sub t t iogonek by t_t_iogonek;
+  sub t t idotless by t_t_idotless;
+  sub t t idotless_ogonek by t_t_idotless_ogonek;
+  sub t t istroke by t_t_istroke;
+  sub t t itildebelow by t_t_itildebelow;
+  sub t t igrave by t_t_igrave;
+  sub t t iacute by t_t_iacute;
+  sub t t icircumflex by t_t_icircumflex;
+  sub t t itilde by t_t_itilde;
+  sub t t idieresis by t_t_idieresis;
+  sub t t imacron by t_t_imacron;
+  sub t t ibreve by t_t_ibreve;
+  sub t t icaron by t_t_icaron;
+  sub t t dotlessitildebelow by t_t_dotlessitildebelow;
+  sub t t idieresisacute by t_t_idieresisacute;
+  sub t t dotlessistroke by t_t_dotlessistroke;
+  sub t t iinvertedbreve by t_t_iinvertedbreve;
+  sub t t idblgrave by t_t_idblgrave;
+  sub t f by t_f;
+  sub t i by t_i;
+  sub t iogonek by t_iogonek;
+  sub t idotless by t_idotless;
+  sub t t by t_t;
+  sub t idotless_ogonek by t_idotless_ogonek;
+  sub t istroke by t_istroke;
+  sub t itildebelow by t_itildebelow;
+  sub t igrave by t_igrave;
+  sub t iacute by t_iacute;
+  sub t icircumflex by t_icircumflex;
+  sub t itilde by t_itilde;
+  sub t idieresis by t_idieresis;
+  sub t imacron by t_imacron;
+  sub t ibreve by t_ibreve;
+  sub t icaron by t_icaron;
+  sub t dotlessitildebelow by t_dotlessitildebelow;
+  sub t idieresisacute by t_idieresisacute;
+  sub t dotlessistroke by t_dotlessistroke;
+  sub t iinvertedbreve by t_iinvertedbreve;
+  sub t idblgrave by t_idblgrave;
+
+} liga;
+
+
+
+
+feature dlig {
+# GSUB feature: Discretionary Ligatures
+# Lookups: 1
+
+  sub c h by c_h;
+  sub c k by c_k;
+  sub c t by c_t;
+  sub ccedilla t by ccedilla_t;
+  sub s t by s_t;
+  sub scedilla t by scedilla_t;
+
+} dlig;
+
+
+
+
+feature onum {
+# Oldstyle Figures
+
+#> feature
+  sub approxequal by approxequal.onum_pnum;
+  sub cent.lnum_pnum by cent.onum_pnum;
+  sub cent by cent.onum_pnum;
+  sub divide by divide.onum_pnum;
+  sub dollar.lnum_pnum by dollar.onum_pnum;
+  sub dollar by dollar.onum_pnum;
+  sub eight.lnum_pnum by eight.onum_pnum;
+  sub eight by eight.onum_tnum;
+  sub equal by equal.onum_pnum;
+  sub euro.lnum_pnum by euro.onum_pnum;
+  sub euro by euro.onum_pnum;
+  sub five.lnum_pnum by five.onum_pnum;
+  sub five by five.onum_pnum;
+  sub four.lnum_pnum by four.onum_pnum;
+  sub four by four.onum_pnum;
+  sub franc.lnum_pnum by franc;
+  sub greater by greater.onum_pnum;
+  sub greaterequal by greaterequal.onum_pnum;
+  sub less by less.onum_pnum;
+  sub lessequal by lessequal.onum_pnum;
+  sub lira.lnum_pnum by lira.onum_pnum;
+  sub lira by lira.onum_pnum;
+  sub logicalnot by logicalnot.onum_pnum;
+  sub minus by minus.onum_pnum;
+  sub multiply by multiply.onum_pnum;
+  sub nine.lnum_pnum by nine.onum_pnum;
+  sub nine by nine.onum_pnum;
+  sub notequal by notequal.onum_pnum;
+  sub numbersign.lnum_pnum by numbersign.onum_pnum;
+  sub numbersign by numbersign.onum_pnum;
+  sub one.lnum_pnum by one.onum_pnum;
+  sub one by one.onum_pnum;
+  sub peseta.lnum_pnum by peseta.onum_pnum;
+  sub peseta by peseta.onum_pnum;
+  sub plus by plus.onum_pnum;
+  sub plusminus by plusminus.onum_pnum;
+  sub seven.lnum_pnum by seven.onum_pnum;
+  sub seven by seven.onum_pnum;
+  sub six.lnum_pnum by six.onum_pnum;
+  sub six by six.onum_tnum;
+  sub sterling.lnum_pnum by sterling.onum_pnum;
+  sub sterling by sterling.onum_pnum;
+  sub three.lnum_pnum by three.onum_pnum;
+  sub three by three.onum_pnum;
+  sub two.lnum_pnum by two.onum_pnum;
+  sub two by two.onum_pnum;
+  sub yen.lnum_pnum by yen.onum_pnum;
+  sub yen by yen.onum_pnum;
+  sub zero.lnum_pnum by zero.onum_pnum;
+  sub zero by zero.onum_pnum;
+#< feature
+} onum;
+
+
+feature lnum {
+# Lining Figures
+
+#> feature
+  sub approxequal.onum_pnum by approxequal;
+  sub cent.onum_pnum by cent.lnum_pnum;
+  sub cent.onum_tnum by cent;
+  sub divide.onum_pnum by divide;
+  sub dollar.onum_pnum by dollar.lnum_pnum;
+  sub dollar.onum_tnum by dollar;
+  sub eight.onum_pnum by eight.lnum_pnum;
+  sub eight.onum_tnum by eight.lnum_pnum;
+  sub equal.onum_pnum by equal;
+  sub euro.onum_pnum by euro.lnum_pnum;
+  sub euro.onum by euro;
+  sub five.onum_pnum by five.lnum_pnum;
+  sub five.onum_tnum by five.lnum_pnum;
+  sub four.onum_pnum by four.lnum_pnum;
+  sub four.onum_tnum by four.lnum_pnum;
+  sub franc.onum_tnum by franc.lnum_pnum;
+  sub greater.onum_pnum by greater;
+  sub greaterequal.onum_pnum by greaterequal;
+  sub less.onum_pnum by less;
+  sub lessequal.onum_pnum by lessequal;
+  sub lira.onum_pnum by lira.lnum_pnum;
+  sub lira.onum_tnum by lira;
+  sub logicalnot.onum_pnum by logicalnot;
+  sub minus.onum_pnum by minus;
+  sub multiply.onum_pnum by multiply;
+  sub nine.onum_pnum by nine.lnum_pnum;
+  sub nine.onum_tnum by nine.lnum_pnum;
+  sub notequal.onum_pnum by notequal;
+  sub numbersign.onum_pnum by numbersign.lnum_pnum;
+  sub numbersign.onum_tnum by numbersign;
+  sub one.onum_pnum by one.lnum_pnum;
+  sub one.onum_tnum by one.lnum_pnum;
+  sub peseta.onum_pnum by peseta.lnum_pnum;
+  sub peseta.onum_tnum by peseta;
+  sub plus.onum_pnum by plus;
+  sub plusminus.onum_pnum by plusminus;
+  sub seven.onum_pnum by seven.lnum_pnum;
+  sub seven.onum_tnum by seven.lnum_pnum;
+  sub six.onum_pnum by six.lnum_pnum;
+  sub six.onum_tnum by six.lnum_pnum;
+  sub sterling.onum_pnum by sterling.lnum_pnum;
+  sub sterling.onum_tnum by sterling;
+  sub three.onum_pnum by three.lnum_pnum;
+  sub three.onum_tnum by three.lnum_pnum;
+  sub two.onum_pnum by two.lnum_pnum;
+  sub two.onum_tnum by two.lnum_pnum;
+  sub yen.onum_pnum by yen.lnum_pnum;
+  sub yen.onum by yen;
+  sub zero.onum_pnum by zero.lnum_pnum;
+  sub zero.onum_tnum by zero.lnum_pnum;
+#< feature
+} lnum;
+
+
+feature tnum {
+# Tabular Figures
+
+#> feature
+  sub approxequal.onum_pnum by approxequal;
+  sub cent.onum_pnum by cent.onum_tnum;
+  sub cent.lnum_pnum by cent;
+  sub divide.onum_pnum by divide;
+  sub dollar.onum_pnum by dollar.onum_tnum;
+  sub dollar.lnum_pnum by dollar;
+  sub eight.onum_pnum by eight.onum_tnum;
+  sub eight.lnum_pnum by eight.onum_tnum;
+  sub equal.onum_pnum by equal;
+  sub euro.onum_pnum by euro;
+  sub euro.lnum_pnum by euro.onum;
+  sub five.onum_pnum by five.onum_tnum;
+  sub five.lnum_pnum by five.onum_tnum;
+  sub four.onum_pnum by four.onum_tnum;
+  sub four.lnum_pnum by four.onum_tnum;
+  sub franc.lnum_pnum by franc.onum_tnum;
+  sub greater.onum_pnum by greater;
+  sub greaterequal.onum_pnum by greaterequal;
+  sub less.onum_pnum by less;
+  sub lessequal.onum_pnum by lessequal;
+  sub lira.onum_pnum by lira.onum_tnum;
+  sub lira.lnum_pnum by lira;
+  sub logicalnot.onum_pnum by logicalnot;
+  sub minus.onum_pnum by minus;
+  sub multiply.onum_pnum by multiply;
+  sub nine.onum_pnum by nine.onum_tnum;
+  sub nine.lnum_pnum by nine.onum_tnum;
+  sub notequal.onum_pnum by notequal;
+  sub numbersign.onum_pnum by numbersign.onum_tnum;
+  sub numbersign.lnum_pnum by numbersign;
+  sub one.onum_pnum by one.onum_tnum;
+  sub one.lnum_pnum by one.onum_tnum;
+  sub peseta.onum_pnum by peseta.onum_tnum;
+  sub peseta.lnum_pnum by peseta;
+  sub plus.onum_pnum by plus;
+  sub plusminus.onum_pnum by plusminus;
+  sub seven.onum_pnum by seven.onum_tnum;
+  sub seven.lnum_pnum by seven.onum_tnum;
+  sub six.onum_pnum by six.onum_tnum;
+  sub six.lnum_pnum by six.onum_tnum;
+  sub sterling.onum_pnum by sterling.onum_tnum;
+  sub sterling.lnum_pnum by sterling;
+  sub three.onum_pnum by three.onum_tnum;
+  sub three.lnum_pnum by three.onum_tnum;
+  sub two.onum_pnum by two.onum_tnum;
+  sub two.lnum_pnum by two.onum_tnum;
+  sub yen.onum_pnum by yen;
+  sub yen.lnum_pnum by yen.onum;
+  sub zero.onum_pnum by zero.onum_tnum;
+  sub zero.lnum_pnum by zero.onum_tnum;
+#< feature
+} tnum;
+
+
+feature pnum {
+# Proportional Figures
+
+#> feature
+  sub approxequal by approxequal.onum_pnum;
+  sub cent.onum_tnum by cent.onum_pnum;
+  sub cent by cent.onum_pnum;
+  sub divide by divide.onum_pnum;
+  sub dollar.onum_tnum by dollar.onum_pnum;
+  sub dollar by dollar.onum_pnum;
+  sub eight.onum_tnum by eight.onum_pnum;
+  sub eight by eight.onum_pnum;
+  sub equal by equal.onum_pnum;
+  sub euro.onum by euro.onum_pnum;
+  sub euro by euro.onum_pnum;
+  sub five.onum_tnum by five.onum_pnum;
+  sub five by five.onum_pnum;
+  sub four.onum_tnum by four.onum_pnum;
+  sub four by four.onum_pnum;
+  sub franc.onum_tnum by franc;
+  sub greater by greater.onum_pnum;
+  sub greaterequal by greaterequal.onum_pnum;
+  sub less by less.onum_pnum;
+  sub lessequal by lessequal.onum_pnum;
+  sub lira.onum_tnum by lira.onum_pnum;
+  sub lira by lira.onum_pnum;
+  sub logicalnot by logicalnot.onum_pnum;
+  sub minus by minus.onum_pnum;
+  sub multiply by multiply.onum_pnum;
+  sub nine.onum_tnum by nine.onum_pnum;
+  sub nine by nine.onum_pnum;
+  sub notequal by notequal.onum_pnum;
+  sub numbersign.onum_tnum by numbersign.onum_pnum;
+  sub numbersign by numbersign.onum_pnum;
+  sub one.onum_tnum by one.onum_pnum;
+  sub one by one.onum_pnum;
+  sub peseta.onum_tnum by peseta.onum_pnum;
+  sub peseta by peseta.onum_pnum;
+  sub plus by plus.onum_pnum;
+  sub plusminus by plusminus.onum_pnum;
+  sub seven.onum_tnum by seven.onum_pnum;
+  sub seven by seven.onum_pnum;
+  sub six.onum_tnum by six.onum_pnum;
+  sub six by six.onum_pnum;
+  sub sterling.onum_tnum by sterling.onum_pnum;
+  sub sterling by sterling.onum_pnum;
+  sub three.onum_tnum by three.onum_pnum;
+  sub three by three.onum_pnum;
+  sub two.onum_tnum by two.onum_pnum;
+  sub two by two.onum_pnum;
+  sub yen.onum by yen.onum_pnum;
+  sub yen by yen.onum_pnum;
+  sub zero.onum_tnum by zero.onum_pnum;
+  sub zero by zero.onum_pnum;
+#< feature
+} pnum;
+
+
+feature hist {
+# Historical Forms
+
+#> feature
+  sub s by longs;
+#< feature
+} hist;
+
+
+

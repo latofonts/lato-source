@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="weight" minimum="100" maximum="900" default="100">
+      <labelname xml:lang="en">Weight</labelname>
+      <map input="100" output="0"/>
+      <map input="200" output="100"/>
+      <map input="300" output="250"/>
+      <map input="400" output="540"/>
+      <map input="500" output="600"/>
+      <map input="600" output="666"/>
+      <map input="700" output="780"/>
+      <map input="800" output="880"/>
+      <map input="900" output="1000"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Lato-Black.ttf" name="Black" familyname="Lato" stylename="Black">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Lato-Hairline.ttf" name="Hairline" familyname="Lato" stylename="Hairline">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Hairline" familyname="Lato" stylename="Hairline">
+      <location>
+        <dimension name="weight" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Thin" familyname="Lato" stylename="Thin">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Light" familyname="Lato" stylename="Light">
+      <location>
+        <dimension name="weight" xvalue="250"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Regular" familyname="Lato" stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="540"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Medium" familyname="Lato" stylename="Medium">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Semibold" familyname="Lato" stylename="Semibold">
+      <location>
+        <dimension name="weight" xvalue="666"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Bold" familyname="Lato" stylename="Bold">
+      <location>
+        <dimension name="weight" xvalue="780"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Heavy" familyname="Lato" stylename="Heavy">
+      <location>
+        <dimension name="weight" xvalue="880"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Black" familyname="Lato" stylename="Black">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

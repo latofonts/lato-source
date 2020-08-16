@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
     <axes>
-        <axis default="100" name="weight" tag="wght" minimum="100" maximum="900">
+        <axis default="400" name="weight" tag="wght" minimum="100" maximum="900">
             <labelname xml:lang="en">Weight</labelname>
             <map input="100" output="0" />
             <map input="200" output="100" />
@@ -15,6 +15,11 @@
         </axis>
     </axes>
     <sources>
+        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
         <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-Italic.ufo" name="Italic" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
@@ -27,11 +32,6 @@
         <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
             <location>
                 <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
-            <location>
-                <dimension name="weight" xvalue="0" />
             </location>
         </source>
     </sources>
