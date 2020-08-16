@@ -46,6 +46,8 @@ python3 03_build_lato_fontmake.py
 - Added scripted build system (see Building)
 - Improved anchors for `mark` & `mkmk` (WIP)
 - Added `table STAT` definition in FEA
+- **TODO** Automate `STAT` building either via statmake or FEA. Right now it’s done via FEA but it’s stupid since the statics get the STAT for the VF. Perhaps just remove STAT from the statics in a postprocessing step
+- **TODO** Reduce the amount of glyphs for which `mark` and `mkmk` are generated. Right now the ufo2ft feature builder makes the feature for far too many glyphs which bloats the fonts. Customize the feature writer.
 
 ### Version 3.002.dev1 (2019-10-14)
 
