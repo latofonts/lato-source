@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palatalizationcomb-cy" format="2">
   <unicode hex="0484"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="128.728" y="1303.338" type="curve" smooth="yes"/>
-      <point x="195.088" y="1303.338"/>
-      <point x="256.098" y="1267.972"/>
-      <point x="256.098" y="1155.322" type="curve"/>
-      <point x="408.634" y="1155.322" type="line"/>
-      <point x="408.634" y="1335.912"/>
-      <point x="330.302" y="1436.224"/>
-      <point x="144.712" y="1436.224" type="curve" smooth="yes"/>
-      <point x="-70.94200000000001" y="1436.224"/>
+      <point x="128.728" y="1303.34" type="curve" smooth="yes" name="n00"/>
+      <point x="195.088" y="1303.34"/>
+      <point x="256.098" y="1267.97"/>
+      <point x="256.098" y="1155.32" type="curve" name="n03"/>
+      <point x="408.634" y="1155.32" type="line" name="n04"/>
+      <point x="408.634" y="1335.91"/>
+      <point x="330.302" y="1436.22"/>
+      <point x="144.712" y="1436.22" type="curve" smooth="yes" name="n07"/>
+      <point x="-70.942" y="1436.22"/>
       <point x="-161.682" y="1285.21"/>
-      <point x="-408.634" y="1285.21" type="curve"/>
-      <point x="-408.634" y="1154.988" type="line"/>
-      <point x="-121.042" y="1154.988"/>
-      <point x="-36.646" y="1303.338"/>
+      <point x="-408.634" y="1285.21" type="curve" name="n10"/>
+      <point x="-408.634" y="1154.99" type="line" name="n11"/>
+      <point x="-121.042" y="1154.99"/>
+      <point x="-36.646" y="1303.34"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_palatalcyr=palatalcyrcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_palatalcyr=palatalcyrcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1154.988" width="130.222" />
+      <hstem pos="1176.322" width="-21" />
+      <hstem pos="1303.338" width="132.886" />
+      <vstem pos="256.098" width="152.536" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

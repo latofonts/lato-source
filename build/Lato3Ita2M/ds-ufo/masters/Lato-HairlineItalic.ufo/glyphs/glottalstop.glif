@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="glottalstop" format="2">
   <advance width="612"/>
   <unicode hex="0294"/>
-  <guideline x="429" y="0" angle="82.9991"/>
   <anchor x="52" y="235" name="bar"/>
   <anchor x="49" y="-70" name="bottom"/>
   <outline>
@@ -35,10 +34,18 @@
       <point x="125" y="490" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="429" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1387" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

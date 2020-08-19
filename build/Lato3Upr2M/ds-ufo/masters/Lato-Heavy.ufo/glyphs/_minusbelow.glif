@@ -1,18 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_minusbelow" format="2">
-  <advance width="800.4"/>
+  <advance width="800"/>
   <outline>
     <contour>
-      <point x="143.6" y="-370.4" type="line"/>
+      <point x="143.6" y="-370.4" type="line" name="n00"/>
       <point x="656.8" y="-370.4" type="line"/>
-      <point x="656.8" y="-194.0" type="line"/>
-      <point x="143.6" y="-194.0" type="line"/>
+      <point x="656.8" y="-194" type="line"/>
+      <point x="143.6" y="-194" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-370.4" width="176.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

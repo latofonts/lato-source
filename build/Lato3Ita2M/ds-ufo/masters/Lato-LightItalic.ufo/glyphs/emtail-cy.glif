@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emtail-cy" format="2">
-  <advance width="1411.25"/>
+  <advance width="1411"/>
   <unicode hex="04CE"/>
-  <guideline x="682.25" y="0.0" angle="82.9991"/>
-  <anchor x="764.0" y="1120.0" name="top"/>
-  <anchor x="578.25" y="-70.0" name="bottom"/>
+  <anchor x="578.25" y="-70" name="bottom"/>
+  <anchor x="764" y="1120" name="top"/>
   <outline>
-    <contour>
-      <point x="1128.75" y="71.0" type="line"/>
-      <point x="1119.5" y="0.0" type="line"/>
-      <point x="1218.0" y="0.0" type="line"/>
-      <point x="1129.5" y="-355.0" type="line"/>
-      <point x="1184.75" y="-355.0" type="line" smooth="yes"/>
-      <point x="1202.75" y="-355.0"/>
-      <point x="1215.0" y="-344.0"/>
-      <point x="1217.5" y="-324.5" type="curve"/>
-      <point x="1310.75" y="71.0" type="line"/>
-    </contour>
     <component base="em-cy" xOffset="-0.25"/>
+    <contour>
+      <point x="1128.75" y="71" type="line" name="n00"/>
+      <point x="1119.5" y="0" type="line" name="n01"/>
+      <point x="1218" y="0" type="line"/>
+      <point x="1129.5" y="-355" type="line" name="n03"/>
+      <point x="1184.75" y="-355" type="line" smooth="yes"/>
+      <point x="1202.75" y="-355"/>
+      <point x="1215" y="-344"/>
+      <point x="1217.5" y="-324.5" type="curve"/>
+      <point x="1310.75" y="71" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="82.9991" x="658" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-334" width="-21" />
+      <hstem pos="0" width="71" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

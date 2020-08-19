@@ -1,39 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eopenretroflexhook" format="2">
-  <advance width="855.64"/>
+  <advance width="856"/>
   <unicode hex="1D93"/>
-  <guideline x="420.644" y="0.0" angle="82.9991"/>
-  <anchor x="429.978" y="1120.0" name="top"/>
-  <anchor x="355.95" y="-70.0" name="bottom"/>
+  <anchor x="355.95" y="-70" name="bottom"/>
   <anchor x="714.588" y="154.532" name="hook"/>
+  <anchor x="429.978" y="1120" name="top"/>
   <outline>
+    <component base="eopen"/>
     <contour>
-      <point x="549.414" y="-33.74799999999999" type="line" smooth="yes"/>
-      <point x="528.4159999999999" y="-201.07"/>
+      <point x="549.414" y="-33.748" type="line" smooth="yes"/>
+      <point x="528.416" y="-201.07"/>
       <point x="580.062" y="-355.686"/>
-      <point x="772.334" y="-355.686" type="curve" smooth="yes"/>
+      <point x="772.334" y="-355.686" type="curve" smooth="yes" name="n03"/>
       <point x="824.32" y="-355.686"/>
       <point x="870.978" y="-344.022"/>
       <point x="932.292" y="-318.364" type="curve"/>
       <point x="926.296" y="-234.774" type="line"/>
-      <point x="921.3" y="-200.79999999999998"/>
+      <point x="921.3" y="-200.8"/>
       <point x="901.316" y="-194.14"/>
       <point x="884.996" y="-194.14" type="curve" smooth="yes"/>
       <point x="868.004" y="-194.14"/>
       <point x="838.99" y="-207.816"/>
-      <point x="802.306" y="-207.816" type="curve" smooth="yes"/>
+      <point x="802.306" y="-207.816" type="curve" smooth="yes" name="n13"/>
       <point x="730.928" y="-207.816"/>
-      <point x="714.5840000000001" y="-149.442"/>
-      <point x="727.256" y="-49.732" type="curve"/>
-      <point x="750.594" y="140.642" type="line"/>
-      <point x="571.42" y="146.636" type="line"/>
+      <point x="714.584" y="-149.442"/>
+      <point x="727.256" y="-49.732" type="curve" smooth="yes"/>
+      <point x="750.594" y="140.642" type="line" name="n17"/>
+      <point x="750.594" y="140.642"/>
+      <point x="571.42" y="146.636"/>
+      <point x="571.42" y="146.636" type="curve"/>
     </contour>
-    <component base="eopen"/>
   </outline>
+  <guideline angle="82.9991" x="398" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-355.686" width="147.87" />
+      <hstem pos="140.642" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

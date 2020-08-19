@@ -1,36 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gbridgeabovecomb" format="2">
   <unicode hex="0346"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1590.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1590" name="top"/>
   <outline>
     <contour>
-      <point x="205.8" y="1160.0" type="line"/>
-      <point x="339.0" y="1160.0" type="line"/>
-      <point x="339.0" y="1428.0" type="line"/>
-      <point x="205.8" y="1428.0" type="line"/>
+      <point x="205.8" y="1160" type="line" name="n00"/>
+      <point x="339" y="1160" type="line" name="n01"/>
+      <point x="339" y="1428" type="line"/>
+      <point x="205.8" y="1428" type="line"/>
     </contour>
     <contour>
-      <point x="-339.0" y="1314.0" type="line"/>
-      <point x="339.0" y="1314.0" type="line"/>
-      <point x="339.0" y="1428.0" type="line"/>
-      <point x="-339.0" y="1428.0" type="line"/>
+      <point x="-339" y="1314" type="line"/>
+      <point x="339" y="1314" type="line"/>
+      <point x="339" y="1428" type="line"/>
+      <point x="-339" y="1428" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="-339.0" y="1160.0" type="line"/>
-      <point x="-205.8" y="1160.0" type="line"/>
-      <point x="-205.8" y="1428.0" type="line"/>
-      <point x="-339.0" y="1428.0" type="line"/>
+      <point x="-339" y="1160" type="line"/>
+      <point x="-205.8" y="1160" type="line"/>
+      <point x="-205.8" y="1428" type="line" name="n10"/>
+      <point x="-339" y="1428" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_bridgebelow=bridgeabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_bridgebelow=bridgeabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <vstem pos="-339" width="133.2" />
+      <vstem pos="205.8" width="133.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

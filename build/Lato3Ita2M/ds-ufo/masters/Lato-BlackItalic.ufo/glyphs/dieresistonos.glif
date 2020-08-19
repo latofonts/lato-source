@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresistonos" format="2">
   <advance width="736"/>
   <unicode hex="0385"/>
-  <guideline x="368" y="0" angle="82.9991"/>
   <anchor x="385" y="1120" name="_top"/>
   <outline>
     <contour>
@@ -42,13 +41,24 @@
       <point x="633" y="1539"/>
       <point x="497" y="1539"/>
       <point x="497" y="1539" type="curve"/>
-      <point x="409" y="1149" type="line"/>
+      <point x="497" y="1539"/>
+      <point x="409" y="1149"/>
+      <point x="409" y="1149" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1170" width="-21" />
+      <hstem pos="1183" width="257" />
+      <hstem pos="1539" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

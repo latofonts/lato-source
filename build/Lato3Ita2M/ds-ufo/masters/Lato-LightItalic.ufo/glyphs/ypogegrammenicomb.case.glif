@@ -1,32 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ypogegrammenicomb.case" format="2">
-  <guideline x="214.0" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <anchor x="-1.0" y="-453.0" name="bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="-1" y="-453" name="bottom"/>
   <outline>
     <contour>
-      <point x="-77.5" y="-248.0" type="line" smooth="yes"/>
+      <point x="-77.5" y="-248" type="line" smooth="yes"/>
       <point x="-89.5" y="-344.75"/>
-      <point x="-57.25" y="-384.5"/>
+      <point x="-57.25" y="-384.5" name="n02"/>
       <point x="21.75" y="-384.5" type="curve" smooth="yes"/>
-      <point x="54.0" y="-384.5"/>
+      <point x="54" y="-384.5"/>
       <point x="75.5" y="-373.25"/>
-      <point x="78.5" y="-351.25" type="curve"/>
+      <point x="78.5" y="-351.25" type="curve" smooth="yes"/>
       <point x="80.5" y="-334.75" type="line"/>
       <point x="56.75" y="-334.75" type="line" smooth="yes"/>
       <point x="-3.5" y="-334.75"/>
       <point x="-17.25" y="-305.25"/>
       <point x="-8.75" y="-236.75" type="curve" smooth="yes"/>
-      <point x="11.25" y="-74.5" type="line"/>
+      <point x="11.25" y="-74.5" type="line" name="n12"/>
       <point x="-56.25" y="-74.5" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="222" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-363.5" width="-21" />
+      <hstem pos="-74.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

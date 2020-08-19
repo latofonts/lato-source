@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_tcaron" format="2">
   <advance width="1379"/>
-  <guideline x="728" y="0" angle="82.9991"/>
   <outline>
+    <component base="f_t"/>
     <contour>
       <point x="1305" y="1500" type="line"/>
       <point x="1199" y="1138" type="line"/>
@@ -17,12 +17,19 @@
       <point x="1513" y="1500"/>
       <point x="1477" y="1500" type="curve" smooth="yes"/>
     </contour>
-    <component base="f_t"/>
   </outline>
+  <guideline angle="82.9991" x="728" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1159" width="-21" />
+      <hstem pos="1500" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

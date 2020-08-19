@@ -1,40 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palatalhookcomb" format="2">
   <unicode hex="0321"/>
-  <guideline x="84.676" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="-470.0" name="bottom"/>
   <anchor x="178.3" y="-83.34" name="_bottom"/>
+  <anchor x="0" y="-470" name="bottom"/>
   <outline>
     <contour>
       <point x="69.394" y="-124.678" type="line" smooth="yes"/>
       <point x="61.056" y="-195.378"/>
-      <point x="23.369999999999997" y="-236.752"/>
-      <point x="-23.336" y="-236.752" type="curve" smooth="yes"/>
+      <point x="23.37" y="-236.752"/>
+      <point x="-23.336" y="-236.752" type="curve" smooth="yes" name="n03"/>
       <point x="-84.042" y="-236.752"/>
       <point x="-79.06" y="-171.04"/>
-      <point x="-105.378" y="-171.04" type="curve"/>
+      <point x="-105.378" y="-171.04" type="curve" smooth="yes"/>
       <point x="-110.708" y="-171.04"/>
-      <point x="-120.03399999999999" y="-171.04"/>
-      <point x="-134.69" y="-177.036" type="curve" smooth="yes"/>
+      <point x="-120.034" y="-171.04"/>
+      <point x="-134.69" y="-177.036" type="curve"/>
       <point x="-237.928" y="-215.002" type="line"/>
       <point x="-208.61" y="-330.946"/>
       <point x="-135.304" y="-378.296"/>
-      <point x="-42.650000000000006" y="-378.296" type="curve" smooth="yes"/>
+      <point x="-42.65" y="-378.296" type="curve" smooth="yes" name="n13"/>
       <point x="117.62" y="-378.296"/>
       <point x="208.262" y="-256.328"/>
-      <point x="224.594" y="-124.676" type="curve"/>
-      <point x="236.928" y="-20.0" type="line"/>
-      <point x="82.728" y="-20.0" type="line"/>
+      <point x="224.594" y="-124.676" type="curve" smooth="yes"/>
+      <point x="236.928" y="-20" type="line" name="n17"/>
+      <point x="236.928" y="-20"/>
+      <point x="82.728" y="-20"/>
+      <point x="82.728" y="-20" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="94" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_hookpalatalized=palatalhookcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_hookpalatalized=palatalhookcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-378.296" width="141.544" />
+      <hstem pos="-20." width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

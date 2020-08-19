@@ -1,18 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleprimemod" format="2">
-  <advance width="966.52"/>
+  <advance width="967"/>
   <unicode hex="02BA"/>
   <unicode hex="2033"/>
-  <guideline x="483.26" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="469.02" y="1611.08" type="line"/>
-      <point x="271.65999999999997" y="981.48" type="line"/>
+      <point x="469.02" y="1611.08" type="line" name="n00"/>
+      <point x="271.66" y="981.48" type="line" name="n01"/>
       <point x="346.16" y="981.48" type="line" smooth="yes"/>
       <point x="368.36" y="981.48"/>
       <point x="384.94" y="999.44"/>
       <point x="393.5" y="1014.32" type="curve"/>
-      <point x="625.5" y="1528.98" type="line" smooth="yes"/>
+      <point x="625.5" y="1528.98" type="line"/>
       <point x="648.86" y="1573.76"/>
       <point x="629.12" y="1611.08"/>
       <point x="583.48" y="1611.08" type="curve" smooth="yes"/>
@@ -24,16 +23,24 @@
       <point x="730.5" y="981.48"/>
       <point x="747.08" y="999.44"/>
       <point x="755.64" y="1014.32" type="curve"/>
-      <point x="987.64" y="1528.98" type="line" smooth="yes"/>
-      <point x="1011.0" y="1573.76"/>
+      <point x="987.64" y="1528.98" type="line"/>
+      <point x="1011" y="1573.76"/>
       <point x="991.26" y="1611.08"/>
       <point x="945.16" y="1611.08" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="446" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1002.48" width="-21" />
+      <hstem pos="1611.08" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

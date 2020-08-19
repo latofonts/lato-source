@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravetonecomb.case" format="2">
-  <guideline x="256.14" y="0.0" angle="82.9991"/>
-  <anchor x="9.0" y="1939.0" name="top"/>
-  <anchor x="147.0" y="1457.0" name="_Top"/>
+  <anchor x="147" y="1457" name="_Top"/>
+  <anchor x="9" y="1939" name="top"/>
   <outline>
     <contour>
-      <point x="-212.38" y="1851.98" type="line"/>
-      <point x="40.11999999999999" y="1564.52" type="line"/>
+      <point x="-212.38" y="1851.98" type="line" name="n00"/>
+      <point x="40.12" y="1564.52" type="line" smooth="yes"/>
       <point x="56.08" y="1546.56"/>
-      <point x="68.47999999999999" y="1545.56"/>
-      <point x="94.53999999999999" y="1545.56" type="curve" smooth="yes"/>
+      <point x="68.48" y="1545.56" name="n03"/>
+      <point x="94.54" y="1545.56" type="curve" smooth="yes"/>
       <point x="211.38" y="1545.56" type="line"/>
-      <point x="36.82000000000001" y="1819.62" type="line"/>
-      <point x="19.10000000000001" y="1848.9"/>
-      <point x="3.6200000000000045" y="1851.98"/>
+      <point x="36.82" y="1819.62" type="line"/>
+      <point x="19.1" y="1848.9"/>
+      <point x="3.62" y="1851.98"/>
       <point x="-36.9" y="1851.98" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="234" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1566.56" width="-21" />
+      <hstem pos="1851.98" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

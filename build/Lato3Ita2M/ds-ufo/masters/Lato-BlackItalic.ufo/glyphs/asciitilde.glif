@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciitilde" format="2">
   <advance width="1160"/>
   <unicode hex="007E"/>
-  <guideline x="580" y="0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="728" y="684" type="curve"/>
@@ -27,10 +26,20 @@
       <point x="792" y="684"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="580" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="403" width="-21" />
+      <hstem pos="428" width="256" />
+      <hstem pos="500" width="256" />
+      <hstem pos="802" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

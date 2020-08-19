@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_zero" format="2">
-  <advance width="957.04"/>
+  <advance width="957"/>
   <outline>
     <contour>
-      <point x="462.52" y="-11.56" type="curve" smooth="yes"/>
+      <point x="462.52" y="-11.56" type="curve" smooth="yes" name="n00"/>
       <point x="663.06" y="-11.56"/>
       <point x="855.98" y="149.8"/>
       <point x="855.98" y="497.52" type="curve" smooth="yes"/>
       <point x="855.98" y="845.46"/>
       <point x="663.06" y="1005.26"/>
-      <point x="462.52" y="1005.26" type="curve" smooth="yes"/>
+      <point x="462.52" y="1005.26" type="curve" smooth="yes" name="n06"/>
       <point x="263.32" y="1005.26"/>
       <point x="72.62" y="845.46"/>
       <point x="72.62" y="497.52" type="curve" smooth="yes"/>
@@ -17,14 +17,14 @@
       <point x="263.32" y="-11.56"/>
     </contour>
     <contour>
-      <point x="462.52" y="796.72" type="curve" smooth="yes"/>
+      <point x="462.52" y="796.72" type="curve" smooth="yes" name="n12"/>
       <point x="536.62" y="796.72"/>
       <point x="603.88" y="756.12"/>
       <point x="603.88" y="497.52" type="curve" smooth="yes"/>
       <point x="603.88" y="238.7"/>
-      <point x="536.62" y="197.54000000000002"/>
-      <point x="462.52" y="197.54000000000002" type="curve" smooth="yes"/>
-      <point x="389.42" y="197.54000000000002"/>
+      <point x="536.62" y="197.54"/>
+      <point x="462.52" y="197.54" type="curve" smooth="yes" name="n18"/>
+      <point x="389.42" y="197.54"/>
       <point x="325.06" y="238.7"/>
       <point x="325.06" y="497.52" type="curve" smooth="yes"/>
       <point x="325.06" y="756.12"/>
@@ -32,9 +32,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-11.56" width="209.1" />
+      <hstem pos="796.72" width="208.54" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

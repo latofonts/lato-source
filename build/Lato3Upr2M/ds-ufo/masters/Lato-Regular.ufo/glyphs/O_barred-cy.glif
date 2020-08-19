@@ -1,52 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Obarred-cy" format="2">
-  <advance width="1600.94"/>
+  <advance width="1601"/>
   <unicode hex="04E8"/>
   <anchor x="805.66" y="1511.66" name="Top"/>
+  <anchor x="800.74" y="-70" name="bottom"/>
   <anchor x="805.66" y="1511.66" name="top"/>
-  <anchor x="800.74" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="245.12" y="656.62" type="line"/>
+      <point x="245.12" y="656.62" type="line" name="n00"/>
       <point x="1340.54" y="656.62" type="line"/>
       <point x="1340.54" y="802.82" type="line"/>
-      <point x="245.12" y="802.82" type="line"/>
+      <point x="245.12" y="802.82" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="1506.6" y="716.2" type="curve" smooth="yes"/>
+      <point x="1506.6" y="716.2" type="curve" smooth="yes" name="n04"/>
       <point x="1506.6" y="1145.24"/>
       <point x="1222.08" y="1448.4"/>
-      <point x="800.28" y="1448.4" type="curve" smooth="yes"/>
+      <point x="800.28" y="1448.4" type="curve" smooth="yes" name="n07"/>
       <point x="380.32" y="1448.4"/>
       <point x="93.8" y="1145.4"/>
-      <point x="93.8" y="716.2" type="curve" smooth="yes"/>
+      <point x="93.8" y="716.2" type="curve" smooth="yes" name="n10"/>
       <point x="93.8" y="286.08"/>
       <point x="380.32" y="-15.08"/>
-      <point x="800.28" y="-15.08" type="curve" smooth="yes"/>
+      <point x="800.28" y="-15.08" type="curve" smooth="yes" name="n13"/>
       <point x="1222.08" y="-15.08"/>
       <point x="1506.6" y="286.08"/>
     </contour>
     <contour>
-      <point x="1307.8" y="716.2" type="curve" smooth="yes"/>
+      <point x="1307.8" y="716.2" type="curve" smooth="yes" name="n16"/>
       <point x="1307.8" y="363.2"/>
       <point x="1108.88" y="151.8"/>
-      <point x="800.28" y="151.8" type="curve" smooth="yes"/>
+      <point x="800.28" y="151.8" type="curve" smooth="yes" name="n19"/>
       <point x="493.36" y="151.8"/>
       <point x="291.68" y="363.2"/>
-      <point x="291.68" y="716.2" type="curve" smooth="yes"/>
+      <point x="291.68" y="716.2" type="curve" smooth="yes" name="n22"/>
       <point x="291.68" y="1068.12"/>
       <point x="493.36" y="1281.52"/>
-      <point x="800.28" y="1281.52" type="curve" smooth="yes"/>
+      <point x="800.28" y="1281.52" type="curve" smooth="yes" name="n25"/>
       <point x="1108.88" y="1281.52"/>
       <point x="1307.8" y="1068.12"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Ocyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Ocyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-15.08" width="166.88" />
+      <hstem pos="656.62" width="146.2" />
+      <hstem pos="1281.52" width="166.88" />
+      <vstem pos="93.8" width="197.88" />
+      <vstem pos="1307.8" width="198.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

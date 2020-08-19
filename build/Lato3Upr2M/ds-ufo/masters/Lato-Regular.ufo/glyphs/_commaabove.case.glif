@@ -1,43 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_commaabove.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1512.12" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1512.12" name="_Top"/>
   <outline>
     <contour>
-      <point x="297.7" y="1811.56" type="curve" smooth="yes"/>
+      <point x="297.7" y="1811.56" type="curve" smooth="yes" name="n00"/>
       <point x="297.7" y="1745.32"/>
       <point x="342.76" y="1697.02"/>
-      <point x="407.7" y="1697.02" type="curve" smooth="yes"/>
+      <point x="407.7" y="1697.02" type="curve" smooth="yes" name="n03"/>
       <point x="435.48" y="1697.02"/>
       <point x="454.88" y="1703.94"/>
       <point x="469.04" y="1716.7" type="curve"/>
-      <point x="435.88" y="1750.18" type="line"/>
+      <point x="435.88" y="1750.18" type="line" name="n07"/>
       <point x="435.88" y="1655.32"/>
       <point x="365.06" y="1578.68"/>
-      <point x="339.2" y="1549.9" type="curve"/>
+      <point x="339.2" y="1549.9" type="curve" smooth="yes"/>
       <point x="332.88" y="1542.58"/>
       <point x="327.56" y="1534.64"/>
-      <point x="327.56" y="1527.78" type="curve"/>
+      <point x="327.56" y="1527.78" type="curve" smooth="yes"/>
       <point x="327.56" y="1518.22"/>
       <point x="330.26" y="1511.9"/>
       <point x="338.12" y="1504.58" type="curve" smooth="yes"/>
-      <point x="363.26" y="1481.6" type="line"/>
+      <point x="363.26" y="1481.6" type="line" name="n17"/>
       <point x="465.28" y="1568.18"/>
-      <point x="525.0" y="1670.88"/>
-      <point x="525.0" y="1774.54" type="curve" smooth="yes"/>
-      <point x="525.0" y="1859.06"/>
+      <point x="525" y="1670.88"/>
+      <point x="525" y="1774.54" type="curve" smooth="yes" name="n20"/>
+      <point x="525" y="1859.06"/>
       <point x="485.5" y="1917.84"/>
-      <point x="409.54" y="1917.84" type="curve" smooth="yes"/>
+      <point x="409.54" y="1917.84" type="curve" smooth="yes" name="n23"/>
       <point x="342.76" y="1917.84"/>
       <point x="297.7" y="1870.56"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_commaabove=_commaabove.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_commaabove=_commaabove.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1502.6" width="-21" />
+      <hstem pos="1697.02" width="220.82" />
+      <vstem pos="297.7" width="227.3" />
+      <vstem pos="435.88" width="89.12" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

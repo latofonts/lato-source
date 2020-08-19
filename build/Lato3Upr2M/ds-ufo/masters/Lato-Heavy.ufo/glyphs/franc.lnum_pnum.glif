@@ -1,36 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="franc.lnum_pnum" format="2">
-  <advance width="1232.32"/>
+  <advance width="1232"/>
   <outline>
     <contour>
-      <point x="546.92" y="1452.8" type="line"/>
+      <point x="546.92" y="1452.8" type="line" name="n00"/>
       <point x="244.84" y="1452.8" type="line"/>
-      <point x="244.84" y="0.0" type="line"/>
-      <point x="546.92" y="0.0" type="line"/>
+      <point x="244.84" y="0" type="line" name="n02"/>
+      <point x="546.92" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="517.8" y="875.76" type="line"/>
-      <point x="517.8" y="633.76" type="line"/>
+      <point x="517.8" y="875.76" type="line" name="n04"/>
+      <point x="517.8" y="633.76" type="line" name="n05"/>
       <point x="1043.64" y="633.76" type="line"/>
       <point x="1043.64" y="875.76" type="line"/>
     </contour>
     <contour>
-      <point x="517.8" y="1452.8" type="line"/>
-      <point x="517.8" y="1210.8" type="line"/>
+      <point x="517.8" y="1452.8" type="line" name="n08"/>
+      <point x="517.8" y="1210.8" type="line" name="n09"/>
       <point x="1161.24" y="1210.8" type="line"/>
       <point x="1161.24" y="1452.8" type="line"/>
     </contour>
     <contour>
-      <point x="77.32" y="271.44" type="line"/>
+      <point x="77.32" y="271.44" type="line" name="n12"/>
       <point x="868.28" y="271.44" type="line"/>
       <point x="868.28" y="425.2" type="line"/>
-      <point x="77.32" y="425.2" type="line"/>
+      <point x="77.32" y="425.2" type="line" name="n15"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="271.44" width="153.76" />
+      <hstem pos="633.76" width="242" />
+      <hstem pos="1210.8" width="242" />
+      <vstem pos="517.8" width="29.12" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

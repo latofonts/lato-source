@@ -1,25 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="equal" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="003D"/>
   <outline>
     <contour>
-      <point x="166.25" y="482.5" type="line"/>
+      <point x="166.25" y="482.5" type="line" name="n00"/>
       <point x="993.75" y="482.5" type="line"/>
       <point x="993.75" y="555.5" type="line"/>
-      <point x="166.25" y="555.5" type="line"/>
+      <point x="166.25" y="555.5" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="166.25" y="795.5" type="line"/>
+      <point x="166.25" y="795.5" type="line" name="n04"/>
       <point x="993.75" y="795.5" type="line"/>
       <point x="993.75" y="868.5" type="line"/>
-      <point x="166.25" y="868.5" type="line"/>
+      <point x="166.25" y="868.5" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="482.5" width="73" />
+      <hstem pos="795.5" width="73" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

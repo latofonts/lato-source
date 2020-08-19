@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_retroflex_straight" format="2">
-  <guideline x="0" y="0" angle="82.9991"/>
   <anchor x="342" y="222" name="_hook"/>
   <outline>
     <contour>
@@ -22,13 +21,23 @@
       <point x="347" y="-95"/>
       <point x="357" y="-17" type="curve"/>
       <point x="379" y="162" type="line"/>
-      <point x="119" y="162" type="line"/>
+      <point x="379" y="162"/>
+      <point x="119" y="162"/>
+      <point x="119" y="162" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-346" width="213" />
+      <hstem pos="162" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

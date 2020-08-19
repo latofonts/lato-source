@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rho" format="2">
   <advance width="1118"/>
   <unicode hex="03A1"/>
@@ -32,11 +32,21 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>P=Rho</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>P=Rho</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="600" width="20" />
+      <hstem pos="1380" width="20" />
+      <vstem pos="232" width="24" />
+      <vstem pos="998" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

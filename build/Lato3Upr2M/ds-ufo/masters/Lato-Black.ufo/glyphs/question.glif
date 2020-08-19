@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="question" format="2">
   <advance width="943"/>
   <unicode hex="003F"/>
   <outline>
+    <component base="period" xOffset="182"/>
     <contour>
       <point x="143" y="1194" type="line"/>
       <point x="157" y="1168"/>
@@ -30,12 +31,20 @@
       <point x="161" y="1410"/>
       <point x="61" y="1326" type="curve"/>
     </contour>
-    <component base="period" xOffset="182"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="541" width="-21" />
+      <hstem pos="1224" width="252" />
+      <vstem pos="303" width="262" />
+      <vstem pos="587" width="288" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

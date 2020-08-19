@@ -1,17 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_overline" format="2">
   <outline>
     <contour>
-      <point x="-549.0" y="1572.0" type="line"/>
-      <point x="549.0" y="1572.0" type="line"/>
-      <point x="549.0" y="1614.0" type="line"/>
-      <point x="-549.0" y="1614.0" type="line"/>
+      <point x="-549" y="1572" type="line" name="n00"/>
+      <point x="549" y="1572" type="line"/>
+      <point x="549" y="1614" type="line"/>
+      <point x="-549" y="1614" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1572" width="42" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

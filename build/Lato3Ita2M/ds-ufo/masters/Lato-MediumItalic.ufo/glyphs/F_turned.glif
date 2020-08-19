@@ -1,35 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Fturned" format="2">
-  <advance width="1061.4"/>
+  <advance width="1061"/>
   <unicode hex="2132"/>
-  <guideline x="518.6" y="0.0" angle="82.9991"/>
   <anchor x="889.2" y="1513.4" name="Top"/>
+  <anchor x="433.6" y="-70" name="bottom"/>
   <anchor x="889.2" y="1513.4" name="top"/>
-  <anchor x="433.6" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="614.0" y="0.0" type="line"/>
-      <point x="819.8" y="0.0" type="line"/>
-      <point x="996.0" y="1435.4" type="line"/>
+      <point x="614" y="0" type="line"/>
+      <point x="819.8" y="0" type="line"/>
+      <point x="996" y="1435.4" type="line" name="n02"/>
       <point x="790.2" y="1435.4" type="line"/>
     </contour>
     <contour>
       <point x="715.4" y="657.2" type="line"/>
       <point x="736.4" y="823.2" type="line"/>
-      <point x="190.4" y="823.2" type="line"/>
-      <point x="170.4" y="657.2" type="line"/>
+      <point x="190.4" y="823.2" type="line" name="n06"/>
+      <point x="170.4" y="657.2" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="635.2" y="0.0" type="line"/>
-      <point x="655.2" y="166.0" type="line"/>
-      <point x="18.2" y="166.0" type="line"/>
-      <point x="-2.1999999999999993" y="0.0" type="line"/>
+      <point x="635.2" y="0" type="line" name="n08"/>
+      <point x="655.2" y="166" type="line" name="n09"/>
+      <point x="18.2" y="166" type="line"/>
+      <point x="-2.2" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="166" />
+      <hstem pos="657.2" width="166" />
+      <hstem pos="1435.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

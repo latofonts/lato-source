@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dasiavaria" format="2">
   <advance width="800"/>
   <unicode hex="1FDD"/>
@@ -32,7 +32,9 @@
     </contour>
     <contour>
       <point x="583" y="1182" type="line"/>
-      <point x="497" y="1400" type="line"/>
+      <point x="583" y="1182"/>
+      <point x="497" y="1400"/>
+      <point x="497" y="1400" type="curve"/>
       <point x="497" y="1400"/>
       <point x="486" y="1400"/>
       <point x="474" y="1400" type="curve" smooth="yes"/>
@@ -43,9 +45,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1182" width="218" />
+      <hstem pos="1415" width="-20" />
+      <vstem pos="241" width="107" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

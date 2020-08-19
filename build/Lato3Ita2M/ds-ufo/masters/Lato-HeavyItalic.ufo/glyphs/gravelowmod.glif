@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravelowmod" format="2">
-  <advance width="736.0"/>
+  <advance width="736"/>
   <unicode hex="02CE"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="294.6" y="-70.0" name="_bottom"/>
-  <anchor x="304.44" y="-421.0" name="bottom"/>
+  <anchor x="294.6" y="-70" name="_bottom"/>
+  <anchor x="304.44" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="131.44" y="-56.120000000000005" type="line"/>
+      <point x="131.44" y="-56.12" type="line" name="n00"/>
       <point x="333.96" y="-318.44" type="line"/>
       <point x="356.44" y="-345.56"/>
-      <point x="376.4" y="-356.36"/>
+      <point x="376.4" y="-356.36" name="n03"/>
       <point x="415.84" y="-356.36" type="curve" smooth="yes"/>
       <point x="567.12" y="-356.36" type="line"/>
       <point x="469.76" y="-111.56" type="line" smooth="yes"/>
       <point x="454.6" y="-75.08"/>
-      <point x="434.4" y="-56.120000000000005"/>
-      <point x="380.08" y="-56.120000000000005" type="curve" smooth="yes"/>
+      <point x="434.4" y="-56.12"/>
+      <point x="380.08" y="-56.12" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-335.36" width="-21" />
+      <hstem pos="-56.12" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,42 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb" format="2">
   <unicode hex="030F"/>
-  <anchor x="128.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="128" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="-19.76" y="1468.8" type="line"/>
-      <point x="180.0" y="1206.48" type="line"/>
+      <point x="-19.76" y="1468.8" type="line" name="n00"/>
+      <point x="180" y="1206.48" type="line" smooth="yes"/>
       <point x="203.36" y="1175.84"/>
-      <point x="228.72" y="1166.8"/>
+      <point x="228.72" y="1166.8" name="n03"/>
       <point x="269.92" y="1166.8" type="curve" smooth="yes"/>
       <point x="382.48" y="1166.8" type="line"/>
       <point x="260.72" y="1411.6" type="line" smooth="yes"/>
       <point x="241.68" y="1448.96"/>
       <point x="216.08" y="1468.8"/>
-      <point x="158.88" y="1468.8" type="curve"/>
+      <point x="158.88" y="1468.8" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="-382.48" y="1468.8" type="line"/>
       <point x="-127.04" y="1206.48" type="line"/>
       <point x="-100.16" y="1177.6"/>
-      <point x="-78.32000000000001" y="1166.8"/>
+      <point x="-78.32" y="1166.8"/>
       <point x="-37.12" y="1166.8" type="curve" smooth="yes"/>
       <point x="93.04" y="1166.8" type="line"/>
-      <point x="-83.92" y="1411.6" type="line" smooth="yes"/>
+      <point x="-83.92" y="1411.6" type="line"/>
       <point x="-108.48" y="1447.2"/>
       <point x="-128.56" y="1468.8"/>
-      <point x="-185.76" y="1468.8" type="curve"/>
+      <point x="-185.76" y="1468.8" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dblgrave=dblgravecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dblgrave=dblgravecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1187.8" width="-21" />
+      <hstem pos="1468.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

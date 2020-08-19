@@ -1,22 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronlowmod" format="2">
-  <advance width="736.0"/>
+  <advance width="736"/>
   <unicode hex="02CD"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="323.3" y="-70.0" name="_bottom"/>
-  <anchor x="308.52" y="-421.0" name="bottom"/>
+  <anchor x="323.3" y="-70" name="_bottom"/>
+  <anchor x="308.52" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="40.68" y="-259.44" type="line"/>
+      <point x="40.68" y="-259.44" type="line" name="n00"/>
       <point x="571.52" y="-259.44" type="line"/>
       <point x="585.32" y="-147.64" type="line"/>
-      <point x="54.48" y="-147.64" type="line"/>
+      <point x="54.48" y="-147.64" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-259.44" width="111.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

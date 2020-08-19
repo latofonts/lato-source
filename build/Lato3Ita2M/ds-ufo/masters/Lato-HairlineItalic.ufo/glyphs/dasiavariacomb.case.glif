@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dasiavariacomb.case" format="2">
-  <guideline x="203" y="0" angle="82.9991"/>
   <anchor x="-21" y="1020" name="_Top"/>
   <anchor x="152" y="1120" name="_onRight"/>
   <anchor x="59" y="1622" name="top"/>
@@ -32,7 +31,9 @@
     </contour>
     <contour>
       <point x="149" y="1182" type="line"/>
-      <point x="96" y="1400" type="line"/>
+      <point x="149" y="1182"/>
+      <point x="96" y="1400"/>
+      <point x="96" y="1400" type="curve"/>
       <point x="96" y="1400"/>
       <point x="86" y="1400"/>
       <point x="75" y="1400" type="curve" smooth="yes"/>
@@ -42,12 +43,21 @@
       <point x="133" y="1182" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="203" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1203" width="-21" />
+      <hstem pos="1400" width="-20" />
+      <hstem pos="1415" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

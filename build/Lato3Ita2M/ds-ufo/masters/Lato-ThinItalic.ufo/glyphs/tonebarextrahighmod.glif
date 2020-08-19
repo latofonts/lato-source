@@ -1,25 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tonebarextrahighmod" format="2">
-  <advance width="719.5"/>
+  <advance width="720"/>
   <unicode hex="02E5"/>
   <outline>
     <contour>
-      <point x="160.1" y="1405.8" type="line"/>
-      <point x="160.1" y="1364.8" type="line"/>
+      <point x="160.1" y="1405.8" type="line" name="n00"/>
+      <point x="160.1" y="1364.8" type="line" name="n01"/>
       <point x="550.6" y="1364.8" type="line"/>
       <point x="550.6" y="1405.8" type="line"/>
     </contour>
     <contour>
-      <point x="529.1" y="1406.0" type="line"/>
-      <point x="529.1" y="0.0" type="line"/>
-      <point x="572.1" y="0.0" type="line"/>
-      <point x="572.1" y="1406.0" type="line"/>
+      <point x="529.1" y="1406" type="line"/>
+      <point x="529.1" y="0" type="line" name="n05"/>
+      <point x="572.1" y="0" type="line"/>
+      <point x="572.1" y="1406" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1364.8" width="41" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

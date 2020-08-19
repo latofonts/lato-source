@@ -1,32 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jmod" format="2">
-  <advance width="253.5"/>
+  <advance width="254"/>
   <unicode hex="02B2"/>
-  <guideline x="126.3" y="0.0" angle="82.9991"/>
-  <anchor x="115.1" y="-70.0" name="bottom"/>
+  <anchor x="115.1" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="256.7" y="1402.0" type="line"/>
-      <point x="188.0" y="840.7" type="line" smooth="yes"/>
-      <point x="181.0" y="786.8"/>
+      <point x="256.7" y="1402" type="line" name="n00"/>
+      <point x="188" y="840.7" type="line" smooth="yes"/>
+      <point x="181" y="786.8"/>
       <point x="153.6" y="754.8"/>
-      <point x="103.6" y="754.8" type="curve" smooth="yes"/>
+      <point x="103.6" y="754.8" type="curve" smooth="yes" name="n04"/>
       <point x="79.8" y="754.8"/>
       <point x="73.8" y="766.7"/>
       <point x="68.3" y="754.4" type="curve"/>
-      <point x="63.5" y="734.0" type="line"/>
-      <point x="76.0" y="727.1"/>
+      <point x="63.5" y="734" type="line"/>
+      <point x="76" y="727.1"/>
       <point x="88.2" y="723.2"/>
-      <point x="107.0" y="723.2" type="curve" smooth="yes"/>
+      <point x="107" y="723.2" type="curve" smooth="yes" name="n11"/>
       <point x="178.1" y="723.2"/>
       <point x="220.7" y="773.5"/>
       <point x="228.4" y="840.7" type="curve" smooth="yes"/>
-      <point x="297.1" y="1402.0" type="line"/>
+      <point x="297.1" y="1402" type="line"/>
     </contour>
     <contour>
       <point x="339.4" y="1583.7" type="curve" smooth="yes"/>
       <point x="339.4" y="1604.9"/>
-      <point x="324.2" y="1621.3"/>
+      <point x="324.2" y="1621.3" name="n18"/>
       <point x="304.7" y="1621.3" type="curve" smooth="yes"/>
       <point x="281.9" y="1621.3"/>
       <point x="260.3" y="1600.2"/>
@@ -38,12 +37,21 @@
       <point x="339.4" y="1559.5"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="122" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>j.sups=jmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>j.sups=jmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="723.2" width="31.6" />
+      <hstem pos="1402" width="-20" />
+      <hstem pos="1621.3" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,30 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="j.sups" format="2">
-  <advance width="273.92"/>
-  <guideline x="145.22" y="0.0" angle="82.9991"/>
+  <advance width="274"/>
   <outline>
     <contour>
-      <point x="174.78" y="1410.8" type="line"/>
+      <point x="174.78" y="1410.8" type="line" name="n00"/>
       <point x="111.8" y="896.58" type="line" smooth="yes"/>
       <point x="104.8" y="843.12"/>
       <point x="88.84" y="824.32"/>
-      <point x="43.24" y="824.32" type="curve" smooth="yes"/>
+      <point x="43.24" y="824.32" type="curve" smooth="yes" name="n04"/>
       <point x="20.32" y="824.32"/>
       <point x="14.32" y="822.58"/>
       <point x="11.02" y="808.96" type="curve"/>
-      <point x="-1.7000000000000002" y="742.8" type="line"/>
+      <point x="-1.7" y="742.8" type="line"/>
       <point x="17.4" y="736.34"/>
       <point x="34.88" y="732.88"/>
-      <point x="57.2" y="732.88" type="curve" smooth="yes"/>
+      <point x="57.2" y="732.88" type="curve" smooth="yes" name="n11"/>
       <point x="172.74" y="732.88"/>
       <point x="222.38" y="806.5"/>
-      <point x="233.16000000000003" y="896.58" type="curve" smooth="yes"/>
+      <point x="233.16" y="896.58" type="curve" smooth="yes"/>
       <point x="296.14" y="1410.8" type="line"/>
     </contour>
     <contour>
       <point x="335.36" y="1591.18" type="curve" smooth="yes"/>
       <point x="335.36" y="1630.86"/>
-      <point x="306.08" y="1662.22"/>
+      <point x="306.08" y="1662.22" name="n18"/>
       <point x="266.78" y="1662.22" type="curve" smooth="yes"/>
       <point x="222.86" y="1662.22"/>
       <point x="181.02" y="1623.08"/>
@@ -36,12 +35,21 @@
       <point x="335.36" y="1544.1"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="122" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>swap</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>swap</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="732.88" width="91.44" />
+      <hstem pos="1410.8" width="-20" />
+      <hstem pos="1662.22" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

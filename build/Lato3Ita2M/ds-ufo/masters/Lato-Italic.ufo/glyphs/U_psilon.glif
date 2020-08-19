@@ -1,16 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Upsilon" format="2">
-  <advance width="1164.4"/>
+  <advance width="1164"/>
   <unicode hex="03A5"/>
-  <guideline y="662.54"/>
-  <guideline x="582.46" y="0.0" angle="82.9991"/>
   <anchor x="688.46" y="1511.66" name="Top"/>
-  <anchor x="-109.6" y="1120.0" name="onRight"/>
+  <anchor x="502.54" y="-70" name="bottom"/>
+  <anchor x="-109.6" y="1120" name="onRight"/>
   <anchor x="688.46" y="1511.66" name="top"/>
-  <anchor x="502.54" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="1260.18" y="1432.4" type="line"/>
+      <point x="1260.18" y="1432.4" type="line" name="n00"/>
       <point x="1105.18" y="1432.4" type="line" smooth="yes"/>
       <point x="1073.26" y="1432.4"/>
       <point x="1050.9" y="1410.96"/>
@@ -26,9 +24,9 @@
       <point x="610.14" y="556.36" type="line"/>
       <point x="614.78" y="637.6"/>
       <point x="602.46" y="717.48"/>
-      <point x="569.46" y="813.72" type="curve" smooth="yes"/>
+      <point x="569.46" y="813.72" type="curve"/>
       <point x="331.94" y="1388.76" type="line"/>
-      <point x="323.46000000000004" y="1415.28"/>
+      <point x="323.46" y="1415.28"/>
       <point x="305.42" y="1432.4"/>
       <point x="272.42" y="1432.4" type="curve" smooth="yes"/>
       <point x="106.62" y="1432.4" type="line"/>
@@ -36,16 +34,25 @@
     <contour>
       <point x="676.62" y="609.08" type="line"/>
       <point x="489.54" y="609.08" type="line"/>
-      <point x="413.54" y="0.0" type="line"/>
-      <point x="600.62" y="0.0" type="line"/>
+      <point x="413.54" y="0" type="line" name="n22"/>
+      <point x="600.62" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="662"/>
+  <guideline angle="82.9991" x="529" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Y=Upsilon</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Y=Upsilon</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1432.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

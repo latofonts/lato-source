@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron" format="2">
-  <advance width="951.48"/>
+  <advance width="951"/>
   <unicode hex="013D"/>
-  <guideline x="473.4" y="0.0" angle="82.9991"/>
-  <anchor x="384.74" y="1511.66" name="Top"/>
-  <anchor x="384.74" y="1511.66" name="top"/>
-  <anchor x="443.42" y="-70.0" name="bottom"/>
   <anchor x="277.94" y="715.12" name="Bar"/>
+  <anchor x="384.74" y="1511.66" name="Top"/>
+  <anchor x="443.42" y="-70" name="bottom"/>
+  <anchor x="384.74" y="1511.66" name="top"/>
   <outline>
+    <component base="L"/>
     <contour>
-      <point x="691.64" y="1473.32" type="line"/>
-      <point x="598.52" y="1149.04" type="line"/>
+      <point x="691.64" y="1473.32" type="line" name="n00"/>
+      <point x="598.52" y="1149.04" type="line" name="n01"/>
       <point x="658.52" y="1149.04" type="line" smooth="yes"/>
       <point x="690.12" y="1149.04"/>
       <point x="708.32" y="1155.04"/>
@@ -22,12 +22,19 @@
       <point x="828.44" y="1473.32"/>
       <point x="805.32" y="1473.32" type="curve" smooth="yes"/>
     </contour>
-    <component base="L"/>
   </outline>
+  <guideline angle="82.9991" x="468" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1170.04" width="-21" />
+      <hstem pos="1473.32" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,15 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="istroke" format="2">
   <advance width="612"/>
   <unicode hex="0268"/>
-  <guideline x="234"/>
-  <guideline x="54" y="0" angle="82.9991"/>
   <anchor x="410" y="1525" name="Top"/>
   <anchor x="294" y="649" name="top"/>
   <anchor x="232" y="-70" name="bottom"/>
   <anchor x="272" y="473" name="_bar"/>
   <anchor x="258" y="305" name="_top"/>
   <outline>
+    <component base="_stroke" xOffset="-12"/>
     <contour>
       <point x="215" y="1039" type="line"/>
       <point x="88" y="0" type="line"/>
@@ -30,12 +29,21 @@
       <point x="481" y="1141"/>
       <point x="579" y="1232"/>
     </contour>
-    <component base="_stroke" xOffset="-12"/>
   </outline>
+  <guideline angle="90" x="234" y="0"/>
+  <guideline angle="82.9991" x="54" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1039" width="-20" />
+      <hstem pos="1141" width="365" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

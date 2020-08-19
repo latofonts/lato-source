@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcroat" format="2">
   <advance width="1416"/>
   <unicode hex="0110"/>
-  <guideline x="723" y="0" angle="82.9991"/>
   <anchor x="680" y="1496" name="Top"/>
   <anchor x="680" y="1496" name="top"/>
   <anchor x="478" y="-70" name="bottom"/>
@@ -36,14 +35,23 @@
       <point x="28" y="722" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="723" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Eth</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Eth=Dcroat</string>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Eth</string>
+    <key>note</key>
+    <string>Eth=Dcroat</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="20" />
+      <hstem pos="702" width="20" />
+      <hstem pos="1380" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

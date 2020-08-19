@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greaterequal.onum_pnum" format="2">
-  <advance width="1080.0"/>
+  <advance width="1080"/>
   <outline>
     <contour>
-      <point x="176.14" y="1086.28" type="line"/>
+      <point x="176.14" y="1086.28" type="line" name="n00"/>
       <point x="176.14" y="866.6" type="line"/>
       <point x="540.3" y="703.48" type="line"/>
       <point x="635.62" y="663.4"/>
@@ -22,15 +22,22 @@
     </contour>
     <contour>
       <point x="924.54" y="185.36" type="line"/>
-      <point x="176.14" y="185.36" type="line"/>
-      <point x="176.14" y="0.0" type="line"/>
-      <point x="924.54" y="0.0" type="line"/>
+      <point x="176.14" y="185.36" type="line" name="n15"/>
+      <point x="176.14" y="0" type="line" name="n16"/>
+      <point x="924.54" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="185.36" />
+      <hstem pos="1086.28" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,17 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="H.sups" format="2">
-  <advance width="775.7"/>
-  <guideline x="369.9" y="0.0" angle="82.9991"/>
+  <advance width="776"/>
   <outline>
     <contour>
-      <point x="393.02" y="1658.36" type="line"/>
+      <point x="393.02" y="1658.36" type="line" name="n00"/>
       <point x="210.68" y="1658.36" type="line"/>
-      <point x="120.0" y="918.14" type="line"/>
-      <point x="302.34000000000003" y="918.14" type="line"/>
+      <point x="120" y="918.14" type="line" name="n02"/>
+      <point x="302.34" y="918.14" type="line"/>
     </contour>
     <contour>
-      <point x="339.22" y="1354.34" type="line"/>
-      <point x="322.96000000000004" y="1224.36" type="line"/>
+      <point x="339.22" y="1354.34" type="line" name="n04"/>
+      <point x="322.96" y="1224.36" type="line" name="n05"/>
       <point x="663.42" y="1224.36" type="line"/>
       <point x="679.68" y="1354.34" type="line"/>
     </contour>
@@ -22,12 +21,21 @@
       <point x="730.36" y="918.14" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="366" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Hmod=H.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Hmod=H.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="939.14" width="-21" />
+      <hstem pos="1224.36" width="129.98" />
+      <hstem pos="1658.36" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

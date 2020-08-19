@@ -1,12 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="variacomb.case" format="2">
-  <guideline x="274" y="0" angle="82.9991"/>
   <anchor x="50" y="1648" name="top"/>
   <anchor x="20" y="1038" name="_Top"/>
   <outline>
     <contour>
       <point x="116" y="1098" type="line"/>
-      <point x="120" y="1498" type="line"/>
+      <point x="116" y="1098"/>
+      <point x="120" y="1498"/>
+      <point x="120" y="1498" type="curve"/>
       <point x="120" y="1498"/>
       <point x="-16" y="1498"/>
       <point x="-54" y="1498" type="curve" smooth="yes"/>
@@ -16,12 +17,20 @@
       <point x="-47" y="1098" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="274" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1119" width="-21" />
+      <hstem pos="1498" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

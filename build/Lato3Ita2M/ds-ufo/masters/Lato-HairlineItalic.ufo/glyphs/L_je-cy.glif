@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lje-cy" format="2">
   <advance width="1904"/>
   <unicode hex="0409"/>
-  <guideline x="1006" y="0" angle="82.9991"/>
   <anchor x="810" y="1494" name="Top"/>
   <anchor x="810" y="1494" name="top"/>
   <anchor x="477" y="-70" name="bottom"/>
   <outline>
+    <component base="El-cy"/>
     <contour>
       <point x="1072" y="740" type="line"/>
       <point x="1069" y="720" type="line"/>
@@ -27,14 +27,21 @@
       <point x="1665" y="740"/>
       <point x="1426" y="740" type="curve" smooth="yes"/>
     </contour>
-    <component base="El-cy"/>
   </outline>
+  <guideline angle="82.9991" x="1006" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="20" />
+      <hstem pos="720" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

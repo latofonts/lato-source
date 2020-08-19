@@ -1,19 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
-  <advance width="1591.308"/>
+  <advance width="1591"/>
   <unicode hex="2014"/>
   <outline>
     <contour>
-      <point x="123.69200000000001" y="518.04" type="line"/>
-      <point x="1467.616" y="518.04" type="line"/>
-      <point x="1467.616" y="672.572" type="line"/>
-      <point x="123.69200000000001" y="672.572" type="line"/>
+      <point x="123.692" y="518.04" type="line" name="n00"/>
+      <point x="1467.62" y="518.04" type="line"/>
+      <point x="1467.62" y="672.572" type="line"/>
+      <point x="123.692" y="672.572" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="518.04" width="154.532" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

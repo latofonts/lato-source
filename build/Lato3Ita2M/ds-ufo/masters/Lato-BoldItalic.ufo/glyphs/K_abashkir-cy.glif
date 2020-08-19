@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kabashkir-cy" format="2">
-  <advance width="1554.3"/>
+  <advance width="1554"/>
   <unicode hex="04A0"/>
-  <guideline x="641.64" y="0.0" angle="82.9991"/>
   <anchor x="1010.92" y="1518.62" name="Top"/>
+  <anchor x="867.32" y="-70" name="bottom"/>
   <anchor x="1010.92" y="1518.62" name="top"/>
-  <anchor x="867.32" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Ka-cy" xScale="1" xOffset="254.84"/>
     <contour>
       <point x="106.18" y="1236.82" type="line"/>
-      <point x="741.04" y="1236.82" type="line"/>
-      <point x="766.44" y="1446.02" type="line"/>
+      <point x="741.04" y="1236.82" type="line" name="n01"/>
+      <point x="766.44" y="1446.02" type="line" name="n02"/>
       <point x="132.58" y="1446.02" type="line"/>
     </contour>
-    <component base="Ka-cy" xOffset="254.84"/>
   </outline>
+  <guideline angle="82.9991" x="573" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1236.82" width="209.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

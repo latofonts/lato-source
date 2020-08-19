@@ -1,33 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron" format="2">
-  <advance width="972.56"/>
+  <advance width="973"/>
   <unicode hex="013D"/>
-  <guideline x="476.8" y="0.0" angle="82.9991"/>
-  <anchor x="412.28" y="1521.52" name="Top"/>
-  <anchor x="412.28" y="1521.52" name="top"/>
-  <anchor x="434.24" y="-70.0" name="bottom"/>
   <anchor x="298.68" y="724.64" name="Bar"/>
+  <anchor x="412.28" y="1521.52" name="Top"/>
+  <anchor x="434.24" y="-70" name="bottom"/>
+  <anchor x="412.28" y="1521.52" name="top"/>
   <outline>
+    <component base="L"/>
     <contour>
-      <point x="731.08" y="1493.04" type="line"/>
-      <point x="628.44" y="1140.88" type="line"/>
+      <point x="731.08" y="1493.04" type="line" name="n00"/>
+      <point x="628.44" y="1140.88" type="line" name="n01"/>
       <point x="722.44" y="1140.88" type="line" smooth="yes"/>
       <point x="767.64" y="1140.88"/>
       <point x="796.04" y="1146.88"/>
-      <point x="819.4" y="1188.32" type="curve"/>
+      <point x="819.4" y="1188.32" type="curve" smooth="yes"/>
       <point x="940.28" y="1407.92"/>
       <point x="948.44" y="1436.72"/>
       <point x="948.44" y="1461.2" type="curve" smooth="yes"/>
       <point x="948.44" y="1474.96"/>
-      <point x="942.6800000000001" y="1493.04"/>
+      <point x="942.68" y="1493.04"/>
       <point x="910.04" y="1493.04" type="curve" smooth="yes"/>
     </contour>
-    <component base="L"/>
   </outline>
+  <guideline angle="82.9991" x="468" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1161.88" width="-21" />
+      <hstem pos="1493.04" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

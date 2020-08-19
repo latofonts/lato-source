@@ -1,33 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_retroflex_flat-musical" format="2">
-  <guideline x="0.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="115.38" y="67.52" type="line"/>
-      <point x="105.28" y="-19.840000000000003" type="line" smooth="yes"/>
+      <point x="115.38" y="67.52" type="curve" name="n00"/>
+      <point x="105.28" y="-19.84" type="line"/>
       <point x="83.94" y="-189.1"/>
       <point x="139.12" y="-352.38"/>
-      <point x="341.88" y="-352.38" type="curve" smooth="yes"/>
+      <point x="341.88" y="-352.38" type="curve" smooth="yes" name="n04"/>
       <point x="396.26" y="-352.38"/>
       <point x="444.4" y="-340.26"/>
       <point x="509.02" y="-313.12" type="curve"/>
-      <point x="502.34000000000003" y="-216.42000000000002" type="line"/>
-      <point x="496.66" y="-178.0"/>
+      <point x="502.34" y="-216.42" type="line"/>
+      <point x="496.66" y="-178"/>
       <point x="473.94" y="-170.2"/>
-      <point x="455.34000000000003" y="-170.2" type="curve" smooth="yes"/>
+      <point x="455.34" y="-170.2" type="curve" smooth="yes"/>
       <point x="436.98" y="-170.2"/>
       <point x="410.36" y="-182.28"/>
-      <point x="376.64" y="-182.28" type="curve" smooth="yes"/>
+      <point x="376.64" y="-182.28" type="curve" smooth="yes" name="n14"/>
       <point x="312.9" y="-182.28"/>
       <point x="298.38" y="-130.86"/>
-      <point x="310.14" y="-38.56" type="curve"/>
-      <point x="322.58000000000004" y="67.52" type="line"/>
+      <point x="310.14" y="-38.56" type="curve" smooth="yes"/>
+      <point x="322.58" y="67.52" type="line"/>
+      <point x="322.58" y="67.52"/>
+      <point x="115.38" y="67.52"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-352.38" width="170.1" />
+      <hstem pos="67.52" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

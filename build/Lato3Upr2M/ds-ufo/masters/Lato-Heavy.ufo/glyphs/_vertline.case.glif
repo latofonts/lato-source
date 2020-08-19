@@ -1,21 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_vertline.case" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <anchor x="398.24" y="1521.52" name="_Top"/>
   <outline>
     <contour>
-      <point x="301.88" y="1563.6" type="line"/>
-      <point x="498.12" y="1563.6" type="line"/>
-      <point x="498.12" y="2012.16" type="line"/>
+      <point x="301.88" y="1563.6" type="line" name="n00"/>
+      <point x="498.12" y="1563.6" type="line" name="n01"/>
+      <point x="498.12" y="2012.16" type="line" name="n02"/>
       <point x="301.88" y="2012.16" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_vertline=_vertline.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_vertline=_vertline.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1584.6" width="-21" />
+      <hstem pos="2012.16" width="-20" />
+      <vstem pos="301.88" width="196.24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_zigzag.case" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <anchor x="398.44" y="1518.62" name="_Top"/>
   <outline>
     <contour>
-      <point x="519.24" y="1695.9" type="line"/>
-      <point x="186.57999999999998" y="1695.9" type="line"/>
-      <point x="314.46" y="2061.32" type="line"/>
+      <point x="519.24" y="1695.9" type="line" name="n00"/>
+      <point x="186.58" y="1695.9" type="line"/>
+      <point x="314.46" y="2061.32" type="line" name="n02"/>
       <point x="438.9" y="2061.32" type="line" smooth="yes"/>
       <point x="473.86" y="2061.32"/>
       <point x="483.44" y="2039.84"/>
-      <point x="472.08" y="2009.88" type="curve"/>
+      <point x="472.08" y="2009.88" type="curve" smooth="yes"/>
       <point x="357.78" y="1709.48" type="line"/>
       <point x="321.48" y="1846.94" type="line"/>
-      <point x="661.94" y="1846.94" type="line"/>
-      <point x="534.06" y="1481.52" type="line"/>
+      <point x="661.94" y="1846.94" type="line" name="n09"/>
+      <point x="534.06" y="1481.52" type="line" name="n10"/>
       <point x="409.4" y="1481.52" type="line" smooth="yes"/>
       <point x="375.32" y="1481.52"/>
       <point x="364.86" y="1502.34"/>
@@ -23,11 +23,19 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_zigzag=_zigzag.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_zigzag=_zigzag.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1502.52" width="-21" />
+      <hstem pos="1695.9" width="151.04" />
+      <hstem pos="2061.32" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omod" format="2">
   <advance width="538"/>
   <unicode hex="1D52"/>
-  <guideline x="263"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="259" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -35,12 +33,21 @@
       <point x="445" y="920"/>
     </contour>
   </outline>
+  <guideline angle="90" x="263" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>o.sups=omod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>o.sups=omod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="902" width="18" />
+      <hstem pos="1390" width="18" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusminus" format="2">
   <advance width="1160"/>
   <unicode hex="00B1"/>
-  <guideline x="580" y="0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="101" y="714" type="line"/>
@@ -23,10 +22,19 @@
       <point x="49" y="304" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="580" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="80" width="224" />
+      <hstem pos="714" width="224" />
+      <hstem pos="1274" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

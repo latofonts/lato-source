@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rhotichookmod" format="2">
-  <advance width="732.06"/>
+  <advance width="732"/>
   <unicode hex="02DE"/>
-  <guideline x="365.64" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="163.7" y="562.78" type="line"/>
       <point x="353.96" y="636.66" type="line"/>
-      <point x="458.78" y="826.58" type="line"/>
+      <point x="458.78" y="826.58" type="line" name="n02"/>
       <point x="182.86" y="723.4" type="line"/>
     </contour>
     <contour>
@@ -16,30 +15,38 @@
       <point x="311.44" y="617.46" type="line" smooth="yes"/>
       <point x="301.78" y="536.96"/>
       <point x="329.86" y="406.2"/>
-      <point x="497.96" y="406.2" type="curve" smooth="yes"/>
+      <point x="497.96" y="406.2" type="curve" smooth="yes" name="n09"/>
       <point x="569.28" y="406.2"/>
       <point x="626.36" y="426.9"/>
       <point x="662.9" y="447.02" type="curve"/>
       <point x="648.42" y="517.98" type="line"/>
       <point x="642.96" y="556.4"/>
       <point x="620.8" y="564.2"/>
-      <point x="602.08" y="564.2" type="curve"/>
+      <point x="602.08" y="564.2" type="curve" smooth="yes"/>
       <point x="588.74" y="564.2"/>
       <point x="572.68" y="552.12"/>
-      <point x="538.18" y="552.12" type="curve" smooth="yes"/>
+      <point x="538.18" y="552.12" type="curve" smooth="yes" name="n19"/>
       <point x="476.68" y="552.12"/>
-      <point x="464.4" y="604.0"/>
+      <point x="464.4" y="604"/>
       <point x="472.06" y="667.38" type="curve" smooth="yes"/>
-      <point x="479.5" y="724.9" type="line"/>
+      <point x="479.5" y="724.9" type="line" smooth="yes"/>
       <point x="482.06" y="744.5"/>
       <point x="479.72" y="764.88"/>
-      <point x="474.04" y="782.14" type="curve"/>
+      <point x="474.04" y="782.14" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="336" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="406.2" width="145.92" />
+      <hstem pos="826.58" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

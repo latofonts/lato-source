@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esh" format="2">
   <advance width="392"/>
   <unicode hex="0283"/>
@@ -26,7 +26,9 @@
       <point x="208" y="-262"/>
       <point x="208" y="-76" type="curve" smooth="yes"/>
       <point x="208" y="32" type="line"/>
-      <point x="184" y="32" type="line"/>
+      <point x="208" y="32"/>
+      <point x="184" y="32"/>
+      <point x="184" y="32" type="curve"/>
     </contour>
     <contour>
       <point x="208" y="1124" type="line" smooth="yes"/>
@@ -47,13 +49,23 @@
       <point x="184" y="1310"/>
       <point x="184" y="1124" type="curve" smooth="yes"/>
       <point x="184" y="10" type="line"/>
-      <point x="208" y="10" type="line"/>
+      <point x="184" y="10"/>
+      <point x="208" y="10"/>
+      <point x="208" y="10" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-366" width="41" />
+      <hstem pos="1373" width="41" />
+      <vstem pos="184" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

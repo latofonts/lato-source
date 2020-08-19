@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lslash" format="2">
   <advance width="1022"/>
   <unicode hex="0141"/>
-  <guideline x="515" y="0" angle="82.9991"/>
   <anchor x="464" y="1525" name="Top"/>
   <anchor x="464" y="1525" name="top"/>
   <anchor x="473" y="-70" name="bottom"/>
   <anchor x="348" y="728" name="Bar"/>
   <outline>
+    <component base="L" xOffset="42"/>
     <contour>
       <point x="-21" y="420" type="line"/>
       <point x="365" y="608" type="line"/>
@@ -24,12 +24,19 @@
       <point x="9" y="674"/>
       <point x="7" y="648" type="curve"/>
     </contour>
-    <component base="L" xOffset="42"/>
   </outline>
+  <guideline angle="82.9991" x="515" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="441" width="-21" />
+      <hstem pos="1090" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

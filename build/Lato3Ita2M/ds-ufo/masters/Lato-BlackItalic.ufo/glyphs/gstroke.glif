@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gstroke" format="2">
   <advance width="1052"/>
   <unicode hex="01E5"/>
-  <guideline x="495"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="526" y="1120" name="top"/>
   <anchor x="444" y="-421" name="bottom"/>
   <outline>
@@ -91,13 +89,24 @@
       <point x="651" y="1002" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="495" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I would like todo it withoout 
-middle stroke in the Black?</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I would like todo it withoout middle stroke in the Black?</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-354" width="214" />
+      <hstem pos="-70" width="57" />
+      <hstem pos="318" width="188" />
+      <hstem pos="820" width="182" />
+      <hstem pos="846" width="210" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

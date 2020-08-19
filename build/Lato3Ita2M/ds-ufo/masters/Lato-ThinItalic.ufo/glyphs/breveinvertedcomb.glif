@@ -1,35 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb" format="2">
   <unicode hex="0311"/>
-  <guideline x="-134.9" y="0.0" angle="82.9991"/>
-  <anchor x="-40.0" y="1057.0" name="_top"/>
-  <anchor x="70.0" y="1625.0" name="top"/>
+  <anchor x="-40" y="1057" name="_top"/>
+  <anchor x="70" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="24.9" y="1421.0" type="curve"/>
-      <point x="-122.3" y="1421.0"/>
+      <point x="24.9" y="1421" type="curve" smooth="yes" name="n00"/>
+      <point x="-122.3" y="1421"/>
       <point x="-191.4" y="1313.6"/>
-      <point x="-205.8" y="1185.6" type="curve"/>
+      <point x="-205.8" y="1185.6" type="curve" name="n03"/>
       <point x="-168.9" y="1185.6" type="line"/>
-      <point x="-157.3" y="1290.0"/>
+      <point x="-157.3" y="1290"/>
       <point x="-102.8" y="1383.4"/>
-      <point x="20.8" y="1383.4" type="curve"/>
+      <point x="20.8" y="1383.4" type="curve" smooth="yes" name="n07"/>
       <point x="145.4" y="1383.4"/>
-      <point x="178.3" y="1290.0"/>
+      <point x="178.3" y="1290"/>
       <point x="165.9" y="1185.6" type="curve"/>
       <point x="202.8" y="1185.6" type="line"/>
       <point x="216.4" y="1313.6"/>
-      <point x="172.1" y="1421.0"/>
+      <point x="172.1" y="1421"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-135" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1206.6" width="-21" />
+      <hstem pos="1383.4" width="37.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

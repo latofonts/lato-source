@@ -1,42 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c_h" format="2">
-  <advance width="2107.48"/>
-  <anchor x="1283.56" y="1518.62" name="top"/>
-  <anchor x="1547.64" y="-70.0" name="bottom"/>
+  <advance width="2107"/>
   <anchor x="1567.96" y="721.84" name="Slash"/>
   <anchor x="1283.56" y="1518.62" name="Top"/>
+  <anchor x="1547.64" y="-70" name="bottom"/>
+  <anchor x="1283.56" y="1518.62" name="top"/>
   <outline>
+    <component base="c"/>
+    <component base="h" xScale="1" xOffset="978.36"/>
     <contour>
-      <point x="1347.82" y="1486.8" type="line"/>
+      <point x="1347.82" y="1486.8" type="line" name="n00"/>
       <point x="1263.44" y="1486.8"/>
       <point x="1175.96" y="1566.48"/>
-      <point x="993.74" y="1566.48" type="curve" smooth="yes"/>
+      <point x="993.74" y="1566.48" type="curve" smooth="yes" name="n03"/>
       <point x="740.8" y="1566.48"/>
       <point x="595.82" y="1417.76"/>
-      <point x="595.82" y="1221.86" type="curve" smooth="yes"/>
+      <point x="595.82" y="1221.86" type="curve" smooth="yes" name="n06"/>
       <point x="595.82" y="1079.36"/>
-      <point x="672.5" y="937.3199999999999"/>
-      <point x="790.02" y="852.88" type="curve"/>
+      <point x="672.5" y="937.32"/>
+      <point x="790.02" y="852.88" type="curve" name="n09"/>
       <point x="873.98" y="923.96" type="line"/>
       <point x="777.62" y="1002.6"/>
-      <point x="712.54" y="1113.0"/>
-      <point x="712.54" y="1225.54" type="curve" smooth="yes"/>
+      <point x="712.54" y="1113"/>
+      <point x="712.54" y="1225.54" type="curve" smooth="yes" name="n13"/>
       <point x="712.54" y="1346.96"/>
       <point x="787.94" y="1441.18"/>
-      <point x="933.46" y="1441.18" type="curve" smooth="yes"/>
+      <point x="933.46" y="1441.18" type="curve" smooth="yes" name="n16"/>
       <point x="1011.34" y="1441.18"/>
       <point x="1089.74" y="1413.8"/>
       <point x="1102.28" y="1361.76" type="curve"/>
     </contour>
-    <component base="c"/>
-    <component base="h" xOffset="978.36"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="873.88" width="-21" />
+      <hstem pos="1441.18" width="125.3" />
+      <hstem pos="1486.8" width="-20" />
+      <vstem pos="595.82" width="116.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

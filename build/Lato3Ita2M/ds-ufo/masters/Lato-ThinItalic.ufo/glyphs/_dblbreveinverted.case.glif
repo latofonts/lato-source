@@ -1,31 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblbreveinverted.case" format="2">
-  <advance width="1902.1"/>
-  <guideline x="951.0" y="0.0" angle="82.9991"/>
+  <advance width="1902"/>
   <outline>
     <contour>
-      <point x="1092.2" y="1774.4" type="curve"/>
+      <point x="1092.2" y="1774.4" type="curve" smooth="yes" name="n00"/>
       <point x="1449.4" y="1774.4"/>
       <point x="1673.6" y="1718.7"/>
-      <point x="1920.8" y="1613.0" type="curve"/>
+      <point x="1920.8" y="1613" type="curve" name="n03"/>
       <point x="1939.1" y="1647.2" type="line"/>
       <point x="1705.8" y="1755.4"/>
       <point x="1442.1" y="1814.7"/>
-      <point x="1097.6" y="1814.7" type="curve"/>
+      <point x="1097.6" y="1814.7" type="curve" smooth="yes" name="n07"/>
       <point x="753.2" y="1814.7"/>
       <point x="474.9" y="1755.4"/>
       <point x="215.3" y="1647.2" type="curve"/>
-      <point x="225.1" y="1613.0" type="line"/>
+      <point x="225.1" y="1613" type="line"/>
       <point x="497.6" y="1718.7"/>
       <point x="736.8" y="1774.4"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="939" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dblwidebreveinverted=_dblbreveinverted.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dblwidebreveinverted=_dblbreveinverted.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1634" width="-21" />
+      <hstem pos="1774.4" width="40.3" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

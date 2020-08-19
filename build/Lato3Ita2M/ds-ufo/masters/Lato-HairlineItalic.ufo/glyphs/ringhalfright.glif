@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringhalfright" format="2">
   <advance width="368"/>
   <unicode hex="02BE"/>
-  <guideline x="184"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="179" y="1120" name="_top"/>
   <anchor x="174" y="-70" name="bottom"/>
   <outline>
@@ -19,15 +17,28 @@
       <point x="401" y="1372"/>
       <point x="348" y="1434"/>
       <point x="272" y="1434" type="curve"/>
-      <point x="270" y="1416" type="line"/>
+      <point x="272" y="1434"/>
+      <point x="270" y="1416"/>
+      <point x="270" y="1416" type="curve"/>
       <point x="336" y="1416"/>
       <point x="380" y="1362"/>
     </contour>
   </outline>
+  <guideline angle="90" x="184" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1164" width="-20" />
+      <hstem pos="1167" width="-21" />
+      <hstem pos="1416" width="-20" />
+      <hstem pos="1434" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

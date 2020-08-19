@@ -1,21 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_idieresis" format="2">
-  <advance width="1792.8"/>
-  <anchor x="1551.8" y="1120.0" name="top"/>
-  <anchor x="1550.6" y="-70.0" name="bottom"/>
-  <anchor x="1551.0" y="496.6" name="bar"/>
+  <advance width="1793"/>
+  <anchor x="1551" y="496.6" name="bar"/>
+  <anchor x="1550.6" y="-70" name="bottom"/>
+  <anchor x="1551.8" y="1120" name="top"/>
   <outline>
+    <component base="f_f_idotless"/>
     <contour>
       <point x="1496.4" y="1289.6" type="curve" smooth="yes"/>
       <point x="1496.4" y="1355.6"/>
       <point x="1440.8" y="1410.4"/>
-      <point x="1375.6" y="1410.4" type="curve" smooth="yes"/>
+      <point x="1375.6" y="1410.4" type="curve" smooth="yes" name="n03"/>
       <point x="1313.2" y="1410.4"/>
       <point x="1258.4" y="1355.6"/>
       <point x="1258.4" y="1289.6" type="curve" smooth="yes"/>
       <point x="1258.4" y="1225.6"/>
       <point x="1313.2" y="1173.2"/>
-      <point x="1375.6" y="1173.2" type="curve" smooth="yes"/>
+      <point x="1375.6" y="1173.2" type="curve" smooth="yes" name="n09"/>
       <point x="1440.8" y="1173.2"/>
       <point x="1496.4" y="1225.6"/>
     </contour>
@@ -33,14 +34,19 @@
       <point x="1776.8" y="1173.2"/>
       <point x="1831.2" y="1225.6"/>
     </contour>
-    <component base="f_f_idotless"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1173.2" width="237.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

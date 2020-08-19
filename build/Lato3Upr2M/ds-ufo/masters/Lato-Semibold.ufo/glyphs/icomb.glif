@@ -1,39 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icomb" format="2">
   <unicode hex="0365"/>
-  <guideline x="82.666"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1918.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1918" name="top"/>
   <outline>
     <contour>
-      <point x="-67.944" y="1560.288" type="line"/>
-      <point x="-67.944" y="1120.0" type="line"/>
-      <point x="66.944" y="1120.0" type="line"/>
-      <point x="66.944" y="1560.288" type="line"/>
+      <point x="-67.944" y="1560.29" type="line"/>
+      <point x="-67.944" y="1120" type="line" name="n01"/>
+      <point x="66.944" y="1120" type="line"/>
+      <point x="66.944" y="1560.29" type="line"/>
     </contour>
     <contour>
-      <point x="81.946" y="1713.942" type="curve" smooth="yes"/>
-      <point x="81.946" y="1759.912"/>
-      <point x="43.97" y="1796.222"/>
-      <point x="-1.9980000000000002" y="1796.222" type="curve" smooth="yes"/>
-      <point x="-45.636" y="1796.222"/>
-      <point x="-82.946" y="1759.912"/>
-      <point x="-82.946" y="1713.942" type="curve" smooth="yes"/>
-      <point x="-82.946" y="1669.306"/>
-      <point x="-45.636" y="1632.33"/>
-      <point x="-1.9980000000000002" y="1632.33" type="curve" smooth="yes"/>
+      <point x="81.946" y="1713.94" type="curve" smooth="yes" name="n04"/>
+      <point x="81.946" y="1759.91"/>
+      <point x="43.97" y="1796.22" name="n06"/>
+      <point x="-1.998" y="1796.22" type="curve" smooth="yes"/>
+      <point x="-45.636" y="1796.22"/>
+      <point x="-82.946" y="1759.91"/>
+      <point x="-82.946" y="1713.94" type="curve" smooth="yes" name="n10"/>
+      <point x="-82.946" y="1669.31"/>
+      <point x="-45.636" y="1632.33" name="n12"/>
+      <point x="-1.998" y="1632.33" type="curve" smooth="yes"/>
       <point x="43.97" y="1632.33"/>
-      <point x="81.946" y="1669.306"/>
+      <point x="81.946" y="1669.31"/>
     </contour>
   </outline>
+  <guideline angle="90" x="82" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_i=icomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_i=icomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1141" width="-21" />
+      <hstem pos="1632.33" width="-20" />
+      <hstem pos="1796.222" width="-20" />
+      <vstem pos="-82.946" width="164.892" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

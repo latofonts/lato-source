@@ -1,43 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clickretroflex" format="2">
-  <advance width="357.5"/>
+  <advance width="358"/>
   <unicode hex="01C3"/>
-  <guideline x="346.4"/>
-  <anchor x="176.8" y="-70.0" name="bottom"/>
+  <anchor x="176.8" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="152.7" y="1406.0" type="line"/>
-      <point x="152.7" y="834.0" type="line" smooth="yes"/>
+      <point x="152.7" y="1406" type="line" name="n00"/>
+      <point x="152.7" y="834" type="line" smooth="yes"/>
       <point x="152.7" y="715.6"/>
       <point x="156.1" y="634.8"/>
-      <point x="162.1" y="480.4" type="curve"/>
+      <point x="162.1" y="480.4" type="curve" name="n04"/>
       <point x="197.5" y="480.4" type="line"/>
       <point x="203.5" y="634.8"/>
       <point x="206.9" y="715.6"/>
-      <point x="206.9" y="834.0" type="curve" smooth="yes"/>
-      <point x="206.9" y="1406.0" type="line"/>
+      <point x="206.9" y="834" type="curve" smooth="yes" name="n08"/>
+      <point x="206.9" y="1406" type="line"/>
     </contour>
     <contour>
-      <point x="100.7" y="59.4" type="curve" smooth="yes"/>
-      <point x="100.7" y="17.0"/>
+      <point x="100.7" y="59.4" type="curve" smooth="yes" name="n10"/>
+      <point x="100.7" y="17"/>
       <point x="133.5" y="-15.8"/>
-      <point x="175.9" y="-15.8" type="curve" smooth="yes"/>
+      <point x="175.9" y="-15.8" type="curve" smooth="yes" name="n13"/>
       <point x="218.1" y="-15.8"/>
-      <point x="252.9" y="17.0"/>
-      <point x="252.9" y="59.4" type="curve" smooth="yes"/>
+      <point x="252.9" y="17"/>
+      <point x="252.9" y="59.4" type="curve" smooth="yes" name="n16"/>
       <point x="252.9" y="101.6"/>
       <point x="218.1" y="136.4"/>
-      <point x="175.9" y="136.4" type="curve" smooth="yes"/>
+      <point x="175.9" y="136.4" type="curve" smooth="yes" name="n19"/>
       <point x="133.5" y="136.4"/>
       <point x="100.7" y="101.6"/>
     </contour>
   </outline>
+  <guideline angle="90" x="342" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>exclam=clickretroflex</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>exclam=clickretroflex</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-15.8" width="152.2" />
+      <hstem pos="1406" width="-20" />
+      <vstem pos="100.7" width="152.2" />
+      <vstem pos="162.1" width="44.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

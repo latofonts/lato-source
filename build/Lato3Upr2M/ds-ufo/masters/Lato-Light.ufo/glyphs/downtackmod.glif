@@ -1,25 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="downtackmod" format="2">
-  <advance width="750.0"/>
+  <advance width="750"/>
   <unicode hex="02D5"/>
   <outline>
     <contour>
-      <point x="339.5" y="320.75" type="line"/>
-      <point x="410.5" y="320.75" type="line"/>
+      <point x="339.5" y="320.75" type="line" name="n00"/>
+      <point x="410.5" y="320.75" type="line" name="n01"/>
       <point x="410.5" y="733.75" type="line"/>
       <point x="339.5" y="733.75" type="line"/>
     </contour>
     <contour>
-      <point x="152.5" y="670.75" type="line"/>
+      <point x="152.5" y="670.75" type="line" name="n04"/>
       <point x="597.5" y="670.75" type="line"/>
       <point x="597.5" y="733.75" type="line"/>
-      <point x="152.5" y="733.75" type="line"/>
+      <point x="152.5" y="733.75" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="341.75" width="-21" />
+      <hstem pos="670.75" width="63" />
+      <vstem pos="339.5" width="71" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

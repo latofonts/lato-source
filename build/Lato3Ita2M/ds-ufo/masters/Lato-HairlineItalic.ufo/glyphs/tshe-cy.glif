@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tshe-cy" format="2">
   <advance width="1006"/>
   <unicode hex="045B"/>
-  <guideline x="502" y="0" angle="82.9991"/>
   <anchor x="278" y="1496" name="Top"/>
   <anchor x="278" y="1496" name="top"/>
   <anchor x="432" y="-70" name="bottom"/>
@@ -45,14 +44,24 @@
       <point x="824" y="628" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="502" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>hbar=tshecyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>hbar=tshecyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="974" width="20" />
+      <hstem pos="1170" width="20" />
+      <hstem pos="1440" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

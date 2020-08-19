@@ -1,22 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_stroke" format="2">
-  <guideline x="0.0"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
   <anchor x="265.25" y="517.25" name="_bar"/>
-  <anchor x="279.0" y="643.75" name="top"/>
   <anchor x="251.25" y="386.75" name="_top"/>
+  <anchor x="279" y="643.75" name="top"/>
   <outline>
     <contour>
-      <point x="67.0" y="552.5" type="line"/>
-      <point x="59.0" y="484.0" type="line"/>
-      <point x="462.75" y="484.0" type="line"/>
+      <point x="67" y="552.5" type="line" name="n00"/>
+      <point x="59" y="484" type="line" name="n01"/>
+      <point x="462.75" y="484" type="line"/>
       <point x="471.5" y="552.5" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="0" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="484" width="68.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

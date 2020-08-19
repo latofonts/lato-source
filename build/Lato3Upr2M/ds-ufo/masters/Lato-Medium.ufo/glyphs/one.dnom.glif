@@ -1,34 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.dnom" format="2">
-  <advance width="668.0"/>
+  <advance width="668"/>
   <outline>
     <contour>
-      <point x="321.2" y="733.6" type="line"/>
-      <point x="297.6" y="512.0" type="line"/>
-      <point x="297.6" y="0.0" type="line"/>
-      <point x="439.2" y="0.0" type="line"/>
+      <point x="321.2" y="733.6" type="line" name="n00"/>
+      <point x="297.6" y="512" type="line"/>
+      <point x="297.6" y="0" type="line" name="n02"/>
+      <point x="439.2" y="0" type="line" name="n03"/>
       <point x="439.2" y="733.6" type="line"/>
     </contour>
     <contour>
-      <point x="152.4" y="0.0" type="line"/>
-      <point x="565.2" y="0.0" type="line"/>
-      <point x="565.2" y="92.39999999999999" type="line"/>
-      <point x="152.4" y="92.39999999999999" type="line"/>
+      <point x="152.4" y="0" type="line" name="n05"/>
+      <point x="565.2" y="0" type="line"/>
+      <point x="565.2" y="92.4" type="line"/>
+      <point x="152.4" y="92.4" type="line" name="n08"/>
     </contour>
     <contour>
-      <point x="96.0" y="542.4" type="line"/>
-      <point x="139.2" y="482.0" type="line"/>
+      <point x="96" y="542.4" type="line"/>
+      <point x="139.2" y="482" type="line"/>
       <point x="149.2" y="469.6"/>
       <point x="176.8" y="456.4"/>
-      <point x="202.4" y="476.0" type="curve"/>
+      <point x="202.4" y="476" type="curve"/>
       <point x="320.8" y="572.8" type="line"/>
       <point x="321.2" y="733.6" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="92.4" />
+      <hstem pos="733.6" width="-20" />
+      <vstem pos="297.6" width="141.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb" format="2">
   <unicode hex="0311"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1625.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="0.0" y="1454.96" type="curve"/>
-      <point x="-216.60000000000002" y="1454.96"/>
-      <point x="-288.588" y="1328.316"/>
-      <point x="-288.588" y="1177.676" type="curve"/>
-      <point x="-138.052" y="1177.676" type="line"/>
+      <point x="0" y="1454.96" type="curve" smooth="yes" name="n00"/>
+      <point x="-216.6" y="1454.96"/>
+      <point x="-288.588" y="1328.32"/>
+      <point x="-288.588" y="1177.68" type="curve" name="n03"/>
+      <point x="-138.052" y="1177.68" type="line" name="n04"/>
       <point x="-138.052" y="1261.7"/>
-      <point x="-108.032" y="1317.744"/>
-      <point x="0.0" y="1317.744" type="curve"/>
-      <point x="108.032" y="1317.744"/>
+      <point x="-108.032" y="1317.74"/>
+      <point x="0" y="1317.74" type="curve" smooth="yes" name="n07"/>
+      <point x="108.032" y="1317.74"/>
       <point x="138.052" y="1261.7"/>
-      <point x="138.052" y="1177.676" type="curve"/>
-      <point x="288.588" y="1177.676" type="line"/>
-      <point x="288.588" y="1328.316"/>
-      <point x="216.60000000000002" y="1454.96"/>
+      <point x="138.052" y="1177.68" type="curve" name="n10"/>
+      <point x="288.588" y="1177.68" type="line" name="n11"/>
+      <point x="288.588" y="1328.32"/>
+      <point x="216.6" y="1454.96"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1198.676" width="-21" />
+      <hstem pos="1317.744" width="137.216" />
+      <vstem pos="-288.588" width="150.536" />
+      <vstem pos="138.052" width="150.536" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

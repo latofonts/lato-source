@@ -1,28 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IstrokeSmallmod" format="2">
-  <advance width="341.38"/>
+  <advance width="341"/>
   <unicode hex="1DA7"/>
-  <guideline x="175.06" y="0.0" angle="82.9991"/>
   <anchor x="393.88" y="1518.62" name="Top"/>
-  <anchor x="150.94" y="-70.0" name="bottom"/>
+  <anchor x="150.94" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="353.62" y="1447.58" type="line"/>
+      <point x="353.62" y="1447.58" type="line" name="n00"/>
       <point x="192.78" y="1447.58" type="line"/>
-      <point x="128.1" y="918.92" type="line"/>
+      <point x="128.1" y="918.92" type="line" name="n02"/>
       <point x="288.72" y="918.92" type="line"/>
     </contour>
     <contour>
       <point x="106.72" y="1133.6" type="line"/>
       <point x="362.52" y="1133.6" type="line"/>
-      <point x="373.88" y="1227.38" type="line"/>
+      <point x="373.88" y="1227.38" type="line" name="n06"/>
       <point x="118.86" y="1227.38" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="154" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="939.92" width="-21" />
+      <hstem pos="1227.38" width="-20" />
+      <hstem pos="1447.58" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

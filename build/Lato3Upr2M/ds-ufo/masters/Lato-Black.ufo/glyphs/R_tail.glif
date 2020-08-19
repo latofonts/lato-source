@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rtail" format="2">
   <advance width="1312"/>
   <unicode hex="2C64"/>
@@ -44,7 +44,9 @@
     </contour>
     <contour>
       <point x="479" y="89" type="line"/>
-      <point x="141" y="89" type="line"/>
+      <point x="479" y="89"/>
+      <point x="141" y="89"/>
+      <point x="141" y="89" type="curve"/>
       <point x="141" y="74" type="line" smooth="yes"/>
       <point x="141" y="-171"/>
       <point x="256" y="-354"/>
@@ -65,9 +67,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-354" width="231" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="560" width="216" />
+      <hstem pos="1196" width="264" />
+      <vstem pos="141" width="338" />
+      <vstem pos="871" width="330" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

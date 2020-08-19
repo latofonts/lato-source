@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hardsign-cy" format="2">
   <advance width="1126"/>
   <unicode hex="044A"/>
-  <guideline y="1406"/>
   <anchor x="596" y="1120" name="top"/>
   <anchor x="615" y="-70" name="bottom"/>
   <outline>
@@ -39,12 +38,23 @@
       <point x="36" y="980" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="20" />
+      <hstem pos="524" width="20" />
+      <hstem pos="958" width="22" />
+      <vstem pos="380" width="24" />
+      <vstem pos="1013" width="23" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

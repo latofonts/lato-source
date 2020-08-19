@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omegaclosed-latin" format="2">
   <advance width="1293"/>
   <unicode hex="0277"/>
-  <guideline x="638"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="680" y="1120" name="top"/>
   <anchor x="576" y="-70" name="bottom"/>
   <outline>
@@ -54,12 +52,21 @@
       <point x="623" y="313" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="638" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I change it a little bit. More white space!</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I change it a little bit. More white space!</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-11" width="20" />
+      <hstem pos="975" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

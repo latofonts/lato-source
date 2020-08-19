@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acomb.case" format="2">
   <anchor x="0" y="1457" name="_Top"/>
   <anchor x="0" y="2173" name="top"/>
@@ -36,7 +36,9 @@
     </contour>
     <contour>
       <point x="92" y="1576" type="curve"/>
-      <point x="71" y="1684" type="line"/>
+      <point x="92" y="1576"/>
+      <point x="71" y="1684"/>
+      <point x="71" y="1684" type="curve"/>
       <point x="37" y="1643"/>
       <point x="17" y="1635"/>
       <point x="-18" y="1635" type="curve" smooth="yes"/>
@@ -58,13 +60,23 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_a=acomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_a=acomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1502" width="310" />
+      <hstem pos="1696" width="327" />
+      <hstem pos="1870" width="153" />
+      <vstem pos="-234" width="183" />
+      <vstem pos="82" width="152" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lpalatalhookmod" format="2">
   <advance width="246"/>
   <unicode hex="1DAA"/>
-  <guideline x="136" y="0" angle="82.9991"/>
   <anchor x="113" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -30,15 +29,26 @@
       <point x="226" y="765"/>
       <point x="236" y="844" type="curve"/>
       <point x="246" y="926" type="line"/>
-      <point x="158" y="926" type="line"/>
+      <point x="246" y="926"/>
+      <point x="158" y="926"/>
+      <point x="158" y="926" type="curve"/>
       <point x="156" y="908" type="line"/>
       <point x="225" y="908" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="136" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="731" width="-21" />
+      <hstem pos="908" width="-20" />
+      <hstem pos="1630" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

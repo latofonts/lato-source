@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dtail" format="2">
   <advance width="1087"/>
   <unicode hex="0256"/>
@@ -62,15 +62,29 @@
       <point x="903" y="-259"/>
       <point x="903" y="-116" type="curve"/>
       <point x="903" y="2" type="line"/>
-      <point x="879" y="2" type="line"/>
+      <point x="903" y="2"/>
+      <point x="879" y="2"/>
+      <point x="879" y="2" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=d</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=d</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-376" width="18" />
+      <hstem pos="-12" width="20" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="976" width="20" />
+      <hstem pos="1440" width="-20" />
+      <vstem pos="123" width="24" />
+      <vstem pos="879" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

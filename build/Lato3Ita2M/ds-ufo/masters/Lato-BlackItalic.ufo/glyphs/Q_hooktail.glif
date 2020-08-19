@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Qhooktail" format="2">
   <advance width="1457"/>
   <unicode hex="024A"/>
-  <guideline x="699" y="0" angle="82.9991"/>
   <anchor x="882" y="1525" name="Top"/>
   <anchor x="882" y="1525" name="top"/>
   <anchor x="671" y="-421" name="bottom"/>
@@ -45,7 +44,9 @@
     </contour>
     <contour>
       <point x="1259" y="86" type="line"/>
-      <point x="934" y="86" type="line"/>
+      <point x="1259" y="86"/>
+      <point x="934" y="86"/>
+      <point x="934" y="86" type="curve"/>
       <point x="931" y="66" type="line"/>
       <point x="902" y="-177"/>
       <point x="987" y="-357"/>
@@ -65,10 +66,20 @@
       <point x="1253" y="30" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="699" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-357" width="223" />
+      <hstem pos="-11" width="282" />
+      <hstem pos="1198" width="277" />
+      <hstem pos="1459" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

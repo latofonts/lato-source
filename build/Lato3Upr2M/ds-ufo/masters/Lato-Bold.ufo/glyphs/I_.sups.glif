@@ -1,20 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I.sups" format="2">
-  <advance width="369.36"/>
+  <advance width="369"/>
   <outline>
     <contour>
-      <point x="279.36" y="1659.14" type="line"/>
-      <point x="90.0" y="1659.14" type="line"/>
-      <point x="90.0" y="917.36" type="line"/>
+      <point x="279.36" y="1659.14" type="line" name="n00"/>
+      <point x="90" y="1659.14" type="line" name="n01"/>
+      <point x="90" y="917.36" type="line" name="n02"/>
       <point x="279.36" y="917.36" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Imod=I.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Imod=I.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="938.36" width="-21" />
+      <hstem pos="1659.14" width="-20" />
+      <vstem pos="90" width="189.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

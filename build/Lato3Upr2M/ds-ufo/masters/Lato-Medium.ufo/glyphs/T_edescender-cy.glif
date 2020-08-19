@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tedescender-cy" format="2">
-  <advance width="1194.0"/>
+  <advance width="1194"/>
   <unicode hex="04AC"/>
-  <anchor x="596.2" y="1513.4" name="Top"/>
-  <anchor x="596.2" y="1513.4" name="top"/>
-  <anchor x="596.2" y="-70.0" name="bottom"/>
   <anchor x="618.8" y="716.8" name="Slash"/>
+  <anchor x="596.2" y="1513.4" name="Top"/>
+  <anchor x="596.2" y="-70" name="bottom"/>
+  <anchor x="596.2" y="1513.4" name="top"/>
   <outline>
-    <contour>
-      <point x="721.2" y="0.0" type="line"/>
-      <point x="721.2" y="-347.4" type="line"/>
-      <point x="848.0" y="-347.4" type="line" smooth="yes"/>
-      <point x="888.0" y="-347.4"/>
-      <point x="916.0" y="-322.4"/>
-      <point x="916.0" y="-285.4" type="curve"/>
-      <point x="916.0" y="166.0" type="line"/>
-      <point x="700.0" y="166.0" type="line"/>
-      <point x="700.0" y="0.0" type="line"/>
-    </contour>
     <component base="T"/>
+    <contour>
+      <point x="721.2" y="0" type="line"/>
+      <point x="721.2" y="-347.4" type="line" name="n01"/>
+      <point x="848" y="-347.4" type="line" smooth="yes"/>
+      <point x="888" y="-347.4"/>
+      <point x="916" y="-322.4"/>
+      <point x="916" y="-285.4" type="curve" smooth="yes" name="n05"/>
+      <point x="916" y="166" type="line"/>
+      <point x="700" y="166" type="line" name="n07"/>
+      <point x="700" y="0" type="line" name="n08"/>
+    </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-326.4" width="-21" />
+      <hstem pos="0" width="166" />
+      <vstem pos="721.2" width="194.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

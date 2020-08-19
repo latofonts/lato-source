@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ghook" format="2">
   <advance width="1375"/>
   <unicode hex="0193"/>
-  <guideline x="700" y="0" angle="82.9991"/>
   <anchor x="859" y="1496" name="Top"/>
   <anchor x="859" y="1496" name="top"/>
   <anchor x="689" y="-70" name="bottom"/>
@@ -67,13 +66,25 @@
       <point x="1268" y="1335"/>
       <point x="1264" y="1303"/>
       <point x="1262" y="1256" type="curve"/>
-      <point x="1279" y="1256" type="line"/>
+      <point x="1262" y="1256"/>
+      <point x="1279" y="1256"/>
+      <point x="1279" y="1256" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="700" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="20" />
+      <hstem pos="582" width="20" />
+      <hstem pos="1396" width="20" />
+      <hstem pos="1654" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

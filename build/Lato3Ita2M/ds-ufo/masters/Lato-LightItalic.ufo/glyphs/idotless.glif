@@ -1,24 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotless" format="2">
-  <advance width="422.75"/>
+  <advance width="423"/>
   <unicode hex="0131"/>
-  <guideline x="227.25" y="0.0" angle="82.9991"/>
-  <anchor x="272.5" y="1120.0" name="top"/>
-  <anchor x="134.0" y="-70.0" name="bottom"/>
+  <anchor x="134" y="-70" name="bottom"/>
+  <anchor x="272.5" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="213.0" y="995.0" type="line"/>
-      <point x="92.0" y="0.0" type="line"/>
-      <point x="185.0" y="0.0" type="line"/>
-      <point x="306.0" y="995.0" type="line"/>
+      <point x="213" y="995" type="line" name="n00"/>
+      <point x="92" y="0" type="line" name="n01"/>
+      <point x="185" y="0" type="line"/>
+      <point x="306" y="995" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="213" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="995" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

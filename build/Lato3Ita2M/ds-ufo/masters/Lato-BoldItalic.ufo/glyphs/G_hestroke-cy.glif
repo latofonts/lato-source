@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ghestroke-cy" format="2">
-  <advance width="1104.28"/>
+  <advance width="1104"/>
   <unicode hex="0492"/>
-  <guideline x="555.7" y="0.0" angle="82.9991"/>
   <anchor x="736.22" y="1518.62" name="Top"/>
+  <anchor x="286.12" y="-70" name="bottom"/>
   <anchor x="736.22" y="1518.62" name="top"/>
-  <anchor x="286.12" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Ge-cy" xOffset="85.32"/>
     <contour>
-      <point x="64.1" y="839.1" type="line"/>
-      <point x="40.26" y="644.72" type="line"/>
+      <point x="64.1" y="839.1" type="line" name="n00"/>
+      <point x="40.26" y="644.72" type="line" name="n01"/>
       <point x="832.76" y="644.72" type="line"/>
       <point x="856.6" y="839.1" type="line"/>
     </contour>
-    <component base="Ge-cy" xOffset="85.32"/>
   </outline>
+  <guideline angle="82.9991" x="544" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="644.72" width="194.38" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

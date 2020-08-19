@@ -1,23 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yat-cy" format="2">
-  <advance width="1450.28"/>
+  <advance width="1450"/>
   <unicode hex="0462"/>
   <anchor x="513.1" y="1511.66" name="Top"/>
+  <anchor x="803.98" y="-70" name="bottom"/>
   <anchor x="513.1" y="1511.66" name="top"/>
-  <anchor x="803.98" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Softsign-cy" xOffset="233.46"/>
     <contour>
-      <point x="53.64" y="1066.26" type="line"/>
+      <point x="53.64" y="1066.26" type="line" name="n00"/>
       <point x="1053.68" y="1066.26" type="line"/>
       <point x="1053.68" y="1211.38" type="line"/>
-      <point x="53.64" y="1211.38" type="line"/>
+      <point x="53.64" y="1211.38" type="line" name="n03"/>
     </contour>
-    <component base="Softsign-cy" xOffset="233.46"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1066.26" width="145.12" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

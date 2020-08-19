@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="einferior" format="2">
   <advance width="500"/>
   <unicode hex="2091"/>
-  <guideline x="250" y="0" angle="82.9991"/>
   <anchor x="-5" y="-421" name="bottom"/>
   <outline>
     <contour>
@@ -42,12 +41,22 @@
       <point x="314" y="268"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="250" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>e.sups=einferior</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>e.sups=einferior</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-238" width="18" />
+      <hstem pos="-238" width="299" />
+      <hstem pos="46" width="222" />
+      <hstem pos="250" width="18" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

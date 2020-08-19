@@ -1,40 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icomb" format="2">
   <unicode hex="0365"/>
-  <guideline x="-160.28"/>
-  <guideline x="-226.48" y="0.0" angle="82.9991"/>
-  <anchor x="-50.0" y="1037.0" name="_top"/>
-  <anchor x="50.0" y="1918.0" name="top"/>
+  <anchor x="-50" y="1037" name="_top"/>
+  <anchor x="50" y="1918" name="top"/>
   <outline>
     <contour>
       <point x="-71.64" y="1573.96" type="line"/>
-      <point x="-126.8" y="1120.88" type="line"/>
-      <point x="36.879999999999995" y="1120.88" type="line"/>
+      <point x="-126.8" y="1120.88" type="line" name="n01"/>
+      <point x="36.88" y="1120.88" type="line"/>
       <point x="92.92" y="1573.96" type="line"/>
     </contour>
     <contour>
       <point x="125.92" y="1741.72" type="curve" smooth="yes"/>
       <point x="125.92" y="1789.16"/>
-      <point x="89.4" y="1827.56"/>
+      <point x="89.4" y="1827.56" name="n06"/>
       <point x="39.56" y="1827.56" type="curve" smooth="yes"/>
       <point x="-14.16" y="1827.56"/>
       <point x="-66.24" y="1780.12"/>
       <point x="-66.24" y="1720.88" type="curve" smooth="yes"/>
       <point x="-66.24" y="1673.56"/>
-      <point x="-30.6" y="1635.16"/>
+      <point x="-30.6" y="1635.16" name="n12"/>
       <point x="15.84" y="1635.16" type="curve" smooth="yes"/>
       <point x="73.84" y="1635.16"/>
       <point x="125.92" y="1683.48"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-155" y="0"/>
+  <guideline angle="82.9991" x="-186" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_i=icomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_i=icomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1141.88" width="-21" />
+      <hstem pos="1635.16" width="-20" />
+      <hstem pos="1827.56" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

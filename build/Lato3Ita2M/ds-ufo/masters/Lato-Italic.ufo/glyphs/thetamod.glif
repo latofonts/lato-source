@@ -1,22 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thetamod" format="2">
-  <advance width="608.54"/>
+  <advance width="609"/>
   <unicode hex="1DBF"/>
-  <guideline x="289.5"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
   <anchor x="622.5" y="1510.74" name="Top"/>
-  <anchor x="287.56" y="-70.0" name="bottom"/>
+  <anchor x="287.56" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="433.28" y="1652.1" type="curve" smooth="yes"/>
+      <point x="433.28" y="1652.1" type="curve" smooth="yes" name="n00"/>
       <point x="262.86" y="1652.1"/>
       <point x="141.86" y="1488.2"/>
       <point x="141.86" y="1196.7" type="curve" smooth="yes"/>
       <point x="141.86" y="1011.34"/>
       <point x="218.3" y="907.4"/>
-      <point x="342.04" y="907.4" type="curve" smooth="yes"/>
+      <point x="342.04" y="907.4" type="curve" smooth="yes" name="n06"/>
       <point x="511.3" y="907.4"/>
-      <point x="631.3" y="1072.0"/>
+      <point x="631.3" y="1072"/>
       <point x="631.3" y="1363.96" type="curve" smooth="yes"/>
       <point x="631.3" y="1548.78"/>
       <point x="555.94" y="1652.1"/>
@@ -28,7 +26,7 @@
       <point x="258.9" y="1184.52" type="curve" smooth="yes"/>
       <point x="258.9" y="1414.28"/>
       <point x="311.6" y="1557.42"/>
-      <point x="422.1" y="1557.42" type="curve" smooth="yes"/>
+      <point x="422.1" y="1557.42" type="curve" smooth="yes" name="n18"/>
       <point x="481.38" y="1557.42"/>
       <point x="515.26" y="1496.82"/>
       <point x="515.26" y="1375.14" type="curve" smooth="yes"/>
@@ -37,15 +35,25 @@
     </contour>
     <contour>
       <point x="229.44" y="1244.36" type="line"/>
-      <point x="533.24" y="1244.36" type="line"/>
+      <point x="533.24" y="1244.36" type="line" name="n25"/>
       <point x="543.34" y="1328.86" type="line"/>
-      <point x="239.54000000000002" y="1328.86" type="line"/>
+      <point x="239.54" y="1328.86" type="line" name="n27"/>
     </contour>
   </outline>
+  <guideline angle="90" x="276" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="907.4" width="421.46" />
+      <hstem pos="1244.36" width="407.74" />
+      <hstem pos="1557.42" width="94.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

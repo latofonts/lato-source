@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="glottalinvertedstroke" format="2">
   <advance width="850"/>
   <unicode hex="01BE"/>
-  <guideline x="449" y="0" angle="82.9991"/>
   <anchor x="461" y="1120" name="top"/>
   <anchor x="311" y="-70" name="bottom"/>
   <outline>
@@ -49,10 +48,19 @@
       <point x="793" y="1037" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="449" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-20" width="224" />
+      <hstem pos="823" width="214" />
+      <hstem pos="1339" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

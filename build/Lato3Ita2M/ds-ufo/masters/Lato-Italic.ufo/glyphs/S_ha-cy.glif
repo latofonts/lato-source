@@ -1,43 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sha-cy" format="2">
-  <advance width="1995.26"/>
+  <advance width="1995"/>
   <unicode hex="0428"/>
-  <guideline x="983.24" y="0.0" angle="82.9991"/>
   <anchor x="1094.98" y="1511.66" name="Top"/>
+  <anchor x="918.2" y="-70" name="bottom"/>
   <anchor x="1094.98" y="1511.66" name="top"/>
-  <anchor x="918.2" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="460.8" y="1431.86" type="line"/>
+      <point x="460.8" y="1431.86" type="line" name="n00"/>
       <point x="273.18" y="1431.86" type="line"/>
-      <point x="97.4" y="0.0" type="line"/>
-      <point x="285.02" y="0.0" type="line"/>
+      <point x="97.4" y="0" type="line"/>
+      <point x="285.02" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="283.26" y="146.2" type="line"/>
-      <point x="265.6" y="0.0" type="line"/>
-      <point x="1635.1" y="0.0" type="line"/>
+      <point x="283.26" y="146.2" type="line" name="n04"/>
+      <point x="265.6" y="0" type="line" name="n05"/>
+      <point x="1635.1" y="0" type="line"/>
       <point x="1653.22" y="146.2" type="line"/>
     </contour>
     <contour>
       <point x="1190.84" y="1431.86" type="line"/>
       <point x="1002.68" y="1431.86" type="line"/>
-      <point x="826.9" y="0.0" type="line"/>
-      <point x="1015.06" y="0.0" type="line"/>
+      <point x="826.9" y="0" type="line"/>
+      <point x="1015.06" y="0" type="line"/>
     </contour>
     <contour>
       <point x="1924.4" y="1431.86" type="line"/>
       <point x="1736.32" y="1431.86" type="line"/>
-      <point x="1560.54" y="0.0" type="line"/>
-      <point x="1748.62" y="0.0" type="line"/>
+      <point x="1560.54" y="0" type="line"/>
+      <point x="1748.62" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="980" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="146.2" />
+      <hstem pos="1431.86" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

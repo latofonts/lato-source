@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kadescender-cy" format="2">
   <advance width="1504"/>
   <unicode hex="049A"/>
@@ -6,6 +6,7 @@
   <anchor x="752" y="1525" name="top"/>
   <anchor x="756" y="-70" name="bottom"/>
   <outline>
+    <component base="Ka-cy"/>
     <contour>
       <point x="1188" y="0" type="line"/>
       <point x="1188" y="-339" type="line"/>
@@ -17,12 +18,19 @@
       <point x="1211" y="262" type="line"/>
       <point x="1282" y="0" type="line"/>
     </contour>
-    <component base="Ka-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-318" width="-21" />
+      <hstem pos="0" width="262" />
+      <vstem pos="1188" width="310" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

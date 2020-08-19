@@ -1,63 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upsilon-latin" format="2">
-  <advance width="1092.75"/>
+  <advance width="1093"/>
   <unicode hex="028A"/>
-  <guideline x="546.5" y="0.0" angle="82.9991"/>
-  <anchor x="602.5" y="1120.0" name="top"/>
-  <anchor x="471.75" y="-70.0" name="bottom"/>
+  <anchor x="471.75" y="-70" name="bottom"/>
+  <anchor x="602.5" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="1026.0" y="919.0" type="line"/>
-      <point x="1031.25" y="965.0" type="line"/>
+      <point x="1026" y="919" type="line" name="n00"/>
+      <point x="1031.25" y="965" type="line"/>
       <point x="1033.75" y="982.5"/>
-      <point x="1023.0" y="994.75"/>
-      <point x="1004.5" y="994.75" type="curve" smooth="yes"/>
+      <point x="1023" y="994.75"/>
+      <point x="1004.5" y="994.75" type="curve" smooth="yes" name="n04"/>
       <point x="672.25" y="994.75" type="line"/>
-      <point x="665.75" y="937.0" type="line"/>
+      <point x="665.75" y="937" type="line"/>
       <point x="704.75" y="930.25"/>
-      <point x="764.25" y="919.0"/>
-      <point x="815.25" y="919.0" type="curve"/>
+      <point x="764.25" y="919"/>
+      <point x="815.25" y="919" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="184.5" y="994.75" type="line"/>
-      <point x="166.0" y="994.75"/>
+      <point x="184.5" y="994.75" type="line" smooth="yes"/>
+      <point x="166" y="994.75"/>
       <point x="152.5" y="982.5"/>
-      <point x="150.0" y="965.0" type="curve"/>
-      <point x="144.75" y="919.0" type="line"/>
-      <point x="356.0" y="919.0" type="line" smooth="yes"/>
-      <point x="406.5" y="919.0"/>
-      <point x="468.0" y="930.25"/>
-      <point x="509.25" y="937.0" type="curve"/>
+      <point x="150" y="965" type="curve"/>
+      <point x="144.75" y="919" type="line"/>
+      <point x="356" y="919" type="line" smooth="yes"/>
+      <point x="406.5" y="919"/>
+      <point x="468" y="930.25"/>
+      <point x="509.25" y="937" type="curve"/>
       <point x="515.75" y="994.75" type="line"/>
     </contour>
     <contour>
       <point x="515.75" y="994.75" type="line"/>
       <point x="457.5" y="994.75" type="line"/>
-      <point x="446.5" y="909.0" type="line"/>
-      <point x="493.5" y="938.0" type="line"/>
+      <point x="446.5" y="909" type="line"/>
+      <point x="493.5" y="938" type="line"/>
       <point x="282.75" y="905.25"/>
-      <point x="87.0" y="689.75"/>
-      <point x="87.0" y="397.5" type="curve" smooth="yes"/>
-      <point x="87.0" y="147.25"/>
-      <point x="254.0" y="-11.0"/>
-      <point x="471.0" y="-11.0" type="curve" smooth="yes"/>
-      <point x="729.25" y="-11.0"/>
+      <point x="87" y="689.75"/>
+      <point x="87" y="397.5" type="curve" smooth="yes"/>
+      <point x="87" y="147.25"/>
+      <point x="254" y="-11"/>
+      <point x="471" y="-11" type="curve" smooth="yes" name="n29"/>
+      <point x="729.25" y="-11"/>
       <point x="970.5" y="191.5"/>
       <point x="970.5" y="525.25" type="curve" smooth="yes"/>
       <point x="970.5" y="744.5"/>
       <point x="847.25" y="911.5"/>
-      <point x="681.25" y="938.0" type="curve"/>
-      <point x="721.0" y="909.0" type="line"/>
+      <point x="681.25" y="938" type="curve"/>
+      <point x="721" y="909" type="line"/>
       <point x="731.5" y="994.75" type="line"/>
       <point x="672.25" y="994.75" type="line"/>
-      <point x="660.0" y="890.75" type="line"/>
+      <point x="660" y="890.75" type="line"/>
       <point x="793.75" y="858.5"/>
-      <point x="882.0" y="706.0"/>
-      <point x="882.0" y="523.25" type="curve" smooth="yes"/>
-      <point x="882.0" y="220.25"/>
-      <point x="682.75" y="66.0"/>
-      <point x="481.0" y="66.0" type="curve" smooth="yes"/>
-      <point x="314.25" y="66.0"/>
+      <point x="882" y="706"/>
+      <point x="882" y="523.25" type="curve" smooth="yes"/>
+      <point x="882" y="220.25"/>
+      <point x="682.75" y="66"/>
+      <point x="481" y="66" type="curve" smooth="yes" name="n45"/>
+      <point x="314.25" y="66"/>
       <point x="176.5" y="183.75"/>
       <point x="176.5" y="402.75" type="curve" smooth="yes"/>
       <point x="176.5" y="648.75"/>
@@ -65,10 +64,18 @@
       <point x="503.5" y="890.75" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="538" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-11" width="77" />
+      <hstem pos="919" width="75.75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

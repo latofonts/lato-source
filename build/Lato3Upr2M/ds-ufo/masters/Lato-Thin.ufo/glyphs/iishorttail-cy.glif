@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iishorttail-cy" format="2">
-  <advance width="1169.9"/>
+  <advance width="1170"/>
   <unicode hex="048B"/>
   <anchor x="572.1" y="1498.9" name="Top"/>
-  <anchor x="569.1" y="1120.0" name="top"/>
-  <anchor x="562.1" y="-70.0" name="bottom"/>
+  <anchor x="562.1" y="-70" name="bottom"/>
+  <anchor x="569.1" y="1120" name="top"/>
   <outline>
+    <component base="ii-cy"/>
+    <component base="breve.cyrl" xScale="1" xOffset="169.1"/>
     <contour>
-      <point x="948.1" y="41.2" type="line"/>
-      <point x="948.1" y="0.0" type="line"/>
-      <point x="1072.3" y="0.0" type="line"/>
-      <point x="944.9" y="-357.9" type="line"/>
+      <point x="948.1" y="41.2" type="line" name="n00"/>
+      <point x="948.1" y="0" type="line" name="n01"/>
+      <point x="1072.3" y="0" type="line"/>
+      <point x="944.9" y="-357.9" type="line" name="n03"/>
       <point x="994.6" y="-357.9" type="line"/>
       <point x="1133.5" y="41.2" type="line"/>
     </contour>
-    <component base="ii-cy"/>
-    <component base="breve.cyrl" xOffset="169.1"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-336.9" width="-21" />
+      <hstem pos="0" width="41.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aie-cy" format="2">
   <advance width="1506"/>
   <unicode hex="04D5"/>
-  <guideline x="736" y="0" angle="82.9991"/>
   <anchor x="842" y="1120" name="top"/>
   <anchor x="666" y="-70" name="bottom"/>
   <outline>
@@ -87,12 +86,22 @@
       <point x="768" y="428" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="736" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>ae=aiecyr</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>ae=aiecyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="206" />
+      <hstem pos="5" width="-21" />
+      <hstem pos="444" width="182" />
+      <hstem pos="838" width="216" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

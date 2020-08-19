@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s_t" format="2">
   <advance width="1503"/>
   <unicode hex="FB06"/>
@@ -6,6 +6,7 @@
   <anchor x="417" y="-70" name="bottom"/>
   <anchor x="567" y="20" name="hook"/>
   <outline>
+    <component base="s"/>
     <contour>
       <point x="1109" y="1250" type="line" smooth="yes"/>
       <point x="1109" y="1408"/>
@@ -66,14 +67,23 @@
       <point x="1443" y="918" type="line"/>
       <point x="1443" y="938" type="line"/>
     </contour>
-    <component base="s"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="20" />
+      <hstem pos="918" width="20" />
+      <hstem pos="1534" width="20" />
+      <vstem pos="468" width="20" />
+      <vstem pos="1085" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

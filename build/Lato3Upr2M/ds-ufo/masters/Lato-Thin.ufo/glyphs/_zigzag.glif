@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_zigzag" format="2">
-  <advance width="800.0"/>
-  <anchor x="399.8" y="1120.0" name="_top"/>
+  <advance width="800"/>
+  <anchor x="399.8" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="513.8" y="1354.5" type="line"/>
+      <point x="513.8" y="1354.5" type="line" name="n00"/>
       <point x="247.1" y="1354.5" type="line"/>
-      <point x="343.7" y="1625.4" type="line"/>
+      <point x="343.7" y="1625.4" type="line" name="n02"/>
       <point x="367.5" y="1625.4" type="line" smooth="yes"/>
       <point x="380.7" y="1625.4"/>
       <point x="382.8" y="1614.8"/>
-      <point x="379.6" y="1606.6" type="curve"/>
+      <point x="379.6" y="1606.6" type="curve" smooth="yes"/>
       <point x="289.1" y="1360.6" type="line"/>
       <point x="276.6" y="1391.3" type="line"/>
-      <point x="544.3" y="1391.3" type="line"/>
-      <point x="447.7" y="1120.4" type="line"/>
-      <point x="423.0" y="1120.4" type="line" smooth="yes"/>
+      <point x="544.3" y="1391.3" type="line" name="n09"/>
+      <point x="447.7" y="1120.4" type="line" name="n10"/>
+      <point x="423" y="1120.4" type="line" smooth="yes"/>
       <point x="413.4" y="1120.4"/>
       <point x="407.7" y="1128.3"/>
       <point x="411.8" y="1139.2" type="curve" smooth="yes"/>
@@ -23,9 +23,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1141.4" width="-21" />
+      <hstem pos="1354.5" width="36.8" />
+      <hstem pos="1625.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

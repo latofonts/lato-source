@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="toneXL_L" format="2">
-  <advance width="754.6"/>
+  <advance width="755"/>
   <outline>
     <contour>
       <point x="87.88" y="179.04" type="line"/>
@@ -9,18 +9,25 @@
       <point x="442.4" y="490.6" type="line"/>
     </contour>
     <contour>
-      <point x="405.08000000000004" y="1452.8" type="line"/>
-      <point x="405.08000000000004" y="0.0" type="line"/>
-      <point x="627.48" y="0.0" type="line"/>
+      <point x="405.08" y="1452.8" type="line" name="n04"/>
+      <point x="405.08" y="0" type="line" name="n05"/>
+      <point x="627.48" y="0" type="line"/>
       <point x="627.48" y="1452.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1452.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

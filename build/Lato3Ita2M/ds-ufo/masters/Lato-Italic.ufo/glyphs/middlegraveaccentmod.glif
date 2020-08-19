@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="middlegraveaccentmod" format="2">
-  <advance width="736.0"/>
+  <advance width="736"/>
   <unicode hex="02F4"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="158.26" y="970.22" type="line"/>
-      <point x="410.76" y="682.76" type="line"/>
+      <point x="158.26" y="970.22" type="line" name="n00"/>
+      <point x="410.76" y="682.76" type="line" smooth="yes"/>
       <point x="426.72" y="664.8"/>
-      <point x="439.12" y="663.8"/>
+      <point x="439.12" y="663.8" name="n03"/>
       <point x="465.18" y="663.8" type="curve" smooth="yes"/>
       <point x="582.56" y="663.8" type="line"/>
-      <point x="407.46000000000004" y="937.86" type="line"/>
+      <point x="407.46" y="937.86" type="line"/>
       <point x="389.74" y="967.14"/>
       <point x="374.26" y="970.22"/>
       <point x="333.74" y="970.22" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="684.8" width="-21" />
+      <hstem pos="970.22" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

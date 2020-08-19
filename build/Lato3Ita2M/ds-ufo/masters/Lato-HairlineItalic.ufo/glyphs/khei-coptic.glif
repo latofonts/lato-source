@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khei-coptic" format="2">
   <advance width="1015"/>
   <unicode hex="03E7"/>
-  <guideline x="493" y="0" angle="82.9991"/>
   <anchor x="621" y="1120" name="top"/>
   <anchor x="398" y="-70" name="bottom"/>
   <outline>
@@ -56,10 +55,22 @@
       <point x="-25" y="0" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="493" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="12" width="-21" />
+      <hstem pos="0" width="11" />
+      <hstem pos="169" width="20" />
+      <hstem pos="618" width="20" />
+      <hstem pos="977" width="3" />
+      <hstem pos="997" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

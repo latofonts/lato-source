@@ -1,21 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentcomb.salt" format="2">
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="118.58800000000001" y="1445.304" type="line"/>
-      <point x="-15.96" y="1445.304" type="line"/>
-      <point x="-118.58800000000001" y="1162.64" type="line"/>
+      <point x="118.588" y="1445.3" type="line" name="n00"/>
+      <point x="-15.96" y="1445.3" type="line"/>
+      <point x="-118.588" y="1162.64" type="line" name="n02"/>
       <point x="68.592" y="1162.64" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1183.64" width="-21" />
+      <hstem pos="1445.304" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

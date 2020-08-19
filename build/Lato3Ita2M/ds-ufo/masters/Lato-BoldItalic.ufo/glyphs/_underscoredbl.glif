@@ -1,21 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_underscoredbl" format="2">
-  <advance width="726.0"/>
-  <guideline x="363.0" y="0.0" angle="82.9991"/>
+  <advance width="726"/>
   <outline>
     <contour>
-      <point x="-77.52" y="-137.04" type="line"/>
-      <point x="-96.68" y="-293.2" type="line"/>
+      <point x="-77.52" y="-137.04" type="line" name="n00"/>
+      <point x="-96.68" y="-293.2" type="line" name="n01"/>
       <point x="628.88" y="-293.2" type="line"/>
       <point x="648.48" y="-137.04" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="363" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>underscore=_dbllowline</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>underscore=_dbllowline</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-293.2" width="156.16" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

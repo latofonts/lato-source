@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="germanpenny" format="2">
   <advance width="1224"/>
   <unicode hex="20B0"/>
-  <guideline x="567" y="0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="-25" y="0" type="line"/>
@@ -12,7 +11,9 @@
       <point x="221" y="56" type="curve"/>
       <point x="408" y="440" type="line"/>
       <point x="237" y="431" type="line"/>
-      <point x="435" y="-28" type="line"/>
+      <point x="237" y="431"/>
+      <point x="435" y="-28"/>
+      <point x="435" y="-28" type="curve"/>
       <point x="435" y="-28"/>
       <point x="1166" y="720"/>
       <point x="1166" y="1176" type="curve" smooth="yes"/>
@@ -48,10 +49,19 @@
       <point x="353" y="701" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="567" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="-21" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="1313" width="224" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

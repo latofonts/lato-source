@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t_t_iogonek" format="2">
   <advance width="1995"/>
   <anchor x="1736" y="-70" name="_bottom"/>
   <outline>
+    <component base="ogonek" xOffset="1336"/>
     <contour>
       <point x="174" y="962" type="line"/>
       <point x="174" y="292" type="line" smooth="yes"/>
@@ -84,14 +85,25 @@
       <point x="1829" y="1134"/>
       <point x="1915" y="1218"/>
     </contour>
-    <component base="ogonek" xOffset="1336"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="5" width="-21" />
+      <hstem pos="0" width="236" />
+      <hstem pos="818" width="222" />
+      <hstem pos="1134" width="374" />
+      <vstem pos="174" width="310" />
+      <vstem pos="849" width="310" />
+      <vstem pos="1573" width="310" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

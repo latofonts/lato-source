@@ -1,21 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I.sups" format="2">
-  <advance width="335.262"/>
-  <guideline x="167.32" y="0.0" angle="82.9991"/>
+  <advance width="335"/>
   <outline>
     <contour>
-      <point x="374.56" y="1651.292" type="line"/>
-      <point x="215.696" y="1651.292" type="line"/>
-      <point x="125.03399999999999" y="916.658" type="line"/>
+      <point x="374.56" y="1651.29" type="line" name="n00"/>
+      <point x="215.696" y="1651.29" type="line"/>
+      <point x="125.034" y="916.658" type="line" name="n02"/>
       <point x="283.898" y="916.658" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="154" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Imod=I.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Imod=I.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="937.658" width="-21" />
+      <hstem pos="1651.292" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

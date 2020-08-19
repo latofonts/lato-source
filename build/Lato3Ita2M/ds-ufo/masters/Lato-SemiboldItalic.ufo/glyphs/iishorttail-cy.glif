@@ -1,32 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iishorttail-cy" format="2">
-  <advance width="1142.23"/>
+  <advance width="1142"/>
   <unicode hex="048B"/>
-  <guideline x="587.612" y="0.0" angle="82.9991"/>
-  <anchor x="624.636" y="1515.314" name="Top"/>
-  <anchor x="584.988" y="1120.0" name="top"/>
-  <anchor x="491.324" y="-70.0" name="bottom"/>
-  <anchor x="480.304" y="1120.0" name="_top"/>
+  <anchor x="624.636" y="1515.31" name="Top"/>
+  <anchor x="480.304" y="1120" name="_top"/>
+  <anchor x="491.324" y="-70" name="bottom"/>
   <anchor x="862.572" y="154.532" name="hook"/>
+  <anchor x="584.988" y="1120" name="top"/>
   <outline>
+    <component base="breve.cyrl" xOffset="102.652"/>
+    <component base="u"/>
     <contour>
-      <point x="876.214" y="155.864" type="line"/>
-      <point x="856.564" y="0.0" type="line"/>
-      <point x="855.044" y="0.0" type="line"/>
-      <point x="759.056" y="-346.68" type="line"/>
+      <point x="876.214" y="155.864" type="line" name="n00"/>
+      <point x="856.564" y="0" type="line" name="n01"/>
+      <point x="855.044" y="0" type="line"/>
+      <point x="759.056" y="-346.68" type="line" name="n03"/>
       <point x="887.27" y="-346.68" type="line" smooth="yes"/>
       <point x="921.91" y="-346.68"/>
       <point x="949.552" y="-322.368"/>
-      <point x="954.548" y="-283.73199999999997" type="curve"/>
-      <point x="1061.526" y="155.864" type="line"/>
+      <point x="954.548" y="-283.732" type="curve"/>
+      <point x="1061.53" y="155.864" type="line"/>
     </contour>
-    <component base="breve.cyrl" xOffset="102.652"/>
-    <component base="u"/>
   </outline>
+  <guideline angle="82.9991" x="533" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-325.68" width="-21" />
+      <hstem pos="0" width="155.864" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

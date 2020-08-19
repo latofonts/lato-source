@@ -1,18 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="V.sups" format="2">
-  <advance width="688.48"/>
-  <guideline x="370.52" y="0.0" angle="82.9991"/>
+  <advance width="688"/>
   <outline>
     <contour>
-      <point x="827.02" y="1658.36" type="line"/>
+      <point x="827.02" y="1658.36" type="line" name="n00"/>
       <point x="679.76" y="1658.36" type="line" smooth="yes"/>
       <point x="649.8" y="1658.36"/>
       <point x="626.08" y="1638.2"/>
-      <point x="616.28" y="1617.82" type="curve" smooth="yes"/>
-      <point x="461.64" y="1256.16" type="line" smooth="yes"/>
+      <point x="616.28" y="1617.82" type="curve"/>
+      <point x="461.64" y="1256.16" type="line"/>
       <point x="419.88" y="1164.06"/>
       <point x="374.66" y="1021.26"/>
-      <point x="359.52" y="918.14" type="curve"/>
+      <point x="359.52" y="918.14" type="curve" name="n08"/>
       <point x="463.44" y="918.14" type="line"/>
     </contour>
     <contour>
@@ -20,7 +19,7 @@
       <point x="408.52" y="918.14" type="line"/>
       <point x="425.9" y="1021.26"/>
       <point x="405.52" y="1164.06"/>
-      <point x="386.48" y="1256.16" type="curve" smooth="yes"/>
+      <point x="386.48" y="1256.16" type="curve"/>
       <point x="319.42" y="1617.82" type="line" smooth="yes"/>
       <point x="314.52" y="1642.1"/>
       <point x="295.92" y="1658.36"/>
@@ -28,10 +27,18 @@
       <point x="118.48" y="1658.36" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="305" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="939.14" width="-21" />
+      <hstem pos="1658.36" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

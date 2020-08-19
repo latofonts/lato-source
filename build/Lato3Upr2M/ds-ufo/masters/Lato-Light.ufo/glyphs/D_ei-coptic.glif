@@ -1,37 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dei-coptic" format="2">
-  <advance width="1154.0"/>
+  <advance width="1154"/>
   <unicode hex="03EE"/>
-  <anchor x="564.75" y="-70.0" name="bottom"/>
-  <anchor x="507.0" y="1503.25" name="Top"/>
-  <anchor x="507.0" y="1503.25" name="top"/>
+  <anchor x="507" y="1503.25" name="Top"/>
+  <anchor x="564.75" y="-70" name="bottom"/>
+  <anchor x="507" y="1503.25" name="top"/>
   <outline>
     <contour>
-      <point x="615.0" y="1414.75" type="line"/>
-      <point x="512.5" y="1414.75" type="line"/>
-      <point x="512.5" y="0.0" type="line"/>
-      <point x="615.0" y="0.0" type="line"/>
+      <point x="615" y="1414.75" type="line" name="n00"/>
+      <point x="512.5" y="1414.75" type="line" name="n01"/>
+      <point x="512.5" y="0" type="line" name="n02"/>
+      <point x="615" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="280.25" y="1122.5" type="line"/>
+      <point x="280.25" y="1122.5" type="line" smooth="yes" name="n04"/>
       <point x="99.75" y="1122.5"/>
-      <point x="56.0" y="1068.75"/>
-      <point x="56.0" y="971.0" type="curve" smooth="yes"/>
-      <point x="56.0" y="945.75"/>
+      <point x="56" y="1068.75"/>
+      <point x="56" y="971" type="curve" smooth="yes" name="n07"/>
+      <point x="56" y="945.75"/>
       <point x="60.5" y="929.25"/>
       <point x="83.75" y="929.25" type="curve" smooth="yes"/>
-      <point x="112.0" y="929.25" type="line"/>
-      <point x="113.0" y="1012.75"/>
+      <point x="112" y="929.25" type="line"/>
+      <point x="113" y="1012.75"/>
       <point x="144.25" y="1038.75"/>
-      <point x="283.5" y="1038.75" type="curve" smooth="yes"/>
-      <point x="1082.0" y="1038.75" type="line"/>
-      <point x="1082.0" y="1122.5" type="line"/>
+      <point x="283.5" y="1038.75" type="curve" smooth="yes" name="n14"/>
+      <point x="1082" y="1038.75" type="line"/>
+      <point x="1082" y="1122.5" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1038.75" width="83.75" />
+      <hstem pos="1414.75" width="-20" />
+      <vstem pos="56" width="559" />
+      <vstem pos="512.5" width="102.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

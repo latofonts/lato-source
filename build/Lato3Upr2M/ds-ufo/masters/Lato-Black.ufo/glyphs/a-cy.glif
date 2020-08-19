@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="a-cy" format="2">
   <advance width="1035"/>
   <unicode hex="0430"/>
@@ -39,7 +39,9 @@
     </contour>
     <contour>
       <point x="714" y="152" type="curve"/>
-      <point x="678" y="326" type="line"/>
+      <point x="714" y="152"/>
+      <point x="678" y="326"/>
+      <point x="678" y="326" type="curve"/>
       <point x="600" y="234"/>
       <point x="540" y="198"/>
       <point x="444" y="198" type="curve" smooth="yes" name="hr01"/>
@@ -61,13 +63,23 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>a=acyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>a=acyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="214" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="420" width="188" />
+      <hstem pos="812" width="248" />
+      <vstem pos="34" width="296" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

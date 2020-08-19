@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ystroke" format="2">
-  <advance width="1043.25"/>
+  <advance width="1043"/>
   <unicode hex="024F"/>
-  <guideline x="449.25" y="0.0" angle="82.9991"/>
-  <anchor x="617.25" y="1120.75" name="top"/>
   <anchor x="361.5" y="-420.25" name="bottom"/>
+  <anchor x="617.25" y="1120.75" name="top"/>
   <outline>
+    <component base="y" xOffset="68" yOffset="0.75"/>
     <contour>
       <point x="63.25" y="590.75" type="line"/>
-      <point x="310.0" y="590.75" type="line"/>
+      <point x="310" y="590.75" type="line" name="n01"/>
       <point x="322.5" y="595.5" type="line"/>
       <point x="758.75" y="595.5" type="line"/>
       <point x="770.25" y="590.75" type="line"/>
@@ -16,16 +16,22 @@
       <point x="1007.75" y="654.5" type="line"/>
       <point x="802.75" y="654.5" type="line"/>
       <point x="786.5" y="654.5" type="line"/>
-      <point x="312.0" y="654.5" type="line"/>
-      <point x="299.0" y="654.5" type="line"/>
+      <point x="312" y="654.5" type="line" name="n09"/>
+      <point x="299" y="654.5" type="line"/>
       <point x="71.5" y="654.5" type="line"/>
     </contour>
-    <component base="y" xOffset="68.0" yOffset="0.75"/>
   </outline>
+  <guideline angle="82.9991" x="428" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="590.75" width="63.75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

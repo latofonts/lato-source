@@ -1,39 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gestrokehook-cy" format="2">
-  <advance width="881.92"/>
+  <advance width="882"/>
   <unicode hex="04FB"/>
-  <guideline x="428.8" y="0.0" angle="82.9991"/>
-  <anchor x="535.56" y="1120.0" name="top"/>
-  <anchor x="359.32" y="-70.0" name="bottom"/>
+  <anchor x="359.32" y="-70" name="bottom"/>
+  <anchor x="535.56" y="1120" name="top"/>
   <outline>
+    <component base="ghestroke-cy" xOffset="-1.98"/>
     <contour>
       <point x="525.6" y="-47.14" type="line" smooth="yes"/>
       <point x="513.84" y="-138.66"/>
-      <point x="487.24" y="-190.85999999999999"/>
-      <point x="423.28" y="-190.85999999999999" type="curve" smooth="yes"/>
-      <point x="389.56" y="-190.85999999999999"/>
-      <point x="366.6" y="-178.0"/>
-      <point x="347.46" y="-178.0" type="curve" smooth="yes"/>
-      <point x="328.86" y="-178.0"/>
-      <point x="304.58" y="-186.57999999999998"/>
+      <point x="487.24" y="-190.86"/>
+      <point x="423.28" y="-190.86" type="curve" smooth="yes"/>
+      <point x="389.56" y="-190.86"/>
+      <point x="366.6" y="-178"/>
+      <point x="347.46" y="-178" type="curve" smooth="yes" name="n06"/>
+      <point x="328.86" y="-178"/>
+      <point x="304.58" y="-186.58"/>
       <point x="289.88" y="-224.22" type="curve"/>
       <point x="259.58" y="-320.92" type="line"/>
       <point x="316.86" y="-348.84"/>
       <point x="366.9" y="-360.96"/>
-      <point x="421.28" y="-360.96" type="curve" smooth="yes"/>
+      <point x="421.28" y="-360.96" type="curve" smooth="yes" name="n13"/>
       <point x="623.82" y="-360.96"/>
       <point x="714.36" y="-197.68"/>
       <point x="735.14" y="-28.42" type="curve" smooth="yes"/>
       <point x="756.12" y="140.78" type="line"/>
-      <point x="623.22" y="197.38" type="line"/>
-      <point x="534.44" y="21.700000000000003" type="line"/>
+      <point x="756.12" y="140.78"/>
+      <point x="623.22" y="197.38" name="n19"/>
+      <point x="623.22" y="197.38" type="curve"/>
+      <point x="534.44" y="21.7" type="line"/>
     </contour>
-    <component base="ghestroke-cy" xOffset="-1.9799999999999995"/>
   </outline>
+  <guideline angle="82.9991" x="421" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-360.96" width="182.96" />
+      <hstem pos="197.38" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

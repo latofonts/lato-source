@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ii-cy" format="2">
   <advance width="1389"/>
   <unicode hex="0418"/>
-  <guideline x="695" y="0" angle="82.9991"/>
   <anchor x="763" y="1494" name="Top"/>
   <anchor x="763" y="1494" name="top"/>
   <anchor x="618" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="216" y="96" type="line"/>
+      <point x="216" y="96" type="curve"/>
       <point x="200" y="76"/>
       <point x="188" y="60"/>
       <point x="171" y="35" type="curve"/>
@@ -23,7 +22,9 @@
       <point x="167" y="0"/>
       <point x="171" y="1"/>
       <point x="176" y="7" type="curve"/>
-      <point x="1199" y="1304" type="line"/>
+      <point x="176" y="7"/>
+      <point x="1199" y="1304"/>
+      <point x="1199" y="1304" type="curve"/>
       <point x="1215" y="1324"/>
       <point x="1227" y="1340"/>
       <point x="1244" y="1365" type="curve"/>
@@ -38,14 +39,24 @@
       <point x="1249" y="1400"/>
       <point x="1245" y="1400"/>
       <point x="1239" y="1393" type="curve"/>
+      <point x="1239" y="1393"/>
+      <point x="216" y="96"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="695" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1400" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

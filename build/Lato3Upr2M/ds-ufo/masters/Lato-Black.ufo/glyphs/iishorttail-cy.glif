@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iishorttail-cy" format="2">
   <advance width="1277"/>
   <unicode hex="048B"/>
@@ -6,6 +6,8 @@
   <anchor x="606" y="1120" name="top"/>
   <anchor x="590" y="-70" name="bottom"/>
   <outline>
+    <component base="ii-cy"/>
+    <component base="breve.cyrl" xOffset="206"/>
     <contour>
       <point x="1075" y="232" type="line"/>
       <point x="1075" y="0" type="line"/>
@@ -14,13 +16,18 @@
       <point x="1117" y="-339" type="line"/>
       <point x="1273" y="232" type="line"/>
     </contour>
-    <component base="ii-cy"/>
-    <component base="breve.cyrl" xOffset="206"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-318" width="-21" />
+      <hstem pos="0" width="232" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ii-cy" format="2">
   <advance width="1496"/>
   <unicode hex="0418"/>
@@ -7,7 +7,7 @@
   <anchor x="748" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="293" y="88" type="line"/>
+      <point x="293" y="88" type="curve"/>
       <point x="279" y="68"/>
       <point x="266" y="52"/>
       <point x="251" y="27" type="curve"/>
@@ -22,7 +22,9 @@
       <point x="252" y="0"/>
       <point x="257" y="1"/>
       <point x="261" y="7" type="curve"/>
-      <point x="1203" y="1312" type="line"/>
+      <point x="261" y="7"/>
+      <point x="1203" y="1312"/>
+      <point x="1203" y="1312" type="curve"/>
       <point x="1217" y="1332"/>
       <point x="1230" y="1348"/>
       <point x="1245" y="1373" type="curve"/>
@@ -37,14 +39,25 @@
       <point x="1244" y="1400"/>
       <point x="1239" y="1399"/>
       <point x="1235" y="1393" type="curve"/>
+      <point x="1235" y="1393"/>
+      <point x="293" y="88"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1400" width="-20" />
+      <vstem pos="232" width="24" />
+      <vstem pos="1240" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

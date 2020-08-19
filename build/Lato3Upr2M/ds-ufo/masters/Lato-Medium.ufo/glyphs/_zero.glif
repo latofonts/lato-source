@@ -1,40 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_zero" format="2">
-  <advance width="948.0"/>
+  <advance width="948"/>
   <outline>
     <contour>
-      <point x="472.6" y="-11.2" type="curve" smooth="yes"/>
+      <point x="472.6" y="-11.2" type="curve" smooth="yes" name="n00"/>
       <point x="665.4" y="-11.2"/>
-      <point x="846.8" y="148.0"/>
-      <point x="846.8" y="491.4" type="curve" smooth="yes"/>
+      <point x="846.8" y="148"/>
+      <point x="846.8" y="491.4" type="curve" smooth="yes" name="n03"/>
       <point x="846.8" y="835.2"/>
       <point x="665.4" y="993.2"/>
-      <point x="472.6" y="993.2" type="curve" smooth="yes"/>
+      <point x="472.6" y="993.2" type="curve" smooth="yes" name="n06"/>
       <point x="280.6" y="993.2"/>
       <point x="101.6" y="835.2"/>
-      <point x="101.6" y="491.4" type="curve" smooth="yes"/>
-      <point x="101.6" y="148.0"/>
+      <point x="101.6" y="491.4" type="curve" smooth="yes" name="n09"/>
+      <point x="101.6" y="148"/>
       <point x="280.6" y="-11.2"/>
     </contour>
     <contour>
-      <point x="472.6" y="828.4" type="curve" smooth="yes"/>
+      <point x="472.6" y="828.4" type="curve" smooth="yes" name="n12"/>
       <point x="565.6" y="828.4"/>
       <point x="647.8" y="764.4"/>
-      <point x="647.8" y="491.4" type="curve" smooth="yes"/>
-      <point x="647.8" y="218.0"/>
-      <point x="565.6" y="153.79999999999998"/>
-      <point x="472.6" y="153.79999999999998" type="curve" smooth="yes"/>
-      <point x="380.6" y="153.79999999999998"/>
-      <point x="300.4" y="218.0"/>
-      <point x="300.4" y="491.4" type="curve" smooth="yes"/>
+      <point x="647.8" y="491.4" type="curve" smooth="yes" name="n15"/>
+      <point x="647.8" y="218"/>
+      <point x="565.6" y="153.8"/>
+      <point x="472.6" y="153.8" type="curve" smooth="yes" name="n18"/>
+      <point x="380.6" y="153.8"/>
+      <point x="300.4" y="218"/>
+      <point x="300.4" y="491.4" type="curve" smooth="yes" name="n21"/>
       <point x="300.4" y="764.4"/>
       <point x="380.6" y="828.4"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-11.2" width="165" />
+      <hstem pos="828.4" width="164.8" />
+      <vstem pos="101.6" width="198.8" />
+      <vstem pos="647.8" width="199" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

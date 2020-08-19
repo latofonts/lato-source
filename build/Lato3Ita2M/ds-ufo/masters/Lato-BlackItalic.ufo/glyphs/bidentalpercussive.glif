@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bidentalpercussive" format="2">
   <advance width="990"/>
   <unicode hex="02AD"/>
-  <guideline x="532" y="0" angle="82.9991"/>
   <anchor x="593" y="1525" name="Top"/>
   <anchor x="593" y="1525" name="top"/>
   <anchor x="415" y="-70" name="bottom"/>
@@ -44,10 +43,19 @@
       <point x="940" y="862" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="532" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="327" width="271" />
+      <hstem pos="1189" width="270" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

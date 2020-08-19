@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esdescender-cy" format="2">
   <advance width="905"/>
   <unicode hex="04AB"/>
-  <guideline x="438" y="0" angle="82.9991"/>
   <anchor x="525" y="1120" name="top"/>
   <anchor x="383" y="-421" name="bottom"/>
   <anchor x="439" y="-70" name="_bottom"/>
   <outline>
+    <component base="_descendercyr" xOffset="145"/>
     <contour>
       <point x="844" y="182" type="curve"/>
       <point x="764" y="280" type="line"/>
@@ -41,14 +41,21 @@
       <point x="606" y="-16"/>
       <point x="712" y="36"/>
     </contour>
-    <component base="_descendercyr" xOffset="145"/>
   </outline>
+  <guideline angle="82.9991" x="438" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=escyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=escyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="242" />
+      <hstem pos="806" width="248" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,25 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hardsign-cy" format="2">
-  <advance width="1473.94"/>
+  <advance width="1474"/>
   <unicode hex="042A"/>
-  <anchor x="537.6800000000001" y="1511.66" name="Top"/>
-  <anchor x="537.6800000000001" y="1511.66" name="top"/>
-  <anchor x="828.56" y="-70.0" name="bottom"/>
+  <anchor x="537.68" y="1511.66" name="Top"/>
+  <anchor x="828.56" y="-70" name="bottom"/>
+  <anchor x="537.68" y="1511.66" name="top"/>
   <outline>
+    <component base="Softsign-cy" xOffset="258.04"/>
     <contour>
-      <point x="29.0" y="1275.4" type="line"/>
+      <point x="29" y="1275.4" type="line" name="n00"/>
       <point x="634.46" y="1275.4" type="line"/>
       <point x="634.46" y="1432.4" type="line"/>
-      <point x="29.0" y="1432.4" type="line"/>
+      <point x="29" y="1432.4" type="line" name="n03"/>
     </contour>
-    <component base="Softsign-cy" xOffset="258.04"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1275.4" width="157" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

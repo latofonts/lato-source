@@ -1,35 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb" format="2">
   <unicode hex="0311"/>
-  <guideline x="-134.22" y="0.0" angle="82.9991"/>
-  <anchor x="-40.0" y="1057.0" name="_top"/>
-  <anchor x="70.0" y="1625.0" name="top"/>
+  <anchor x="-40" y="1057" name="_top"/>
+  <anchor x="70" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="31.02" y="1461.8" type="curve"/>
+      <point x="31.02" y="1461.8" type="curve" smooth="yes" name="n00"/>
       <point x="-178.74" y="1461.8"/>
       <point x="-262.12" y="1331.28"/>
-      <point x="-279.24" y="1176.08" type="curve"/>
+      <point x="-279.24" y="1176.08" type="curve" name="n03"/>
       <point x="-120.62" y="1176.08" type="line"/>
-      <point x="-111.74" y="1256.0"/>
-      <point x="-81.03999999999999" y="1304.52"/>
-      <point x="12.64" y="1304.52" type="curve"/>
+      <point x="-111.74" y="1256"/>
+      <point x="-81.04" y="1304.52"/>
+      <point x="12.64" y="1304.52" type="curve" smooth="yes" name="n07"/>
       <point x="107.32" y="1304.52"/>
-      <point x="125.94" y="1256.0"/>
+      <point x="125.94" y="1256"/>
       <point x="117.62" y="1176.08" type="curve"/>
       <point x="276.24" y="1176.08" type="line"/>
       <point x="293.92" y="1331.28"/>
       <point x="240.78" y="1461.8"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-135" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1197.08" width="-21" />
+      <hstem pos="1304.52" width="157.28" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

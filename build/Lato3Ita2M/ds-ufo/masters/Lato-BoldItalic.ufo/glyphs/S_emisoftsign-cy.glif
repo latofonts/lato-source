@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Semisoftsign-cy" format="2">
-  <advance width="1251.96"/>
+  <advance width="1252"/>
   <unicode hex="048C"/>
-  <guideline x="629.78" y="0.0" angle="82.9991"/>
   <anchor x="660.8" y="1518.62" name="Top"/>
+  <anchor x="570.6" y="-70" name="bottom"/>
   <anchor x="660.8" y="1518.62" name="top"/>
-  <anchor x="570.6" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Softsign-cy" xOffset="95.2"/>
     <contour>
-      <point x="110.56" y="1250.14" type="line"/>
-      <point x="86.72" y="1055.76" type="line"/>
+      <point x="110.56" y="1250.14" type="line" name="n00"/>
+      <point x="86.72" y="1055.76" type="line" name="n01"/>
       <point x="879.78" y="1055.76" type="line"/>
       <point x="903.06" y="1250.14" type="line"/>
     </contour>
-    <component base="Softsign-cy" xOffset="95.2"/>
   </outline>
+  <guideline angle="82.9991" x="590" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1055.76" width="194.38" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

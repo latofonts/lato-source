@@ -1,20 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endash" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="2013"/>
-  <guideline x="491.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="214.0" y="552.2" type="line"/>
+      <point x="214" y="552.2" type="line" name="n00"/>
       <point x="932.2" y="552.2" type="line"/>
       <point x="936.6" y="591.6" type="line"/>
-      <point x="218.4" y="591.6" type="line"/>
+      <point x="218.4" y="591.6" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="486" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="552.2" width="39.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

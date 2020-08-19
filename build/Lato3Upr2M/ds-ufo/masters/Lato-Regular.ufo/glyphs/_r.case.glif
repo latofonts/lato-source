@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_r.case" format="2">
-  <advance width="429.32"/>
+  <advance width="429"/>
   <anchor x="421.56" y="1511.66" name="Top"/>
-  <anchor x="234.12" y="-70.0" name="bottom"/>
+  <anchor x="234.12" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="384.18" y="1948.42" type="line"/>
       <point x="371.18" y="1957.58"/>
-      <point x="354.18" y="1962.28"/>
+      <point x="354.18" y="1962.28" name="n02"/>
       <point x="333.86" y="1962.28" type="curve" smooth="yes"/>
       <point x="260.02" y="1962.28"/>
       <point x="214.62" y="1895.24"/>
@@ -18,29 +18,38 @@
       <point x="313.04" y="1851.1" type="curve" smooth="yes"/>
       <point x="329.02" y="1851.1"/>
       <point x="349.2" y="1846.72"/>
-      <point x="357.9" y="1846.72" type="curve" smooth="yes"/>
-      <point x="367.84000000000003" y="1846.72"/>
+      <point x="357.9" y="1846.72" type="curve" smooth="yes" name="n13"/>
+      <point x="367.84" y="1846.72"/>
       <point x="373.7" y="1850.88"/>
       <point x="376.32" y="1861.52" type="curve"/>
     </contour>
     <contour>
-      <point x="223.14" y="1500.8" type="line"/>
+      <point x="223.14" y="1500.8" type="line" name="n17"/>
       <point x="223.14" y="1845.7" type="line"/>
       <point x="219.44" y="1852.02" type="line"/>
-      <point x="209.42000000000002" y="1925.14" type="line"/>
+      <point x="209.42" y="1925.14" type="line" smooth="yes" name="n20"/>
       <point x="206.18" y="1946.26"/>
       <point x="199.32" y="1954.12"/>
-      <point x="175.58" y="1954.12" type="curve" smooth="yes"/>
-      <point x="108.88" y="1954.12" type="line"/>
+      <point x="175.58" y="1954.12" type="curve" smooth="yes" name="n23"/>
+      <point x="108.88" y="1954.12" type="line" name="n24"/>
       <point x="108.88" y="1500.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_r=_r.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_r=_r.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1521.8" width="-21" />
+      <hstem pos="1846.72" width="107.4" />
+      <hstem pos="1962.28" width="-20" />
+      <vstem pos="108.88" width="100.54" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

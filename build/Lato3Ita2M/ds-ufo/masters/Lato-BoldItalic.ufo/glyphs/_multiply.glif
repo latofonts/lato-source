@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_multiply" format="2">
-  <advance width="728.94"/>
-  <guideline x="364.08" y="0.0" angle="82.9991"/>
-  <anchor x="376.24" y="1120.0" name="_top"/>
+  <advance width="729"/>
+  <anchor x="376.24" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="623.56" y="1137.6" type="line"/>
+      <point x="623.56" y="1137.6" type="line" name="n00"/>
       <point x="727.48" y="1237.4" type="line"/>
-      <point x="415.96" y="1622.16" type="line"/>
+      <point x="415.96" y="1622.16" type="line" name="n02"/>
       <point x="313.04" y="1522.36" type="line"/>
     </contour>
     <contour>
@@ -17,10 +16,18 @@
       <point x="678.6" y="1622.16" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="336" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1158.6" width="-21" />
+      <hstem pos="1622.16" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

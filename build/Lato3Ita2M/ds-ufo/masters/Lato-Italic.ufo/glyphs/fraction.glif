@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
-  <advance width="280.0"/>
+  <advance width="280"/>
   <unicode hex="2044"/>
-  <guideline x="288.3" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="701.4" y="1431.32" type="line"/>
-      <point x="630.0" y="1431.32" type="line" smooth="yes"/>
+      <point x="701.4" y="1431.32" type="line" name="n00"/>
+      <point x="630" y="1431.32" type="line" smooth="yes"/>
       <point x="586.52" y="1431.32"/>
       <point x="555.22" y="1408.96"/>
-      <point x="528.0" y="1370.72" type="curve"/>
-      <point x="-395.86" y="0.0" type="line"/>
-      <point x="-325.38" y="0.0" type="line" smooth="yes"/>
-      <point x="-287.14" y="0.0"/>
+      <point x="528" y="1370.72" type="curve"/>
+      <point x="-395.86" y="0" type="line" name="n05"/>
+      <point x="-325.38" y="0" type="line" smooth="yes"/>
+      <point x="-287.14" y="0"/>
       <point x="-258.08" y="11.72"/>
-      <point x="-228.4" y="53.040000000000006" type="curve"/>
+      <point x="-228.4" y="53.04" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="183" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1431.32" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

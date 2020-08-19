@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="elhook-cy" format="2">
   <advance width="1322"/>
   <unicode hex="0513"/>
@@ -6,6 +6,7 @@
   <anchor x="576" y="-70" name="bottom"/>
   <anchor x="874" y="1525" name="Top"/>
   <outline>
+    <component base="el-cy"/>
     <contour>
       <point x="1036" y="-24" type="line" smooth="yes"/>
       <point x="1036" y="-99"/>
@@ -25,16 +26,26 @@
       <point x="1306" y="-173"/>
       <point x="1306" y="1" type="curve" smooth="yes"/>
       <point x="1306" y="232" type="line"/>
-      <point x="1115" y="232" type="line"/>
+      <point x="1306" y="232"/>
+      <point x="1115" y="232"/>
+      <point x="1115" y="232" type="curve"/>
       <point x="1115" y="0" type="line" name="hr01"/>
       <point x="1036" y="0" type="line"/>
     </contour>
-    <component base="el-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="230" />
+      <hstem pos="-126" width="126" />
+      <hstem pos="232" width="-20" />
+      <vstem pos="1036" width="270" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="digamma" format="2">
   <advance width="828"/>
   <unicode hex="03DD"/>
-  <guideline y="1406"/>
-  <guideline x="405" y="0" angle="82.9991"/>
   <anchor x="570" y="1120" name="top"/>
   <anchor x="51" y="-421" name="bottom"/>
   <outline>
@@ -44,10 +42,20 @@
       <point x="482" y="384" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="405" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-339" width="-21" />
+      <hstem pos="364" width="20" />
+      <hstem pos="953" width="43" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

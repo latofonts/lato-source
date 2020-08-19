@@ -1,39 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildeverticalcomb.case" format="2">
-  <anchor x="0.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2296.0" name="top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2296" name="top"/>
   <outline>
     <contour>
-      <point x="36.0" y="1638.2" type="curve"/>
-      <point x="36.0" y="1575.6"/>
-      <point x="-10.0" y="1554.6"/>
-      <point x="-73.0" y="1552.8" type="curve"/>
-      <point x="-73.0" y="1519.6" type="line"/>
-      <point x="9.0" y="1519.6"/>
-      <point x="75.6" y="1552.0"/>
-      <point x="75.6" y="1637.0" type="curve" smooth="yes"/>
+      <point x="36" y="1638.2" type="curve" smooth="yes" name="n00"/>
+      <point x="36" y="1575.6"/>
+      <point x="-10" y="1554.6"/>
+      <point x="-73" y="1552.8" type="curve"/>
+      <point x="-73" y="1519.6" type="line" name="n04"/>
+      <point x="9" y="1519.6"/>
+      <point x="75.6" y="1552"/>
+      <point x="75.6" y="1637" type="curve" smooth="yes"/>
       <point x="75.6" y="1724.2"/>
-      <point x="-36.0" y="1763.6"/>
-      <point x="-36.0" y="1838.4" type="curve" smooth="yes"/>
-      <point x="-36.0" y="1899.2"/>
-      <point x="12.0" y="1921.8"/>
-      <point x="73.2" y="1923.6" type="curve"/>
-      <point x="73.2" y="1958.8" type="line"/>
+      <point x="-36" y="1763.6"/>
+      <point x="-36" y="1838.4" type="curve" smooth="yes" name="n10"/>
+      <point x="-36" y="1899.2"/>
+      <point x="12" y="1921.8"/>
+      <point x="73.2" y="1923.6" type="curve" name="n13"/>
+      <point x="73.2" y="1958.8" type="line" name="n14"/>
       <point x="-8.8" y="1958.8"/>
       <point x="-75.6" y="1922.6"/>
-      <point x="-75.6" y="1839.6" type="curve" smooth="yes"/>
+      <point x="-75.6" y="1839.6" type="curve" smooth="yes" name="n17"/>
       <point x="-75.6" y="1750.4"/>
-      <point x="36.0" y="1713.0"/>
+      <point x="36" y="1713"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_vtilde.case=tildeverticalcomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_vtilde.case=tildeverticalcomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1540.6" width="-21" />
+      <hstem pos="1958.8" width="-20" />
+      <vstem pos="-75.6" width="39.6" />
+      <vstem pos="36" width="37.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

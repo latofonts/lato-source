@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_righthalfring.case" format="2">
   <advance width="800"/>
-  <guideline x="592"/>
   <anchor x="400" y="1525" name="_Top"/>
   <outline>
     <contour>
@@ -12,7 +11,9 @@
       <point x="576" y="1919"/>
       <point x="471" y="2007"/>
       <point x="314" y="2007" type="curve"/>
-      <point x="314" y="1849" type="line"/>
+      <point x="314" y="2007"/>
+      <point x="314" y="1849"/>
+      <point x="314" y="1849" type="curve"/>
       <point x="348" y="1849"/>
       <point x="377" y="1830"/>
       <point x="377" y="1773" type="curve" smooth="yes"/>
@@ -21,12 +22,21 @@
       <point x="314" y="1697" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="592" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringright=_righthalfring.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringright=_righthalfring.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1539" width="158" />
+      <hstem pos="1849" width="158" />
+      <vstem pos="377" width="199" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

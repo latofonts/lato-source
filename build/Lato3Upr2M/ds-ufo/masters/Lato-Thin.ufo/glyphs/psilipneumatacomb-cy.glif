@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="psilipneumatacomb-cy" format="2">
   <unicode hex="0486"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="7.0" y="1120.0" name="_onRight"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="7" y="1120" name="_onRight"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
       <point x="42.8" y="1322.6" type="curve"/>
@@ -12,18 +12,18 @@
       <point x="6.7" y="1201.9"/>
       <point x="-40.4" y="1191.5" type="curve"/>
       <point x="-51.2" y="1189.6"/>
-      <point x="-59.0" y="1187.3"/>
-      <point x="-59.0" y="1181.2" type="curve" smooth="yes"/>
-      <point x="-59.0" y="1163.6" type="line"/>
+      <point x="-59" y="1187.3"/>
+      <point x="-59" y="1181.2" type="curve" smooth="yes"/>
+      <point x="-59" y="1163.6" type="line" name="n08"/>
       <point x="32.3" y="1163.4"/>
       <point x="66.2" y="1245.8"/>
-      <point x="66.2" y="1321.2" type="curve" smooth="yes"/>
-      <point x="66.2" y="1391.0"/>
-      <point x="36.9" y="1415.7"/>
+      <point x="66.2" y="1321.2" type="curve" smooth="yes" name="n11"/>
+      <point x="66.2" y="1391"/>
+      <point x="36.9" y="1415.7" name="n13"/>
       <point x="-2.3" y="1415.7" type="curve" smooth="yes"/>
       <point x="-40.4" y="1415.7"/>
       <point x="-66.3" y="1391.9"/>
-      <point x="-66.3" y="1355.3" type="curve" smooth="yes"/>
+      <point x="-66.3" y="1355.3" type="curve" smooth="yes" name="n17"/>
       <point x="-66.3" y="1322.2"/>
       <point x="-44.7" y="1298.4"/>
       <point x="-5.4" y="1298.4" type="curve" smooth="yes"/>
@@ -32,13 +32,21 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_psilicyr=psilicyrcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_psilicyr=psilicyrcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1184.6" width="-21" />
+      <hstem pos="1415.7" width="-20" />
+      <vstem pos="-66.3" width="132.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

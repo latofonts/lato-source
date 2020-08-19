@@ -1,15 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hturned" format="2">
-  <advance width="1080.1"/>
+  <advance width="1080"/>
   <unicode hex="0265"/>
-  <guideline x="537.78" y="0.0" angle="82.9991"/>
-  <anchor x="591.44" y="1120.0" name="top"/>
-  <anchor x="448.04" y="-421.0" name="bottom"/>
+  <anchor x="448.04" y="-421" name="bottom"/>
+  <anchor x="591.44" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="769.64" y="1026.8" type="line"/>
-      <point x="602.18" y="-335.82" type="line"/>
-      <point x="848.8199999999999" y="-335.82" type="line"/>
+      <point x="769.64" y="1026.8" type="line" name="n00"/>
+      <point x="602.18" y="-335.82" type="line" name="n01"/>
+      <point x="848.82" y="-335.82" type="line"/>
       <point x="1016.28" y="1026.8" type="line"/>
     </contour>
     <contour>
@@ -22,23 +21,32 @@
       <point x="76.84" y="373.84" type="line"/>
       <point x="45.72" y="124.68"/>
       <point x="152.08" y="-15.56"/>
-      <point x="325.64" y="-15.56" type="curve" smooth="yes"/>
+      <point x="325.64" y="-15.56" type="curve" smooth="yes" name="n11"/>
       <point x="510.76" y="-15.56"/>
       <point x="693.4" y="130.56"/>
       <point x="803.2" y="428.84" type="curve"/>
       <point x="721.2" y="549.56" type="line"/>
       <point x="669.16" y="332.64"/>
       <point x="531.96" y="186.96"/>
-      <point x="419.68" y="186.96" type="curve" smooth="yes"/>
-      <point x="337.0" y="186.96"/>
-      <point x="306.84000000000003" y="241.64"/>
+      <point x="419.68" y="186.96" type="curve" smooth="yes" name="n18"/>
+      <point x="337" y="186.96"/>
+      <point x="306.84" y="241.64"/>
       <point x="323.48" y="373.84" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="498" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-314.82" width="-21" />
+      <hstem pos="-15.56" width="202.52" />
+      <hstem pos="1026.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

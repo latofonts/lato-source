@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="righthalfringabovecomb" format="2">
   <unicode hex="0357"/>
-  <guideline x="88"/>
   <anchor x="0" y="1037" name="_top"/>
   <anchor x="0" y="1690" name="top"/>
   <outline>
@@ -13,7 +12,9 @@
       <point x="88" y="1533"/>
       <point x="13" y="1611"/>
       <point x="-89" y="1611" type="curve"/>
-      <point x="-89" y="1593" type="line"/>
+      <point x="-89" y="1611"/>
+      <point x="-89" y="1593"/>
+      <point x="-89" y="1593" type="curve"/>
       <point x="3" y="1593"/>
       <point x="66" y="1523"/>
       <point x="66" y="1431" type="curve" smooth="yes"/>
@@ -22,14 +23,23 @@
       <point x="-89" y="1271" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="88" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringright=righthalfringabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringright=righthalfringabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1253" width="18" />
+      <hstem pos="1593" width="18" />
+      <vstem pos="66" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

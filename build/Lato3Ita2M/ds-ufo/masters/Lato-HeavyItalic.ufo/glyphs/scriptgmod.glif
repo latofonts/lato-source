@@ -1,19 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scriptgmod" format="2">
-  <advance width="555.08"/>
+  <advance width="555"/>
   <unicode hex="1DA2"/>
-  <guideline x="271.48"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
-  <anchor x="256.48" y="-70.0" name="bottom"/>
+  <anchor x="256.48" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="359.52" y="1461.68" type="curve" smooth="yes"/>
+      <point x="359.52" y="1461.68" type="curve" smooth="yes" name="n00"/>
       <point x="232.64" y="1461.68"/>
       <point x="123.68" y="1389.56"/>
       <point x="123.68" y="1268.72" type="curve" smooth="yes"/>
       <point x="123.68" y="1173.64"/>
       <point x="206.36" y="1113.36"/>
-      <point x="317.12" y="1113.36" type="curve" smooth="yes"/>
+      <point x="317.12" y="1113.36" type="curve" smooth="yes" name="n06"/>
       <point x="439.6" y="1113.36"/>
       <point x="546.92" y="1187.12"/>
       <point x="546.92" y="1306.2" type="curve" smooth="yes"/>
@@ -21,7 +19,7 @@
       <point x="465.88" y="1461.68"/>
     </contour>
     <contour>
-      <point x="331.44" y="1231.56" type="curve" smooth="yes"/>
+      <point x="331.44" y="1231.56" type="curve" smooth="yes" name="n12"/>
       <point x="301.2" y="1231.56"/>
       <point x="290.76" y="1248.12"/>
       <point x="290.76" y="1269.84" type="curve" smooth="yes"/>
@@ -41,10 +39,10 @@
       <point x="113.08" y="1032.4" type="curve" smooth="yes"/>
       <point x="113.08" y="878.76"/>
       <point x="379.2" y="970.12"/>
-      <point x="379.2" y="910.8" type="curve"/>
+      <point x="379.2" y="910.8" type="curve" smooth="yes"/>
       <point x="379.2" y="888.4"/>
       <point x="361.52" y="864.72"/>
-      <point x="294.2" y="864.72" type="curve" smooth="yes"/>
+      <point x="294.2" y="864.72" type="curve" smooth="yes" name="n33"/>
       <point x="238.2" y="864.72"/>
       <point x="225.2" y="880.92"/>
       <point x="225.2" y="899.44" type="curve" smooth="yes"/>
@@ -53,37 +51,48 @@
       <point x="296.2" y="964.48" type="curve"/>
       <point x="175.36" y="980.92" type="line"/>
       <point x="106.12" y="964.96"/>
-      <point x="62.519999999999996" y="930.52"/>
-      <point x="62.519999999999996" y="868.28" type="curve" smooth="yes"/>
-      <point x="62.519999999999996" y="803.28"/>
+      <point x="62.52" y="930.52"/>
+      <point x="62.52" y="868.28" type="curve" smooth="yes"/>
+      <point x="62.52" y="803.28"/>
       <point x="125.92" y="741.12"/>
-      <point x="275.24" y="741.12" type="curve" smooth="yes"/>
+      <point x="275.24" y="741.12" type="curve" smooth="yes" name="n46"/>
       <point x="450.12" y="741.12"/>
       <point x="554.2" y="849.16"/>
       <point x="554.2" y="958.92" type="curve" smooth="yes"/>
       <point x="554.2" y="1140.84"/>
-      <point x="279.15999999999997" y="1051.24"/>
-      <point x="279.15999999999997" y="1100.76" type="curve" smooth="yes"/>
-      <point x="279.15999999999997" y="1112.28"/>
+      <point x="279.16" y="1051.24"/>
+      <point x="279.16" y="1100.76" type="curve" smooth="yes"/>
+      <point x="279.16" y="1112.28"/>
       <point x="286.92" y="1117.12"/>
       <point x="314.36" y="1126.44" type="curve"/>
     </contour>
     <contour>
-      <point x="477.0" y="1299.04" type="line"/>
+      <point x="477" y="1299.04" type="line"/>
       <point x="574.12" y="1327.56" type="line"/>
       <point x="601.24" y="1332.96"/>
       <point x="612.28" y="1344.76"/>
-      <point x="615.04" y="1365.6" type="curve"/>
+      <point x="615.04" y="1365.6" type="curve" smooth="yes"/>
       <point x="623.96" y="1436.84" type="line"/>
-      <point x="416.48" y="1436.84" type="line"/>
+      <point x="416.48" y="1436.84" type="line" name="n62"/>
     </contour>
   </outline>
+  <guideline angle="90" x="253" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>g.sups=gscriptmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>g.sups=gscriptmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="741.12" width="123.6" />
+      <hstem pos="741.12" width="490.44" />
+      <hstem pos="1113.36" width="323.48" />
+      <hstem pos="1113.36" width="348.32" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

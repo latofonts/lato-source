@@ -1,25 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="176.5" y="649.6" type="line"/>
+      <point x="176.5" y="649.6" type="line" name="n00"/>
       <point x="989.3" y="649.6" type="line"/>
       <point x="989.3" y="690.8" type="line"/>
-      <point x="176.5" y="690.8" type="line"/>
+      <point x="176.5" y="690.8" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="943.3" y="351.8" type="line"/>
-      <point x="989.3" y="351.8" type="line"/>
+      <point x="943.3" y="351.8" type="line" name="n04"/>
+      <point x="989.3" y="351.8" type="line" name="n05"/>
       <point x="989.3" y="690.8" type="line"/>
       <point x="943.3" y="690.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="372.8" width="-21" />
+      <hstem pos="649.6" width="41.2" />
+      <vstem pos="943.3" width="46" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

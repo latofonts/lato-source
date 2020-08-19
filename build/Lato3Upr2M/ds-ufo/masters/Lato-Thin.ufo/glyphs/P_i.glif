@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Pi" format="2">
-  <advance width="1501.8"/>
+  <advance width="1502"/>
   <unicode hex="03A0"/>
   <anchor x="759.9" y="1498.9" name="Top"/>
+  <anchor x="750.9" y="-70" name="bottom"/>
   <anchor x="759.9" y="1498.9" name="top"/>
-  <anchor x="750.9" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="278.5" y="1406.0" type="line"/>
-      <point x="222.9" y="1406.0" type="line"/>
-      <point x="222.9" y="0.0" type="line"/>
-      <point x="278.5" y="0.0" type="line"/>
+      <point x="278.5" y="1406" type="line" name="n00"/>
+      <point x="222.9" y="1406" type="line"/>
+      <point x="222.9" y="0" type="line" name="n02"/>
+      <point x="278.5" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="268.1" y="1406.0" type="line"/>
-      <point x="268.1" y="1360.0" type="line"/>
-      <point x="1246.9" y="1360.0" type="line"/>
-      <point x="1246.9" y="1406.0" type="line"/>
+      <point x="268.1" y="1406" type="line" name="n04"/>
+      <point x="268.1" y="1360" type="line" name="n05"/>
+      <point x="1246.9" y="1360" type="line"/>
+      <point x="1246.9" y="1406" type="line"/>
     </contour>
     <contour>
-      <point x="1278.9" y="1406.0" type="line"/>
-      <point x="1223.3" y="1406.0" type="line"/>
-      <point x="1223.3" y="0.0" type="line"/>
-      <point x="1278.9" y="0.0" type="line"/>
+      <point x="1278.9" y="1406" type="line" name="n08"/>
+      <point x="1223.3" y="1406" type="line" name="n09"/>
+      <point x="1223.3" y="0" type="line"/>
+      <point x="1278.9" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1360" width="46" />
+      <vstem pos="268.1" width="10.4" />
+      <vstem pos="1223.3" width="55.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

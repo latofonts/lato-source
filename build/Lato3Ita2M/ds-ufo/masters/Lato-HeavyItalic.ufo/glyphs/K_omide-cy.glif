@@ -1,39 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Komide-cy" format="2">
-  <advance width="1174.3600000000001"/>
+  <advance width="1174"/>
   <unicode hex="0500"/>
-  <guideline x="578.36" y="0.0" angle="82.9991"/>
   <anchor x="616.96" y="1521.52" name="Top"/>
+  <anchor x="533.2" y="-70" name="bottom"/>
   <anchor x="616.96" y="1521.52" name="top"/>
-  <anchor x="533.2" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="903.36" y="945.84" type="line"/>
-      <point x="670.48" y="945.84" type="line" smooth="yes"/>
+      <point x="670.48" y="945.84" type="line" smooth="yes" name="n01"/>
       <point x="242.04" y="945.84"/>
       <point x="17.4" y="716.4"/>
       <point x="17.4" y="401.8" type="curve" smooth="yes"/>
       <point x="17.4" y="170.76"/>
-      <point x="160.84" y="0.0"/>
-      <point x="496.4" y="0.0" type="curve" smooth="yes"/>
-      <point x="955.4" y="0.0" type="line"/>
-      <point x="1133.56" y="1451.92" type="line"/>
+      <point x="160.84" y="0"/>
+      <point x="496.4" y="0" type="curve" smooth="yes" name="n07"/>
+      <point x="955.4" y="0" type="line"/>
+      <point x="1133.56" y="1451.92" type="line" name="n09"/>
       <point x="843.8" y="1451.92" type="line"/>
-      <point x="692.4" y="218.0" type="line"/>
-      <point x="523.16" y="218.0" type="line" smooth="yes"/>
-      <point x="375.72" y="218.0"/>
-      <point x="309.03999999999996" y="304.03999999999996"/>
-      <point x="309.03999999999996" y="425.68" type="curve" smooth="yes"/>
-      <point x="309.03999999999996" y="604.52"/>
+      <point x="692.4" y="218" type="line"/>
+      <point x="523.16" y="218" type="line" smooth="yes" name="n12"/>
+      <point x="375.72" y="218"/>
+      <point x="309.04" y="304.04"/>
+      <point x="309.04" y="425.68" type="curve" smooth="yes"/>
+      <point x="309.04" y="604.52"/>
       <point x="425.24" y="726.96"/>
-      <point x="650.12" y="726.96" type="curve" smooth="yes"/>
+      <point x="650.12" y="726.96" type="curve" smooth="yes" name="n18"/>
       <point x="852.72" y="726.96" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="515" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="218" />
+      <hstem pos="726.96" width="218.88" />
+      <hstem pos="1451.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

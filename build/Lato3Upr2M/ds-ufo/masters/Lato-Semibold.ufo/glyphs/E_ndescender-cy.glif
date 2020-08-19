@@ -1,46 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Endescender-cy" format="2">
-  <advance width="1628.27"/>
+  <advance width="1628"/>
   <unicode hex="04A2"/>
-  <anchor x="770.654" y="1515.314" name="Top"/>
-  <anchor x="-128.642" y="1238.0" name="tonos"/>
-  <anchor x="770.654" y="1515.314" name="top"/>
-  <anchor x="865.314" y="-421.0" name="bottom"/>
+  <anchor x="770.654" y="1515.31" name="Top"/>
+  <anchor x="865.314" y="-421" name="bottom"/>
+  <anchor x="-128.642" y="1238" name="tonos"/>
+  <anchor x="770.654" y="1515.31" name="top"/>
   <outline>
     <contour>
-      <point x="405.85" y="1439.96" type="line"/>
+      <point x="405.85" y="1439.96" type="line" name="n00"/>
       <point x="171.394" y="1439.96" type="line"/>
-      <point x="171.394" y="0.0" type="line"/>
-      <point x="405.85" y="0.0" type="line"/>
+      <point x="171.394" y="0" type="line"/>
+      <point x="405.85" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="381.866" y="809.912" type="line"/>
-      <point x="381.866" y="641.392" type="line"/>
-      <point x="1229.354" y="641.392" type="line"/>
-      <point x="1229.354" y="809.912" type="line"/>
+      <point x="381.866" y="809.912" type="line" name="n04"/>
+      <point x="381.866" y="641.392" type="line" name="n05"/>
+      <point x="1229.35" y="641.392" type="line"/>
+      <point x="1229.35" y="809.912" type="line"/>
     </contour>
     <contour>
-      <point x="1363.234" y="1439.96" type="line"/>
-      <point x="1128.778" y="1439.96" type="line"/>
-      <point x="1128.778" y="0.0" type="line"/>
-      <point x="1363.234" y="0.0" type="line"/>
+      <point x="1363.23" y="1439.96" type="line" name="n08"/>
+      <point x="1128.78" y="1439.96" type="line" name="n09"/>
+      <point x="1128.78" y="0" type="line"/>
+      <point x="1363.23" y="0" type="line" name="n11"/>
     </contour>
     <contour>
-      <point x="1362.126" y="0.0" type="line"/>
-      <point x="1362.126" y="-346.014" type="line"/>
-      <point x="1501.664" y="-346.014" type="line" smooth="yes"/>
-      <point x="1545.294" y="-346.014"/>
-      <point x="1575.934" y="-318.704"/>
-      <point x="1575.934" y="-278.404" type="curve"/>
-      <point x="1575.934" y="181.84" type="line"/>
-      <point x="1363.234" y="181.84" type="line"/>
-      <point x="1363.234" y="0.0" type="line"/>
+      <point x="1362.13" y="0" type="line"/>
+      <point x="1362.13" y="-346.014" type="line" name="n13"/>
+      <point x="1501.66" y="-346.014" type="line" smooth="yes"/>
+      <point x="1545.29" y="-346.014"/>
+      <point x="1575.93" y="-318.704"/>
+      <point x="1575.93" y="-278.404" type="curve" smooth="yes" name="n17"/>
+      <point x="1575.93" y="181.84" type="line"/>
+      <point x="1363.23" y="181.84" type="line" name="n19"/>
+      <point x="1363.23" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-325.014" width="-21" />
+      <hstem pos="0" width="181.84" />
+      <hstem pos="641.392" width="168.52" />
+      <hstem pos="1439.96" width="-20" />
+      <vstem pos="381.866" width="23.984" />
+      <vstem pos="1128.778" width="234.456" />
+      <vstem pos="1362.126" width="213.808" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,33 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shha-cy" format="2">
-  <advance width="1055.36"/>
+  <advance width="1055"/>
   <unicode hex="04BB"/>
-  <anchor x="503.64" y="1120.0" name="top"/>
-  <anchor x="558.32" y="-70.0" name="bottom"/>
+  <anchor x="558.32" y="-70" name="bottom"/>
+  <anchor x="503.64" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="1001.28" y="344.28" type="line"/>
+      <point x="1001.28" y="344.28" type="line" smooth="yes" name="n00"/>
       <point x="1001.28" y="690.96"/>
       <point x="700.12" y="734.12"/>
-      <point x="297.08" y="616.0" type="curve"/>
+      <point x="297.08" y="616" type="curve"/>
       <point x="297.08" y="427.04" type="line"/>
       <point x="619.72" y="503.52"/>
       <point x="725.6" y="474.28"/>
-      <point x="725.6" y="301.16" type="curve" smooth="yes"/>
-      <point x="725.6" y="0.0" type="line"/>
-      <point x="1001.28" y="0.0" type="line"/>
+      <point x="725.6" y="301.16" type="curve" smooth="yes" name="n07"/>
+      <point x="725.6" y="0" type="line" name="n08"/>
+      <point x="1001.28" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="114.48" y="0.0" type="line"/>
-      <point x="390.15999999999997" y="0.0" type="line"/>
-      <point x="390.15999999999997" y="1032.8" type="line"/>
+      <point x="114.48" y="0" type="line" name="n10"/>
+      <point x="390.16" y="0" type="line" name="n11"/>
+      <point x="390.16" y="1032.8" type="line" name="n12"/>
       <point x="114.48" y="1032.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1032.8" width="-20" />
+      <vstem pos="114.48" width="275.68" />
+      <vstem pos="725.6" width="275.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

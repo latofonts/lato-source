@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notequal" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="2260"/>
-  <guideline x="580.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="324.7" y="224.2" type="line"/>
+      <point x="324.7" y="224.2" type="line" name="n00"/>
       <point x="365.7" y="224.2" type="line"/>
-      <point x="853.9" y="1128.6" type="line"/>
+      <point x="853.9" y="1128.6" type="line" name="n02"/>
       <point x="812.9" y="1128.6" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="580" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="245.2" width="-21" />
+      <hstem pos="1128.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,26 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Theta" format="2">
-  <advance width="1495.2"/>
+  <advance width="1495"/>
   <unicode hex="0398"/>
-  <guideline x="734.8" y="0.0" angle="82.9991"/>
-  <anchor x="860.0" y="1513.4" name="Top"/>
-  <anchor x="860.0" y="1513.4" name="top"/>
-  <anchor x="665.6" y="-70.0" name="bottom"/>
-  <anchor x="17.4" y="1120.0" name="onRight"/>
   <anchor x="764.4" y="716.8" name="Slash"/>
+  <anchor x="860" y="1513.4" name="Top"/>
+  <anchor x="665.6" y="-70" name="bottom"/>
+  <anchor x="17.4" y="1120" name="onRight"/>
+  <anchor x="860" y="1513.4" name="top"/>
   <outline>
+    <component base="O"/>
     <contour>
-      <point x="495.4" y="642.4" type="line"/>
+      <point x="495.4" y="642.4" type="line" name="n00"/>
       <point x="1002.4" y="642.4" type="line"/>
       <point x="1023.4" y="808.4" type="line"/>
-      <point x="516.0" y="808.4" type="line"/>
+      <point x="516" y="808.4" type="line" name="n03"/>
     </contour>
-    <component base="O"/>
   </outline>
+  <guideline angle="82.9991" x="733" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="642.4" width="166" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

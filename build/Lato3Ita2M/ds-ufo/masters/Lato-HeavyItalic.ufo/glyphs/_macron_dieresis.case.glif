@@ -1,30 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_macron_dieresis.case" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
+  <advance width="736"/>
   <anchor x="489.24" y="1521.52" name="_Top"/>
   <outline>
     <contour>
       <point x="509.04" y="1907.72" type="curve" smooth="yes"/>
-      <point x="517.44" y="1987.0"/>
+      <point x="517.44" y="1987"/>
       <point x="463.64" y="2053.48"/>
-      <point x="389.24" y="2053.48" type="curve" smooth="yes"/>
+      <point x="389.24" y="2053.48" type="curve" smooth="yes" name="n03"/>
       <point x="321.64" y="2053.48"/>
-      <point x="252.51999999999998" y="1987.0"/>
+      <point x="252.52" y="1987"/>
       <point x="244.12" y="1907.72" type="curve" smooth="yes"/>
-      <point x="234.95999999999998" y="1828.68"/>
+      <point x="234.96" y="1828.68"/>
       <point x="289.52" y="1765.72"/>
-      <point x="357.0" y="1765.72" type="curve" smooth="yes"/>
+      <point x="357" y="1765.72" type="curve" smooth="yes" name="n09"/>
       <point x="431.4" y="1765.72"/>
       <point x="499.88" y="1828.68"/>
     </contour>
     <contour>
       <point x="921.96" y="1907.72" type="curve" smooth="yes"/>
-      <point x="931.12" y="1987.0"/>
+      <point x="931.12" y="1987"/>
       <point x="878.2" y="2053.48"/>
       <point x="805.68" y="2053.48" type="curve" smooth="yes"/>
       <point x="732.8" y="2053.48"/>
-      <point x="665.32" y="1987.0"/>
+      <point x="665.32" y="1987"/>
       <point x="657.04" y="1907.72" type="curve" smooth="yes"/>
       <point x="647.88" y="1828.68"/>
       <point x="700.56" y="1765.72"/>
@@ -34,15 +33,23 @@
     </contour>
     <contour>
       <point x="259.04" y="1561.6" type="line"/>
-      <point x="828.24" y="1561.6" type="line"/>
-      <point x="845.96" y="1720.64" type="line"/>
+      <point x="828.24" y="1561.6" type="line" name="n25"/>
+      <point x="845.96" y="1720.64" type="line" name="n26"/>
       <point x="277.76" y="1720.64" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1561.6" width="159.04" />
+      <hstem pos="1765.72" width="287.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_idotless_ogonek" format="2">
   <advance width="1171"/>
-  <guideline x="581" y="0" angle="82.9991"/>
   <anchor x="982" y="1120" name="top"/>
   <outline>
     <contour>
@@ -71,12 +70,22 @@
       <point x="964" y="-166"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="581" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-348" width="174" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="819" width="221" />
+      <hstem pos="1275" width="218" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

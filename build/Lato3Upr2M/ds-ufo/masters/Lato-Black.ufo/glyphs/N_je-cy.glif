@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nje-cy" format="2">
   <advance width="2189"/>
   <unicode hex="040A"/>
@@ -7,6 +7,7 @@
   <anchor x="779" y="-70" name="bottom"/>
   <anchor x="-119" y="1120" name="onRight"/>
   <outline>
+    <component base="H"/>
     <contour>
       <point x="1403" y="880" type="line"/>
       <point x="1403" y="614" type="line"/>
@@ -27,14 +28,21 @@
       <point x="2011" y="880"/>
       <point x="1609" y="880" type="curve" smooth="yes"/>
     </contour>
-    <component base="H"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="266" />
+      <hstem pos="614" width="266" />
+      <vstem pos="1829" width="334" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

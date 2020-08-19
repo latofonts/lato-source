@@ -1,31 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xabovecomb" format="2">
   <unicode hex="033D"/>
-  <guideline x="-152.75" y="0.0" angle="82.9991"/>
-  <anchor x="-38.0" y="1104.0" name="_top"/>
-  <anchor x="30.0" y="1714.0" name="top"/>
+  <anchor x="-38" y="1104" name="_top"/>
+  <anchor x="30" y="1714" name="top"/>
   <outline>
     <contour>
-      <point x="124.75" y="1153.5" type="line"/>
-      <point x="168.25" y="1195.0" type="line"/>
-      <point x="-125.25" y="1557.5" type="line"/>
-      <point x="-167.75" y="1516.0" type="line"/>
+      <point x="124.75" y="1153.5" type="line" name="n00"/>
+      <point x="168.25" y="1195" type="line"/>
+      <point x="-125.25" y="1557.5" type="line" name="n02"/>
+      <point x="-167.75" y="1516" type="line"/>
     </contour>
     <contour>
-      <point x="-203.75" y="1195.0" type="line"/>
+      <point x="-203.75" y="1195" type="line"/>
       <point x="-170.75" y="1153.5" type="line"/>
-      <point x="203.5" y="1516.0" type="line"/>
+      <point x="203.5" y="1516" type="line"/>
       <point x="170.25" y="1557.5" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-151" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_multiply=xabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_multiply=xabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1174.5" width="-21" />
+      <hstem pos="1557.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

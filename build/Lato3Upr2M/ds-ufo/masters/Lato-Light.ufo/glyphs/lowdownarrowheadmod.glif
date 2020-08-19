@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lowdownarrowheadmod" format="2">
-  <advance width="750.0"/>
+  <advance width="750"/>
   <unicode hex="02EF"/>
-  <anchor x="375.0" y="1120.0" name="_top"/>
+  <anchor x="375" y="1120" name="_top"/>
   <outline>
     <contour>
       <point x="336.75" y="-344.5" type="line"/>
-      <point x="375.0" y="-386.0" type="line"/>
+      <point x="375" y="-386" type="line" name="n01"/>
       <point x="576.25" y="-184.75" type="line"/>
-      <point x="534.75" y="-143.25" type="line"/>
+      <point x="534.75" y="-143.25" type="line" name="n03"/>
     </contour>
     <contour>
       <point x="215.25" y="-143.25" type="line"/>
       <point x="173.75" y="-184.75" type="line"/>
-      <point x="375.0" y="-386.0" type="line"/>
+      <point x="375" y="-386" type="line"/>
       <point x="413.25" y="-344.5" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-365" width="-21" />
+      <hstem pos="-143.25" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

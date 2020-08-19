@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iishorttail-cy" format="2">
-  <advance width="1601.258"/>
+  <advance width="1601"/>
   <unicode hex="048A"/>
-  <anchor x="775.96" y="1514.646" name="Top"/>
-  <anchor x="775.96" y="1514.646" name="top"/>
-  <anchor x="767.314" y="-70.0" name="bottom"/>
+  <anchor x="775.96" y="1514.65" name="Top"/>
+  <anchor x="767.314" y="-70" name="bottom"/>
+  <anchor x="775.96" y="1514.65" name="top"/>
   <outline>
-    <contour>
-      <point x="1363.234" y="181.84" type="line"/>
-      <point x="1363.234" y="0.0" type="line"/>
-      <point x="1292.46" y="0.0" type="line"/>
-      <point x="1179.776" y="-346.014" type="line"/>
-      <point x="1407.238" y="-346.014" type="line"/>
-      <point x="1562.554" y="181.84" type="line"/>
-    </contour>
     <component base="Ii-cy"/>
-    <component base="breve.cyrl.case" xOffset="375.96" yOffset="-0.6679999999999999"/>
+    <component base="breve.cyrl.case" xyScale="-4.30145e-21" xOffset="375.96" yOffset="-0.668"/>
+    <contour>
+      <point x="1363.23" y="181.84" type="line" name="n00"/>
+      <point x="1363.23" y="0" type="line" name="n01"/>
+      <point x="1292.46" y="0" type="line"/>
+      <point x="1179.78" y="-346.014" type="line" name="n03"/>
+      <point x="1407.24" y="-346.014" type="line"/>
+      <point x="1562.55" y="181.84" type="line"/>
+    </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-325.014" width="-21" />
+      <hstem pos="0" width="181.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

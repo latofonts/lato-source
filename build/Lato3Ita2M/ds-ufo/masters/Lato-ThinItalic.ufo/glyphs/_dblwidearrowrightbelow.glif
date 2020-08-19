@@ -1,27 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblwidearrowrightbelow" format="2">
-  <advance width="2064.1"/>
-  <guideline x="1031.6" y="0.0" angle="82.9991"/>
+  <advance width="2064"/>
   <outline>
     <contour>
-      <point x="109.0" y="-390.0" type="line"/>
-      <point x="1905.4" y="-390.0" type="line"/>
-      <point x="1905.4" y="-349.0" type="line"/>
-      <point x="109.0" y="-349.0" type="line"/>
+      <point x="109" y="-390" type="line" name="n00"/>
+      <point x="1905.4" y="-390" type="line"/>
+      <point x="1905.4" y="-349" type="line"/>
+      <point x="109" y="-349" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="1786.0" y="-272.6" type="line"/>
-      <point x="1786.0" y="-465.9" type="line"/>
+      <point x="1786" y="-272.6" type="line" name="n04"/>
+      <point x="1786" y="-465.9" type="line" name="n05"/>
       <point x="1946.2" y="-386.4" type="line" smooth="yes"/>
       <point x="1962.9" y="-378.1"/>
-      <point x="1963.0" y="-362.9"/>
+      <point x="1963" y="-362.9"/>
       <point x="1946.2" y="-354.4" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="1019" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-444.9" width="-21" />
+      <hstem pos="-390" width="41" />
+      <hstem pos="-272.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

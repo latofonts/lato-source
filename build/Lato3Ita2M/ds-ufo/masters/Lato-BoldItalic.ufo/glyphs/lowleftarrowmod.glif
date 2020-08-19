@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lowleftarrowmod" format="2">
-  <advance width="1063.52"/>
+  <advance width="1064"/>
   <unicode hex="02FF"/>
-  <guideline x="531.76" y="0.0" angle="82.9991"/>
-  <anchor x="378.6" y="1120.0" name="_top"/>
+  <anchor x="378.6" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="336.64" y="-390.0" type="line"/>
-      <point x="721.16" y="-390.0" type="line"/>
+      <point x="336.64" y="-390" type="line" name="n00"/>
+      <point x="721.16" y="-390" type="line"/>
       <point x="741.88" y="-206.2" type="line"/>
-      <point x="357.36" y="-206.2" type="line"/>
+      <point x="357.36" y="-206.2" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="452.54" y="-499.22" type="line"/>
-      <point x="498.06" y="-93.07999999999998" type="line"/>
-      <point x="201.38" y="-243.98" type="line"/>
+      <point x="452.54" y="-499.22" type="line" name="n04"/>
+      <point x="498.06" y="-93.08" type="line" name="n05"/>
+      <point x="201.38" y="-243.98" type="line" smooth="yes"/>
       <point x="153.72" y="-267.92"/>
       <point x="147.82" y="-318.48"/>
-      <point x="190.02" y="-343.98" type="curve"/>
+      <point x="190.02" y="-343.98" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="460" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-478.22" width="-21" />
+      <hstem pos="-390" width="183.8" />
+      <hstem pos="-93.08" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

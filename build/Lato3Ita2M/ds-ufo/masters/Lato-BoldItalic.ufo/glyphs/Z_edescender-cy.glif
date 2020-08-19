@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zedescender-cy" format="2">
-  <advance width="1088.36"/>
+  <advance width="1088"/>
   <unicode hex="0498"/>
-  <guideline x="541.5" y="0.0" angle="82.9991"/>
   <anchor x="599.42" y="1518.62" name="Top"/>
-  <anchor x="384.74" y="-70.0" name="bottom"/>
-  <anchor x="599.42" y="1518.62" name="top"/>
   <anchor x="393.48" y="-71.98" name="_bottom"/>
+  <anchor x="384.74" y="-70" name="bottom"/>
+  <anchor x="599.42" y="1518.62" name="top"/>
   <outline>
+    <component base="_descendercyr" xScale="1" xyScale="-3.69305e-20" xOffset="98.38" yOffset="-1.98"/>
     <contour>
       <point x="543.52" y="703.08" type="line"/>
       <point x="867.12" y="703.08"/>
@@ -15,57 +15,65 @@
       <point x="1033.98" y="1123.14" type="curve" smooth="yes"/>
       <point x="1033.98" y="1320.22"/>
       <point x="873.88" y="1460.58"/>
-      <point x="604.06" y="1460.58" type="curve" smooth="yes"/>
-      <point x="431.0" y="1460.58"/>
+      <point x="604.06" y="1460.58" type="curve" smooth="yes" name="n06"/>
+      <point x="431" y="1460.58"/>
       <point x="276.08" y="1404.66"/>
       <point x="161.72" y="1309.32" type="curve"/>
-      <point x="210.74" y="1185.54" type="line" smooth="yes"/>
+      <point x="210.74" y="1185.54" type="line"/>
       <point x="222.88" y="1158.92"/>
-      <point x="237.58" y="1146.0"/>
-      <point x="263.42" y="1146.0" type="curve" smooth="yes"/>
-      <point x="316.72" y="1146.0"/>
+      <point x="237.58" y="1146"/>
+      <point x="263.42" y="1146" type="curve" smooth="yes"/>
+      <point x="316.72" y="1146"/>
       <point x="401.62" y="1247.92"/>
-      <point x="576.64" y="1247.92" type="curve" smooth="yes"/>
+      <point x="576.64" y="1247.92" type="curve" smooth="yes" name="n16"/>
       <point x="714.92" y="1247.92"/>
       <point x="787.68" y="1181.96"/>
       <point x="787.68" y="1084.14" type="curve" smooth="yes"/>
       <point x="787.68" y="945.92"/>
       <point x="687.8" y="866.16"/>
-      <point x="520.56" y="866.16" type="curve"/>
+      <point x="520.56" y="866.16" type="curve" smooth="yes"/>
       <point x="349.46" y="866.16" type="line"/>
       <point x="323.84" y="655.18" type="line"/>
-      <point x="513.36" y="655.18" type="line" smooth="yes"/>
+      <point x="513.36" y="655.18" type="line" name="n25"/>
       <point x="655.72" y="656.74"/>
-      <point x="745.0" y="582.6"/>
-      <point x="745.0" y="465.42" type="curve" smooth="yes"/>
-      <point x="745.0" y="292.48"/>
-      <point x="638.98" y="201.0"/>
-      <point x="460.28" y="201.0" type="curve" smooth="yes"/>
-      <point x="254.9" y="201.0"/>
-      <point x="192.57999999999998" y="334.0"/>
-      <point x="126.46000000000001" y="334.0" type="curve" smooth="yes"/>
-      <point x="102.52" y="334.0"/>
-      <point x="79.46000000000001" y="319.52"/>
-      <point x="64.53999999999999" y="300.70000000000005" type="curve"/>
+      <point x="745" y="582.6"/>
+      <point x="745" y="465.42" type="curve" smooth="yes"/>
+      <point x="745" y="292.48"/>
+      <point x="638.98" y="201"/>
+      <point x="460.28" y="201" type="curve" smooth="yes" name="n31"/>
+      <point x="254.9" y="201"/>
+      <point x="192.58" y="334"/>
+      <point x="126.46" y="334" type="curve" smooth="yes"/>
+      <point x="102.52" y="334"/>
+      <point x="79.46" y="319.52"/>
+      <point x="64.54" y="300.7" type="curve"/>
       <point x="-27.04" y="175.8" type="line"/>
       <point x="70.78" y="61.8"/>
-      <point x="240.76" y="-14.0"/>
-      <point x="426.86" y="-14.0" type="curve" smooth="yes"/>
-      <point x="775.22" y="-14.0"/>
+      <point x="240.76" y="-14"/>
+      <point x="426.86" y="-14" type="curve" smooth="yes" name="n41"/>
+      <point x="775.22" y="-14"/>
       <point x="989.74" y="218.08"/>
       <point x="989.74" y="485.8" type="curve" smooth="yes"/>
       <point x="989.74" y="690.1"/>
       <point x="786.6" y="828.18"/>
-      <point x="550.24" y="828.18" type="curve"/>
+      <point x="550.24" y="828.18" type="curve" name="n47"/>
     </contour>
-    <component base="_descendercyr" xOffset="98.38" yOffset="-1.9799999999999995"/>
   </outline>
+  <guideline angle="82.9991" x="522" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Zecyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Zecyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-14" width="215" />
+      <hstem pos="655.18" width="173" />
+      <hstem pos="1247.92" width="212.66" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,19 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackSmallSquare" format="2">
-  <advance width="835.8"/>
+  <advance width="836"/>
   <unicode hex="25AA"/>
   <outline>
     <contour>
-      <point x="117.6" y="361.79999999999995" type="line"/>
-      <point x="718.2" y="361.79999999999995" type="line"/>
+      <point x="117.6" y="361.8" type="line" name="n00"/>
+      <point x="718.2" y="361.8" type="line" name="n01"/>
       <point x="718.2" y="961.62" type="line"/>
-      <point x="117.6" y="961.62" type="line"/>
+      <point x="117.6" y="961.62" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="361.8" width="599.82" />
+      <vstem pos="117.6" width="600.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

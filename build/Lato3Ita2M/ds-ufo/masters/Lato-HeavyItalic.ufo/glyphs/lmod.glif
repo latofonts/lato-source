@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lmod" format="2">
-  <advance width="304.92"/>
+  <advance width="305"/>
   <unicode hex="02E1"/>
-  <guideline x="152.4" y="0.0" angle="82.9991"/>
-  <anchor x="131.84" y="-70.0" name="bottom"/>
+  <anchor x="131.84" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="237.6" y="1684.56" type="line"/>
-      <point x="143.32" y="919.44" type="line"/>
+      <point x="237.6" y="1684.56" type="line" name="n00"/>
+      <point x="143.32" y="919.44" type="line" name="n01"/>
       <point x="327.24" y="919.44" type="line"/>
       <point x="420.64" y="1684.56" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="126" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>l.sups=lmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>l.sups=lmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="940.44" width="-21" />
+      <hstem pos="1684.56" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

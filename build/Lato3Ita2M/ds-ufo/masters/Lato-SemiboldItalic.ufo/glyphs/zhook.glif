@@ -1,41 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhook" format="2">
-  <advance width="857.618"/>
+  <advance width="858"/>
   <unicode hex="0225"/>
-  <guideline x="433.976" y="0.0" angle="82.9991"/>
-  <anchor x="503.648" y="1120.0" name="top"/>
-  <anchor x="336.656" y="-70.0" name="bottom"/>
+  <anchor x="336.656" y="-70" name="bottom"/>
   <anchor x="660.3" y="154.532" name="hook"/>
+  <anchor x="503.648" y="1120" name="top"/>
   <outline>
+    <component base="z"/>
     <contour>
-      <point x="523.748" y="-57.391999999999996" type="line" smooth="yes"/>
+      <point x="523.748" y="-57.392" type="line" smooth="yes"/>
       <point x="511.412" y="-166.094"/>
       <point x="477.058" y="-215.142"/>
       <point x="409.676" y="-215.142" type="curve" smooth="yes"/>
       <point x="371.992" y="-215.142"/>
       <point x="346.98" y="-201.134"/>
-      <point x="330.322" y="-201.134" type="curve" smooth="yes"/>
+      <point x="330.322" y="-201.134" type="curve" smooth="yes" name="n06"/>
       <point x="314.002" y="-201.134"/>
-      <point x="289.022" y="-210.12599999999998"/>
+      <point x="289.022" y="-210.126"/>
       <point x="278.696" y="-241.768" type="curve" smooth="yes"/>
       <point x="252.386" y="-326.024" type="line"/>
       <point x="305.704" y="-350.35"/>
       <point x="361.354" y="-363.346"/>
-      <point x="409.676" y="-363.346" type="curve" smooth="yes"/>
+      <point x="409.676" y="-363.346" type="curve" smooth="yes" name="n13"/>
       <point x="599.282" y="-363.346"/>
       <point x="686.588" y="-215.062"/>
       <point x="705.586" y="-42.074" type="curve" smooth="yes"/>
-      <point x="728.244" y="165.854" type="line"/>
-      <point x="540.744" y="87.592" type="line"/>
+      <point x="728.244" y="165.854" type="line" name="n17"/>
+      <point x="728.244" y="165.854"/>
+      <point x="540.744" y="87.592"/>
+      <point x="540.744" y="87.592" type="curve"/>
     </contour>
-    <component base="z"/>
   </outline>
+  <guideline angle="82.9991" x="410" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=z</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=z</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-363.346" width="162.212" />
+      <hstem pos="165.854" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

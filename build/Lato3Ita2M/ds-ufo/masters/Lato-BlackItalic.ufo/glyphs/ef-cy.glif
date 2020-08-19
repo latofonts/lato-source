@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ef-cy" format="2">
   <advance width="1522"/>
   <unicode hex="0444"/>
-  <guideline x="770"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="865" y="1525" name="top"/>
   <anchor x="865" y="1525" name="Top"/>
   <anchor x="618" y="-421" name="bottom"/>
@@ -77,12 +75,23 @@
       <point x="820" y="268" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="770" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-319" width="-21" />
+      <hstem pos="-16" width="238" />
+      <hstem pos="810" width="246" />
+      <hstem pos="1500" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

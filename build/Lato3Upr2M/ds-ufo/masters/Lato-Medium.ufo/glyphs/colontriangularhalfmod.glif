@@ -1,23 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colontriangularhalfmod" format="2">
-  <advance width="725.0"/>
+  <advance width="725"/>
   <unicode hex="02D1"/>
-  <anchor x="361.2" y="1120.0" name="_top"/>
-  <anchor x="362.2" y="-70.0" name="bottom"/>
+  <anchor x="361.2" y="1120" name="_top"/>
+  <anchor x="362.2" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="537.4" y="681.0" type="line"/>
-      <point x="187.6" y="681.0" type="line"/>
+      <point x="537.4" y="681" type="line" name="n00"/>
+      <point x="187.6" y="681" type="line"/>
       <point x="319.6" y="414.8" type="line" smooth="yes"/>
       <point x="339.4" y="374.6"/>
-      <point x="380.6" y="374.0"/>
-      <point x="401.6" y="414.8" type="curve"/>
+      <point x="380.6" y="374"/>
+      <point x="401.6" y="414.8" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="681" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

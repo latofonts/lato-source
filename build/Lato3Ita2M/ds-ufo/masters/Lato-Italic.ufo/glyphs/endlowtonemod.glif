@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endlowtonemod" format="2">
-  <advance width="773.2"/>
+  <advance width="773"/>
   <unicode hex="02FC"/>
-  <guideline x="386.6" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="496.92" y="0.0" type="line"/>
-      <point x="624.0" y="0.0" type="line"/>
-      <point x="624.0" y="446.6" type="line"/>
+      <point x="496.92" y="0" type="line"/>
+      <point x="624" y="0" type="line" name="n01"/>
+      <point x="624" y="446.6" type="line" name="n02"/>
       <point x="496.92" y="446.6" type="line"/>
     </contour>
     <contour>
-      <point x="149.2" y="0.0" type="line"/>
-      <point x="624.0" y="0.0" type="line"/>
-      <point x="624.0" y="115.2" type="line"/>
+      <point x="149.2" y="0" type="line"/>
+      <point x="624" y="0" type="line"/>
+      <point x="624" y="115.2" type="line" name="n06"/>
       <point x="149.2" y="115.2" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="365" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="115.2" />
+      <hstem pos="446.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

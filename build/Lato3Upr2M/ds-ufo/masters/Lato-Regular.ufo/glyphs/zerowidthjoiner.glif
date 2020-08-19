@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerowidthjoiner" format="2">
   <unicode hex="200D"/>
-  <anchor x="0.27216" y="1476.1748" name="_top"/>
+  <anchor x="0" y="1475.84" name="_top"/>
   <outline>
-    <contour>
-      <point x="-23.200000000000003" y="-390.0" type="line"/>
-      <point x="23.200000000000003" y="-390.0" type="line"/>
-      <point x="23.200000000000003" y="1638.98" type="line"/>
-      <point x="-23.200000000000003" y="1638.98" type="line"/>
-    </contour>
     <component base="_multiply" xScale="0.868672" yScale="0.868672" xOffset="-333.14" yOffset="503.26"/>
+    <contour>
+      <point x="-23.2" y="-390" type="line" name="n00"/>
+      <point x="23.2" y="-390" type="line"/>
+      <point x="23.2" y="1638.98" type="line" name="n02"/>
+      <point x="-23.2" y="1638.98" type="line"/>
+    </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1638.98" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

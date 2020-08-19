@@ -1,25 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_diagonalstroke_short" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="526.1" name="_slash"/>
+  <advance width="800"/>
+  <anchor x="400" y="526.1" name="_slash"/>
   <outline>
     <contour>
-      <point x="-79.2" y="-197.2" type="line"/>
+      <point x="-79.2" y="-197.2" type="line" name="n00"/>
       <point x="-56.2" y="-197.2" type="line" smooth="yes"/>
       <point x="-44.4" y="-197.2"/>
       <point x="-37.1" y="-189.7"/>
-      <point x="-30.5" y="-179.7" type="curve"/>
-      <point x="833.1" y="1197.5" type="line"/>
-      <point x="811.0" y="1197.5" type="line" smooth="yes"/>
+      <point x="-30.5" y="-179.7" type="curve" smooth="yes"/>
+      <point x="833.1" y="1197.5" type="line" name="n05"/>
+      <point x="811" y="1197.5" type="line" smooth="yes"/>
       <point x="799.1" y="1197.5"/>
-      <point x="791.0" y="1190.0"/>
-      <point x="784.4" y="1179.1" type="curve"/>
+      <point x="791" y="1190"/>
+      <point x="784.4" y="1179.1" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-176.2" width="-21" />
+      <hstem pos="1197.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

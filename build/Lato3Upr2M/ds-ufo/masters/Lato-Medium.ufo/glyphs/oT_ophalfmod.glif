@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oTophalfmod" format="2">
-  <advance width="619.2"/>
+  <advance width="619"/>
   <unicode hex="1D54"/>
-  <guideline x="567.2"/>
-  <anchor x="543.0" y="1120.0" name="top"/>
-  <anchor x="543.0" y="-70.0" name="bottom"/>
+  <anchor x="543" y="-70" name="bottom"/>
+  <anchor x="543" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="570.0" y="1176.8" type="line"/>
-      <point x="570.0" y="1341.8"/>
+      <point x="570" y="1176.8" type="line" name="n00"/>
+      <point x="570" y="1341.8"/>
       <point x="466.2" y="1445.2"/>
-      <point x="310.0" y="1445.2" type="curve" smooth="yes"/>
+      <point x="310" y="1445.2" type="curve" smooth="yes" name="n03"/>
       <point x="153.6" y="1445.2"/>
-      <point x="48.800000000000004" y="1341.8"/>
-      <point x="48.800000000000004" y="1176.8" type="curve"/>
-      <point x="190.6" y="1176.8" type="line"/>
+      <point x="48.8" y="1341.8"/>
+      <point x="48.8" y="1176.8" type="curve" name="n06"/>
+      <point x="190.6" y="1176.8" type="line" name="n07"/>
       <point x="190.6" y="1283.6"/>
-      <point x="229.0" y="1338.4"/>
-      <point x="310.0" y="1338.4" type="curve" smooth="yes"/>
+      <point x="229" y="1338.4"/>
+      <point x="310" y="1338.4" type="curve" smooth="yes" name="n10"/>
       <point x="389.8" y="1338.4"/>
       <point x="427.6" y="1283.6"/>
-      <point x="427.6" y="1176.8" type="curve"/>
+      <point x="427.6" y="1176.8" type="curve" name="n13"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1197.8" width="-21" />
+      <hstem pos="1338.4" width="106.8" />
+      <vstem pos="48.8" width="141.8" />
+      <vstem pos="427.6" width="142.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

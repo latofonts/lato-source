@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nottildeabovecomb.case" format="2">
-  <anchor x="0.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2134.0" name="top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2134" name="top"/>
   <outline>
     <contour>
-      <point x="148.6" y="1738.36" type="curve" smooth="yes"/>
-      <point x="79.96000000000001" y="1738.36"/>
+      <point x="148.6" y="1738.36" type="curve" smooth="yes" name="n00"/>
+      <point x="79.96" y="1738.36"/>
       <point x="-36.76" y="1827.84"/>
       <point x="-149.72" y="1827.84" type="curve" smooth="yes"/>
       <point x="-266.72" y="1827.84"/>
@@ -14,32 +14,41 @@
       <point x="-210.72" y="1578.4" type="line"/>
       <point x="-210.28" y="1634.16"/>
       <point x="-187.2" y="1662.76"/>
-      <point x="-148.16" y="1662.76" type="curve" smooth="yes"/>
+      <point x="-148.16" y="1662.76" type="curve" smooth="yes" name="n10"/>
       <point x="-79.52" y="1662.76"/>
       <point x="39.2" y="1573.28"/>
-      <point x="150.16" y="1573.28" type="curve" smooth="yes"/>
+      <point x="150.16" y="1573.28" type="curve" smooth="yes" name="n13"/>
       <point x="269.16" y="1573.28"/>
       <point x="355.08" y="1671.16"/>
       <point x="355.08" y="1821.16" type="curve"/>
-      <point x="212.72" y="1821.16" type="line"/>
+      <point x="212.72" y="1821.16" type="line" name="n17"/>
       <point x="212.28" y="1764.96"/>
       <point x="188.08" y="1738.36"/>
     </contour>
     <contour>
       <point x="-184.9" y="1513.74" type="line"/>
-      <point x="-69.5" y="1451.48" type="line"/>
+      <point x="-69.5" y="1451.48" type="line" name="n21"/>
       <point x="197.62" y="1887.86" type="line"/>
-      <point x="82.22" y="1950.12" type="line"/>
+      <point x="82.22" y="1950.12" type="line" name="n23"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_nottilde=nottildeabovecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_nottilde=nottildeabovecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1472.48" width="-21" />
+      <hstem pos="1573.28" width="165.08" />
+      <hstem pos="1662.76" width="158.4" />
+      <hstem pos="1950.12" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

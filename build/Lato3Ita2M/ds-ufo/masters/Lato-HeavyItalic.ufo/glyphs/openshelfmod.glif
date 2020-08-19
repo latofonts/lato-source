@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openshelfmod" format="2">
-  <advance width="1150.0"/>
+  <advance width="1150"/>
   <unicode hex="02FE"/>
-  <guideline x="575.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="-13.120000000000001" y="-392.96" type="line"/>
+      <point x="-13.12" y="-392.96" type="line" name="n00"/>
       <point x="1006.6" y="-392.96" type="line"/>
       <point x="1027.96" y="-222.48" type="line"/>
-      <point x="7.359999999999999" y="-222.48" type="line"/>
+      <point x="7.36" y="-222.48" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="-13.120000000000001" y="-392.96" type="line"/>
+      <point x="-13.12" y="-392.96" type="line"/>
       <point x="114.76" y="-392.96" type="line"/>
-      <point x="154.95999999999998" y="-70.0" type="line"/>
-      <point x="26.2" y="-70.0" type="line"/>
+      <point x="154.96" y="-70" type="line" name="n06"/>
+      <point x="26.2" y="-70" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="575" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-392.96" width="170.48" />
+      <hstem pos="-70" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

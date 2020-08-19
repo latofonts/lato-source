@@ -1,29 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_invertedbreve.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1498.9" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1498.9" name="_Top"/>
   <outline>
     <contour>
-      <point x="399.1" y="1787.7" type="curve"/>
+      <point x="399.1" y="1787.7" type="curve" smooth="yes" name="n00"/>
       <point x="230.5" y="1787.7"/>
       <point x="156.3" y="1706.9"/>
-      <point x="156.3" y="1541.6" type="curve"/>
-      <point x="199.7" y="1541.6" type="line"/>
+      <point x="156.3" y="1541.6" type="curve" name="n03"/>
+      <point x="199.7" y="1541.6" type="line" name="n04"/>
       <point x="199.7" y="1674.6"/>
       <point x="252.2" y="1751.1"/>
-      <point x="399.1" y="1751.1" type="curve"/>
-      <point x="546.0" y="1751.1"/>
+      <point x="399.1" y="1751.1" type="curve" smooth="yes" name="n07"/>
+      <point x="546" y="1751.1"/>
       <point x="598.5" y="1674.6"/>
-      <point x="598.5" y="1541.6" type="curve"/>
-      <point x="641.9" y="1541.6" type="line"/>
+      <point x="598.5" y="1541.6" type="curve" name="n10"/>
+      <point x="641.9" y="1541.6" type="line" name="n11"/>
       <point x="641.9" y="1704.7"/>
       <point x="567.7" y="1787.7"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1562.6" width="-21" />
+      <hstem pos="1751.1" width="36.6" />
+      <vstem pos="156.3" width="43.4" />
+      <vstem pos="598.5" width="43.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

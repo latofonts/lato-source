@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainferior" format="2">
   <advance width="551"/>
   <unicode hex="2090"/>
-  <guideline x="283" y="0" angle="82.9991"/>
   <anchor x="246" y="-421" name="bottom"/>
   <outline>
     <contour>
@@ -38,7 +37,9 @@
     </contour>
     <contour>
       <point x="252" y="-154" type="curve"/>
-      <point x="244" y="-37" type="line"/>
+      <point x="252" y="-154"/>
+      <point x="244" y="-37"/>
+      <point x="244" y="-37" type="curve"/>
       <point x="206" y="-82"/>
       <point x="188" y="-91"/>
       <point x="162" y="-91" type="curve" smooth="yes"/>
@@ -59,12 +60,21 @@
       <point x="185" y="-207"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="283" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>a.sups=ainferior</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>a.sups=ainferior</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-232" width="331" />
+      <hstem pos="-25" width="349" />
+      <hstem pos="159" width="165" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

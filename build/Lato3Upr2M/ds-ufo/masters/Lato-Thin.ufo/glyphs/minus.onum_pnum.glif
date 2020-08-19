@@ -1,18 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus.onum_pnum" format="2">
-  <advance width="1080.0"/>
+  <advance width="1080"/>
   <outline>
     <contour>
-      <point x="157.6" y="535.6" type="line"/>
+      <point x="157.6" y="535.6" type="line" name="n00"/>
       <point x="922.4" y="535.6" type="line"/>
       <point x="922.4" y="576.8" type="line"/>
-      <point x="157.6" y="576.8" type="line"/>
+      <point x="157.6" y="576.8" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="535.6" width="41.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

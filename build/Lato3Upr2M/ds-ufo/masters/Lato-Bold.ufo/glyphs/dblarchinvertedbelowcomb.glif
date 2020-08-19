@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblarchinvertedbelowcomb" format="2">
   <unicode hex="032B"/>
-  <anchor x="0.0" y="-390.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-390" name="bottom"/>
   <outline>
     <contour>
-      <point x="-355.2" y="-89.28" type="line" smooth="yes"/>
+      <point x="-355.2" y="-89.28" type="line" smooth="yes" name="n00"/>
       <point x="-355.2" y="-241.6"/>
-      <point x="-270.78" y="-310.4"/>
+      <point x="-270.78" y="-310.4" name="n02"/>
       <point x="-153.04" y="-310.4" type="curve" smooth="yes"/>
       <point x="-29.96" y="-310.4"/>
-      <point x="51.800000000000004" y="-231.3"/>
-      <point x="51.800000000000004" y="-89.28" type="curve"/>
+      <point x="51.8" y="-231.3"/>
+      <point x="51.8" y="-89.28" type="curve"/>
       <point x="-87.78" y="-89.28" type="line"/>
       <point x="-87.78" y="-130.7"/>
-      <point x="-103.14" y="-152.0"/>
+      <point x="-103.14" y="-152"/>
       <point x="-132.66" y="-152.44" type="curve" smooth="yes"/>
       <point x="-163.6" y="-152.88"/>
-      <point x="-179.64" y="-132.01999999999998"/>
-      <point x="-179.64" y="-89.28" type="curve" smooth="yes"/>
-      <point x="-179.64" y="-66.6" type="line"/>
+      <point x="-179.64" y="-132.02"/>
+      <point x="-179.64" y="-89.28" type="curve" smooth="yes" name="n13"/>
+      <point x="-179.64" y="-66.6" type="line" name="n14"/>
       <point x="-355.2" y="-66.6" type="line"/>
     </contour>
     <contour>
@@ -29,32 +29,43 @@
       <point x="-87.78" y="-66.6" type="line"/>
     </contour>
     <contour>
-      <point x="355.2" y="-66.6" type="line"/>
-      <point x="179.64" y="-66.6" type="line"/>
+      <point x="355.2" y="-66.6" type="line" name="n20"/>
+      <point x="179.64" y="-66.6" type="line" name="n21"/>
       <point x="179.64" y="-89.28" type="line" smooth="yes"/>
-      <point x="179.64" y="-132.01999999999998"/>
+      <point x="179.64" y="-132.02"/>
       <point x="163.6" y="-152.88"/>
       <point x="132.66" y="-152.44" type="curve" smooth="yes"/>
-      <point x="103.14" y="-152.0"/>
+      <point x="103.14" y="-152"/>
       <point x="87.78" y="-130.7"/>
-      <point x="87.78" y="-89.28" type="curve"/>
-      <point x="-51.800000000000004" y="-89.28" type="line"/>
-      <point x="-51.800000000000004" y="-231.3"/>
+      <point x="87.78" y="-89.28" type="curve" name="n28"/>
+      <point x="-51.8" y="-89.28" type="line" name="n29"/>
+      <point x="-51.8" y="-231.3"/>
       <point x="29.96" y="-310.4"/>
       <point x="153.04" y="-310.4" type="curve" smooth="yes"/>
       <point x="270.78" y="-310.4"/>
       <point x="355.2" y="-241.6"/>
-      <point x="355.2" y="-89.28" type="curve"/>
+      <point x="355.2" y="-89.28" type="curve" smooth="yes" name="n35"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_inverteddblarchbelow=dblarchinvertedbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_inverteddblarchbelow=dblarchinvertedbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-289.4" width="-21" />
+      <hstem pos="-66.6" width="-20" />
+      <vstem pos="-355.2" width="175.56" />
+      <vstem pos="-355.2" width="442.98" />
+      <vstem pos="-51.8" width="407" />
+      <vstem pos="179.64" width="175.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

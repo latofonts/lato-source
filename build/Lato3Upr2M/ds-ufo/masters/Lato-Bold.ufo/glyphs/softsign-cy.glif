@@ -1,44 +1,54 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softsign-cy" format="2">
-  <advance width="969.78"/>
+  <advance width="970"/>
   <unicode hex="044C"/>
-  <guideline y="1406.0"/>
-  <anchor x="404.4" y="1120.0" name="top"/>
-  <anchor x="475.16" y="-70.0" name="bottom"/>
+  <anchor x="475.16" y="-70" name="bottom"/>
+  <anchor x="404.4" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="323.8" y="646.96" type="line"/>
-      <point x="323.8" y="469.4" type="line"/>
+      <point x="323.8" y="646.96" type="line" name="n00"/>
+      <point x="323.8" y="469.4" type="line" name="n01"/>
       <point x="539.56" y="469.4" type="line" smooth="yes"/>
       <point x="659.88" y="469.4"/>
       <point x="707.8" y="403.08"/>
-      <point x="707.8" y="327.26" type="curve" smooth="yes"/>
-      <point x="707.8" y="240.54000000000002"/>
+      <point x="707.8" y="327.26" type="curve" smooth="yes" name="n05"/>
+      <point x="707.8" y="240.54"/>
       <point x="651.92" y="178.34"/>
       <point x="540.88" y="178.34" type="curve" smooth="yes"/>
-      <point x="312.22" y="178.34" type="line"/>
-      <point x="268.54" y="0.0" type="line"/>
-      <point x="541.66" y="0.0" type="line" smooth="yes"/>
-      <point x="786.72" y="0.0"/>
+      <point x="312.22" y="178.34" type="line" name="n09"/>
+      <point x="268.54" y="0" type="line" name="n10"/>
+      <point x="541.66" y="0" type="line" smooth="yes"/>
+      <point x="786.72" y="0"/>
       <point x="927.36" y="135.6"/>
-      <point x="927.36" y="328.48" type="curve" smooth="yes"/>
+      <point x="927.36" y="328.48" type="curve" smooth="yes" name="n14"/>
       <point x="927.36" y="497.36"/>
       <point x="825.06" y="646.96"/>
       <point x="538.78" y="646.96" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="122.38" y="1026.8" type="line"/>
-      <point x="122.38" y="0.0" type="line"/>
-      <point x="357.20000000000005" y="0.0" type="line"/>
-      <point x="357.20000000000005" y="1026.8" type="line"/>
+      <point x="122.38" y="1026.8" type="line" name="n18"/>
+      <point x="122.38" y="0" type="line"/>
+      <point x="357.2" y="0" type="line"/>
+      <point x="357.2" y="1026.8" type="line" name="n21"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="178.34" />
+      <hstem pos="469.4" width="177.56" />
+      <hstem pos="1026.8" width="-20" />
+      <vstem pos="122.38" width="234.82" />
+      <vstem pos="707.8" width="219.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

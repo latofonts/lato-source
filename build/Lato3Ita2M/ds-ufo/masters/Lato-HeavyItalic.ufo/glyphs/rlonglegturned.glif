@@ -1,21 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rlonglegturned" format="2">
-  <advance width="715.96"/>
+  <advance width="716"/>
   <unicode hex="027A"/>
-  <guideline x="354.36" y="0.0" angle="82.9991"/>
   <anchor x="570.76" y="1521.52" name="Top"/>
+  <anchor x="237.16" y="-70" name="bottom"/>
   <anchor x="570.76" y="1521.52" name="top"/>
-  <anchor x="237.16" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="445.32" y="1492.8" type="line"/>
+      <point x="445.32" y="1492.8" type="line" name="n00"/>
       <point x="300.08" y="290.08" type="line"/>
       <point x="307.12" y="273.76" type="line"/>
-      <point x="301.84000000000003" y="89.2" type="line"/>
-      <point x="301.84000000000003" y="26.88"/>
-      <point x="335.52" y="-0.48"/>
+      <point x="301.84" y="89.2" type="line"/>
+      <point x="301.84" y="26.88"/>
+      <point x="335.52" y="-0.48" name="n05"/>
       <point x="393.04" y="-0.48" type="curve" smooth="yes"/>
-      <point x="534.3199999999999" y="-0.48" type="line"/>
+      <point x="534.32" y="-0.48" type="line"/>
       <point x="715.48" y="1492.8" type="line"/>
     </contour>
     <contour>
@@ -29,12 +28,20 @@
       <point x="447.04" y="643.12" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="313" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=rturned</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=rturned</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="20.52" width="-21" />
+      <hstem pos="1492.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

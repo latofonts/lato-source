@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tretroflexhook" format="2">
   <advance width="1045"/>
   <unicode hex="01AE"/>
-  <guideline x="533" y="0" angle="82.9991"/>
   <anchor x="618" y="1496" name="Top"/>
   <anchor x="618" y="1496" name="top"/>
   <anchor x="403" y="-421" name="bottom"/>
@@ -21,7 +20,9 @@
     </contour>
     <contour>
       <point x="462" y="2" type="line"/>
-      <point x="438" y="2" type="line"/>
+      <point x="462" y="2"/>
+      <point x="438" y="2"/>
+      <point x="438" y="2" type="curve"/>
       <point x="424" y="-106" type="line"/>
       <point x="402" y="-292"/>
       <point x="454" y="-396"/>
@@ -41,10 +42,18 @@
       <point x="449" y="-106" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="533" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-396" width="20" />
+      <hstem pos="1378" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

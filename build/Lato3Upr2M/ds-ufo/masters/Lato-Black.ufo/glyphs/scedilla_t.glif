@@ -1,10 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scedilla_t" format="2">
   <advance width="1670"/>
   <anchor x="462" y="1120" name="top"/>
   <anchor x="426" y="-70" name="bottom"/>
   <anchor x="819" y="222" name="hook"/>
   <outline>
+    <component base="s"/>
+    <component base="cedilla" xOffset="30"/>
     <contour>
       <point x="1382" y="1220" type="line" smooth="yes"/>
       <point x="1382" y="1392"/>
@@ -65,15 +67,23 @@
       <point x="1639" y="818" type="line"/>
       <point x="1639" y="1040" type="line"/>
     </contour>
-    <component base="s"/>
-    <component base="cedilla" xOffset="30"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="252" />
+      <hstem pos="818" width="222" />
+      <hstem pos="1446" width="124" />
+      <vstem pos="560" width="144" />
+      <vstem pos="1072" width="300" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

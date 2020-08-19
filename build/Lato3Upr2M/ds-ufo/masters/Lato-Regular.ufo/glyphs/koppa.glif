@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="koppa" format="2">
-  <advance width="1012.92"/>
+  <advance width="1013"/>
   <unicode hex="03DF"/>
-  <anchor x="413.3" y="1120.0" name="top"/>
-  <anchor x="747.02" y="-421.0" name="bottom"/>
+  <anchor x="747.02" y="-421" name="bottom"/>
+  <anchor x="413.3" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="108.0" y="421.78" type="line"/>
-      <point x="108.0" y="272.34" type="line"/>
+      <point x="108" y="421.78" type="line" name="n00"/>
+      <point x="108" y="272.34" type="line" name="n01"/>
       <point x="906.76" y="272.34" type="line"/>
       <point x="906.76" y="421.78" type="line"/>
     </contour>
     <contour>
-      <point x="531.46" y="944.56" type="line" smooth="yes"/>
+      <point x="531.46" y="944.56" type="line"/>
       <point x="548.96" y="985.5"/>
-      <point x="526.6800000000001" y="1012.4"/>
+      <point x="526.68" y="1012.4" name="n06"/>
       <point x="489.44" y="1012.4" type="curve" smooth="yes"/>
       <point x="370.28" y="1012.4" type="line"/>
       <point x="25.58" y="272.34" type="line"/>
@@ -23,7 +23,7 @@
     <contour>
       <point x="474.4" y="-275.96" type="line"/>
       <point x="456.9" y="-316.9"/>
-      <point x="479.18" y="-343.8"/>
+      <point x="479.18" y="-343.8" name="n13"/>
       <point x="516.42" y="-343.8" type="curve" smooth="yes"/>
       <point x="635.58" y="-343.8" type="line"/>
       <point x="991.5" y="421.78" type="line"/>
@@ -31,9 +31,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-322.8" width="-21" />
+      <hstem pos="272.34" width="149.44" />
+      <hstem pos="1012.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

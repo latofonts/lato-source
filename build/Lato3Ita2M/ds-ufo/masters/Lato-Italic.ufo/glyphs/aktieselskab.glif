@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aktieselskab" format="2">
-  <advance width="1518.48"/>
+  <advance width="1518"/>
   <unicode hex="214D"/>
-  <guideline x="753.42" y="0.0" angle="82.9991"/>
   <anchor x="313.18" y="-282.08" name="bottom"/>
   <outline>
+    <component base="Amod" xyScale="-6.02768e-18" xOffset="-3.74" yOffset="-212.08"/>
     <contour>
-      <point x="205.76" y="0.0" type="line"/>
-      <point x="333.16" y="0.0" type="line" smooth="yes"/>
-      <point x="357.52" y="0.0"/>
+      <point x="205.76" y="0" type="line" name="n00"/>
+      <point x="333.16" y="0" type="line" smooth="yes"/>
+      <point x="357.52" y="0"/>
       <point x="377.02" y="11.18"/>
       <point x="391.2" y="27.44" type="curve"/>
-      <point x="1530.06" y="1431.86" type="line"/>
+      <point x="1530.06" y="1431.86" type="line" name="n05"/>
       <point x="1405.9" y="1431.86" type="line" smooth="yes"/>
       <point x="1375.22" y="1431.86"/>
       <point x="1358.8" y="1417.98"/>
@@ -20,8 +20,8 @@
     <contour>
       <point x="1444.76" y="654.84" type="line"/>
       <point x="1397.6" y="702.84"/>
-      <point x="1321.0" y="731.86"/>
-      <point x="1231.58" y="731.86" type="curve" smooth="yes"/>
+      <point x="1321" y="731.86"/>
+      <point x="1231.58" y="731.86" type="curve" smooth="yes" name="n13"/>
       <point x="1059.74" y="731.86"/>
       <point x="952.54" y="618.26"/>
       <point x="952.54" y="492.96" type="curve" smooth="yes"/>
@@ -30,7 +30,7 @@
       <point x="1272.34" y="212.26" type="curve" smooth="yes"/>
       <point x="1272.34" y="143.6"/>
       <point x="1223.24" y="95.42"/>
-      <point x="1133.48" y="95.42" type="curve" smooth="yes"/>
+      <point x="1133.48" y="95.42" type="curve" smooth="yes" name="n22"/>
       <point x="1029.2" y="95.42"/>
       <point x="992.2" y="163.14"/>
       <point x="955.6" y="163.14" type="curve" smooth="yes"/>
@@ -40,7 +40,7 @@
       <point x="870.1" y="80.48" type="line"/>
       <point x="922.04" y="23.48"/>
       <point x="1014.44" y="-14.3"/>
-      <point x="1110.96" y="-14.3" type="curve" smooth="yes"/>
+      <point x="1110.96" y="-14.3" type="curve" smooth="yes" name="n32"/>
       <point x="1293.24" y="-14.3"/>
       <point x="1406.5" y="103.28"/>
       <point x="1406.5" y="245.26" type="curve" smooth="yes"/>
@@ -49,7 +49,7 @@
       <point x="1085.08" y="520.64" type="curve" smooth="yes"/>
       <point x="1085.08" y="578.86"/>
       <point x="1130.44" y="621.68"/>
-      <point x="1214.54" y="621.68" type="curve" smooth="yes"/>
+      <point x="1214.54" y="621.68" type="curve" smooth="yes" name="n41"/>
       <point x="1300.98" y="621.68"/>
       <point x="1337.62" y="571.1"/>
       <point x="1366.58" y="571.1" type="curve" smooth="yes"/>
@@ -57,12 +57,21 @@
       <point x="1390.94" y="576.96"/>
       <point x="1401.58" y="590.22" type="curve"/>
     </contour>
-    <component base="Amod" xOffset="-3.740000000000002" yOffset="-212.08"/>
   </outline>
+  <guideline angle="82.9991" x="687" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-14.3" width="109.72" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="621.68" width="110.18" />
+      <hstem pos="1431.86" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,36 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_palatalhook" format="2">
-  <guideline x="0.0" y="0.0" angle="82.9991"/>
   <anchor x="131.3" y="129.08" name="_hook"/>
   <outline>
     <contour>
-      <point x="143.6" y="-62.08" type="line"/>
+      <point x="143.6" y="-62.08" type="line" smooth="yes"/>
       <point x="130.38" y="-169.98"/>
       <point x="96.12" y="-236.04"/>
       <point x="16.3" y="-236.04" type="curve" smooth="yes"/>
       <point x="-23.66" y="-236.04"/>
       <point x="-51.94" y="-220.6"/>
-      <point x="-66.96" y="-220.6" type="curve" smooth="yes"/>
+      <point x="-66.96" y="-220.6" type="curve" smooth="yes" name="n06"/>
       <point x="-80.76" y="-220.6"/>
-      <point x="-99.26" y="-226.0"/>
+      <point x="-99.26" y="-226"/>
       <point x="-110.9" y="-255.06" type="curve"/>
-      <point x="-132.8" y="-324.15999999999997" type="line"/>
+      <point x="-132.8" y="-324.16" type="line"/>
       <point x="-81.3" y="-348.18"/>
       <point x="-38.28" y="-359.34"/>
-      <point x="11.059999999999999" y="-359.34" type="curve" smooth="yes"/>
+      <point x="11.06" y="-359.34" type="curve" smooth="yes" name="n13"/>
       <point x="190.74" y="-359.34"/>
       <point x="274.2" y="-214.3"/>
-      <point x="294.82" y="-49.11999999999999" type="curve"/>
-      <point x="316.68" y="130.16000000000003" type="line"/>
-      <point x="166.08" y="130.16000000000003" type="line"/>
-      <point x="79.56" y="0.0" type="line"/>
-      <point x="151.57999999999998" y="0.0" type="line"/>
+      <point x="294.82" y="-49.12" type="curve" smooth="yes"/>
+      <point x="316.68" y="130.16" type="line" name="n17"/>
+      <point x="316.68" y="130.16"/>
+      <point x="166.08" y="130.16"/>
+      <point x="166.08" y="130.16" type="curve"/>
+      <point x="79.56" y="0" type="line"/>
+      <point x="151.58" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-359.34" width="138.74" />
+      <hstem pos="130.16" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

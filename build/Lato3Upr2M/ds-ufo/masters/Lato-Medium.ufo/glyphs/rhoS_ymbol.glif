@@ -1,70 +1,81 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rhoSymbol" format="2">
-  <advance width="1128.4"/>
+  <advance width="1128"/>
   <unicode hex="03F1"/>
-  <anchor x="572.8" y="1120.0" name="top"/>
-  <anchor x="492.0" y="-421.0" name="bottom"/>
+  <anchor x="492" y="-421" name="bottom"/>
+  <anchor x="572.8" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="939.2" y="-406.2" type="line" smooth="yes"/>
+      <point x="939.2" y="-406.2" type="line" smooth="yes" name="n00"/>
       <point x="981.6" y="-406.2"/>
       <point x="985.4" y="-372.6"/>
-      <point x="985.4" y="-341.0" type="curve" smooth="yes"/>
-      <point x="985.4" y="-214.60000000000002"/>
+      <point x="985.4" y="-341" type="curve" smooth="yes"/>
+      <point x="985.4" y="-214.6"/>
       <point x="934.4" y="-146.8"/>
-      <point x="762.6" y="-146.8" type="curve"/>
+      <point x="762.6" y="-146.8" type="curve" smooth="yes"/>
       <point x="693.8" y="-146.8"/>
       <point x="622.8" y="-156.8"/>
-      <point x="563.6" y="-156.8" type="curve"/>
+      <point x="563.6" y="-156.8" type="curve" smooth="yes" name="n09"/>
       <point x="369.4" y="-156.8"/>
-      <point x="306.0" y="-90.8"/>
-      <point x="306.0" y="123.19999999999999" type="curve" smooth="yes"/>
-      <point x="306.0" y="171.6" type="line"/>
-      <point x="318.0" y="187.4" type="line"/>
-      <point x="318.0" y="580.4" type="line" smooth="yes"/>
-      <point x="318.0" y="770.2"/>
+      <point x="306" y="-90.8"/>
+      <point x="306" y="123.2" type="curve" smooth="yes"/>
+      <point x="306" y="171.6" type="line"/>
+      <point x="318" y="187.4" type="line"/>
+      <point x="318" y="580.4" type="line" smooth="yes" name="n15"/>
+      <point x="318" y="770.2"/>
       <point x="434.2" y="877.6"/>
-      <point x="579.4" y="877.6" type="curve" smooth="yes"/>
+      <point x="579.4" y="877.6" type="curve" smooth="yes" name="n18"/>
       <point x="737.2" y="877.6"/>
       <point x="846.8" y="773.2"/>
-      <point x="846.8" y="521.2" type="curve" smooth="yes"/>
-      <point x="846.8" y="282.0"/>
+      <point x="846.8" y="521.2" type="curve" smooth="yes" name="n21"/>
+      <point x="846.8" y="282"/>
       <point x="743.6" y="154.4"/>
-      <point x="565.6" y="154.4" type="curve" smooth="yes"/>
+      <point x="565.6" y="154.4" type="curve" smooth="yes" name="n24"/>
       <point x="469.6" y="154.4"/>
       <point x="373.8" y="199.6"/>
       <point x="306.8" y="302.8" type="curve"/>
-      <point x="264.8" y="188.0" type="line"/>
+      <point x="264.8" y="188" type="line"/>
       <point x="341.2" y="75.4"/>
-      <point x="462.4" y="3.5999999999999996"/>
-      <point x="610.0" y="3.5999999999999996" type="curve" smooth="yes"/>
-      <point x="882.0" y="3.5999999999999996"/>
+      <point x="462.4" y="3.6"/>
+      <point x="610" y="3.6" type="curve" smooth="yes" name="n31"/>
+      <point x="882" y="3.6"/>
       <point x="1048.4" y="226.4"/>
-      <point x="1048.4" y="521.2" type="curve" smooth="yes"/>
-      <point x="1048.4" y="845.0"/>
+      <point x="1048.4" y="521.2" type="curve" smooth="yes" name="n34"/>
+      <point x="1048.4" y="845"/>
       <point x="837.6" y="1032.6"/>
-      <point x="579.4" y="1032.6" type="curve" smooth="yes"/>
+      <point x="579.4" y="1032.6" type="curve" smooth="yes" name="n37"/>
       <point x="293.2" y="1032.6"/>
       <point x="122.4" y="855.6"/>
-      <point x="122.4" y="580.4" type="curve" smooth="yes"/>
-      <point x="122.4" y="123.19999999999999" type="line" smooth="yes"/>
+      <point x="122.4" y="580.4" type="curve" smooth="yes" name="n40"/>
+      <point x="122.4" y="123.2" type="line" smooth="yes"/>
       <point x="122.4" y="-212.8"/>
       <point x="289.6" y="-322.8"/>
       <point x="562.4" y="-322.8" type="curve" smooth="yes"/>
       <point x="632.4" y="-322.8"/>
       <point x="687.4" y="-312.8"/>
-      <point x="751.6" y="-312.8" type="curve"/>
+      <point x="751.6" y="-312.8" type="curve" smooth="yes" name="n47"/>
       <point x="846.6" y="-312.8"/>
-      <point x="881.4" y="-334.0"/>
+      <point x="881.4" y="-334"/>
       <point x="883.8" y="-406.2" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=rho</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=rho</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-385.2" width="-21" />
+      <hstem pos="-312.8" width="156" />
+      <hstem pos="3.6" width="150.8" />
+      <hstem pos="877.6" width="155." />
+      <vstem pos="122.4" width="195.6" />
+      <vstem pos="846.8" width="201.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

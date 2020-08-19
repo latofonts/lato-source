@@ -1,34 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravemacroncomb.case" format="2">
-  <guideline x="264.7" y="0.0" angle="82.9991"/>
-  <anchor x="97.0" y="1989.0" name="top"/>
-  <anchor x="73.0" y="1456.0" name="_Top"/>
+  <anchor x="73" y="1456" name="_Top"/>
+  <anchor x="97" y="1989" name="top"/>
   <outline>
     <contour>
-      <point x="-93.0" y="1520.2" type="line"/>
+      <point x="-93" y="1520.2" type="line"/>
       <point x="345.6" y="1520.2" type="line"/>
-      <point x="350.5" y="1556.0" type="line"/>
-      <point x="-88.1" y="1556.0" type="line"/>
+      <point x="350.5" y="1556" type="line"/>
+      <point x="-88.1" y="1556" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="-350.5" y="1816.5" type="line"/>
-      <point x="-109.0" y="1528.6" type="line"/>
+      <point x="-350.5" y="1816.5" type="line" name="n04"/>
+      <point x="-109" y="1528.6" type="line"/>
       <point x="-103.6" y="1521.2"/>
       <point x="-95.7" y="1520.2"/>
-      <point x="-86.7" y="1520.2" type="curve" smooth="yes"/>
-      <point x="-56.0" y="1520.2" type="line"/>
+      <point x="-86.7" y="1520.2" type="curve" smooth="yes" name="n08"/>
+      <point x="-56" y="1520.2" type="line"/>
       <point x="-246.6" y="1799.1" type="line"/>
       <point x="-256.3" y="1814.3"/>
       <point x="-266.6" y="1816.5"/>
       <point x="-291.2" y="1816.5" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="261" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1520.2" width="35.8" />
+      <hstem pos="1816.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

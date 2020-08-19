@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine" format="2">
   <advance width="734"/>
   <unicode hex="00AA"/>
   <anchor x="367" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="639" y="1230" type="line"/>
+      <point x="639" y="1230" type="curve"/>
       <point x="639" y="1372"/>
       <point x="537" y="1482"/>
       <point x="379" y="1482" type="curve" smooth="yes"/>
@@ -22,6 +22,8 @@
       <point x="395" y="1304"/>
       <point x="423" y="1288"/>
       <point x="423" y="1230" type="curve"/>
+      <point x="423" y="1230"/>
+      <point x="639" y="1230"/>
     </contour>
     <contour>
       <point x="639" y="842" type="line"/>
@@ -35,7 +37,9 @@
     </contour>
     <contour>
       <point x="475" y="932" type="curve"/>
-      <point x="451" y="1054" type="line"/>
+      <point x="475" y="932"/>
+      <point x="451" y="1054"/>
+      <point x="451" y="1054" type="curve"/>
       <point x="405" y="1002"/>
       <point x="375" y="986"/>
       <point x="329" y="986" type="curve" smooth="yes"/>
@@ -57,9 +61,19 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="834" width="152" />
+      <hstem pos="1082" width="134" />
+      <hstem pos="1304" width="178" />
+      <vstem pos="63" width="212" />
+      <vstem pos="451" width="10" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

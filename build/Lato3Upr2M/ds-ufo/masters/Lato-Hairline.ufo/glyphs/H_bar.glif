@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hbar" format="2">
   <advance width="1500"/>
   <unicode hex="0126"/>
@@ -7,18 +7,24 @@
   <anchor x="761" y="-70" name="bottom"/>
   <anchor x="-56" y="1120" name="onRight"/>
   <outline>
+    <component base="H" xOffset="2"/>
     <contour>
       <point x="44" y="1042" type="line"/>
       <point x="1456" y="1042" type="line"/>
       <point x="1456" y="1060" type="line"/>
       <point x="44" y="1060" type="line"/>
     </contour>
-    <component base="H" xOffset="2"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1042" width="18" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

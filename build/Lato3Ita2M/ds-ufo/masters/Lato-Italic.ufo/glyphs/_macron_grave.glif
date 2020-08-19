@@ -1,32 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_macron_grave" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="374.88" y="1120.0" name="_top"/>
+  <advance width="736"/>
+  <anchor x="374.88" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="301.53999999999996" y="1724.9" type="line"/>
+      <point x="301.54" y="1724.9" type="line" name="n00"/>
       <point x="487.62" y="1467.34" type="line"/>
       <point x="500.96" y="1447.3"/>
-      <point x="515.06" y="1439.9"/>
+      <point x="515.06" y="1439.9" name="n03"/>
       <point x="540.5" y="1439.9" type="curve" smooth="yes"/>
       <point x="633.5" y="1439.9" type="line"/>
-      <point x="523.54" y="1681.3" type="line" smooth="yes"/>
+      <point x="523.54" y="1681.3" type="line"/>
       <point x="511.3" y="1711.18"/>
       <point x="497.2" y="1724.9"/>
       <point x="456.76" y="1724.9" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="242.38" y="1231.12" type="line"/>
+      <point x="242.38" y="1231.12" type="line" name="n10"/>
       <point x="770.52" y="1231.12" type="line"/>
       <point x="784.32" y="1347.24" type="line"/>
-      <point x="255.64" y="1347.24" type="line"/>
+      <point x="255.64" y="1347.24" type="line" name="n13"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1231.12" width="116.12" />
+      <hstem pos="1439.9" width="-20" />
+      <hstem pos="1724.9" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

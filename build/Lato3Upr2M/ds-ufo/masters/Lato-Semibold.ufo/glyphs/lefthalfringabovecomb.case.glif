@@ -1,34 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lefthalfringabovecomb.case" format="2">
-  <guideline x="214.95600000000002"/>
-  <anchor x="23.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2177.0" name="top"/>
+  <anchor x="23" y="1457" name="_Top"/>
+  <anchor x="0" y="2177" name="top"/>
   <outline>
     <contour>
-      <point x="116.638" y="1664.562" type="line"/>
-      <point x="63.266000000000005" y="1664.562"/>
-      <point x="22.91000000000001" y="1700.26"/>
-      <point x="22.91000000000001" y="1768.618" type="curve" smooth="yes"/>
-      <point x="22.91000000000001" y="1837.308"/>
-      <point x="63.266000000000005" y="1873.342"/>
-      <point x="116.638" y="1873.342" type="curve"/>
-      <point x="116.638" y="1984.582" type="line"/>
-      <point x="-21.992" y="1984.582"/>
-      <point x="-116.97200000000001" y="1899.922"/>
-      <point x="-116.97200000000001" y="1769.284" type="curve" smooth="yes"/>
-      <point x="-116.97200000000001" y="1637.98"/>
-      <point x="-21.992" y="1553.322"/>
-      <point x="116.638" y="1553.322" type="curve"/>
+      <point x="116.638" y="1664.56" type="line" name="n00"/>
+      <point x="63.266" y="1664.56"/>
+      <point x="22.91" y="1700.26"/>
+      <point x="22.91" y="1768.62" type="curve" smooth="yes" name="n03"/>
+      <point x="22.91" y="1837.31"/>
+      <point x="63.266" y="1873.34"/>
+      <point x="116.638" y="1873.34" type="curve" name="n06"/>
+      <point x="116.638" y="1873.34"/>
+      <point x="116.638" y="1984.58"/>
+      <point x="116.638" y="1984.58" type="curve" name="n09"/>
+      <point x="-21.992" y="1984.58"/>
+      <point x="-116.972" y="1899.92"/>
+      <point x="-116.972" y="1769.28" type="curve" smooth="yes" name="n12"/>
+      <point x="-116.972" y="1637.98"/>
+      <point x="-21.992" y="1553.32"/>
+      <point x="116.638" y="1553.32" type="curve" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="90" x="171" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringleft=lefthalfringabovecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringleft=lefthalfringabovecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1553.322" width="111.24" />
+      <hstem pos="1873.342" width="111.24" />
+      <vstem pos="-116.972" width="139.882" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

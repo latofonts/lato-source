@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nottildeabovecomb" format="2">
   <unicode hex="034A"/>
-  <guideline x="-150" y="0" angle="82.9991"/>
   <anchor x="-20" y="1057" name="_top"/>
   <anchor x="0" y="1610" name="top"/>
   <outline>
@@ -34,14 +33,24 @@
       <point x="96" y="1594" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-150" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_nottilde=nottildeabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_nottilde=nottildeabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1075" width="-21" />
+      <hstem pos="1178" width="206" />
+      <hstem pos="1260" width="198" />
+      <hstem pos="1594" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

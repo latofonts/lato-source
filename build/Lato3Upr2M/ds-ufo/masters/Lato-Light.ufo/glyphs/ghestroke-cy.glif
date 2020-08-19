@@ -1,33 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghestroke-cy" format="2">
-  <advance width="894.5"/>
+  <advance width="895"/>
   <unicode hex="0493"/>
-  <anchor x="525.0" y="1120.0" name="top"/>
-  <anchor x="298.25" y="-70.0" name="bottom"/>
+  <anchor x="298.25" y="-70" name="bottom"/>
+  <anchor x="525" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="250.5" y="995.0" type="line"/>
-      <point x="250.5" y="0.0" type="line"/>
-      <point x="346.0" y="0.0" type="line"/>
-      <point x="346.0" y="995.0" type="line"/>
+      <point x="250.5" y="995" type="line" name="n00"/>
+      <point x="250.5" y="0" type="line" name="n01"/>
+      <point x="346" y="0" type="line"/>
+      <point x="346" y="995" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="250.5" y="922.0" type="line"/>
-      <point x="860.5" y="922.0" type="line"/>
-      <point x="860.5" y="995.0" type="line"/>
-      <point x="250.5" y="995.0" type="line"/>
+      <point x="250.5" y="922" type="line" name="n04"/>
+      <point x="860.5" y="922" type="line"/>
+      <point x="860.5" y="995" type="line"/>
+      <point x="250.5" y="995" type="line"/>
     </contour>
     <contour>
-      <point x="53.0" y="573.5" type="line"/>
-      <point x="53.0" y="503.25" type="line"/>
+      <point x="53" y="573.5" type="line" name="n08"/>
+      <point x="53" y="503.25" type="line" name="n09"/>
       <point x="574.25" y="503.25" type="line"/>
       <point x="574.25" y="573.5" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="503.25" width="70.25" />
+      <hstem pos="922" width="73" />
+      <vstem pos="250.5" width="95.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

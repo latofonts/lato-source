@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cheverticalstroke-cy" format="2">
-  <advance width="989.4"/>
+  <advance width="989"/>
   <unicode hex="04B9"/>
-  <guideline x="492.7" y="0.0" angle="82.9991"/>
-  <anchor x="517.78" y="1120.0" name="top"/>
-  <anchor x="672.46" y="-70.0" name="bottom"/>
+  <anchor x="672.46" y="-70" name="bottom"/>
+  <anchor x="517.78" y="1120" name="top"/>
   <outline>
+    <component base="che-cy" xOffset="0.56"/>
     <contour>
-      <point x="554.12" y="828.38" type="line"/>
+      <point x="554.12" y="828.38" type="line" name="n00"/>
       <point x="433.28" y="828.38" type="line"/>
-      <point x="354.7" y="187.74" type="line"/>
+      <point x="354.7" y="187.74" type="line" name="n02"/>
       <point x="475.54" y="187.74" type="line"/>
     </contour>
-    <component base="che-cy" xOffset="0.56"/>
   </outline>
+  <guideline angle="82.9991" x="442" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="208.74" width="-21" />
+      <hstem pos="828.38" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

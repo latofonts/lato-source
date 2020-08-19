@@ -1,27 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_circumflexbelow" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="328.97" y="-70.0" name="_bottom"/>
+  <advance width="736"/>
+  <anchor x="328.97" y="-70" name="_bottom"/>
   <outline>
     <contour>
-      <point x="-12.232" y="-359.678" type="line"/>
+      <point x="-12.232" y="-359.678" type="line" name="n00"/>
       <point x="131.642" y="-359.678" type="line" smooth="yes"/>
       <point x="147.964" y="-359.678"/>
       <point x="166.952" y="-352.348"/>
-      <point x="182.94" y="-338.358" type="curve" smooth="yes"/>
-      <point x="296.682" y="-218.282" type="line" smooth="yes"/>
+      <point x="182.94" y="-338.358" type="curve"/>
+      <point x="296.682" y="-218.282" type="line"/>
       <point x="329.99" y="-187.638"/>
-      <point x="376.284" y="-125.69200000000001"/>
-      <point x="380.948" y="-89.71799999999999" type="curve"/>
-      <point x="230.082" y="-89.71799999999999" type="line"/>
+      <point x="376.284" y="-125.692"/>
+      <point x="380.948" y="-89.718" type="curve" name="n08"/>
+      <point x="230.082" y="-89.718" type="line"/>
     </contour>
     <contour>
-      <point x="423.572" y="-89.71799999999999" type="line"/>
-      <point x="283.696" y="-89.71799999999999" type="line"/>
-      <point x="279.366" y="-125.69200000000001"/>
+      <point x="423.572" y="-89.718" type="line"/>
+      <point x="283.696" y="-89.718" type="line"/>
+      <point x="279.366" y="-125.692"/>
       <point x="305.012" y="-185.64"/>
-      <point x="332.324" y="-218.282" type="curve" smooth="yes"/>
+      <point x="332.324" y="-218.282" type="curve"/>
       <point x="415.382" y="-338.358" type="line"/>
       <point x="429.706" y="-355.014"/>
       <point x="444.696" y="-359.678"/>
@@ -29,10 +28,18 @@
       <point x="599.896" y="-359.678" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-338.678" width="-21" />
+      <hstem pos="-89.718" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

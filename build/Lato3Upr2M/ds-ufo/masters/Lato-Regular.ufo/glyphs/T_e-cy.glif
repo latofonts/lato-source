@@ -1,33 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Te-cy" format="2">
-  <advance width="1181.2"/>
+  <advance width="1181"/>
   <unicode hex="0422"/>
-  <anchor x="593.68" y="1511.66" name="Top"/>
-  <anchor x="593.68" y="-70.0" name="bottom"/>
   <anchor x="613.82" y="715.12" name="Slash"/>
+  <anchor x="593.68" y="1511.66" name="Top"/>
+  <anchor x="593.68" y="-70" name="bottom"/>
   <anchor x="593.68" y="1511.66" name="top"/>
   <outline>
     <contour>
-      <point x="688.3" y="1384.6" type="line"/>
-      <point x="494.74" y="1384.6" type="line"/>
-      <point x="494.74" y="0.0" type="line"/>
-      <point x="688.3" y="0.0" type="line"/>
+      <point x="688.3" y="1384.6" type="line" name="n00"/>
+      <point x="494.74" y="1384.6" type="line" name="n01"/>
+      <point x="494.74" y="0" type="line" name="n02"/>
+      <point x="688.3" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="29.54" y="1432.4" type="line"/>
-      <point x="29.54" y="1271.08" type="line"/>
+      <point x="29.54" y="1432.4" type="line" name="n04"/>
+      <point x="29.54" y="1271.08" type="line" name="n05"/>
       <point x="1151.66" y="1271.08" type="line"/>
       <point x="1151.66" y="1432.4" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>T=Tecyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>T=Tecyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1271.08" width="161.32" />
+      <vstem pos="494.74" width="193.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

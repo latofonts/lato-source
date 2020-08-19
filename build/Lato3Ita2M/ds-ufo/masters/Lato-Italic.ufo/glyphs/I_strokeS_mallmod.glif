@@ -1,28 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IstrokeSmallmod" format="2">
-  <advance width="324.34000000000003"/>
+  <advance width="324"/>
   <unicode hex="1DA7"/>
-  <guideline x="168.58" y="0.0" angle="82.9991"/>
-  <anchor x="382.84000000000003" y="1511.66" name="Top"/>
-  <anchor x="145.42000000000002" y="-70.0" name="bottom"/>
+  <anchor x="382.84" y="1511.66" name="Top"/>
+  <anchor x="145.42" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="322.66" y="1432.94" type="line"/>
+      <point x="322.66" y="1432.94" type="line" name="n00"/>
       <point x="204.54" y="1432.94" type="line"/>
-      <point x="141.3" y="915.56" type="line"/>
-      <point x="258.96000000000004" y="915.56" type="line"/>
+      <point x="141.3" y="915.56" type="line" name="n02"/>
+      <point x="258.96" y="915.56" type="line"/>
     </contour>
     <contour>
       <point x="112.96" y="1140.8" type="line"/>
       <point x="342.36" y="1140.8" type="line"/>
-      <point x="350.84000000000003" y="1210.34" type="line"/>
+      <point x="350.84" y="1210.34" type="line" name="n06"/>
       <point x="121.98" y="1210.34" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="154" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="936.56" width="-21" />
+      <hstem pos="1210.34" width="-20" />
+      <hstem pos="1432.94" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

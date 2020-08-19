@@ -1,40 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="retroflexhookcomb" format="2">
   <unicode hex="0322"/>
-  <guideline x="9.4" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="-470.0" name="bottom"/>
   <anchor x="-109.2" y="-90.6" name="_bottom"/>
+  <anchor x="0" y="-470" name="bottom"/>
   <outline>
     <contour>
-      <point x="-57.0" y="-20.0" type="line"/>
-      <point x="-198.39999999999998" y="-20.0" type="line"/>
+      <point x="-57" y="-20" type="line" name="n00"/>
+      <point x="-57" y="-20"/>
+      <point x="-198.4" y="-20"/>
+      <point x="-198.4" y="-20" type="curve"/>
       <point x="-211.2" y="-125.6" type="line" smooth="yes"/>
-      <point x="-227.0" y="-255.8"/>
+      <point x="-227" y="-255.8"/>
       <point x="-168.6" y="-374.6"/>
-      <point x="-14.600000000000001" y="-374.6" type="curve" smooth="yes"/>
+      <point x="-14.6" y="-374.6" type="curve" smooth="yes" name="n07"/>
       <point x="77.4" y="-374.6"/>
       <point x="159.4" y="-325.6"/>
       <point x="214.2" y="-215.2" type="curve"/>
       <point x="128.6" y="-180.6" type="line"/>
-      <point x="117.2" y="-175.0"/>
-      <point x="108.6" y="-175.0"/>
-      <point x="103.6" y="-175.0" type="curve"/>
-      <point x="78.80000000000001" y="-175.0"/>
+      <point x="117.2" y="-175"/>
+      <point x="108.6" y="-175"/>
+      <point x="103.6" y="-175" type="curve" smooth="yes"/>
+      <point x="78.8" y="-175"/>
       <point x="64.6" y="-245.2"/>
-      <point x="0.0" y="-245.2" type="curve" smooth="yes"/>
+      <point x="0" y="-245.2" type="curve" smooth="yes" name="n17"/>
       <point x="-50.6" y="-245.2"/>
       <point x="-78.6" y="-199.8"/>
-      <point x="-69.80000000000001" y="-125.8" type="curve"/>
+      <point x="-69.8" y="-125.8" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="1" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_hookretroflex=retroflexhookcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_hookretroflex=retroflexhookcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-374.6" width="129.4" />
+      <hstem pos="-20" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

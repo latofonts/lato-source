@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brokenbar" format="2">
-  <advance width="476.9"/>
+  <advance width="477"/>
   <unicode hex="00A6"/>
-  <guideline x="300.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="214.7" y="739.8" type="line"/>
       <point x="256.7" y="739.8" type="line"/>
-      <point x="256.7" y="1507.8" type="line"/>
+      <point x="256.7" y="1507.8" type="line" name="n02"/>
       <point x="214.7" y="1507.8" type="line"/>
     </contour>
     <contour>
-      <point x="214.7" y="-356.8" type="line"/>
+      <point x="214.7" y="-356.8" type="line" name="n04"/>
       <point x="256.7" y="-356.8" type="line"/>
       <point x="256.7" y="411.2" type="line"/>
       <point x="214.7" y="411.2" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="300" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-335.8" width="-21" />
+      <hstem pos="1507.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

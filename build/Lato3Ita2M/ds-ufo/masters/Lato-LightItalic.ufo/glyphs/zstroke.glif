@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zstroke" format="2">
-  <advance width="835.0"/>
+  <advance width="835"/>
   <unicode hex="01B6"/>
-  <guideline x="416.0" y="0.0" angle="82.9991"/>
-  <anchor x="495.25" y="1120.0" name="top"/>
-  <anchor x="333.25" y="-70.0" name="bottom"/>
+  <anchor x="333.25" y="-70" name="bottom"/>
   <anchor x="642.75" y="70.5" name="hook"/>
+  <anchor x="495.25" y="1120" name="top"/>
   <outline>
-    <contour>
-      <point x="86.75" y="486.75" type="line"/>
-      <point x="729.75" y="486.75" type="line"/>
-      <point x="738.25" y="553.0" type="line"/>
-      <point x="95.25" y="553.0" type="line"/>
-    </contour>
     <component base="z" xOffset="3.25"/>
+    <contour>
+      <point x="86.75" y="486.75" type="line" name="n00"/>
+      <point x="729.75" y="486.75" type="line"/>
+      <point x="738.25" y="553" type="line"/>
+      <point x="95.25" y="553" type="line" name="n03"/>
+    </contour>
   </outline>
+  <guideline angle="82.9991" x="408" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="486.75" width="66.25" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,69 +1,81 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainferior" format="2">
-  <advance width="555.6"/>
+  <advance width="556"/>
   <unicode hex="2090"/>
-  <anchor x="351.6" y="-421.0" name="bottom"/>
+  <anchor x="351.6" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="482.6" y="103.0" type="line"/>
+      <point x="482.6" y="103" type="line" smooth="yes"/>
       <point x="482.6" y="221.6"/>
       <point x="409.2" y="306.6"/>
-      <point x="285.6" y="306.6" type="curve" smooth="yes"/>
-      <point x="200.0" y="306.6"/>
-      <point x="125.4" y="279.0"/>
+      <point x="285.6" y="306.6" type="curve" smooth="yes" name="n03"/>
+      <point x="200" y="306.6"/>
+      <point x="125.4" y="279"/>
       <point x="64.4" y="224.4" type="curve"/>
       <point x="89.4" y="179.4" type="line"/>
       <point x="97.8" y="165.6"/>
-      <point x="111.2" y="154.0"/>
-      <point x="129.8" y="154.0" type="curve" smooth="yes"/>
-      <point x="173.2" y="154.0"/>
+      <point x="111.2" y="154"/>
+      <point x="129.8" y="154" type="curve" smooth="yes"/>
+      <point x="173.2" y="154"/>
       <point x="190.4" y="196.2"/>
-      <point x="268.0" y="196.2" type="curve" smooth="yes"/>
+      <point x="268" y="196.2" type="curve" smooth="yes" name="n13"/>
       <point x="319.4" y="196.2"/>
       <point x="348.4" y="167.2"/>
-      <point x="348.4" y="103.0" type="curve"/>
+      <point x="348.4" y="103" type="curve" smooth="yes"/>
       <point x="348.4" y="88.8" type="line"/>
       <point x="482.6" y="88.8" type="line"/>
     </contour>
     <contour>
-      <point x="482.6" y="-224.0" type="line"/>
+      <point x="482.6" y="-224" type="line"/>
       <point x="482.6" y="97.6" type="line"/>
       <point x="348.4" y="97.6" type="line"/>
       <point x="348.4" y="-118.8" type="line"/>
-      <point x="373.2" y="-194.8" type="line"/>
+      <point x="373.2" y="-194.8" type="line" name="n23"/>
       <point x="382.2" y="-218.6"/>
-      <point x="394.0" y="-224.0"/>
-      <point x="419.8" y="-224.0" type="curve" smooth="yes"/>
+      <point x="394" y="-224"/>
+      <point x="419.8" y="-224" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="381.6" y="-145.2" type="curve"/>
-      <point x="365.4" y="-67.4" type="line"/>
+      <point x="381.6" y="-145.2"/>
+      <point x="365.4" y="-67.4"/>
+      <point x="365.4" y="-67.4" type="curve"/>
       <point x="324.2" y="-115.2"/>
-      <point x="290.6" y="-137.0"/>
-      <point x="236.4" y="-137.0" type="curve" smooth="yes"/>
-      <point x="197.0" y="-137.0"/>
-      <point x="172.0" y="-121.4"/>
-      <point x="172.0" y="-82.4" type="curve" smooth="yes"/>
-      <point x="172.0" y="-40.8"/>
+      <point x="290.6" y="-137"/>
+      <point x="236.4" y="-137" type="curve" smooth="yes"/>
+      <point x="197" y="-137"/>
+      <point x="172" y="-121.4"/>
+      <point x="172" y="-82.4" type="curve" smooth="yes" name="n36"/>
+      <point x="172" y="-40.8"/>
       <point x="215.6" y="-10.2"/>
-      <point x="368.0" y="-6.599999999999998" type="curve"/>
-      <point x="350.8" y="77.19999999999999" type="line"/>
-      <point x="111.4" y="72.19999999999999"/>
+      <point x="368" y="-6.6" type="curve" name="n39"/>
+      <point x="350.8" y="77.2" type="line" name="n40"/>
+      <point x="111.4" y="72.2"/>
       <point x="40.2" y="-12.8"/>
-      <point x="40.2" y="-89.4" type="curve" smooth="yes"/>
+      <point x="40.2" y="-89.4" type="curve" smooth="yes" name="n43"/>
       <point x="40.2" y="-183.2"/>
-      <point x="102.4" y="-232.0"/>
-      <point x="193.4" y="-232.0" type="curve" smooth="yes"/>
-      <point x="276.0" y="-232.0"/>
+      <point x="102.4" y="-232"/>
+      <point x="193.4" y="-232" type="curve" smooth="yes" name="n46"/>
+      <point x="276" y="-232"/>
       <point x="319.4" y="-201.4"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>a.sups=ainferior</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>a.sups=ainferior</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-232" width="309.2" />
+      <hstem pos="-6.6" width="313.2" />
+      <hstem pos="196.2" width="110.4" />
+      <vstem pos="40.2" width="131.8" />
+      <vstem pos="350.8" width="22.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

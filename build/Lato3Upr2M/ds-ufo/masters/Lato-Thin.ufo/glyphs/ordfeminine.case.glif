@@ -1,33 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine.case" format="2">
-  <advance width="809.5"/>
-  <anchor x="270.4" y="1120.0" name="top"/>
+  <advance width="810"/>
+  <anchor x="270.4" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="146.1" y="839.3" type="line"/>
+      <point x="146.1" y="839.3" type="line" name="n00"/>
       <point x="179.5" y="839.3" type="line" smooth="yes"/>
       <point x="186.2" y="839.3"/>
       <point x="192.1" y="843.2"/>
-      <point x="193.7" y="849.0" type="curve"/>
-      <point x="391.0" y="1316.5" type="line" smooth="yes"/>
-      <point x="407.0" y="1354.2"/>
+      <point x="193.7" y="849" type="curve"/>
+      <point x="391" y="1316.5" type="line" smooth="yes"/>
+      <point x="407" y="1354.2"/>
       <point x="409.1" y="1379.1"/>
-      <point x="411.8" y="1406.0" type="curve"/>
-      <point x="386.3" y="1406.0" type="line"/>
+      <point x="411.8" y="1406" type="curve" name="n08"/>
+      <point x="386.3" y="1406" type="line"/>
     </contour>
     <contour>
-      <point x="239.7" y="1018.0" type="line"/>
-      <point x="570.6" y="1018.0" type="line"/>
+      <point x="239.7" y="1018" type="line" name="n10"/>
+      <point x="570.6" y="1018" type="line"/>
       <point x="570.6" y="1050.8" type="line"/>
-      <point x="239.7" y="1050.8" type="line"/>
+      <point x="239.7" y="1050.8" type="line" name="n13"/>
     </contour>
     <contour>
-      <point x="423.2" y="1406.0" type="line"/>
-      <point x="396.3" y="1406.0" type="line"/>
+      <point x="423.2" y="1406" type="line"/>
+      <point x="396.3" y="1406" type="line"/>
       <point x="400.3" y="1379.1"/>
       <point x="402.5" y="1355.2"/>
       <point x="418.4" y="1316.6" type="curve" smooth="yes"/>
-      <point x="615.7" y="849.0" type="line"/>
+      <point x="615.7" y="849" type="line"/>
       <point x="617.6" y="842.9"/>
       <point x="622.4" y="839.3"/>
       <point x="629.2" y="839.3" type="curve" smooth="yes"/>
@@ -35,9 +35,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="860.3" width="-21" />
+      <hstem pos="1018" width="32.8" />
+      <hstem pos="1406" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

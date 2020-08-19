@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="koppaArchaic" format="2">
-  <advance width="1026.75"/>
+  <advance width="1027"/>
   <unicode hex="03D9"/>
-  <guideline x="500.75" y="0.0" angle="82.9991"/>
-  <anchor x="584.25" y="1120.0" name="top"/>
-  <anchor x="429.25" y="-70.0" name="bottom"/>
+  <anchor x="429.25" y="-70" name="bottom"/>
+  <anchor x="584.25" y="1120" name="top"/>
   <outline>
+    <component base="o"/>
     <contour>
-      <point x="346.75" y="46.25" type="line"/>
-      <point x="298.0" y="-352.25" type="line"/>
+      <point x="346.75" y="46.25" type="line" name="n00"/>
+      <point x="298" y="-352.25" type="line" name="n01"/>
       <point x="390.75" y="-352.25" type="line"/>
       <point x="439.5" y="46.25" type="line"/>
     </contour>
-    <component base="o"/>
   </outline>
+  <guideline angle="82.9991" x="486" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-331.25" width="-21" />
+      <hstem pos="46.25" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

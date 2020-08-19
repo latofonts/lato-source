@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_arrowupbelow" format="2">
-  <advance width="938.4"/>
-  <guideline x="469.2" y="0.0" angle="82.9991"/>
-  <anchor x="365.0" y="1120.0" name="_top"/>
-  <anchor x="399.7" y="-70.0" name="_bottom"/>
+  <advance width="938"/>
+  <anchor x="399.7" y="-70" name="_bottom"/>
+  <anchor x="365" y="1120" name="_top"/>
   <outline>
     <contour>
       <point x="423.5" y="-231.3" type="line"/>
-      <point x="390.8" y="-521.5" type="line"/>
+      <point x="390.8" y="-521.5" type="line" name="n01"/>
       <point x="428.2" y="-521.5" type="line"/>
       <point x="460.9" y="-231.3" type="line"/>
     </contour>
@@ -20,10 +19,17 @@
       <point x="440.1" y="-129.1" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="460" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-500.5" width="-21" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

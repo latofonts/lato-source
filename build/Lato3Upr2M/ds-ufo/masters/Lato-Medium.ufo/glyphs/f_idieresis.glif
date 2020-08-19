@@ -1,21 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_idieresis" format="2">
-  <advance width="1158.4"/>
-  <anchor x="913.8" y="-70.0" name="bottom"/>
-  <anchor x="914.0" y="1120.0" name="top"/>
+  <advance width="1158"/>
   <anchor x="914.4" y="507.4" name="bar"/>
+  <anchor x="913.8" y="-70" name="bottom"/>
+  <anchor x="914" y="1120" name="top"/>
   <outline>
+    <component base="f_idotless"/>
     <contour>
-      <point x="865.8" y="1289.6" type="curve"/>
+      <point x="865.8" y="1289.6" type="curve" smooth="yes"/>
       <point x="865.8" y="1355.6"/>
       <point x="810.2" y="1410.4"/>
-      <point x="745.0" y="1410.4" type="curve" smooth="yes"/>
+      <point x="745" y="1410.4" type="curve" smooth="yes" name="n03"/>
       <point x="682.6" y="1410.4"/>
       <point x="627.8" y="1355.6"/>
       <point x="627.8" y="1289.6" type="curve" smooth="yes"/>
       <point x="627.8" y="1225.6"/>
       <point x="682.6" y="1173.2"/>
-      <point x="745.0" y="1173.2" type="curve" smooth="yes"/>
+      <point x="745" y="1173.2" type="curve" smooth="yes" name="n09"/>
       <point x="810.2" y="1173.2"/>
       <point x="865.8" y="1225.6"/>
     </contour>
@@ -23,24 +24,29 @@
       <point x="1200.6" y="1289.6" type="curve" smooth="yes"/>
       <point x="1200.6" y="1355.6"/>
       <point x="1146.2" y="1410.4"/>
-      <point x="1081.0" y="1410.4" type="curve" smooth="yes"/>
+      <point x="1081" y="1410.4" type="curve" smooth="yes"/>
       <point x="1016.2" y="1410.4"/>
       <point x="962.6" y="1355.6"/>
       <point x="962.6" y="1289.6" type="curve" smooth="yes"/>
       <point x="962.6" y="1225.6"/>
       <point x="1016.2" y="1173.2"/>
-      <point x="1081.0" y="1173.2" type="curve" smooth="yes"/>
+      <point x="1081" y="1173.2" type="curve" smooth="yes"/>
       <point x="1146.2" y="1173.2"/>
       <point x="1200.6" y="1225.6"/>
     </contour>
-    <component base="f_idotless"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1173.2" width="237.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

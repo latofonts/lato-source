@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="h" format="2">
   <advance width="1007"/>
   <unicode hex="0068"/>
-  <guideline x="502" y="0" angle="82.9991"/>
   <anchor x="538" y="700" name="Slash"/>
   <anchor x="279" y="1496" name="Top"/>
   <anchor x="279" y="1496" name="top"/>
@@ -37,12 +36,21 @@
       <point x="825" y="628" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="502" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="974" width="20" />
+      <hstem pos="1440" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Digamma" format="2">
-  <advance width="1137.8"/>
+  <advance width="1138"/>
   <unicode hex="03DC"/>
   <anchor x="509.56" y="1518.62" name="Top"/>
+  <anchor x="296.26" y="-70" name="bottom"/>
   <anchor x="509.56" y="1518.62" name="top"/>
-  <anchor x="296.26" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="431.5" y="1446.8" type="line"/>
-      <point x="161.01999999999998" y="1446.8" type="line"/>
-      <point x="161.01999999999998" y="0.0" type="line"/>
-      <point x="431.5" y="0.0" type="line"/>
+      <point x="431.5" y="1446.8" type="line" name="n00"/>
+      <point x="161.02" y="1446.8" type="line"/>
+      <point x="161.02" y="0" type="line" name="n02"/>
+      <point x="431.5" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="404.78" y="804.74" type="line"/>
-      <point x="404.78" y="587.96" type="line"/>
+      <point x="404.78" y="804.74" type="line" name="n04"/>
+      <point x="404.78" y="587.96" type="line" name="n05"/>
       <point x="725.3" y="587.96" type="line" smooth="yes"/>
       <point x="822.68" y="587.96"/>
-      <point x="858.7" y="568.3199999999999"/>
+      <point x="858.7" y="568.32"/>
       <point x="861.82" y="496.48" type="curve"/>
       <point x="939.36" y="496.48" type="line" smooth="yes"/>
       <point x="997.06" y="496.48"/>
@@ -28,16 +28,25 @@
       <point x="735.44" y="804.74" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="404.78" y="1446.8" type="line"/>
-      <point x="404.78" y="1229.8" type="line"/>
+      <point x="404.78" y="1446.8" type="line" name="n17"/>
+      <point x="404.78" y="1229.8" type="line" name="n18"/>
       <point x="1072.62" y="1229.8" type="line"/>
       <point x="1072.62" y="1446.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="587.96" width="216.78" />
+      <hstem pos="1229.8" width="217" />
+      <vstem pos="404.78" width="26.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

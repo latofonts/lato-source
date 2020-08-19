@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="etatonos" format="2">
-  <advance width="1080.74"/>
+  <advance width="1081"/>
   <unicode hex="03AE"/>
-  <guideline x="544.9" y="0.0" angle="82.9991"/>
   <anchor x="616.08" y="1511.66" name="Top"/>
-  <anchor x="518.46" y="1120.0" name="top"/>
-  <anchor x="188.98000000000002" y="-70.0" name="bottom"/>
-  <anchor x="656.92" y="1120.0" name="tonos"/>
+  <anchor x="188.98" y="-70" name="bottom"/>
+  <anchor x="656.92" y="1120" name="tonos"/>
+  <anchor x="518.46" y="1120" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="tonos" xOffset="60.58"/>
+    <component base="tonos" xScale="1" xOffset="60.58"/>
   </outline>
+  <guideline angle="82.9991" x="526" y="0"/>
   <lib>
-    <dict>
-      <key>note</key>
-      <string>eta+tonos=etatonos</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>eta+tonos=etatonos</string>
+  </dict>
   </lib>
 </glyph>

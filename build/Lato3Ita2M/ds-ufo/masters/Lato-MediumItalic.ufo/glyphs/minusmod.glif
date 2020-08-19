@@ -1,20 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minusmod" format="2">
-  <advance width="778.0"/>
+  <advance width="778"/>
   <unicode hex="02D7"/>
-  <guideline x="389.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="142.0" y="470.2" type="line"/>
-      <point x="636.0" y="470.2" type="line"/>
-      <point x="636.0" y="596.2" type="line"/>
-      <point x="142.0" y="596.2" type="line"/>
+      <point x="142" y="470.2" type="line" name="n00"/>
+      <point x="636" y="470.2" type="line"/>
+      <point x="636" y="596.2" type="line"/>
+      <point x="142" y="596.2" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="365" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="470.2" width="126" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

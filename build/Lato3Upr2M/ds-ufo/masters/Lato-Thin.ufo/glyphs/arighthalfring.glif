@@ -1,36 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arighthalfring" format="2">
-  <advance width="464.9"/>
+  <advance width="465"/>
   <unicode hex="1E9A"/>
-  <guideline x="536.2"/>
-  <anchor x="204.2" y="1120.0" name="_top"/>
   <anchor x="287.2" y="1498.9" name="Top"/>
+  <anchor x="204.2" y="1120" name="_top"/>
+  <anchor x="232" y="-70" name="bottom"/>
   <anchor x="287.2" y="1498.9" name="top"/>
-  <anchor x="232.0" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="153.3" y="1242.6" type="line"/>
+      <point x="153.3" y="1242.6" type="line" name="n00"/>
       <point x="260.8" y="1242.6"/>
       <point x="338.8" y="1319.9"/>
-      <point x="338.8" y="1426.3" type="curve" smooth="yes"/>
+      <point x="338.8" y="1426.3" type="curve" smooth="yes" name="n03"/>
       <point x="338.8" y="1532.6"/>
       <point x="260.8" y="1611.6"/>
-      <point x="153.3" y="1611.6" type="curve"/>
-      <point x="153.3" y="1579.6" type="line"/>
+      <point x="153.3" y="1611.6" type="curve" name="n06"/>
+      <point x="153.3" y="1611.6"/>
+      <point x="153.3" y="1579.6"/>
+      <point x="153.3" y="1579.6" type="curve" name="n09"/>
       <point x="239.5" y="1579.6"/>
       <point x="299.1" y="1514.7"/>
-      <point x="299.1" y="1426.2" type="curve" smooth="yes"/>
+      <point x="299.1" y="1426.2" type="curve" smooth="yes" name="n12"/>
       <point x="299.1" y="1336.9"/>
       <point x="239.5" y="1274.6"/>
-      <point x="153.3" y="1274.6" type="curve"/>
+      <point x="153.3" y="1274.6" type="curve" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringright=arighthalfring</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringright=arighthalfring</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1242.6" width="32" />
+      <hstem pos="1579.6" width="32" />
+      <vstem pos="299.1" width="39.7" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

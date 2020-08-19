@@ -1,35 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ismall" format="2">
-  <advance width="760.56"/>
+  <advance width="761"/>
   <unicode hex="026A"/>
-  <anchor x="384.12" y="1120.0" name="top"/>
-  <anchor x="376.2" y="-70.0" name="bottom"/>
+  <anchor x="376.2" y="-70" name="bottom"/>
+  <anchor x="384.12" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="513.16" y="998.48" type="line"/>
+      <point x="513.16" y="998.48" type="line" name="n00"/>
       <point x="238.36" y="998.48" type="line"/>
-      <point x="238.36" y="26.4" type="line"/>
+      <point x="238.36" y="26.4" type="line" name="n02"/>
       <point x="513.16" y="26.4" type="line"/>
     </contour>
     <contour>
-      <point x="49.120000000000005" y="828.88" type="line"/>
+      <point x="49.12" y="828.88" type="line"/>
       <point x="702.4" y="828.88" type="line"/>
       <point x="702.4" y="1033.68" type="line"/>
-      <point x="49.120000000000005" y="1033.68" type="line"/>
+      <point x="49.12" y="1033.68" type="line"/>
     </contour>
     <contour>
-      <point x="49.120000000000005" y="-0.12" type="line"/>
+      <point x="49.12" y="-0.12" type="line" name="n08"/>
       <point x="702.4" y="-0.12" type="line"/>
       <point x="702.4" y="204.68" type="line"/>
-      <point x="49.120000000000005" y="204.68" type="line"/>
+      <point x="49.12" y="204.68" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>dotlessi=Ismall</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>dotlessi=Ismall</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="20.88" width="-21" />
+      <hstem pos="47.4" width="-21" />
+      <hstem pos="998.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

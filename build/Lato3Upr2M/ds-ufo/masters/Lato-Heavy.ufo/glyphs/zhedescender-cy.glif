@@ -1,27 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhedescender-cy" format="2">
-  <advance width="1746.96"/>
+  <advance width="1747"/>
   <unicode hex="0497"/>
-  <anchor x="829.36" y="1120.0" name="top"/>
-  <anchor x="829.36" y="-70.0" name="bottom"/>
+  <anchor x="829.36" y="-70" name="bottom"/>
+  <anchor x="829.36" y="1120" name="top"/>
   <outline>
+    <component base="zhe-cy"/>
     <contour>
-      <point x="1432.52" y="206.56" type="line"/>
-      <point x="1540.04" y="0.0" type="line"/>
-      <point x="1479.04" y="0.0" type="line"/>
-      <point x="1479.04" y="-341.52" type="line"/>
+      <point x="1432.52" y="206.56" type="line" name="n00"/>
+      <point x="1540.04" y="0" type="line" name="n01"/>
+      <point x="1479.04" y="0" type="line"/>
+      <point x="1479.04" y="-341.52" type="line" name="n03"/>
       <point x="1651.72" y="-341.52" type="line" smooth="yes"/>
       <point x="1696.68" y="-341.52"/>
       <point x="1729.6" y="-309.48"/>
-      <point x="1729.6" y="-259.24" type="curve" smooth="yes"/>
+      <point x="1729.6" y="-259.24" type="curve" smooth="yes" name="n07"/>
       <point x="1729.6" y="206.56" type="line"/>
     </contour>
-    <component base="zhe-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-320.52" width="-21" />
+      <hstem pos="0" width="206.56" />
+      <vstem pos="1479.04" width="250.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

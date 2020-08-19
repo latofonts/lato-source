@@ -1,21 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dbloverlinecomb.case" format="2">
   <outline>
     <contour>
-      <point x="-394.0" y="169.5" type="line"/>
-      <point x="-394.0" y="102.5" type="line"/>
-      <point x="394.0" y="102.5" type="line"/>
-      <point x="394.0" y="169.5" type="line"/>
+      <point x="-394" y="169.5" type="line" name="n00"/>
+      <point x="-394" y="102.5" type="line" name="n01"/>
+      <point x="394" y="102.5" type="line"/>
+      <point x="394" y="169.5" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>underscore=dbloverlinecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>underscore=dbloverlinecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="102.5" width="67" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

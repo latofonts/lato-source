@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cmod" format="2">
   <advance width="516"/>
   <unicode hex="1D9C"/>
-  <guideline y="1407"/>
-  <guideline x="257" y="0" angle="82.9991"/>
   <anchor x="236" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -41,12 +39,21 @@
       <point x="522" y="1301" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1407"/>
+  <guideline angle="82.9991" x="257" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>c.sups=cmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>c.sups=cmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="912" width="159" />
+      <hstem pos="1307" width="160" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

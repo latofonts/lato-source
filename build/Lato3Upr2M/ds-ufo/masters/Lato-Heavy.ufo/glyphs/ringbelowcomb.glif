@@ -1,47 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringbelowcomb" format="2">
   <unicode hex="0325"/>
-  <guideline x="48.32"/>
-  <anchor x="0.0" y="-598.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-598" name="bottom"/>
   <outline>
     <contour>
-      <point x="-233.36" y="-293.48" type="curve" smooth="yes"/>
+      <point x="-233.36" y="-293.48" type="curve" smooth="yes" name="n00"/>
       <point x="-233.36" y="-419.48"/>
       <point x="-125.12" y="-502.6"/>
-      <point x="-2.64" y="-502.6" type="curve" smooth="yes"/>
+      <point x="-2.64" y="-502.6" type="curve" smooth="yes" name="n03"/>
       <point x="123.36" y="-502.6"/>
       <point x="233.36" y="-419.48"/>
-      <point x="233.36" y="-293.48" type="curve" smooth="yes"/>
+      <point x="233.36" y="-293.48" type="curve" smooth="yes" name="n06"/>
       <point x="233.36" y="-163.96"/>
       <point x="123.36" y="-79.08"/>
-      <point x="-2.64" y="-79.08" type="curve" smooth="yes"/>
+      <point x="-2.64" y="-79.08" type="curve" smooth="yes" name="n09"/>
       <point x="-125.12" y="-79.08"/>
       <point x="-233.36" y="-163.96"/>
     </contour>
     <contour>
-      <point x="-84.64" y="-293.48" type="curve"/>
+      <point x="-84.64" y="-293.48" type="curve" smooth="yes" name="n12"/>
       <point x="-84.64" y="-240.84"/>
-      <point x="-55.28" y="-207.95999999999998"/>
-      <point x="0.88" y="-207.95999999999998" type="curve" smooth="yes"/>
-      <point x="51.760000000000005" y="-207.95999999999998"/>
+      <point x="-55.28" y="-207.96"/>
+      <point x="0.88" y="-207.96" type="curve" smooth="yes" name="n15"/>
+      <point x="51.76" y="-207.96"/>
       <point x="84.64" y="-240.84"/>
-      <point x="84.64" y="-293.48" type="curve" smooth="yes"/>
+      <point x="84.64" y="-293.48" type="curve" smooth="yes" name="n18"/>
       <point x="84.64" y="-342.6"/>
-      <point x="51.760000000000005" y="-377.24"/>
-      <point x="0.88" y="-377.24" type="curve" smooth="yes"/>
+      <point x="51.76" y="-377.24"/>
+      <point x="0.88" y="-377.24" type="curve" smooth="yes" name="n21"/>
       <point x="-55.28" y="-377.24"/>
       <point x="-84.64" y="-342.6"/>
     </contour>
   </outline>
+  <guideline angle="90" x="36" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_ringbelow=ringbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_ringbelow=ringbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-502.6" width="125.36" />
+      <hstem pos="-207.96" width="128.88" />
+      <vstem pos="-233.36" width="148.72" />
+      <vstem pos="84.64" width="148.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

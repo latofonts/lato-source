@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfh" format="2">
-  <advance width="765.792"/>
+  <advance width="766"/>
   <unicode hex="2C76"/>
-  <guideline x="386.398" y="0.0" angle="82.9991"/>
-  <anchor x="771.326" y="1515.314" name="Top"/>
-  <anchor x="279.63" y="1120.0" name="top"/>
-  <anchor x="142.632" y="-70.0" name="bottom"/>
+  <anchor x="771.326" y="1515.31" name="Top"/>
+  <anchor x="142.632" y="-70" name="bottom"/>
+  <anchor x="279.63" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="372.538" y="1019.294" type="line"/>
-      <point x="172.714" y="1019.294" type="line"/>
-      <point x="48.052" y="0.0" type="line"/>
-      <point x="247.542" y="0.0" type="line"/>
+      <point x="372.538" y="1019.29" type="line" name="n00"/>
+      <point x="172.714" y="1019.29" type="line"/>
+      <point x="48.052" y="0" type="line" name="n02"/>
+      <point x="247.542" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="302.88" y="605.592" type="line"/>
-      <point x="283.23" y="450.726" type="line"/>
+      <point x="302.88" y="605.592" type="line" name="n04"/>
+      <point x="283.23" y="450.726" type="line" name="n05"/>
       <point x="710.764" y="450.726" type="line"/>
       <point x="729.748" y="605.592" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="451" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="450.726" width="154.866" />
+      <hstem pos="1019.294" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

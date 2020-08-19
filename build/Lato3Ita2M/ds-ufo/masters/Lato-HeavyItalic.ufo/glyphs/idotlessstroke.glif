@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotlessstroke" format="2">
-  <advance width="556.28"/>
+  <advance width="556"/>
   <unicode hex="1D7B"/>
-  <guideline x="283.56" y="0.0" angle="82.9991"/>
   <anchor x="405.52" y="1521.52" name="Top"/>
-  <anchor x="334.64" y="1120.0" name="top"/>
-  <anchor x="197.0" y="-70.0" name="bottom"/>
+  <anchor x="197" y="-70" name="bottom"/>
+  <anchor x="334.64" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="457.08000000000004" y="1032.04" type="line"/>
+      <point x="457.08" y="1032.04" type="line" name="n00"/>
       <point x="199.88" y="1032.04" type="line"/>
-      <point x="73.72" y="0.0" type="line"/>
-      <point x="330.03999999999996" y="0.0" type="line"/>
+      <point x="73.72" y="0" type="line" name="n02"/>
+      <point x="330.04" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="21.439999999999998" y="441.64" type="line"/>
+      <point x="21.44" y="441.64" type="line"/>
       <point x="490.48" y="441.64" type="line"/>
       <point x="509.2" y="592.4" type="line"/>
       <point x="40.16" y="592.4" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="251" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1032.04" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

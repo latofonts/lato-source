@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_arrowheadleftmod.case" format="2">
-  <advance width="690.25"/>
-  <guideline x="345.0" y="0.0" angle="82.9991"/>
-  <anchor x="393.0" y="1503.25" name="_Top"/>
+  <advance width="690"/>
+  <anchor x="393" y="1503.25" name="_Top"/>
   <outline>
     <contour>
       <point x="657.75" y="1894.75" type="line"/>
-      <point x="624.5" y="1936.25" type="line"/>
-      <point x="416.5" y="1735.0" type="line"/>
+      <point x="624.5" y="1936.25" type="line" name="n01"/>
+      <point x="416.5" y="1735" type="line"/>
       <point x="450.25" y="1696.75" type="line"/>
     </contour>
     <contour>
       <point x="458.75" y="1773.25" type="line"/>
-      <point x="416.5" y="1735.0" type="line"/>
-      <point x="578.25" y="1533.75" type="line"/>
+      <point x="416.5" y="1735" type="line"/>
+      <point x="578.25" y="1533.75" type="line" name="n06"/>
       <point x="621.5" y="1575.25" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="336" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowheadleft=_arrowheadleft.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowheadleft=_arrowheadleft.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1554.75" width="-21" />
+      <hstem pos="1936.25" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

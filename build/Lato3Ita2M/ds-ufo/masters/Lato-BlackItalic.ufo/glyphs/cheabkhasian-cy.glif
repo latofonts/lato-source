@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cheabkhasian-cy" format="2">
   <advance width="1231"/>
   <unicode hex="04BD"/>
-  <guideline x="620" y="0" angle="82.9991"/>
   <anchor x="782" y="1120" name="top"/>
   <anchor x="641" y="-70" name="bottom"/>
   <anchor x="1073" y="100" name="hook"/>
@@ -26,7 +25,9 @@
       <point x="145" y="415"/>
       <point x="310" y="414" type="curve" smooth="yes"/>
       <point x="410" y="413" type="line"/>
-      <point x="432" y="609" type="line"/>
+      <point x="410" y="413"/>
+      <point x="432" y="609"/>
+      <point x="432" y="609" type="curve"/>
     </contour>
     <contour>
       <point x="532" y="414" type="line"/>
@@ -66,10 +67,19 @@
       <point x="568" y="612" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="620" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="242" />
+      <hstem pos="414" width="190" />
+      <hstem pos="836" width="218" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bullet" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="286.75" y="596.5" type="curve" smooth="yes"/>
-      <point x="286.75" y="437.0"/>
-      <point x="418.75" y="305.0"/>
-      <point x="578.25" y="305.0" type="curve" smooth="yes"/>
-      <point x="741.25" y="305.0"/>
-      <point x="873.25" y="437.0"/>
-      <point x="873.25" y="596.5" type="curve" smooth="yes"/>
+      <point x="286.75" y="596.5" type="curve" smooth="yes" name="n00"/>
+      <point x="286.75" y="437"/>
+      <point x="418.75" y="305"/>
+      <point x="578.25" y="305" type="curve" smooth="yes" name="n03"/>
+      <point x="741.25" y="305"/>
+      <point x="873.25" y="437"/>
+      <point x="873.25" y="596.5" type="curve" smooth="yes" name="n06"/>
       <point x="873.25" y="759.5"/>
       <point x="741.25" y="891.5"/>
-      <point x="578.25" y="891.5" type="curve" smooth="yes"/>
+      <point x="578.25" y="891.5" type="curve" smooth="yes" name="n09"/>
       <point x="418.75" y="891.5"/>
       <point x="286.75" y="759.5"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="305" width="586.5" />
+      <vstem pos="286.75" width="586.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

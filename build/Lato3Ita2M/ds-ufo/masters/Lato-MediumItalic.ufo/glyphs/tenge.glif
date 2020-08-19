@@ -1,34 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tenge" format="2">
-  <advance width="1189.2"/>
+  <advance width="1189"/>
   <unicode hex="20B8"/>
-  <guideline x="544.4" y="0.0" angle="82.9991"/>
   <anchor x="669.6" y="1513.4" name="Top"/>
-  <anchor x="476.2" y="-70.0" name="bottom"/>
+  <anchor x="476.2" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="748.4" y="1053.4" type="line"/>
       <point x="542.8" y="1053.4" type="line"/>
-      <point x="413.4" y="0.0" type="line"/>
-      <point x="619.0" y="0.0" type="line"/>
+      <point x="413.4" y="0" type="line" name="n02"/>
+      <point x="619" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="146.6" y="1104.2" type="line"/>
-      <point x="125.6" y="933.4" type="line"/>
+      <point x="146.6" y="1104.2" type="line" name="n04"/>
+      <point x="125.6" y="933.4" type="line" name="n05"/>
       <point x="1134.6" y="933.4" type="line"/>
       <point x="1155.6" y="1104.2" type="line"/>
     </contour>
     <contour>
-      <point x="187.0" y="1435.4" type="line"/>
-      <point x="166.0" y="1264.6" type="line"/>
-      <point x="1175.0" y="1264.6" type="line"/>
-      <point x="1196.2" y="1435.4" type="line"/>
+      <point x="187" y="1435.4" type="line"/>
+      <point x="166" y="1264.6" type="line"/>
+      <point x="1175" y="1264.6" type="line" name="n10"/>
+      <point x="1196.2" y="1435.4" type="line" name="n11"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="533" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="933.4" width="170.8" />
+      <hstem pos="1264.6" width="170.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,24 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emtail-cy" format="2">
-  <advance width="1504.8"/>
+  <advance width="1505"/>
   <unicode hex="04CE"/>
-  <anchor x="708.6" y="1120.0" name="top"/>
-  <anchor x="708.6" y="-70.0" name="bottom"/>
+  <anchor x="708.6" y="-70" name="bottom"/>
+  <anchor x="708.6" y="1120" name="top"/>
   <outline>
+    <component base="em-cy"/>
     <contour>
-      <point x="1279.4" y="147.2" type="line"/>
-      <point x="1279.4" y="0.0" type="line"/>
-      <point x="1264.6" y="0.0" type="line"/>
-      <point x="1150.2" y="-347.4" type="line"/>
+      <point x="1279.4" y="147.2" type="line" name="n00"/>
+      <point x="1279.4" y="0" type="line" name="n01"/>
+      <point x="1264.6" y="0" type="line"/>
+      <point x="1150.2" y="-347.4" type="line" name="n03"/>
       <point x="1333.4" y="-347.4" type="line"/>
       <point x="1481.8" y="147.2" type="line"/>
     </contour>
-    <component base="em-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-326.4" width="-21" />
+      <hstem pos="0" width="147.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

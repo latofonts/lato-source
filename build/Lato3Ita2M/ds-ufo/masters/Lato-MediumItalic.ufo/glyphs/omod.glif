@@ -1,33 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omod" format="2">
-  <advance width="576.4"/>
+  <advance width="576"/>
   <unicode hex="1D52"/>
-  <guideline x="289.4"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
-  <anchor x="271.0" y="-70.0" name="bottom"/>
+  <anchor x="271" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="390.8" y="1443.4" type="curve" smooth="yes"/>
+      <point x="390.8" y="1443.4" type="curve" smooth="yes" name="n00"/>
       <point x="230.2" y="1443.4"/>
       <point x="112.6" y="1323.2"/>
       <point x="112.6" y="1135.8" type="curve" smooth="yes"/>
-      <point x="112.6" y="997.0"/>
-      <point x="194.2" y="908.0"/>
-      <point x="324.6" y="908.0" type="curve" smooth="yes"/>
-      <point x="485.4" y="908.0"/>
+      <point x="112.6" y="997"/>
+      <point x="194.2" y="908"/>
+      <point x="324.6" y="908" type="curve" smooth="yes" name="n06"/>
+      <point x="485.4" y="908"/>
       <point x="602.6" y="1028.6"/>
       <point x="602.6" y="1216.4" type="curve" smooth="yes"/>
       <point x="602.6" y="1354.2"/>
-      <point x="521.0" y="1443.4"/>
+      <point x="521" y="1443.4"/>
     </contour>
     <contour>
-      <point x="337.4" y="1011.2" type="curve" smooth="yes"/>
+      <point x="337.4" y="1011.2" type="curve" smooth="yes" name="n12"/>
       <point x="277.4" y="1011.2"/>
-      <point x="248.0" y="1055.2"/>
-      <point x="248.0" y="1131.8" type="curve" smooth="yes"/>
-      <point x="248.0" y="1274.8"/>
-      <point x="299.0" y="1340.2"/>
-      <point x="378.0" y="1340.2" type="curve" smooth="yes"/>
+      <point x="248" y="1055.2"/>
+      <point x="248" y="1131.8" type="curve" smooth="yes"/>
+      <point x="248" y="1274.8"/>
+      <point x="299" y="1340.2"/>
+      <point x="378" y="1340.2" type="curve" smooth="yes" name="n18"/>
       <point x="437.2" y="1340.2"/>
       <point x="465.6" y="1295.4"/>
       <point x="465.6" y="1219.4" type="curve" smooth="yes"/>
@@ -35,12 +33,21 @@
       <point x="415.6" y="1011.2"/>
     </contour>
   </outline>
+  <guideline angle="90" x="263" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>o.sups=omod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>o.sups=omod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="908" width="103.2" />
+      <hstem pos="1340.2" width="103.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

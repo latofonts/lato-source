@@ -1,32 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iishorttail-cy" format="2">
-  <advance width="1132.0"/>
+  <advance width="1132"/>
   <unicode hex="048B"/>
-  <guideline x="582.2" y="0.0" angle="82.9991"/>
   <anchor x="621.6" y="1513.4" name="Top"/>
-  <anchor x="583.8" y="1120.0" name="top"/>
-  <anchor x="490.4" y="-70.0" name="bottom"/>
-  <anchor x="477.4" y="1120.0" name="_top"/>
+  <anchor x="477.4" y="1120" name="_top"/>
+  <anchor x="490.4" y="-70" name="bottom"/>
   <anchor x="853.2" y="141.2" name="hook"/>
+  <anchor x="583.8" y="1120" name="top"/>
   <outline>
-    <contour>
-      <point x="864.4" y="142.39999999999998" type="line"/>
-      <point x="846.4" y="0.0" type="line"/>
-      <point x="859.4" y="0.0" type="line"/>
-      <point x="764.6" y="-348.0" type="line"/>
-      <point x="881.0" y="-348.0" type="line" smooth="yes"/>
-      <point x="913.0" y="-348.0"/>
-      <point x="938.2" y="-325.8"/>
-      <point x="942.8" y="-290.2" type="curve"/>
-      <point x="1047.6" y="142.39999999999998" type="line"/>
-    </contour>
     <component base="breve.cyrl" xOffset="101.2"/>
     <component base="u"/>
+    <contour>
+      <point x="864.4" y="142.4" type="line" name="n00"/>
+      <point x="846.4" y="0" type="line" name="n01"/>
+      <point x="859.4" y="0" type="line"/>
+      <point x="764.6" y="-348" type="line" name="n03"/>
+      <point x="881" y="-348" type="line" smooth="yes"/>
+      <point x="913" y="-348"/>
+      <point x="938.2" y="-325.8"/>
+      <point x="942.8" y="-290.2" type="curve"/>
+      <point x="1047.6" y="142.4" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="82.9991" x="533" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-327" width="-21" />
+      <hstem pos="0" width="142.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

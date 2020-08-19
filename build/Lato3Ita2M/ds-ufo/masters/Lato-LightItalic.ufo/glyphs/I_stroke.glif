@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Istroke" format="2">
-  <advance width="519.5"/>
+  <advance width="520"/>
   <unicode hex="0197"/>
-  <guideline x="306.5" y="0.0" angle="82.9991"/>
   <anchor x="340.75" y="1503.25" name="Top"/>
+  <anchor x="182.5" y="-70" name="bottom"/>
   <anchor x="340.75" y="1503.25" name="top"/>
-  <anchor x="182.5" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="410.75" y="1414.75" type="line"/>
-      <point x="310.0" y="1414.75" type="line"/>
-      <point x="136.25" y="0.0" type="line"/>
-      <point x="237.0" y="0.0" type="line"/>
+      <point x="410.75" y="1414.75" type="line" name="n00"/>
+      <point x="310" y="1414.75" type="line"/>
+      <point x="136.25" y="0" type="line" name="n02"/>
+      <point x="237" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="18.0" y="703.75" type="line"/>
+      <point x="18" y="703.75" type="line" name="n04"/>
       <point x="527.75" y="703.75" type="line"/>
-      <point x="535.0" y="764.75" type="line"/>
-      <point x="25.5" y="764.75" type="line"/>
+      <point x="535" y="764.75" type="line"/>
+      <point x="25.5" y="764.75" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="296" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="703.75" width="61" />
+      <hstem pos="1414.75" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

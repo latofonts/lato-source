@@ -1,30 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adiota" format="2">
-  <advance width="463.62"/>
-  <guideline x="231.58" y="0.0" angle="82.9991"/>
-  <anchor x="386.92" y="1120.0" name="tonos"/>
+  <advance width="464"/>
+  <anchor x="386.92" y="1120" name="tonos"/>
   <outline>
     <contour>
       <point x="143.36" y="177.44" type="line" smooth="yes"/>
       <point x="130.2" y="72.32"/>
       <point x="172.22" y="-6.92"/>
-      <point x="271.82" y="-6.92" type="curve" smooth="yes"/>
+      <point x="271.82" y="-6.92" type="curve" smooth="yes" name="n03"/>
       <point x="326.96" y="-6.92"/>
       <point x="391.74" y="16.98"/>
-      <point x="397.6" y="60.86000000000001" type="curve"/>
-      <point x="403.46000000000004" y="108.74000000000001" type="line"/>
-      <point x="349.02" y="108.74000000000001" type="line" smooth="yes"/>
-      <point x="307.48" y="108.74000000000001"/>
-      <point x="294.52" y="136.16000000000003"/>
-      <point x="300.74" y="186.62" type="curve"/>
-      <point x="353.5" y="618.62" type="line"/>
+      <point x="397.6" y="60.86" type="curve" smooth="yes"/>
+      <point x="403.46" y="108.74" type="line"/>
+      <point x="349.02" y="108.74" type="line" smooth="yes" name="n08"/>
+      <point x="307.48" y="108.74"/>
+      <point x="294.52" y="136.16"/>
+      <point x="300.74" y="186.62" type="curve" smooth="yes"/>
+      <point x="353.5" y="618.62" type="line" name="n12"/>
       <point x="197.2" y="618.62" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="217" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-6.92" width="115.66" />
+      <hstem pos="618.62" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

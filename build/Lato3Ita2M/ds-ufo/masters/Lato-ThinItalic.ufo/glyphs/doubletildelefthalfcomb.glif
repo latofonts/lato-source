@@ -1,32 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubletildelefthalfcomb" format="2">
   <unicode hex="FE22"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1645.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1645" name="top"/>
   <outline>
     <contour>
       <point x="448.5" y="1353.8" type="line"/>
       <point x="276.4" y="1403.8"/>
       <point x="121.4" y="1446.6"/>
-      <point x="-62.5" y="1446.6" type="curve" smooth="yes"/>
-      <point x="-324.0" y="1446.6"/>
+      <point x="-62.5" y="1446.6" type="curve" smooth="yes" name="n03"/>
+      <point x="-324" y="1446.6"/>
       <point x="-448.5" y="1359.5"/>
-      <point x="-448.5" y="1229.6" type="curve"/>
+      <point x="-448.5" y="1229.6" type="curve" name="n06"/>
       <point x="-403.7" y="1229.6" type="line"/>
       <point x="-403.7" y="1341.3"/>
       <point x="-290.8" y="1405.6"/>
-      <point x="-66.1" y="1405.6" type="curve" smooth="yes"/>
+      <point x="-66.1" y="1405.6" type="curve" smooth="yes" name="n10"/>
       <point x="135.2" y="1405.6"/>
       <point x="300.9" y="1353.8"/>
       <point x="448.5" y="1311.3" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1250.6" width="-21" />
+      <hstem pos="1405.6" width="41" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

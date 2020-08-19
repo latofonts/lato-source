@@ -1,53 +1,61 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bidentalpercussive" format="2">
-  <advance width="986.25"/>
+  <advance width="986"/>
   <unicode hex="02AD"/>
-  <guideline x="529.75" y="0.0" angle="82.9991"/>
   <anchor x="589.25" y="1503.25" name="Top"/>
+  <anchor x="415" y="-70" name="bottom"/>
   <anchor x="589.25" y="1503.25" name="top"/>
-  <anchor x="415.0" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="173.75" y="508.75" type="line"/>
       <point x="107.75" y="508.75" type="line"/>
-      <point x="45.25" y="0.0" type="line"/>
-      <point x="111.25" y="0.0" type="line"/>
+      <point x="45.25" y="0" type="line" name="n02"/>
+      <point x="111.25" y="0" type="line"/>
     </contour>
     <contour>
       <point x="168.5" y="508.75" type="line"/>
-      <point x="158.0" y="424.5" type="line"/>
-      <point x="811.75" y="424.5" type="line"/>
-      <point x="821.5" y="508.75" type="line"/>
+      <point x="158" y="424.5" type="line"/>
+      <point x="811.75" y="424.5" type="line" name="n06"/>
+      <point x="821.5" y="508.75" type="line" name="n07"/>
     </contour>
     <contour>
       <point x="854.75" y="508.75" type="line"/>
-      <point x="788.0" y="508.75" type="line"/>
-      <point x="726.25" y="0.0" type="line"/>
-      <point x="792.25" y="0.0" type="line"/>
+      <point x="788" y="508.75" type="line"/>
+      <point x="726.25" y="0" type="line"/>
+      <point x="792.25" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="285.0" y="1414.75" type="line"/>
-      <point x="219.0" y="1414.75" type="line"/>
+      <point x="285" y="1414.75" type="line"/>
+      <point x="219" y="1414.75" type="line"/>
       <point x="156.5" y="906.25" type="line"/>
       <point x="222.5" y="906.25" type="line"/>
     </contour>
     <contour>
       <point x="279.75" y="1414.75" type="line"/>
-      <point x="269.0" y="1330.75" type="line"/>
-      <point x="922.75" y="1330.75" type="line"/>
-      <point x="932.75" y="1414.75" type="line"/>
+      <point x="269" y="1330.75" type="line"/>
+      <point x="922.75" y="1330.75" type="line" name="n18"/>
+      <point x="932.75" y="1414.75" type="line" name="n19"/>
     </contour>
     <contour>
-      <point x="966.0" y="1414.75" type="line"/>
-      <point x="900.0" y="1414.75" type="line"/>
+      <point x="966" y="1414.75" type="line"/>
+      <point x="900" y="1414.75" type="line"/>
       <point x="837.25" y="906.25" type="line"/>
       <point x="903.25" y="906.25" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="529" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="424.5" width="84.25" />
+      <hstem pos="1330.75" width="84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

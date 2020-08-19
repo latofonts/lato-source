@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <unicode hex="02C6"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
-  <anchor x="400.0" y="-70.0" name="bottom"/>
+  <anchor x="400" y="1120" name="_top"/>
+  <anchor x="400" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="93.6" y="1168.92" type="line"/>
+      <point x="93.6" y="1168.92" type="line" name="n00"/>
       <point x="217.44" y="1168.92" type="line" smooth="yes"/>
       <point x="233.16" y="1168.92"/>
-      <point x="249.42000000000002" y="1175.62"/>
+      <point x="249.42" y="1175.62"/>
       <point x="262.06" y="1188.26" type="curve"/>
-      <point x="386.44" y="1320.0" type="line"/>
+      <point x="386.44" y="1320" type="line"/>
       <point x="413.34" y="1346.9"/>
       <point x="446.88" y="1400.8"/>
-      <point x="446.88" y="1432.4" type="curve"/>
+      <point x="446.88" y="1432.4" type="curve" name="n08"/>
       <point x="317.48" y="1432.4" type="line"/>
     </contour>
     <contour>
@@ -22,7 +22,7 @@
       <point x="361.76" y="1432.4" type="line"/>
       <point x="361.76" y="1400.8"/>
       <point x="390.98" y="1348.52"/>
-      <point x="418.96" y="1320.0" type="curve"/>
+      <point x="418.96" y="1320" type="curve"/>
       <point x="542.26" y="1188.26" type="line"/>
       <point x="557.44" y="1173.08"/>
       <point x="572.08" y="1168.92"/>
@@ -31,9 +31,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1189.92" width="-21" />
+      <hstem pos="1432.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

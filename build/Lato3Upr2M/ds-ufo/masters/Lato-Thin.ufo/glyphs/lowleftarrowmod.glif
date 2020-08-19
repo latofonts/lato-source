@@ -1,28 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lowleftarrowmod" format="2">
-  <advance width="1020.0"/>
+  <advance width="1020"/>
   <unicode hex="02FF"/>
-  <anchor x="399.8" y="1120.0" name="_top"/>
+  <anchor x="399.8" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="386.1" y="-390.0" type="line"/>
-      <point x="704.7" y="-390.0" type="line"/>
-      <point x="704.7" y="-349.0" type="line"/>
-      <point x="386.1" y="-349.0" type="line"/>
+      <point x="386.1" y="-390" type="line" name="n00"/>
+      <point x="704.7" y="-390" type="line"/>
+      <point x="704.7" y="-349" type="line"/>
+      <point x="386.1" y="-349" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="444.1" y="-465.9" type="line"/>
-      <point x="444.1" y="-272.6" type="line"/>
+      <point x="444.1" y="-465.9" type="line" name="n04"/>
+      <point x="444.1" y="-272.6" type="line" name="n05"/>
       <point x="283.9" y="-352.1" type="line" smooth="yes"/>
       <point x="267.2" y="-360.4"/>
       <point x="267.1" y="-375.6"/>
-      <point x="283.9" y="-384.1" type="curve"/>
+      <point x="283.9" y="-384.1" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-444.9" width="-21" />
+      <hstem pos="-390" width="41" />
+      <hstem pos="-272.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

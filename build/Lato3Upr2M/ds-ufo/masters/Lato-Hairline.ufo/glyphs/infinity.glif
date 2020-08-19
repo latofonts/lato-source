@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="infinity" format="2">
   <advance width="1498"/>
   <unicode hex="221E"/>
-  <guideline y="874"/>
-  <guideline y="306"/>
   <outline>
     <contour>
       <point x="1076" y="326" type="curve" smooth="yes"/>
@@ -46,10 +44,21 @@
       <point x="780" y="306"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="874"/>
+  <guideline angle="0" x="0" y="306"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="306" width="20" />
+      <hstem pos="854" width="20" />
+      <vstem pos="155" width="24" />
+      <vstem pos="1317" width="26" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

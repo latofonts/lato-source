@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zeta" format="2">
   <advance width="1086"/>
   <unicode hex="0396"/>
-  <guideline x="590" y="0" angle="82.9991"/>
   <anchor x="663" y="1496" name="Top"/>
   <anchor x="478" y="-70" name="bottom"/>
   <anchor x="663" y="1496" name="top"/>
@@ -34,12 +33,20 @@
       <point x="935" y="22" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="590" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Z=Zeta</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Z=Zeta</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="22" />
+      <hstem pos="1378" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

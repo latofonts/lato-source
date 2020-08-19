@@ -1,48 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Glottalstop" format="2">
-  <advance width="894.8"/>
+  <advance width="895"/>
   <unicode hex="0241"/>
-  <guideline x="443.4" y="0.0" angle="82.9991"/>
-  <anchor x="293.8" y="249.4" name="bar"/>
   <anchor x="584.8" y="1513.4" name="Top"/>
+  <anchor x="293.8" y="249.4" name="bar"/>
+  <anchor x="296.8" y="-70" name="bottom"/>
   <anchor x="584.8" y="1513.4" name="top"/>
-  <anchor x="296.8" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="354.2" y="456.8" type="line"/>
       <point x="676.2" y="501.4"/>
-      <point x="875.0" y="736.2"/>
-      <point x="875.0" y="1039.6" type="curve" smooth="yes"/>
-      <point x="875.0" y="1299.2"/>
+      <point x="875" y="736.2"/>
+      <point x="875" y="1039.6" type="curve" smooth="yes"/>
+      <point x="875" y="1299.2"/>
       <point x="707.6" y="1444.8"/>
-      <point x="469.6" y="1444.8" type="curve" smooth="yes"/>
+      <point x="469.6" y="1444.8" type="curve" smooth="yes" name="n06"/>
       <point x="339.6" y="1444.8"/>
       <point x="184.8" y="1397.4"/>
       <point x="81.6" y="1286.8" type="curve"/>
       <point x="127.2" y="1218.6" type="line"/>
       <point x="133.4" y="1207.6"/>
-      <point x="145.0" y="1200.8"/>
+      <point x="145" y="1200.8"/>
       <point x="160.4" y="1200.8" type="curve" smooth="yes"/>
       <point x="206.6" y="1200.8"/>
-      <point x="286.8" y="1297.0"/>
-      <point x="446.0" y="1297.0" type="curve" smooth="yes"/>
-      <point x="599.2" y="1297.0"/>
-      <point x="687.2" y="1201.0"/>
+      <point x="286.8" y="1297"/>
+      <point x="446" y="1297" type="curve" smooth="yes" name="n16"/>
+      <point x="599.2" y="1297"/>
+      <point x="687.2" y="1201"/>
       <point x="687.2" y="1027.4" type="curve" smooth="yes"/>
       <point x="687.2" y="789.6"/>
       <point x="565.6" y="617.4"/>
-      <point x="277.8" y="577.0" type="curve"/>
-      <point x="207.2" y="0.0" type="line"/>
-      <point x="395.6" y="0.0" type="line"/>
+      <point x="277.8" y="577" type="curve"/>
+      <point x="207.2" y="0" type="line" name="n23"/>
+      <point x="395.6" y="0" type="line"/>
       <point x="459.2" y="518.2" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="429" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>glottalstop=Glottalstop</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>glottalstop=Glottalstop</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1297" width="147.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

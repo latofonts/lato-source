@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tau" format="2">
   <advance width="1042"/>
   <unicode hex="03A4"/>
-  <guideline x="534" y="0" angle="82.9991"/>
   <anchor x="630" y="1496" name="Top"/>
   <anchor x="439" y="-70" name="bottom"/>
   <anchor x="531" y="700" name="Slash"/>
@@ -21,12 +20,20 @@
       <point x="1114" y="1400" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="534" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>T=Tau</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>T=Tau</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1378" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

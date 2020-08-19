@@ -1,38 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="J.sups" format="2">
-  <advance width="434.24"/>
-  <guideline x="214.04" y="0.0" angle="82.9991"/>
+  <advance width="434"/>
   <outline>
     <contour>
-      <point x="493.0" y="1664.56" type="line"/>
+      <point x="493" y="1664.56" type="line" name="n00"/>
       <point x="291.24" y="1664.56" type="line"/>
       <point x="233.24" y="1191.44" type="line" smooth="yes"/>
       <point x="222.28" y="1103.64"/>
       <point x="202.2" y="1079.28"/>
-      <point x="154.0" y="1079.28" type="curve" smooth="yes"/>
+      <point x="154" y="1079.28" type="curve" smooth="yes"/>
       <point x="139.52" y="1079.28"/>
-      <point x="124.28" y="1083.3600000000001"/>
-      <point x="114.03999999999999" y="1083.3600000000001" type="curve" smooth="yes"/>
-      <point x="88.68" y="1083.3600000000001"/>
+      <point x="124.28" y="1083.36"/>
+      <point x="114.04" y="1083.36" type="curve" smooth="yes" name="n08"/>
+      <point x="88.68" y="1083.36"/>
       <point x="72.72" y="1068.8"/>
-      <point x="68.08" y="1047.32" type="curve"/>
+      <point x="68.08" y="1047.32" type="curve" smooth="yes"/>
       <point x="60.04" y="1006.48"/>
-      <point x="51.0" y="964.64"/>
+      <point x="51" y="964.64"/>
       <point x="42.2" y="923.8" type="curve"/>
       <point x="81.52" y="914.68"/>
       <point x="116.44" y="911.44"/>
-      <point x="154.64" y="911.44" type="curve" smooth="yes"/>
+      <point x="154.64" y="911.44" type="curve" smooth="yes" name="n17"/>
       <point x="325.72" y="911.44"/>
-      <point x="415.0" y="1030.04"/>
-      <point x="435.0" y="1195.96" type="curve" smooth="yes"/>
+      <point x="415" y="1030.04"/>
+      <point x="435" y="1195.96" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="229" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Jmod=J.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Jmod=J.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="911.44" width="171.92" />
+      <hstem pos="1664.56" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

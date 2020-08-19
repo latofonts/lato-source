@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_macron_dieresis.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1521.52" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1521.52" name="_Top"/>
   <outline>
     <contour>
       <point x="319.52" y="1907.72" type="curve" smooth="yes"/>
-      <point x="319.52" y="1987.0"/>
+      <point x="319.52" y="1987"/>
       <point x="252.8" y="2053.48"/>
-      <point x="172.0" y="2053.48" type="curve" smooth="yes"/>
-      <point x="98.0" y="2053.48"/>
-      <point x="31.52000000000001" y="1987.0"/>
-      <point x="31.52000000000001" y="1907.72" type="curve" smooth="yes"/>
-      <point x="31.52000000000001" y="1828.68"/>
-      <point x="98.0" y="1765.72"/>
-      <point x="172.0" y="1765.72" type="curve" smooth="yes"/>
+      <point x="172" y="2053.48" type="curve" smooth="yes" name="n03"/>
+      <point x="98" y="2053.48"/>
+      <point x="31.52" y="1987"/>
+      <point x="31.52" y="1907.72" type="curve" smooth="yes"/>
+      <point x="31.52" y="1828.68"/>
+      <point x="98" y="1765.72"/>
+      <point x="172" y="1765.72" type="curve" smooth="yes" name="n09"/>
       <point x="252.8" y="1765.72"/>
       <point x="319.52" y="1828.68"/>
     </contour>
     <contour>
       <point x="768.48" y="1907.72" type="curve" smooth="yes"/>
-      <point x="768.48" y="1987.0"/>
+      <point x="768.48" y="1987"/>
       <point x="703.52" y="2053.48"/>
       <point x="624.48" y="2053.48" type="curve" smooth="yes"/>
       <point x="545.2" y="2053.48"/>
-      <point x="480.48" y="1987.0"/>
-      <point x="480.48" y="1907.72" type="curve" smooth="yes"/>
+      <point x="480.48" y="1987"/>
+      <point x="480.48" y="1907.72" type="curve" smooth="yes" name="n18"/>
       <point x="480.48" y="1828.68"/>
       <point x="545.2" y="1765.72"/>
       <point x="624.48" y="1765.72" type="curve" smooth="yes"/>
@@ -32,16 +32,24 @@
       <point x="768.48" y="1828.68"/>
     </contour>
     <contour>
-      <point x="90.8" y="1561.6" type="line"/>
+      <point x="90.8" y="1561.6" type="line" name="n24"/>
       <point x="709.2" y="1561.6" type="line"/>
-      <point x="709.2" y="1720.64" type="line"/>
-      <point x="90.8" y="1720.64" type="line"/>
+      <point x="709.2" y="1720.64" type="line" name="n26"/>
+      <point x="90.8" y="1720.64" type="line" name="n27"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1561.6" width="159.04" />
+      <hstem pos="1765.72" width="287.76" />
+      <vstem pos="480.48" width="228.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

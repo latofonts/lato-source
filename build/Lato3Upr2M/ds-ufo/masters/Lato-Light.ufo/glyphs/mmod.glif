@@ -1,71 +1,82 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mmod" format="2">
-  <advance width="856.25"/>
+  <advance width="856"/>
   <unicode hex="1D50"/>
-  <anchor x="427.75" y="-70.0" name="bottom"/>
+  <anchor x="427.75" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="166.25" y="911.0" type="line"/>
+      <point x="166.25" y="911" type="line" name="n00"/>
       <point x="166.25" y="1312.25" type="line"/>
       <point x="159.75" y="1316.25" type="line"/>
-      <point x="155.5" y="1398.75" type="line"/>
+      <point x="155.5" y="1398.75" type="line" name="n03"/>
       <point x="153.25" y="1409.25"/>
-      <point x="148.0" y="1415.0"/>
-      <point x="136.5" y="1415.0" type="curve" smooth="yes"/>
-      <point x="95.25" y="1415.0" type="line"/>
-      <point x="95.25" y="911.0" type="line"/>
+      <point x="148" y="1415" name="n05"/>
+      <point x="136.5" y="1415" type="curve" smooth="yes"/>
+      <point x="95.25" y="1415" type="line" name="n07"/>
+      <point x="95.25" y="911" type="line"/>
     </contour>
     <contour>
-      <point x="465.0" y="911.0" type="line"/>
-      <point x="465.0" y="1232.5" type="line"/>
+      <point x="465" y="911" type="line"/>
+      <point x="465" y="1232.5" type="line" name="n10"/>
       <point x="394.75" y="1232.5" type="line"/>
-      <point x="394.75" y="911.0" type="line"/>
+      <point x="394.75" y="911" type="line"/>
     </contour>
     <contour>
       <point x="449.25" y="1232.5" type="line"/>
       <point x="449.25" y="1345.75"/>
-      <point x="403.75" y="1423.0"/>
-      <point x="309.5" y="1423.0" type="curve" smooth="yes"/>
-      <point x="236.75" y="1423.0"/>
-      <point x="185.0" y="1375.75"/>
+      <point x="403.75" y="1423"/>
+      <point x="309.5" y="1423" type="curve" smooth="yes"/>
+      <point x="236.75" y="1423"/>
+      <point x="185" y="1375.75"/>
       <point x="143.5" y="1311.5" type="curve"/>
       <point x="151.75" y="1267.5" type="line"/>
-      <point x="187.0" y="1328.25"/>
-      <point x="235.0" y="1367.25"/>
+      <point x="187" y="1328.25"/>
+      <point x="235" y="1367.25"/>
       <point x="290.25" y="1367.25" type="curve" smooth="yes"/>
-      <point x="359.0" y="1367.25"/>
+      <point x="359" y="1367.25"/>
       <point x="394.75" y="1317.75"/>
       <point x="394.75" y="1232.5" type="curve"/>
     </contour>
     <contour>
-      <point x="766.25" y="911.0" type="line"/>
-      <point x="766.25" y="1232.5" type="line"/>
-      <point x="695.5" y="1232.5" type="line"/>
-      <point x="695.5" y="911.0" type="line"/>
+      <point x="766.25" y="911" type="line"/>
+      <point x="766.25" y="1232.5" type="line" name="n28"/>
+      <point x="695.5" y="1232.5" type="line" name="n29"/>
+      <point x="695.5" y="911" type="line"/>
     </contour>
     <contour>
       <point x="766.25" y="1232.5" type="line"/>
       <point x="766.25" y="1354.25"/>
-      <point x="705.0" y="1423.0"/>
-      <point x="601.5" y="1423.0" type="curve" smooth="yes"/>
-      <point x="514.0" y="1423.0"/>
-      <point x="427.75" y="1367.0"/>
-      <point x="427.75" y="1232.5" type="curve"/>
-      <point x="465.0" y="1232.5" type="line"/>
-      <point x="465.0" y="1321.5"/>
+      <point x="705" y="1423"/>
+      <point x="601.5" y="1423" type="curve" smooth="yes" name="n34"/>
+      <point x="514" y="1423"/>
+      <point x="427.75" y="1367"/>
+      <point x="427.75" y="1232.5" type="curve" name="n37"/>
+      <point x="465" y="1232.5" type="line"/>
+      <point x="465" y="1321.5"/>
       <point x="521.25" y="1367.25"/>
-      <point x="585.0" y="1367.25" type="curve" smooth="yes"/>
+      <point x="585" y="1367.25" type="curve" smooth="yes" name="n41"/>
       <point x="655.75" y="1367.25"/>
       <point x="695.5" y="1319.75"/>
       <point x="695.5" y="1232.5" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>m.sups=mmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>m.sups=mmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="932" width="-21" />
+      <hstem pos="1367.25" width="55.75" />
+      <hstem pos="1415" width="-20" />
+      <vstem pos="95.25" width="60.25" />
+      <vstem pos="427.75" width="37.25" />
+      <vstem pos="695.5" width="70.75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

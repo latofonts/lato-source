@@ -1,34 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb.case" format="2">
-  <guideline x="-177.0" y="0.0" angle="82.9991"/>
-  <anchor x="-10.0" y="1457.0" name="_Top"/>
-  <anchor x="40.0" y="1955.0" name="top"/>
+  <anchor x="-10" y="1457" name="_Top"/>
+  <anchor x="40" y="1955" name="top"/>
   <outline>
     <contour>
-      <point x="29.4" y="1833.0" type="curve"/>
-      <point x="-163.8" y="1833.0"/>
+      <point x="29.4" y="1833" type="curve" smooth="yes" name="n00"/>
+      <point x="-163.8" y="1833"/>
       <point x="-242.8" y="1708.6"/>
-      <point x="-259.4" y="1560.6" type="curve"/>
+      <point x="-259.4" y="1560.6" type="curve" name="n03"/>
       <point x="-132.8" y="1560.6" type="line"/>
-      <point x="-123.2" y="1647.0"/>
+      <point x="-123.2" y="1647"/>
       <point x="-87.2" y="1707.4"/>
-      <point x="15.4" y="1707.4" type="curve"/>
+      <point x="15.4" y="1707.4" type="curve" smooth="yes" name="n07"/>
       <point x="117.4" y="1707.4"/>
-      <point x="140.0" y="1647.0"/>
+      <point x="140" y="1647"/>
       <point x="130.8" y="1560.6" type="curve"/>
       <point x="256.8" y="1560.6" type="line"/>
       <point x="274.4" y="1708.6"/>
-      <point x="222.6" y="1833.0"/>
+      <point x="222.6" y="1833"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-177" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1581.6" width="-21" />
+      <hstem pos="1707.4" width="125.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

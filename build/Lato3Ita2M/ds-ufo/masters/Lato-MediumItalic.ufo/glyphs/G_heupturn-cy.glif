@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gheupturn-cy" format="2">
-  <advance width="1008.6"/>
+  <advance width="1009"/>
   <unicode hex="0490"/>
-  <guideline x="509.6" y="0.0" angle="82.9991"/>
   <anchor x="499.8" y="1513.4" name="Top"/>
+  <anchor x="190" y="-70" name="bottom"/>
   <anchor x="499.8" y="1513.4" name="top"/>
-  <anchor x="190.0" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="1111.6" y="1758.4" type="line"/>
+      <point x="1111.6" y="1758.4" type="line" name="n00"/>
       <point x="952.8" y="1758.4" type="line"/>
-      <point x="913.4" y="1435.4" type="line"/>
+      <point x="913.4" y="1435.4" type="line" name="n02"/>
       <point x="268.2" y="1435.4" type="line"/>
-      <point x="92.0" y="0.0" type="line"/>
-      <point x="297.8" y="0.0" type="line"/>
+      <point x="92" y="0" type="line" name="n04"/>
+      <point x="297.8" y="0" type="line"/>
       <point x="454.2" y="1274.8" type="line"/>
-      <point x="1052.4" y="1274.8" type="line"/>
+      <point x="1052.4" y="1274.8" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="521" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1274.8" width="160.6" />
+      <hstem pos="1758.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

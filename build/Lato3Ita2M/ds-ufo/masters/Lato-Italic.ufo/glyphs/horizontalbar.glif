@@ -1,22 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horizontalbar" format="2">
-  <advance width="1471.38"/>
+  <advance width="1471"/>
   <unicode hex="2015"/>
-  <guideline x="757.82" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="111.9" y="526.68" type="line"/>
+      <point x="111.9" y="526.68" type="line" name="n00"/>
       <point x="1337.3" y="526.68" type="line"/>
       <point x="1353.18" y="651.44" type="line"/>
-      <point x="126.86" y="651.44" type="line"/>
+      <point x="126.86" y="651.44" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="713" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>emdash=horizontalbar</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>emdash=horizontalbar</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="526.68" width="124.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

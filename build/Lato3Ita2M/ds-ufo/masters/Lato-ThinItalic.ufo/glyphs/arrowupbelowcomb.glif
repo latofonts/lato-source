@@ -1,15 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowupbelowcomb" format="2">
   <unicode hex="034E"/>
-  <guideline x="33.0" y="0.0" angle="82.9991"/>
-  <anchor x="65.0" y="0.0" name="_bottom"/>
-  <anchor x="-36.0" y="-579.0" name="bottom"/>
+  <anchor x="65" y="0" name="_bottom"/>
+  <anchor x="-36" y="-579" name="bottom"/>
   <outline>
     <contour>
-      <point x="-12.700000000000001" y="-231.3" type="line"/>
-      <point x="-45.4" y="-521.5" type="line"/>
-      <point x="-8.0" y="-521.5" type="line"/>
-      <point x="24.700000000000003" y="-231.3" type="line"/>
+      <point x="-12.7" y="-231.3" type="line"/>
+      <point x="-45.4" y="-521.5" type="line" name="n01"/>
+      <point x="-8" y="-521.5" type="line"/>
+      <point x="24.7" y="-231.3" type="line"/>
     </contour>
     <contour>
       <point x="-89.4" y="-289.3" type="line"/>
@@ -20,14 +19,21 @@
       <point x="3.9" y="-129.1" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="31" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowupbelow=arrowupbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowupbelow=arrowupbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-500.5" width="-21" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

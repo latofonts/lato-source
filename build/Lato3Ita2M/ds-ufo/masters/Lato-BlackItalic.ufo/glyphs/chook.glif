@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chook" format="2">
   <advance width="911"/>
   <unicode hex="0188"/>
-  <guideline y="1407"/>
-  <guideline x="455" y="0" angle="82.9991"/>
   <anchor x="564" y="1120" name="top"/>
   <anchor x="349" y="-70" name="bottom"/>
   <outline>
@@ -26,7 +24,9 @@
       <point x="691" y="1290"/>
       <point x="669" y="1117" type="curve"/>
       <point x="647" y="865" type="line"/>
-      <point x="900" y="906" type="line"/>
+      <point x="647" y="865"/>
+      <point x="900" y="906"/>
+      <point x="900" y="906" type="curve"/>
     </contour>
     <contour>
       <point x="844" y="182" type="curve"/>
@@ -63,13 +63,22 @@
       <point x="712" y="36"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1407"/>
+  <guideline angle="82.9991" x="455" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I made it like in Lato Upright
-c ooutline is same!</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I made it like in Lato Uprightc ooutline is same!</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="242" />
+      <hstem pos="806" width="248" />
+      <hstem pos="1238" width="232" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

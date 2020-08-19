@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eta" format="2">
   <advance width="1448"/>
   <unicode hex="0397"/>
-  <guideline x="696" y="0" angle="82.9991"/>
   <anchor x="830" y="1525" name="Top"/>
   <anchor x="-44" y="1120" name="onRight"/>
   <anchor x="637" y="-70" name="bottom"/>
@@ -27,12 +26,21 @@
       <point x="1239" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="696" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>H=Eta</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>H=Eta</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="616" width="232" />
+      <hstem pos="1460" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

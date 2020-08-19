@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xabovecomb.case" format="2">
-  <anchor x="0.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2189.0" name="top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2189" name="top"/>
   <outline>
     <contour>
-      <point x="148.6" y="1525.0" type="line"/>
-      <point x="228.6" y="1605.0" type="line"/>
-      <point x="-148.6" y="1982.2" type="line"/>
+      <point x="148.6" y="1525" type="line" name="n00"/>
+      <point x="228.6" y="1605" type="line"/>
+      <point x="-148.6" y="1982.2" type="line" name="n02"/>
       <point x="-228.6" y="1902.2" type="line"/>
     </contour>
     <contour>
-      <point x="-228.6" y="1605.0" type="line"/>
-      <point x="-148.6" y="1525.0" type="line"/>
+      <point x="-228.6" y="1605" type="line"/>
+      <point x="-148.6" y="1525" type="line"/>
       <point x="228.6" y="1902.2" type="line"/>
       <point x="148.6" y="1982.2" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_multiply=xabovecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_multiply=xabovecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1546" width="-21" />
+      <hstem pos="1982.2" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

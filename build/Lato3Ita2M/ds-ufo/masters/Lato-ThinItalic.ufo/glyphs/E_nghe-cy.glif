@@ -1,38 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Enghe-cy" format="2">
-  <advance width="1912.8"/>
+  <advance width="1913"/>
   <unicode hex="04A4"/>
-  <guideline x="979.4" y="0.0" angle="82.9991"/>
   <anchor x="784.5" y="1498.9" name="Top"/>
-  <anchor x="-45.1" y="1238.0" name="tonos"/>
+  <anchor x="620.3" y="-70" name="bottom"/>
+  <anchor x="-45.1" y="1238" name="tonos"/>
   <anchor x="784.5" y="1498.9" name="top"/>
-  <anchor x="620.3" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="364.0" y="1405.9" type="line"/>
+      <point x="364" y="1405.9" type="line"/>
       <point x="309.7" y="1405.9" type="line"/>
-      <point x="137.0" y="0.0" type="line"/>
-      <point x="191.3" y="0.0" type="line"/>
+      <point x="137" y="0" type="line" name="n02"/>
+      <point x="191.3" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="271.6" y="734.8" type="line"/>
-      <point x="266.9" y="691.7" type="line"/>
+      <point x="271.6" y="734.8" type="line" name="n04"/>
+      <point x="266.9" y="691.7" type="line" name="n05"/>
       <point x="1164.7" y="691.7" type="line"/>
       <point x="1170.3" y="734.8" type="line"/>
     </contour>
     <contour>
-      <point x="1975.9" y="1405.9" type="line"/>
+      <point x="1975.9" y="1405.9" type="line" name="n08"/>
       <point x="1229.4" y="1405.9" type="line"/>
-      <point x="1056.7" y="0.0" type="line"/>
-      <point x="1111.0" y="0.0" type="line"/>
+      <point x="1056.7" y="0" type="line"/>
+      <point x="1111" y="0" type="line"/>
       <point x="1277.9" y="1360.8" type="line"/>
-      <point x="1970.1" y="1360.8" type="line"/>
+      <point x="1970.1" y="1360.8" type="line" name="n13"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="985" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="691.7" width="43.1" />
+      <hstem pos="1360.8" width="45.1" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

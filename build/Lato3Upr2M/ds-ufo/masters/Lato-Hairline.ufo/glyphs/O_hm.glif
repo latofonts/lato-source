@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohm" format="2">
   <advance width="1590"/>
   <unicode hex="2126"/>
@@ -67,11 +67,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Omega=ohm</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Omega=ohm</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="24" />
+      <hstem pos="1394" width="20" />
+      <vstem pos="147" width="24" />
+      <vstem pos="1419" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

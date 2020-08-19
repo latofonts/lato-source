@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eretroflexhook" format="2">
   <advance width="1002"/>
   <unicode hex="1D92"/>
-  <guideline x="506" y="0" angle="82.9991"/>
   <anchor x="605" y="1120" name="top"/>
   <anchor x="454" y="-70" name="bottom"/>
   <anchor x="902" y="222" name="hook"/>
   <outline>
+    <component base="e" xOffset="1"/>
     <contour>
       <point x="633" y="7" type="line" smooth="yes"/>
       <point x="611" y="-166"/>
@@ -26,14 +26,23 @@
       <point x="880" y="-95"/>
       <point x="890" y="-17" type="curve"/>
       <point x="917" y="193" type="line"/>
-      <point x="657" y="193" type="line"/>
+      <point x="917" y="193"/>
+      <point x="657" y="193"/>
+      <point x="657" y="193" type="curve"/>
     </contour>
-    <component base="e" xOffset="1"/>
   </outline>
+  <guideline angle="82.9991" x="506" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-346" width="213" />
+      <hstem pos="193" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

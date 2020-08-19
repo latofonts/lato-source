@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" maximum="900" name="weight" default="100" minimum="100">
+  <axis name="weight" maximum="900" default="100" tag="wght" minimum="100">
    <labelname xml:lang="en">Weight</labelname>
-   <map output="0" input="100"/>
-   <map output="100" input="200"/>
-   <map output="250" input="300"/>
-   <map output="540" input="400"/>
-   <map output="600" input="500"/>
-   <map output="666" input="600"/>
-   <map output="780" input="700"/>
-   <map output="880" input="800"/>
-   <map output="1000" input="900"/>
+   <map input="100" output="0"/>
+   <map input="200" output="100"/>
+   <map input="300" output="250"/>
+   <map input="400" output="540"/>
+   <map input="500" output="600"/>
+   <map input="600" output="666"/>
+   <map input="700" output="780"/>
+   <map input="800" output="880"/>
+   <map input="900" output="1000"/>
   </axis>
  </axes>
  <sources>
-  <source name="Black" familyname="Lato" filename="masters/Lato-Black.ufo" stylename="Black">
+  <source name="Black" stylename="Black" familyname="Lato" filename="masters/Lato-Black.ufo">
    <location>
     <dimension name="weight" xvalue="1000"/>
    </location>
   </source>
-  <source name="Hairline" familyname="Lato" filename="masters/Lato-Hairline.ufo" stylename="Hairline">
+  <source name="Hairline" stylename="Hairline" familyname="Lato" filename="masters/Lato-Hairline.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -31,47 +31,47 @@
   </source>
  </sources>
  <instances>
-  <instance name="Hairline" familyname="Lato" filename="instances/Lato-Hairline.ufo" stylename="Hairline">
+  <instance name="Hairline" stylename="Hairline" familyname="Lato" filename="instances/Lato-Hairline.ufo">
    <location>
     <dimension name="weight" xvalue="0"/>
    </location>
   </instance>
-  <instance name="Thin" familyname="Lato" filename="instances/Lato-Thin.ufo" stylename="Thin">
+  <instance name="Thin" stylename="Thin" familyname="Lato" filename="instances/Lato-Thin.ufo">
    <location>
     <dimension name="weight" xvalue="100"/>
    </location>
   </instance>
-  <instance name="Light" familyname="Lato" filename="instances/Lato-Light.ufo" stylename="Light">
+  <instance name="Light" stylename="Light" familyname="Lato" filename="instances/Lato-Light.ufo">
    <location>
     <dimension name="weight" xvalue="250"/>
    </location>
   </instance>
-  <instance name="Regular" familyname="Lato" filename="instances/Lato-Regular.ufo" stylename="Regular">
+  <instance name="Regular" stylename="Regular" familyname="Lato" filename="instances/Lato-Regular.ufo">
    <location>
     <dimension name="weight" xvalue="540"/>
    </location>
   </instance>
-  <instance name="Medium" familyname="Lato" filename="instances/Lato-Medium.ufo" stylename="Medium">
+  <instance name="Medium" stylename="Medium" familyname="Lato" filename="instances/Lato-Medium.ufo">
    <location>
     <dimension name="weight" xvalue="600"/>
    </location>
   </instance>
-  <instance name="Semibold" familyname="Lato" filename="instances/Lato-Semibold.ufo" stylename="Semibold">
+  <instance name="Semibold" stylename="Semibold" familyname="Lato" filename="instances/Lato-Semibold.ufo">
    <location>
     <dimension name="weight" xvalue="666"/>
    </location>
   </instance>
-  <instance name="Bold" familyname="Lato" filename="instances/Lato-Bold.ufo" stylename="Bold">
+  <instance name="Bold" stylename="Bold" familyname="Lato" filename="instances/Lato-Bold.ufo">
    <location>
     <dimension name="weight" xvalue="780"/>
    </location>
   </instance>
-  <instance name="Heavy" familyname="Lato" filename="instances/Lato-Heavy.ufo" stylename="Heavy">
+  <instance name="Heavy" stylename="Heavy" familyname="Lato" filename="instances/Lato-Heavy.ufo">
    <location>
     <dimension name="weight" xvalue="880"/>
    </location>
   </instance>
-  <instance name="Black" familyname="Lato" filename="instances/Lato-Black.ufo" stylename="Black">
+  <instance name="Black" stylename="Black" familyname="Lato" filename="instances/Lato-Black.ufo">
    <location>
     <dimension name="weight" xvalue="1000"/>
    </location>

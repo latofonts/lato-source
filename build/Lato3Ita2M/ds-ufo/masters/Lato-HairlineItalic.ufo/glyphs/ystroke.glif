@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ystroke" format="2">
   <advance width="1020"/>
   <unicode hex="024F"/>
-  <guideline x="428" y="0" angle="82.9991"/>
   <anchor x="608" y="1121" name="top"/>
   <anchor x="368" y="-420" name="bottom"/>
   <outline>
+    <component base="y" xOffset="66" yOffset="1"/>
     <contour>
       <point x="75" y="574" type="line"/>
       <point x="292" y="574" type="line"/>
@@ -20,12 +20,18 @@
       <point x="285" y="594" type="line"/>
       <point x="78" y="594" type="line"/>
     </contour>
-    <component base="y" xOffset="66" yOffset="1"/>
   </outline>
+  <guideline angle="82.9991" x="428" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="574" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

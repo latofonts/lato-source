@@ -1,35 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_palatalhook_long" format="2">
   <anchor x="203.28" y="154.532" name="_hook"/>
   <outline>
     <contour>
-      <point x="461.372" y="-47.068" type="line"/>
-      <point x="461.372" y="-144.77999999999997"/>
+      <point x="461.372" y="-47.068" type="line" smooth="yes" name="n00"/>
+      <point x="461.372" y="-144.78"/>
       <point x="435.356" y="-201.822"/>
       <point x="354.976" y="-201.822" type="curve" smooth="yes"/>
       <point x="313.958" y="-201.822"/>
       <point x="283.944" y="-188.146"/>
-      <point x="265.62" y="-188.146" type="curve" smooth="yes"/>
-      <point x="248.63400000000001" y="-188.146"/>
-      <point x="226.984" y="-195.47199999999998"/>
-      <point x="217.65800000000002" y="-230.112" type="curve"/>
+      <point x="265.62" y="-188.146" type="curve" smooth="yes" name="n06"/>
+      <point x="248.634" y="-188.146"/>
+      <point x="226.984" y="-195.472"/>
+      <point x="217.658" y="-230.112" type="curve"/>
       <point x="201.006" y="-317.032" type="line"/>
       <point x="262.654" y="-343.356"/>
       <point x="311.978" y="-355.02"/>
-      <point x="367.63" y="-355.02" type="curve" smooth="yes"/>
+      <point x="367.63" y="-355.02" type="curve" smooth="yes" name="n13"/>
       <point x="572.566" y="-355.02"/>
-      <point x="647.8720000000001" y="-198.406"/>
-      <point x="647.8720000000001" y="-30.417999999999992" type="curve"/>
-      <point x="647.8720000000001" y="161.192" type="line"/>
-      <point x="203.28" y="161.192" type="line"/>
-      <point x="115.358" y="0.0" type="line"/>
-      <point x="461.372" y="0.0" type="line"/>
+      <point x="647.872" y="-198.406"/>
+      <point x="647.872" y="-30.418" type="curve" smooth="yes" name="n16"/>
+      <point x="647.872" y="161.192" type="line" name="n17"/>
+      <point x="647.872" y="161.192"/>
+      <point x="203.28" y="161.192"/>
+      <point x="203.28" y="161.192" type="curve"/>
+      <point x="115.358" y="0" type="line" name="n21"/>
+      <point x="461.372" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-355.02" width="166.874" />
+      <hstem pos="-188.146" width="188.146" />
+      <hstem pos="161.192" width="-20" />
+      <vstem pos="461.372" width="186.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

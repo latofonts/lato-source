@@ -1,32 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_zigzag" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="398.8" y="1120.0" name="_top"/>
+  <advance width="736"/>
+  <anchor x="398.8" y="1120" name="_top"/>
   <outline>
     <contour>
       <point x="615.6" y="1430.6" type="line"/>
-      <point x="484.4" y="1145.2" type="line"/>
-      <point x="472.0" y="1119.8"/>
-      <point x="478.4" y="1102.4"/>
+      <point x="484.4" y="1145.2" type="line" smooth="yes"/>
+      <point x="472" y="1119.8"/>
+      <point x="478.4" y="1102.4" name="n03"/>
       <point x="504.2" y="1102.4" type="curve" smooth="yes"/>
       <point x="594.2" y="1102.4" type="line"/>
-      <point x="742.6" y="1442.8" type="line"/>
+      <point x="742.6" y="1442.8" type="line" name="n06"/>
       <point x="447.8" y="1442.8" type="line"/>
       <point x="462.8" y="1333.6" type="line"/>
-      <point x="594.4" y="1619.6" type="line"/>
+      <point x="594.4" y="1619.6" type="line" smooth="yes"/>
       <point x="605.2" y="1643.8"/>
-      <point x="600.4" y="1662.4"/>
+      <point x="600.4" y="1662.4" name="n11"/>
       <point x="573.4" y="1662.4" type="curve" smooth="yes"/>
       <point x="483.4" y="1662.4" type="line"/>
-      <point x="335.6" y="1322.0" type="line"/>
-      <point x="626.0" y="1322.0" type="line"/>
+      <point x="335.6" y="1322" type="line"/>
+      <point x="626" y="1322" type="line" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1123.4" width="-21" />
+      <hstem pos="1322" width="120.8" />
+      <hstem pos="1662.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

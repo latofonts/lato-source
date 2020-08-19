@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeru-cy" format="2">
-  <advance width="1319.856"/>
+  <advance width="1320"/>
   <unicode hex="044B"/>
-  <guideline y="1406.666"/>
-  <guideline x="663.606" y="0.0" angle="82.9991"/>
-  <anchor x="487.306" y="1120.0" name="top"/>
-  <anchor x="367.978" y="-70.0" name="bottom"/>
+  <anchor x="367.978" y="-70" name="bottom"/>
+  <anchor x="487.306" y="1120" name="top"/>
   <outline>
-    <contour>
-      <point x="1031.996" y="1019.96" type="line"/>
-      <point x="909.666" y="0.0" type="line"/>
-      <point x="1123.474" y="0.0" type="line"/>
-      <point x="1245.804" y="1019.96" type="line"/>
-    </contour>
     <component base="softsign-cy"/>
+    <contour>
+      <point x="1032" y="1019.96" type="line" name="n00"/>
+      <point x="909.666" y="0" type="line" name="n01"/>
+      <point x="1123.47" y="0" type="line"/>
+      <point x="1245.8" y="1019.96" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="603" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1019.96" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

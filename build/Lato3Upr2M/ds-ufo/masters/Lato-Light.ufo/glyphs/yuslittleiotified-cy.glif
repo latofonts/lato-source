@@ -1,65 +1,75 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yuslittleiotified-cy" format="2">
-  <advance width="1493.5"/>
+  <advance width="1494"/>
   <unicode hex="0469"/>
   <anchor x="768.5" y="1503.25" name="Top"/>
-  <anchor x="-107.5" y="1238.0" name="tonos"/>
-  <anchor x="606.75" y="1120.0" name="top"/>
-  <anchor x="795.25" y="-70.0" name="bottom"/>
+  <anchor x="795.25" y="-70" name="bottom"/>
+  <anchor x="-107.5" y="1238" name="tonos"/>
+  <anchor x="606.75" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="257.0" y="995.75" type="line"/>
+      <point x="257" y="995.75" type="line" name="n00"/>
       <point x="164.25" y="995.75" type="line"/>
-      <point x="164.25" y="0.0" type="line"/>
-      <point x="257.0" y="0.0" type="line"/>
+      <point x="164.25" y="0" type="line" name="n02"/>
+      <point x="257" y="0" type="line"/>
     </contour>
     <contour>
       <point x="233.75" y="449.75" type="line"/>
-      <point x="740.0" y="449.75" type="line"/>
-      <point x="740.0" y="516.75" type="line"/>
-      <point x="233.75" y="516.75" type="line"/>
+      <point x="740" y="449.75" type="line"/>
+      <point x="740" y="516.75" type="line"/>
+      <point x="233.75" y="516.75" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="471.0" y="0.0" type="line"/>
-      <point x="544.25" y="0.0" type="line" smooth="yes"/>
-      <point x="561.0" y="0.0"/>
+      <point x="471" y="0" type="line"/>
+      <point x="544.25" y="0" type="line" smooth="yes"/>
+      <point x="561" y="0"/>
       <point x="574.25" y="10.5"/>
       <point x="578.25" y="22.5" type="curve"/>
-      <point x="941.75" y="836.25" type="line" smooth="yes"/>
-      <point x="958.0" y="874.75"/>
+      <point x="941.75" y="836.25" type="line"/>
+      <point x="958" y="874.75"/>
       <point x="975.25" y="934.25"/>
       <point x="982.25" y="995.75" type="curve"/>
       <point x="923.25" y="995.75" type="line"/>
     </contour>
     <contour>
-      <point x="731.25" y="449.75" type="line"/>
+      <point x="731.25" y="449.75" type="line" name="n18"/>
       <point x="1188.25" y="449.75" type="line"/>
       <point x="1188.25" y="516.75" type="line"/>
       <point x="731.25" y="516.75" type="line"/>
     </contour>
     <contour>
-      <point x="1011.0" y="995.75" type="line"/>
-      <point x="950.0" y="995.75" type="line"/>
+      <point x="1011" y="995.75" type="line"/>
+      <point x="950" y="995.75" type="line"/>
       <point x="957.75" y="934.25"/>
-      <point x="976.0" y="875.25"/>
-      <point x="992.25" y="836.75" type="curve" smooth="yes"/>
-      <point x="1356.0" y="22.5" type="line"/>
+      <point x="976" y="875.25"/>
+      <point x="992.25" y="836.75" type="curve"/>
+      <point x="1356" y="22.5" type="line"/>
       <point x="1361.25" y="9.25"/>
-      <point x="1371.5" y="0.0"/>
-      <point x="1388.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="1461.5" y="0.0" type="line"/>
+      <point x="1371.5" y="0"/>
+      <point x="1388" y="0" type="curve" smooth="yes"/>
+      <point x="1461.5" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="1009.75" y="487.25" type="line"/>
-      <point x="922.25" y="487.25" type="line"/>
-      <point x="922.25" y="0.0" type="line"/>
-      <point x="1009.75" y="0.0" type="line"/>
+      <point x="1009.75" y="487.25" type="line" name="n32"/>
+      <point x="922.25" y="487.25" type="line" name="n33"/>
+      <point x="922.25" y="0" type="line"/>
+      <point x="1009.75" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="449.75" width="37.5" />
+      <hstem pos="995.75" width="-20" />
+      <vstem pos="233.75" width="23.25" />
+      <vstem pos="922.25" width="87.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

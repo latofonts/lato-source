@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kastroke-cy" format="2">
-  <advance width="1469.42"/>
+  <advance width="1469"/>
   <unicode hex="049E"/>
-  <guideline x="641.64" y="0.0" angle="82.9991"/>
   <anchor x="926.04" y="1518.62" name="Top"/>
+  <anchor x="782.44" y="-70" name="bottom"/>
   <anchor x="926.04" y="1518.62" name="top"/>
-  <anchor x="782.44" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Ka-cy" xOffset="169.96"/>
     <contour>
-      <point x="83.84" y="1250.14" type="line"/>
-      <point x="60.0" y="1055.76" type="line"/>
+      <point x="83.84" y="1250.14" type="line" name="n00"/>
+      <point x="60" y="1055.76" type="line" name="n01"/>
       <point x="769.6" y="1055.76" type="line"/>
       <point x="793.44" y="1250.14" type="line"/>
     </contour>
-    <component base="Ka-cy" xOffset="169.96"/>
   </outline>
+  <guideline angle="82.9991" x="573" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1055.76" width="194.38" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

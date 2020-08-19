@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lsmallmod" format="2">
-  <advance width="363.1"/>
+  <advance width="363"/>
   <unicode hex="1DAB"/>
-  <guideline x="220.9" y="0.0" angle="82.9991"/>
-  <anchor x="169.9" y="-70.0" name="bottom"/>
+  <anchor x="169.9" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="233.9" y="1405.9" type="line"/>
+      <point x="233.9" y="1405.9" type="line" name="n00"/>
       <point x="195.3" y="1405.9" type="line"/>
       <point x="134.7" y="909.3" type="line"/>
-      <point x="173.3" y="909.3" type="line"/>
+      <point x="173.3" y="909.3" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="172.9" y="942.0" type="line"/>
+      <point x="172.9" y="942" type="line" name="n04"/>
       <point x="169.1" y="909.3" type="line"/>
       <point x="387.1" y="909.3" type="line"/>
-      <point x="391.8" y="942.0" type="line"/>
+      <point x="391.8" y="942" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="220" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="909.3" width="32.7" />
+      <hstem pos="1405.9" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

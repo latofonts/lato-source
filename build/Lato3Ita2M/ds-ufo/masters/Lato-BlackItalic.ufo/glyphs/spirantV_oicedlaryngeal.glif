@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="spirantVoicedlaryngeal" format="2">
   <advance width="828"/>
   <unicode hex="1D24"/>
-  <guideline x="419" y="0" angle="82.9991"/>
   <anchor x="443" y="1120" name="top"/>
   <anchor x="353" y="-70" name="bottom"/>
   <outline>
@@ -63,10 +62,18 @@
       <point x="309" y="655" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="419" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="210" />
+      <hstem pos="835" width="220" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

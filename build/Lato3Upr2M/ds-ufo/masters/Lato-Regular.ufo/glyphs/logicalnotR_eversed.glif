@@ -1,25 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnotReversed" format="2">
-  <advance width="1160.0"/>
+  <advance width="1160"/>
   <unicode hex="2310"/>
   <outline>
     <contour>
-      <point x="154.94" y="603.84" type="line"/>
+      <point x="154.94" y="603.84" type="line" name="n00"/>
       <point x="1015.26" y="603.84" type="line"/>
       <point x="1015.26" y="738.32" type="line"/>
-      <point x="154.94" y="738.32" type="line"/>
+      <point x="154.94" y="738.32" type="line" name="n03"/>
     </contour>
     <contour>
       <point x="154.94" y="738.32" type="line"/>
-      <point x="154.94" y="352.5" type="line"/>
+      <point x="154.94" y="352.5" type="line" name="n05"/>
       <point x="272.14" y="352.5" type="line"/>
-      <point x="272.14" y="738.32" type="line"/>
+      <point x="272.14" y="738.32" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="373.5" width="-21" />
+      <hstem pos="603.84" width="134.48" />
+      <vstem pos="154.94" width="117.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

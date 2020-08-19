@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kadescender-cy" format="2">
-  <advance width="1061.4"/>
+  <advance width="1061"/>
   <unicode hex="049B"/>
-  <guideline x="541.4" y="0.0" angle="82.9991"/>
-  <anchor x="538.6" y="1120.0" name="top"/>
-  <anchor x="435.8" y="-70.0" name="bottom"/>
+  <anchor x="435.8" y="-70" name="bottom"/>
+  <anchor x="538.6" y="1120" name="top"/>
   <outline>
+    <component base="ka-cy"/>
     <contour>
-      <point x="763.0" y="142.39999999999998" type="line"/>
-      <point x="809.0" y="0.0" type="line"/>
-      <point x="806.0" y="0.6" type="line"/>
-      <point x="711.2" y="-348.0" type="line"/>
-      <point x="827.6" y="-348.0" type="line" smooth="yes"/>
-      <point x="859.6" y="-348.0"/>
+      <point x="763" y="142.4" type="line" name="n00"/>
+      <point x="809" y="0" type="line" name="n01"/>
+      <point x="806" y="0.6" type="line"/>
+      <point x="711.2" y="-348" type="line" name="n03"/>
+      <point x="827.6" y="-348" type="line" smooth="yes"/>
+      <point x="859.6" y="-348"/>
       <point x="880.8" y="-325.2"/>
       <point x="889.4" y="-290.2" type="curve" smooth="yes"/>
-      <point x="994.2" y="142.39999999999998" type="line"/>
+      <point x="994.2" y="142.4" type="line"/>
     </contour>
-    <component base="ka-cy"/>
   </outline>
+  <guideline angle="82.9991" x="497" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-327" width="-21" />
+      <hstem pos="0" width="142.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

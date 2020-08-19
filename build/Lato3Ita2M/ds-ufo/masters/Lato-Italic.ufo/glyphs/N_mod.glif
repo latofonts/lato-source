@@ -1,18 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nmod" format="2">
-  <advance width="760.1"/>
+  <advance width="760"/>
   <unicode hex="1D3A"/>
-  <guideline x="368.7" y="0.0" angle="82.9991"/>
-  <anchor x="363.34" y="-70.0" name="bottom"/>
+  <anchor x="363.34" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="631.14" y="1109.88" type="line"/>
       <point x="332.5" y="1622.36" type="line"/>
       <point x="320.78" y="1640.86"/>
-      <point x="313.92" y="1643.48"/>
+      <point x="313.92" y="1643.48" name="n03"/>
       <point x="290.56" y="1643.48" type="curve" smooth="yes"/>
       <point x="221.24" y="1643.48" type="line"/>
-      <point x="132.0" y="915.02" type="line"/>
+      <point x="132" y="915.02" type="line" name="n06"/>
       <point x="249.12" y="915.02" type="line"/>
       <point x="303.82" y="1363.84" type="line"/>
       <point x="309.06" y="1401.3"/>
@@ -26,16 +25,24 @@
       <point x="703.48" y="915.02" type="line"/>
       <point x="792.72" y="1643.48" type="line"/>
       <point x="675.98" y="1643.48" type="line"/>
-      <point x="621.82" y="1198.3600000000001" type="line"/>
+      <point x="621.82" y="1198.36" type="line"/>
       <point x="616.04" y="1157.04"/>
       <point x="614.96" y="1100.84"/>
       <point x="618.2" y="1059.52" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="366" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="936.02" width="-21" />
+      <hstem pos="1643.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

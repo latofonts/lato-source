@@ -1,34 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palatalcyrcomb.case" format="2">
-  <guideline x="-187.48" y="0.0" angle="82.9991"/>
-  <anchor x="-15.0" y="1525.0" name="_Top"/>
-  <anchor x="90.0" y="1951.0" name="top"/>
+  <anchor x="-15" y="1525" name="_Top"/>
+  <anchor x="90" y="1951" name="top"/>
   <outline>
     <contour>
-      <point x="122.8" y="1688.14" type="curve" smooth="yes"/>
+      <point x="122.8" y="1688.14" type="curve" smooth="yes" name="n00"/>
       <point x="179.94" y="1688.14"/>
       <point x="231.48" y="1658.36"/>
-      <point x="218.14" y="1542.86" type="curve"/>
+      <point x="218.14" y="1542.86" type="curve" name="n03"/>
       <point x="379.32" y="1542.86" type="line"/>
       <point x="400.68" y="1736.56"/>
       <point x="340.24" y="1840.52"/>
-      <point x="157.56" y="1840.52" type="curve" smooth="yes"/>
-      <point x="-43.480000000000004" y="1840.52"/>
+      <point x="157.56" y="1840.52" type="curve" smooth="yes" name="n07"/>
+      <point x="-43.48" y="1840.52"/>
       <point x="-131.36" y="1691.9"/>
-      <point x="-365.84" y="1691.9" type="curve"/>
-      <point x="-382.88" y="1542.64" type="line"/>
-      <point x="-106.53999999999999" y="1542.64"/>
-      <point x="-22.740000000000002" y="1688.14"/>
+      <point x="-365.84" y="1691.9" type="curve" name="n10"/>
+      <point x="-382.88" y="1542.64" type="line" name="n11"/>
+      <point x="-106.54" y="1542.64"/>
+      <point x="-22.74" y="1688.14"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-175" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_palatalcyr=palatalcyrcomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_palatalcyr=palatalcyrcomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1542.64" width="149.26" />
+      <hstem pos="1563.86" width="-21" />
+      <hstem pos="1688.14" width="152.38" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

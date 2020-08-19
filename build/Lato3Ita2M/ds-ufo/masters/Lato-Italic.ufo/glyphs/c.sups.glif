@@ -1,20 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c.sups" format="2">
-  <advance width="491.62"/>
-  <guideline y="1406.54"/>
-  <guideline x="243.2" y="0.0" angle="82.9991"/>
+  <advance width="492"/>
   <outline>
     <contour>
       <point x="543.22" y="1367.42" type="line"/>
-      <point x="506.04" y="1414.0"/>
+      <point x="506.04" y="1414"/>
       <point x="455.86" y="1439.86"/>
-      <point x="383.66" y="1439.86" type="curve" smooth="yes"/>
+      <point x="383.66" y="1439.86" type="curve" smooth="yes" name="n03"/>
       <point x="214.28" y="1439.86"/>
       <point x="115.18" y="1305.52"/>
       <point x="115.18" y="1131.68" type="curve" smooth="yes"/>
       <point x="115.18" y="991.8"/>
-      <point x="195.0" y="907.4"/>
-      <point x="301.24" y="907.4" type="curve" smooth="yes"/>
+      <point x="195" y="907.4"/>
+      <point x="301.24" y="907.4" type="curve" smooth="yes" name="n09"/>
       <point x="367.54" y="907.4"/>
       <point x="440.5" y="926.9"/>
       <point x="501.6" y="991.76" type="curve"/>
@@ -24,13 +22,13 @@
       <point x="451.1" y="1048.28" type="curve" smooth="yes"/>
       <point x="421.58" y="1048.28"/>
       <point x="406.34" y="1001.54"/>
-      <point x="334.94" y="1001.54" type="curve" smooth="yes"/>
+      <point x="334.94" y="1001.54" type="curve" smooth="yes" name="n19"/>
       <point x="274.72" y="1001.54"/>
       <point x="239.78" y="1051.56"/>
       <point x="239.78" y="1135.92" type="curve" smooth="yes"/>
       <point x="239.78" y="1270.9"/>
       <point x="293.7" y="1345.18"/>
-      <point x="380.04" y="1345.18" type="curve" smooth="yes"/>
+      <point x="380.04" y="1345.18" type="curve" smooth="yes" name="n25"/>
       <point x="441.6" y="1345.18"/>
       <point x="454.18" y="1307.74"/>
       <point x="478.38" y="1307.74" type="curve" smooth="yes"/>
@@ -39,10 +37,19 @@
       <point x="505.9" y="1322.62" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="227" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="907.4" width="94.14" />
+      <hstem pos="1345.18" width="94.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

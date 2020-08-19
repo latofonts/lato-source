@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macrondasiavariacomb" format="2">
-  <guideline x="220" y="0" angle="82.9991"/>
   <anchor x="4" y="1037" name="_top"/>
   <anchor x="62" y="1806" name="top"/>
   <outline>
@@ -31,7 +30,9 @@
     </contour>
     <contour>
       <point x="185" y="1336" type="line"/>
-      <point x="132" y="1554" type="line"/>
+      <point x="185" y="1336"/>
+      <point x="132" y="1554"/>
+      <point x="132" y="1554" type="curve"/>
       <point x="132" y="1554"/>
       <point x="122" y="1554"/>
       <point x="111" y="1554" type="curve" smooth="yes"/>
@@ -47,12 +48,21 @@
       <point x="-238" y="1213" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="220" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1193" width="20" />
+      <hstem pos="1193" width="361" />
+      <hstem pos="1569" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutetonecomb" format="2">
   <unicode hex="0341"/>
-  <guideline x="143.75" y="0.0" angle="82.9991"/>
-  <anchor x="-191.0" y="1037.0" name="_top"/>
-  <anchor x="90.0" y="1626.0" name="top"/>
+  <anchor x="-191" y="1037" name="_top"/>
+  <anchor x="90" y="1626" name="top"/>
   <outline>
     <contour>
-      <point x="72.0" y="1431.0" type="line" smooth="yes"/>
-      <point x="42.0" y="1431.0"/>
-      <point x="30.0" y="1422.5"/>
-      <point x="14.0" y="1399.0" type="curve" smooth="yes"/>
-      <point x="-159.75" y="1160.5" type="line"/>
+      <point x="72" y="1431" type="line" smooth="yes" name="n00"/>
+      <point x="42" y="1431"/>
+      <point x="30" y="1422.5"/>
+      <point x="14" y="1399" type="curve"/>
+      <point x="-159.75" y="1160.5" type="line" name="n04"/>
       <point x="-107.25" y="1160.5" type="line" smooth="yes"/>
       <point x="-92.25" y="1160.5"/>
-      <point x="-82.5" y="1165.0"/>
-      <point x="-71.0" y="1177.5" type="curve" smooth="yes"/>
-      <point x="158.75" y="1431.0" type="line"/>
+      <point x="-82.5" y="1165"/>
+      <point x="-71" y="1177.5" type="curve" smooth="yes"/>
+      <point x="158.75" y="1431" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="161" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1181.5" width="-21" />
+      <hstem pos="1431" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb" format="2">
   <unicode hex="0311"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1625.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="0.0" y="1447.4" type="curve"/>
-      <point x="-204.0" y="1447.4"/>
+      <point x="0" y="1447.4" type="curve" smooth="yes" name="n00"/>
+      <point x="-204" y="1447.4"/>
       <point x="-273.72" y="1325.04"/>
-      <point x="-273.72" y="1179.44" type="curve"/>
-      <point x="-147.88" y="1179.44" type="line"/>
-      <point x="-147.88" y="1268.0"/>
+      <point x="-273.72" y="1179.44" type="curve" name="n03"/>
+      <point x="-147.88" y="1179.44" type="line" name="n04"/>
+      <point x="-147.88" y="1268"/>
       <point x="-114.08" y="1332.36"/>
-      <point x="0.0" y="1332.36" type="curve"/>
+      <point x="0" y="1332.36" type="curve" smooth="yes" name="n07"/>
       <point x="114.08" y="1332.36"/>
-      <point x="147.88" y="1268.0"/>
-      <point x="147.88" y="1179.44" type="curve"/>
-      <point x="273.72" y="1179.44" type="line"/>
+      <point x="147.88" y="1268"/>
+      <point x="147.88" y="1179.44" type="curve" name="n10"/>
+      <point x="273.72" y="1179.44" type="line" name="n11"/>
       <point x="273.72" y="1325.04"/>
-      <point x="204.0" y="1447.4"/>
+      <point x="204" y="1447.4"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1200.44" width="-21" />
+      <hstem pos="1332.36" width="115.04" />
+      <vstem pos="-273.72" width="125.84" />
+      <vstem pos="147.88" width="125.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

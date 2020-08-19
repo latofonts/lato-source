@@ -1,20 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="2">
-  <advance width="889.52"/>
+  <advance width="890"/>
   <unicode hex="005F"/>
-  <guideline x="363.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="-7.16" y="-123.84" type="line"/>
-      <point x="-28.52" y="-297.2" type="line"/>
+      <point x="-7.16" y="-123.84" type="line" name="n00"/>
+      <point x="-28.52" y="-297.2" type="line" name="n01"/>
       <point x="697.24" y="-297.2" type="line"/>
       <point x="718.84" y="-123.84" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="363" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-297.2" width="173.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

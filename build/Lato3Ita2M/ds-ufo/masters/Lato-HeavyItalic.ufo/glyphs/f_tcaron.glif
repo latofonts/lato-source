@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_tcaron" format="2">
-  <advance width="1360.64"/>
-  <guideline x="709.64" y="0.0" angle="82.9991"/>
+  <advance width="1361"/>
   <outline>
+    <component base="f_t"/>
     <contour>
-      <point x="1282.8" y="1493.04" type="line"/>
-      <point x="1180.16" y="1140.88" type="line"/>
+      <point x="1282.8" y="1493.04" type="line" name="n00"/>
+      <point x="1180.16" y="1140.88" type="line" name="n01"/>
       <point x="1247.76" y="1140.88" type="line" smooth="yes"/>
       <point x="1292.96" y="1140.88"/>
-      <point x="1321.3600000000001" y="1146.88"/>
-      <point x="1344.72" y="1188.32" type="curve"/>
+      <point x="1321.36" y="1146.88"/>
+      <point x="1344.72" y="1188.32" type="curve" smooth="yes"/>
       <point x="1465.6" y="1407.92"/>
       <point x="1473.76" y="1436.72"/>
       <point x="1473.76" y="1461.2" type="curve" smooth="yes"/>
       <point x="1473.76" y="1474.96"/>
-      <point x="1468.0" y="1493.04"/>
-      <point x="1435.3600000000001" y="1493.04" type="curve" smooth="yes"/>
+      <point x="1468" y="1493.04"/>
+      <point x="1435.36" y="1493.04" type="curve" smooth="yes"/>
     </contour>
-    <component base="f_t"/>
   </outline>
+  <guideline angle="82.9991" x="575" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1161.88" width="-21" />
+      <hstem pos="1493.04" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

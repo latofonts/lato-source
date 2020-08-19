@@ -1,46 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ie-cy" format="2">
-  <advance width="1154.74"/>
+  <advance width="1155"/>
   <unicode hex="0415"/>
-  <anchor x="636.66" y="1511.66" name="Top"/>
-  <anchor x="657.88" y="-70.0" name="bottom"/>
-  <anchor x="-90.94" y="1120.0" name="onRight"/>
   <anchor x="611.26" y="715.12" name="Slash"/>
+  <anchor x="636.66" y="1511.66" name="Top"/>
+  <anchor x="657.88" y="-70" name="bottom"/>
+  <anchor x="-90.94" y="1120" name="onRight"/>
   <anchor x="636.66" y="1511.66" name="top"/>
   <outline>
     <contour>
-      <point x="377.5" y="1432.4" type="line"/>
+      <point x="377.5" y="1432.4" type="line" name="n00"/>
       <point x="182.86" y="1432.4" type="line"/>
-      <point x="182.86" y="0.0" type="line"/>
-      <point x="377.5" y="0.0" type="line"/>
+      <point x="182.86" y="0" type="line"/>
+      <point x="377.5" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="356.54" y="798.6800000000001" type="line"/>
-      <point x="356.54" y="647.08" type="line"/>
+      <point x="356.54" y="798.68" type="line" name="n04"/>
+      <point x="356.54" y="647.08" type="line" name="n05"/>
       <point x="934.86" y="647.08" type="line"/>
-      <point x="934.86" y="798.6800000000001" type="line"/>
+      <point x="934.86" y="798.68" type="line"/>
     </contour>
     <contour>
-      <point x="356.54" y="1432.4" type="line"/>
-      <point x="356.54" y="1275.4" type="line"/>
+      <point x="356.54" y="1432.4" type="line" name="n08"/>
+      <point x="356.54" y="1275.4" type="line" name="n09"/>
       <point x="1065.66" y="1275.4" type="line"/>
       <point x="1065.66" y="1432.4" type="line"/>
     </contour>
     <contour>
-      <point x="356.54" y="157.0" type="line"/>
-      <point x="356.54" y="0.0" type="line"/>
-      <point x="1065.66" y="0.0" type="line"/>
-      <point x="1066.58" y="157.0" type="line"/>
+      <point x="356.54" y="157" type="line" name="n12"/>
+      <point x="356.54" y="0" type="line" name="n13"/>
+      <point x="1065.66" y="0" type="line"/>
+      <point x="1066.58" y="157" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>E=Iecyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>E=Iecyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="157" />
+      <hstem pos="647.08" width="151.6" />
+      <hstem pos="1275.4" width="157" />
+      <vstem pos="356.54" width="20.96" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

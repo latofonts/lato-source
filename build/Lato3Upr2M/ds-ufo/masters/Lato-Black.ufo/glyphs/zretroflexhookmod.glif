@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zretroflexhookmod" format="2">
   <advance width="525"/>
   <unicode hex="1DBC"/>
@@ -28,7 +28,9 @@
     <contour>
       <point x="473" y="997" type="line"/>
       <point x="473" y="1010" type="line"/>
-      <point x="285" y="999" type="line"/>
+      <point x="473" y="1010"/>
+      <point x="285" y="999"/>
+      <point x="285" y="999" type="curve"/>
       <point x="285" y="921" type="line" smooth="yes"/>
       <point x="285" y="829"/>
       <point x="339" y="720"/>
@@ -49,9 +51,18 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="720" width="368" />
+      <hstem pos="922" width="166" />
+      <hstem pos="1296" width="166" />
+      <vstem pos="285" width="188" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

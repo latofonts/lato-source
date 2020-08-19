@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eopenreversed" format="2">
-  <advance width="881.7"/>
+  <advance width="882"/>
   <unicode hex="025C"/>
-  <guideline y="1406.78"/>
-  <guideline x="442.46" y="0.0" angle="82.9991"/>
-  <anchor x="503.66" y="1120.0" name="top"/>
+  <anchor x="336.8" y="-70" name="bottom"/>
   <anchor x="172.08" y="177.56" name="hook"/>
-  <anchor x="336.8" y="-70.0" name="bottom"/>
+  <anchor x="503.66" y="1120" name="top"/>
   <outline>
     <contour>
       <point x="94.38" y="896.54" type="curve"/>
-      <point x="145.4" y="810.64" type="line"/>
+      <point x="145.4" y="810.64" type="line" smooth="yes"/>
       <point x="162.66" y="782.68"/>
       <point x="175.92" y="779.56"/>
-      <point x="196.64" y="781.9" type="curve"/>
+      <point x="196.64" y="781.9" type="curve" smooth="yes"/>
       <point x="239.6" y="786.58"/>
       <point x="291.54" y="858.22"/>
-      <point x="440.04" y="858.22" type="curve" smooth="yes"/>
-      <point x="552.0" y="858.22"/>
+      <point x="440.04" y="858.22" type="curve" smooth="yes" name="n07"/>
+      <point x="552" y="858.22"/>
       <point x="595.08" y="813.8"/>
-      <point x="595.08" y="754.0" type="curve" smooth="yes"/>
+      <point x="595.08" y="754" type="curve" smooth="yes"/>
       <point x="595.08" y="690.34"/>
       <point x="532.02" y="616.22"/>
       <point x="377.34" y="617.32" type="curve"/>
       <point x="341.46" y="617.32"/>
-      <point x="307.02" y="623.0"/>
-      <point x="270.8" y="628.12" type="curve"/>
+      <point x="307.02" y="623"/>
+      <point x="270.8" y="628.12" type="curve" name="n16"/>
       <point x="246.74" y="567.08"/>
       <point x="245.18" y="509.94"/>
       <point x="245.18" y="448.12" type="curve"/>
@@ -36,41 +34,52 @@
       <point x="554.7" y="435.98"/>
       <point x="554.7" y="346.42" type="curve" smooth="yes"/>
       <point x="554.7" y="245.28"/>
-      <point x="479.0" y="167.9"/>
-      <point x="334.64" y="167.9" type="curve" smooth="yes"/>
+      <point x="479" y="167.9"/>
+      <point x="334.64" y="167.9" type="curve" smooth="yes" name="n28"/>
       <point x="177.14" y="167.9"/>
       <point x="141.7" y="250.96"/>
-      <point x="81.7" y="250.96" type="curve"/>
+      <point x="81.7" y="250.96" type="curve" smooth="yes"/>
       <point x="60.76" y="250.96"/>
-      <point x="41.94" y="234.92000000000002"/>
-      <point x="32.92" y="218.66000000000003" type="curve"/>
+      <point x="41.94" y="234.92"/>
+      <point x="32.92" y="218.66" type="curve"/>
       <point x="-29.58" y="116.94" type="line"/>
       <point x="76.26" y="21.36"/>
-      <point x="192.4" y="-15.120000000000001"/>
-      <point x="322.04" y="-15.120000000000001" type="curve" smooth="yes"/>
-      <point x="636.32" y="-15.120000000000001"/>
+      <point x="192.4" y="-15.12"/>
+      <point x="322.04" y="-15.12" type="curve" smooth="yes" name="n38"/>
+      <point x="636.32" y="-15.12"/>
       <point x="779.72" y="173.88"/>
       <point x="779.72" y="341.64" type="curve" smooth="yes"/>
       <point x="779.72" y="502.96"/>
       <point x="644.94" y="593.78"/>
-      <point x="418.34000000000003" y="559.4" type="curve"/>
-      <point x="421.88" y="535.68" type="line"/>
+      <point x="418.34" y="559.4" type="curve"/>
+      <point x="421.88" y="535.68" type="line" name="n45"/>
       <point x="717.48" y="535.68"/>
       <point x="816.54" y="675.76"/>
       <point x="816.54" y="800.24" type="curve" smooth="yes"/>
       <point x="816.54" y="924.76"/>
       <point x="715.22" y="1042.02"/>
-      <point x="488.18" y="1042.02" type="curve" smooth="yes"/>
+      <point x="488.18" y="1042.02" type="curve" smooth="yes" name="n51"/>
       <point x="329.12" y="1042.02"/>
       <point x="177.9" y="979.12"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="398" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>zecyr=eopenreversed</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>zecyr=eopenreversed</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-15.12" width="183.02" />
+      <hstem pos="-15.12" width="643.24" />
+      <hstem pos="535.68" width="506.34" />
+      <hstem pos="858.22" width="183.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

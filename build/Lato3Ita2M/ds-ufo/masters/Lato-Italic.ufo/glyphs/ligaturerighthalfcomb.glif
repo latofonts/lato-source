@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ligaturerighthalfcomb" format="2">
   <unicode hex="FE21"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="-502.12" y="1366.8" type="line"/>
+      <point x="-502.12" y="1366.8" type="line" name="n00"/>
       <point x="-109.1" y="1366.8"/>
       <point x="157.26" y="1307.48"/>
-      <point x="454.62" y="1198.7" type="curve"/>
+      <point x="454.62" y="1198.7" type="curve" name="n03"/>
       <point x="501.58" y="1317.3" type="line"/>
-      <point x="226.48000000000002" y="1430.78"/>
+      <point x="226.48" y="1430.78"/>
       <point x="-98.94" y="1500.2"/>
-      <point x="-502.12" y="1500.2" type="curve"/>
+      <point x="-502.12" y="1500.2" type="curve" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1219.7" width="-21" />
+      <hstem pos="1366.8" width="133.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

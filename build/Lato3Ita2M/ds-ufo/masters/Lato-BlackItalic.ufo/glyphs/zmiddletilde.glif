@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zmiddletilde" format="2">
   <advance width="1016"/>
   <unicode hex="1D76"/>
-  <guideline x="440" y="0" angle="82.9991"/>
   <anchor x="594" y="1120" name="top"/>
   <anchor x="423" y="-70" name="bottom"/>
   <anchor x="758" y="222" name="hook"/>
   <outline>
+    <component base="z" xOffset="81"/>
     <contour>
       <point x="985" y="635" type="curve"/>
       <point x="775" y="635" type="line"/>
@@ -29,12 +29,19 @@
       <point x="867" y="349"/>
       <point x="963" y="459"/>
     </contour>
-    <component base="z" xOffset="81"/>
   </outline>
+  <guideline angle="82.9991" x="440" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="349" width="217" />
+      <hstem pos="474" width="217" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

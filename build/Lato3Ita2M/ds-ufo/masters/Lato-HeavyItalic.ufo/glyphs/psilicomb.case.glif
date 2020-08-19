@@ -1,24 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="psilicomb.case" format="2">
-  <guideline x="194.48" y="0.0" angle="82.9991"/>
-  <anchor x="49.0" y="1662.0" name="top"/>
-  <anchor x="-30.0" y="1037.0" name="_Top"/>
+  <anchor x="-30" y="1037" name="_Top"/>
+  <anchor x="49" y="1662" name="top"/>
   <outline>
     <contour>
       <point x="57.2" y="1288.28" type="curve"/>
-      <point x="10.719999999999999" y="1298.84" type="line"/>
-      <point x="7.760000000000002" y="1229.8"/>
+      <point x="10.72" y="1298.84" type="line"/>
+      <point x="7.76" y="1229.8"/>
       <point x="-15.96" y="1208.92"/>
-      <point x="-75.56" y="1195.4" type="curve"/>
+      <point x="-75.56" y="1195.4" type="curve" smooth="yes"/>
       <point x="-114.24" y="1186.48"/>
       <point x="-129.16" y="1174.04"/>
-      <point x="-131.8" y="1151.56" type="curve"/>
-      <point x="-138.2" y="1098.08" type="line"/>
+      <point x="-131.8" y="1151.56" type="curve" smooth="yes"/>
+      <point x="-138.2" y="1098.08" type="line" name="n08"/>
       <point x="27.2" y="1096.32"/>
       <point x="119.4" y="1189.64"/>
       <point x="135.44" y="1322.76" type="curve" smooth="yes"/>
       <point x="147.84" y="1422.2"/>
-      <point x="106.47999999999999" y="1499.16"/>
+      <point x="106.48" y="1499.16" name="n13"/>
       <point x="11.6" y="1499.16" type="curve" smooth="yes"/>
       <point x="-66.8" y="1499.16"/>
       <point x="-117.96" y="1445.72"/>
@@ -30,12 +29,20 @@
       <point x="41.56" y="1277.56"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="198" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1119.08" width="-21" />
+      <hstem pos="1499.16" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

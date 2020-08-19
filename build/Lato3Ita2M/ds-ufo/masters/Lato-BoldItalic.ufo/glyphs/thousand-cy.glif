@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thousand-cy" format="2">
-  <advance width="1358.9"/>
+  <advance width="1359"/>
   <unicode hex="0482"/>
-  <guideline x="666.9" y="0.0" angle="82.9991"/>
   <anchor x="875.6" y="1518.62" name="Top"/>
-  <anchor x="7.920000000000002" y="1238.0" name="tonos"/>
+  <anchor x="7.92" y="1238" name="tonos"/>
   <outline>
     <contour>
       <point x="1293.76" y="1330.26" type="line"/>
-      <point x="1110.62" y="1462.38" type="line"/>
-      <point x="94.75999999999999" y="116.0" type="line"/>
-      <point x="277.68" y="-16.9" type="line"/>
+      <point x="1110.62" y="1462.38" type="line" name="n01"/>
+      <point x="94.76" y="116" type="line"/>
+      <point x="277.68" y="-16.9" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="180.51999999999998" y="878.38" type="line"/>
+      <point x="180.52" y="878.38" type="line"/>
       <point x="42.28" y="703.94" type="line"/>
       <point x="826.44" y="63.4" type="line"/>
       <point x="965.24" y="238.06" type="line"/>
@@ -25,10 +24,18 @@
       <point x="1344.4" y="745.96" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="624" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="4.1" width="-21" />
+      <hstem pos="1462.38" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

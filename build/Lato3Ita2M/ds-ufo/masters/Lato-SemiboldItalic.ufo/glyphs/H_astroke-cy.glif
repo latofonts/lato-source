@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hastroke-cy" format="2">
-  <advance width="1316.206"/>
+  <advance width="1316"/>
   <unicode hex="04FE"/>
-  <guideline x="649.59" y="0.0" angle="82.9991"/>
-  <anchor x="764.94" y="1515.314" name="Top"/>
-  <anchor x="764.94" y="1515.314" name="top"/>
-  <anchor x="580.94" y="-70.0" name="bottom"/>
+  <anchor x="764.94" y="1515.31" name="Top"/>
+  <anchor x="580.94" y="-70" name="bottom"/>
+  <anchor x="764.94" y="1515.31" name="top"/>
   <outline>
+    <component base="X" xScale="1" xOffset="39.33"/>
     <contour>
-      <point x="153.024" y="830.262" type="line"/>
-      <point x="132.376" y="661.742" type="line"/>
+      <point x="153.024" y="830.262" type="line" name="n00"/>
+      <point x="132.376" y="661.742" type="line" name="n01"/>
       <point x="1181.53" y="661.742" type="line"/>
-      <point x="1202.512" y="830.262" type="line"/>
+      <point x="1202.51" y="830.262" type="line"/>
     </contour>
-    <component base="X" xOffset="39.33"/>
   </outline>
+  <guideline angle="82.9991" x="573" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="661.742" width="168.52" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

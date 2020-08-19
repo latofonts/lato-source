@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_halfringleft" format="2">
   <advance width="800"/>
-  <guideline x="530"/>
   <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
@@ -12,7 +11,9 @@
       <point x="292" y="1442"/>
       <point x="355" y="1512"/>
       <point x="447" y="1512" type="curve"/>
-      <point x="447" y="1530" type="line"/>
+      <point x="447" y="1512"/>
+      <point x="447" y="1530"/>
+      <point x="447" y="1530" type="curve"/>
       <point x="345" y="1530"/>
       <point x="270" y="1452"/>
       <point x="270" y="1350" type="curve" smooth="yes"/>
@@ -21,10 +22,19 @@
       <point x="447" y="1172" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1172" width="18" />
+      <hstem pos="1512" width="18" />
+      <vstem pos="270" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

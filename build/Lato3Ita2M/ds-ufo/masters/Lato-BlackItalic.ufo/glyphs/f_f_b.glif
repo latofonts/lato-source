@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_b" format="2">
   <advance width="2403"/>
-  <guideline x="1181" y="0" angle="82.9991"/>
   <anchor x="1770" y="-70" name="bottom"/>
   <anchor x="2008" y="1120" name="top"/>
   <anchor x="1915" y="222" name="hook"/>
   <anchor x="1624" y="1238" name="bar"/>
   <anchor x="1730" y="1525" name="Top"/>
   <outline>
+    <component base="b" xOffset="1306"/>
     <contour>
       <point x="1313" y="823" type="line"/>
       <point x="1340" y="1037" type="line"/>
@@ -67,14 +67,25 @@
       <point x="510" y="942" type="line"/>
       <point x="502" y="974" type="line"/>
     </contour>
-    <component base="b" xOffset="1306"/>
   </outline>
+  <guideline angle="82.9991" x="1181" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-227" width="-21" />
+      <hstem pos="823" width="214" />
+      <hstem pos="1242" width="226" />
+      <hstem pos="1281" width="244" />
+      <hstem pos="1326" width="-20" />
+      <hstem pos="1500" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

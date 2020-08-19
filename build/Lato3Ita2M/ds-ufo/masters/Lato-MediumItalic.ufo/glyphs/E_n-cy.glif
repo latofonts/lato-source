@@ -1,40 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="En-cy" format="2">
-  <advance width="1424.0"/>
+  <advance width="1424"/>
   <unicode hex="041D"/>
-  <guideline x="696.0" y="0.0" angle="82.9991"/>
   <anchor x="823.2" y="1513.4" name="Top"/>
-  <anchor x="-19.6" y="1120.0" name="onRight"/>
-  <anchor x="631.4" y="-70.0" name="bottom"/>
+  <anchor x="631.4" y="-70" name="bottom"/>
+  <anchor x="-19.6" y="1120" name="onRight"/>
   <anchor x="823.2" y="1513.4" name="top"/>
   <outline>
     <contour>
-      <point x="475.79999999999995" y="1436.0" type="line"/>
-      <point x="269.4" y="1436.0" type="line"/>
-      <point x="92.6" y="0.0" type="line"/>
-      <point x="299.0" y="0.0" type="line"/>
+      <point x="475.8" y="1436" type="line" name="n00"/>
+      <point x="269.4" y="1436" type="line"/>
+      <point x="92.6" y="0" type="line" name="n02"/>
+      <point x="299" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="376.2" y="797.6" type="line"/>
-      <point x="357.8" y="649.6" type="line"/>
+      <point x="376.2" y="797.6" type="line" name="n04"/>
+      <point x="357.8" y="649.6" type="line" name="n05"/>
       <point x="1143.4" y="649.6" type="line"/>
-      <point x="1163.0" y="797.6" type="line"/>
+      <point x="1163" y="797.6" type="line"/>
     </contour>
     <contour>
-      <point x="1358.6" y="1436.0" type="line"/>
-      <point x="1152.2" y="1436.0" type="line"/>
-      <point x="975.4" y="0.0" type="line"/>
-      <point x="1181.8" y="0.0" type="line"/>
+      <point x="1358.6" y="1436" type="line"/>
+      <point x="1152.2" y="1436" type="line"/>
+      <point x="975.4" y="0" type="line"/>
+      <point x="1181.8" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="696" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>H=Encyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>H=Encyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="649.6" width="148" />
+      <hstem pos="1436" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="strokeshortcomb.case" format="2">
-  <guideline x="193.5" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="-149.5" y="-270.5" type="line"/>
-      <point x="-81.0" y="-270.5" type="line"/>
-      <point x="148.75" y="1601.5" type="line"/>
+      <point x="-149.5" y="-270.5" type="line" name="n00"/>
+      <point x="-81" y="-270.5" type="line"/>
+      <point x="148.75" y="1601.5" type="line" name="n02"/>
       <point x="80.5" y="1601.5" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="195" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-249.5" width="-21" />
+      <hstem pos="1601.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

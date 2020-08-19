@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhook" format="2">
   <advance width="1155"/>
   <unicode hex="0224"/>
-  <guideline x="561" y="0" angle="82.9991"/>
   <anchor x="669" y="1525" name="Top"/>
   <anchor x="669" y="1525" name="top"/>
   <anchor x="447" y="-421" name="bottom"/>
@@ -53,13 +52,24 @@
       <point x="1002" y="-176"/>
       <point x="1029" y="44" type="curve" smooth="yes"/>
       <point x="1039" y="125" type="line"/>
-      <point x="752" y="125" type="line"/>
+      <point x="1039" y="125"/>
+      <point x="752" y="125"/>
+      <point x="752" y="125" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="561" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="232" />
+      <hstem pos="0" width="262" />
+      <hstem pos="1197" width="262" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

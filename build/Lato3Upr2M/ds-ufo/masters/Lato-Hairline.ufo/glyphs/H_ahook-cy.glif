@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hahook-cy" format="2">
   <advance width="1303"/>
   <unicode hex="04FC"/>
@@ -6,6 +6,7 @@
   <anchor x="599" y="1496" name="top"/>
   <anchor x="600" y="-70" name="bottom"/>
   <outline>
+    <component base="X"/>
     <contour>
       <point x="1267" y="-115" type="line"/>
       <point x="1267" y="-258"/>
@@ -25,16 +26,26 @@
       <point x="1287" y="-271"/>
       <point x="1287" y="-115" type="curve"/>
       <point x="1287" y="20" type="line"/>
-      <point x="1108" y="20" type="line"/>
+      <point x="1287" y="20"/>
+      <point x="1108" y="20"/>
+      <point x="1108" y="20" type="curve"/>
       <point x="1126" y="0" type="line"/>
       <point x="1267" y="0" type="line"/>
     </contour>
-    <component base="X"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-375" width="41" />
+      <hstem pos="-334" width="334" />
+      <hstem pos="20" width="-20" />
+      <vstem pos="1267" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

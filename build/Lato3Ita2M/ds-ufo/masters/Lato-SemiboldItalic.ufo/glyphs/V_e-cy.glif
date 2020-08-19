@@ -1,60 +1,68 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ve-cy" format="2">
-  <advance width="1216.934"/>
+  <advance width="1217"/>
   <unicode hex="0412"/>
-  <guideline x="597.654" y="0.0" angle="82.9991"/>
-  <anchor x="518.298" y="-70.0" name="bottom"/>
-  <anchor x="664.654" y="1515.314" name="Top"/>
   <anchor x="250.952" y="409.612" name="Bar"/>
-  <anchor x="664.654" y="1515.314" name="top"/>
+  <anchor x="664.654" y="1515.31" name="Top"/>
+  <anchor x="518.298" y="-70" name="bottom"/>
+  <anchor x="664.654" y="1515.31" name="top"/>
   <outline>
     <contour>
-      <point x="577.954" y="0.0" type="line" smooth="yes"/>
-      <point x="909.246" y="0.0"/>
-      <point x="1109.222" y="193.95600000000002"/>
-      <point x="1109.222" y="459.284" type="curve" smooth="yes"/>
-      <point x="1109.222" y="654.612"/>
+      <point x="577.954" y="0" type="line" smooth="yes" name="n00"/>
+      <point x="909.246" y="0"/>
+      <point x="1109.22" y="193.956"/>
+      <point x="1109.22" y="459.284" type="curve" smooth="yes"/>
+      <point x="1109.22" y="654.612"/>
       <point x="958.566" y="761.288"/>
       <point x="657.302" y="761.288" type="curve"/>
       <point x="600.71" y="704.008" type="line"/>
       <point x="979.202" y="704.008"/>
-      <point x="1149.206" y="887.34"/>
-      <point x="1149.206" y="1114.656" type="curve" smooth="yes"/>
-      <point x="1149.206" y="1313.312"/>
+      <point x="1149.21" y="887.34"/>
+      <point x="1149.21" y="1114.66" type="curve" smooth="yes"/>
+      <point x="1149.21" y="1313.31"/>
       <point x="1018.55" y="1439.96"/>
-      <point x="709.278" y="1439.96" type="curve" smooth="yes"/>
+      <point x="709.278" y="1439.96" type="curve" smooth="yes" name="n13"/>
       <point x="264.054" y="1439.96" type="line"/>
-      <point x="86.726" y="0.0" type="line"/>
-      <point x="311.858" y="0.0" type="line"/>
-      <point x="467.206" y="1264.116" type="line"/>
-      <point x="688.63" y="1264.116" type="line" smooth="yes"/>
-      <point x="846.042" y="1264.116"/>
-      <point x="920.746" y="1204.0720000000001"/>
-      <point x="920.746" y="1076.024" type="curve" smooth="yes"/>
+      <point x="86.726" y="0" type="line"/>
+      <point x="311.858" y="0" type="line"/>
+      <point x="467.206" y="1264.12" type="line"/>
+      <point x="688.63" y="1264.12" type="line" smooth="yes" name="n18"/>
+      <point x="846.042" y="1264.12"/>
+      <point x="920.746" y="1204.07"/>
+      <point x="920.746" y="1076.02" type="curve" smooth="yes"/>
       <point x="920.746" y="902.692"/>
-      <point x="816.726" y="802.5840000000001"/>
-      <point x="620.626" y="802.5840000000001" type="curve"/>
-      <point x="389.194" y="802.5840000000001" type="line"/>
-      <point x="369.878" y="645.388" type="line"/>
+      <point x="816.726" y="802.584"/>
+      <point x="620.626" y="802.584" type="curve" smooth="yes"/>
+      <point x="389.194" y="802.584" type="line" name="n25"/>
+      <point x="369.878" y="645.388" type="line" name="n26"/>
       <point x="652.634" y="645.388" type="line" smooth="yes"/>
       <point x="814.026" y="645.388"/>
       <point x="886.754" y="571.348"/>
       <point x="886.754" y="455.952" type="curve" smooth="yes"/>
       <point x="886.754" y="287.868"/>
-      <point x="794.014" y="177.17600000000002"/>
-      <point x="595.938" y="177.17600000000002" type="curve" smooth="yes"/>
-      <point x="303.858" y="177.17600000000002" type="line"/>
-      <point x="176.64600000000002" y="0.0" type="line"/>
+      <point x="794.014" y="177.176"/>
+      <point x="595.938" y="177.176" type="curve" smooth="yes" name="n33"/>
+      <point x="303.858" y="177.176" type="line"/>
+      <point x="176.646" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="585" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>B=Vecyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>B=Vecyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="177.176" />
+      <hstem pos="645.388" width="157.196" />
+      <hstem pos="1264.116" width="175.844" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

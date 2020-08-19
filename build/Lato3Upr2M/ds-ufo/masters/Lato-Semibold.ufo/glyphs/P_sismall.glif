@@ -1,59 +1,70 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Psismall" format="2">
-  <advance width="1215.922"/>
+  <advance width="1216"/>
   <unicode hex="1D2A"/>
-  <anchor x="608.294" y="1120.0" name="top"/>
-  <anchor x="607.628" y="-70.0" name="bottom"/>
+  <anchor x="607.628" y="-70" name="bottom"/>
+  <anchor x="608.294" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="554.34" y="407.528" type="line"/>
+      <point x="554.34" y="407.528" type="line" name="n00"/>
       <point x="346.276" y="407.528"/>
-      <point x="284.18600000000004" y="488.252"/>
-      <point x="284.18600000000004" y="652.318" type="curve"/>
-      <point x="76.70400000000001" y="652.318" type="line"/>
-      <point x="76.70400000000001" y="400.664"/>
-      <point x="240.03199999999998" y="241.34199999999998"/>
-      <point x="554.672" y="241.34199999999998" type="curve"/>
+      <point x="284.186" y="488.252"/>
+      <point x="284.186" y="652.318" type="curve" name="n03"/>
+      <point x="76.704" y="652.318" type="line" name="n04"/>
+      <point x="76.704" y="400.664"/>
+      <point x="240.032" y="241.342"/>
+      <point x="554.672" y="241.342" type="curve" name="n07"/>
     </contour>
     <contour>
-      <point x="710.5360000000001" y="1019.96" type="line"/>
+      <point x="710.536" y="1019.96" type="line" name="n08"/>
       <point x="503.72" y="1019.96" type="line"/>
-      <point x="503.72" y="0.0" type="line"/>
-      <point x="710.5360000000001" y="0.0" type="line"/>
+      <point x="503.72" y="0" type="line" name="n10"/>
+      <point x="710.536" y="0" type="line" name="n11"/>
     </contour>
     <contour>
-      <point x="76.70400000000001" y="1019.96" type="line"/>
-      <point x="76.70400000000001" y="652.318" type="line"/>
-      <point x="284.18600000000004" y="652.318" type="line"/>
-      <point x="284.18600000000004" y="949.354" type="line" smooth="yes"/>
-      <point x="284.18600000000004" y="988.986"/>
+      <point x="76.704" y="1019.96" type="line"/>
+      <point x="76.704" y="652.318" type="line"/>
+      <point x="284.186" y="652.318" type="line"/>
+      <point x="284.186" y="949.354" type="line" smooth="yes"/>
+      <point x="284.186" y="988.986"/>
       <point x="257.876" y="1019.96"/>
       <point x="215.578" y="1019.96" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="662.582" y="241.34199999999998" type="line"/>
-      <point x="976.888" y="241.34199999999998"/>
-      <point x="1139.884" y="400.664"/>
-      <point x="1139.884" y="652.318" type="curve"/>
-      <point x="933.068" y="652.318" type="line"/>
+      <point x="662.582" y="241.342" type="line" name="n19"/>
+      <point x="976.888" y="241.342"/>
+      <point x="1139.88" y="400.664"/>
+      <point x="1139.88" y="652.318" type="curve" name="n22"/>
+      <point x="933.068" y="652.318" type="line" name="n23"/>
       <point x="933.068" y="488.252"/>
       <point x="870.312" y="407.528"/>
       <point x="662.248" y="407.528" type="curve"/>
     </contour>
     <contour>
-      <point x="1001.676" y="1019.96" type="line"/>
+      <point x="1001.68" y="1019.96" type="line" smooth="yes"/>
       <point x="958.046" y="1019.96"/>
       <point x="933.068" y="988.986"/>
       <point x="933.068" y="949.354" type="curve" smooth="yes"/>
       <point x="933.068" y="652.318" type="line"/>
-      <point x="1139.884" y="652.318" type="line"/>
-      <point x="1139.884" y="1019.96" type="line"/>
+      <point x="1139.88" y="652.318" type="line"/>
+      <point x="1139.88" y="1019.96" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="241.342" width="166.186" />
+      <hstem pos="1019.96" width="-20" />
+      <vstem pos="76.704" width="207.482" />
+      <vstem pos="662.582" width="47.954" />
+      <vstem pos="933.068" width="206.816" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,22 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ustraightstroke-cy" format="2">
-  <advance width="1059.12"/>
+  <advance width="1059"/>
   <unicode hex="04B1"/>
-  <anchor x="529.56" y="1120.0" name="top"/>
-  <anchor x="529.56" y="-421.0" name="bottom"/>
+  <anchor x="529.56" y="-421" name="bottom"/>
+  <anchor x="529.56" y="1120" name="top"/>
   <outline>
+    <component base="ustraight-cy" xOffset="4"/>
     <contour>
-      <point x="199.32" y="12.420000000000002" type="line"/>
-      <point x="199.32" y="-164.36" type="line"/>
+      <point x="199.32" y="12.42" type="line" name="n00"/>
+      <point x="199.32" y="-164.36" type="line" name="n01"/>
       <point x="859.8" y="-164.36" type="line"/>
-      <point x="859.8" y="12.420000000000002" type="line"/>
+      <point x="859.8" y="12.42" type="line"/>
     </contour>
-    <component base="ustraight-cy" xOffset="4.0"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-164.36" width="176.78" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

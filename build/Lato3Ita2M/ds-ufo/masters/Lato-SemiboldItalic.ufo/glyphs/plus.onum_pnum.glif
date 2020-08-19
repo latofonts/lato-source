@@ -1,25 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plus.onum_pnum" format="2">
-  <advance width="1080.0"/>
-  <guideline x="497.0" y="0.0" angle="82.9991"/>
+  <advance width="1080"/>
   <outline>
     <contour>
-      <point x="104.03" y="490.054" type="line"/>
+      <point x="104.03" y="490.054" type="line" name="n00"/>
       <point x="944.986" y="490.054" type="line"/>
-      <point x="963.97" y="646.5840000000001" type="line"/>
-      <point x="123.68" y="646.5840000000001" type="line"/>
+      <point x="963.97" y="646.584" type="line"/>
+      <point x="123.68" y="646.584" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="507.072" y="1038.634" type="line"/>
-      <point x="391.40999999999997" y="98.004" type="line"/>
+      <point x="507.072" y="1038.63" type="line" name="n04"/>
+      <point x="391.41" y="98.004" type="line" name="n05"/>
       <point x="559.594" y="98.004" type="line"/>
-      <point x="675.256" y="1038.634" type="line"/>
+      <point x="675.256" y="1038.63" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="497" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="119.004" width="-21" />
+      <hstem pos="490.054" width="156.53" />
+      <hstem pos="1038.634" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

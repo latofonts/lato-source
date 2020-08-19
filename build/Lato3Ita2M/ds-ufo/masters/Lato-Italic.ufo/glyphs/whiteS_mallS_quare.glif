@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteSmallSquare" format="2">
-  <advance width="809.4"/>
+  <advance width="809"/>
   <unicode hex="25AB"/>
-  <guideline x="404.7" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="136.8" y="407.4" type="line"/>
+      <point x="136.8" y="407.4" type="line" name="n00"/>
       <point x="672.6" y="407.4" type="line"/>
       <point x="672.6" y="942.66" type="line"/>
-      <point x="136.8" y="942.66" type="line"/>
+      <point x="136.8" y="942.66" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="254.0" y="825.46" type="line"/>
+      <point x="254" y="825.46" type="line" name="n04"/>
       <point x="555.4" y="825.46" type="line"/>
       <point x="555.4" y="524.6" type="line"/>
-      <point x="254.0" y="524.6" type="line"/>
+      <point x="254" y="524.6" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="375" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="407.4" width="117.2" />
+      <hstem pos="825.46" width="117.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

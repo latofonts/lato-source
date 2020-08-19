@@ -1,31 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaboverightcomb" format="2">
   <unicode hex="0358"/>
-  <guideline x="204.34" y="0.0" angle="82.9991"/>
-  <anchor x="-50.0" y="1037.0" name="_top"/>
-  <anchor x="50.0" y="1610.0" name="top"/>
+  <anchor x="-50" y="1037" name="_top"/>
+  <anchor x="50" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="146.60000000000002" y="1328.8" type="curve"/>
+      <point x="146.6" y="1328.8" type="curve" smooth="yes"/>
       <point x="156.84" y="1416.52"/>
-      <point x="98.74000000000001" y="1487.76"/>
-      <point x="18.14" y="1487.76" type="curve" smooth="yes"/>
+      <point x="98.74" y="1487.76"/>
+      <point x="18.14" y="1487.76" type="curve" smooth="yes" name="n03"/>
       <point x="-59.78" y="1487.76"/>
       <point x="-134.36" y="1416.52"/>
-      <point x="-144.60000000000002" y="1328.8" type="curve" smooth="yes"/>
+      <point x="-144.6" y="1328.8" type="curve" smooth="yes"/>
       <point x="-155.4" y="1243.08"/>
       <point x="-98.52" y="1171.84"/>
-      <point x="-20.6" y="1171.84" type="curve" smooth="yes"/>
-      <point x="60.0" y="1171.84"/>
+      <point x="-20.6" y="1171.84" type="curve" smooth="yes" name="n09"/>
+      <point x="60" y="1171.84"/>
       <point x="135.8" y="1243.08"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="202" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1171.84" width="315.92" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

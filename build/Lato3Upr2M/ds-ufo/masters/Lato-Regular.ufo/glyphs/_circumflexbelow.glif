@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_circumflexbelow" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="-70.0" name="_bottom"/>
+  <advance width="800"/>
+  <anchor x="400" y="-70" name="_bottom"/>
   <outline>
     <contour>
-      <point x="93.6" y="-361.28" type="line"/>
+      <point x="93.6" y="-361.28" type="line" name="n00"/>
       <point x="217.44" y="-361.28" type="line" smooth="yes"/>
       <point x="233.16" y="-361.28"/>
-      <point x="249.42000000000002" y="-354.58"/>
+      <point x="249.42" y="-354.58"/>
       <point x="262.06" y="-341.94" type="curve"/>
       <point x="386.44" y="-210.2" type="line"/>
       <point x="413.34" y="-183.3"/>
       <point x="446.88" y="-129.4"/>
-      <point x="446.88" y="-97.8" type="curve"/>
+      <point x="446.88" y="-97.8" type="curve" name="n08"/>
       <point x="317.48" y="-97.8" type="line"/>
     </contour>
     <contour>
@@ -29,9 +29,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-340.28" width="-21" />
+      <hstem pos="-97.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

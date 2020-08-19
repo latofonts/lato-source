@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="psilivariacomb" format="2">
-  <guideline x="211" y="0" angle="82.9991"/>
   <anchor x="-20" y="1037" name="_top"/>
   <anchor x="145" y="1120" name="_onRight"/>
   <anchor x="40" y="1610" name="top"/>
@@ -32,7 +31,9 @@
     </contour>
     <contour>
       <point x="280" y="1108" type="line"/>
-      <point x="283" y="1498" type="line"/>
+      <point x="280" y="1108"/>
+      <point x="283" y="1498"/>
+      <point x="283" y="1498" type="curve"/>
       <point x="283" y="1498"/>
       <point x="148" y="1498"/>
       <point x="109" y="1498" type="curve" smooth="yes" name="hr01"/>
@@ -42,12 +43,21 @@
       <point x="118" y="1108" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="211" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1109" width="-21" />
+      <hstem pos="1498" width="-20" />
+      <hstem pos="1512" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

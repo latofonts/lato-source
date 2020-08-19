@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ge-cy" format="2">
-  <advance width="1079.314"/>
+  <advance width="1079"/>
   <unicode hex="0413"/>
-  <anchor x="615.328" y="1515.314" name="Top"/>
-  <anchor x="615.328" y="1515.314" name="top"/>
-  <anchor x="288.622" y="-70.0" name="bottom"/>
+  <anchor x="615.328" y="1515.31" name="Top"/>
+  <anchor x="288.622" y="-70" name="bottom"/>
+  <anchor x="615.328" y="1515.31" name="top"/>
   <outline>
     <contour>
-      <point x="1049.314" y="1439.96" type="line"/>
+      <point x="1049.31" y="1439.96" type="line" name="n00"/>
       <point x="171.394" y="1439.96" type="line"/>
-      <point x="171.394" y="0.0" type="line"/>
-      <point x="405.85" y="0.0" type="line"/>
+      <point x="171.394" y="0" type="line" name="n02"/>
+      <point x="405.85" y="0" type="line" name="n03"/>
       <point x="405.85" y="1258.12" type="line"/>
-      <point x="1049.314" y="1258.12" type="line"/>
+      <point x="1049.31" y="1258.12" type="line" name="n05"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1258.12" width="181.84" />
+      <vstem pos="171.394" width="234.456" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

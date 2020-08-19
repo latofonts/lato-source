@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shookmod" format="2">
   <advance width="447"/>
   <unicode hex="1DB3"/>
@@ -48,7 +48,9 @@
     <contour>
       <point x="84" y="952" type="line"/>
       <point x="84" y="954" type="line"/>
-      <point x="65" y="959" type="line"/>
+      <point x="84" y="954"/>
+      <point x="65" y="959"/>
+      <point x="65" y="959" type="curve"/>
       <point x="65" y="854" type="line" smooth="yes"/>
       <point x="65" y="775"/>
       <point x="91" y="720"/>
@@ -69,9 +71,19 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="720" width="197" />
+      <hstem pos="900" width="508" />
+      <hstem pos="1390" width="18" />
+      <vstem pos="65" width="19" />
+      <vstem pos="361" width="21" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,15 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eshsquatreversed" format="2">
   <advance width="495"/>
   <unicode hex="0285"/>
-  <guideline x="352" y="0" angle="82.9991"/>
   <anchor x="231" y="1525" name="Top"/>
   <anchor x="231" y="1525" name="top"/>
   <anchor x="124" y="-421" name="bottom"/>
   <outline>
     <contour>
       <point x="337" y="135" type="line"/>
-      <point x="39" y="135" type="line"/>
+      <point x="337" y="135"/>
+      <point x="39" y="135"/>
+      <point x="39" y="135" type="curve"/>
       <point x="30" y="65" type="line" smooth="yes"/>
       <point x="0" y="-178"/>
       <point x="89" y="-357"/>
@@ -30,7 +31,9 @@
     </contour>
     <contour>
       <point x="35" y="106" type="line"/>
-      <point x="334" y="106" type="line"/>
+      <point x="35" y="106"/>
+      <point x="334" y="106"/>
+      <point x="334" y="106" type="curve"/>
       <point x="450" y="1052" type="line"/>
       <point x="479" y="1295"/>
       <point x="391" y="1475"/>
@@ -50,10 +53,18 @@
       <point x="155" y="1088" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="352" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-357" width="222" />
+      <hstem pos="1252" width="223" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

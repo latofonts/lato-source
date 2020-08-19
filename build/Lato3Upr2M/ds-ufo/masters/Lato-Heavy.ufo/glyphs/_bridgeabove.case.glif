@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_bridgeabove.case" format="2">
-  <advance width="800.4"/>
+  <advance width="800"/>
   <outline>
     <contour>
-      <point x="577.44" y="28.0" type="line"/>
-      <point x="764.4" y="28.0" type="line"/>
-      <point x="764.4" y="324.0" type="line"/>
-      <point x="577.44" y="324.0" type="line"/>
+      <point x="577.44" y="28" type="line" name="n00"/>
+      <point x="764.4" y="28" type="line" name="n01"/>
+      <point x="764.4" y="324" type="line"/>
+      <point x="577.44" y="324" type="line"/>
     </contour>
     <contour>
-      <point x="36.0" y="165.2" type="line"/>
+      <point x="36" y="165.2" type="line" name="n04"/>
       <point x="764.4" y="165.2" type="line"/>
-      <point x="764.4" y="324.0" type="line"/>
-      <point x="36.0" y="324.0" type="line"/>
+      <point x="764.4" y="324" type="line"/>
+      <point x="36" y="324" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="36.0" y="28.0" type="line"/>
-      <point x="222.95999999999998" y="28.0" type="line"/>
-      <point x="222.95999999999998" y="324.0" type="line"/>
-      <point x="36.0" y="324.0" type="line"/>
+      <point x="36" y="28" type="line"/>
+      <point x="222.96" y="28" type="line"/>
+      <point x="222.96" y="324" type="line" name="n10"/>
+      <point x="36" y="324" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_bridgebelow=_bridgeabove.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_bridgebelow=_bridgeabove.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="49" width="-21" />
+      <hstem pos="165.2" width="158.8" />
+      <vstem pos="36" width="186.96" />
+      <vstem pos="577.44" width="186.96" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

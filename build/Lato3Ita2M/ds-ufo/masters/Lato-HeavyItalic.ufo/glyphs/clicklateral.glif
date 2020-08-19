@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clicklateral" format="2">
-  <advance width="979.08"/>
+  <advance width="979"/>
   <unicode hex="01C1"/>
-  <guideline x="271.96" y="0.0" angle="82.9991"/>
-  <anchor x="365.64" y="-421.0" name="bottom"/>
+  <anchor x="365.64" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="214.4" y="1491.92" type="line"/>
-      <point x="-16.64" y="-390.0" type="line"/>
-      <point x="249.36" y="-390.0" type="line"/>
+      <point x="214.4" y="1491.92" type="line" name="n00"/>
+      <point x="-16.64" y="-390" type="line" name="n01"/>
+      <point x="249.36" y="-390" type="line"/>
       <point x="480.4" y="1491.92" type="line"/>
     </contour>
     <contour>
       <point x="713.6" y="1491.92" type="line"/>
-      <point x="482.56" y="-390.0" type="line"/>
-      <point x="748.56" y="-390.0" type="line"/>
+      <point x="482.56" y="-390" type="line"/>
+      <point x="748.56" y="-390" type="line"/>
       <point x="979.6" y="1491.92" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="257" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>bar_bar=clicklateral</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>bar_bar=clicklateral</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1491.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

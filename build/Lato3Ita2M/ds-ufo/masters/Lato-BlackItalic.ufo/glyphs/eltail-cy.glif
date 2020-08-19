@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eltail-cy" format="2">
   <advance width="1210"/>
   <unicode hex="04C6"/>
-  <guideline x="628" y="0" angle="82.9991"/>
   <anchor x="737" y="1120" name="top"/>
   <anchor x="458" y="-70" name="bottom"/>
   <outline>
+    <component base="el-cy"/>
     <contour>
       <point x="968" y="224" type="line"/>
       <point x="940" y="0" type="line"/>
@@ -17,12 +17,19 @@
       <point x="1026" y="-251" type="curve"/>
       <point x="1144" y="224" type="line"/>
     </contour>
-    <component base="el-cy"/>
   </outline>
+  <guideline angle="82.9991" x="628" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-319" width="-21" />
+      <hstem pos="0" width="224" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,36 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_retroflex" format="2">
-  <guideline x="0.0" y="0.0" angle="82.9991"/>
   <anchor x="131.3" y="129.08" name="_hook"/>
   <outline>
     <contour>
-      <point x="131.18" y="-62.08" type="line"/>
+      <point x="131.18" y="-62.08" type="line" smooth="yes"/>
       <point x="111.1" y="-227.26"/>
       <point x="158.76" y="-372.3"/>
-      <point x="338.98" y="-372.3" type="curve" smooth="yes"/>
+      <point x="338.98" y="-372.3" type="curve" smooth="yes" name="n03"/>
       <point x="388.32" y="-372.3"/>
       <point x="433.88" y="-361.14"/>
-      <point x="491.0" y="-337.12" type="curve"/>
+      <point x="491" y="-337.12" type="curve"/>
       <point x="485.76" y="-268.02" type="line"/>
-      <point x="481.98" y="-238.95999999999998"/>
+      <point x="481.98" y="-238.96"/>
       <point x="465.1" y="-233.56"/>
       <point x="451.3" y="-233.56" type="curve" smooth="yes"/>
       <point x="435.28" y="-233.56"/>
-      <point x="404.16" y="-249.0"/>
-      <point x="363.66" y="-249.0" type="curve" smooth="yes"/>
-      <point x="283.84000000000003" y="-249.0"/>
+      <point x="404.16" y="-249"/>
+      <point x="363.66" y="-249" type="curve" smooth="yes" name="n13"/>
+      <point x="283.84" y="-249"/>
       <point x="266.48" y="-182.94"/>
-      <point x="279.16" y="-75.03999999999999" type="curve"/>
-      <point x="304.8" y="130.16000000000003" type="line"/>
-      <point x="166.08" y="130.16000000000003" type="line"/>
-      <point x="79.56" y="0.0" type="line"/>
-      <point x="138.7" y="0.0" type="line"/>
+      <point x="279.16" y="-75.04" type="curve" smooth="yes"/>
+      <point x="304.8" y="130.16" type="line" name="n17"/>
+      <point x="304.8" y="130.16"/>
+      <point x="166.08" y="130.16"/>
+      <point x="166.08" y="130.16" type="curve"/>
+      <point x="79.56" y="0" type="line"/>
+      <point x="138.7" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-372.3" width="123.3" />
+      <hstem pos="130.16" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

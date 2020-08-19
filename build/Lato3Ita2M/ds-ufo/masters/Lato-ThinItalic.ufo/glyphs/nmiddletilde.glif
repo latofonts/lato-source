@@ -1,75 +1,84 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nmiddletilde" format="2">
-  <advance width="1190.3"/>
+  <advance width="1190"/>
   <unicode hex="1D70"/>
-  <guideline x="554.1"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
-  <anchor x="641.9" y="1120.0" name="top"/>
-  <anchor x="518.3" y="-70.0" name="bottom"/>
+  <anchor x="518.3" y="-70" name="bottom"/>
+  <anchor x="641.9" y="1120" name="top"/>
   <outline>
     <contour>
       <point x="1124.7" y="589.4" type="curve"/>
-      <point x="1085.0" y="589.4" type="line"/>
+      <point x="1085" y="589.4" type="line"/>
       <point x="1072.6" y="484.6"/>
       <point x="1026.8" y="425.6"/>
-      <point x="903.1" y="425.6" type="curve" smooth="yes"/>
+      <point x="903.1" y="425.6" type="curve" smooth="yes" name="n04"/>
       <point x="663.3" y="425.6"/>
       <point x="508.4" y="594.1"/>
-      <point x="268.7" y="600.4" type="curve" smooth="yes"/>
-      <point x="130.0" y="604.0"/>
+      <point x="268.7" y="600.4" type="curve" smooth="yes" name="n07"/>
+      <point x="130" y="604"/>
       <point x="54.2" y="518.6"/>
       <point x="39.3" y="396.7" type="curve"/>
       <point x="78.9" y="396.7" type="line"/>
       <point x="91.3" y="501.5"/>
       <point x="146.1" y="561.4"/>
-      <point x="261.8" y="561.4" type="curve" smooth="yes"/>
+      <point x="261.8" y="561.4" type="curve" smooth="yes" name="n14"/>
       <point x="500.7" y="561.4"/>
       <point x="654.6" y="385.7"/>
-      <point x="896.1" y="385.7" type="curve" smooth="yes"/>
+      <point x="896.1" y="385.7" type="curve" smooth="yes" name="n17"/>
       <point x="1043.8" y="385.7"/>
       <point x="1109.7" y="467.6"/>
     </contour>
     <contour>
-      <point x="224.2" y="0.0" type="line"/>
+      <point x="224.2" y="0" type="line" name="n20"/>
       <point x="293.8" y="591.4" type="line"/>
-      <point x="293.0" y="596.8" type="line"/>
-      <point x="332.6" y="967.0" type="line"/>
+      <point x="293" y="596.8" type="line"/>
+      <point x="332.6" y="967" type="line"/>
       <point x="332.6" y="979.4"/>
-      <point x="327.0" y="989.6"/>
+      <point x="327" y="989.6" name="n25"/>
       <point x="311.6" y="989.6" type="curve" smooth="yes"/>
-      <point x="292.0" y="989.6" type="line"/>
-      <point x="173.4" y="0.0" type="line"/>
+      <point x="292" y="989.6" type="line"/>
+      <point x="173.4" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="871.6" y="0.0" type="line"/>
-      <point x="946.0" y="631.2" type="line"/>
+      <point x="871.6" y="0" type="line"/>
+      <point x="946" y="631.2" type="line"/>
       <point x="895.2" y="631.2" type="line"/>
-      <point x="820.8" y="0.0" type="line"/>
+      <point x="820.8" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="946.0" y="631.2" type="line"/>
+      <point x="946" y="631.2" type="line"/>
       <point x="974.4" y="865.4"/>
       <point x="908.4" y="1000.2"/>
-      <point x="738.2" y="1000.2" type="curve" smooth="yes"/>
+      <point x="738.2" y="1000.2" type="curve" smooth="yes" name="n36"/>
       <point x="555.6" y="1000.2"/>
-      <point x="365.0" y="822.8"/>
-      <point x="262.0" y="542.2" type="curve"/>
+      <point x="365" y="822.8"/>
+      <point x="262" y="542.2" type="curve"/>
       <point x="275.8" y="505.8" type="line"/>
       <point x="381.8" y="781.2"/>
       <point x="559.8" y="956.6"/>
-      <point x="724.4" y="956.6" type="curve" smooth="yes"/>
+      <point x="724.4" y="956.6" type="curve" smooth="yes" name="n43"/>
       <point x="870.8" y="956.6"/>
-      <point x="920.0" y="838.2"/>
+      <point x="920" y="838.2"/>
       <point x="895.2" y="631.2" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="536" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>In Lato Uprigt n=n midtilde!
-So i made it like in Upright.</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>In Lato Uprigt n=n midtilde!So i made it like in Upright.</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="385.7" width="39.9" />
+      <hstem pos="561.4" width="39" />
+      <hstem pos="956.6" width="43.6" />
+      <hstem pos="989.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

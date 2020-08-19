@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tonesix" format="2">
   <advance width="1370"/>
   <unicode hex="0184"/>
-  <guideline x="708" y="0" angle="82.9991"/>
   <anchor x="489" y="1525" name="Top"/>
   <anchor x="489" y="1525" name="top"/>
   <anchor x="654" y="-70" name="bottom"/>
@@ -33,16 +32,27 @@
     </contour>
     <contour>
       <point x="305" y="829" type="line"/>
-      <point x="469" y="1459" type="line"/>
+      <point x="305" y="829"/>
+      <point x="469" y="1459"/>
+      <point x="469" y="1459" type="curve"/>
       <point x="460" y="1459" type="line"/>
       <point x="56" y="1020" type="line"/>
       <point x="296" y="829" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="708" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="256" />
+      <hstem pos="718" width="257" />
+      <hstem pos="1459" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

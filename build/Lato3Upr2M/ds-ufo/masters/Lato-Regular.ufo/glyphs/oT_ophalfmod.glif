@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oTophalfmod" format="2">
-  <advance width="619.38"/>
+  <advance width="619"/>
   <unicode hex="1D54"/>
-  <guideline x="563.48"/>
-  <anchor x="542.1" y="1120.0" name="top"/>
-  <anchor x="542.1" y="-70.0" name="bottom"/>
+  <anchor x="542.1" y="-70" name="bottom"/>
+  <anchor x="542.1" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="565.8" y="1174.52" type="line"/>
+      <point x="565.8" y="1174.52" type="line" name="n00"/>
       <point x="565.8" y="1338.32"/>
       <point x="464.58" y="1441.48"/>
-      <point x="310.0" y="1441.48" type="curve" smooth="yes"/>
+      <point x="310" y="1441.48" type="curve" smooth="yes" name="n03"/>
       <point x="155.34" y="1441.48"/>
       <point x="53.12" y="1338.32"/>
-      <point x="53.12" y="1174.52" type="curve"/>
-      <point x="183.04000000000002" y="1174.52" type="line"/>
-      <point x="183.04000000000002" y="1284.74"/>
+      <point x="53.12" y="1174.52" type="curve" name="n06"/>
+      <point x="183.04" y="1174.52" type="line" name="n07"/>
+      <point x="183.04" y="1284.74"/>
       <point x="224.2" y="1343.56"/>
-      <point x="310.0" y="1343.56" type="curve" smooth="yes"/>
+      <point x="310" y="1343.56" type="curve" smooth="yes" name="n10"/>
       <point x="394.72" y="1343.56"/>
       <point x="435.34" y="1284.74"/>
-      <point x="435.34" y="1174.52" type="curve"/>
+      <point x="435.34" y="1174.52" type="curve" name="n13"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1195.52" width="-21" />
+      <hstem pos="1343.56" width="97.92" />
+      <vstem pos="53.12" width="129.92" />
+      <vstem pos="435.34" width="130.46" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

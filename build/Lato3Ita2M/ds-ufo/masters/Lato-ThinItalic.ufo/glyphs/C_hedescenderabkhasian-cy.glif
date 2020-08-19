@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chedescenderabkhasian-cy" format="2">
-  <advance width="1461.0"/>
+  <advance width="1461"/>
   <unicode hex="04BE"/>
-  <guideline x="759.5" y="0.0" angle="82.9991"/>
   <anchor x="867.9" y="1498.9" name="Top"/>
+  <anchor x="734.7" y="-70" name="bottom"/>
   <anchor x="867.9" y="1498.9" name="top"/>
-  <anchor x="734.7" y="-70.0" name="bottom"/>
   <outline>
-    <contour>
-      <point x="783.5" y="18.5" type="line"/>
-      <point x="737.6" y="-356.9" type="line"/>
-      <point x="789.1" y="-356.9" type="line"/>
-      <point x="835.0" y="18.5" type="line"/>
-    </contour>
     <component base="Cheabkhasian-cy"/>
+    <contour>
+      <point x="783.5" y="18.5" type="line" name="n00"/>
+      <point x="737.6" y="-356.9" type="line" name="n01"/>
+      <point x="789.1" y="-356.9" type="line"/>
+      <point x="835" y="18.5" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="82.9991" x="753" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Cheabkhcyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Cheabkhcyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-335.9" width="-21" />
+      <hstem pos="18.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

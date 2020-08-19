@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shookmod" format="2">
   <advance width="486"/>
   <unicode hex="1DB3"/>
-  <guideline x="236" y="0" angle="82.9991"/>
   <anchor x="471" y="1120" name="top"/>
   <anchor x="293" y="-70" name="bottom"/>
   <outline>
@@ -49,7 +48,9 @@
     <contour>
       <point x="237" y="978" type="line"/>
       <point x="238" y="991" type="line"/>
-      <point x="74" y="979" type="line"/>
+      <point x="238" y="991"/>
+      <point x="74" y="979"/>
+      <point x="74" y="979" type="curve"/>
       <point x="70" y="940" type="line" smooth="yes"/>
       <point x="59" y="850"/>
       <point x="96" y="743"/>
@@ -69,10 +70,19 @@
       <point x="229" y="918" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="236" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="743" width="314" />
+      <hstem pos="913" width="554" />
+      <hstem pos="1315" width="152" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

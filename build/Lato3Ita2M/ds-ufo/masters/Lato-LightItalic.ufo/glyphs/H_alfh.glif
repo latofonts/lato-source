@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Halfh" format="2">
-  <advance width="1163.0"/>
+  <advance width="1163"/>
   <unicode hex="2C75"/>
-  <guideline x="562.25" y="0.0" angle="82.9991"/>
   <anchor x="786.75" y="1503.25" name="Top"/>
+  <anchor x="169" y="-70" name="bottom"/>
   <anchor x="786.75" y="1503.25" name="top"/>
-  <anchor x="169.0" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="397.0" y="1414.75" type="line"/>
+      <point x="397" y="1414.75" type="line" name="n00"/>
       <point x="297.25" y="1414.75" type="line"/>
-      <point x="123.5" y="0.0" type="line"/>
-      <point x="223.25" y="0.0" type="line"/>
+      <point x="123.5" y="0" type="line" name="n02"/>
+      <point x="223.25" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="303.0" y="758.75" type="line"/>
-      <point x="293.75" y="679.25" type="line"/>
+      <point x="303" y="758.75" type="line" name="n04"/>
+      <point x="293.75" y="679.25" type="line" name="n05"/>
       <point x="1115.5" y="679.25" type="line"/>
       <point x="1124.75" y="758.75" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="587" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="679.25" width="79.5" />
+      <hstem pos="1414.75" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

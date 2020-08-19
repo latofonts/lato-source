@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
-  <advance width="450.48"/>
+  <advance width="450"/>
   <unicode hex="006C"/>
-  <guideline x="237.92000000000002" y="0.0" angle="82.9991"/>
   <anchor x="334.08" y="1511.66" name="Top"/>
-  <anchor x="246.54000000000002" y="129.08" name="hook"/>
-  <anchor x="141.3" y="-70.0" name="bottom"/>
   <anchor x="242.86" y="730.24" name="bar"/>
+  <anchor x="141.3" y="-70" name="bottom"/>
+  <anchor x="246.54" y="129.08" name="hook"/>
   <anchor x="334.08" y="1511.66" name="top"/>
   <outline>
     <contour>
-      <point x="238.84" y="0.0" type="line"/>
-      <point x="418.08000000000004" y="1472.4" type="line"/>
+      <point x="238.84" y="0" type="line" name="n00"/>
+      <point x="418.08" y="1472.4" type="line" name="n01"/>
       <point x="242.72" y="1472.4" type="line"/>
-      <point x="64.4" y="0.0" type="line"/>
+      <point x="64.4" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="212" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1472.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

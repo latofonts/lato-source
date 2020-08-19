@@ -1,35 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildeoverlaycomb.case" format="2">
   <outline>
     <contour>
-      <point x="227.68" y="1073.7" type="line"/>
+      <point x="227.68" y="1073.7" type="line" name="n00"/>
       <point x="227.24" y="1015.94"/>
       <point x="198.36" y="996.36"/>
-      <point x="151.86" y="996.36" type="curve" smooth="yes"/>
-      <point x="89.46000000000001" y="996.36"/>
-      <point x="-45.480000000000004" y="1080.38"/>
+      <point x="151.86" y="996.36" type="curve" smooth="yes" name="n03"/>
+      <point x="89.46" y="996.36"/>
+      <point x="-45.48" y="1080.38" name="n05"/>
       <point x="-163.9" y="1080.38" type="curve" smooth="yes"/>
       <point x="-307.42" y="1080.38"/>
-      <point x="-416.84000000000003" y="977.82"/>
-      <point x="-416.84000000000003" y="822.36" type="curve"/>
+      <point x="-416.84" y="977.82"/>
+      <point x="-416.84" y="822.36" type="curve" name="n09"/>
       <point x="-224.9" y="822.36" type="line"/>
       <point x="-224.46" y="879.68"/>
       <point x="-197.48" y="901.26"/>
-      <point x="-152.2" y="901.26" type="curve" smooth="yes"/>
-      <point x="-89.02000000000001" y="901.26"/>
+      <point x="-152.2" y="901.26" type="curve" smooth="yes" name="n13"/>
+      <point x="-89.02" y="901.26"/>
       <point x="47.92" y="817.24"/>
-      <point x="164.34" y="817.24" type="curve" smooth="yes"/>
+      <point x="164.34" y="817.24" type="curve" smooth="yes" name="n16"/>
       <point x="309.86" y="817.24"/>
-      <point x="416.84000000000003" y="918.24"/>
-      <point x="416.84000000000003" y="1073.7" type="curve"/>
+      <point x="416.84" y="918.24"/>
+      <point x="416.84" y="1073.7" type="curve" name="n19"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="817.24" width="179.12" />
+      <hstem pos="901.26" width="172.44" />
+      <hstem pos="1080.38" width="-20" />
+      <vstem pos="-416.84" width="833.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

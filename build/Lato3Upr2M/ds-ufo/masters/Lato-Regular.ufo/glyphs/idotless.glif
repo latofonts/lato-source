@@ -1,23 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotless" format="2">
-  <advance width="480.8"/>
+  <advance width="481"/>
   <unicode hex="0131"/>
-  <anchor x="245.26" y="1120.0" name="top"/>
-  <anchor x="240.4" y="-70.0" name="bottom"/>
+  <anchor x="240.4" y="-70" name="bottom"/>
+  <anchor x="245.26" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="151.18" y="1012.4" type="line"/>
-      <point x="151.18" y="0.0" type="line"/>
-      <point x="329.62" y="0.0" type="line"/>
-      <point x="329.62" y="1012.4" type="line"/>
+      <point x="151.18" y="1012.4" type="line" name="n00"/>
+      <point x="151.18" y="0" type="line" name="n01"/>
+      <point x="329.62" y="0" type="line"/>
+      <point x="329.62" y="1012.4" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1012.4" width="-20" />
+      <vstem pos="151.18" width="178.44" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

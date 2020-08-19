@@ -1,30 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tbar" format="2">
-  <advance width="729.942"/>
+  <advance width="730"/>
   <unicode hex="0167"/>
-  <guideline x="348.968" y="0.0" angle="82.9991"/>
-  <anchor x="428.248" y="1406.66" name="top"/>
-  <anchor x="325.986" y="-70.0" name="bottom"/>
   <anchor x="382.958" y="718.648" name="Slash"/>
   <anchor x="257.97" y="492.706" name="bar"/>
+  <anchor x="325.986" y="-70" name="bottom"/>
+  <anchor x="428.248" y="1406.66" name="top"/>
   <outline>
+    <component base="t" xOffset="8.004"/>
     <contour>
-      <point x="32.696" y="606.74" type="line"/>
-      <point x="29.363999999999997" y="576.76"/>
+      <point x="32.696" y="606.74" type="line" smooth="yes"/>
+      <point x="29.364" y="576.76"/>
       <point x="48.684" y="558.776"/>
       <point x="72.004" y="558.776" type="curve" smooth="yes"/>
-      <point x="638.568" y="558.776" type="line"/>
-      <point x="655.888" y="693.328" type="line"/>
-      <point x="44.019999999999996" y="693.328" type="line"/>
+      <point x="638.568" y="558.776" type="line" name="n04"/>
+      <point x="655.888" y="693.328" type="line" name="n05"/>
+      <point x="44.02" y="693.328" type="line"/>
     </contour>
-    <component base="t" xOffset="8.004"/>
   </outline>
+  <guideline angle="82.9991" x="317" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="558.776" width="134.552" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

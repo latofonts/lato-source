@@ -1,34 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iota-latin" format="2">
-  <advance width="533.58"/>
+  <advance width="534"/>
   <unicode hex="0269"/>
-  <guideline x="289.64" y="0.0" angle="82.9991"/>
-  <anchor x="247.962" y="1120.0" name="top"/>
-  <anchor x="232.292" y="-70.0" name="bottom"/>
+  <anchor x="232.292" y="-70" name="bottom"/>
+  <anchor x="247.962" y="1120" name="top"/>
   <outline>
     <contour>
       <point x="75.376" y="276.602" type="line" smooth="yes"/>
-      <point x="54.711999999999996" y="107.624"/>
+      <point x="54.712" y="107.624"/>
       <point x="122.036" y="-11.668"/>
-      <point x="279.006" y="-11.668" type="curve" smooth="yes"/>
+      <point x="279.006" y="-11.668" type="curve" smooth="yes" name="n03"/>
       <point x="362.308" y="-11.668"/>
       <point x="446.562" y="19.972"/>
-      <point x="453.88800000000003" y="78.25200000000001" type="curve"/>
+      <point x="453.888" y="78.252" type="curve" smooth="yes"/>
       <point x="461.548" y="142.198" type="line"/>
-      <point x="379.576" y="142.198" type="line" smooth="yes"/>
+      <point x="379.576" y="142.198" type="line" smooth="yes" name="n08"/>
       <point x="299.206" y="142.198"/>
-      <point x="271.52" y="192.88600000000002"/>
-      <point x="283.192" y="287.924" type="curve"/>
-      <point x="373.196" y="1019.294" type="line"/>
-      <point x="166.046" y="1019.294" type="line"/>
+      <point x="271.52" y="192.886"/>
+      <point x="283.192" y="287.924" type="curve" smooth="yes"/>
+      <point x="373.196" y="1019.29" type="line" name="n12"/>
+      <point x="166.046" y="1019.29" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="263" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>iota=iotaLatiniotalat</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>iota=iotaLatiniotalat</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-11.668" width="153.866" />
+      <hstem pos="1019.294" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

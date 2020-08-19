@@ -1,45 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hcircumflex" format="2">
-  <advance width="1064.6"/>
+  <advance width="1065"/>
   <unicode hex="0125"/>
-  <guideline x="533.2" y="0.0" angle="82.9991"/>
-  <anchor x="366.6" y="1513.4" name="Top"/>
-  <anchor x="366.6" y="1513.4" name="top"/>
-  <anchor x="458.2" y="-70.0" name="bottom"/>
   <anchor x="553.6" y="716.8" name="Slash"/>
+  <anchor x="366.6" y="1513.4" name="Top"/>
+  <anchor x="458.2" y="-70" name="bottom"/>
+  <anchor x="366.6" y="1513.4" name="top"/>
   <outline>
+    <component base="h"/>
     <contour>
-      <point x="24.200000000000003" y="1546.4" type="line"/>
+      <point x="24.2" y="1546.4" type="line" name="n00"/>
       <point x="166.6" y="1546.4" type="line" smooth="yes"/>
-      <point x="183.39999999999998" y="1546.4"/>
-      <point x="204.6" y="1552.0"/>
+      <point x="183.4" y="1546.4"/>
+      <point x="204.6" y="1552"/>
       <point x="217.8" y="1560.4" type="curve"/>
       <point x="338.6" y="1650.8" type="line"/>
       <point x="381.4" y="1679.2"/>
       <point x="414.6" y="1725.2"/>
-      <point x="418.2" y="1758.0" type="curve"/>
-      <point x="270.6" y="1758.0" type="line"/>
+      <point x="418.2" y="1758" type="curve" name="n08"/>
+      <point x="270.6" y="1758" type="line"/>
     </contour>
     <contour>
-      <point x="457.0" y="1758.0" type="line"/>
-      <point x="309.4" y="1758.0" type="line"/>
-      <point x="305.0" y="1725.2"/>
+      <point x="457" y="1758" type="line"/>
+      <point x="309.4" y="1758" type="line"/>
+      <point x="305" y="1725.2"/>
       <point x="326.6" y="1680.4"/>
-      <point x="363.4" y="1650.8" type="curve" smooth="yes"/>
-      <point x="461.0" y="1560.4" type="line"/>
+      <point x="363.4" y="1650.8" type="curve"/>
+      <point x="461" y="1560.4" type="line"/>
       <point x="473.4" y="1553.2"/>
       <point x="493.4" y="1546.4"/>
       <point x="508.2" y="1546.4" type="curve" smooth="yes"/>
       <point x="651.8" y="1546.4" type="line"/>
     </contour>
-    <component base="h"/>
   </outline>
+  <guideline angle="82.9991" x="502" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=h</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=h</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1567.4" width="-21" />
+      <hstem pos="1758" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

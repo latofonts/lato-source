@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semisoftsign-cy" format="2">
   <advance width="1011"/>
   <unicode hex="048D"/>
-  <guideline y="1407"/>
-  <guideline x="488" y="0" angle="82.9991"/>
   <anchor x="406" y="1120" name="top"/>
   <anchor x="445" y="-70" name="bottom"/>
   <outline>
@@ -47,10 +45,21 @@
       <point x="418" y="269" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1407"/>
+  <guideline angle="82.9991" x="488" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="215" />
+      <hstem pos="527" width="214" />
+      <hstem pos="770" width="213" />
+      <hstem pos="1067" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

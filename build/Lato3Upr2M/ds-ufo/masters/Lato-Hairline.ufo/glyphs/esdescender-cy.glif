@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esdescender-cy" format="2">
   <advance width="933"/>
   <unicode hex="04AB"/>
@@ -6,6 +6,7 @@
   <anchor x="464" y="-421" name="bottom"/>
   <anchor x="529" y="-79" name="_bottom"/>
   <outline>
+    <component base="_descendercyr" xOffset="129" yOffset="-9"/>
     <contour>
       <point x="828" y="894" type="line"/>
       <point x="762" y="954"/>
@@ -40,14 +41,21 @@
       <point x="820" y="886"/>
       <point x="822" y="888" type="curve" smooth="yes"/>
     </contour>
-    <component base="_descendercyr" xOffset="129" yOffset="-9"/>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=escyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=escyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-12" width="20" />
+      <hstem pos="976" width="20" />
+      <vstem pos="122" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

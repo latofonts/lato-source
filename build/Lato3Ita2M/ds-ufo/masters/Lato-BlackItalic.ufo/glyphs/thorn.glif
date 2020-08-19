@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thorn" format="2">
   <advance width="1097"/>
   <unicode hex="00FE"/>
-  <guideline x="545" y="0" angle="82.9991"/>
   <anchor x="424" y="1525" name="Top"/>
   <anchor x="424" y="1525" name="top"/>
   <anchor x="376" y="-421" name="bottom"/>
@@ -45,12 +44,22 @@
       <point x="321" y="300" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="545" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=b</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=b</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-307" width="-21" />
+      <hstem pos="-16" width="238" />
+      <hstem pos="810" width="246" />
+      <hstem pos="1500" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

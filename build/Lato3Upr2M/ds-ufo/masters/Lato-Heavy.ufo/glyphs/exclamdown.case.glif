@@ -1,21 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown.case" format="2">
-  <advance width="593.92"/>
+  <advance width="594"/>
   <outline>
-    <contour>
-      <point x="426.24" y="0.0" type="line"/>
-      <point x="426.24" y="572.0" type="line"/>
-      <point x="390.32" y="938.08" type="line"/>
-      <point x="203.6" y="938.08" type="line"/>
-      <point x="167.68" y="572.0" type="line"/>
-      <point x="167.68" y="0.0" type="line"/>
-    </contour>
     <component base="period" xOffset="59.8" yOffset="1156.96"/>
+    <contour>
+      <point x="426.24" y="0" type="line" name="n00"/>
+      <point x="426.24" y="572" type="line"/>
+      <point x="390.32" y="938.08" type="line" name="n02"/>
+      <point x="203.6" y="938.08" type="line"/>
+      <point x="167.68" y="572" type="line" name="n04"/>
+      <point x="167.68" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="938.08" width="-20" />
+      <vstem pos="167.68" width="222.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

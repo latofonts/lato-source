@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L.sups" format="2">
-  <advance width="500.638"/>
-  <guideline x="258.994" y="0.0" angle="82.9991"/>
+  <advance width="501"/>
   <outline>
     <contour>
-      <point x="373.562" y="1651.292" type="line"/>
-      <point x="215.696" y="1651.292" type="line"/>
-      <point x="125.69999999999999" y="916.658" type="line"/>
-      <point x="283.56600000000003" y="916.658" type="line"/>
+      <point x="373.562" y="1651.29" type="line" name="n00"/>
+      <point x="215.696" y="1651.29" type="line"/>
+      <point x="125.7" y="916.658" type="line"/>
+      <point x="283.566" y="916.658" type="line"/>
     </contour>
     <contour>
-      <point x="285.894" y="1048.546" type="line"/>
-      <point x="269.908" y="916.658" type="line"/>
+      <point x="285.894" y="1048.55" type="line" name="n04"/>
+      <point x="269.908" y="916.658" type="line" name="n05"/>
       <point x="533.638" y="916.658" type="line"/>
-      <point x="550.29" y="1048.546" type="line"/>
+      <point x="550.29" y="1048.55" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="253" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Lmod=L.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Lmod=L.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="916.658" width="131.888" />
+      <hstem pos="1651.292" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

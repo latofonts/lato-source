@@ -1,23 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresisbelowcomb" format="2">
   <unicode hex="0324"/>
-  <guideline x="392.9" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="-422.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-422" name="bottom"/>
   <outline>
     <contour>
-      <point x="-58.22" y="-196.54" type="curve"/>
+      <point x="-58.22" y="-196.54" type="curve" smooth="yes"/>
       <point x="-48.76" y="-119.74"/>
       <point x="-99.84" y="-56.3"/>
-      <point x="-170.3" y="-56.3" type="curve" smooth="yes"/>
+      <point x="-170.3" y="-56.3" type="curve" smooth="yes" name="n03"/>
       <point x="-236.3" y="-56.3"/>
       <point x="-302.3" y="-119.74"/>
       <point x="-311.76" y="-196.54" type="curve" smooth="yes"/>
-      <point x="-321.0" y="-271.34000000000003"/>
+      <point x="-321" y="-271.34"/>
       <point x="-269.58" y="-331.66"/>
-      <point x="-203.57999999999998" y="-331.66" type="curve" smooth="yes"/>
+      <point x="-203.58" y="-331.66" type="curve" smooth="yes" name="n09"/>
       <point x="-133.12" y="-331.66"/>
-      <point x="-67.46000000000001" y="-271.34000000000003"/>
+      <point x="-67.46" y="-271.34"/>
     </contour>
     <contour>
       <point x="313.76" y="-196.54" type="curve" smooth="yes"/>
@@ -27,19 +26,26 @@
       <point x="134.12" y="-56.3"/>
       <point x="69.68" y="-119.74"/>
       <point x="60.22" y="-196.54" type="curve" smooth="yes"/>
-      <point x="50.98" y="-271.34000000000003"/>
+      <point x="50.98" y="-271.34"/>
       <point x="100.84" y="-331.66"/>
       <point x="170.18" y="-331.66" type="curve" smooth="yes"/>
       <point x="240.64" y="-331.66"/>
-      <point x="304.52" y="-271.34000000000003"/>
+      <point x="304.52" y="-271.34"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="389" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-331.66" width="275.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

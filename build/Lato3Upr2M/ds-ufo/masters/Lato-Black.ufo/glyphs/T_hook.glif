@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Thook" format="2">
   <advance width="1395"/>
   <unicode hex="01AC"/>
@@ -20,7 +20,9 @@
     </contour>
     <contour>
       <point x="528" y="1180" type="line"/>
-      <point x="528" y="1460" type="line"/>
+      <point x="528" y="1180"/>
+      <point x="528" y="1460"/>
+      <point x="528" y="1460" type="curve"/>
       <point x="494" y="1460" type="line" smooth="yes"/>
       <point x="195" y="1460"/>
       <point x="26" y="1306"/>
@@ -41,9 +43,18 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1180" width="280" />
+      <vstem pos="26" width="286" />
+      <vstem pos="617" width="338" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

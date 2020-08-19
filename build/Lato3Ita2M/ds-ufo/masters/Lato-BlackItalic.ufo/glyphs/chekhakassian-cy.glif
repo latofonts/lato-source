@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chekhakassian-cy" format="2">
   <advance width="1020"/>
   <unicode hex="04CC"/>
-  <guideline x="550" y="0" angle="82.9991"/>
   <anchor x="531" y="1120" name="top"/>
   <anchor x="687" y="-70" name="bottom"/>
   <outline>
+    <component base="che-cy" xOffset="3"/>
     <contour>
       <point x="368" y="144" type="line"/>
       <point x="420" y="-340" type="line"/>
@@ -17,12 +17,19 @@
       <point x="578" y="48" type="line"/>
       <point x="554" y="144" type="line"/>
     </contour>
-    <component base="che-cy" xOffset="3"/>
   </outline>
+  <guideline angle="82.9991" x="550" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-319" width="-21" />
+      <hstem pos="48" width="96" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

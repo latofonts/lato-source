@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hastroke-cy" format="2">
-  <advance width="991.6800000000001"/>
+  <advance width="992"/>
   <unicode hex="04FF"/>
-  <guideline x="467.76" y="0.0" angle="82.9991"/>
-  <anchor x="558.6800000000001" y="1120.0" name="top"/>
-  <anchor x="419.36" y="-70.0" name="bottom"/>
+  <anchor x="419.36" y="-70" name="bottom"/>
   <anchor x="793.06" y="129.08" name="hook"/>
+  <anchor x="558.68" y="1120" name="top"/>
   <outline>
+    <component base="x" xOffset="34.76"/>
     <contour>
       <point x="77.64" y="470.04" type="line"/>
-      <point x="867.7" y="470.04" type="line"/>
-      <point x="882.66" y="595.8" type="line"/>
+      <point x="867.7" y="470.04" type="line" name="n01"/>
+      <point x="882.66" y="595.8" type="line" name="n02"/>
       <point x="93.06" y="595.8" type="line"/>
     </contour>
-    <component base="x" xOffset="34.76"/>
   </outline>
+  <guideline angle="82.9991" x="390" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="470.04" width="125.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

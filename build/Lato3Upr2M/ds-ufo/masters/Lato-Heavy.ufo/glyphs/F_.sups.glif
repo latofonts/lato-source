@@ -1,30 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="F.sups" format="2">
-  <advance width="598.4"/>
+  <advance width="598"/>
   <outline>
     <contour>
-      <point x="296.44" y="1665.44" type="line"/>
+      <point x="296.44" y="1665.44" type="line" name="n00"/>
       <point x="85.88" y="1665.44" type="line"/>
-      <point x="85.88" y="918.56" type="line"/>
+      <point x="85.88" y="918.56" type="line" name="n02"/>
       <point x="296.44" y="918.56" type="line"/>
     </contour>
     <contour>
-      <point x="277.36" y="1357.28" type="line"/>
-      <point x="277.36" y="1189.32" type="line"/>
+      <point x="277.36" y="1357.28" type="line" name="n04"/>
+      <point x="277.36" y="1189.32" type="line" name="n05"/>
       <point x="524.68" y="1189.32" type="line"/>
       <point x="524.68" y="1357.28" type="line"/>
     </contour>
     <contour>
-      <point x="277.36" y="1665.44" type="line"/>
-      <point x="277.36" y="1497.6" type="line"/>
+      <point x="277.36" y="1665.44" type="line" name="n08"/>
+      <point x="277.36" y="1497.6" type="line" name="n09"/>
       <point x="575.56" y="1497.6" type="line"/>
       <point x="575.56" y="1665.44" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="939.56" width="-21" />
+      <hstem pos="1189.32" width="167.96" />
+      <hstem pos="1497.6" width="167.84" />
+      <vstem pos="277.36" width="19.08" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

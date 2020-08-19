@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oBottomhalfmod" format="2">
-  <advance width="622.5"/>
+  <advance width="623"/>
   <unicode hex="1D55"/>
-  <guideline x="536.2"/>
-  <anchor x="537.3" y="1120.0" name="top"/>
-  <anchor x="537.3" y="-70.0" name="bottom"/>
+  <anchor x="537.3" y="-70" name="bottom"/>
+  <anchor x="537.3" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="493.9" y="1157.8" type="line"/>
+      <point x="493.9" y="1157.8" type="line" name="n00"/>
       <point x="493.9" y="1022.5"/>
       <point x="432.6" y="935.9"/>
-      <point x="311.8" y="935.9" type="curve" smooth="yes"/>
+      <point x="311.8" y="935.9" type="curve" smooth="yes" name="n03"/>
       <point x="190.8" y="935.9"/>
       <point x="129.4" y="1022.5"/>
-      <point x="129.4" y="1157.8" type="curve"/>
-      <point x="86.6" y="1157.8" type="line"/>
+      <point x="129.4" y="1157.8" type="curve" name="n06"/>
+      <point x="86.6" y="1157.8" type="line" name="n07"/>
       <point x="86.6" y="1002.7"/>
       <point x="169.9" y="903.1"/>
-      <point x="311.8" y="903.1" type="curve" smooth="yes"/>
+      <point x="311.8" y="903.1" type="curve" smooth="yes" name="n10"/>
       <point x="454.5" y="903.1"/>
       <point x="536.8" y="1002.7"/>
-      <point x="536.8" y="1157.8" type="curve"/>
+      <point x="536.8" y="1157.8" type="curve" name="n13"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="903.1" width="32.8" />
+      <hstem pos="1157.8" width="-20" />
+      <vstem pos="86.6" width="42.8" />
+      <vstem pos="493.9" width="42.9" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

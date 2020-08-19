@@ -1,42 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Vturned" format="2">
-  <advance width="1369.238"/>
+  <advance width="1369"/>
   <unicode hex="0245"/>
-  <anchor x="684.2860000000001" y="1515.314" name="Top"/>
-  <anchor x="684.2860000000001" y="1515.314" name="top"/>
-  <anchor x="684.2860000000001" y="-70.0" name="bottom"/>
+  <anchor x="684.286" y="1515.31" name="Top"/>
+  <anchor x="684.286" y="-70" name="bottom"/>
+  <anchor x="684.286" y="1515.31" name="top"/>
   <outline>
     <contour>
-      <point x="-4.952000000000005" y="0.0" type="line"/>
-      <point x="169.556" y="0.0" type="line" smooth="yes"/>
-      <point x="208.856" y="0.0"/>
-      <point x="237.5" y="26.644000000000002"/>
-      <point x="247.49200000000002" y="53.956" type="curve"/>
-      <point x="617.004" y="995.664" type="line" smooth="yes"/>
-      <point x="662.968" y="1115.568"/>
-      <point x="696.276" y="1300.068"/>
-      <point x="702.276" y="1439.96" type="curve"/>
+      <point x="-4.952" y="0" type="line" name="n00"/>
+      <point x="169.556" y="0" type="line" smooth="yes"/>
+      <point x="208.856" y="0"/>
+      <point x="237.5" y="26.644"/>
+      <point x="247.492" y="53.956" type="curve"/>
+      <point x="617.004" y="995.664" type="line"/>
+      <point x="662.968" y="1115.57"/>
+      <point x="696.276" y="1300.07"/>
+      <point x="702.276" y="1439.96" type="curve" name="n08"/>
       <point x="579.048" y="1439.96" type="line"/>
     </contour>
     <contour>
       <point x="789.524" y="1439.96" type="line"/>
       <point x="634.328" y="1439.96" type="line"/>
-      <point x="631.004" y="1300.068"/>
-      <point x="677.6320000000001" y="1115.568"/>
-      <point x="723.596" y="995.664" type="curve" smooth="yes"/>
-      <point x="1094.44" y="53.956" type="line"/>
-      <point x="1107.096" y="22.648"/>
-      <point x="1132.408" y="0.0"/>
-      <point x="1173.04" y="0.0" type="curve" smooth="yes"/>
-      <point x="1373.524" y="0.0" type="line"/>
+      <point x="631.004" y="1300.07"/>
+      <point x="677.632" y="1115.57"/>
+      <point x="723.596" y="995.664" type="curve"/>
+      <point x="1094.44" y="53.956" type="line" smooth="yes"/>
+      <point x="1107.1" y="22.648"/>
+      <point x="1132.41" y="0"/>
+      <point x="1173.04" y="0" type="curve" smooth="yes"/>
+      <point x="1373.52" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Lambda=Vturned</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Lambda=Vturned</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1439.96" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

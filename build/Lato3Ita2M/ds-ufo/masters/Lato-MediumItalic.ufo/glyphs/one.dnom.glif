@@ -1,23 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.dnom" format="2">
-  <advance width="668.0"/>
-  <guideline x="314.4" y="0.0" angle="82.9991"/>
+  <advance width="668"/>
   <outline>
     <contour>
-      <point x="345.2" y="732.4" type="line"/>
+      <point x="345.2" y="732.4" type="line" name="n00"/>
       <point x="296.4" y="516.8" type="line"/>
-      <point x="233.2" y="0.0" type="line"/>
-      <point x="370.0" y="0.0" type="line"/>
+      <point x="233.2" y="0" type="line"/>
+      <point x="370" y="0" type="line"/>
       <point x="459.6" y="732.4" type="line"/>
     </contour>
     <contour>
-      <point x="86.8" y="0.0" type="line"/>
-      <point x="486.4" y="0.0" type="line"/>
-      <point x="498.0" y="100.8" type="line"/>
-      <point x="99.6" y="100.8" type="line"/>
+      <point x="86.8" y="0" type="line" name="n05"/>
+      <point x="486.4" y="0" type="line"/>
+      <point x="498" y="100.8" type="line"/>
+      <point x="99.6" y="100.8" type="line" name="n08"/>
     </contour>
     <contour>
-      <point x="98.0" y="542.4" type="line"/>
+      <point x="98" y="542.4" type="line"/>
       <point x="132.8" y="483.2" type="line"/>
       <point x="141.6" y="470.8"/>
       <point x="166.8" y="458.8"/>
@@ -26,10 +25,18 @@
       <point x="345.2" y="732.4" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="315" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="100.8" />
+      <hstem pos="732.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

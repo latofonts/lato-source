@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L.sups" format="2">
-  <advance width="533.24"/>
+  <advance width="533"/>
   <outline>
     <contour>
-      <point x="294.68" y="1665.44" type="line"/>
+      <point x="294.68" y="1665.44" type="line" name="n00"/>
       <point x="85.88" y="1665.44" type="line"/>
       <point x="85.88" y="918.56" type="line"/>
-      <point x="294.68" y="918.56" type="line"/>
+      <point x="294.68" y="918.56" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="277.36" y="1093.44" type="line"/>
-      <point x="277.36" y="918.56" type="line"/>
+      <point x="277.36" y="1093.44" type="line" name="n04"/>
+      <point x="277.36" y="918.56" type="line" name="n05"/>
       <point x="547.12" y="918.56" type="line"/>
       <point x="547.12" y="1093.44" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Lmod=L.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Lmod=L.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="918.56" width="174.88" />
+      <hstem pos="1665.44" width="-20" />
+      <vstem pos="277.36" width="17.32" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

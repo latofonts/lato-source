@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rtail" format="2">
   <advance width="1227"/>
   <unicode hex="2C64"/>
-  <guideline x="628" y="0" angle="82.9991"/>
   <anchor x="668" y="1525" name="Top"/>
   <anchor x="668" y="1525" name="top"/>
   <anchor x="527" y="-421" name="bottom"/>
@@ -45,7 +44,9 @@
     </contour>
     <contour>
       <point x="393" y="86" type="line"/>
-      <point x="67" y="86" type="line"/>
+      <point x="393" y="86"/>
+      <point x="67" y="86"/>
+      <point x="67" y="86" type="curve"/>
       <point x="65" y="68" type="line" smooth="yes"/>
       <point x="35" y="-174"/>
       <point x="121" y="-354"/>
@@ -65,10 +66,20 @@
       <point x="387" y="33" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="628" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-354" width="222" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="539" width="235" />
+      <hstem pos="1204" width="255" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

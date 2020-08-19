@@ -1,34 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft.dnom" format="2">
-  <advance width="334.0"/>
+  <advance width="334"/>
   <outline>
     <contour>
-      <point x="142.75" y="356.0" type="curve" smooth="yes"/>
-      <point x="142.75" y="501.0"/>
-      <point x="181.25" y="639.0"/>
-      <point x="255.75" y="763.0" type="curve"/>
+      <point x="142.75" y="356" type="curve" smooth="yes" name="n00"/>
+      <point x="142.75" y="501"/>
+      <point x="181.25" y="639"/>
+      <point x="255.75" y="763" type="curve"/>
       <point x="264.75" y="780.5"/>
-      <point x="258.25" y="787.0"/>
+      <point x="258.25" y="787"/>
       <point x="249.75" y="792.5" type="curve"/>
-      <point x="218.25" y="811.5" type="line"/>
-      <point x="117.75" y="656.0"/>
+      <point x="218.25" y="811.5" type="line" name="n07"/>
+      <point x="117.75" y="656"/>
       <point x="79.75" y="514.5"/>
-      <point x="79.75" y="356.0" type="curve" smooth="yes"/>
-      <point x="79.75" y="196.0"/>
-      <point x="117.75" y="55.0"/>
-      <point x="218.25" y="-101.0" type="curve"/>
-      <point x="249.75" y="-81.5" type="line"/>
+      <point x="79.75" y="356" type="curve" smooth="yes" name="n10"/>
+      <point x="79.75" y="196"/>
+      <point x="117.75" y="55"/>
+      <point x="218.25" y="-101" type="curve" name="n13"/>
+      <point x="249.75" y="-81.5" type="line" smooth="yes"/>
       <point x="258.25" y="-76.5"/>
-      <point x="264.75" y="-68.0"/>
-      <point x="255.75" y="-52.0" type="curve" smooth="yes"/>
+      <point x="264.75" y="-68"/>
+      <point x="255.75" y="-52" type="curve"/>
       <point x="181.25" y="71.5"/>
-      <point x="142.75" y="210.0"/>
+      <point x="142.75" y="210"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-80" width="-21" />
+      <hstem pos="811.5" width="-20" />
+      <vstem pos="79.75" width="63" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

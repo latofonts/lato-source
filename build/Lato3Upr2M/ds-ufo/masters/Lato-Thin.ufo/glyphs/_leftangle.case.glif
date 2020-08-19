@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_leftangle.case" format="2">
-  <advance width="738.0"/>
+  <advance width="738"/>
   <outline>
     <contour>
-      <point x="532.8" y="1575.0" type="line"/>
-      <point x="571.0" y="1575.0" type="line"/>
-      <point x="571.0" y="1982.0" type="line"/>
-      <point x="532.8" y="1982.0" type="line"/>
+      <point x="532.8" y="1575" type="line" name="n00"/>
+      <point x="571" y="1575" type="line" name="n01"/>
+      <point x="571" y="1982" type="line"/>
+      <point x="532.8" y="1982" type="line"/>
     </contour>
     <contour>
-      <point x="167.0" y="1946.0" type="line"/>
-      <point x="571.0" y="1946.0" type="line"/>
-      <point x="571.0" y="1982.0" type="line"/>
-      <point x="167.0" y="1982.0" type="line"/>
+      <point x="167" y="1946" type="line" name="n04"/>
+      <point x="571" y="1946" type="line"/>
+      <point x="571" y="1982" type="line"/>
+      <point x="167" y="1982" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_angleleft=_leftangle.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_angleleft=_leftangle.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1596" width="-21" />
+      <hstem pos="1946" width="36" />
+      <vstem pos="532.8" width="38.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

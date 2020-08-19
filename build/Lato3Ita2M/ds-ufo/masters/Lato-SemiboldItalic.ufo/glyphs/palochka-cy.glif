@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palochka-cy" format="2">
-  <advance width="549.246"/>
+  <advance width="549"/>
   <unicode hex="04CF"/>
-  <guideline x="286.648" y="0.0" angle="82.9991"/>
-  <anchor x="384.29200000000003" y="1515.314" name="Top"/>
-  <anchor x="-39.286" y="1120.0" name="onRight"/>
-  <anchor x="384.29200000000003" y="1515.314" name="top"/>
-  <anchor x="194.626" y="-70.0" name="bottom"/>
+  <anchor x="384.292" y="1515.31" name="Top"/>
+  <anchor x="194.626" y="-70" name="bottom"/>
+  <anchor x="-39.286" y="1120" name="onRight"/>
+  <anchor x="384.292" y="1515.31" name="top"/>
   <outline>
     <contour>
-      <point x="489.18600000000004" y="1439.96" type="line"/>
+      <point x="489.186" y="1439.96" type="line" name="n00"/>
       <point x="262.722" y="1439.96" type="line"/>
-      <point x="86.726" y="0.0" type="line"/>
-      <point x="313.19" y="0.0" type="line"/>
+      <point x="86.726" y="0" type="line" name="n02"/>
+      <point x="313.19" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="268" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I=palochkacyr</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I=palochkacyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1439.96" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

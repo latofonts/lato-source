@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronpsilioxiacomb" format="2">
-  <guideline x="180" y="0" angle="82.9991"/>
   <anchor x="-43" y="1037" name="_top"/>
   <anchor x="101" y="1824" name="top"/>
   <outline>
@@ -38,7 +37,9 @@
       <point x="245" y="1738"/>
       <point x="110" y="1738"/>
       <point x="110" y="1738" type="curve" name="hr01"/>
-      <point x="17" y="1338" type="line"/>
+      <point x="110" y="1738"/>
+      <point x="17" y="1338"/>
+      <point x="17" y="1338" type="curve"/>
     </contour>
     <contour>
       <point x="-336" y="1108" type="line"/>
@@ -47,12 +48,21 @@
       <point x="-312" y="1306" type="line" name="hr02"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="180" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1108" width="198" />
+      <hstem pos="1108" width="630" />
+      <hstem pos="1752" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="boxLightUpAndRight" format="2">
   <advance width="1500"/>
   <unicode hex="2514"/>
-  <guideline x="750" y="0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="650" y="500" type="line"/>
@@ -17,10 +16,18 @@
       <point x="850" y="1700" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="750" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="500" width="200" />
+      <hstem pos="1700" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

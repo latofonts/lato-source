@@ -1,8 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fermatacomb" format="2">
   <unicode hex="0352"/>
-  <guideline x="-146"/>
-  <guideline x="-414" y="0" angle="82.9991"/>
   <anchor x="-30" y="997" name="_top"/>
   <anchor x="40" y="1708" name="top"/>
   <outline>
@@ -37,14 +35,23 @@
       <point x="161" y="1499"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-146" y="0"/>
+  <guideline angle="82.9991" x="-414" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_fermata=fermatacomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_fermata=fermatacomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1236" width="110" />
+      <hstem pos="1481" width="18" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lje-cy" format="2">
   <advance width="2156"/>
   <unicode hex="0409"/>
@@ -6,6 +6,7 @@
   <anchor x="884" y="1525" name="top"/>
   <anchor x="689" y="-70" name="bottom"/>
   <outline>
+    <component base="El-cy"/>
     <contour>
       <point x="1370" y="880" type="line"/>
       <point x="1370" y="614" type="line"/>
@@ -26,14 +27,21 @@
       <point x="1978" y="880"/>
       <point x="1576" y="880" type="curve" smooth="yes"/>
     </contour>
-    <component base="El-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="266" />
+      <hstem pos="614" width="266" />
+      <vstem pos="1796" width="334" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

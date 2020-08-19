@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yogh" format="2">
   <advance width="1108"/>
   <unicode hex="021C"/>
-  <guideline y="1407"/>
-  <guideline x="536" y="0" angle="82.9991"/>
   <anchor x="610" y="1525" name="Top"/>
   <anchor x="610" y="1525" name="top"/>
   <anchor x="429" y="-70" name="bottom"/>
@@ -48,7 +46,9 @@
       <point x="862" y="922"/>
       <point x="609" y="922" type="curve" smooth="yes"/>
       <point x="484" y="922" type="line"/>
-      <point x="401" y="818" type="line"/>
+      <point x="484" y="922"/>
+      <point x="401" y="818"/>
+      <point x="401" y="818" type="curve"/>
     </contour>
     <contour>
       <point x="174" y="1459" type="line"/>
@@ -57,14 +57,24 @@
       <point x="1104" y="1459" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1407"/>
+  <guideline angle="82.9991" x="536" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Ezh</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Ezh=YoghYogh</string>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Ezh</string>
+    <key>note</key>
+    <string>Ezh=YoghYogh</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-14" width="275" />
+      <hstem pos="744" width="178" />
+      <hstem pos="1197" width="262" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

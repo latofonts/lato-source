@@ -1,20 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vcomb" format="2">
   <unicode hex="036E"/>
-  <guideline x="-170.8" y="0.0" angle="82.9991"/>
-  <anchor x="-61.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1690.0" name="top"/>
+  <anchor x="-61" y="1037" name="_top"/>
+  <anchor x="0" y="1690" name="top"/>
   <outline>
     <contour>
-      <point x="-110.8" y="1120.6" type="line"/>
+      <point x="-110.8" y="1120.6" type="line" name="n00"/>
       <point x="-42.2" y="1120.6" type="line"/>
-      <point x="-42.8" y="1194.0"/>
-      <point x="-43.8" y="1258.0"/>
-      <point x="-51.4" y="1331.6" type="curve" smooth="yes"/>
-      <point x="-90.80000000000001" y="1556.2" type="line"/>
+      <point x="-42.8" y="1194"/>
+      <point x="-43.8" y="1258"/>
+      <point x="-51.4" y="1331.6" type="curve"/>
+      <point x="-90.8" y="1556.2" type="line"/>
       <point x="-91.4" y="1569.2"/>
-      <point x="-104.0" y="1578.6"/>
-      <point x="-121.0" y="1578.6" type="curve" smooth="yes"/>
+      <point x="-104" y="1578.6" name="n07"/>
+      <point x="-121" y="1578.6" type="curve" smooth="yes"/>
       <point x="-220.2" y="1578.6" type="line"/>
     </contour>
     <contour>
@@ -22,22 +21,30 @@
       <point x="125.6" y="1578.6" type="line" smooth="yes"/>
       <point x="110.6" y="1578.6"/>
       <point x="95.4" y="1568.4"/>
-      <point x="91.0" y="1556.2" type="curve"/>
-      <point x="-5.0" y="1331.6" type="line"/>
-      <point x="-32.2" y="1257.0"/>
-      <point x="-49.2" y="1194.0"/>
-      <point x="-67.0" y="1120.6" type="curve"/>
-      <point x="-1.8000000000000043" y="1120.6" type="line"/>
+      <point x="91" y="1556.2" type="curve"/>
+      <point x="-5" y="1331.6" type="line"/>
+      <point x="-32.2" y="1257"/>
+      <point x="-49.2" y="1194"/>
+      <point x="-67" y="1120.6" type="curve"/>
+      <point x="-1.8" y="1120.6" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-163" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_v=vcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_v=vcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1141.6" width="-21" />
+      <hstem pos="1578.6" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

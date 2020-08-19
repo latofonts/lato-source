@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_idieresis" format="2">
-  <advance width="1719.56"/>
-  <guideline x="857.02" y="0.0" angle="82.9991"/>
-  <anchor x="1540.94" y="1120.0" name="top"/>
-  <anchor x="1394.38" y="-70.0" name="bottom"/>
+  <advance width="1720"/>
   <anchor x="1462.14" y="485.98" name="bar"/>
+  <anchor x="1394.38" y="-70" name="bottom"/>
+  <anchor x="1540.94" y="1120" name="top"/>
   <outline>
+    <component base="f_f_idotless"/>
     <contour>
       <point x="1576.46" y="1293.26" type="curve" smooth="yes"/>
       <point x="1576.46" y="1363.04"/>
       <point x="1519.6" y="1419.46"/>
-      <point x="1451.04" y="1419.46" type="curve" smooth="yes"/>
+      <point x="1451.04" y="1419.46" type="curve" smooth="yes" name="n03"/>
       <point x="1385.94" y="1419.46"/>
       <point x="1328.74" y="1363.04"/>
       <point x="1328.74" y="1293.26" type="curve" smooth="yes"/>
       <point x="1328.74" y="1226.26"/>
       <point x="1385.94" y="1172.18"/>
-      <point x="1451.04" y="1172.18" type="curve" smooth="yes"/>
+      <point x="1451.04" y="1172.18" type="curve" smooth="yes" name="n09"/>
       <point x="1519.6" y="1172.18"/>
       <point x="1576.46" y="1226.26"/>
     </contour>
@@ -34,14 +34,20 @@
       <point x="1825.94" y="1172.18"/>
       <point x="1882.02" y="1226.26"/>
     </contour>
-    <component base="f_f_idotless"/>
   </outline>
+  <guideline angle="82.9991" x="733" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1172.18" width="247.28" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

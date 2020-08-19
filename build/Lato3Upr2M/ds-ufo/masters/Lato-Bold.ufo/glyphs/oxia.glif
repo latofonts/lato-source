@@ -1,26 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oxia" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <unicode hex="1FFD"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
-  <anchor x="420.0" y="1120.0" name="_onRight"/>
+  <anchor x="420" y="1120" name="_onRight"/>
+  <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="463.22" y="1116.48" type="line"/>
+      <point x="463.22" y="1116.48" type="line" name="n00"/>
       <point x="577.58" y="1396.4" type="line"/>
       <point x="593.72" y="1444.94"/>
-      <point x="577.14" y="1476.44"/>
+      <point x="577.14" y="1476.44" name="n03"/>
       <point x="530.82" y="1476.44" type="curve" smooth="yes"/>
       <point x="495.42" y="1476.44"/>
       <point x="377.56" y="1476.44"/>
       <point x="377.56" y="1476.44" type="curve"/>
-      <point x="321.2" y="1116.48" type="line"/>
+      <point x="377.56" y="1476.44"/>
+      <point x="321.2" y="1116.48"/>
+      <point x="321.2" y="1116.48" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1137.48" width="-21" />
+      <hstem pos="1476.44" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

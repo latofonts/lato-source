@@ -1,27 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="variacomb" format="2">
-  <guideline x="262.978" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="92.62" y="1126.056" type="line"/>
-      <point x="77.58200000000001" y="1465.268" type="line"/>
-      <point x="77.58200000000001" y="1465.268"/>
-      <point x="-16.668" y="1465.268"/>
-      <point x="-45.650000000000006" y="1465.268" type="curve" smooth="yes"/>
-      <point x="-83.956" y="1465.268"/>
-      <point x="-100.614" y="1436.618"/>
+      <point x="92.62" y="1126.06" type="line" name="n00"/>
+      <point x="92.62" y="1126.06"/>
+      <point x="77.582" y="1465.27" name="n02"/>
+      <point x="77.582" y="1465.27" type="curve"/>
+      <point x="77.582" y="1465.27"/>
+      <point x="-16.668" y="1465.27"/>
+      <point x="-45.65" y="1465.27" type="curve" smooth="yes"/>
+      <point x="-83.956" y="1465.27"/>
+      <point x="-100.614" y="1436.62"/>
       <point x="-92.618" y="1392.98" type="curve"/>
-      <point x="-21.616" y="1126.056" type="line"/>
+      <point x="-21.616" y="1126.06" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="241" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1147.056" width="-21" />
+      <hstem pos="1465.268" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

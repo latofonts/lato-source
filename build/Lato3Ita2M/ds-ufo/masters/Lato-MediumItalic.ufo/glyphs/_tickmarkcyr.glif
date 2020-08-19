@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_tickmarkcyr" format="2">
-  <advance width="647.0"/>
-  <guideline x="323.2" y="0.0" angle="82.9991"/>
-  <anchor x="334.4" y="580.0" name="_tick"/>
+  <advance width="647"/>
+  <anchor x="334.4" y="580" name="_tick"/>
   <outline>
     <contour>
       <point x="182.4" y="780.6" type="line"/>
-      <point x="414.8" y="303.6" type="line"/>
-      <point x="548.0" y="382.8" type="line"/>
-      <point x="315.6" y="859.8" type="line"/>
+      <point x="414.8" y="303.6" type="line" name="n01"/>
+      <point x="548" y="382.8" type="line"/>
+      <point x="315.6" y="859.8" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="295" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="324.6" width="-21" />
+      <hstem pos="859.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

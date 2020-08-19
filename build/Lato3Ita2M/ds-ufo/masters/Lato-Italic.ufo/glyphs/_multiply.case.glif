@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_multiply.case" format="2">
-  <advance width="711.42"/>
-  <guideline x="355.44" y="0.0" angle="82.9991"/>
+  <advance width="711"/>
   <anchor x="362.32" y="1511.66" name="_Top"/>
   <outline>
     <contour>
-      <point x="665.7" y="1525.6" type="line"/>
-      <point x="741.72" y="1599.0" type="line"/>
-      <point x="439.36" y="1973.68" type="line"/>
+      <point x="665.7" y="1525.6" type="line" name="n00"/>
+      <point x="741.72" y="1599" type="line"/>
+      <point x="439.36" y="1973.68" type="line" name="n02"/>
       <point x="364.34" y="1900.28" type="line"/>
     </contour>
     <contour>
-      <point x="329.12" y="1599.0" type="line"/>
+      <point x="329.12" y="1599" type="line"/>
       <point x="388.72" y="1525.6" type="line"/>
       <point x="776.4" y="1900.28" type="line"/>
       <point x="716.88" y="1973.68" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="336" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_multiply=_multiply.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_multiply=_multiply.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1546.6" width="-21" />
+      <hstem pos="1973.68" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

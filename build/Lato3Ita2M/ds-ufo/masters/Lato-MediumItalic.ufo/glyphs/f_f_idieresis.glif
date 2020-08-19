@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_idieresis" format="2">
-  <advance width="1665.2"/>
-  <guideline x="828.4" y="0.0" angle="82.9991"/>
-  <anchor x="1500.8" y="1120.0" name="top"/>
-  <anchor x="1354.6" y="-70.0" name="bottom"/>
+  <advance width="1665"/>
   <anchor x="1423.8" y="496.6" name="bar"/>
+  <anchor x="1354.6" y="-70" name="bottom"/>
+  <anchor x="1500.8" y="1120" name="top"/>
   <outline>
+    <component base="f_f_idotless"/>
     <contour>
       <point x="1512.2" y="1290.2" type="curve" smooth="yes"/>
       <point x="1512.2" y="1350.8"/>
-      <point x="1462.0" y="1400.2"/>
-      <point x="1402.8" y="1400.2" type="curve" smooth="yes"/>
+      <point x="1462" y="1400.2"/>
+      <point x="1402.8" y="1400.2" type="curve" smooth="yes" name="n03"/>
       <point x="1345.8" y="1400.2"/>
       <point x="1295.8" y="1350.8"/>
       <point x="1295.8" y="1290.2" type="curve" smooth="yes"/>
       <point x="1295.8" y="1232.2"/>
       <point x="1345.8" y="1184.6"/>
-      <point x="1402.8" y="1184.6" type="curve" smooth="yes"/>
-      <point x="1462.0" y="1184.6"/>
+      <point x="1402.8" y="1184.6" type="curve" smooth="yes" name="n09"/>
+      <point x="1462" y="1184.6"/>
       <point x="1512.2" y="1232.2"/>
     </contour>
     <contour>
@@ -26,22 +26,28 @@
       <point x="1758.8" y="1400.2"/>
       <point x="1699.6" y="1400.2" type="curve" smooth="yes"/>
       <point x="1640.2" y="1400.2"/>
-      <point x="1592.0" y="1350.8"/>
-      <point x="1592.0" y="1290.2" type="curve" smooth="yes"/>
-      <point x="1592.0" y="1232.2"/>
+      <point x="1592" y="1350.8"/>
+      <point x="1592" y="1290.2" type="curve" smooth="yes"/>
+      <point x="1592" y="1232.2"/>
       <point x="1640.2" y="1184.6"/>
       <point x="1699.6" y="1184.6" type="curve" smooth="yes"/>
       <point x="1758.8" y="1184.6"/>
       <point x="1808.4" y="1232.2"/>
     </contour>
-    <component base="f_f_idotless"/>
   </outline>
+  <guideline angle="82.9991" x="733" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1184.6" width="215.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

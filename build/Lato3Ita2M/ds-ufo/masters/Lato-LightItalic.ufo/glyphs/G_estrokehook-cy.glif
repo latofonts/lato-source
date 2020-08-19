@@ -1,47 +1,57 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gestrokehook-cy" format="2">
-  <advance width="1069.0"/>
+  <advance width="1069"/>
   <unicode hex="04FA"/>
-  <guideline x="547.75" y="0.0" angle="82.9991"/>
   <anchor x="715.75" y="1503.25" name="Top"/>
+  <anchor x="236.5" y="-70" name="bottom"/>
   <anchor x="715.75" y="1503.25" name="top"/>
-  <anchor x="236.5" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Ge-cy" xOffset="67.5"/>
     <contour>
-      <point x="61.5" y="788.75" type="line"/>
-      <point x="52.5" y="711.5" type="line"/>
+      <point x="61.5" y="788.75" type="line" name="n00"/>
+      <point x="52.5" y="711.5" type="line" name="n01"/>
       <point x="699.25" y="711.5" type="line"/>
       <point x="708.25" y="788.75" type="line"/>
     </contour>
     <contour>
       <point x="408.75" y="-93.25" type="line" smooth="yes"/>
       <point x="392.75" y="-219.75"/>
-      <point x="351.0" y="-303.75"/>
+      <point x="351" y="-303.75"/>
       <point x="251.75" y="-303.75" type="curve" smooth="yes"/>
-      <point x="204.0" y="-303.75"/>
-      <point x="170.75" y="-284.0"/>
-      <point x="159.5" y="-284.0" type="curve" smooth="yes"/>
-      <point x="151.5" y="-284.0"/>
+      <point x="204" y="-303.75"/>
+      <point x="170.75" y="-284"/>
+      <point x="159.5" y="-284" type="curve" smooth="yes" name="n10"/>
+      <point x="151.5" y="-284"/>
       <point x="140.25" y="-286.75"/>
       <point x="133.25" y="-304.25" type="curve"/>
-      <point x="121.5" y="-340.0" type="line"/>
+      <point x="121.5" y="-340" type="line"/>
       <point x="165.75" y="-360.5"/>
-      <point x="205.0" y="-370.5"/>
-      <point x="248.25" y="-370.5" type="curve" smooth="yes"/>
+      <point x="205" y="-370.5"/>
+      <point x="248.25" y="-370.5" type="curve" smooth="yes" name="n17"/>
       <point x="401.25" y="-370.5"/>
       <point x="467.5" y="-274.75"/>
       <point x="487.25" y="-114.25" type="curve" smooth="yes"/>
       <point x="510.75" y="79.5" type="line"/>
-      <point x="296.75" y="79.5" type="line"/>
-      <point x="287.5" y="0.0" type="line"/>
-      <point x="420.0" y="0.0" type="line"/>
+      <point x="510.75" y="79.5"/>
+      <point x="296.75" y="79.5"/>
+      <point x="296.75" y="79.5" type="curve"/>
+      <point x="287.5" y="0" type="line" name="n25"/>
+      <point x="420" y="0" type="line"/>
     </contour>
-    <component base="Ge-cy" xOffset="67.5"/>
   </outline>
+  <guideline angle="82.9991" x="544" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-370.5" width="86.5" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="711.5" width="77.25" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

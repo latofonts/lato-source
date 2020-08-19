@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iotamod" format="2">
-  <advance width="283.4"/>
+  <advance width="283"/>
   <unicode hex="1DA5"/>
-  <anchor x="189.4" y="1120.0" name="tonos"/>
-  <anchor x="141.7" y="-70.0" name="bottom"/>
+  <anchor x="141.7" y="-70" name="bottom"/>
+  <anchor x="189.4" y="1120" name="tonos"/>
   <outline>
     <contour>
-      <point x="97.6" y="1026.3" type="line" smooth="yes"/>
+      <point x="97.6" y="1026.3" type="line" smooth="yes" name="n00"/>
       <point x="97.6" y="948.9"/>
-      <point x="137.1" y="902.6"/>
+      <point x="137.1" y="902.6" name="n02"/>
       <point x="210.4" y="902.6" type="curve" smooth="yes"/>
       <point x="243.8" y="902.6"/>
       <point x="257.8" y="909.4"/>
@@ -17,15 +17,23 @@
       <point x="223.9" y="934.6" type="line" smooth="yes"/>
       <point x="165.7" y="934.6"/>
       <point x="138.9" y="967.4"/>
-      <point x="138.9" y="1027.6" type="curve"/>
-      <point x="138.9" y="1406.2" type="line"/>
+      <point x="138.9" y="1027.6" type="curve" smooth="yes" name="n11"/>
+      <point x="138.9" y="1406.2" type="line" name="n12"/>
       <point x="97.6" y="1406.2" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="923.6" width="-21" />
+      <hstem pos="1406.2" width="-20" />
+      <vstem pos="97.6" width="41.3" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

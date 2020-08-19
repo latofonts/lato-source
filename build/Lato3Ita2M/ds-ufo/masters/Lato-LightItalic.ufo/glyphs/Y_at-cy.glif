@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yat-cy" format="2">
-  <advance width="1318.5"/>
+  <advance width="1319"/>
   <unicode hex="0462"/>
-  <guideline x="704.25" y="0.0" angle="82.9991"/>
-  <anchor x="764.0" y="1503.25" name="Top"/>
-  <anchor x="764.0" y="1503.25" name="top"/>
-  <anchor x="642.0" y="-70.0" name="bottom"/>
+  <anchor x="764" y="1503.25" name="Top"/>
+  <anchor x="642" y="-70" name="bottom"/>
+  <anchor x="764" y="1503.25" name="top"/>
   <outline>
+    <component base="Softsign-cy" xOffset="209"/>
     <contour>
       <point x="118.25" y="1090.75" type="line"/>
-      <point x="994.5" y="1090.75" type="line"/>
-      <point x="1003.25" y="1167.5" type="line"/>
-      <point x="128.0" y="1167.5" type="line"/>
+      <point x="994.5" y="1090.75" type="line" name="n01"/>
+      <point x="1003.25" y="1167.5" type="line" name="n02"/>
+      <point x="128" y="1167.5" type="line"/>
     </contour>
-    <component base="Softsign-cy" xOffset="209.0"/>
   </outline>
+  <guideline angle="82.9991" x="697" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1090.75" width="76.75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

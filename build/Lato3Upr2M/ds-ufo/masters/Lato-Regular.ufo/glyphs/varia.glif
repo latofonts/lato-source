@@ -1,13 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="varia" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <unicode hex="1FEF"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
-  <anchor x="420.0" y="1120.0" name="_onRight"/>
+  <anchor x="420" y="1120" name="_onRight"/>
+  <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="457.08" y="1136.64" type="line"/>
-      <point x="391.6" y="1452.92" type="line"/>
+      <point x="457.08" y="1136.64" type="line" name="n00"/>
+      <point x="457.08" y="1136.64"/>
+      <point x="391.6" y="1452.92" name="n02"/>
+      <point x="391.6" y="1452.92" type="curve"/>
       <point x="391.6" y="1452.92"/>
       <point x="306.62" y="1452.92"/>
       <point x="278.42" y="1452.92" type="curve" smooth="yes"/>
@@ -18,9 +20,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1157.64" width="-21" />
+      <hstem pos="1452.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

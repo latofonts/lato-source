@@ -1,43 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squarebelowcomb" format="2">
   <unicode hex="033B"/>
-  <guideline x="63.666" y="0.0" angle="82.9991"/>
-  <anchor x="-49.980000000000004" y="-595.0" name="bottom"/>
-  <anchor x="66.66" y="0.0" name="_bottom"/>
+  <anchor x="66.66" y="0" name="_bottom"/>
+  <anchor x="-49.98" y="-595" name="bottom"/>
   <outline>
     <contour>
-      <point x="-259.278" y="-507.294" type="line"/>
+      <point x="-259.278" y="-507.294" type="line" name="n00"/>
       <point x="-125.062" y="-507.294" type="line"/>
       <point x="-69.402" y="-50.686" type="line"/>
       <point x="-202.952" y="-50.686" type="line"/>
     </contour>
     <contour>
       <point x="-219.272" y="-177.244" type="line"/>
-      <point x="243.292" y="-177.244" type="line"/>
-      <point x="258.612" y="-50.686" type="line"/>
+      <point x="243.292" y="-177.244" type="line" name="n05"/>
+      <point x="258.612" y="-50.686" type="line" name="n06"/>
       <point x="-202.952" y="-50.686" type="line"/>
     </contour>
     <contour>
       <point x="258.612" y="-50.686" type="line"/>
       <point x="125.062" y="-50.686" type="line"/>
-      <point x="68.73599999999999" y="-507.294" type="line"/>
+      <point x="68.736" y="-507.294" type="line"/>
       <point x="203.286" y="-507.294" type="line"/>
     </contour>
     <contour>
       <point x="218.606" y="-379.404" type="line"/>
-      <point x="-243.958" y="-379.404" type="line"/>
+      <point x="-243.958" y="-379.404" type="line" name="n13"/>
       <point x="-259.278" y="-507.294" type="line"/>
       <point x="203.286" y="-507.294" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="63" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_squarebelow=squarebelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_squarebelow=squarebelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-507.294" width="127.89" />
+      <hstem pos="-177.244" width="126.558" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

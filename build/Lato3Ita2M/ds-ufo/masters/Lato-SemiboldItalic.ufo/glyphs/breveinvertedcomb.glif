@@ -1,35 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb" format="2">
   <unicode hex="0311"/>
-  <guideline x="-134.334" y="0.0" angle="82.9991"/>
-  <anchor x="-40.0" y="1057.0" name="_top"/>
-  <anchor x="70.0" y="1625.0" name="top"/>
+  <anchor x="-40" y="1057" name="_top"/>
+  <anchor x="70" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="29.994" y="1454.96" type="curve"/>
-      <point x="-169.27800000000002" y="1454.96"/>
-      <point x="-250.264" y="1328.316"/>
-      <point x="-266.928" y="1177.676" type="curve"/>
-      <point x="-128.714" y="1177.676" type="line"/>
+      <point x="29.994" y="1454.96" type="curve" smooth="yes" name="n00"/>
+      <point x="-169.278" y="1454.96"/>
+      <point x="-250.264" y="1328.32"/>
+      <point x="-266.928" y="1177.68" type="curve" name="n03"/>
+      <point x="-128.714" y="1177.68" type="line"/>
       <point x="-119.378" y="1261.7"/>
-      <point x="-84.688" y="1317.744"/>
-      <point x="14.008" y="1317.744" type="curve"/>
-      <point x="113.70400000000001" y="1317.744"/>
+      <point x="-84.688" y="1317.74"/>
+      <point x="14.008" y="1317.74" type="curve" smooth="yes" name="n07"/>
+      <point x="113.704" y="1317.74"/>
       <point x="134.718" y="1261.7"/>
-      <point x="125.714" y="1177.676" type="curve"/>
-      <point x="263.928" y="1177.676" type="line"/>
-      <point x="280.924" y="1328.316"/>
-      <point x="229.26600000000002" y="1454.96"/>
+      <point x="125.714" y="1177.68" type="curve"/>
+      <point x="263.928" y="1177.68" type="line"/>
+      <point x="280.924" y="1328.32"/>
+      <point x="229.266" y="1454.96"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-135" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1198.676" width="-21" />
+      <hstem pos="1317.744" width="137.216" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

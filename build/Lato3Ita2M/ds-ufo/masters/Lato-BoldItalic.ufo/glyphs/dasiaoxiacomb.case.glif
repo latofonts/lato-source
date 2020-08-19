@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dasiaoxiacomb.case" format="2">
-  <guideline x="179.74" y="0.0" angle="82.9991"/>
-  <anchor x="-25.0" y="1040.0" name="_Top"/>
-  <anchor x="128.0" y="1120.0" name="_onRight"/>
-  <anchor x="20.0" y="1612.0" name="top"/>
+  <anchor x="-25" y="1040" name="_Top"/>
+  <anchor x="128" y="1120" name="_onRight"/>
+  <anchor x="20" y="1612" name="top"/>
   <outline>
     <contour>
       <point x="-205.18" y="1287.08" type="line"/>
@@ -12,20 +11,20 @@
       <point x="-142.78" y="1269.32" type="curve" smooth="yes"/>
       <point x="-54.72" y="1269.32"/>
       <point x="-18.9" y="1318.96"/>
-      <point x="-12.560000000000002" y="1373.14" type="curve" smooth="yes"/>
-      <point x="-3.8799999999999955" y="1441.02"/>
-      <point x="-40.04" y="1490.66"/>
+      <point x="-12.56" y="1373.14" type="curve" smooth="yes"/>
+      <point x="-3.88" y="1441.02"/>
+      <point x="-40.04" y="1490.66" name="n08"/>
       <point x="-112.94" y="1490.66" type="curve" smooth="yes"/>
       <point x="-200.22" y="1490.66"/>
-      <point x="-254.3" y="1436.0"/>
+      <point x="-254.3" y="1436"/>
       <point x="-266.2" y="1340.36" type="curve" smooth="yes"/>
       <point x="-281.22" y="1214.64"/>
-      <point x="-220.2" y="1107.12"/>
+      <point x="-220.2" y="1107.12" name="n14"/>
       <point x="-66.08" y="1108.68" type="curve"/>
-      <point x="-60.4" y="1157.56" type="line"/>
+      <point x="-60.4" y="1157.56" type="line" smooth="yes"/>
       <point x="-57.84" y="1177.94"/>
       <point x="-67.74" y="1189.08"/>
-      <point x="-101.26" y="1197.1" type="curve"/>
+      <point x="-101.26" y="1197.1" type="curve" smooth="yes"/>
       <point x="-156.08" y="1210.22"/>
       <point x="-172.74" y="1241.3"/>
       <point x="-158.62" y="1312.04" type="curve"/>
@@ -34,20 +33,31 @@
       <point x="120.02" y="1116.48" type="line"/>
       <point x="259.52" y="1396.4" type="line"/>
       <point x="280.78" y="1444.94"/>
-      <point x="268.32" y="1476.44"/>
+      <point x="268.32" y="1476.44" name="n26"/>
       <point x="226.12" y="1476.44" type="curve" smooth="yes"/>
       <point x="193.28" y="1476.44"/>
       <point x="85.78" y="1476.44"/>
       <point x="85.78" y="1476.44" type="curve"/>
-      <point x="-9.86" y="1116.48" type="line"/>
+      <point x="85.78" y="1476.44"/>
+      <point x="-9.86" y="1116.48"/>
+      <point x="-9.86" y="1116.48" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="193" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1128.12" width="-21" />
+      <hstem pos="1476.44" width="-20" />
+      <hstem pos="1490.66" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,18 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seagullbelowcomb" format="2">
   <unicode hex="033C"/>
-  <guideline x="58.0" y="0.0" angle="82.9991"/>
-  <anchor x="-57.8" y="-419.0" name="bottom"/>
-  <anchor x="53.400000000000006" y="0.0" name="_bottom"/>
+  <anchor x="53.4" y="0" name="_bottom"/>
+  <anchor x="-57.8" y="-419" name="bottom"/>
   <outline>
     <contour>
-      <point x="79.32000000000001" y="-271.94" type="line"/>
+      <point x="79.32" y="-271.94" type="line"/>
       <point x="-89.22" y="-271.94" type="line"/>
-      <point x="-94.78" y="-312.3" type="line"/>
+      <point x="-94.78" y="-312.3" type="line" name="n02"/>
       <point x="74.54" y="-312.3" type="line"/>
     </contour>
     <contour>
-      <point x="-121.92" y="-70.06" type="curve"/>
+      <point x="-121.92" y="-70.06" type="curve" smooth="yes" name="n04"/>
       <point x="-216.54" y="-70.06"/>
       <point x="-294.28" y="-121.08"/>
       <point x="-326.52" y="-233.02" type="curve"/>
@@ -20,38 +19,46 @@
       <point x="-159.82" y="-239.7"/>
       <point x="-144.34" y="-222.12"/>
       <point x="-120.7" y="-222.56" type="curve" smooth="yes"/>
-      <point x="-96.62" y="-223.0"/>
-      <point x="-86.46000000000001" y="-245.86"/>
-      <point x="-92.0" y="-289.62" type="curve"/>
+      <point x="-96.62" y="-223"/>
+      <point x="-86.46" y="-245.86"/>
+      <point x="-92" y="-289.62" type="curve"/>
       <point x="42.9" y="-289.62" type="line"/>
       <point x="59.58" y="-149.16"/>
-      <point x="-7.399999999999999" y="-70.06"/>
+      <point x="-7.4" y="-70.06"/>
     </contour>
     <contour>
-      <point x="161.38" y="-70.06" type="curve"/>
+      <point x="161.38" y="-70.06" type="curve" smooth="yes"/>
       <point x="47.08" y="-70.06"/>
-      <point x="-40.120000000000005" y="-149.16"/>
-      <point x="-56.800000000000004" y="-289.62" type="curve"/>
-      <point x="77.32000000000001" y="-289.62" type="line"/>
+      <point x="-40.12" y="-149.16"/>
+      <point x="-56.8" y="-289.62" type="curve"/>
+      <point x="77.32" y="-289.62" type="line"/>
       <point x="82.86" y="-245.86"/>
-      <point x="98.53999999999999" y="-223.0"/>
+      <point x="98.54" y="-223"/>
       <point x="122.62" y="-222.56" type="curve" smooth="yes"/>
-      <point x="146.48000000000002" y="-222.12"/>
-      <point x="157.98000000000002" y="-239.7"/>
+      <point x="146.48" y="-222.12"/>
+      <point x="157.98" y="-239.7"/>
       <point x="154.86" y="-276.8" type="curve"/>
       <point x="325.74" y="-233.02" type="line"/>
       <point x="321.4" y="-121.08"/>
-      <point x="256.0" y="-70.06"/>
+      <point x="256" y="-70.06"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="58" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_seagullbelow=seagullbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_seagullbelow=seagullbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-291.3" width="-21" />
+      <hstem pos="-70.06" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eopenreversed" format="2">
   <advance width="902"/>
   <unicode hex="025C"/>
-  <guideline y="1406"/>
   <anchor x="498" y="1120" name="top"/>
   <anchor x="289" y="222" name="hook"/>
   <anchor x="426" y="-70" name="bottom"/>
@@ -58,12 +57,24 @@
       <point x="48" y="921" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>zecyr=eopenreversed</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>zecyr=eopenreversed</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="238" />
+      <hstem pos="-16" width="606" />
+      <hstem pos="515" width="541" />
+      <hstem pos="818" width="238" />
+      <vstem pos="547" width="282" />
+      <vstem pos="551" width="295" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

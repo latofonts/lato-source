@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="unaspiratedmod" format="2">
-  <advance width="920.0"/>
+  <advance width="920"/>
   <unicode hex="02ED"/>
-  <guideline x="460.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="230.14" y="1561.32" type="line"/>
+      <point x="230.14" y="1561.32" type="line" name="n00"/>
       <point x="1013.4" y="1561.32" type="line"/>
       <point x="1026.74" y="1673.66" type="line"/>
-      <point x="243.48" y="1673.66" type="line"/>
+      <point x="243.48" y="1673.66" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="195.12" y="1277.38" type="line"/>
+      <point x="195.12" y="1277.38" type="line" name="n04"/>
       <point x="978.38" y="1277.38" type="line"/>
       <point x="992.18" y="1389.72" type="line"/>
-      <point x="208.92" y="1389.72" type="line"/>
+      <point x="208.92" y="1389.72" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="460" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1277.38" width="112.34" />
+      <hstem pos="1561.32" width="112.34" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

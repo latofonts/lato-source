@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nlefthookmod" format="2">
   <advance width="580"/>
   <unicode hex="1DAE"/>
-  <guideline x="-1350"/>
   <anchor x="541" y="1120" name="top"/>
   <anchor x="290" y="-70" name="bottom"/>
   <outline>
@@ -58,13 +57,27 @@
       <point x="129" y="775"/>
       <point x="129" y="871" type="curve"/>
       <point x="129" y="923" type="line"/>
-      <point x="106" y="923" type="line"/>
+      <point x="129" y="923"/>
+      <point x="106" y="923"/>
+      <point x="106" y="923" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-1350" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="742" width="-21" />
+      <hstem pos="908" width="-20" />
+      <hstem pos="1400" width="-20" />
+      <hstem pos="1390" width="18" />
+      <vstem pos="106" width="23" />
+      <vstem pos="457" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

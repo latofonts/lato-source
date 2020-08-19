@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhedescender-cy" format="2">
   <advance width="2278"/>
   <unicode hex="0496"/>
@@ -6,6 +6,7 @@
   <anchor x="1095" y="1525" name="top"/>
   <anchor x="1094" y="-70" name="bottom"/>
   <outline>
+    <component base="Zhe-cy" xOffset="-1"/>
     <contour>
       <point x="1970" y="0" type="line"/>
       <point x="1970" y="-339" type="line"/>
@@ -17,12 +18,19 @@
       <point x="1993" y="262" type="line"/>
       <point x="2064" y="0" type="line"/>
     </contour>
-    <component base="Zhe-cy" xOffset="-1"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-318" width="-21" />
+      <hstem pos="0" width="262" />
+      <vstem pos="1970" width="310" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

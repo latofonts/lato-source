@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thetamod" format="2">
-  <advance width="627.0"/>
+  <advance width="627"/>
   <unicode hex="1DBF"/>
-  <guideline x="563.2"/>
-  <anchor x="574.0" y="1497.1" name="Top"/>
-  <anchor x="313.5" y="-70.0" name="bottom"/>
+  <anchor x="574" y="1497.1" name="Top"/>
+  <anchor x="313.5" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="313.7" y="1623.6" type="curve" smooth="yes"/>
+      <point x="313.7" y="1623.6" type="curve" smooth="yes" name="n00"/>
       <point x="171.6" y="1623.6"/>
       <point x="88.3" y="1496.4"/>
       <point x="88.3" y="1262.2" type="curve" smooth="yes"/>
       <point x="88.3" y="1028.5"/>
       <point x="171.6" y="902.9"/>
-      <point x="313.7" y="902.9" type="curve" smooth="yes"/>
+      <point x="313.7" y="902.9" type="curve" smooth="yes" name="n06"/>
       <point x="456.4" y="902.9"/>
       <point x="538.7" y="1028.5"/>
       <point x="538.7" y="1262.2" type="curve" smooth="yes"/>
@@ -24,27 +23,38 @@
       <point x="313.7" y="935.1" type="curve" smooth="yes"/>
       <point x="192.5" y="935.1"/>
       <point x="129.8" y="1048.4"/>
-      <point x="129.8" y="1262.0" type="curve" smooth="yes"/>
+      <point x="129.8" y="1262" type="curve" smooth="yes" name="n15"/>
       <point x="129.8" y="1476.6"/>
       <point x="192.5" y="1590.8"/>
-      <point x="313.7" y="1590.8" type="curve" smooth="yes"/>
+      <point x="313.7" y="1590.8" type="curve" smooth="yes" name="n18"/>
       <point x="435.3" y="1590.8"/>
       <point x="498.1" y="1476.6"/>
-      <point x="498.1" y="1262.0" type="curve" smooth="yes"/>
+      <point x="498.1" y="1262" type="curve" smooth="yes" name="n21"/>
       <point x="498.1" y="1048.4"/>
       <point x="435.3" y="935.1"/>
     </contour>
     <contour>
-      <point x="115.3" y="1251.2" type="line"/>
-      <point x="509.7" y="1251.2" type="line"/>
-      <point x="509.7" y="1281.2" type="line"/>
+      <point x="115.3" y="1251.2" type="line" name="n24"/>
+      <point x="509.7" y="1251.2" type="line" name="n25"/>
+      <point x="509.7" y="1281.2" type="line" name="n26"/>
       <point x="115.3" y="1281.2" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="560" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="902.9" width="378.3" />
+      <hstem pos="1251.2" width="372.4" />
+      <hstem pos="1590.8" width="32.8" />
+      <vstem pos="115.3" width="14.5" />
+      <vstem pos="498.1" width="11.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

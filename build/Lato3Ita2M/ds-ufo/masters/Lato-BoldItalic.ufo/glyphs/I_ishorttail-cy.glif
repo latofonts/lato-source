@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iishorttail-cy" format="2">
-  <advance width="1498.78"/>
+  <advance width="1499"/>
   <unicode hex="048A"/>
-  <guideline x="768.16" y="0.0" angle="82.9991"/>
   <anchor x="803.56" y="1518.18" name="Top"/>
+  <anchor x="635.94" y="-70" name="bottom"/>
   <anchor x="803.56" y="1518.18" name="top"/>
-  <anchor x="635.94" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Ii-cy"/>
+    <component base="breve.cyrl.case" xScale="1" xyScale="-2.40341e-20" xOffset="316.46" yOffset="-0.44"/>
     <contour>
-      <point x="1225.5" y="201.4" type="line"/>
-      <point x="1200.88" y="0.0" type="line"/>
-      <point x="1098.38" y="0.0" type="line"/>
-      <point x="956.22" y="-344.4" type="line"/>
+      <point x="1225.5" y="201.4" type="line" name="n00"/>
+      <point x="1200.88" y="0" type="line" name="n01"/>
+      <point x="1098.38" y="0" type="line"/>
+      <point x="956.22" y="-344.4" type="line" name="n03"/>
       <point x="1209.54" y="-344.4" type="line"/>
       <point x="1423.32" y="201.4" type="line"/>
     </contour>
-    <component base="Ii-cy"/>
-    <component base="breve.cyrl.case" xOffset="316.46" yOffset="-0.43999999999999995"/>
   </outline>
+  <guideline angle="82.9991" x="712" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-323.4" width="-21" />
+      <hstem pos="0" width="201.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

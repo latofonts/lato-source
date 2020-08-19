@@ -1,20 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notequal.onum_pnum" format="2">
-  <advance width="1080.0"/>
-  <guideline x="497.0" y="0.0" angle="82.9991"/>
+  <advance width="1080"/>
   <outline>
+    <component base="equal.onum_pnum" xOffset="0.66"/>
     <contour>
-      <point x="178.42" y="95.19999999999999" type="line"/>
-      <point x="348.62" y="95.19999999999999" type="line"/>
-      <point x="905.58" y="1033.48" type="line"/>
+      <point x="178.42" y="95.2" type="line" name="n00"/>
+      <point x="348.62" y="95.2" type="line"/>
+      <point x="905.58" y="1033.48" type="line" name="n02"/>
       <point x="738.16" y="1033.48" type="line"/>
     </contour>
-    <component base="equal.onum_pnum" xOffset="0.6600000000000001"/>
   </outline>
+  <guideline angle="82.9991" x="497" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="116.2" width="-21" />
+      <hstem pos="1033.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dhook" format="2">
   <advance width="1087"/>
   <unicode hex="0257"/>
@@ -65,13 +65,27 @@
       <point x="879" y="1310"/>
       <point x="879" y="1124" type="curve"/>
       <point x="879" y="1016" type="line"/>
-      <point x="903" y="1016" type="line"/>
+      <point x="879" y="1016"/>
+      <point x="903" y="1016"/>
+      <point x="903" y="1016" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-12" width="20" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="976" width="20" />
+      <hstem pos="1070" width="-20" />
+      <hstem pos="1373" width="41" />
+      <vstem pos="123" width="24" />
+      <vstem pos="879" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

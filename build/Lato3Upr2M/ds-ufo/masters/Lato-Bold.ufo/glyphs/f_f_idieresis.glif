@@ -1,27 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_idieresis" format="2">
-  <advance width="1848.24"/>
-  <anchor x="1597.34" y="1120.0" name="top"/>
-  <anchor x="1595.78" y="-70.0" name="bottom"/>
-  <anchor x="1596.0" y="485.98" name="bar"/>
+  <advance width="1848"/>
+  <anchor x="1596" y="485.98" name="bar"/>
+  <anchor x="1595.78" y="-70" name="bottom"/>
+  <anchor x="1597.34" y="1120" name="top"/>
   <outline>
+    <component base="f_f_idotless"/>
     <contour>
       <point x="1556.52" y="1292.48" type="curve" smooth="yes"/>
       <point x="1556.52" y="1369.28"/>
       <point x="1492.64" y="1432.72"/>
-      <point x="1416.28" y="1432.72" type="curve" smooth="yes"/>
+      <point x="1416.28" y="1432.72" type="curve" smooth="yes" name="n03"/>
       <point x="1344.16" y="1432.72"/>
       <point x="1280.72" y="1369.28"/>
       <point x="1280.72" y="1292.48" type="curve" smooth="yes"/>
       <point x="1280.72" y="1217.68"/>
       <point x="1344.16" y="1157.36"/>
-      <point x="1416.28" y="1157.36" type="curve" smooth="yes"/>
+      <point x="1416.28" y="1157.36" type="curve" smooth="yes" name="n09"/>
       <point x="1492.64" y="1157.36"/>
       <point x="1556.52" y="1217.68"/>
     </contour>
     <contour>
-      <point x="1905.3600000000001" y="1292.48" type="curve" smooth="yes"/>
-      <point x="1905.3600000000001" y="1369.28"/>
+      <point x="1905.36" y="1292.48" type="curve" smooth="yes"/>
+      <point x="1905.36" y="1369.28"/>
       <point x="1843.04" y="1432.72"/>
       <point x="1766.68" y="1432.72" type="curve" smooth="yes"/>
       <point x="1691.44" y="1432.72"/>
@@ -31,16 +32,21 @@
       <point x="1691.44" y="1157.36"/>
       <point x="1766.68" y="1157.36" type="curve" smooth="yes"/>
       <point x="1843.04" y="1157.36"/>
-      <point x="1905.3600000000001" y="1217.68"/>
+      <point x="1905.36" y="1217.68"/>
     </contour>
-    <component base="f_f_idotless"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1157.36" width="275.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

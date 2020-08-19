@@ -1,21 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen" format="2">
-  <advance width="745.8"/>
+  <advance width="746"/>
   <unicode hex="002D"/>
   <unicode hex="00AD"/>
   <unicode hex="2010"/>
   <outline>
     <contour>
-      <point x="113.9" y="500.0" type="line"/>
-      <point x="631.9" y="500.0" type="line"/>
+      <point x="113.9" y="500" type="line" name="n00"/>
+      <point x="631.9" y="500" type="line"/>
       <point x="631.9" y="708.76" type="line"/>
-      <point x="113.9" y="708.76" type="line"/>
+      <point x="113.9" y="708.76" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="500" width="208.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

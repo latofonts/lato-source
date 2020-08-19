@@ -1,31 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="integraltp" format="2">
-  <advance width="770.5"/>
+  <advance width="771"/>
   <unicode hex="2320"/>
   <outline>
     <contour>
-      <point x="339.5" y="-448.0" type="line"/>
-      <point x="431.25" y="-448.0" type="line"/>
+      <point x="339.5" y="-448" type="line" name="n00"/>
+      <point x="431.25" y="-448" type="line" name="n01"/>
       <point x="431.25" y="1013.75" type="line" smooth="yes"/>
-      <point x="431.25" y="1440.0"/>
+      <point x="431.25" y="1440"/>
       <point x="552.25" y="1544.25"/>
-      <point x="710.25" y="1544.25" type="curve" smooth="yes"/>
+      <point x="710.25" y="1544.25" type="curve" smooth="yes" name="n05"/>
       <point x="780.25" y="1544.25"/>
       <point x="797.75" y="1530.5"/>
-      <point x="806.25" y="1555.5" type="curve" smooth="yes"/>
+      <point x="806.25" y="1555.5" type="curve"/>
       <point x="813.5" y="1594.5" type="line"/>
-      <point x="782.0" y="1612.0"/>
-      <point x="736.0" y="1617.5"/>
-      <point x="692.0" y="1617.5" type="curve" smooth="yes"/>
+      <point x="782" y="1612"/>
+      <point x="736" y="1617.5"/>
+      <point x="692" y="1617.5" type="curve" smooth="yes" name="n12"/>
       <point x="506.5" y="1617.5"/>
       <point x="339.5" y="1500.75"/>
-      <point x="339.5" y="1011.25" type="curve"/>
+      <point x="339.5" y="1011.25" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-427" width="-21" />
+      <hstem pos="1544.25" width="73.25" />
+      <vstem pos="339.5" width="91.75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

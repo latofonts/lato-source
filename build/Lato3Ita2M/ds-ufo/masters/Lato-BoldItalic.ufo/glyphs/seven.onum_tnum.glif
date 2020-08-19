@@ -1,35 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.onum_tnum" format="2">
-  <advance width="1080.0"/>
-  <guideline x="461.76" y="0.0" angle="82.9991"/>
+  <advance width="1080"/>
   <outline>
     <contour>
-      <point x="181.7" y="1130.4" type="line"/>
-      <point x="164.32" y="988.58" type="line"/>
+      <point x="181.7" y="1130.4" type="line" name="n00"/>
+      <point x="164.32" y="988.58" type="line" smooth="yes"/>
       <point x="158.64" y="943.58"/>
       <point x="187.94" y="921.2"/>
-      <point x="224.68" y="921.2" type="curve" smooth="yes"/>
+      <point x="224.68" y="921.2" type="curve" smooth="yes" name="n04"/>
       <point x="973.22" y="921.2" type="line"/>
       <point x="813.56" y="943.58" type="line"/>
       <point x="770.12" y="906.38"/>
-      <point x="732.02" y="859.8199999999999"/>
-      <point x="695.8199999999999" y="803.46" type="curve"/>
-      <point x="92.78" y="-207.3" type="line"/>
+      <point x="732.02" y="859.82"/>
+      <point x="695.82" y="803.46" type="curve"/>
+      <point x="92.78" y="-207.3" type="line" name="n10"/>
       <point x="269.24" y="-207.3" type="line" smooth="yes"/>
       <point x="312.9" y="-207.3"/>
       <point x="365.14" y="-172.88"/>
       <point x="384.74" y="-136.8" type="curve"/>
-      <point x="993.14" y="921.78" type="line"/>
+      <point x="993.14" y="921.78" type="line" smooth="yes"/>
       <point x="1011.18" y="952.4"/>
       <point x="1021.2" y="984.14"/>
       <point x="1025.32" y="1015.54" type="curve" smooth="yes"/>
       <point x="1039.58" y="1130.4" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="468" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-186.3" width="-21" />
+      <hstem pos="921.2" width="209.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

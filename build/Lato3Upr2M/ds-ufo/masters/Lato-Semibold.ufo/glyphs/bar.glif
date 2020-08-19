@@ -1,19 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar" format="2">
-  <advance width="511.944"/>
+  <advance width="512"/>
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="172.712" y="-346.348" type="line"/>
-      <point x="339.23199999999997" y="-346.348" type="line"/>
-      <point x="339.23199999999997" y="1540.628" type="line"/>
-      <point x="172.712" y="1540.628" type="line"/>
+      <point x="172.712" y="-346.348" type="line" name="n00"/>
+      <point x="339.232" y="-346.348" type="line" name="n01"/>
+      <point x="339.232" y="1540.63" type="line" name="n02"/>
+      <point x="172.712" y="1540.63" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-325.348" width="-21" />
+      <hstem pos="1540.628" width="-20" />
+      <vstem pos="172.712" width="166.52" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

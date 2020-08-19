@@ -1,8 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_lefthalfringabove.case" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
+  <advance width="736"/>
   <anchor x="382.36" y="1521.52" name="_Top"/>
   <outline>
     <contour>
@@ -10,24 +8,34 @@
       <point x="596.16" y="1698.16"/>
       <point x="569.04" y="1723.8"/>
       <point x="576.52" y="1784.24" type="curve" smooth="yes"/>
-      <point x="583.0" y="1845.44"/>
+      <point x="583" y="1845.44"/>
       <point x="616.44" y="1870.56"/>
       <point x="653.92" y="1870.56" type="curve"/>
-      <point x="669.12" y="2011.76" type="line"/>
+      <point x="653.92" y="1870.56"/>
+      <point x="669.12" y="2011.76"/>
+      <point x="669.12" y="2011.76" type="curve" name="n09"/>
       <point x="531.12" y="2011.76"/>
       <point x="428.48" y="1924.96"/>
       <point x="412.2" y="1785.12" type="curve" smooth="yes"/>
       <point x="396.68" y="1644.4"/>
       <point x="479.56" y="1556.96"/>
-      <point x="618.44" y="1556.96" type="curve"/>
+      <point x="618.44" y="1556.96" type="curve" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="90" x="368" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringleft=_lefthalfringabove.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringleft=_lefthalfringabove.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1556.96" width="454.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

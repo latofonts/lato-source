@@ -1,23 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="umod" format="2">
-  <advance width="590.8"/>
+  <advance width="591"/>
   <unicode hex="1D58"/>
-  <guideline x="293.52" y="0.0" angle="82.9991"/>
-  <anchor x="274.84" y="-70.0" name="bottom"/>
+  <anchor x="274.84" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="445.36" y="1451.92" type="line"/>
+      <point x="445.36" y="1451.92" type="line" name="n00"/>
       <point x="389.56" y="999.76" type="line"/>
       <point x="401.12" y="993.24" type="line"/>
       <point x="408.84" y="949.56" type="line"/>
       <point x="414.88" y="930.24"/>
-      <point x="427.44" y="919.44"/>
+      <point x="427.44" y="919.44" name="n05"/>
       <point x="449.28" y="919.44" type="curve" smooth="yes"/>
       <point x="564.88" y="919.44" type="line"/>
       <point x="630.28" y="1451.92" type="line"/>
     </contour>
     <contour>
-      <point x="162.07999999999998" y="1451.92" type="line"/>
+      <point x="162.08" y="1451.92" type="line"/>
       <point x="120.56" y="1114.04" type="line"/>
       <point x="304.48" y="1114.04" type="line"/>
       <point x="346.12" y="1451.92" type="line"/>
@@ -26,25 +25,34 @@
       <point x="120.56" y="1114.04" type="line"/>
       <point x="106.56" y="999.8"/>
       <point x="157.24" y="911.44"/>
-      <point x="264.28" y="911.44" type="curve" smooth="yes"/>
+      <point x="264.28" y="911.44" type="curve" smooth="yes" name="n16"/>
       <point x="347.2" y="911.44"/>
       <point x="389.8" y="954.92"/>
       <point x="446.08" y="1008.2" type="curve"/>
       <point x="438.04" y="1115.08" type="line"/>
       <point x="405.28" y="1080.92"/>
       <point x="373.6" y="1056.16"/>
-      <point x="339.8" y="1056.16" type="curve" smooth="yes"/>
+      <point x="339.8" y="1056.16" type="curve" smooth="yes" name="n23"/>
       <point x="313.28" y="1056.16"/>
       <point x="300.28" y="1077.68"/>
       <point x="304.48" y="1114.04" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="268" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>u.sups=umod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>u.sups=umod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="919.44" width="-20" />
+      <hstem pos="911.44" width="144.72" />
+      <hstem pos="1451.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

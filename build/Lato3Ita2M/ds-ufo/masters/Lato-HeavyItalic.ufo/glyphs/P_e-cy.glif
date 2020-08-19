@@ -1,37 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Pe-cy" format="2">
-  <advance width="1395.4"/>
+  <advance width="1395"/>
   <unicode hex="041F"/>
-  <guideline x="673.56" y="0.0" angle="82.9991"/>
   <anchor x="795.96" y="1521.52" name="Top"/>
+  <anchor x="616.8" y="-70" name="bottom"/>
   <anchor x="795.96" y="1521.52" name="top"/>
-  <anchor x="616.8" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="535.6" y="1451.92" type="line"/>
-      <point x="244.95999999999998" y="1451.92" type="line"/>
-      <point x="66.8" y="0.0" type="line"/>
-      <point x="357.44" y="0.0" type="line"/>
+      <point x="244.96" y="1451.92" type="line"/>
+      <point x="66.8" y="0" type="line" name="n02"/>
+      <point x="357.44" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="508.36" y="1451.92" type="line"/>
-      <point x="480.72" y="1226.6399999999999" type="line"/>
-      <point x="1161.6" y="1226.6399999999999" type="line"/>
+      <point x="508.36" y="1451.92" type="line" name="n04"/>
+      <point x="480.72" y="1226.64" type="line" name="n05"/>
+      <point x="1161.6" y="1226.64" type="line"/>
       <point x="1189.24" y="1451.92" type="line"/>
     </contour>
     <contour>
       <point x="1355.48" y="1451.92" type="line"/>
       <point x="1063.96" y="1451.92" type="line"/>
-      <point x="885.8" y="0.0" type="line"/>
-      <point x="1177.32" y="0.0" type="line"/>
+      <point x="885.8" y="0" type="line"/>
+      <point x="1177.32" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="663" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1226.64" width="225.28" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

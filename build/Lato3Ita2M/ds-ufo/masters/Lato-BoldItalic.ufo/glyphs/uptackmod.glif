@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uptackmod" format="2">
-  <advance width="792.4"/>
+  <advance width="792"/>
   <unicode hex="02D4"/>
-  <guideline x="396.2" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="304.52" y="313.86" type="line"/>
       <point x="487.88" y="313.86" type="line"/>
-      <point x="487.88" y="758.66" type="line"/>
+      <point x="487.88" y="758.66" type="line" name="n02"/>
       <point x="304.52" y="758.66" type="line"/>
     </contour>
     <contour>
-      <point x="136.6" y="313.86" type="line"/>
+      <point x="136.6" y="313.86" type="line" name="n04"/>
       <point x="655.8" y="313.86" type="line"/>
       <point x="655.8" y="472.26" type="line"/>
-      <point x="136.6" y="472.26" type="line"/>
+      <point x="136.6" y="472.26" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="365" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="313.86" width="158.4" />
+      <hstem pos="758.66" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

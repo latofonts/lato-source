@@ -1,32 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotaafrican" format="2">
-  <advance width="648.8"/>
+  <advance width="649"/>
   <unicode hex="0196"/>
-  <anchor x="277.0" y="1513.4" name="Top"/>
-  <anchor x="277.0" y="1513.4" name="top"/>
-  <anchor x="401.6" y="-70.0" name="bottom"/>
+  <anchor x="277" y="1513.4" name="Top"/>
+  <anchor x="401.6" y="-70" name="bottom"/>
+  <anchor x="277" y="1513.4" name="top"/>
   <outline>
     <contour>
-      <point x="170.2" y="299.0" type="line" smooth="yes"/>
+      <point x="170.2" y="299" type="line" smooth="yes" name="n00"/>
       <point x="170.2" y="117.4"/>
       <point x="266.8" y="-11.8"/>
-      <point x="447.4" y="-11.8" type="curve" smooth="yes"/>
+      <point x="447.4" y="-11.8" type="curve" smooth="yes" name="n03"/>
       <point x="542.4" y="-11.8"/>
       <point x="618.4" y="11.2"/>
       <point x="618.4" y="79.2" type="curve" smooth="yes"/>
-      <point x="618.4" y="149.79999999999998" type="line"/>
-      <point x="528.8" y="149.79999999999998" type="line" smooth="yes"/>
-      <point x="427.4" y="149.79999999999998"/>
-      <point x="383.79999999999995" y="201.0"/>
-      <point x="383.79999999999995" y="310.4" type="curve"/>
-      <point x="383.79999999999995" y="1436.6" type="line"/>
+      <point x="618.4" y="149.8" type="line"/>
+      <point x="528.8" y="149.8" type="line" smooth="yes" name="n08"/>
+      <point x="427.4" y="149.8"/>
+      <point x="383.8" y="201"/>
+      <point x="383.8" y="310.4" type="curve" smooth="yes" name="n11"/>
+      <point x="383.8" y="1436.6" type="line" name="n12"/>
       <point x="170.2" y="1436.6" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-11.8" width="161.6" />
+      <hstem pos="1436.6" width="-20" />
+      <vstem pos="170.2" width="213.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

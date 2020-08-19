@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aktieselskab" format="2">
   <advance width="1551"/>
   <unicode hex="214D"/>
   <anchor x="364" y="-281" name="bottom"/>
   <outline>
+    <component base="Amod" xOffset="40" yOffset="-211"/>
     <contour>
       <point x="335" y="0" type="line"/>
       <point x="349" y="0" type="line" smooth="yes"/>
@@ -56,12 +57,22 @@
       <point x="1412" y="618"/>
       <point x="1413" y="621" type="curve"/>
     </contour>
-    <component base="Amod" xOffset="40" yOffset="-211"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-17" width="19" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="680" width="20" />
+      <hstem pos="1400" width="-20" />
+      <vstem pos="985" width="24" />
+      <vstem pos="1422" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

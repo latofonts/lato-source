@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="koronis" format="2">
-  <advance width="800.0"/>
+  <advance width="800"/>
   <unicode hex="1FBD"/>
-  <anchor x="400.0" y="1120.9" name="_top"/>
-  <anchor x="436.2" y="1120.0" name="_onRight"/>
+  <anchor x="436.2" y="1120" name="_onRight"/>
+  <anchor x="400" y="1120.9" name="_top"/>
   <outline>
     <contour>
       <point x="457.6" y="1322.6" type="curve"/>
@@ -14,16 +14,16 @@
       <point x="363.6" y="1189.6"/>
       <point x="355.8" y="1187.3"/>
       <point x="355.8" y="1181.2" type="curve" smooth="yes"/>
-      <point x="355.8" y="1163.6" type="line"/>
+      <point x="355.8" y="1163.6" type="line" name="n08"/>
       <point x="447.1" y="1163.4"/>
-      <point x="481.0" y="1245.8"/>
-      <point x="481.0" y="1321.2" type="curve" smooth="yes"/>
-      <point x="481.0" y="1391.0"/>
-      <point x="451.7" y="1415.7"/>
+      <point x="481" y="1245.8"/>
+      <point x="481" y="1321.2" type="curve" smooth="yes" name="n11"/>
+      <point x="481" y="1391"/>
+      <point x="451.7" y="1415.7" name="n13"/>
       <point x="412.5" y="1415.7" type="curve" smooth="yes"/>
       <point x="374.4" y="1415.7"/>
       <point x="348.5" y="1391.9"/>
-      <point x="348.5" y="1355.3" type="curve" smooth="yes"/>
+      <point x="348.5" y="1355.3" type="curve" smooth="yes" name="n17"/>
       <point x="348.5" y="1322.2"/>
       <point x="370.1" y="1298.4"/>
       <point x="409.4" y="1298.4" type="curve" smooth="yes"/>
@@ -32,9 +32,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1184.6" width="-21" />
+      <hstem pos="1415.7" width="-20" />
+      <vstem pos="348.5" width="132.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,21 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imod" format="2">
-  <advance width="321.78"/>
+  <advance width="322"/>
   <unicode hex="1D35"/>
-  <guideline x="164.8" y="0.0" angle="82.9991"/>
-  <anchor x="144.14" y="-70.0" name="bottom"/>
+  <anchor x="144.14" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="354.4" y="1643.48" type="line"/>
+      <point x="354.4" y="1643.48" type="line" name="n00"/>
       <point x="221.24" y="1643.48" type="line"/>
-      <point x="131.46" y="915.02" type="line"/>
+      <point x="131.46" y="915.02" type="line" name="n02"/>
       <point x="264.62" y="915.02" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="154" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="936.02" width="-21" />
+      <hstem pos="1643.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

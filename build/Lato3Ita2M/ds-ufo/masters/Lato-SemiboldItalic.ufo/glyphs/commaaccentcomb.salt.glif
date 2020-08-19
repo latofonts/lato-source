@@ -1,22 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentcomb.salt" format="2">
-  <guideline x="-168.65800000000002" y="0.0" angle="82.9991"/>
-  <anchor x="-50.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="-50" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="124.59400000000001" y="1445.304" type="line"/>
-      <point x="0.36999999999999744" y="1445.304" type="line"/>
-      <point x="-125.59400000000001" y="1162.64" type="line"/>
+      <point x="124.594" y="1445.3" type="line" name="n00"/>
+      <point x="0.37" y="1445.3" type="line"/>
+      <point x="-125.594" y="1162.64" type="line" name="n02"/>
       <point x="46.598" y="1162.64" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-160" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1183.64" width="-21" />
+      <hstem pos="1445.304" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

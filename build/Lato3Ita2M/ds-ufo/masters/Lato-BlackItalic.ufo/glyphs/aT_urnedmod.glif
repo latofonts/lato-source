@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aTurnedmod" format="2">
   <advance width="552"/>
   <unicode hex="1D44"/>
-  <guideline x="283" y="0" angle="82.9991"/>
   <anchor x="254" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -38,7 +37,9 @@
     </contour>
     <contour>
       <point x="300" y="1391" type="curve"/>
-      <point x="308" y="1274" type="line"/>
+      <point x="300" y="1391"/>
+      <point x="308" y="1274"/>
+      <point x="308" y="1274" type="curve"/>
       <point x="346" y="1319"/>
       <point x="364" y="1328"/>
       <point x="390" y="1328" type="curve" smooth="yes"/>
@@ -59,10 +60,22 @@
       <point x="367" y="1444"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="283" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="913" width="165" />
+      <hstem pos="913" width="349" />
+      <hstem pos="1103" width="-20" />
+      <hstem pos="1140" width="-20" />
+      <hstem pos="1138" width="331" />
+      <hstem pos="1461" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

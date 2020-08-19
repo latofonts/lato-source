@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lmiddletilde" format="2">
   <advance width="1105"/>
   <unicode hex="2C62"/>
-  <guideline x="646" y="0" angle="82.9991"/>
   <anchor x="548" y="1525" name="Top"/>
   <anchor x="548" y="1525" name="top"/>
   <anchor x="557" y="-70" name="bottom"/>
   <anchor x="432" y="728" name="Bar"/>
   <outline>
+    <component base="L" xOffset="126"/>
     <contour>
       <point x="585" y="803" type="curve"/>
       <point x="520" y="803"/>
@@ -30,12 +30,20 @@
       <point x="681" y="844"/>
       <point x="643" y="803"/>
     </contour>
-    <component base="L" xOffset="126"/>
   </outline>
+  <guideline angle="82.9991" x="646" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="533" width="-21" />
+      <hstem pos="557" width="246" />
+      <hstem pos="631" width="291" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

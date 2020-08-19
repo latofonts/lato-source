@@ -1,41 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lmiddletilde" format="2">
-  <advance width="1050.558"/>
+  <advance width="1051"/>
   <unicode hex="2C62"/>
-  <guideline x="598.906" y="0.0" angle="82.9991"/>
-  <anchor x="486.878" y="1515.314" name="Top"/>
-  <anchor x="486.878" y="1515.314" name="top"/>
-  <anchor x="531.95" y="-70.0" name="bottom"/>
   <anchor x="377.558" y="718.648" name="Bar"/>
+  <anchor x="486.878" y="1515.31" name="Top"/>
+  <anchor x="531.95" y="-70" name="bottom"/>
+  <anchor x="486.878" y="1515.31" name="top"/>
   <outline>
+    <component base="L" xOffset="91.932"/>
     <contour>
-      <point x="539.242" y="748.224" type="curve"/>
+      <point x="539.242" y="748.224" type="curve" smooth="yes" name="n00"/>
       <point x="467.228" y="748.224"/>
       <point x="376.222" y="842.596"/>
-      <point x="257.582" y="842.596" type="curve"/>
+      <point x="257.582" y="842.596" type="curve" smooth="yes"/>
       <point x="95.986" y="842.596"/>
-      <point x="-12.300000000000004" y="724.64"/>
-      <point x="-34.956" y="543.396" type="curve"/>
-      <point x="132.23000000000002" y="543.396" type="line"/>
+      <point x="-12.3" y="724.64"/>
+      <point x="-34.956" y="543.396" type="curve" name="n06"/>
+      <point x="132.23" y="543.396" type="line"/>
       <point x="142.232" y="624.068"/>
-      <point x="185.57600000000002" y="671.414"/>
-      <point x="249.25400000000002" y="671.414" type="curve" smooth="yes"/>
+      <point x="185.576" y="671.414"/>
+      <point x="249.254" y="671.414" type="curve" smooth="yes" name="n10"/>
       <point x="321.602" y="671.414"/>
       <point x="412.274" y="577.708"/>
-      <point x="531.248" y="577.708" type="curve"/>
+      <point x="531.248" y="577.708" type="curve" smooth="yes" name="n13"/>
       <point x="692.51" y="577.708"/>
       <point x="801.13" y="694.998"/>
       <point x="823.452" y="876.242" type="curve"/>
-      <point x="656.266" y="876.242" type="line"/>
+      <point x="656.266" y="876.242" type="line" name="n17"/>
       <point x="646.264" y="795.57"/>
       <point x="602.92" y="748.224"/>
     </contour>
-    <component base="L" xOffset="91.932"/>
   </outline>
+  <guideline angle="82.9991" x="505" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="564.396" width="-21" />
+      <hstem pos="577.708" width="170.516" />
+      <hstem pos="671.414" width="204.828" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gedescender-cy" format="2">
-  <advance width="808.1"/>
+  <advance width="808"/>
   <unicode hex="04F7"/>
-  <guideline x="421.5" y="0.0" angle="82.9991"/>
-  <anchor x="438.6" y="1120.0" name="top"/>
-  <anchor x="279.7" y="-70.0" name="bottom"/>
+  <anchor x="279.7" y="-70" name="bottom"/>
+  <anchor x="438.6" y="1120" name="top"/>
   <outline>
+    <component base="ge-cy" xOffset="0.2"/>
     <contour>
       <point x="625.9" y="88.4" type="line"/>
-      <point x="518.0" y="-358.0" type="line"/>
-      <point x="544.9" y="-358.0" type="line" smooth="yes"/>
-      <point x="556.9" y="-358.0"/>
+      <point x="518" y="-358" type="line" name="n01"/>
+      <point x="544.9" y="-358" type="line" smooth="yes"/>
+      <point x="556.9" y="-358"/>
       <point x="562.9" y="-351.7"/>
       <point x="565.1" y="-339.2" type="curve"/>
-      <point x="669.8" y="106.1" type="line"/>
+      <point x="669.8" y="106.1" type="line" name="n06"/>
     </contour>
-    <component base="ge-cy" xOffset="0.2"/>
   </outline>
+  <guideline angle="82.9991" x="421" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-337" width="-21" />
+      <hstem pos="106.1" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

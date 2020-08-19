@@ -1,24 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_tackdownbelow" format="2">
-  <advance width="773.2"/>
+  <advance width="773"/>
   <outline>
     <contour>
-      <point x="323.06" y="-500.4" type="line"/>
-      <point x="450.14" y="-500.4" type="line"/>
+      <point x="323.06" y="-500.4" type="line" name="n00"/>
+      <point x="450.14" y="-500.4" type="line" name="n01"/>
       <point x="450.14" y="-53.8" type="line"/>
       <point x="323.06" y="-53.8" type="line"/>
     </contour>
     <contour>
-      <point x="153.8" y="-169.0" type="line"/>
-      <point x="619.4" y="-169.0" type="line"/>
+      <point x="153.8" y="-169" type="line" name="n04"/>
+      <point x="619.4" y="-169" type="line"/>
       <point x="619.4" y="-53.8" type="line"/>
-      <point x="153.8" y="-53.8" type="line"/>
+      <point x="153.8" y="-53.8" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-479.4" width="-21" />
+      <hstem pos="-169" width="115.2" />
+      <vstem pos="323.06" width="127.08" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

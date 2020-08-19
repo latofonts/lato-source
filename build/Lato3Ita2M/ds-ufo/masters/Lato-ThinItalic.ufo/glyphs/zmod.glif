@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zmod" format="2">
-  <advance width="432.5"/>
+  <advance width="433"/>
   <unicode hex="1DBB"/>
-  <guideline x="225.5" y="0.0" angle="82.9991"/>
-  <anchor x="205.0" y="-70.0" name="bottom"/>
+  <anchor x="205" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="486.2" y="1405.9" type="line"/>
-      <point x="156.5" y="1405.9" type="line"/>
-      <point x="152.8" y="1373.7" type="line"/>
+      <point x="156.5" y="1405.9" type="line" name="n01"/>
+      <point x="152.8" y="1373.7" type="line" name="n02"/>
       <point x="446.8" y="1373.7" type="line"/>
       <point x="438.8" y="1378.9" type="line"/>
       <point x="91.2" y="942.1" type="line"/>
@@ -16,8 +15,8 @@
       <point x="82.6" y="929.8"/>
       <point x="82.4" y="924.5" type="curve"/>
       <point x="80.4" y="909.3" type="line"/>
-      <point x="413.8" y="909.3" type="line"/>
-      <point x="417.6" y="941.5" type="line"/>
+      <point x="413.8" y="909.3" type="line" name="n10"/>
+      <point x="417.6" y="941.5" type="line" name="n11"/>
       <point x="121.6" y="941.5" type="line"/>
       <point x="126.8" y="934.9" type="line"/>
       <point x="475.6" y="1371.6" type="line"/>
@@ -26,12 +25,20 @@
       <point x="484.2" y="1388.2" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="223" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>z.sups=zmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>z.sups=zmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="909.3" width="32.2" />
+      <hstem pos="1373.7" width="32.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,30 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yat-cy" format="2">
-  <advance width="1068.938"/>
+  <advance width="1069"/>
   <unicode hex="0463"/>
-  <guideline y="1406.666"/>
-  <guideline x="524.314" y="0.0" angle="82.9991"/>
-  <anchor x="628.642" y="1120.0" name="top"/>
-  <anchor x="509.314" y="-70.0" name="bottom"/>
+  <anchor x="509.314" y="-70" name="bottom"/>
+  <anchor x="628.642" y="1120" name="top"/>
   <outline>
+    <component base="softsign-cy" xOffset="141.336"/>
     <contour>
-      <point x="480.198" y="724.646" type="line"/>
-      <point x="550.8679999999999" y="1295.674" type="line"/>
-      <point x="341.722" y="1295.674" type="line"/>
+      <point x="480.198" y="724.646" type="line" name="n00"/>
+      <point x="550.868" y="1295.67" type="line" name="n01"/>
+      <point x="341.722" y="1295.67" type="line"/>
       <point x="271.718" y="725.312" type="line"/>
     </contour>
     <contour>
-      <point x="52.355999999999995" y="862.098" type="line"/>
+      <point x="52.356" y="862.098" type="line" name="n04"/>
       <point x="775.258" y="862.098" type="line"/>
       <point x="794.908" y="1019.96" type="line"/>
-      <point x="71.34" y="1019.96" type="line"/>
+      <point x="71.34" y="1019.96" type="line" name="n07"/>
     </contour>
-    <component base="softsign-cy" xOffset="141.336"/>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="505" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="745.646" width="-21" />
+      <hstem pos="862.098" width="157.862" />
+      <hstem pos="1295.674" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

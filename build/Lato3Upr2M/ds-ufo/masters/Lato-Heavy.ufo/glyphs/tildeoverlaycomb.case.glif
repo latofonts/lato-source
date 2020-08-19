@@ -1,35 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildeoverlaycomb.case" format="2">
   <outline>
     <contour>
-      <point x="228.28" y="1085.2" type="line"/>
+      <point x="228.28" y="1085.2" type="line" name="n00"/>
       <point x="228.04" y="1028.24"/>
       <point x="199.56" y="1012.56"/>
-      <point x="155.56" y="1012.56" type="curve" smooth="yes"/>
+      <point x="155.56" y="1012.56" type="curve" smooth="yes" name="n03"/>
       <point x="95.16" y="1012.56"/>
-      <point x="-47.08" y="1092.48"/>
+      <point x="-47.08" y="1092.48" name="n05"/>
       <point x="-169.4" y="1092.48" type="curve" smooth="yes"/>
       <point x="-321.32" y="1092.48"/>
       <point x="-439.64" y="984.72"/>
-      <point x="-439.64" y="818.56" type="curve"/>
+      <point x="-439.64" y="818.56" type="curve" name="n09"/>
       <point x="-225.4" y="818.56" type="line"/>
       <point x="-225.16" y="875.28"/>
       <point x="-199.08" y="892.96"/>
-      <point x="-156.2" y="892.96" type="curve" smooth="yes"/>
+      <point x="-156.2" y="892.96" type="curve" smooth="yes" name="n13"/>
       <point x="-94.92" y="892.96"/>
       <point x="49.32" y="813.04"/>
-      <point x="169.64" y="813.04" type="curve" smooth="yes"/>
+      <point x="169.64" y="813.04" type="curve" smooth="yes" name="n16"/>
       <point x="323.56" y="813.04"/>
       <point x="439.64" y="919.04"/>
-      <point x="439.64" y="1085.2" type="curve"/>
+      <point x="439.64" y="1085.2" type="curve" name="n19"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="813.04" width="199.52" />
+      <hstem pos="892.96" width="192.24" />
+      <hstem pos="1092.48" width="-20" />
+      <vstem pos="-439.64" width="879.28" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

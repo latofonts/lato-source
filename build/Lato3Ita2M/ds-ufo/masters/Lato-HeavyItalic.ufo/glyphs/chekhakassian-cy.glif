@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chekhakassian-cy" format="2">
-  <advance width="1004.16"/>
+  <advance width="1004"/>
   <unicode hex="04CC"/>
-  <guideline x="539.6800000000001" y="0.0" angle="82.9991"/>
-  <anchor x="524.64" y="1120.0" name="top"/>
-  <anchor x="679.92" y="-70.0" name="bottom"/>
+  <anchor x="679.92" y="-70" name="bottom"/>
+  <anchor x="524.64" y="1120" name="top"/>
   <outline>
+    <component base="che-cy" xOffset="2.52"/>
     <contour>
       <point x="376.64" y="129.12" type="line"/>
-      <point x="425.15999999999997" y="-342.4" type="line"/>
+      <point x="425.16" y="-342.4" type="line" name="n01"/>
       <point x="562.64" y="-342.4" type="line" smooth="yes"/>
       <point x="605.84" y="-342.4"/>
       <point x="653.96" y="-310.36"/>
       <point x="646.8" y="-262.76" type="curve"/>
-      <point x="612.48" y="0.0" type="line"/>
-      <point x="583.28" y="42.24" type="line"/>
-      <point x="562.4" y="129.12" type="line"/>
+      <point x="612.48" y="0" type="line"/>
+      <point x="583.28" y="42.24" type="line" name="n07"/>
+      <point x="562.4" y="129.12" type="line" name="n08"/>
     </contour>
-    <component base="che-cy" xOffset="2.52"/>
   </outline>
+  <guideline angle="82.9991" x="464" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-321.4" width="-21" />
+      <hstem pos="42.24" width="86.88" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

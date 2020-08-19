@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amod" format="2">
   <advance width="505"/>
   <unicode hex="1D43"/>
@@ -37,7 +37,9 @@
     </contour>
     <contour>
       <point x="390" y="1000" type="curve"/>
-      <point x="384" y="1013" type="line"/>
+      <point x="390" y="1000"/>
+      <point x="384" y="1013"/>
+      <point x="384" y="1013" type="curve"/>
       <point x="335" y="961"/>
       <point x="281" y="917"/>
       <point x="192" y="917" type="curve" smooth="yes"/>
@@ -59,11 +61,22 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>a.sups=amod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>a.sups=amod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="908" width="-20" />
+      <hstem pos="900" width="272" />
+      <hstem pos="1156" width="252" />
+      <hstem pos="1390" width="18" />
+      <vstem pos="60" width="22" />
+      <vstem pos="385" width="2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

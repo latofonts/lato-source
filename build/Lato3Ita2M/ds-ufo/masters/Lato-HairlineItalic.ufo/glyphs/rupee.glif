@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rupee" format="2">
   <advance width="1643"/>
   <unicode hex="20A8"/>
-  <guideline x="806" y="0" angle="82.9991"/>
   <anchor x="603" y="1496" name="Top"/>
   <outline>
     <contour>
@@ -82,10 +81,21 @@
       <point x="254" y="676" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="806" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="8" width="-21" />
+      <hstem pos="0" width="7" />
+      <hstem pos="676" width="20" />
+      <hstem pos="778" width="20" />
+      <hstem pos="1380" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

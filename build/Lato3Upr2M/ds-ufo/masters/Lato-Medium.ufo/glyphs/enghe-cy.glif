@@ -1,39 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="enghe-cy" format="2">
-  <advance width="1490.8"/>
+  <advance width="1491"/>
   <unicode hex="04A5"/>
-  <anchor x="752.6" y="1120.0" name="top"/>
-  <anchor x="564.6" y="-70.0" name="bottom"/>
+  <anchor x="564.6" y="-70" name="bottom"/>
+  <anchor x="752.6" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="136.6" y="1016.0" type="line"/>
-      <point x="136.6" y="0.0" type="line"/>
-      <point x="332.2" y="0.0" type="line"/>
-      <point x="332.2" y="1016.0" type="line"/>
+      <point x="136.6" y="1016" type="line"/>
+      <point x="136.6" y="0" type="line" name="n01"/>
+      <point x="332.2" y="0" type="line"/>
+      <point x="332.2" y="1016" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="797.0" y="1016.0" type="line"/>
-      <point x="797.0" y="0.0" type="line"/>
-      <point x="992.6" y="0.0" type="line"/>
-      <point x="992.6" y="1016.0" type="line"/>
+      <point x="797" y="1016" type="line" name="n04"/>
+      <point x="797" y="0" type="line"/>
+      <point x="992.6" y="0" type="line"/>
+      <point x="992.6" y="1016" type="line"/>
     </contour>
     <contour>
-      <point x="207.2" y="468.8" type="line"/>
+      <point x="207.2" y="468.8" type="line" name="n08"/>
       <point x="913.6" y="468.8" type="line"/>
-      <point x="913.6" y="616.0" type="line"/>
-      <point x="207.2" y="616.0" type="line"/>
+      <point x="913.6" y="616" type="line" name="n10"/>
+      <point x="207.2" y="616" type="line" name="n11"/>
     </contour>
     <contour>
-      <point x="797.0" y="868.8" type="line"/>
-      <point x="1463.0" y="868.8" type="line"/>
-      <point x="1463.0" y="1016.0" type="line"/>
-      <point x="797.0" y="1016.0" type="line"/>
+      <point x="797" y="868.8" type="line" name="n12"/>
+      <point x="1463" y="868.8" type="line"/>
+      <point x="1463" y="1016" type="line"/>
+      <point x="797" y="1016" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="468.8" width="147.2" />
+      <hstem pos="868.8" width="147.2" />
+      <vstem pos="207.2" width="125" />
+      <vstem pos="797" width="116.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

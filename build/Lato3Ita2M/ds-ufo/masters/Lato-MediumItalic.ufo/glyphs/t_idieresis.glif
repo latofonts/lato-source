@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t_idieresis" format="2">
-  <advance width="1159.6"/>
-  <guideline x="593.8" y="0.0" angle="82.9991"/>
-  <anchor x="976.4" y="1120.0" name="top"/>
-  <anchor x="830.0" y="-70.0" name="bottom"/>
+  <advance width="1160"/>
   <anchor x="899.2" y="496.6" name="bar"/>
+  <anchor x="830" y="-70" name="bottom"/>
+  <anchor x="976.4" y="1120" name="top"/>
   <outline>
     <component base="t_idotless"/>
-    <component base="dieresis.narrow" xOffset="522.4"/>
+    <component base="dieresis.narrow" xScale="1" xOffset="522.4"/>
   </outline>
+  <guideline angle="82.9991" x="532" y="0"/>
   <lib>
-    <dict>
-      <key>note</key>
-      <string>t@dotlessi+dieresis.narrow=t@idieresis</string>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>t@dotlessi+dieresis.narrow=t@idieresis</string>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
   </lib>
 </glyph>

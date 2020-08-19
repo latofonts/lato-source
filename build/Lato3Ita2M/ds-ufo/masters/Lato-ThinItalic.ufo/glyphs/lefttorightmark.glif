@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lefttorightmark" format="2">
   <unicode hex="200E"/>
-  <guideline x="0.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="-10.0" y="-390.0" type="line"/>
-      <point x="10.0" y="-390.0" type="line"/>
-      <point x="10.0" y="1687.8" type="line"/>
-      <point x="-10.0" y="1687.8" type="line"/>
+      <point x="-10" y="-390" type="line" name="n00"/>
+      <point x="10" y="-390" type="line"/>
+      <point x="10" y="1687.8" type="line"/>
+      <point x="-10" y="1687.8" type="line"/>
     </contour>
     <contour>
       <point x="428.2" y="1656.8" type="line"/>
       <point x="451.2" y="1677.7" type="line"/>
-      <point x="266.9" y="1862.0" type="line"/>
-      <point x="244.9" y="1840.0" type="line"/>
+      <point x="266.9" y="1862" type="line" name="n06"/>
+      <point x="244.9" y="1840" type="line"/>
     </contour>
     <contour>
       <point x="244.9" y="1515.4" type="line"/>
@@ -24,14 +23,22 @@
     <contour>
       <point x="426.4" y="1667.8" type="line"/>
       <point x="426.4" y="1687.8" type="line"/>
-      <point x="-10.0" y="1687.8" type="line"/>
-      <point x="-10.0" y="1667.8" type="line"/>
+      <point x="-10" y="1687.8" type="line"/>
+      <point x="-10" y="1667.8" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1862" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

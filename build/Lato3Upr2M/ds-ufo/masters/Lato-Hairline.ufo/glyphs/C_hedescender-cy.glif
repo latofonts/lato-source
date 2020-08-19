@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chedescender-cy" format="2">
   <advance width="1325"/>
   <unicode hex="04B6"/>
@@ -6,6 +6,7 @@
   <anchor x="592" y="1496" name="top"/>
   <anchor x="1012" y="-70" name="bottom"/>
   <outline>
+    <component base="Che-cy"/>
     <contour>
       <point x="1248" y="0" type="line"/>
       <point x="1248" y="-360" type="line"/>
@@ -17,12 +18,19 @@
       <point x="1024" y="22" type="line"/>
       <point x="1024" y="0" type="line"/>
     </contour>
-    <component base="Che-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-339" width="-21" />
+      <hstem pos="0" width="22" />
+      <vstem pos="1248" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

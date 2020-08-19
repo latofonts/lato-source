@@ -1,30 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_palatalcyr" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="376.2" y="1120.0" name="_top"/>
+  <advance width="736"/>
+  <anchor x="376.2" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="648.4" y="1303.8" type="curve" smooth="yes"/>
+      <point x="648.4" y="1303.8" type="curve" smooth="yes" name="n00"/>
       <point x="711.8" y="1303.8"/>
-      <point x="765.0" y="1265.2"/>
-      <point x="752.2" y="1154.2" type="curve"/>
+      <point x="765" y="1265.2"/>
+      <point x="752.2" y="1154.2" type="curve" name="n03"/>
       <point x="880.2" y="1154.2" type="line"/>
-      <point x="900.0" y="1327.2"/>
+      <point x="900" y="1327.2"/>
       <point x="839.2" y="1425.4"/>
-      <point x="675.6" y="1425.4" type="curve" smooth="yes"/>
+      <point x="675.6" y="1425.4" type="curve" smooth="yes" name="n07"/>
       <point x="478.4" y="1425.4"/>
-      <point x="370.8" y="1273.0"/>
-      <point x="148.2" y="1273.0" type="curve"/>
-      <point x="134.6" y="1153.8" type="line"/>
+      <point x="370.8" y="1273"/>
+      <point x="148.2" y="1273" type="curve" name="n10"/>
+      <point x="134.6" y="1153.8" type="line" name="n11"/>
       <point x="392.4" y="1153.8"/>
       <point x="492.6" y="1303.8"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1153.8" width="119.2" />
+      <hstem pos="1175.2" width="-21" />
+      <hstem pos="1303.8" width="121.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

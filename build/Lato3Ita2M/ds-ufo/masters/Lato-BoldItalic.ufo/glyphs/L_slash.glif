@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lslash" format="2">
-  <advance width="1003.3"/>
+  <advance width="1003"/>
   <unicode hex="0141"/>
-  <guideline x="507.96" y="0.0" angle="82.9991"/>
-  <anchor x="441.12" y="1518.62" name="Top"/>
-  <anchor x="441.12" y="1518.62" name="top"/>
-  <anchor x="473.88" y="-70.0" name="bottom"/>
   <anchor x="329.52" y="721.84" name="Bar"/>
+  <anchor x="441.12" y="1518.62" name="Top"/>
+  <anchor x="473.88" y="-70" name="bottom"/>
+  <anchor x="441.12" y="1518.62" name="top"/>
   <outline>
+    <component base="L" xOffset="36.94"/>
     <contour>
-      <point x="-7.140000000000001" y="439.8" type="line"/>
+      <point x="-7.14" y="439.8" type="line" name="n00"/>
       <point x="340.58" y="611.52" type="line"/>
       <point x="346.14" y="599.04" type="line"/>
       <point x="756.74" y="816.32" type="line"/>
       <point x="778.1" y="825.44"/>
       <point x="790.58" y="843.92"/>
-      <point x="794.14" y="869.08" type="curve"/>
-      <point x="815.98" y="1045.12" type="line"/>
+      <point x="794.14" y="869.08" type="curve" smooth="yes"/>
+      <point x="815.98" y="1045.12" type="line" name="n07"/>
       <point x="371.98" y="817.6" type="line"/>
       <point x="369.54" y="831.64" type="line"/>
       <point x="49.42" y="667.48" type="line"/>
@@ -24,12 +24,19 @@
       <point x="16.7" y="641.88"/>
       <point x="15.14" y="619.4" type="curve"/>
     </contour>
-    <component base="L" xOffset="36.94"/>
   </outline>
+  <guideline angle="82.9991" x="483" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="460.8" width="-21" />
+      <hstem pos="1045.12" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

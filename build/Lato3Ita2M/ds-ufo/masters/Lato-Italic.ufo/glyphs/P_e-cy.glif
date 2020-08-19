@@ -1,37 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Pe-cy" format="2">
-  <advance width="1368.2"/>
+  <advance width="1368"/>
   <unicode hex="041F"/>
-  <guideline x="669.48" y="0.0" angle="82.9991"/>
   <anchor x="781.68" y="1511.66" name="Top"/>
+  <anchor x="604.9" y="-70" name="bottom"/>
   <anchor x="781.68" y="1511.66" name="top"/>
-  <anchor x="604.9" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="460.8" y="1431.86" type="line"/>
       <point x="273.18" y="1431.86" type="line"/>
-      <point x="97.4" y="0.0" type="line"/>
-      <point x="285.02" y="0.0" type="line"/>
+      <point x="97.4" y="0" type="line" name="n02"/>
+      <point x="285.02" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="441.38" y="1431.86" type="line"/>
-      <point x="423.26" y="1285.12" type="line"/>
+      <point x="441.38" y="1431.86" type="line" name="n04"/>
+      <point x="423.26" y="1285.12" type="line" name="n05"/>
       <point x="1171.8" y="1285.12" type="line"/>
       <point x="1189.92" y="1431.86" type="line"/>
     </contour>
     <contour>
       <point x="1297.34" y="1431.86" type="line"/>
       <point x="1109.18" y="1431.86" type="line"/>
-      <point x="933.4" y="0.0" type="line"/>
-      <point x="1121.56" y="0.0" type="line"/>
+      <point x="933.4" y="0" type="line"/>
+      <point x="1121.56" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="663" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1285.12" width="146.74" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

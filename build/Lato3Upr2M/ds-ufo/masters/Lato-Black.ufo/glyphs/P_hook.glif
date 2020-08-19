@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Phook" format="2">
   <advance width="1623"/>
   <unicode hex="01A4"/>
@@ -30,7 +30,9 @@
     </contour>
     <contour>
       <point x="522" y="1213" type="line"/>
-      <point x="522" y="1460" type="line"/>
+      <point x="522" y="1213"/>
+      <point x="522" y="1460"/>
+      <point x="522" y="1460" type="curve"/>
       <point x="488" y="1460" type="line" smooth="yes"/>
       <point x="189" y="1460"/>
       <point x="21" y="1306"/>
@@ -51,9 +53,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="482" width="266" />
+      <hstem pos="1196" width="264" />
+      <vstem pos="21" width="286" />
+      <vstem pos="492" width="338" />
+      <vstem pos="1254" width="338" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

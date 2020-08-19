@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palatalizationcomb-cy" format="2">
   <unicode hex="0484"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1610.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="109.04" y="1301.84" type="curve" smooth="yes"/>
+      <point x="109.04" y="1301.84" type="curve" smooth="yes" name="n00"/>
       <point x="166.84" y="1301.84"/>
       <point x="224.64" y="1276.96"/>
-      <point x="224.64" y="1158.96" type="curve"/>
-      <point x="419.12" y="1158.96" type="line"/>
+      <point x="224.64" y="1158.96" type="curve" name="n03"/>
+      <point x="419.12" y="1158.96" type="line" name="n04"/>
       <point x="419.12" y="1364.16"/>
       <point x="340.36" y="1471.32"/>
-      <point x="130.16" y="1471.32" type="curve" smooth="yes"/>
+      <point x="130.16" y="1471.32" type="curve" smooth="yes" name="n07"/>
       <point x="-89.56" y="1471.32"/>
       <point x="-156.76" y="1324.8"/>
-      <point x="-419.12" y="1324.8" type="curve"/>
-      <point x="-419.12" y="1158.84" type="line"/>
+      <point x="-419.12" y="1324.8" type="curve" name="n10"/>
+      <point x="-419.12" y="1158.84" type="line" name="n11"/>
       <point x="-107.56" y="1158.84"/>
       <point x="-43.28" y="1301.84"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_palatalcyr=palatalcyrcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_palatalcyr=palatalcyrcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1158.84" width="165.96" />
+      <hstem pos="1179.96" width="-21" />
+      <hstem pos="1301.84" width="169.48" />
+      <vstem pos="224.64" width="194.48" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

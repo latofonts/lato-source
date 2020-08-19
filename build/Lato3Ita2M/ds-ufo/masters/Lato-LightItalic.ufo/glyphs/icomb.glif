@@ -1,40 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icomb" format="2">
   <unicode hex="0365"/>
-  <guideline x="-156.5"/>
-  <guideline x="-197.5" y="0.0" angle="82.9991"/>
-  <anchor x="-50.0" y="1037.0" name="_top"/>
-  <anchor x="50.0" y="1918.0" name="top"/>
+  <anchor x="-50" y="1037" name="_top"/>
+  <anchor x="50" y="1918" name="top"/>
   <outline>
     <contour>
       <point x="-22.5" y="1531.75" type="line"/>
-      <point x="-73.25" y="1120.25" type="line"/>
-      <point x="-11.0" y="1120.25" type="line"/>
-      <point x="40.0" y="1531.75" type="line"/>
+      <point x="-73.25" y="1120.25" type="line" name="n01"/>
+      <point x="-11" y="1120.25" type="line"/>
+      <point x="40" y="1531.75" type="line"/>
     </contour>
     <contour>
-      <point x="73.0" y="1682.5" type="curve" smooth="yes"/>
-      <point x="73.0" y="1706.0"/>
-      <point x="54.75" y="1725.5"/>
-      <point x="32.0" y="1725.5" type="curve" smooth="yes"/>
-      <point x="6.0" y="1725.5"/>
-      <point x="-20.25" y="1702.0"/>
-      <point x="-20.25" y="1673.0" type="curve" smooth="yes"/>
+      <point x="73" y="1682.5" type="curve" smooth="yes"/>
+      <point x="73" y="1706"/>
+      <point x="54.75" y="1725.5" name="n06"/>
+      <point x="32" y="1725.5" type="curve" smooth="yes"/>
+      <point x="6" y="1725.5"/>
+      <point x="-20.25" y="1702"/>
+      <point x="-20.25" y="1673" type="curve" smooth="yes"/>
       <point x="-20.25" y="1650.25"/>
-      <point x="-2.25" y="1630.75"/>
+      <point x="-2.25" y="1630.75" name="n12"/>
       <point x="20.25" y="1630.75" type="curve" smooth="yes"/>
       <point x="46.75" y="1630.75"/>
-      <point x="73.0" y="1654.5"/>
+      <point x="73" y="1654.5"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-155" y="0"/>
+  <guideline angle="82.9991" x="-186" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_i=icomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_i=icomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1141.25" width="-21" />
+      <hstem pos="1630.75" width="-20" />
+      <hstem pos="1725.5" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

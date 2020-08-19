@@ -1,20 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ustraightstroke-cy" format="2">
-  <advance width="1267.96"/>
+  <advance width="1268"/>
   <unicode hex="04B0"/>
-  <guideline y="662.88"/>
-  <guideline x="615.24" y="0.0" angle="82.9991"/>
   <anchor x="709.72" y="1521.52" name="Top"/>
+  <anchor x="555.48" y="-70" name="bottom"/>
   <anchor x="709.72" y="1521.52" name="top"/>
-  <anchor x="555.48" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="1367.8" y="1451.92" type="line"/>
+      <point x="1367.8" y="1451.92" type="line" name="n00"/>
       <point x="1111.08" y="1451.92" type="line" smooth="yes"/>
       <point x="1063.72" y="1451.92"/>
       <point x="1029.8" y="1416.48"/>
       <point x="1008.96" y="1385.84" type="curve"/>
-      <point x="752.84" y="977.04" type="line" smooth="yes"/>
+      <point x="752.84" y="977.04" type="line"/>
       <point x="658.4" y="842.16"/>
       <point x="622.8" y="770.88"/>
       <point x="598.96" y="620.16" type="curve"/>
@@ -23,32 +21,42 @@
     <contour>
       <point x="505.32" y="620.16" type="line"/>
       <point x="679.96" y="620.16" type="line"/>
-      <point x="694.6800000000001" y="772.64"/>
+      <point x="694.68" y="772.64"/>
       <point x="672.12" y="841.28"/>
-      <point x="609.08" y="977.04" type="curve" smooth="yes"/>
-      <point x="451.88" y="1385.84" type="line" smooth="yes"/>
+      <point x="609.08" y="977.04" type="curve"/>
+      <point x="451.88" y="1385.84" type="line"/>
       <point x="434.8" y="1422.64"/>
       <point x="413.2" y="1451.92"/>
       <point x="363.32" y="1451.92" type="curve" smooth="yes"/>
-      <point x="108.24000000000001" y="1451.92" type="line"/>
+      <point x="108.24" y="1451.92" type="line"/>
     </contour>
     <contour>
       <point x="789.92" y="695.12" type="line"/>
       <point x="500.92" y="695.12" type="line"/>
-      <point x="415.48" y="0.0" type="line"/>
-      <point x="704.36" y="0.0" type="line"/>
+      <point x="415.48" y="0" type="line" name="n22"/>
+      <point x="704.36" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="218.84" y="586.04" type="line"/>
-      <point x="192.2" y="369.56" type="line"/>
+      <point x="218.84" y="586.04" type="line" name="n24"/>
+      <point x="192.2" y="369.56" type="line" name="n25"/>
       <point x="1018.44" y="369.56" type="line"/>
       <point x="1045.2" y="586.04" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="662"/>
+  <guideline angle="82.9991" x="529" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="369.56" width="216.48" />
+      <hstem pos="1451.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

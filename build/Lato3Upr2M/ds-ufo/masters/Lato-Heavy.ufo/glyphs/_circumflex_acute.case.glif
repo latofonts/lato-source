@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_circumflex_acute.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1521.52" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1521.52" name="_Top"/>
   <outline>
     <contour>
-      <point x="842.76" y="1965.08" type="line"/>
+      <point x="842.76" y="1965.08" type="line" smooth="yes" name="n00"/>
       <point x="785.56" y="1965.08"/>
       <point x="764.72" y="1944.12"/>
-      <point x="740.92" y="1907.88" type="curve" smooth="yes"/>
+      <point x="740.92" y="1907.88" type="curve"/>
       <point x="657.28" y="1790.48" type="line"/>
       <point x="694.72" y="1744.36" type="line" smooth="yes"/>
       <point x="737.04" y="1689.96"/>
@@ -16,12 +16,12 @@
       <point x="1109.88" y="1965.08" type="line"/>
     </contour>
     <contour>
-      <point x="36.8" y="1550.32" type="line"/>
+      <point x="36.8" y="1550.32" type="line" name="n10"/>
       <point x="227.52" y="1550.32" type="line" smooth="yes"/>
       <point x="249.36" y="1550.32"/>
       <point x="282.88" y="1552.32"/>
-      <point x="316.15999999999997" y="1592.64" type="curve"/>
-      <point x="383.68" y="1682.0" type="line" smooth="yes"/>
+      <point x="316.16" y="1592.64" type="curve"/>
+      <point x="383.68" y="1682" type="line"/>
       <point x="424.24" y="1738.52"/>
       <point x="437.44" y="1781.44"/>
       <point x="437.44" y="1826.64" type="curve"/>
@@ -32,18 +32,25 @@
       <point x="362.56" y="1826.64" type="line"/>
       <point x="362.56" y="1781.44"/>
       <point x="375.76" y="1738.52"/>
-      <point x="416.32" y="1682.0" type="curve" smooth="yes"/>
-      <point x="483.84000000000003" y="1592.64" type="line"/>
+      <point x="416.32" y="1682" type="curve"/>
+      <point x="483.84" y="1592.64" type="line"/>
       <point x="517.12" y="1552.32"/>
       <point x="550.64" y="1550.32"/>
       <point x="572.48" y="1550.32" type="curve" smooth="yes"/>
-      <point x="772.0" y="1550.32" type="line"/>
+      <point x="772" y="1550.32" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1571.32" width="-21" />
+      <hstem pos="1965.08" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

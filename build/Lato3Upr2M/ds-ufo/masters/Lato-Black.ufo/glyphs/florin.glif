@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="florin" format="2">
   <advance width="724"/>
   <unicode hex="0192"/>
@@ -56,13 +56,25 @@
       <point x="476" y="-212"/>
       <point x="476" y="33" type="curve"/>
       <point x="476" y="102" type="line"/>
-      <point x="166" y="102" type="line"/>
+      <point x="476" y="102"/>
+      <point x="166" y="102"/>
+      <point x="166" y="102" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-395" width="240" />
+      <hstem pos="-164" width="-20" />
+      <hstem pos="818" width="222" />
+      <hstem pos="1252" width="236" />
+      <vstem pos="166" width="300" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

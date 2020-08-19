@@ -1,24 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iTurnedmod" format="2">
-  <advance width="327.4"/>
+  <advance width="327"/>
   <unicode hex="1D4E"/>
-  <guideline x="270.72"/>
-  <anchor x="163.64" y="-70.0" name="bottom"/>
+  <anchor x="163.64" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="259.24" y="920.32" type="line"/>
-      <point x="259.24" y="1454.56" type="line"/>
+      <point x="259.24" y="920.32" type="line" name="n00"/>
+      <point x="259.24" y="1454.56" type="line" name="n01"/>
       <point x="68.16" y="1454.56" type="line"/>
       <point x="68.16" y="920.32" type="line"/>
     </contour>
     <contour>
-      <point x="53.2" y="769.8" type="curve"/>
+      <point x="53.2" y="769.8" type="curve" smooth="yes" name="n04"/>
       <point x="53.2" y="708.68"/>
-      <point x="103.64" y="658.48"/>
+      <point x="103.64" y="658.48" name="n06"/>
       <point x="166.28" y="658.48" type="curve" smooth="yes"/>
       <point x="224.76" y="658.48"/>
       <point x="274.96" y="708.68"/>
-      <point x="274.96" y="769.8" type="curve" smooth="yes"/>
+      <point x="274.96" y="769.8" type="curve" smooth="yes" name="n10"/>
       <point x="274.96" y="830.8"/>
       <point x="224.76" y="880.12"/>
       <point x="166.28" y="880.12" type="curve" smooth="yes"/>
@@ -26,10 +25,20 @@
       <point x="53.2" y="830.8"/>
     </contour>
   </outline>
+  <guideline angle="90" x="232" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="679.48" width="-21" />
+      <hstem pos="920.32" width="-20" />
+      <hstem pos="1454.56" width="-20" />
+      <vstem pos="53.2" width="221.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

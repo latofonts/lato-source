@@ -1,38 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblgrave" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="374.88" y="1120.0" name="_top"/>
+  <advance width="736"/>
+  <anchor x="374.88" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="424.84" y="1448.4" type="line"/>
-      <point x="578.84" y="1190.84" type="line"/>
+      <point x="424.84" y="1448.4" type="line" name="n00"/>
+      <point x="578.84" y="1190.84" type="line" smooth="yes"/>
       <point x="591.02" y="1169.72"/>
-      <point x="606.82" y="1163.4"/>
+      <point x="606.82" y="1163.4" name="n03"/>
       <point x="632.26" y="1163.4" type="curve" smooth="yes"/>
       <point x="700.88" y="1163.4" type="line"/>
-      <point x="601.1800000000001" y="1404.8" type="line" smooth="yes"/>
+      <point x="601.18" y="1404.8" type="line" smooth="yes"/>
       <point x="589.02" y="1434.68"/>
       <point x="573.38" y="1448.4"/>
-      <point x="533.4" y="1448.4" type="curve"/>
+      <point x="533.4" y="1448.4" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="136.1" y="1448.4" type="line"/>
-      <point x="329.84" y="1190.84" type="line"/>
+      <point x="329.84" y="1190.84" type="line" smooth="yes"/>
       <point x="344.18" y="1170.8"/>
       <point x="358.36" y="1163.4"/>
       <point x="383.8" y="1163.4" type="curve" smooth="yes"/>
       <point x="462.14" y="1163.4" type="line"/>
-      <point x="324.0" y="1404.8" type="line" smooth="yes"/>
+      <point x="324" y="1404.8" type="line"/>
       <point x="308.68" y="1433.6"/>
       <point x="296.66" y="1448.4"/>
-      <point x="256.22" y="1448.4" type="curve"/>
+      <point x="256.22" y="1448.4" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1184.4" width="-21" />
+      <hstem pos="1448.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

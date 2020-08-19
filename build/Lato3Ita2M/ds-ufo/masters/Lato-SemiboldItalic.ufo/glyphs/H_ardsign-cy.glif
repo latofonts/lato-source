@@ -1,26 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hardsign-cy" format="2">
-  <advance width="1387.556"/>
+  <advance width="1388"/>
   <unicode hex="042A"/>
-  <guideline x="706.626" y="0.0" angle="82.9991"/>
-  <anchor x="807.268" y="1515.314" name="Top"/>
-  <anchor x="807.268" y="1515.314" name="top"/>
-  <anchor x="710.2280000000001" y="-70.0" name="bottom"/>
+  <anchor x="807.268" y="1515.31" name="Top"/>
+  <anchor x="710.228" y="-70" name="bottom"/>
+  <anchor x="807.268" y="1515.31" name="top"/>
   <outline>
+    <component base="Softsign-cy" xScale="1" xOffset="243.948"/>
     <contour>
-      <point x="102.342" y="1257.454" type="line"/>
-      <point x="694.484" y="1257.454" type="line"/>
-      <point x="726.4639999999999" y="1439.294" type="line"/>
-      <point x="125.322" y="1439.294" type="line"/>
+      <point x="102.342" y="1257.45" type="line" name="n00"/>
+      <point x="694.484" y="1257.45" type="line"/>
+      <point x="726.464" y="1439.29" type="line"/>
+      <point x="125.322" y="1439.29" type="line" name="n03"/>
     </contour>
-    <component base="Softsign-cy" xOffset="243.948"/>
   </outline>
+  <guideline angle="82.9991" x="666" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1257.454" width="181.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

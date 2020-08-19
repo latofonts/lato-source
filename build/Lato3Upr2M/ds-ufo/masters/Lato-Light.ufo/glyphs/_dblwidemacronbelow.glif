@@ -1,18 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblwidemacronbelow" format="2">
-  <advance width="2101.75"/>
+  <advance width="2102"/>
   <outline>
     <contour>
-      <point x="107.5" y="-390.25" type="line"/>
+      <point x="107.5" y="-390.25" type="line" name="n00"/>
       <point x="1994.25" y="-390.25" type="line"/>
       <point x="1994.25" y="-317.75" type="line"/>
-      <point x="107.5" y="-317.75" type="line"/>
+      <point x="107.5" y="-317.75" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-390.25" width="72.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

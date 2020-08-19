@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chedescenderabkhasian-cy" format="2">
   <advance width="1632"/>
   <unicode hex="04BE"/>
-  <guideline x="818" y="0" angle="82.9991"/>
   <anchor x="984" y="1525" name="Top"/>
   <anchor x="984" y="1525" name="top"/>
   <anchor x="948" y="-70" name="bottom"/>
   <outline>
+    <component base="Cheabkhasian-cy"/>
     <contour>
       <point x="806" y="185" type="line"/>
       <point x="743" y="-329" type="line"/>
       <point x="1042" y="-329" type="line"/>
       <point x="1105" y="185" type="line"/>
     </contour>
-    <component base="Cheabkhasian-cy"/>
   </outline>
+  <guideline angle="82.9991" x="818" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Cheabkhcyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Cheabkhcyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-308" width="-21" />
+      <hstem pos="185" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

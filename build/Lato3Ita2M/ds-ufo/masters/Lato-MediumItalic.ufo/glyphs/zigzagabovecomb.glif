@@ -1,37 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zigzagabovecomb" format="2">
   <unicode hex="035B"/>
-  <guideline x="-171.6" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1779.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1779" name="top"/>
   <outline>
     <contour>
-      <point x="76.0" y="1430.6" type="line"/>
-      <point x="-55.199999999999996" y="1145.2" type="line"/>
+      <point x="76" y="1430.6" type="line"/>
+      <point x="-55.2" y="1145.2" type="line" smooth="yes"/>
       <point x="-67.6" y="1119.8"/>
-      <point x="-61.199999999999996" y="1102.4"/>
+      <point x="-61.2" y="1102.4" name="n03"/>
       <point x="-35.4" y="1102.4" type="curve" smooth="yes"/>
       <point x="54.6" y="1102.4" type="line"/>
-      <point x="203.0" y="1442.8" type="line"/>
+      <point x="203" y="1442.8" type="line" name="n06"/>
       <point x="-91.8" y="1442.8" type="line"/>
       <point x="-76.8" y="1333.6" type="line"/>
-      <point x="54.8" y="1619.6" type="line"/>
+      <point x="54.8" y="1619.6" type="line" smooth="yes"/>
       <point x="65.6" y="1643.8"/>
-      <point x="60.8" y="1662.4"/>
+      <point x="60.8" y="1662.4" name="n11"/>
       <point x="33.8" y="1662.4" type="curve" smooth="yes"/>
-      <point x="-56.199999999999996" y="1662.4" type="line"/>
-      <point x="-204.0" y="1322.0" type="line"/>
-      <point x="86.4" y="1322.0" type="line"/>
+      <point x="-56.2" y="1662.4" type="line"/>
+      <point x="-204" y="1322" type="line"/>
+      <point x="86.4" y="1322" type="line" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-147" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_zigzag=zigzagcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_zigzag=zigzagcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1123.4" width="-21" />
+      <hstem pos="1322" width="120.8" />
+      <hstem pos="1662.4" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

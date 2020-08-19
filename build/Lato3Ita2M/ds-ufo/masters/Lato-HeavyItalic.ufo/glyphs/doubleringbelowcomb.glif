@@ -1,47 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleringbelowcomb" format="2">
   <unicode hex="035A"/>
-  <guideline y="-215.0"/>
-  <guideline x="54.88"/>
-  <guideline x="189.56"/>
-  <guideline x="-287.12" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="-465.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-465" name="bottom"/>
   <outline>
     <contour>
       <point x="-304.4" y="-232.48" type="curve" smooth="yes"/>
-      <point x="-304.4" y="-316.84000000000003"/>
-      <point x="-249.96" y="-386.84000000000003"/>
-      <point x="-151.76" y="-386.84000000000003" type="curve" smooth="yes"/>
-      <point x="-32.64" y="-386.84000000000003"/>
+      <point x="-304.4" y="-316.84"/>
+      <point x="-249.96" y="-386.84"/>
+      <point x="-151.76" y="-386.84" type="curve" smooth="yes" name="n03"/>
+      <point x="-32.64" y="-386.84"/>
       <point x="32.4" y="-294.04"/>
       <point x="32.4" y="-185.4" type="curve" smooth="yes"/>
       <point x="32.4" y="-102.8"/>
-      <point x="-12.760000000000002" y="-35.56"/>
-      <point x="-109.2" y="-35.56" type="curve" smooth="yes"/>
+      <point x="-12.76" y="-35.56"/>
+      <point x="-109.2" y="-35.56" type="curve" smooth="yes" name="n09"/>
       <point x="-226.56" y="-35.56"/>
       <point x="-304.4" y="-124.72"/>
     </contour>
     <contour>
-      <point x="-160.44" y="-221.68" type="curve"/>
+      <point x="-160.44" y="-221.68" type="curve" smooth="yes"/>
       <point x="-160.44" y="-189.28"/>
       <point x="-147.04" y="-166.2"/>
-      <point x="-112.96000000000001" y="-166.2" type="curve" smooth="yes"/>
-      <point x="-89.0" y="-166.2"/>
+      <point x="-112.96" y="-166.2" type="curve" smooth="yes" name="n15"/>
+      <point x="-89" y="-166.2"/>
       <point x="-78.52" y="-180.8"/>
       <point x="-78.52" y="-204.24" type="curve" smooth="yes"/>
       <point x="-78.52" y="-236.64"/>
       <point x="-91.8" y="-259.72"/>
-      <point x="-124.24" y="-259.72" type="curve" smooth="yes"/>
-      <point x="-149.07999999999998" y="-259.72"/>
+      <point x="-124.24" y="-259.72" type="curve" smooth="yes" name="n21"/>
+      <point x="-149.08" y="-259.72"/>
       <point x="-160.44" y="-245.12"/>
     </contour>
     <contour>
       <point x="-33.28" y="-235.36" type="curve" smooth="yes"/>
       <point x="-33.28" y="-318.72"/>
-      <point x="14.52" y="-386.84000000000003"/>
-      <point x="110.84" y="-386.84000000000003" type="curve" smooth="yes"/>
-      <point x="228.2" y="-386.84000000000003"/>
+      <point x="14.52" y="-386.84"/>
+      <point x="110.84" y="-386.84" type="curve" smooth="yes"/>
+      <point x="228.2" y="-386.84"/>
       <point x="303.4" y="-296.8"/>
       <point x="303.4" y="-188.16" type="curve" smooth="yes"/>
       <point x="303.4" y="-103.8"/>
@@ -53,26 +49,37 @@
     <contour>
       <point x="75.76" y="-221.68" type="curve" smooth="yes"/>
       <point x="75.76" y="-189.28"/>
-      <point x="89.03999999999999" y="-166.2"/>
+      <point x="89.04" y="-166.2"/>
       <point x="123.12" y="-166.2" type="curve" smooth="yes"/>
       <point x="147.2" y="-166.2"/>
       <point x="158.56" y="-180.8"/>
       <point x="158.56" y="-204.24" type="curve" smooth="yes"/>
       <point x="158.56" y="-236.64"/>
       <point x="144.28" y="-259.72"/>
-      <point x="111.96000000000001" y="-259.72" type="curve" smooth="yes"/>
+      <point x="111.96" y="-259.72" type="curve" smooth="yes"/>
       <point x="87.12" y="-259.72"/>
       <point x="75.76" y="-245.12"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="-215"/>
+  <guideline angle="90" x="54" y="0"/>
+  <guideline angle="90" x="179" y="0"/>
+  <guideline angle="82.9991" x="-244" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_ringdblbelow=dblringbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_ringdblbelow=dblringbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-386.84" width="127.12" />
+      <hstem pos="-166.2" width="130.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

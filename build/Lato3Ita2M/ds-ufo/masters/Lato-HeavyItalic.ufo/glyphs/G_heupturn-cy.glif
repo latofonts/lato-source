@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gheupturn-cy" format="2">
-  <advance width="1017.28"/>
+  <advance width="1017"/>
   <unicode hex="0490"/>
-  <guideline x="504.28" y="0.0" angle="82.9991"/>
-  <anchor x="469.84000000000003" y="1521.52" name="Top"/>
-  <anchor x="469.84000000000003" y="1521.52" name="top"/>
-  <anchor x="206.8" y="-70.0" name="bottom"/>
+  <anchor x="469.84" y="1521.52" name="Top"/>
+  <anchor x="206.8" y="-70" name="bottom"/>
+  <anchor x="469.84" y="1521.52" name="top"/>
   <outline>
     <contour>
-      <point x="1120.28" y="1772.12" type="line"/>
+      <point x="1120.28" y="1772.12" type="line" name="n00"/>
       <point x="897.64" y="1772.12" type="line"/>
-      <point x="858.52" y="1451.92" type="line"/>
-      <point x="244.95999999999998" y="1451.92" type="line"/>
-      <point x="66.8" y="0.0" type="line"/>
-      <point x="357.44" y="0.0" type="line"/>
-      <point x="507.96000000000004" y="1226.6399999999999" type="line"/>
-      <point x="1053.52" y="1226.6399999999999" type="line"/>
+      <point x="858.52" y="1451.92" type="line" name="n02"/>
+      <point x="244.96" y="1451.92" type="line"/>
+      <point x="66.8" y="0" type="line" name="n04"/>
+      <point x="357.44" y="0" type="line"/>
+      <point x="507.96" y="1226.64" type="line"/>
+      <point x="1053.52" y="1226.64" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="521" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1226.64" width="225.28" />
+      <hstem pos="1772.12" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

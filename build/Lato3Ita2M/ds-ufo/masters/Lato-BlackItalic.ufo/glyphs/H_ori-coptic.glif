@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hori-coptic" format="2">
   <advance width="1040"/>
   <unicode hex="03E8"/>
-  <guideline x="519" y="0" angle="82.9991"/>
   <anchor x="618" y="1525" name="Top"/>
   <anchor x="618" y="1525" name="top"/>
   <anchor x="482" y="-70" name="bottom"/>
@@ -54,10 +53,18 @@
       <point x="221" y="880" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="519" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="270" />
+      <hstem pos="1207" width="268" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

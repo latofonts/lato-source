@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="toneXH_H" format="2">
-  <advance width="739.3"/>
+  <advance width="739"/>
   <outline>
     <contour>
-      <point x="208.04000000000002" y="1414.74" type="line"/>
+      <point x="208.04" y="1414.74" type="line"/>
       <point x="112.5" y="1314.5" type="line"/>
       <point x="483.2" y="990.02" type="line"/>
       <point x="579.28" y="1090.26" type="line"/>
     </contour>
     <contour>
-      <point x="459.14" y="1432.4" type="line"/>
-      <point x="459.14" y="0.0" type="line"/>
-      <point x="603.34" y="0.0" type="line"/>
-      <point x="603.34" y="1432.4" type="line"/>
+      <point x="459.14" y="1432.4" type="line" name="n04"/>
+      <point x="459.14" y="0" type="line" name="n05"/>
+      <point x="603.34" y="0" type="line"/>
+      <point x="603.34" y="1432.4" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1432.4" width="-20" />
+      <vstem pos="459.14" width="144.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

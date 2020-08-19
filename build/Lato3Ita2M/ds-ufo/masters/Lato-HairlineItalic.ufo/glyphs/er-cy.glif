@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="er-cy" format="2">
   <advance width="1010"/>
   <unicode hex="0440"/>
-  <guideline x="492" y="0" angle="82.9991"/>
   <anchor x="527" y="20" name="hook"/>
   <anchor x="85" y="-157" name="bar"/>
   <anchor x="602" y="44" name="tick"/>
@@ -49,14 +48,24 @@
       <point x="138" y="212" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="492" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>p=ercyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>p=ercyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-339" width="-21" />
+      <hstem pos="-12" width="20" />
+      <hstem pos="984" width="-20" />
+      <hstem pos="974" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

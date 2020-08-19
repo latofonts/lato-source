@@ -1,19 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1515.314" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1515.31" name="_Top"/>
   <outline>
     <contour>
-      <point x="110.06" y="1578.72" type="line"/>
+      <point x="110.06" y="1578.72" type="line" name="n00"/>
       <point x="689.94" y="1578.72" type="line"/>
-      <point x="689.94" y="1703.948" type="line"/>
-      <point x="110.06" y="1703.948" type="line"/>
+      <point x="689.94" y="1703.95" type="line"/>
+      <point x="110.06" y="1703.95" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1578.72" width="125.228" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

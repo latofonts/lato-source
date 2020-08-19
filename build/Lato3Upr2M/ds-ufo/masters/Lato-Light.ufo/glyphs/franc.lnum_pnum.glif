@@ -1,36 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="franc.lnum_pnum" format="2">
-  <advance width="1207.75"/>
+  <advance width="1208"/>
   <outline>
     <contour>
-      <point x="415.25" y="1415.0" type="line"/>
-      <point x="312.25" y="1415.0" type="line"/>
-      <point x="312.25" y="0.0" type="line"/>
-      <point x="415.25" y="0.0" type="line"/>
+      <point x="415.25" y="1415" type="line" name="n00"/>
+      <point x="312.25" y="1415" type="line"/>
+      <point x="312.25" y="0" type="line" name="n02"/>
+      <point x="415.25" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="401.25" y="780.0" type="line"/>
-      <point x="401.25" y="695.5" type="line"/>
+      <point x="401.25" y="780" type="line" name="n04"/>
+      <point x="401.25" y="695.5" type="line" name="n05"/>
       <point x="1010.25" y="695.5" type="line"/>
-      <point x="1010.25" y="780.0" type="line"/>
+      <point x="1010.25" y="780" type="line"/>
     </contour>
     <contour>
-      <point x="401.25" y="1415.0" type="line"/>
-      <point x="401.25" y="1330.5" type="line"/>
+      <point x="401.25" y="1415" type="line" name="n08"/>
+      <point x="401.25" y="1330.5" type="line" name="n09"/>
       <point x="1115.25" y="1330.5" type="line"/>
-      <point x="1115.25" y="1415.0" type="line"/>
+      <point x="1115.25" y="1415" type="line"/>
     </contour>
     <contour>
-      <point x="84.25" y="310.5" type="line"/>
+      <point x="84.25" y="310.5" type="line" name="n12"/>
       <point x="754.25" y="310.5" type="line"/>
       <point x="754.25" y="368.5" type="line"/>
-      <point x="84.25" y="368.5" type="line"/>
+      <point x="84.25" y="368.5" type="line" name="n15"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="310.5" width="58" />
+      <hstem pos="695.5" width="84.5" />
+      <hstem pos="1330.5" width="84.5" />
+      <vstem pos="401.25" width="14" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

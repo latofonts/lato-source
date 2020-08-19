@@ -1,52 +1,59 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutedottedcomb" format="2">
   <unicode hex="1DC1"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1800.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1800" name="top"/>
   <outline>
     <contour>
       <point x="263.6" y="1444.24" type="line"/>
       <point x="125.28" y="1582.56" type="line"/>
       <point x="-281.2" y="1176.96" type="line"/>
-      <point x="-142.0" y="1037.76" type="line"/>
+      <point x="-142" y="1037.76" type="line"/>
     </contour>
     <contour>
-      <point x="120.32" y="1145.28" type="curve"/>
+      <point x="120.32" y="1145.28" type="curve" smooth="yes"/>
       <point x="120.32" y="1064.48"/>
       <point x="188.8" y="999.76"/>
-      <point x="271.36" y="999.76" type="curve" smooth="yes"/>
+      <point x="271.36" y="999.76" type="curve" smooth="yes" name="n07"/>
       <point x="348.88" y="999.76"/>
       <point x="417.12" y="1064.48"/>
       <point x="417.12" y="1145.28" type="curve" smooth="yes"/>
       <point x="417.12" y="1228.08"/>
       <point x="348.88" y="1296.32"/>
-      <point x="271.36" y="1296.32" type="curve" smooth="yes"/>
+      <point x="271.36" y="1296.32" type="curve" smooth="yes" name="n13"/>
       <point x="188.8" y="1296.32"/>
       <point x="120.32" y="1228.08"/>
     </contour>
     <contour>
-      <point x="-417.12" y="1479.28" type="curve"/>
+      <point x="-417.12" y="1479.28" type="curve" smooth="yes"/>
       <point x="-417.12" y="1398.48"/>
       <point x="-350.4" y="1333.76"/>
-      <point x="-267.84000000000003" y="1333.76" type="curve" smooth="yes"/>
+      <point x="-267.84" y="1333.76" type="curve" smooth="yes" name="n19"/>
       <point x="-186.8" y="1333.76"/>
       <point x="-120.32" y="1398.48"/>
       <point x="-120.32" y="1479.28" type="curve" smooth="yes"/>
       <point x="-120.32" y="1562.08"/>
       <point x="-186.8" y="1630.32"/>
-      <point x="-267.84000000000003" y="1630.32" type="curve" smooth="yes"/>
+      <point x="-267.84" y="1630.32" type="curve" smooth="yes" name="n25"/>
       <point x="-350.4" y="1630.32"/>
       <point x="-417.12" y="1562.08"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_acutedotted=acutedottedcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_acutedotted=acutedottedcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="999.76" width="296.56" />
+      <hstem pos="1333.76" width="296.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

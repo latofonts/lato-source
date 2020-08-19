@@ -1,26 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="boxLightHorizontal" format="2">
-  <advance width="1500.0"/>
+  <advance width="1500"/>
   <unicode hex="2500"/>
-  <guideline x="750.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="-50.0" y="530.06" type="line"/>
+      <point x="-50" y="530.06" type="line" name="n00"/>
       <point x="819.94" y="530.06" type="line"/>
       <point x="819.94" y="669.94" type="line"/>
-      <point x="-50.0" y="669.94" type="line"/>
+      <point x="-50" y="669.94" type="line" name="n03"/>
     </contour>
     <contour>
       <point x="680.06" y="530.06" type="line"/>
-      <point x="1550.0" y="530.06" type="line"/>
-      <point x="1550.0" y="669.94" type="line"/>
+      <point x="1550" y="530.06" type="line"/>
+      <point x="1550" y="669.94" type="line"/>
       <point x="680.06" y="669.94" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="750" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="530.06" width="139.88" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

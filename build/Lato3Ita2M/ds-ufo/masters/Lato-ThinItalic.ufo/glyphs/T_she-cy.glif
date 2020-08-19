@@ -1,21 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tshe-cy" format="2">
-  <advance width="1342.0"/>
+  <advance width="1342"/>
   <unicode hex="040B"/>
-  <guideline x="597.9" y="0.0" angle="82.9991"/>
-  <anchor x="574.0" y="1498.9" name="Top"/>
-  <anchor x="574.0" y="1498.9" name="top"/>
-  <anchor x="752.0" y="-70.0" name="bottom"/>
+  <anchor x="574" y="1498.9" name="Top"/>
+  <anchor x="752" y="-70" name="bottom"/>
+  <anchor x="574" y="1498.9" name="top"/>
   <outline>
     <contour>
       <point x="576.8" y="1389.1" type="line"/>
       <point x="521.7" y="1389.1" type="line"/>
-      <point x="351.8" y="0.0" type="line"/>
-      <point x="405.9" y="0.0" type="line"/>
+      <point x="351.8" y="0" type="line" name="n02"/>
+      <point x="405.9" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="125.0" y="1405.9" type="line"/>
-      <point x="119.2" y="1360.1" type="line"/>
+      <point x="125" y="1405.9" type="line" name="n04"/>
+      <point x="119.2" y="1360.1" type="line" name="n05"/>
       <point x="1047.7" y="1360.1" type="line"/>
       <point x="1053.6" y="1405.9" type="line"/>
     </contour>
@@ -26,18 +25,26 @@
       <point x="480.6" y="741.8" type="curve"/>
       <point x="475.1" y="698.8" type="line"/>
       <point x="913.3" y="846.4"/>
-      <point x="1209.4" y="845.0"/>
+      <point x="1209.4" y="845"/>
       <point x="1165.6" y="490.2" type="curve" smooth="yes"/>
       <point x="1105.3" y="-0.1" type="line"/>
       <point x="1159.6" y="-0.1" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="597" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1360.1" width="45.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

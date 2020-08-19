@@ -1,33 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedcomb.case" format="2">
-  <anchor x="0.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2015.0" name="top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2015" name="top"/>
   <outline>
     <contour>
-      <point x="0.0" y="1847.4" type="curve"/>
-      <point x="-228.0" y="1847.4"/>
+      <point x="0" y="1847.4" type="curve" smooth="yes" name="n00"/>
+      <point x="-228" y="1847.4"/>
       <point x="-302.04" y="1716.88"/>
-      <point x="-302.04" y="1561.68" type="curve"/>
-      <point x="-129.16" y="1561.68" type="line"/>
+      <point x="-302.04" y="1561.68" type="curve" name="n03"/>
+      <point x="-129.16" y="1561.68" type="line" name="n04"/>
       <point x="-129.16" y="1641.6"/>
       <point x="-102.56" y="1690.12"/>
-      <point x="0.0" y="1690.12" type="curve"/>
+      <point x="0" y="1690.12" type="curve" smooth="yes" name="n07"/>
       <point x="102.56" y="1690.12"/>
       <point x="129.16" y="1641.6"/>
-      <point x="129.16" y="1561.68" type="curve"/>
-      <point x="302.04" y="1561.68" type="line"/>
+      <point x="129.16" y="1561.68" type="curve" name="n10"/>
+      <point x="302.04" y="1561.68" type="line" name="n11"/>
       <point x="302.04" y="1716.88"/>
-      <point x="228.0" y="1847.4"/>
+      <point x="228" y="1847.4"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_breveinverted=breveinvertedcomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_breveinverted=breveinvertedcomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1582.68" width="-21" />
+      <hstem pos="1690.12" width="157.28" />
+      <vstem pos="-302.04" width="172.88" />
+      <vstem pos="129.16" width="172.88" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

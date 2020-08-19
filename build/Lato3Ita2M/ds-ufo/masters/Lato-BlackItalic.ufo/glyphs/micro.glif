@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="micro" format="2">
   <advance width="1255"/>
   <unicode hex="00B5"/>
-  <guideline x="577" y="0" angle="82.9991"/>
   <anchor x="646" y="1120" name="top"/>
   <anchor x="534" y="-421" name="bottom"/>
   <outline>
@@ -54,12 +53,22 @@
       <point x="773" y="1040" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="577" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>mu=micro</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>mu=micro</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-307" width="-21" />
+      <hstem pos="-11" width="229" />
+      <hstem pos="45" width="-21" />
+      <hstem pos="1040" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

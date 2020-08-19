@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tmod" format="2">
-  <advance width="630.2"/>
+  <advance width="630"/>
   <unicode hex="1D40"/>
-  <anchor x="314.6" y="-70.0" name="bottom"/>
+  <anchor x="314.6" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="390.6" y="1612.2" type="line"/>
-      <point x="240.0" y="1612.2" type="line"/>
-      <point x="240.0" y="915.2" type="line"/>
+      <point x="390.6" y="1612.2" type="line" name="n00"/>
+      <point x="240" y="1612.2" type="line" name="n01"/>
+      <point x="240" y="915.2" type="line" name="n02"/>
       <point x="390.6" y="915.2" type="line"/>
     </contour>
     <contour>
-      <point x="25.6" y="1647.8" type="line"/>
-      <point x="25.6" y="1523.0" type="line"/>
-      <point x="605.2" y="1523.0" type="line"/>
+      <point x="25.6" y="1647.8" type="line" name="n04"/>
+      <point x="25.6" y="1523" type="line" name="n05"/>
+      <point x="605.2" y="1523" type="line"/>
       <point x="605.2" y="1647.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="936.2" width="-21" />
+      <hstem pos="1523" width="124.8" />
+      <vstem pos="240" width="150.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

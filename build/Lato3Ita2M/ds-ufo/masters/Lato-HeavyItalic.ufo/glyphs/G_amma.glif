@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gamma" format="2">
-  <advance width="1037.04"/>
+  <advance width="1037"/>
   <unicode hex="0393"/>
-  <guideline x="513.28" y="0.0" angle="82.9991"/>
   <anchor x="573.64" y="1521.52" name="Top"/>
+  <anchor x="206.8" y="-70" name="bottom"/>
   <anchor x="573.64" y="1521.52" name="top"/>
-  <anchor x="206.8" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="535.6" y="1451.92" type="line"/>
-      <point x="244.95999999999998" y="1451.92" type="line"/>
-      <point x="66.8" y="0.0" type="line"/>
-      <point x="357.44" y="0.0" type="line"/>
+      <point x="244.96" y="1451.92" type="line"/>
+      <point x="66.8" y="0" type="line" name="n02"/>
+      <point x="357.44" y="0" type="line"/>
     </contour>
     <contour>
       <point x="508.36" y="1451.92" type="line"/>
-      <point x="480.72" y="1226.6399999999999" type="line"/>
-      <point x="1071.64" y="1226.6399999999999" type="line"/>
-      <point x="1099.16" y="1451.92" type="line"/>
+      <point x="480.72" y="1226.64" type="line"/>
+      <point x="1071.64" y="1226.64" type="line" name="n06"/>
+      <point x="1099.16" y="1451.92" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1226.64" width="225.28" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,28 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scedilla_t" format="2">
-  <advance width="1633.26"/>
-  <anchor x="455.4" y="1120.0" name="top"/>
-  <anchor x="424.02" y="-70.0" name="bottom"/>
+  <advance width="1633"/>
+  <anchor x="424.02" y="-70" name="bottom"/>
   <anchor x="763.56" y="177.56" name="hook"/>
+  <anchor x="455.4" y="1120" name="top"/>
   <outline>
+    <component base="s"/>
+    <component base="cedilla" xOffset="22.08"/>
     <contour>
       <point x="1321.94" y="1226.6" type="line" smooth="yes"/>
       <point x="1321.94" y="1395.52"/>
       <point x="1205.46" y="1566.48"/>
-      <point x="935.94" y="1566.48" type="curve" smooth="yes"/>
+      <point x="935.94" y="1566.48" type="curve" smooth="yes" name="n03"/>
       <point x="658.84" y="1566.48"/>
       <point x="539.76" y="1392.82"/>
-      <point x="539.76" y="1193.42" type="curve" smooth="yes"/>
+      <point x="539.76" y="1193.42" type="curve" smooth="yes" name="n06"/>
       <point x="539.76" y="1061.22"/>
       <point x="602.38" y="928.96"/>
       <point x="719.9" y="844.52" type="curve"/>
       <point x="803.86" y="915.6" type="line"/>
       <point x="707.5" y="994.24"/>
       <point x="656.48" y="1095.74"/>
-      <point x="656.48" y="1194.98" type="curve" smooth="yes"/>
+      <point x="656.48" y="1194.98" type="curve" smooth="yes" name="n13"/>
       <point x="656.48" y="1343.98"/>
       <point x="746.76" y="1465.36"/>
-      <point x="935.94" y="1465.36" type="curve" smooth="yes"/>
+      <point x="935.94" y="1465.36" type="curve" smooth="yes" name="n16"/>
       <point x="1095.88" y="1465.36"/>
       <point x="1153.52" y="1373.98"/>
       <point x="1153.52" y="1267.88" type="curve"/>
@@ -32,27 +34,27 @@
     <contour>
       <point x="1074.86" y="268.68" type="line" smooth="yes"/>
       <point x="1074.86" y="91.92"/>
-      <point x="1174.5" y="-16.0"/>
-      <point x="1352.46" y="-16.0" type="curve" smooth="yes"/>
-      <point x="1451.86" y="-16.0"/>
+      <point x="1174.5" y="-16"/>
+      <point x="1352.46" y="-16" type="curve" smooth="yes" name="n25"/>
+      <point x="1451.86" y="-16"/>
       <point x="1550.14" y="16.2"/>
       <point x="1621.34" y="74.88" type="curve"/>
       <point x="1547.14" y="195.88" type="line" smooth="yes"/>
-      <point x="1537.34" y="211.92000000000002"/>
+      <point x="1537.34" y="211.92"/>
       <point x="1529.1" y="218.6"/>
       <point x="1514.18" y="218.6" type="curve" smooth="yes"/>
       <point x="1490.38" y="218.6"/>
       <point x="1470.7" y="184.96"/>
-      <point x="1410.18" y="184.96" type="curve" smooth="yes"/>
+      <point x="1410.18" y="184.96" type="curve" smooth="yes" name="n35"/>
       <point x="1356.5" y="184.96"/>
-      <point x="1321.94" y="222.48000000000002"/>
-      <point x="1321.94" y="285.84000000000003" type="curve" smooth="yes"/>
+      <point x="1321.94" y="222.48"/>
+      <point x="1321.94" y="285.84" type="curve" smooth="yes"/>
       <point x="1321.94" y="964.76" type="line"/>
-      <point x="1313.7" y="1223.52" type="line"/>
+      <point x="1313.7" y="1223.52" type="line" name="n40"/>
       <point x="1153.52" y="1267.88" type="line"/>
       <point x="1153.52" y="1168.56"/>
       <point x="1105.38" y="1028.54"/>
-      <point x="1074.86" y="954.96" type="curve"/>
+      <point x="1074.86" y="954.96" type="curve" name="n44"/>
     </contour>
     <contour>
       <point x="1154.14" y="1017.56" type="line"/>
@@ -60,20 +62,28 @@
       <point x="922.26" y="991.72" type="line"/>
       <point x="922.26" y="892.12" type="line" smooth="yes"/>
       <point x="922.26" y="858.04"/>
-      <point x="943.86" y="840.0"/>
-      <point x="970.58" y="840.0" type="curve" smooth="yes"/>
-      <point x="1595.88" y="840.0" type="line"/>
-      <point x="1595.88" y="1017.56" type="line"/>
+      <point x="943.86" y="840"/>
+      <point x="970.58" y="840" type="curve" smooth="yes"/>
+      <point x="1595.88" y="840" type="line" name="n52"/>
+      <point x="1595.88" y="1017.56" type="line" name="n53"/>
     </contour>
-    <component base="s"/>
-    <component base="cedilla" xOffset="22.080000000000002"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="200.96" />
+      <hstem pos="840" width="177.56" />
+      <hstem pos="1465.36" width="101.12" />
+      <vstem pos="539.76" width="116.72" />
+      <vstem pos="1074.86" width="238.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

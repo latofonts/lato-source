@@ -1,19 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_overline.case" format="2">
   <outline>
     <contour>
-      <point x="-549.0" y="1944.0" type="line"/>
-      <point x="549.0" y="1944.0" type="line"/>
-      <point x="549.0" y="1986.0" type="line"/>
-      <point x="-549.0" y="1986.0" type="line"/>
+      <point x="-549" y="1944" type="line" name="n00"/>
+      <point x="549" y="1944" type="line"/>
+      <point x="549" y="1986" type="line"/>
+      <point x="-549" y="1986" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_overline=_overline.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_overline=_overline.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1944" width="42" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

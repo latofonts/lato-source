@@ -1,46 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eopen" format="2">
-  <advance width="1189.04"/>
+  <advance width="1189"/>
   <unicode hex="0190"/>
-  <guideline y="1406.0"/>
-  <anchor x="484.4" y="1120.0" name="top"/>
   <anchor x="530.2" y="1521.52" name="Top"/>
-  <anchor x="627.08" y="-70.0" name="bottom"/>
+  <anchor x="627.08" y="-70" name="bottom"/>
+  <anchor x="484.4" y="1120" name="top"/>
   <outline>
     <contour>
       <point x="1132.2" y="1303.56" type="line"/>
       <point x="1020.08" y="1405.28"/>
       <point x="870.6" y="1470.32"/>
-      <point x="656.84" y="1470.32" type="curve" smooth="yes"/>
+      <point x="656.84" y="1470.32" type="curve" smooth="yes" name="n03"/>
       <point x="306.6" y="1470.32"/>
-      <point x="102.67999999999999" y="1277.44"/>
-      <point x="102.67999999999999" y="1070.88" type="curve" smooth="yes"/>
-      <point x="102.67999999999999" y="912.12"/>
+      <point x="102.68" y="1277.44"/>
+      <point x="102.68" y="1070.88" type="curve" smooth="yes" name="n06"/>
+      <point x="102.68" y="912.12"/>
       <point x="214.2" y="745.24"/>
       <point x="580.96" y="745.24" type="curve"/>
       <point x="580.6" y="838.96" type="line"/>
       <point x="310.2" y="838.96"/>
       <point x="77.4" y="678.32"/>
-      <point x="77.4" y="433.64" type="curve" smooth="yes"/>
+      <point x="77.4" y="433.64" type="curve" smooth="yes" name="n13"/>
       <point x="77.4" y="131.64"/>
       <point x="352.24" y="-14.24"/>
-      <point x="595.72" y="-14.24" type="curve" smooth="yes"/>
+      <point x="595.72" y="-14.24" type="curve" smooth="yes" name="n16"/>
       <point x="807.6" y="-14.24"/>
       <point x="1009.44" y="32.72"/>
       <point x="1167.4" y="226.48" type="curve"/>
       <point x="1057.2" y="356.8" type="line"/>
       <point x="1044.64" y="370.24"/>
       <point x="1029.44" y="375.64"/>
-      <point x="1015.0" y="375.64" type="curve" smooth="yes"/>
+      <point x="1015" y="375.64" type="curve" smooth="yes"/>
       <point x="997.04" y="375.64"/>
       <point x="980.08" y="366.6"/>
-      <point x="965.64" y="353.91999999999996" type="curve"/>
+      <point x="965.64" y="353.92" type="curve" smooth="yes"/>
       <point x="907.56" y="304.76"/>
       <point x="844.56" y="239.84"/>
-      <point x="675.8" y="239.84" type="curve" smooth="yes"/>
+      <point x="675.8" y="239.84" type="curve" smooth="yes" name="n29"/>
       <point x="482.72" y="239.84"/>
       <point x="384.76" y="339.88"/>
-      <point x="384.76" y="461.8" type="curve" smooth="yes"/>
+      <point x="384.76" y="461.8" type="curve" smooth="yes" name="n32"/>
       <point x="384.76" y="553.8"/>
       <point x="460.32" y="662.8"/>
       <point x="646.08" y="662.8" type="curve" smooth="yes"/>
@@ -49,10 +48,10 @@
       <point x="672.48" y="879.04" type="line" smooth="yes"/>
       <point x="505.4" y="879.04"/>
       <point x="421.36" y="943.76"/>
-      <point x="421.36" y="1055.92" type="curve" smooth="yes"/>
+      <point x="421.36" y="1055.92" type="curve" smooth="yes" name="n41"/>
       <point x="421.36" y="1143.92"/>
       <point x="485.36" y="1221.52"/>
-      <point x="648.92" y="1221.52" type="curve" smooth="yes"/>
+      <point x="648.92" y="1221.52" type="curve" smooth="yes" name="n44"/>
       <point x="867.72" y="1221.52"/>
       <point x="929.88" y="1134.4"/>
       <point x="990.6" y="1134.4" type="curve" smooth="yes"/>
@@ -61,10 +60,20 @@
       <point x="1064.72" y="1185.04" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-14.24" width="254.08" />
+      <hstem pos="1221.52" width="248.8" />
+      <vstem pos="77.4" width="307.36" />
+      <vstem pos="102.68" width="318.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

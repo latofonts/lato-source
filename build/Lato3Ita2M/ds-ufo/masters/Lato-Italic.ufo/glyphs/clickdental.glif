@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clickdental" format="2">
-  <advance width="437.04"/>
+  <advance width="437"/>
   <unicode hex="01C0"/>
-  <guideline x="81.97999999999999" y="0.0" angle="82.9991"/>
-  <anchor x="96.32" y="-421.0" name="bottom"/>
+  <anchor x="96.32" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="238.2" y="1471.86" type="line"/>
-      <point x="9.879999999999995" y="-390.0" type="line"/>
-      <point x="182.38" y="-390.0" type="line"/>
+      <point x="238.2" y="1471.86" type="line" name="n00"/>
+      <point x="9.88" y="-390" type="line" name="n01"/>
+      <point x="182.38" y="-390" type="line"/>
       <point x="410.7" y="1471.86" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="197" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>bar=clickdental</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>bar=clickdental</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1471.86" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

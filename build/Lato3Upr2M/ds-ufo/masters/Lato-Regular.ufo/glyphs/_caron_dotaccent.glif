@@ -1,31 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_caron_dotaccent" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="527.28" y="1589.7" type="curve"/>
+      <point x="527.28" y="1589.7" type="curve" smooth="yes"/>
       <point x="527.28" y="1659.66"/>
       <point x="467.96" y="1716.98"/>
-      <point x="398.92" y="1716.98" type="curve" smooth="yes"/>
+      <point x="398.92" y="1716.98" type="curve" smooth="yes" name="n03"/>
       <point x="331.12" y="1716.98"/>
       <point x="273.8" y="1659.66"/>
       <point x="273.8" y="1589.7" type="curve" smooth="yes"/>
       <point x="273.8" y="1521.74"/>
       <point x="331.12" y="1464.42"/>
-      <point x="398.92" y="1464.42" type="curve" smooth="yes"/>
+      <point x="398.92" y="1464.42" type="curve" smooth="yes" name="n09"/>
       <point x="467.96" y="1464.42"/>
       <point x="527.28" y="1521.74"/>
     </contour>
     <contour>
-      <point x="317.48" y="1168.92" type="line"/>
+      <point x="317.48" y="1168.92" type="line" name="n12"/>
       <point x="446.88" y="1168.92" type="line"/>
       <point x="446.88" y="1200.52"/>
       <point x="412.26" y="1253.88"/>
-      <point x="385.36" y="1281.32" type="curve"/>
+      <point x="385.36" y="1281.32" type="curve" smooth="yes"/>
       <point x="257.2" y="1417.92" type="line"/>
       <point x="248.88" y="1425.16"/>
-      <point x="233.16" y="1432.4"/>
+      <point x="233.16" y="1432.4" name="n19"/>
       <point x="217.44" y="1432.4" type="curve" smooth="yes"/>
       <point x="93.6" y="1432.4" type="line"/>
     </contour>
@@ -33,7 +33,7 @@
       <point x="706.4" y="1432.4" type="line"/>
       <point x="586.88" y="1432.4" type="line" smooth="yes"/>
       <point x="572.08" y="1432.4"/>
-      <point x="556.36" y="1425.0"/>
+      <point x="556.36" y="1425"/>
       <point x="547.12" y="1417.92" type="curve"/>
       <point x="418.96" y="1281.32" type="line"/>
       <point x="390.98" y="1252.8"/>
@@ -43,9 +43,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1189.92" width="-21" />
+      <hstem pos="1432.4" width="-20" />
+      <hstem pos="1464.42" width="252.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

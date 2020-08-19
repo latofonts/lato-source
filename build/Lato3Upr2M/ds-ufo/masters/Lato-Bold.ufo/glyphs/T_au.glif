@@ -1,31 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tau" format="2">
-  <advance width="1200.4"/>
+  <advance width="1200"/>
   <unicode hex="03A4"/>
-  <anchor x="603.76" y="1518.62" name="Top"/>
-  <anchor x="603.76" y="-70.0" name="bottom"/>
   <anchor x="633.74" y="721.84" name="Slash"/>
+  <anchor x="603.76" y="1518.62" name="Top"/>
+  <anchor x="603.76" y="-70" name="bottom"/>
   <anchor x="603.76" y="1518.62" name="top"/>
   <outline>
     <contour>
-      <point x="735.1" y="1382.2" type="line"/>
-      <point x="466.18" y="1382.2" type="line"/>
-      <point x="466.18" y="0.0" type="line"/>
-      <point x="735.1" y="0.0" type="line"/>
+      <point x="735.1" y="1382.2" type="line" name="n00"/>
+      <point x="466.18" y="1382.2" type="line" name="n01"/>
+      <point x="466.18" y="0" type="line" name="n02"/>
+      <point x="735.1" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="29.78" y="1446.8" type="line"/>
-      <point x="29.78" y="1223.56" type="line"/>
+      <point x="29.78" y="1446.8" type="line" name="n04"/>
+      <point x="29.78" y="1223.56" type="line" name="n05"/>
       <point x="1170.62" y="1223.56" type="line"/>
       <point x="1170.62" y="1446.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>T=Tau</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>T=Tau</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1223.56" width="223.24" />
+      <vstem pos="466.18" width="268.92" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

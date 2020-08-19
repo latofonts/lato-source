@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ubar" format="2">
-  <advance width="1157.82"/>
+  <advance width="1158"/>
   <unicode hex="0289"/>
-  <guideline x="526.64" y="0.0" angle="82.9991"/>
-  <anchor x="627.8" y="1120.0" name="top"/>
-  <anchor x="533.68" y="-70.0" name="bottom"/>
+  <anchor x="533.68" y="-70" name="bottom"/>
   <anchor x="919.52" y="177.56" name="hook"/>
+  <anchor x="627.8" y="1120" name="top"/>
   <outline>
+    <component base="u" xOffset="40.76"/>
     <contour>
-      <point x="27.82" y="452.3" type="line"/>
+      <point x="27.82" y="452.3" type="line" name="n00"/>
       <point x="1087.28" y="452.3" type="line"/>
       <point x="1107.22" y="616.6" type="line"/>
-      <point x="47.76" y="616.6" type="line"/>
+      <point x="47.76" y="616.6" type="line" name="n03"/>
     </contour>
-    <component base="u" xOffset="40.76"/>
   </outline>
+  <guideline angle="82.9991" x="497" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="452.3" width="164.3" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

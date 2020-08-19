@@ -1,53 +1,61 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esdescender-cy" format="2">
-  <advance width="968.2"/>
+  <advance width="968"/>
   <unicode hex="04AB"/>
-  <anchor x="496.0" y="1120.0" name="top"/>
-  <anchor x="537.04" y="-421.0" name="bottom"/>
   <anchor x="557.16" y="-71.08" name="_bottom"/>
+  <anchor x="537.04" y="-421" name="bottom"/>
+  <anchor x="496" y="1120" name="top"/>
   <outline>
+    <component base="_descendercyr" xScale="1" xyScale="-4.41247e-20" xOffset="157.16" yOffset="-1.08"/>
     <contour>
       <point x="934.48" y="899.28" type="line"/>
       <point x="840.32" y="996.24"/>
       <point x="723.44" y="1048.8"/>
-      <point x="566.72" y="1048.8" type="curve" smooth="yes"/>
+      <point x="566.72" y="1048.8" type="curve" smooth="yes" name="n03"/>
       <point x="236.88" y="1048.8"/>
       <point x="59.52" y="818.64"/>
-      <point x="59.52" y="518.16" type="curve" smooth="yes"/>
+      <point x="59.52" y="518.16" type="curve" smooth="yes" name="n06"/>
       <point x="59.52" y="179.28"/>
       <point x="274.08" y="-15.52"/>
-      <point x="527.84" y="-15.52" type="curve" smooth="yes"/>
+      <point x="527.84" y="-15.52" type="curve" smooth="yes" name="n09"/>
       <point x="671.04" y="-15.52"/>
-      <point x="826.0" y="19.28"/>
+      <point x="826" y="19.28"/>
       <point x="943.44" y="158.24" type="curve"/>
-      <point x="863.76" y="260.8" type="line" smooth="yes"/>
+      <point x="863.76" y="260.8" type="line"/>
       <point x="852.96" y="276.88"/>
-      <point x="835.12" y="285.91999999999996"/>
-      <point x="813.52" y="285.91999999999996" type="curve" smooth="yes"/>
-      <point x="746.48" y="285.91999999999996"/>
+      <point x="835.12" y="285.92"/>
+      <point x="813.52" y="285.92" type="curve" smooth="yes"/>
+      <point x="746.48" y="285.92"/>
       <point x="730.56" y="196.32"/>
-      <point x="578.88" y="196.32" type="curve" smooth="yes"/>
+      <point x="578.88" y="196.32" type="curve" smooth="yes" name="n19"/>
       <point x="432.88" y="196.32"/>
       <point x="342.24" y="312.24"/>
-      <point x="342.24" y="518.16" type="curve" smooth="yes"/>
+      <point x="342.24" y="518.16" type="curve" smooth="yes" name="n22"/>
       <point x="342.24" y="715.84"/>
       <point x="420.08" y="836.96"/>
-      <point x="584.32" y="836.96" type="curve" smooth="yes"/>
+      <point x="584.32" y="836.96" type="curve" smooth="yes" name="n25"/>
       <point x="715.04" y="836.96"/>
-      <point x="749.6" y="764.3199999999999"/>
-      <point x="804.32" y="764.3199999999999" type="curve" smooth="yes"/>
-      <point x="832.96" y="764.3199999999999"/>
+      <point x="749.6" y="764.32"/>
+      <point x="804.32" y="764.32" type="curve" smooth="yes"/>
+      <point x="832.96" y="764.32"/>
       <point x="845.52" y="776.88"/>
       <point x="861.6" y="798.24" type="curve" smooth="yes"/>
     </contour>
-    <component base="_descendercyr" xOffset="157.16" yOffset="-1.08"/>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=escyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=escyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-15.52" width="211.84" />
+      <hstem pos="836.96" width="211.84" />
+      <vstem pos="59.52" width="282.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

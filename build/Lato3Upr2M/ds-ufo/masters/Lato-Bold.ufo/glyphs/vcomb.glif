@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vcomb" format="2">
   <unicode hex="036E"/>
-  <anchor x="-1.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1690.0" name="top"/>
+  <anchor x="-1" y="1037" name="_top"/>
+  <anchor x="0" y="1690" name="top"/>
   <outline>
     <contour>
-      <point x="-70.84" y="1120.0" type="line"/>
-      <point x="17.259999999999998" y="1120.0" type="line"/>
+      <point x="-70.84" y="1120" type="line" name="n00"/>
+      <point x="17.26" y="1120" type="line"/>
       <point x="5.12" y="1213.44"/>
       <point x="-6.46" y="1294.18"/>
-      <point x="-27.5" y="1388.18" type="curve" smooth="yes"/>
+      <point x="-27.5" y="1388.18" type="curve"/>
       <point x="-82.58" y="1571.74" type="line"/>
       <point x="-85.92" y="1588.22"/>
-      <point x="-103.18" y="1599.24"/>
+      <point x="-103.18" y="1599.24" name="n07"/>
       <point x="-125.34" y="1599.24" type="curve" smooth="yes"/>
       <point x="-253.88" y="1599.24" type="line"/>
     </contour>
@@ -21,22 +21,29 @@
       <point x="130.02" y="1599.24" type="line" smooth="yes"/>
       <point x="110.42" y="1599.24"/>
       <point x="93.16" y="1586.88"/>
-      <point x="89.6" y="1571.74" type="curve" smooth="yes"/>
+      <point x="89.6" y="1571.74" type="curve"/>
       <point x="31.96" y="1388.18" type="line"/>
       <point x="8.8" y="1293.18"/>
-      <point x="-2.7800000000000002" y="1213.44"/>
-      <point x="-14.14" y="1120.0" type="curve"/>
-      <point x="69.84" y="1120.0" type="line"/>
+      <point x="-2.78" y="1213.44"/>
+      <point x="-14.14" y="1120" type="curve"/>
+      <point x="69.84" y="1120" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_v=vcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_v=vcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1141" width="-21" />
+      <hstem pos="1599.24" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

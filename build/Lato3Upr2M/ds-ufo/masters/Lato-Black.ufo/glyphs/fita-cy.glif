@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fita-cy" format="2">
   <advance width="1162"/>
   <unicode hex="0473"/>
-  <guideline x="592"/>
   <anchor x="583" y="1120" name="top"/>
   <anchor x="582" y="-70" name="bottom"/>
   <outline>
@@ -41,12 +40,23 @@
       <point x="222" y="631" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="592" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=ocyr</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=ocyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="230" />
+      <hstem pos="429" width="202" />
+      <hstem pos="826" width="230" />
+      <vstem pos="222" width="129" />
+      <vstem pos="811" width="69" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

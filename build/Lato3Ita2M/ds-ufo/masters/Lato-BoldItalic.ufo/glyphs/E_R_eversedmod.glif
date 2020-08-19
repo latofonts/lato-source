@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="EReversedmod" format="2">
-  <advance width="580.36"/>
+  <advance width="580"/>
   <unicode hex="1D32"/>
-  <guideline x="278.18" y="0.0" angle="82.9991"/>
-  <anchor x="270.32" y="-70.0" name="bottom"/>
+  <anchor x="270.32" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="351.9" y="918.14" type="line"/>
@@ -12,28 +11,37 @@
       <point x="443.36" y="1658.36" type="line"/>
     </contour>
     <contour>
-      <point x="208.78" y="1359.02" type="line"/>
-      <point x="191.18" y="1218.9" type="line"/>
+      <point x="208.78" y="1359.02" type="line" name="n04"/>
+      <point x="191.18" y="1218.9" type="line" name="n05"/>
       <point x="405.14" y="1218.9" type="line"/>
       <point x="422.18" y="1359.02" type="line"/>
     </contour>
     <contour>
-      <point x="179.74" y="1658.36" type="line"/>
-      <point x="161.36" y="1512.0" type="line"/>
-      <point x="440.9" y="1512.0" type="line"/>
+      <point x="179.74" y="1658.36" type="line" name="n08"/>
+      <point x="161.36" y="1512" type="line" name="n09"/>
+      <point x="440.9" y="1512" type="line"/>
       <point x="459.28" y="1658.36" type="line"/>
     </contour>
     <contour>
-      <point x="106.66" y="1063.72" type="line"/>
-      <point x="88.28" y="918.14" type="line"/>
+      <point x="106.66" y="1063.72" type="line" name="n12"/>
+      <point x="88.28" y="918.14" type="line" name="n13"/>
       <point x="367.82" y="918.14" type="line"/>
       <point x="386.2" y="1063.72" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="293" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="918.14" width="145.58" />
+      <hstem pos="1218.9" width="140.12" />
+      <hstem pos="1512" width="146.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

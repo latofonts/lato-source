@@ -1,10 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_idieresisacute" format="2">
   <advance width="1252"/>
   <anchor x="983" y="-70" name="bottom"/>
   <anchor x="984" y="1120" name="top"/>
   <anchor x="984" y="491" name="bar"/>
   <outline>
+    <component base="f_idotless"/>
     <contour>
       <point x="958" y="1215" type="curve"/>
       <point x="958" y="1294"/>
@@ -45,14 +46,20 @@
       <point x="1167" y="1412" type="curve" smooth="yes"/>
       <point x="1397" y="1611" type="line"/>
     </contour>
-    <component base="f_idotless"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1075" width="285" />
+      <hstem pos="1611" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

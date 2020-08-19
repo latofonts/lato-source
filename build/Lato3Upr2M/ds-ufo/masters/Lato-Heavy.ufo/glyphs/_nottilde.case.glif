@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_nottilde.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1521.52" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1521.52" name="_Top"/>
   <outline>
     <contour>
-      <point x="552.08" y="1754.56" type="curve" smooth="yes"/>
+      <point x="552.08" y="1754.56" type="curve" smooth="yes" name="n00"/>
       <point x="484.64" y="1754.56"/>
       <point x="365.52" y="1840.64"/>
       <point x="249.36" y="1840.64" type="curve" smooth="yes"/>
@@ -14,30 +14,39 @@
       <point x="193.36" y="1576.4" type="line"/>
       <point x="193.6" y="1631.36"/>
       <point x="215.28" y="1656.96"/>
-      <point x="251.12" y="1656.96" type="curve" smooth="yes"/>
+      <point x="251.12" y="1656.96" type="curve" smooth="yes" name="n10"/>
       <point x="318.56" y="1656.96"/>
       <point x="439.68" y="1570.88"/>
-      <point x="553.84" y="1570.88" type="curve" smooth="yes"/>
+      <point x="553.84" y="1570.88" type="curve" smooth="yes" name="n13"/>
       <point x="677.84" y="1570.88"/>
       <point x="770.16" y="1673.36"/>
       <point x="770.16" y="1833.36" type="curve"/>
-      <point x="611.6" y="1833.36" type="line"/>
+      <point x="611.6" y="1833.36" type="line" name="n17"/>
       <point x="611.36" y="1778.16"/>
       <point x="588.16" y="1754.56"/>
     </contour>
     <contour>
-      <point x="211.07999999999998" y="1517.04" type="line"/>
-      <point x="339.48" y="1448.08" type="line"/>
-      <point x="607.0" y="1896.56" type="line"/>
-      <point x="478.6" y="1965.52" type="line"/>
+      <point x="211.08" y="1517.04" type="line"/>
+      <point x="339.48" y="1448.08" type="line" name="n21"/>
+      <point x="607" y="1896.56" type="line"/>
+      <point x="478.6" y="1965.52" type="line" name="n23"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_nottilde=_nottilde.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_nottilde=_nottilde.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1469.08" width="-21" />
+      <hstem pos="1570.88" width="183.68" />
+      <hstem pos="1656.96" width="176.4" />
+      <hstem pos="1965.52" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

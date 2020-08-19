@@ -1,30 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusbelowcomb" format="2">
   <unicode hex="031F"/>
-  <anchor x="0.0" y="-582.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-582" name="bottom"/>
   <outline>
     <contour>
-      <point x="-19.1" y="-474.0" type="line"/>
-      <point x="19.1" y="-474.0" type="line"/>
-      <point x="19.1" y="-67.0" type="line"/>
-      <point x="-19.1" y="-67.0" type="line"/>
+      <point x="-19.1" y="-474" type="line" name="n00"/>
+      <point x="19.1" y="-474" type="line" name="n01"/>
+      <point x="19.1" y="-67" type="line" name="n02"/>
+      <point x="-19.1" y="-67" type="line"/>
     </contour>
     <contour>
-      <point x="-202.0" y="-288.5" type="line"/>
-      <point x="202.0" y="-288.5" type="line"/>
-      <point x="202.0" y="-252.5" type="line"/>
-      <point x="-202.0" y="-252.5" type="line"/>
+      <point x="-202" y="-288.5" type="line" name="n04"/>
+      <point x="202" y="-288.5" type="line"/>
+      <point x="202" y="-252.5" type="line"/>
+      <point x="-202" y="-252.5" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_plusbelow=plusbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_plusbelow=plusbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-453" width="-21" />
+      <hstem pos="-288.5" width="36" />
+      <hstem pos="-67" width="-20" />
+      <vstem pos="-19.1" width="38.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

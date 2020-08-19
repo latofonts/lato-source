@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_koronis" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
+  <advance width="736"/>
   <anchor x="423.02" y="1120.46" name="_top"/>
   <outline>
     <contour>
-      <point x="434.65999999999997" y="1430.76" type="curve"/>
+      <point x="434.66" y="1430.76" type="curve" smooth="yes"/>
       <point x="426.96" y="1364.52"/>
       <point x="463.7" y="1316.22"/>
       <point x="522.94" y="1316.22" type="curve" smooth="yes"/>
@@ -22,23 +21,31 @@
       <point x="428.74" y="1137.42"/>
       <point x="430.9" y="1131.1"/>
       <point x="437.22" y="1123.78" type="curve" smooth="yes"/>
-      <point x="457.58" y="1100.8" type="line"/>
+      <point x="457.58" y="1100.8" type="line" name="n17"/>
       <point x="561.52" y="1187.38"/>
       <point x="627.7" y="1290.08"/>
       <point x="639.32" y="1393.74" type="curve" smooth="yes"/>
       <point x="649.48" y="1478.26"/>
-      <point x="619.3" y="1537.04"/>
+      <point x="619.3" y="1537.04" name="n22"/>
       <point x="549.12" y="1537.04" type="curve" smooth="yes"/>
       <point x="488.04" y="1537.04"/>
       <point x="440.9" y="1489.76"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_commaabove=_koronis</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_commaabove=_koronis</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1121.8" width="-21" />
+      <hstem pos="1537.04" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevedasiavariacomb" format="2">
-  <guideline x="202" y="0" angle="82.9991"/>
   <anchor x="48" y="1893" name="top"/>
   <anchor x="-30" y="1037" name="_top"/>
   <outline>
@@ -47,7 +46,9 @@
     </contour>
     <contour>
       <point x="287" y="1408" type="line"/>
-      <point x="291" y="1808" type="line"/>
+      <point x="287" y="1408"/>
+      <point x="291" y="1808"/>
+      <point x="291" y="1808" type="curve"/>
       <point x="291" y="1808"/>
       <point x="156" y="1808"/>
       <point x="118" y="1808" type="curve" smooth="yes" name="hr01"/>
@@ -57,12 +58,21 @@
       <point x="125" y="1408" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="202" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1078" width="196" />
+      <hstem pos="1078" width="730" />
+      <hstem pos="1822" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

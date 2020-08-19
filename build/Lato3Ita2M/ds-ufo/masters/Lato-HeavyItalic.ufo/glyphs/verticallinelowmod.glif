@@ -1,21 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="verticallinelowmod" format="2">
-  <advance width="474.28"/>
+  <advance width="474"/>
   <unicode hex="02CC"/>
-  <guideline x="236.64" y="0.0" angle="82.9991"/>
-  <anchor x="173.08" y="-421.0" name="bottom"/>
+  <anchor x="173.08" y="-421" name="bottom"/>
   <outline>
     <contour>
-      <point x="57.64" y="-447.68" type="line"/>
+      <point x="57.64" y="-447.68" type="line" name="n00"/>
       <point x="246.72" y="-447.68" type="line"/>
-      <point x="301.24" y="0.0" type="line"/>
-      <point x="113.03999999999999" y="0.0" type="line"/>
+      <point x="301.24" y="0" type="line" name="n02"/>
+      <point x="113.04" y="0" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="212" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-426.68" width="-21" />
+      <hstem pos="0" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

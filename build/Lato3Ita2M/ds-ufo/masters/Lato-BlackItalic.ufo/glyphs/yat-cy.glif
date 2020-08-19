@@ -1,12 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yat-cy" format="2">
   <advance width="1100"/>
   <unicode hex="0463"/>
-  <guideline y="1407"/>
-  <guideline x="534" y="0" angle="82.9991"/>
   <anchor x="641" y="1120" name="top"/>
   <anchor x="519" y="-70" name="bottom"/>
   <outline>
+    <component base="softsign-cy" xOffset="140"/>
     <contour>
       <point x="548" y="735" type="line"/>
       <point x="617" y="1292" type="line"/>
@@ -19,12 +18,21 @@
       <point x="841" y="1040" type="line"/>
       <point x="68" y="1040" type="line"/>
     </contour>
-    <component base="softsign-cy" xOffset="140"/>
   </outline>
+  <guideline angle="0" x="0" y="1407"/>
+  <guideline angle="82.9991" x="534" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="756" width="-21" />
+      <hstem pos="813" width="227" />
+      <hstem pos="1292" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

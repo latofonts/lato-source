@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omegaroundcyr" format="2">
   <advance width="1616"/>
   <unicode hex="047A"/>
@@ -15,7 +15,9 @@
       <point x="161" y="1134"/>
       <point x="421" y="1396"/>
       <point x="783" y="1396" type="curve"/>
-      <point x="783" y="1416" type="line"/>
+      <point x="783" y="1396"/>
+      <point x="783" y="1416"/>
+      <point x="783" y="1416" type="curve"/>
       <point x="403" y="1416"/>
       <point x="137" y="1140"/>
       <point x="137" y="700" type="curve" smooth="yes"/>
@@ -45,7 +47,9 @@
       <point x="1455" y="268"/>
       <point x="1195" y="6"/>
       <point x="833" y="6" type="curve"/>
-      <point x="833" y="-14" type="line"/>
+      <point x="833" y="6"/>
+      <point x="833" y="-14"/>
+      <point x="833" y="-14" type="curve"/>
       <point x="1213" y="-14"/>
       <point x="1479" y="262"/>
       <point x="1479" y="702" type="curve" smooth="yes"/>
@@ -69,9 +73,21 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-68" width="74" />
+      <hstem pos="-14" width="20" />
+      <hstem pos="-14" width="76" />
+      <hstem pos="1341" width="75" />
+      <hstem pos="1396" width="20" />
+      <hstem pos="1396" width="75" />
+      <vstem3 stem3List="137,24,743,130,1455,24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

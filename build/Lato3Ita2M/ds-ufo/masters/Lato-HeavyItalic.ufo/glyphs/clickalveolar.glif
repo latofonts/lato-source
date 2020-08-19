@@ -1,34 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clickalveolar" format="2">
-  <advance width="999.48"/>
+  <advance width="999"/>
   <unicode hex="01C2"/>
-  <guideline x="545.36" y="0.0" angle="82.9991"/>
+  <anchor x="375.84" y="-421" name="bottom"/>
   <anchor x="578.24" y="1521.52" name="top"/>
-  <anchor x="375.84" y="-421.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="474.2" y="1491.92" type="line"/>
-      <point x="243.16" y="-390.0" type="line"/>
-      <point x="509.15999999999997" y="-390.0" type="line"/>
+      <point x="474.2" y="1491.92" type="line" name="n00"/>
+      <point x="243.16" y="-390" type="line" name="n01"/>
+      <point x="509.16" y="-390" type="line"/>
       <point x="740.2" y="1491.92" type="line"/>
     </contour>
     <contour>
       <point x="73.4" y="659.2" type="line"/>
-      <point x="936.32" y="659.2" type="line"/>
-      <point x="961.2" y="866.64" type="line"/>
+      <point x="936.32" y="659.2" type="line" name="n05"/>
+      <point x="961.2" y="866.64" type="line" name="n06"/>
       <point x="99.28" y="866.64" type="line"/>
     </contour>
     <contour>
-      <point x="23.480000000000004" y="250.96" type="line"/>
+      <point x="23.48" y="250.96" type="line" name="n08"/>
       <point x="886.28" y="250.96" type="line"/>
       <point x="911.28" y="458.4" type="line"/>
-      <point x="49.36" y="458.4" type="line"/>
+      <point x="49.36" y="458.4" type="line" name="n11"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="526" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="250.96" width="207.44" />
+      <hstem pos="659.2" width="207.44" />
+      <hstem pos="1491.92" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

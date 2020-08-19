@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_lefthalfringabove.case" format="2">
   <advance width="800"/>
-  <guideline x="530"/>
   <anchor x="400" y="1496" name="_Top"/>
   <outline>
     <contour>
@@ -12,7 +11,9 @@
       <point x="292" y="1812"/>
       <point x="355" y="1882"/>
       <point x="447" y="1882" type="curve"/>
-      <point x="447" y="1900" type="line"/>
+      <point x="447" y="1882"/>
+      <point x="447" y="1900"/>
+      <point x="447" y="1900" type="curve"/>
       <point x="345" y="1900"/>
       <point x="270" y="1822"/>
       <point x="270" y="1720" type="curve" smooth="yes"/>
@@ -21,12 +22,21 @@
       <point x="447" y="1542" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="530" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringleft=_lefthalfringabove.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringleft=_lefthalfringabove.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1542" width="18" />
+      <hstem pos="1882" width="18" />
+      <vstem pos="270" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

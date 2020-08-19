@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eopenclosed" format="2">
   <advance width="1009"/>
   <unicode hex="029A"/>
-  <guideline y="1406"/>
-  <guideline x="483" y="0" angle="82.9991"/>
   <anchor x="547" y="1120" name="top"/>
   <anchor x="388" y="-70" name="bottom"/>
   <outline>
@@ -52,12 +50,22 @@
       <point x="415" y="520" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="483" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I made the midle stroke in black shorter. think its better like these!</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I made the midle stroke in black shorter. think its better like these!</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-12" width="20" />
+      <hstem pos="520" width="8" />
+      <hstem pos="976" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,26 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T.sups" format="2">
-  <advance width="637.592"/>
+  <advance width="638"/>
   <outline>
     <contour>
-      <point x="401.226" y="1613.322" type="line"/>
-      <point x="236.7" y="1613.322" type="line"/>
-      <point x="236.7" y="915.992" type="line"/>
+      <point x="401.226" y="1613.32" type="line" name="n00"/>
+      <point x="236.7" y="1613.32" type="line" name="n01"/>
+      <point x="236.7" y="915.992" type="line" name="n02"/>
       <point x="401.226" y="915.992" type="line"/>
     </contour>
     <contour>
-      <point x="27.316000000000003" y="1651.958" type="line"/>
-      <point x="27.316000000000003" y="1515.74" type="line"/>
+      <point x="27.316" y="1651.96" type="line" name="n04"/>
+      <point x="27.316" y="1515.74" type="line" name="n05"/>
       <point x="610.942" y="1515.74" type="line"/>
-      <point x="610.942" y="1651.958" type="line"/>
+      <point x="610.942" y="1651.96" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Tmod=T.sups</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Tmod=T.sups</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="936.992" width="-21" />
+      <hstem pos="1515.74" width="136.218" />
+      <vstem pos="236.7" width="164.526" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

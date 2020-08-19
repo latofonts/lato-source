@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rhoStrokeSymbol" format="2">
   <advance width="1093"/>
   <unicode hex="03FC"/>
@@ -7,6 +7,7 @@
   <anchor x="189" y="-144" name="_bar"/>
   <anchor x="191" y="-258" name="_top"/>
   <outline>
+    <component base="_stroke" xOffset="-55" yOffset="-676"/>
     <contour>
       <point x="171" y="-360" type="line"/>
       <point x="195" y="-360" type="line"/>
@@ -37,12 +38,21 @@
       <point x="171" y="837"/>
       <point x="171" y="578" type="curve" smooth="yes"/>
     </contour>
-    <component base="_stroke" xOffset="-55" yOffset="-676"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-339" width="-21" />
+      <hstem pos="-12" width="20" />
+      <hstem pos="976" width="20" />
+      <vstem pos="171" width="24" />
+      <vstem pos="947" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

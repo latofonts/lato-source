@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="henghook" format="2">
   <advance width="1140"/>
   <unicode hex="0267"/>
@@ -53,11 +53,15 @@
       <point x="105" y="1293"/>
       <point x="105" y="1048" type="curve"/>
       <point x="105" y="992" type="line"/>
-      <point x="415" y="992" type="line"/>
+      <point x="105" y="992"/>
+      <point x="415" y="992"/>
+      <point x="415" y="992" type="curve"/>
     </contour>
     <contour>
       <point x="1045" y="89" type="line"/>
-      <point x="735" y="89" type="line"/>
+      <point x="1045" y="89"/>
+      <point x="735" y="89"/>
+      <point x="735" y="89" type="curve"/>
       <point x="735" y="-25" type="line" smooth="yes"/>
       <point x="735" y="-111"/>
       <point x="709" y="-136"/>
@@ -78,13 +82,25 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=h</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>lsb</key>
-      <string>=h</string>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=h</string>
+    <key>lsb</key>
+    <string>=h</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-357" width="230" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="812" width="244" />
+      <hstem pos="1058" width="-20" />
+      <hstem pos="1236" width="240" />
+      <vstem pos="105" width="310" />
+      <vstem pos="735" width="310" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

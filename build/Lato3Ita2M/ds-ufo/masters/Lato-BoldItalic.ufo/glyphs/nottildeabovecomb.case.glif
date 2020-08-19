@@ -1,12 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nottildeabovecomb.case" format="2">
-  <guideline x="-193.56" y="0.0" angle="82.9991"/>
-  <anchor x="-20.0" y="1457.0" name="_Top"/>
-  <anchor x="80.0" y="2034.0" name="top"/>
+  <anchor x="-20" y="1457" name="_Top"/>
+  <anchor x="80" y="2034" name="top"/>
   <outline>
     <contour>
-      <point x="140.18" y="1738.36" type="curve" smooth="yes"/>
-      <point x="77.53999999999999" y="1738.36"/>
+      <point x="140.18" y="1738.36" type="curve" smooth="yes" name="n00"/>
+      <point x="77.54" y="1738.36"/>
       <point x="-19.52" y="1827.84"/>
       <point x="-123.92" y="1827.84" type="curve" smooth="yes"/>
       <point x="-231.8" y="1827.84"/>
@@ -15,32 +14,42 @@
       <point x="-207.74" y="1578.4" type="line"/>
       <point x="-201.64" y="1634.16"/>
       <point x="-176.56" y="1662.76"/>
-      <point x="-140.96" y="1662.76" type="curve" smooth="yes"/>
-      <point x="-77.53999999999999" y="1662.76"/>
-      <point x="21.740000000000002" y="1573.28"/>
-      <point x="123.36" y="1573.28" type="curve" smooth="yes"/>
+      <point x="-140.96" y="1662.76" type="curve" smooth="yes" name="n10"/>
+      <point x="-77.54" y="1662.76"/>
+      <point x="21.74" y="1573.28"/>
+      <point x="123.36" y="1573.28" type="curve" smooth="yes" name="n13"/>
       <point x="233.24" y="1573.28"/>
-      <point x="323.15999999999997" y="1671.16"/>
+      <point x="323.16" y="1671.16"/>
       <point x="339.74" y="1821.16" type="curve"/>
-      <point x="208.52" y="1821.16" type="line"/>
+      <point x="208.52" y="1821.16" type="line" name="n17"/>
       <point x="202.86" y="1764.96"/>
-      <point x="177.0" y="1738.36"/>
+      <point x="177" y="1738.36"/>
     </contour>
     <contour>
       <point x="-191.56" y="1513.74" type="line"/>
-      <point x="-92.19999999999999" y="1451.48" type="line"/>
+      <point x="-92.2" y="1451.48" type="line" name="n21"/>
       <point x="203.06" y="1887.86" type="line"/>
-      <point x="103.7" y="1950.12" type="line"/>
+      <point x="103.7" y="1950.12" type="line" name="n23"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-192" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_nottilde=nottildeabovecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_nottilde=nottildeabovecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1472.48" width="-21" />
+      <hstem pos="1573.28" width="165.08" />
+      <hstem pos="1662.76" width="158.4" />
+      <hstem pos="1950.12" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

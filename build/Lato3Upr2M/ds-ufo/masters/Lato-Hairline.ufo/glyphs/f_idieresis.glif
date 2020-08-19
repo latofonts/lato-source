@@ -1,10 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_idieresis" format="2">
   <advance width="1018"/>
   <anchor x="810" y="-70" name="bottom"/>
   <anchor x="809" y="1120" name="top"/>
   <anchor x="810" y="532" name="bar"/>
   <outline>
+    <component base="f_idotless"/>
     <contour>
       <point x="717" y="1280" type="curve"/>
       <point x="717" y="1310"/>
@@ -33,14 +34,19 @@
       <point x="977" y="1226"/>
       <point x="1005" y="1252"/>
     </contour>
-    <component base="f_idotless"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1226" width="110" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

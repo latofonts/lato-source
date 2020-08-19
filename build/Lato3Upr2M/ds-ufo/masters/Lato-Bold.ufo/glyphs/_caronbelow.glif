@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_caronbelow" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="-70.0" name="_bottom"/>
+  <advance width="800"/>
+  <anchor x="400" y="-70" name="_bottom"/>
   <outline>
     <contour>
-      <point x="284.36" y="-359.72" type="line"/>
+      <point x="284.36" y="-359.72" type="line" name="n00"/>
       <point x="464.16" y="-359.72" type="line"/>
       <point x="464.16" y="-318.52"/>
-      <point x="416.82" y="-245.0"/>
-      <point x="381.52" y="-208.92" type="curve"/>
+      <point x="416.82" y="-245"/>
+      <point x="381.52" y="-208.92" type="curve" smooth="yes"/>
       <point x="276.4" y="-98.72" type="line"/>
-      <point x="266.16" y="-90.03999999999999"/>
-      <point x="246.12" y="-81.36"/>
+      <point x="266.16" y="-90.04"/>
+      <point x="246.12" y="-81.36" name="n07"/>
       <point x="226.08" y="-81.36" type="curve" smooth="yes"/>
-      <point x="55.19999999999999" y="-81.36" type="line"/>
+      <point x="55.2" y="-81.36" type="line"/>
     </contour>
     <contour>
       <point x="744.8" y="-81.36" type="line"/>
@@ -21,7 +21,7 @@
       <point x="560.56" y="-81.36"/>
       <point x="540.52" y="-91.16"/>
       <point x="529.84" y="-98.72" type="curve"/>
-      <point x="424.72" y="-208.92" type="line"/>
+      <point x="424.72" y="-208.92" type="line" smooth="yes"/>
       <point x="387.86" y="-246.56"/>
       <point x="348.32" y="-318.52"/>
       <point x="348.32" y="-359.72" type="curve"/>
@@ -29,9 +29,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-338.72" width="-21" />
+      <hstem pos="-81.36" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

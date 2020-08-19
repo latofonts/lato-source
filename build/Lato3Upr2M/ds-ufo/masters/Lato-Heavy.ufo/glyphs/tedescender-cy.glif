@@ -1,38 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tedescender-cy" format="2">
-  <advance width="1043.36"/>
+  <advance width="1043"/>
   <unicode hex="04AD"/>
-  <anchor x="516.16" y="1120.0" name="top"/>
-  <anchor x="591.68" y="-421.0" name="bottom"/>
+  <anchor x="591.68" y="-421" name="bottom"/>
+  <anchor x="516.16" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="378.32" y="1032.8" type="line"/>
-      <point x="378.32" y="0.0" type="line"/>
-      <point x="654.0" y="0.0" type="line"/>
-      <point x="654.0" y="1032.8" type="line"/>
+      <point x="378.32" y="1032.8" type="line" name="n00"/>
+      <point x="378.32" y="0" type="line"/>
+      <point x="654" y="0" type="line" name="n02"/>
+      <point x="654" y="1032.8" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="21.92" y="826.24" type="line"/>
+      <point x="21.92" y="826.24" type="line" name="n04"/>
       <point x="1010.4" y="826.24" type="line"/>
       <point x="1010.4" y="1032.8" type="line"/>
-      <point x="21.92" y="1032.8" type="line"/>
+      <point x="21.92" y="1032.8" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="654.0" y="206.56" type="line"/>
-      <point x="654.0" y="0.0" type="line"/>
-      <point x="593.0" y="0.0" type="line"/>
-      <point x="593.0" y="-341.52" type="line"/>
-      <point x="765.6800000000001" y="-341.52" type="line" smooth="yes"/>
+      <point x="654" y="206.56" type="line" name="n08"/>
+      <point x="654" y="0" type="line"/>
+      <point x="593" y="0" type="line"/>
+      <point x="593" y="-341.52" type="line" name="n11"/>
+      <point x="765.68" y="-341.52" type="line" smooth="yes"/>
       <point x="810.64" y="-341.52"/>
       <point x="843.56" y="-309.48"/>
-      <point x="843.56" y="-259.24" type="curve" smooth="yes"/>
+      <point x="843.56" y="-259.24" type="curve" smooth="yes" name="n15"/>
       <point x="843.56" y="206.56" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-320.52" width="-21" />
+      <hstem pos="0" width="206.56" />
+      <hstem pos="826.24" width="206.56" />
+      <vstem pos="378.32" width="275.68" />
+      <vstem pos="593" width="250.56" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

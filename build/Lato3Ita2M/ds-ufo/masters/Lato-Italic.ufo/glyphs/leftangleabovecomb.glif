@@ -1,31 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftangleabovecomb" format="2">
   <unicode hex="031A"/>
-  <guideline x="-161.6" y="0.0" angle="82.9991"/>
   <anchor x="-9.2" y="1109.2" name="_top"/>
-  <anchor x="30.0" y="1684.0" name="top"/>
+  <anchor x="30" y="1684" name="top"/>
   <outline>
     <contour>
-      <point x="45.42" y="1166.1" type="line"/>
+      <point x="45.42" y="1166.1" type="line" name="n00"/>
       <point x="168.18" y="1166.1" type="line"/>
       <point x="222.58" y="1611.08" type="line"/>
       <point x="99.82" y="1611.08" type="line"/>
     </contour>
     <contour>
-      <point x="-223.12" y="1499.12" type="line"/>
+      <point x="-223.12" y="1499.12" type="line" name="n04"/>
       <point x="208.78" y="1499.12" type="line"/>
       <point x="222.58" y="1611.08" type="line"/>
-      <point x="-209.78" y="1611.08" type="line"/>
+      <point x="-209.78" y="1611.08" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-167" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_angleleft=leftangleabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_angleleft=leftangleabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1187.1" width="-21" />
+      <hstem pos="1499.12" width="111.96" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

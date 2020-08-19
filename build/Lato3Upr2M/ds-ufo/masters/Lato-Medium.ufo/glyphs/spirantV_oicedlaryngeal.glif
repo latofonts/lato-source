@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="spirantVoicedlaryngeal" format="2">
-  <advance width="866.8"/>
+  <advance width="867"/>
   <unicode hex="1D24"/>
-  <anchor x="443.2" y="1120.0" name="top"/>
-  <anchor x="422.2" y="-70.0" name="bottom"/>
+  <anchor x="422.2" y="-70" name="bottom"/>
+  <anchor x="443.2" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="501.6" y="523.0" type="line"/>
+      <point x="501.6" y="523" type="line"/>
       <point x="634.4" y="560.6"/>
       <point x="784.2" y="591.2"/>
-      <point x="784.2" y="760.8" type="curve" smooth="yes"/>
+      <point x="784.2" y="760.8" type="curve" smooth="yes" name="n03"/>
       <point x="784.2" y="919.2"/>
-      <point x="654.2" y="1032.0"/>
-      <point x="426.8" y="1032.0" type="curve" smooth="yes"/>
-      <point x="284.6" y="1032.0"/>
-      <point x="172.2" y="986.0"/>
-      <point x="95.4" y="912.0" type="curve"/>
-      <point x="139.0" y="841.2" type="line"/>
-      <point x="149.4" y="824.0"/>
+      <point x="654.2" y="1032"/>
+      <point x="426.8" y="1032" type="curve" smooth="yes" name="n06"/>
+      <point x="284.6" y="1032"/>
+      <point x="172.2" y="986"/>
+      <point x="95.4" y="912" type="curve"/>
+      <point x="139" y="841.2" type="line" smooth="yes"/>
+      <point x="149.4" y="824"/>
       <point x="160.6" y="817.2"/>
       <point x="176.8" y="817.2" type="curve" smooth="yes"/>
       <point x="221.8" y="817.2"/>
       <point x="277.4" y="887.2"/>
-      <point x="409.2" y="887.2" type="curve" smooth="yes"/>
-      <point x="527.0" y="887.2"/>
-      <point x="599.0" y="834.0"/>
-      <point x="599.0" y="759.4" type="curve" smooth="yes"/>
-      <point x="599.0" y="667.6"/>
-      <point x="489.0" y="651.8"/>
-      <point x="363.2" y="628.2" type="curve"/>
+      <point x="409.2" y="887.2" type="curve" smooth="yes" name="n16"/>
+      <point x="527" y="887.2"/>
+      <point x="599" y="834"/>
+      <point x="599" y="759.4" type="curve" smooth="yes" name="n19"/>
+      <point x="599" y="667.6"/>
+      <point x="489" y="651.8"/>
+      <point x="363.2" y="628.2" type="curve" name="n22"/>
     </contour>
     <contour>
       <point x="371.8" y="526.2" type="line"/>
       <point x="232.2" y="485.2"/>
-      <point x="66.80000000000001" y="448.2"/>
-      <point x="66.80000000000001" y="266.2" type="curve" smooth="yes"/>
-      <point x="66.80000000000001" y="101.0"/>
-      <point x="202.4" y="-16.0"/>
-      <point x="438.6" y="-16.0" type="curve" smooth="yes"/>
-      <point x="593.6" y="-16.0"/>
-      <point x="719.2" y="36.0"/>
-      <point x="799.2" y="108.0" type="curve"/>
-      <point x="753.6" y="182.39999999999998" type="line" smooth="yes"/>
+      <point x="66.8" y="448.2"/>
+      <point x="66.8" y="266.2" type="curve" smooth="yes" name="n26"/>
+      <point x="66.8" y="101"/>
+      <point x="202.4" y="-16"/>
+      <point x="438.6" y="-16" type="curve" smooth="yes" name="n29"/>
+      <point x="593.6" y="-16"/>
+      <point x="719.2" y="36"/>
+      <point x="799.2" y="108" type="curve"/>
+      <point x="753.6" y="182.4" type="line" smooth="yes"/>
       <point x="742.4" y="200.8"/>
       <point x="727.2" y="211.2"/>
-      <point x="705.0" y="211.2" type="curve" smooth="yes"/>
+      <point x="705" y="211.2" type="curve" smooth="yes"/>
       <point x="651.2" y="211.2"/>
       <point x="607.2" y="122.8"/>
-      <point x="451.8" y="122.8" type="curve" smooth="yes"/>
+      <point x="451.8" y="122.8" type="curve" smooth="yes" name="n39"/>
       <point x="312.4" y="122.8"/>
-      <point x="249.6" y="191.0"/>
-      <point x="249.6" y="267.0" type="curve" smooth="yes"/>
-      <point x="249.6" y="375.0"/>
-      <point x="377.0" y="395.2"/>
+      <point x="249.6" y="191"/>
+      <point x="249.6" y="267" type="curve" smooth="yes" name="n42"/>
+      <point x="249.6" y="375"/>
+      <point x="377" y="395.2"/>
       <point x="511.8" y="421.8" type="curve"/>
     </contour>
     <contour>
@@ -63,9 +63,19 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="138.8" />
+      <hstem pos="887.2" width="144.8" />
+      <vstem pos="66.8" width="182.8" />
+      <vstem pos="363.2" width="421" />
+      <vstem pos="599" width="185.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

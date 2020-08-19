@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="careof" format="2">
-  <advance width="1706.8600000000001"/>
+  <advance width="1707"/>
   <unicode hex="2105"/>
   <anchor x="1659.96" y="594.38" name="Top"/>
   <outline>
+    <component base="C.sups" xyScale="-5.66558e-18" xOffset="-3.06" yOffset="-199.34"/>
+    <component base="O.sups" xOffset="848.78" yOffset="-924.24"/>
     <contour>
-      <point x="151.8" y="0.0" type="line"/>
-      <point x="335.84000000000003" y="0.0" type="line" smooth="yes"/>
-      <point x="369.92" y="0.0"/>
+      <point x="151.8" y="0" type="line" name="n00"/>
+      <point x="335.84" y="0" type="line" smooth="yes"/>
+      <point x="369.92" y="0"/>
       <point x="394.64" y="16.04"/>
-      <point x="411.12" y="37.64" type="curve"/>
-      <point x="1484.92" y="1446.8" type="line"/>
+      <point x="411.12" y="37.64" type="curve" smooth="yes"/>
+      <point x="1484.92" y="1446.8" type="line" name="n05"/>
       <point x="1305.56" y="1446.8" type="line" smooth="yes"/>
       <point x="1263.24" y="1446.8"/>
       <point x="1242.08" y="1427.64"/>
       <point x="1225.6" y="1407.6" type="curve"/>
     </contour>
-    <component base="C.sups" xOffset="-3.0600000000000023" yOffset="-199.34"/>
-    <component base="O.sups" xOffset="848.78" yOffset="-924.24"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1446.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

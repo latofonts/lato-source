@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="careof" format="2">
-  <advance width="1673.2"/>
+  <advance width="1673"/>
   <unicode hex="2105"/>
   <anchor x="1627.2" y="590.6" name="Top"/>
   <outline>
+    <component base="C.sups" xScale="1" xyScale="1.13005e-17" xOffset="1.8" yOffset="-198.8"/>
+    <component base="O.sups" xScale="1" xOffset="821.6" yOffset="-922.8"/>
     <contour>
-      <point x="177.0" y="0.0" type="line"/>
-      <point x="321.8" y="0.0" type="line" smooth="yes"/>
-      <point x="349.4" y="0.0"/>
-      <point x="369.8" y="12.799999999999999"/>
-      <point x="383.4" y="30.8" type="curve"/>
-      <point x="1437.4" y="1436.0" type="line"/>
-      <point x="1296.2" y="1436.0" type="line" smooth="yes"/>
-      <point x="1261.8" y="1436.0"/>
+      <point x="177" y="0" type="line" name="n00"/>
+      <point x="321.8" y="0" type="line" smooth="yes"/>
+      <point x="349.4" y="0"/>
+      <point x="369.8" y="12.8"/>
+      <point x="383.4" y="30.8" type="curve" smooth="yes"/>
+      <point x="1437.4" y="1436" type="line" name="n05"/>
+      <point x="1296.2" y="1436" type="line" smooth="yes"/>
+      <point x="1261.8" y="1436"/>
       <point x="1244.6" y="1420.8"/>
-      <point x="1231.0" y="1404.0" type="curve"/>
+      <point x="1231" y="1404" type="curve"/>
     </contour>
-    <component base="C.sups" xOffset="1.8000000000000007" yOffset="-198.8"/>
-    <component base="O.sups" xOffset="821.6" yOffset="-922.8"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1436" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

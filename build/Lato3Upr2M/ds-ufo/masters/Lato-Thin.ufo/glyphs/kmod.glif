@@ -1,52 +1,64 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kmod" format="2">
-  <advance width="488.0"/>
+  <advance width="488"/>
   <unicode hex="1D4F"/>
-  <anchor x="243.5" y="-70.0" name="bottom"/>
+  <anchor x="243.5" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="101.7" y="1636.3" type="line"/>
-      <point x="101.7" y="909.2" type="line"/>
+      <point x="101.7" y="1636.3" type="line" name="n00"/>
+      <point x="101.7" y="909.2" type="line" name="n01"/>
       <point x="143.9" y="909.2" type="line"/>
-      <point x="143.9" y="1636.3" type="line"/>
+      <point x="143.9" y="1636.3" type="line" name="n03"/>
     </contour>
     <contour>
       <point x="130.3" y="1191.1" type="line"/>
-      <point x="136.5" y="1161.5" type="line"/>
+      <point x="136.5" y="1161.5" type="line" name="n05"/>
       <point x="166.2" y="1161.5" type="line" smooth="yes"/>
       <point x="186.2" y="1161.5"/>
       <point x="193.7" y="1159.5"/>
       <point x="204.1" y="1146.6" type="curve"/>
-      <point x="418.8" y="919.1" type="line" smooth="yes"/>
+      <point x="418.8" y="919.1" type="line"/>
       <point x="424.9" y="910.9"/>
       <point x="432.2" y="909.2"/>
       <point x="440.7" y="909.2" type="curve" smooth="yes"/>
       <point x="477.3" y="909.2" type="line"/>
-      <point x="241.1" y="1160.1" type="line" smooth="yes"/>
+      <point x="241.1" y="1160.1" type="line"/>
       <point x="228.6" y="1176.3"/>
-      <point x="215.2" y="1185.6"/>
+      <point x="215.2" y="1185.6" name="n17"/>
       <point x="184.9" y="1185.6" type="curve"/>
-      <point x="183.3" y="1173.0" type="line"/>
-      <point x="207.4" y="1173.0"/>
-      <point x="222.0" y="1181.0"/>
-      <point x="236.0" y="1196.2" type="curve"/>
-      <point x="460.1" y="1406.0" type="line"/>
-      <point x="423.3" y="1406.0" type="line" smooth="yes"/>
-      <point x="412.1" y="1406.0"/>
+      <point x="183.3" y="1173" type="line" name="n19"/>
+      <point x="207.4" y="1173"/>
+      <point x="222" y="1181"/>
+      <point x="236" y="1196.2" type="curve"/>
+      <point x="460.1" y="1406" type="line" name="n23"/>
+      <point x="423.3" y="1406" type="line" smooth="yes"/>
+      <point x="412.1" y="1406"/>
       <point x="405.2" y="1401.5"/>
       <point x="398.9" y="1394.5" type="curve"/>
-      <point x="193.7" y="1201.6" type="line" smooth="yes"/>
-      <point x="184.0" y="1191.7"/>
+      <point x="193.7" y="1201.6" type="line"/>
+      <point x="184" y="1191.7"/>
       <point x="175.6" y="1191.1"/>
       <point x="166.9" y="1191.1" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>k.sups=kmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>k.sups=kmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="930.2" width="-21" />
+      <hstem pos="1161.5" width="-20" />
+      <hstem pos="1173" width="-20" />
+      <hstem pos="1185.6" width="-20" />
+      <hstem pos="1406" width="-20" />
+      <hstem pos="1636.3" width="-20" />
+      <vstem pos="101.7" width="42.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

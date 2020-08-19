@@ -1,62 +1,73 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Psi-cy" format="2">
-  <advance width="1590.0"/>
+  <advance width="1590"/>
   <unicode hex="0470"/>
   <anchor x="794.75" y="1503.25" name="Top"/>
+  <anchor x="794.25" y="-70" name="bottom"/>
   <anchor x="794.75" y="1503.25" name="top"/>
-  <anchor x="794.25" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="766.0" y="436.25" type="line"/>
-      <point x="402.0" y="436.25"/>
+      <point x="766" y="436.25" type="line" name="n00"/>
+      <point x="402" y="436.25"/>
       <point x="218.75" y="611.5"/>
-      <point x="218.75" y="914.75" type="curve"/>
-      <point x="115.75" y="914.75" type="line"/>
+      <point x="218.75" y="914.75" type="curve" name="n03"/>
+      <point x="115.75" y="914.75" type="line" name="n04"/>
       <point x="115.75" y="568.75"/>
       <point x="344.25" y="353.75"/>
-      <point x="765.25" y="353.75" type="curve"/>
+      <point x="765.25" y="353.75" type="curve" name="n07"/>
     </contour>
     <contour>
-      <point x="845.75" y="1415.0" type="line"/>
-      <point x="742.75" y="1415.0" type="line"/>
-      <point x="742.75" y="0.0" type="line"/>
-      <point x="845.75" y="0.0" type="line"/>
+      <point x="845.75" y="1415" type="line" name="n08"/>
+      <point x="742.75" y="1415" type="line"/>
+      <point x="742.75" y="0" type="line" name="n10"/>
+      <point x="845.75" y="0" type="line" name="n11"/>
     </contour>
     <contour>
-      <point x="115.75" y="1415.0" type="line"/>
+      <point x="115.75" y="1415" type="line"/>
       <point x="115.75" y="914.75" type="line"/>
       <point x="218.75" y="914.75" type="line"/>
       <point x="218.75" y="1377.5" type="line" smooth="yes"/>
-      <point x="218.75" y="1398.0"/>
-      <point x="206.0" y="1415.0"/>
-      <point x="182.5" y="1415.0" type="curve" smooth="yes"/>
+      <point x="218.75" y="1398"/>
+      <point x="206" y="1415"/>
+      <point x="182.5" y="1415" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="824.25" y="353.75" type="line"/>
+      <point x="824.25" y="353.75" type="line" name="n19"/>
       <point x="1245.25" y="353.75"/>
       <point x="1473.75" y="568.75"/>
-      <point x="1473.75" y="914.75" type="curve"/>
-      <point x="1370.75" y="914.75" type="line"/>
+      <point x="1473.75" y="914.75" type="curve" name="n22"/>
+      <point x="1370.75" y="914.75" type="line" name="n23"/>
       <point x="1370.75" y="611.5"/>
       <point x="1187.5" y="436.25"/>
       <point x="823.5" y="436.25" type="curve"/>
     </contour>
     <contour>
-      <point x="1407.0" y="1415.0" type="line"/>
-      <point x="1383.5" y="1415.0"/>
-      <point x="1370.75" y="1398.0"/>
+      <point x="1407" y="1415" type="line" smooth="yes"/>
+      <point x="1383.5" y="1415"/>
+      <point x="1370.75" y="1398"/>
       <point x="1370.75" y="1377.5" type="curve" smooth="yes"/>
       <point x="1370.75" y="914.75" type="line"/>
       <point x="1473.75" y="914.75" type="line"/>
-      <point x="1473.75" y="1415.0" type="line"/>
+      <point x="1473.75" y="1415" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Psi=Psicyr</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>Psi=Psicyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="353.75" width="82.5" />
+      <hstem pos="1415" width="-20" />
+      <vstem pos="115.75" width="103" />
+      <vstem pos="824.25" width="21.5" />
+      <vstem pos="1370.75" width="103" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

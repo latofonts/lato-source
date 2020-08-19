@@ -1,64 +1,75 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mu" format="2">
-  <advance width="1214.5"/>
+  <advance width="1215"/>
   <unicode hex="03BC"/>
-  <anchor x="591.0" y="1120.0" name="top"/>
-  <anchor x="679.0" y="-421.0" name="bottom"/>
+  <anchor x="679" y="-421" name="bottom"/>
+  <anchor x="591" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="199.5" y="995.0" type="line"/>
+      <point x="199.5" y="995" type="line" name="n00"/>
       <point x="199.5" y="-310.5" type="line" smooth="yes"/>
-      <point x="199.5" y="-336.0"/>
-      <point x="215.0" y="-352.0"/>
-      <point x="242.5" y="-352.0" type="curve" smooth="yes"/>
-      <point x="290.0" y="-352.0" type="line"/>
-      <point x="290.0" y="-24.0" type="line" smooth="yes"/>
-      <point x="290.0" y="49.5"/>
+      <point x="199.5" y="-336"/>
+      <point x="215" y="-352" name="n03"/>
+      <point x="242.5" y="-352" type="curve" smooth="yes"/>
+      <point x="290" y="-352" type="line"/>
+      <point x="290" y="-24" type="line" smooth="yes"/>
+      <point x="290" y="49.5"/>
       <point x="285.5" y="154.5"/>
-      <point x="272.5" y="223.0" type="curve"/>
-      <point x="295.0" y="251.0" type="line"/>
-      <point x="295.0" y="995.0" type="line"/>
+      <point x="272.5" y="223" type="curve"/>
+      <point x="295" y="251" type="line"/>
+      <point x="295" y="995" type="line"/>
     </contour>
     <contour>
-      <point x="238.0" y="374.0" type="line"/>
-      <point x="238.0" y="135.0"/>
-      <point x="334.25" y="-6.0"/>
-      <point x="549.5" y="-6.0" type="curve" smooth="yes"/>
-      <point x="705.5" y="-6.0"/>
-      <point x="836.0" y="88.75"/>
-      <point x="923.75" y="241.0" type="curve"/>
-      <point x="897.25" y="301.0" type="line"/>
-      <point x="816.75" y="158.0"/>
+      <point x="238" y="374" type="line" name="n12"/>
+      <point x="238" y="135"/>
+      <point x="334.25" y="-6" name="n14"/>
+      <point x="549.5" y="-6" type="curve" smooth="yes"/>
+      <point x="705.5" y="-6"/>
+      <point x="836" y="88.75"/>
+      <point x="923.75" y="241" type="curve"/>
+      <point x="897.25" y="301" type="line"/>
+      <point x="816.75" y="158"/>
       <point x="698.75" y="72.5"/>
       <point x="554.5" y="72.5" type="curve" smooth="yes"/>
-      <point x="379.0" y="72.5"/>
-      <point x="295.0" y="186.5"/>
-      <point x="295.0" y="374.0" type="curve"/>
+      <point x="379" y="72.5"/>
+      <point x="295" y="186.5"/>
+      <point x="295" y="374" type="curve" name="n25"/>
     </contour>
     <contour>
-      <point x="886.75" y="250.0" type="line"/>
+      <point x="886.75" y="250" type="line"/>
       <point x="895.75" y="238.25" type="line"/>
-      <point x="896.25" y="65.0"/>
+      <point x="896.25" y="65"/>
       <point x="1001.25" y="-8.75"/>
-      <point x="1121.5" y="-8.75" type="curve" smooth="yes"/>
+      <point x="1121.5" y="-8.75" type="curve" smooth="yes" name="n30"/>
       <point x="1173.5" y="-8.75"/>
-      <point x="1201.0" y="8.0"/>
-      <point x="1201.0" y="25.0" type="curve" smooth="yes"/>
-      <point x="1201.0" y="63.5" type="line"/>
-      <point x="1158.75" y="63.5" type="line" smooth="yes"/>
+      <point x="1201" y="8"/>
+      <point x="1201" y="25" type="curve" smooth="yes"/>
+      <point x="1201" y="63.5" type="line"/>
+      <point x="1158.75" y="63.5" type="line" smooth="yes" name="n35"/>
       <point x="1054.25" y="63.5"/>
-      <point x="982.25" y="117.0"/>
-      <point x="982.25" y="238.0" type="curve" smooth="yes"/>
-      <point x="982.25" y="995.0" type="line"/>
-      <point x="886.75" y="995.0" type="line"/>
+      <point x="982.25" y="117"/>
+      <point x="982.25" y="238" type="curve" smooth="yes"/>
+      <point x="982.25" y="995" type="line" name="n39"/>
+      <point x="886.75" y="995" type="line" name="n40"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>lsb</key>
-      <string>=micro</string>
-    </dict>
+  <dict>
+    <key>lsb</key>
+    <string>=micro</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-331" width="-21" />
+      <hstem pos="-8.75" width="72.25" />
+      <hstem pos="15" width="-21" />
+      <hstem pos="995" width="-20" />
+      <vstem pos="238" width="57" />
+      <vstem pos="886.75" width="95.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhedescender-cy" format="2">
-  <advance width="1742.3"/>
+  <advance width="1742"/>
   <unicode hex="0497"/>
-  <guideline x="787.18" y="0.0" angle="82.9991"/>
-  <anchor x="938.38" y="1120.0" name="top"/>
-  <anchor x="781.22" y="-70.0" name="bottom"/>
+  <anchor x="781.22" y="-70" name="bottom"/>
+  <anchor x="938.38" y="1120" name="top"/>
   <outline>
+    <component base="zhe-cy"/>
     <contour>
       <point x="1465.96" y="33.58" type="line"/>
-      <point x="1364.42" y="-349.2" type="line"/>
+      <point x="1364.42" y="-349.2" type="line" name="n01"/>
       <point x="1470.08" y="-349.2" type="line" smooth="yes"/>
       <point x="1499.68" y="-349.2"/>
       <point x="1522.66" y="-328.92"/>
       <point x="1526.9" y="-296.08" type="curve"/>
-      <point x="1618.64" y="87.06" type="line"/>
+      <point x="1618.64" y="87.06" type="line" name="n06"/>
     </contour>
-    <component base="zhe-cy"/>
   </outline>
+  <guideline angle="82.9991" x="751" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-328.2" width="-21" />
+      <hstem pos="87.06" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

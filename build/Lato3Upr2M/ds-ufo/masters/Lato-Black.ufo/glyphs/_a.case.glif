@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_a.case" format="2">
   <advance width="626"/>
   <anchor x="547" y="1525" name="Top"/>
@@ -36,7 +36,9 @@
     </contour>
     <contour>
       <point x="408" y="1576" type="curve"/>
-      <point x="387" y="1684" type="line"/>
+      <point x="408" y="1576"/>
+      <point x="387" y="1684"/>
+      <point x="387" y="1684" type="curve"/>
       <point x="353" y="1643"/>
       <point x="333" y="1635"/>
       <point x="298" y="1635" type="curve" smooth="yes"/>
@@ -58,11 +60,21 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_a=_a.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_a=_a.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1502" width="310" />
+      <hstem pos="1696" width="327" />
+      <hstem pos="1870" width="153" />
+      <vstem pos="82" width="183" />
+      <vstem pos="398" width="152" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

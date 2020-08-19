@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowheadrightheadupbelowcomb" format="2">
   <unicode hex="0356"/>
-  <guideline x="60.0" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <anchor x="0.0" y="-563.0" name="bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-563" name="bottom"/>
   <outline>
     <contour>
-      <point x="-162.28" y="-401.15999999999997" type="line"/>
+      <point x="-162.28" y="-401.16" type="line"/>
       <point x="-43.44" y="-302.8" type="line"/>
-      <point x="-246.52" y="-55.68" type="line"/>
-      <point x="-366.36" y="-162.07999999999998" type="line"/>
+      <point x="-246.52" y="-55.68" type="line" name="n02"/>
+      <point x="-366.36" y="-162.08" type="line"/>
     </contour>
     <contour>
       <point x="-400.32" y="-442.64" type="line"/>
-      <point x="-306.48" y="-549.92" type="line"/>
+      <point x="-306.48" y="-549.92" type="line" name="n05"/>
       <point x="-43.44" y="-302.8" type="line"/>
       <point x="-138.16" y="-204.44" type="line"/>
     </contour>
@@ -30,14 +29,22 @@
       <point x="85.32" y="-235.8" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="60" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowheadsrightupbelow=arrowheadsrightupbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowheadsrightupbelow=arrowheadsrightupbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-528.92" width="-21" />
+      <hstem pos="-75.68" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

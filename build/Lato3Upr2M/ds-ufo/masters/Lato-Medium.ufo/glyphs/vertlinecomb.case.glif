@@ -1,23 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vertlinecomb.case" format="2">
-  <anchor x="0.0" y="1457.0" name="_Top"/>
-  <anchor x="0.0" y="2169.0" name="top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2169" name="top"/>
   <outline>
     <contour>
-      <point x="-70.4" y="1558.0" type="line"/>
-      <point x="70.4" y="1558.0" type="line"/>
-      <point x="70.4" y="1996.2" type="line"/>
+      <point x="-70.4" y="1558" type="line" name="n00"/>
+      <point x="70.4" y="1558" type="line" name="n01"/>
+      <point x="70.4" y="1996.2" type="line" name="n02"/>
       <point x="-70.4" y="1996.2" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_vertline=vertlinecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_vertline=vertlinecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1579" width="-21" />
+      <hstem pos="1996.2" width="-20" />
+      <vstem pos="-70.4" width="140.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

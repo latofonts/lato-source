@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tesh" format="2">
   <advance width="800"/>
   <unicode hex="02A7"/>
-  <guideline x="405" y="0" angle="82.9991"/>
   <anchor x="792" y="1496" name="Top"/>
   <anchor x="792" y="1496" name="top"/>
   <anchor x="333" y="-421" name="bottom"/>
@@ -59,7 +58,9 @@
       <point x="521" y="-272"/>
       <point x="544" y="-86" type="curve" smooth="yes"/>
       <point x="557" y="22" type="line"/>
-      <point x="533" y="22" type="line"/>
+      <point x="557" y="22"/>
+      <point x="533" y="22"/>
+      <point x="533" y="22" type="curve"/>
     </contour>
     <contour>
       <point x="692" y="1124" type="line" smooth="yes"/>
@@ -80,13 +81,25 @@
       <point x="691" y="1310"/>
       <point x="668" y="1124" type="curve" smooth="yes"/>
       <point x="528" y="-20" type="line"/>
-      <point x="552" y="-20" type="line"/>
+      <point x="528" y="-20"/>
+      <point x="552" y="-20"/>
+      <point x="552" y="-20" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="405" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-376" width="41" />
+      <hstem pos="-16" width="20" />
+      <hstem pos="918" width="20" />
+      <hstem pos="1373" width="41" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

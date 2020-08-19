@@ -1,21 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iMark-myanmar.case" format="2">
-  <guideline x="82.78"/>
   <outline>
     <contour>
       <point x="-77.52" y="1953.64" type="line"/>
-      <point x="-77.52" y="1505.6" type="line"/>
+      <point x="-77.52" y="1505.6" type="line" name="n01"/>
       <point x="76.52" y="1505.6" type="line"/>
       <point x="76.52" y="1953.64" type="line"/>
     </contour>
     <contour>
-      <point x="91.18" y="2109.46" type="curve" smooth="yes"/>
+      <point x="91.18" y="2109.46" type="curve" smooth="yes" name="n04"/>
       <point x="91.18" y="2160.56"/>
-      <point x="49.1" y="2200.86"/>
+      <point x="49.1" y="2200.86" name="n06"/>
       <point x="-2.34" y="2200.86" type="curve" smooth="yes"/>
       <point x="-50.88" y="2200.86"/>
       <point x="-92.18" y="2160.56"/>
-      <point x="-92.18" y="2109.46" type="curve" smooth="yes"/>
+      <point x="-92.18" y="2109.46" type="curve" smooth="yes" name="n10"/>
       <point x="-92.18" y="2059.58"/>
       <point x="-50.88" y="2018.5"/>
       <point x="-2.34" y="2018.5" type="curve" smooth="yes"/>
@@ -23,14 +22,23 @@
       <point x="91.18" y="2059.58"/>
     </contour>
   </outline>
+  <guideline angle="90" x="82" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_i=_i.case</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_i=_i.case</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1526.6" width="-21" />
+      <hstem pos="2200.86" width="-20" />
+      <vstem pos="-92.18" width="183.36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

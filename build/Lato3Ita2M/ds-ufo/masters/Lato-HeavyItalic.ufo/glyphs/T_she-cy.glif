@@ -1,28 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tshe-cy" format="2">
-  <advance width="1420.0"/>
+  <advance width="1420"/>
   <unicode hex="040B"/>
-  <guideline x="604.92" y="0.0" angle="82.9991"/>
   <anchor x="620.8" y="1521.52" name="Top"/>
+  <anchor x="783.2" y="-70" name="bottom"/>
   <anchor x="620.8" y="1521.52" name="top"/>
-  <anchor x="783.2" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="754.64" y="1382.08" type="line"/>
       <point x="464.76" y="1382.08" type="line"/>
-      <point x="295.64" y="0.0" type="line"/>
-      <point x="584.52" y="0.0" type="line"/>
+      <point x="295.64" y="0" type="line" name="n02"/>
+      <point x="584.52" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="132.8" y="1451.92" type="line"/>
-      <point x="105.16" y="1220.48" type="line"/>
+      <point x="132.8" y="1451.92" type="line" name="n04"/>
+      <point x="105.16" y="1220.48" type="line" name="n05"/>
       <point x="1099.96" y="1220.48" type="line"/>
       <point x="1128.48" y="1451.92" type="line"/>
     </contour>
     <contour>
       <point x="1336.12" y="444.08" type="line" smooth="yes"/>
       <point x="1395.92" y="931.36"/>
-      <point x="1097.84" y="965.6800000000001"/>
+      <point x="1097.84" y="965.68"/>
       <point x="617.88" y="833.84" type="curve"/>
       <point x="592.88" y="627.04" type="line"/>
       <point x="1040.44" y="748.12"/>
@@ -32,12 +31,20 @@
       <point x="1281.28" y="-0.88" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="597" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1220.48" width="231.44" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

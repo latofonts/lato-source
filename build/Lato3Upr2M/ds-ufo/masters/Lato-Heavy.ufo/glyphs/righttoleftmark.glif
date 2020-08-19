@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="righttoleftmark" format="2">
   <unicode hex="200F"/>
   <outline>
     <contour>
       <point x="33.4" y="1733.04" type="line"/>
       <point x="-33.4" y="1733.04" type="line"/>
-      <point x="-33.4" y="-390.0" type="line"/>
-      <point x="33.4" y="-390.0" type="line"/>
+      <point x="-33.4" y="-390" type="line" name="n02"/>
+      <point x="33.4" y="-390" type="line"/>
     </contour>
     <contour>
       <point x="-244.12" y="1808.8" type="line"/>
-      <point x="-328.52" y="1893.2" type="line"/>
+      <point x="-328.52" y="1893.2" type="line" name="n05"/>
       <point x="-522.96" y="1698.76" type="line"/>
       <point x="-437.56" y="1616.24" type="line"/>
     </contour>
@@ -28,9 +28,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1893.2" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

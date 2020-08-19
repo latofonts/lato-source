@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bmod" format="2">
   <advance width="535"/>
   <unicode hex="1D47"/>
-  <guideline x="266" y="0" angle="82.9991"/>
   <anchor x="257" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -45,12 +44,22 @@
       <point x="169" y="1017" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="266" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>b.sups=bmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>b.sups=bmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="908" width="-20" />
+      <hstem pos="902" width="18" />
+      <hstem pos="1390" width="18" />
+      <hstem pos="1630" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

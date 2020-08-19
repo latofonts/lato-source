@@ -1,30 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowheadleftabovecomb.case" format="2">
-  <guideline x="-194.24" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="1517.0" name="_Top"/>
-  <anchor x="99.0" y="2069.0" name="top"/>
+  <anchor x="0" y="1517" name="_Top"/>
+  <anchor x="99" y="2069" name="top"/>
   <outline>
     <contour>
       <point x="144.9" y="1902.58" type="line"/>
-      <point x="85.84" y="1975.98" type="line"/>
+      <point x="85.84" y="1975.98" type="line" name="n01"/>
       <point x="-145.36" y="1752.4" type="line"/>
       <point x="-85.22" y="1684.86" type="line"/>
     </contour>
     <contour>
       <point x="-70.34" y="1819.94" type="line"/>
       <point x="-145.36" y="1752.4" type="line"/>
-      <point x="34.66" y="1528.82" type="line"/>
+      <point x="34.66" y="1528.82" type="line" name="n06"/>
       <point x="110.68" y="1602.22" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-191" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowheadleft=arrowheadleftcomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowheadleft=arrowheadleftcomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1549.82" width="-21" />
+      <hstem pos="1975.98" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,31 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commareversedmod" format="2">
-  <advance width="449.56"/>
+  <advance width="450"/>
   <unicode hex="02BD"/>
-  <guideline x="224.78" y="0.0" angle="82.9991"/>
-  <anchor x="205.42000000000002" y="-70.0" name="bottom"/>
+  <anchor x="205.42" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="173.82" y="1566.48" type="line"/>
-      <point x="45.0" y="1354.72"/>
+      <point x="173.82" y="1566.48" type="line" name="n00"/>
+      <point x="45" y="1354.72"/>
       <point x="83.94" y="1096.9"/>
-      <point x="283.78" y="933.42" type="curve"/>
+      <point x="283.78" y="933.42" type="curve" name="n03"/>
       <point x="361.1" y="981.1" type="line" smooth="yes"/>
       <point x="388.28" y="998.14"/>
       <point x="380.48" y="1029.22"/>
-      <point x="365.78" y="1044.14" type="curve" smooth="yes"/>
+      <point x="365.78" y="1044.14" type="curve"/>
       <point x="309.9" y="1108.72"/>
       <point x="250.8" y="1271.34"/>
-      <point x="346.36" y="1426.94" type="curve"/>
+      <point x="346.36" y="1426.94" type="curve" smooth="yes"/>
       <point x="369.86" y="1464.92"/>
       <point x="356.26" y="1496.32"/>
       <point x="323.3" y="1508.12" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="185" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="954.42" width="-21" />
+      <hstem pos="1566.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

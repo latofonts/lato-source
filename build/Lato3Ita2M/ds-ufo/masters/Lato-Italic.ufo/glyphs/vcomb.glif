@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vcomb" format="2">
   <unicode hex="036E"/>
-  <guideline x="-170.02" y="0.0" angle="82.9991"/>
-  <anchor x="-61.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1690.0" name="top"/>
+  <anchor x="-61" y="1037" name="_top"/>
+  <anchor x="0" y="1690" name="top"/>
   <outline>
     <contour>
-      <point x="-105.52000000000001" y="1120.54" type="line"/>
+      <point x="-105.52" y="1120.54" type="line" name="n00"/>
       <point x="-42.38" y="1120.54" type="line"/>
       <point x="-42.92" y="1188.3"/>
       <point x="-43.92" y="1247.5"/>
-      <point x="-51.16" y="1315.34" type="curve" smooth="yes"/>
+      <point x="-51.16" y="1315.34" type="curve"/>
       <point x="-95.72" y="1551.28" type="line"/>
-      <point x="-96.25999999999999" y="1563.38"/>
-      <point x="-107.9" y="1572.24"/>
+      <point x="-96.26" y="1563.38"/>
+      <point x="-107.9" y="1572.24" name="n07"/>
       <point x="-123.7" y="1572.24" type="curve" smooth="yes"/>
       <point x="-214.68" y="1572.24" type="line"/>
     </contour>
@@ -23,21 +22,29 @@
       <point x="114.14" y="1572.24"/>
       <point x="99.96" y="1562.76"/>
       <point x="95.8" y="1551.28" type="curve"/>
-      <point x="-8.0" y="1315.34" type="line"/>
+      <point x="-8" y="1315.34" type="line"/>
       <point x="-33.28" y="1246.5"/>
       <point x="-49.08" y="1188.3"/>
       <point x="-65.5" y="1120.54" type="curve"/>
-      <point x="-5.519999999999996" y="1120.54" type="line"/>
+      <point x="-5.52" y="1120.54" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-163" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_v=vcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_v=vcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1141.54" width="-21" />
+      <hstem pos="1572.24" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

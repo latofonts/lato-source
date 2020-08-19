@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
   <advance width="698"/>
   <unicode hex="0142"/>
@@ -8,6 +8,7 @@
   <anchor x="501" y="222" name="hook"/>
   <anchor x="356" y="756" name="bar"/>
   <outline>
+    <component base="l" xOffset="86"/>
     <contour>
       <point x="35" y="593" type="line"/>
       <point x="350" y="718" type="line"/>
@@ -24,12 +25,18 @@
       <point x="35" y="807"/>
       <point x="35" y="781" type="curve" smooth="yes"/>
     </contour>
-    <component base="l" xOffset="86"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="614" width="-21" />
+      <hstem pos="1057" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

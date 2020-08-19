@@ -1,16 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t_idotless_ogonek" format="2">
-  <advance width="1230.98"/>
-  <anchor x="996.98" y="1120.0" name="top"/>
-  <anchor x="987.16" y="-70.0" name="_bottom"/>
+  <advance width="1231"/>
+  <anchor x="987.16" y="-70" name="_bottom"/>
+  <anchor x="996.98" y="1120" name="top"/>
   <outline>
+    <component base="ogonek" xScale="1" xOffset="587.16"/>
     <contour>
       <point x="202.06" y="946.36" type="line"/>
-      <point x="202.06" y="243.24" type="line" smooth="yes"/>
+      <point x="202.06" y="243.24" type="line" smooth="yes" name="n01"/>
       <point x="202.06" y="76.56"/>
-      <point x="292.58" y="-16.0"/>
-      <point x="450.86" y="-16.0" type="curve" smooth="yes"/>
-      <point x="543.06" y="-16.0"/>
+      <point x="292.58" y="-16" name="n03"/>
+      <point x="450.86" y="-16" type="curve" smooth="yes"/>
+      <point x="543.06" y="-16"/>
       <point x="635.1" y="18.6"/>
       <point x="696.7" y="75.84" type="curve"/>
       <point x="644.1" y="160.84" type="line" smooth="yes"/>
@@ -19,11 +20,11 @@
       <point x="618.82" y="177.8" type="curve" smooth="yes"/>
       <point x="597.42" y="177.8"/>
       <point x="567.18" y="129.28"/>
-      <point x="490.82" y="129.28" type="curve" smooth="yes"/>
-      <point x="426.58000000000004" y="129.28"/>
-      <point x="380.5" y="170.64000000000001"/>
-      <point x="380.5" y="255.12" type="curve" smooth="yes"/>
-      <point x="380.5" y="1341.68" type="line"/>
+      <point x="490.82" y="129.28" type="curve" smooth="yes" name="n14"/>
+      <point x="426.58" y="129.28"/>
+      <point x="380.5" y="170.64"/>
+      <point x="380.5" y="255.12" type="curve" smooth="yes" name="n17"/>
+      <point x="380.5" y="1341.68" type="line" name="n18"/>
       <point x="290.26" y="1341.68" type="line" smooth="yes"/>
       <point x="268.06" y="1341.68"/>
       <point x="253.26" y="1328.28"/>
@@ -35,25 +36,35 @@
       <point x="42.26" y="973.96" type="line"/>
       <point x="42.26" y="903.16" type="line" smooth="yes"/>
       <point x="42.26" y="877.72"/>
-      <point x="59.06" y="864.0"/>
-      <point x="80.02" y="864.0" type="curve" smooth="yes"/>
-      <point x="1080.34" y="864.0" type="line"/>
-      <point x="1080.34" y="993.08" type="line"/>
+      <point x="59.06" y="864"/>
+      <point x="80.02" y="864" type="curve" smooth="yes"/>
+      <point x="1080.34" y="864" type="line" name="n30"/>
+      <point x="1080.34" y="993.08" type="line" name="n31"/>
     </contour>
     <contour>
-      <point x="901.9" y="993.08" type="line"/>
-      <point x="901.9" y="0.0" type="line"/>
-      <point x="1080.34" y="0.0" type="line"/>
+      <point x="901.9" y="993.08" type="line" name="n32"/>
+      <point x="901.9" y="0" type="line" name="n33"/>
+      <point x="1080.34" y="0" type="line"/>
       <point x="1080.34" y="993.08" type="line"/>
     </contour>
-    <component base="ogonek" xOffset="587.16"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="5" width="-21" />
+      <hstem pos="0" width="129.28" />
+      <hstem pos="864" width="129.08" />
+      <hstem pos="1341.68" width="-20" />
+      <vstem pos="202.06" width="178.44" />
+      <vstem pos="901.9" width="178.44" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

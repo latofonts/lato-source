@@ -1,49 +1,57 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="candraBinducomb" format="2">
   <unicode hex="0310"/>
-  <guideline x="-160.24" y="0.0" angle="82.9991"/>
-  <anchor x="-65.4" y="1077.0" name="_top"/>
+  <anchor x="-65.4" y="1077" name="_top"/>
   <anchor x="58.68" y="1767.68" name="top"/>
   <outline>
     <contour>
-      <point x="-28.32" y="1164.44" type="curve"/>
+      <point x="-28.32" y="1164.44" type="curve" smooth="yes" name="n00"/>
       <point x="187.08" y="1164.44"/>
       <point x="279.28" y="1286.8"/>
-      <point x="295.98" y="1432.4" type="curve"/>
+      <point x="295.98" y="1432.4" type="curve" name="n03"/>
       <point x="180.24" y="1432.4" type="line"/>
       <point x="170.4" y="1343.84"/>
-      <point x="113.03999999999999" y="1279.48"/>
-      <point x="-15.52" y="1279.48" type="curve"/>
+      <point x="113.04" y="1279.48"/>
+      <point x="-15.52" y="1279.48" type="curve" smooth="yes" name="n07"/>
       <point x="-144.16" y="1279.48"/>
-      <point x="-187.07999999999998" y="1343.84"/>
+      <point x="-187.08" y="1343.84"/>
       <point x="-177.24" y="1432.4" type="curve"/>
       <point x="-292.44" y="1432.4" type="line"/>
       <point x="-309.14" y="1286.8"/>
       <point x="-244.72" y="1164.44"/>
     </contour>
     <contour>
-      <point x="126.96000000000001" y="1545.04" type="curve" smooth="yes"/>
+      <point x="126.96" y="1545.04" type="curve" smooth="yes"/>
       <point x="134.28" y="1609.06"/>
       <point x="89.68" y="1662.06"/>
-      <point x="31.28" y="1662.06" type="curve" smooth="yes"/>
+      <point x="31.28" y="1662.06" type="curve" smooth="yes" name="n17"/>
       <point x="-25.96" y="1662.06"/>
       <point x="-80.5" y="1609.06"/>
-      <point x="-87.82" y="1545.04" type="curve"/>
+      <point x="-87.82" y="1545.04" type="curve" smooth="yes"/>
       <point x="-95.06" y="1482.48"/>
-      <point x="-52.0" y="1429.48"/>
-      <point x="5.24" y="1429.48" type="curve" smooth="yes"/>
+      <point x="-52" y="1429.48"/>
+      <point x="5.24" y="1429.48" type="curve" smooth="yes" name="n23"/>
       <point x="64.18" y="1429.48"/>
       <point x="120.18" y="1482.48"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-157" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_candrabindu=candrabinducomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_candrabindu=candrabinducomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1164.44" width="115.04" />
+      <hstem pos="1432.4" width="-20" />
+      <hstem pos="1429.48" width="232.58" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

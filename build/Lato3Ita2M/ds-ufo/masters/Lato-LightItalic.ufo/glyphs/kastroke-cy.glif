@@ -1,62 +1,71 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kastroke-cy" format="2">
-  <advance width="987.75"/>
+  <advance width="988"/>
   <unicode hex="049F"/>
-  <guideline x="478.25" y="0.0" angle="82.9991"/>
-  <anchor x="581.0" y="1120.0" name="top"/>
-  <anchor x="491.75" y="-70.0" name="bottom"/>
+  <anchor x="491.75" y="-70" name="bottom"/>
+  <anchor x="581" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="81.0" y="864.5" type="line"/>
-      <point x="72.25" y="796.25" type="line"/>
-      <point x="540.0" y="796.25" type="line"/>
+      <point x="81" y="864.5" type="line" name="n00"/>
+      <point x="72.25" y="796.25" type="line" name="n01"/>
+      <point x="540" y="796.25" type="line"/>
       <point x="548.75" y="864.5" type="line"/>
     </contour>
     <contour>
-      <point x="368.0" y="994.75" type="line"/>
+      <point x="368" y="994.75" type="line" name="n04"/>
       <point x="277.5" y="994.75" type="line"/>
-      <point x="157.25" y="0.0" type="line"/>
-      <point x="248.25" y="0.0" type="line"/>
+      <point x="157.25" y="0" type="line" name="n06"/>
+      <point x="248.25" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="559.5" y="624.0" type="line" smooth="yes"/>
+      <point x="559.5" y="624" type="line" smooth="yes"/>
       <point x="526.5" y="581.5"/>
       <point x="493.5" y="559.75"/>
-      <point x="439.0" y="550.0" type="curve" smooth="yes"/>
-      <point x="285.75" y="522.0" type="line"/>
+      <point x="439" y="550" type="curve" smooth="yes"/>
+      <point x="285.75" y="522" type="line"/>
       <point x="276.5" y="457.5" type="line"/>
-      <point x="436.0" y="484.5" type="line"/>
+      <point x="436" y="484.5" type="line"/>
       <point x="497.75" y="484.5"/>
       <point x="544.75" y="442.75"/>
-      <point x="573.0" y="387.5" type="curve" smooth="yes"/>
-      <point x="765.25" y="32.5" type="line"/>
+      <point x="573" y="387.5" type="curve"/>
+      <point x="765.25" y="32.5" type="line" smooth="yes"/>
       <point x="776.75" y="11.5"/>
-      <point x="792.75" y="0.0"/>
-      <point x="825.75" y="0.0" type="curve" smooth="yes"/>
-      <point x="879.75" y="0.0" type="line"/>
-      <point x="661.5" y="408.25" type="line" smooth="yes"/>
+      <point x="792.75" y="0"/>
+      <point x="825.75" y="0" type="curve" smooth="yes"/>
+      <point x="879.75" y="0" type="line"/>
+      <point x="661.5" y="408.25" type="line"/>
       <point x="622.25" y="488.25"/>
       <point x="565.75" y="528.5"/>
       <point x="467.25" y="528.5" type="curve"/>
       <point x="459.75" y="513.75" type="line"/>
       <point x="562.75" y="523.5"/>
-      <point x="600.25" y="550.0"/>
-      <point x="649.0" y="614.75" type="curve" smooth="yes"/>
+      <point x="600.25" y="550"/>
+      <point x="649" y="614.75" type="curve"/>
       <point x="842.75" y="864.25" type="line"/>
       <point x="899.25" y="941.25"/>
-      <point x="963.0" y="912.0"/>
-      <point x="971.5" y="950.0" type="curve"/>
-      <point x="981.0" y="998.0" type="line"/>
-      <point x="938.5" y="998.0" type="line" smooth="yes"/>
-      <point x="859.25" y="998.0"/>
+      <point x="963" y="912"/>
+      <point x="971.5" y="950" type="curve" smooth="yes"/>
+      <point x="981" y="998" type="line" name="n35"/>
+      <point x="938.5" y="998" type="line" smooth="yes"/>
+      <point x="859.25" y="998"/>
       <point x="811.25" y="954.25"/>
-      <point x="756.0" y="877.25" type="curve"/>
+      <point x="756" y="877.25" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="455" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="796.25" width="68.25" />
+      <hstem pos="994.75" width="-20" />
+      <hstem pos="998" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

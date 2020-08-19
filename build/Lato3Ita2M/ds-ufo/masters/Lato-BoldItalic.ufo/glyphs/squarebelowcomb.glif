@@ -1,43 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squarebelowcomb" format="2">
   <unicode hex="033B"/>
-  <guideline x="63.78" y="0.0" angle="82.9991"/>
-  <anchor x="-53.400000000000006" y="-595.0" name="bottom"/>
-  <anchor x="67.8" y="0.0" name="_bottom"/>
+  <anchor x="67.8" y="0" name="_bottom"/>
+  <anchor x="-53.4" y="-595" name="bottom"/>
   <outline>
     <contour>
-      <point x="-268.74" y="-514.02" type="line"/>
+      <point x="-268.74" y="-514.02" type="line" name="n00"/>
       <point x="-114.46" y="-514.02" type="line"/>
-      <point x="-57.66" y="-47.379999999999995" type="line"/>
-      <point x="-211.16" y="-47.379999999999995" type="line"/>
+      <point x="-57.66" y="-47.38" type="line"/>
+      <point x="-211.16" y="-47.38" type="line"/>
     </contour>
     <contour>
       <point x="-229.76" y="-192.52" type="line"/>
-      <point x="250.36" y="-192.52" type="line"/>
-      <point x="267.96" y="-47.379999999999995" type="line"/>
-      <point x="-211.16" y="-47.379999999999995" type="line"/>
+      <point x="250.36" y="-192.52" type="line" name="n05"/>
+      <point x="267.96" y="-47.38" type="line" name="n06"/>
+      <point x="-211.16" y="-47.38" type="line"/>
     </contour>
     <contour>
-      <point x="267.96" y="-47.379999999999995" type="line"/>
-      <point x="114.46" y="-47.379999999999995" type="line"/>
-      <point x="56.879999999999995" y="-514.02" type="line"/>
+      <point x="267.96" y="-47.38" type="line"/>
+      <point x="114.46" y="-47.38" type="line"/>
+      <point x="56.88" y="-514.02" type="line"/>
       <point x="211.38" y="-514.02" type="line"/>
     </contour>
     <contour>
-      <point x="228.98000000000002" y="-367.32" type="line"/>
-      <point x="-251.14" y="-367.32" type="line"/>
+      <point x="228.98" y="-367.32" type="line"/>
+      <point x="-251.14" y="-367.32" type="line" name="n13"/>
       <point x="-268.74" y="-514.02" type="line"/>
       <point x="211.38" y="-514.02" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="63" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_squarebelow=squarebelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_squarebelow=squarebelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-514.02" width="146.7" />
+      <hstem pos="-192.52" width="145.14" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

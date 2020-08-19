@@ -1,31 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nje-cy" format="2">
-  <advance width="1512.5"/>
+  <advance width="1513"/>
   <unicode hex="045A"/>
-  <guideline x="746.0" y="0.0" angle="82.9991"/>
-  <anchor x="1100.5" y="1120.0" name="top"/>
-  <anchor x="984.5" y="-70.0" name="bottom"/>
+  <anchor x="984.5" y="-70" name="bottom"/>
+  <anchor x="1100.5" y="1120" name="top"/>
   <outline>
+    <component base="softsign-cy" xOffset="630.25"/>
     <contour>
-      <point x="201.0" y="995.0" type="line"/>
-      <point x="80.75" y="0.0" type="line"/>
-      <point x="174.75" y="0.0" type="line"/>
-      <point x="295.0" y="995.0" type="line"/>
+      <point x="201" y="995" type="line" name="n00"/>
+      <point x="80.75" y="0" type="line" name="n01"/>
+      <point x="174.75" y="0" type="line"/>
+      <point x="295" y="995" type="line"/>
     </contour>
     <contour>
       <point x="185.5" y="497.5" type="line"/>
-      <point x="831.5" y="497.5" type="line"/>
-      <point x="839.75" y="568.75" type="line"/>
+      <point x="831.5" y="497.5" type="line" name="n05"/>
+      <point x="839.75" y="568.75" type="line" name="n06"/>
       <point x="194.75" y="568.75" type="line"/>
     </contour>
-    <component base="softsign-cy" xOffset="630.25"/>
   </outline>
+  <guideline angle="82.9991" x="741" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="497.5" width="71.25" />
+      <hstem pos="995" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

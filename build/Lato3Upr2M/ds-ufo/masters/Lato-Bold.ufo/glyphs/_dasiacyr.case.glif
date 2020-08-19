@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dasiacyr.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1518.62" name="_Top"/>
-  <anchor x="420.0" y="1120.0" name="_onRight"/>
+  <advance width="800"/>
+  <anchor x="400" y="1518.62" name="_Top"/>
+  <anchor x="420" y="1120" name="_onRight"/>
   <outline>
     <contour>
       <point x="350.82" y="1672.68" type="line"/>
@@ -10,32 +10,39 @@
       <point x="387.74" y="1654.92"/>
       <point x="420.78" y="1654.92" type="curve" smooth="yes"/>
       <point x="516.52" y="1654.92"/>
-      <point x="549.0" y="1704.56"/>
-      <point x="549.0" y="1758.74" type="curve" smooth="yes"/>
-      <point x="549.0" y="1826.62"/>
+      <point x="549" y="1704.56"/>
+      <point x="549" y="1758.74" type="curve" smooth="yes"/>
+      <point x="549" y="1826.62"/>
       <point x="503.38" y="1876.26"/>
-      <point x="423.8" y="1876.26" type="curve" smooth="yes"/>
+      <point x="423.8" y="1876.26" type="curve" smooth="yes" name="n09"/>
       <point x="328.84" y="1876.26"/>
       <point x="277.1" y="1821.6"/>
-      <point x="277.1" y="1725.96" type="curve" smooth="yes"/>
+      <point x="277.1" y="1725.96" type="curve" smooth="yes" name="n12"/>
       <point x="277.1" y="1600.24"/>
       <point x="357.92" y="1492.72"/>
-      <point x="526.06" y="1494.28" type="curve"/>
-      <point x="526.06" y="1543.16" type="line" smooth="yes"/>
+      <point x="526.06" y="1494.28" type="curve" name="n15"/>
+      <point x="526.06" y="1543.16" type="line" smooth="yes" name="n16"/>
       <point x="526.06" y="1563.54"/>
       <point x="512.82" y="1574.68"/>
-      <point x="476.18" y="1582.7" type="curve"/>
+      <point x="476.18" y="1582.7" type="curve" smooth="yes"/>
       <point x="414.8" y="1595.82"/>
       <point x="391.92" y="1626.9"/>
       <point x="397.38" y="1697.64" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dasiacyr=_dasiacyr.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dasiacyr=_dasiacyr.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1494.28" width="381.98" />
+      <vstem pos="277.1" width="248.96" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

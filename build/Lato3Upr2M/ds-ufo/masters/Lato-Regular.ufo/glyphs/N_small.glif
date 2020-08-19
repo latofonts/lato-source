@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nsmall" format="2">
-  <advance width="1125.7"/>
+  <advance width="1126"/>
   <unicode hex="0274"/>
   <anchor x="757.38" y="1510.74" name="Top"/>
-  <anchor x="563.12" y="1120.0" name="top"/>
-  <anchor x="563.12" y="-70.0" name="bottom"/>
+  <anchor x="563.12" y="-70" name="bottom"/>
+  <anchor x="563.12" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="861.8" y="250.26000000000002" type="line"/>
-      <point x="289.16" y="983.8" type="line"/>
+      <point x="861.8" y="250.26" type="line"/>
+      <point x="289.16" y="983.8" type="line" smooth="yes"/>
       <point x="270.04" y="1007.62"/>
-      <point x="260.56" y="1012.4"/>
+      <point x="260.56" y="1012.4" name="n03"/>
       <point x="230.72" y="1012.4" type="curve" smooth="yes"/>
       <point x="141.34" y="1012.4" type="line"/>
-      <point x="141.34" y="0.0" type="line"/>
-      <point x="292.02" y="0.0" type="line"/>
+      <point x="141.34" y="0" type="line" name="n06"/>
+      <point x="292.02" y="0" type="line" name="n07"/>
       <point x="292.02" y="651.38" type="line" smooth="yes"/>
       <point x="292.02" y="700.02"/>
       <point x="287.24" y="769.02"/>
@@ -22,21 +22,30 @@
       <point x="264.74" y="761.6" type="line"/>
       <point x="835.68" y="30.3" type="line" smooth="yes"/>
       <point x="853.26" y="8.48"/>
-      <point x="869.76" y="0.0"/>
-      <point x="896.44" y="0.0" type="curve" smooth="yes"/>
-      <point x="984.36" y="0.0" type="line"/>
-      <point x="984.36" y="1012.4" type="line"/>
-      <point x="833.14" y="1012.4" type="line"/>
-      <point x="833.14" y="366.26000000000005" type="line" smooth="yes"/>
+      <point x="869.76" y="0"/>
+      <point x="896.44" y="0" type="curve" smooth="yes"/>
+      <point x="984.36" y="0" type="line"/>
+      <point x="984.36" y="1012.4" type="line" name="n18"/>
+      <point x="833.14" y="1012.4" type="line" name="n19"/>
+      <point x="833.14" y="366.26" type="line" smooth="yes"/>
       <point x="833.14" y="312.68"/>
       <point x="840.62" y="239.74"/>
-      <point x="851.8" y="186.70000000000002" type="curve"/>
+      <point x="851.8" y="186.7" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1012.4" width="-20" />
+      <vstem pos="141.34" width="150.68" />
+      <vstem pos="833.14" width="151.22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

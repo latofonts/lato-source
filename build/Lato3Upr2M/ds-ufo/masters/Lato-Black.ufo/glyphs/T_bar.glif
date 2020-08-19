@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tbar" format="2">
   <advance width="1238"/>
   <unicode hex="0166"/>
@@ -7,20 +7,26 @@
   <anchor x="623" y="-70" name="bottom"/>
   <anchor x="662" y="728" name="Slash"/>
   <outline>
+    <component base="T" xOffset="10"/>
     <contour>
       <point x="150" y="662" type="line"/>
       <point x="1088" y="662" type="line"/>
       <point x="1088" y="854" type="line"/>
       <point x="150" y="854" type="line"/>
     </contour>
-    <component base="T" xOffset="10"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="662" width="192" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

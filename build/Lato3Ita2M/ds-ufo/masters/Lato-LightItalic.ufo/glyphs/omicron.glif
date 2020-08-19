@@ -1,47 +1,54 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omicron" format="2">
-  <advance width="1026.5"/>
+  <advance width="1027"/>
   <unicode hex="03BF"/>
-  <guideline x="500.75"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
-  <anchor x="584.25" y="1120.0" name="top"/>
-  <anchor x="439.25" y="-70.0" name="bottom"/>
+  <anchor x="439.25" y="-70" name="bottom"/>
+  <anchor x="584.25" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="441.5" y="62.0" type="curve"/>
-      <point x="273.0" y="62.0"/>
+      <point x="441.5" y="62" type="curve" smooth="yes" name="n00"/>
+      <point x="273" y="62"/>
       <point x="173.5" y="184.5"/>
-      <point x="173.5" y="396.0" type="curve" smooth="yes"/>
-      <point x="173.5" y="675.0"/>
-      <point x="328.0" y="934.5"/>
-      <point x="560.5" y="934.5" type="curve" smooth="yes"/>
+      <point x="173.5" y="396" type="curve" smooth="yes"/>
+      <point x="173.5" y="675"/>
+      <point x="328" y="934.5"/>
+      <point x="560.5" y="934.5" type="curve" smooth="yes" name="n06"/>
       <point x="727.5" y="934.5"/>
-      <point x="828.5" y="814.0"/>
-      <point x="828.5" y="602.0" type="curve" smooth="yes"/>
+      <point x="828.5" y="814"/>
+      <point x="828.5" y="602" type="curve" smooth="yes"/>
       <point x="828.5" y="326.5"/>
-      <point x="674.0" y="62.0"/>
+      <point x="674" y="62"/>
     </contour>
     <contour>
-      <point x="433.0" y="-13.0" type="curve"/>
-      <point x="720.5" y="-13.0"/>
-      <point x="924.0" y="281.5"/>
-      <point x="924.0" y="602.5" type="curve" smooth="yes"/>
-      <point x="924.0" y="855.0"/>
-      <point x="783.0" y="1009.5"/>
-      <point x="569.0" y="1009.5" type="curve" smooth="yes"/>
+      <point x="433" y="-13" type="curve" smooth="yes" name="n12"/>
+      <point x="720.5" y="-13"/>
+      <point x="924" y="281.5"/>
+      <point x="924" y="602.5" type="curve" smooth="yes"/>
+      <point x="924" y="855"/>
+      <point x="783" y="1009.5"/>
+      <point x="569" y="1009.5" type="curve" smooth="yes" name="n18"/>
       <point x="281.5" y="1009.5"/>
-      <point x="78.0" y="719.0"/>
-      <point x="78.0" y="395.5" type="curve" smooth="yes"/>
-      <point x="78.0" y="141.5"/>
-      <point x="219.0" y="-13.0"/>
+      <point x="78" y="719"/>
+      <point x="78" y="395.5" type="curve" smooth="yes"/>
+      <point x="78" y="141.5"/>
+      <point x="219" y="-13"/>
     </contour>
   </outline>
+  <guideline angle="90" x="486" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>o=omicron</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>o=omicron</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-13" width="75" />
+      <hstem pos="934.5" width="75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

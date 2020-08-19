@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="2">
   <advance width="391"/>
   <unicode hex="0237"/>
-  <guideline x="204" y="0" angle="82.9991"/>
   <anchor x="266" y="1120" name="top"/>
   <anchor x="193" y="532" name="bar"/>
   <anchor x="75" y="-421" name="bottom"/>
@@ -26,12 +25,20 @@
       <point x="254" y="980" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="204" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-374" width="20" />
+      <hstem pos="980" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

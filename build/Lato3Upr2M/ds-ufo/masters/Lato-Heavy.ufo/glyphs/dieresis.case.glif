@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresis.case" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1521.52" name="_Top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1521.52" name="_Top"/>
   <outline>
     <contour>
       <point x="319.52" y="1667.52" type="curve" smooth="yes"/>
       <point x="319.52" y="1746.8"/>
       <point x="252.8" y="1813.28"/>
-      <point x="172.0" y="1813.28" type="curve" smooth="yes"/>
-      <point x="98.0" y="1813.28"/>
-      <point x="31.52000000000001" y="1746.8"/>
-      <point x="31.52000000000001" y="1667.52" type="curve" smooth="yes"/>
-      <point x="31.52000000000001" y="1588.48"/>
-      <point x="98.0" y="1525.52"/>
-      <point x="172.0" y="1525.52" type="curve" smooth="yes"/>
+      <point x="172" y="1813.28" type="curve" smooth="yes" name="n03"/>
+      <point x="98" y="1813.28"/>
+      <point x="31.52" y="1746.8"/>
+      <point x="31.52" y="1667.52" type="curve" smooth="yes"/>
+      <point x="31.52" y="1588.48"/>
+      <point x="98" y="1525.52"/>
+      <point x="172" y="1525.52" type="curve" smooth="yes" name="n09"/>
       <point x="252.8" y="1525.52"/>
       <point x="319.52" y="1588.48"/>
     </contour>
@@ -33,9 +33,15 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1525.52" width="287.76" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

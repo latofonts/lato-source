@@ -1,21 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dialytikatonoscomb" format="2">
   <unicode hex="0344"/>
-  <guideline x="172.4" y="0.0" angle="82.9991"/>
-  <anchor x="-60.0" y="1037.0" name="_top"/>
-  <anchor x="60.0" y="1610.0" name="top"/>
+  <anchor x="-60" y="1037" name="_top"/>
+  <anchor x="60" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="-143.4" y="1285.4" type="curve"/>
+      <point x="-143.4" y="1285.4" type="curve" smooth="yes"/>
       <point x="-136.4" y="1340.6"/>
-      <point x="-174.0" y="1386.4"/>
-      <point x="-224.0" y="1386.4" type="curve" smooth="yes"/>
+      <point x="-174" y="1386.4"/>
+      <point x="-224" y="1386.4" type="curve" smooth="yes" name="n03"/>
       <point x="-272.4" y="1386.4"/>
       <point x="-319.8" y="1340.6"/>
       <point x="-326.8" y="1285.4" type="curve" smooth="yes"/>
       <point x="-332.8" y="1232.2"/>
       <point x="-296.6" y="1188.2"/>
-      <point x="-248.2" y="1188.2" type="curve" smooth="yes"/>
+      <point x="-248.2" y="1188.2" type="curve" smooth="yes" name="n09"/>
       <point x="-198.2" y="1188.2"/>
       <point x="-149.4" y="1232.2"/>
     </contour>
@@ -34,23 +33,34 @@
       <point x="321.6" y="1232.2"/>
     </contour>
     <contour>
-      <point x="-3.8000000000000043" y="1153.0" type="line"/>
-      <point x="131.6" y="1436.0" type="line"/>
+      <point x="-3.8" y="1153" type="line" name="n24"/>
+      <point x="131.6" y="1436" type="line"/>
       <point x="149.2" y="1476.8"/>
-      <point x="138.4" y="1503.8"/>
-      <point x="104.0" y="1503.8" type="curve" smooth="yes"/>
+      <point x="138.4" y="1503.8" name="n27"/>
+      <point x="104" y="1503.8" type="curve" smooth="yes"/>
       <point x="76.2" y="1503.8"/>
-      <point x="-7.3999999999999915" y="1503.8"/>
-      <point x="-7.3999999999999915" y="1503.8" type="curve"/>
-      <point x="-110.0" y="1153.0" type="line"/>
+      <point x="-7.4" y="1503.8"/>
+      <point x="-7.4" y="1503.8" type="curve"/>
+      <point x="-7.4" y="1503.8"/>
+      <point x="-110" y="1153"/>
+      <point x="-110" y="1153" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="176" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1174" width="-21" />
+      <hstem pos="1188.2" width="198.2" />
+      <hstem pos="1503.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

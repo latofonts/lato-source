@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nhookleft" format="2">
   <advance width="1009"/>
   <unicode hex="0272"/>
-  <guideline x="503"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="268" y="1120" name="top"/>
   <anchor x="391" y="-421" name="bottom"/>
   <outline>
@@ -42,7 +40,9 @@
     </contour>
     <contour>
       <point x="123" y="0" type="line"/>
-      <point x="101" y="0" type="line"/>
+      <point x="123" y="0"/>
+      <point x="101" y="0"/>
+      <point x="101" y="0" type="curve"/>
       <point x="86" y="-116" type="line" smooth="yes"/>
       <point x="68" y="-259"/>
       <point x="20" y="-358"/>
@@ -62,12 +62,23 @@
       <point x="108" y="-116" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="90" x="503" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=n</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=n</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-376" width="40" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="984" width="-20" />
+      <hstem pos="974" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

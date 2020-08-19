@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="te-cy" format="2">
-  <advance width="982.4"/>
+  <advance width="982"/>
   <unicode hex="0442"/>
-  <anchor x="491.2" y="1120.0" name="top"/>
-  <anchor x="491.2" y="-70.0" name="bottom"/>
+  <anchor x="491.2" y="-70" name="bottom"/>
+  <anchor x="491.2" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="464.9" y="986.0" type="line"/>
-      <point x="464.9" y="0.0" type="line"/>
-      <point x="517.5" y="0.0" type="line"/>
-      <point x="517.5" y="986.0" type="line"/>
+      <point x="464.9" y="986" type="line" name="n00"/>
+      <point x="464.9" y="0" type="line" name="n01"/>
+      <point x="517.5" y="0" type="line"/>
+      <point x="517.5" y="986" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="34.4" y="944.8" type="line"/>
-      <point x="948.0" y="944.8" type="line"/>
-      <point x="948.0" y="986.0" type="line"/>
-      <point x="34.4" y="986.0" type="line"/>
+      <point x="34.4" y="944.8" type="line" name="n04"/>
+      <point x="948" y="944.8" type="line"/>
+      <point x="948" y="986" type="line"/>
+      <point x="34.4" y="986" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="944.8" width="41.2" />
+      <vstem pos="464.9" width="52.6" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

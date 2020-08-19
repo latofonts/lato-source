@@ -1,28 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chedescender-cy" format="2">
-  <advance width="1449.8"/>
+  <advance width="1450"/>
   <unicode hex="04B6"/>
   <anchor x="643.48" y="1518.62" name="Top"/>
+  <anchor x="1055.68" y="-70" name="bottom"/>
   <anchor x="643.48" y="1518.62" name="top"/>
-  <anchor x="1055.68" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Che-cy"/>
     <contour>
-      <point x="1151.28" y="0.0" type="line"/>
-      <point x="1151.28" y="-343.62" type="line"/>
+      <point x="1151.28" y="0" type="line"/>
+      <point x="1151.28" y="-343.62" type="line" name="n01"/>
       <point x="1312.82" y="-343.62" type="line" smooth="yes"/>
       <point x="1362.72" y="-343.62"/>
       <point x="1397.92" y="-312.32"/>
-      <point x="1397.92" y="-266.32" type="curve"/>
-      <point x="1397.92" y="209.20000000000002" type="line"/>
-      <point x="1190.92" y="209.20000000000002" type="line"/>
-      <point x="1190.92" y="0.0" type="line"/>
+      <point x="1397.92" y="-266.32" type="curve" smooth="yes" name="n05"/>
+      <point x="1397.92" y="209.2" type="line"/>
+      <point x="1190.92" y="209.2" type="line" name="n07"/>
+      <point x="1190.92" y="0" type="line" name="n08"/>
     </contour>
-    <component base="Che-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-322.62" width="-21" />
+      <hstem pos="0" width="209.2" />
+      <vstem pos="1151.28" width="246.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

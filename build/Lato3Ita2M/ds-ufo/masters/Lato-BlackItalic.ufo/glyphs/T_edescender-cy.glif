@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tedescender-cy" format="2">
   <advance width="1142"/>
   <unicode hex="04AC"/>
-  <guideline x="552" y="0" angle="82.9991"/>
   <anchor x="675" y="1525" name="Top"/>
   <anchor x="675" y="1525" name="top"/>
   <anchor x="480" y="-70" name="bottom"/>
   <anchor x="614" y="728" name="Slash"/>
   <outline>
+    <component base="T"/>
     <contour>
       <point x="523" y="0" type="line"/>
       <point x="481" y="-340" type="line"/>
@@ -19,12 +19,19 @@
       <point x="675" y="252" type="line"/>
       <point x="644" y="0" type="line"/>
     </contour>
-    <component base="T"/>
   </outline>
+  <guideline angle="82.9991" x="552" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-319" width="-21" />
+      <hstem pos="0" width="252" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

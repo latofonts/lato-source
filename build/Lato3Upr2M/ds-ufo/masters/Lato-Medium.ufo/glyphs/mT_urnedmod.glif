@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mTurnedmod" format="2">
-  <advance width="893.4"/>
+  <advance width="893"/>
   <unicode hex="1D5A"/>
-  <anchor x="840.4" y="-70.0" name="bottom"/>
-  <anchor x="859.2" y="1120.0" name="top"/>
+  <anchor x="840.4" y="-70" name="bottom"/>
+  <anchor x="859.2" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="675.6" y="1436.0" type="line"/>
-      <point x="675.6" y="1005.0" type="line"/>
+      <point x="675.6" y="1436" type="line" name="n00"/>
+      <point x="675.6" y="1005" type="line"/>
       <point x="680.4" y="997.2" type="line"/>
-      <point x="694.8" y="939.8" type="line"/>
-      <point x="700.0" y="923.2"/>
-      <point x="711.4" y="915.2"/>
+      <point x="694.8" y="939.8" type="line" name="n03"/>
+      <point x="700" y="923.2"/>
+      <point x="711.4" y="915.2" name="n05"/>
       <point x="728.8" y="915.2" type="curve" smooth="yes"/>
-      <point x="813.8" y="915.2" type="line"/>
-      <point x="813.8" y="1436.0" type="line"/>
+      <point x="813.8" y="915.2" type="line" name="n07"/>
+      <point x="813.8" y="1436" type="line"/>
     </contour>
     <contour>
-      <point x="374.4" y="1436.0" type="line"/>
-      <point x="374.4" y="1104.8" type="line"/>
+      <point x="374.4" y="1436" type="line"/>
+      <point x="374.4" y="1104.8" type="line" name="n10"/>
       <point x="512.2" y="1104.8" type="line"/>
-      <point x="512.2" y="1436.0" type="line"/>
+      <point x="512.2" y="1436" type="line"/>
     </contour>
     <contour>
       <point x="405.8" y="1104.8" type="line"/>
       <point x="405.8" y="994.2"/>
-      <point x="450.0" y="907.2"/>
+      <point x="450" y="907.2"/>
       <point x="548.8" y="907.2" type="curve" smooth="yes"/>
       <point x="628.2" y="907.2"/>
       <point x="672.6" y="954.2"/>
       <point x="718.2" y="1009.2" type="curve"/>
-      <point x="702.0" y="1091.4" type="line"/>
-      <point x="672.0" y="1046.4"/>
+      <point x="702" y="1091.4" type="line"/>
+      <point x="672" y="1046.4"/>
       <point x="633.8" y="1015.8"/>
       <point x="589.4" y="1015.8" type="curve" smooth="yes"/>
       <point x="539.4" y="1015.8"/>
@@ -39,32 +39,43 @@
       <point x="512.2" y="1104.8" type="curve"/>
     </contour>
     <contour>
-      <point x="74.2" y="1436.0" type="line"/>
+      <point x="74.2" y="1436" type="line" name="n27"/>
       <point x="74.2" y="1104.8" type="line"/>
       <point x="211.8" y="1104.8" type="line"/>
-      <point x="211.8" y="1436.0" type="line"/>
+      <point x="211.8" y="1436" type="line" name="n30"/>
     </contour>
     <contour>
       <point x="74.2" y="1104.8" type="line"/>
       <point x="74.2" y="979.4"/>
-      <point x="139.0" y="907.2"/>
-      <point x="255.8" y="907.2" type="curve" smooth="yes"/>
+      <point x="139" y="907.2"/>
+      <point x="255.8" y="907.2" type="curve" smooth="yes" name="n34"/>
       <point x="347.8" y="907.2"/>
       <point x="444.2" y="960.4"/>
-      <point x="444.2" y="1104.8" type="curve"/>
+      <point x="444.2" y="1104.8" type="curve" name="n37"/>
       <point x="374.4" y="1104.8" type="line"/>
       <point x="374.4" y="1047.2"/>
-      <point x="338.0" y="1015.8"/>
-      <point x="290.6" y="1015.8" type="curve" smooth="yes"/>
+      <point x="338" y="1015.8"/>
+      <point x="290.6" y="1015.8" type="curve" smooth="yes" name="n41"/>
       <point x="239.2" y="1015.8"/>
       <point x="211.8" y="1045.4"/>
       <point x="211.8" y="1104.8" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="915.2" width="-20" />
+      <hstem pos="907.2" width="108.6" />
+      <hstem pos="1436" width="-20" />
+      <vstem pos="74.2" width="137.6" />
+      <vstem pos="374.4" width="69.8" />
+      <vstem pos="694.8" width="119" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

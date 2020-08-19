@@ -1,36 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zigzagabovecomb" format="2">
   <unicode hex="035B"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1779.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1779" name="top"/>
   <outline>
     <contour>
-      <point x="98.356" y="1317.71" type="line"/>
+      <point x="98.356" y="1317.71" type="line" name="n00"/>
       <point x="-223.246" y="1317.71" type="line"/>
-      <point x="-100.61000000000001" y="1667.284" type="line"/>
-      <point x="6.9580000000000055" y="1667.284" type="line" smooth="yes"/>
-      <point x="38.27" y="1667.284"/>
-      <point x="46.596000000000004" y="1647.628"/>
-      <point x="36.604000000000006" y="1621.316" type="curve"/>
-      <point x="-73.70599999999999" y="1330.036" type="line"/>
-      <point x="-106.01599999999999" y="1449.598" type="line"/>
-      <point x="222.246" y="1449.598" type="line"/>
-      <point x="99.61000000000001" y="1100.024" type="line"/>
-      <point x="-8.292000000000002" y="1100.024" type="line" smooth="yes"/>
-      <point x="-38.268" y="1100.024"/>
-      <point x="-47.93000000000001" y="1118.678"/>
-      <point x="-37.604000000000006" y="1145.992" type="curve" smooth="yes"/>
-      <point x="72.70599999999999" y="1436.606" type="line"/>
+      <point x="-100.61" y="1667.28" type="line" name="n02"/>
+      <point x="6.958" y="1667.28" type="line" smooth="yes"/>
+      <point x="38.27" y="1667.28"/>
+      <point x="46.596" y="1647.63"/>
+      <point x="36.604" y="1621.32" type="curve" smooth="yes"/>
+      <point x="-73.706" y="1330.04" type="line"/>
+      <point x="-106.016" y="1449.6" type="line"/>
+      <point x="222.246" y="1449.6" type="line" name="n09"/>
+      <point x="99.61" y="1100.02" type="line" name="n10"/>
+      <point x="-8.292" y="1100.02" type="line" smooth="yes"/>
+      <point x="-38.268" y="1100.02"/>
+      <point x="-47.93" y="1118.68"/>
+      <point x="-37.604" y="1145.99" type="curve" smooth="yes"/>
+      <point x="72.706" y="1436.61" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_zigzag=zigzagcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_zigzag=zigzagcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1121.024" width="-21" />
+      <hstem pos="1317.71" width="131.888" />
+      <hstem pos="1667.284" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

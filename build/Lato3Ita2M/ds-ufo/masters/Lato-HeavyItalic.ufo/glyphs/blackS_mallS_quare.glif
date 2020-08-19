@@ -1,20 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackSmallSquare" format="2">
-  <advance width="846.8"/>
+  <advance width="847"/>
   <unicode hex="25AA"/>
-  <guideline x="423.4" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="109.04" y="342.8" type="line"/>
+      <point x="109.04" y="342.8" type="line" name="n00"/>
       <point x="736.64" y="342.8" type="line"/>
       <point x="736.64" y="969.52" type="line"/>
-      <point x="109.04" y="969.52" type="line"/>
+      <point x="109.04" y="969.52" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="375" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="342.8" width="626.72" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

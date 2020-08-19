@@ -1,41 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowleftrightbelowcomb" format="2">
   <unicode hex="034D"/>
-  <guideline x="34.42" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="-569.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-569" name="bottom"/>
   <outline>
     <contour>
-      <point x="-334.26" y="-390.0" type="line"/>
-      <point x="309.78" y="-390.0" type="line"/>
+      <point x="-334.26" y="-390" type="line" name="n00"/>
+      <point x="309.78" y="-390" type="line"/>
       <point x="330.5" y="-206.2" type="line"/>
-      <point x="-313.54" y="-206.2" type="line"/>
+      <point x="-313.54" y="-206.2" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="218.36" y="-93.07999999999998" type="line"/>
-      <point x="172.06" y="-499.22" type="line"/>
+      <point x="218.36" y="-93.08" type="line" name="n04"/>
+      <point x="172.06" y="-499.22" type="line" name="n05"/>
       <point x="468.74" y="-348.32" type="line" smooth="yes"/>
       <point x="516.62" y="-324.38"/>
       <point x="523.08" y="-273.82"/>
-      <point x="480.1" y="-248.32" type="curve"/>
+      <point x="480.1" y="-248.32" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="-218.36" y="-499.22" type="line"/>
-      <point x="-173.06" y="-93.07999999999998" type="line"/>
-      <point x="-469.74" y="-243.98" type="line"/>
+      <point x="-173.06" y="-93.08" type="line"/>
+      <point x="-469.74" y="-243.98" type="line" smooth="yes"/>
       <point x="-516.62" y="-267.92"/>
       <point x="-522.3" y="-318.48"/>
       <point x="-481.1" y="-343.98" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="43" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowleftrightbelow=arrowleftrightbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowleftrightbelow=arrowleftrightbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-478.22" width="-21" />
+      <hstem pos="-390" width="183.8" />
+      <hstem pos="-93.08" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

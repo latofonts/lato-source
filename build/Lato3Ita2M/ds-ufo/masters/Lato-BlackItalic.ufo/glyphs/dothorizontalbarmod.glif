@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dothorizontalbarmod" format="2">
   <advance width="736"/>
   <unicode hex="A719"/>
-  <guideline x="368"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="383" y="1120" name="_top"/>
   <anchor x="346" y="-70" name="bottom"/>
   <outline>
@@ -28,10 +26,19 @@
       <point x="752" y="1117" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="368" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1117" width="198" />
+      <hstem pos="1117" width="621" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

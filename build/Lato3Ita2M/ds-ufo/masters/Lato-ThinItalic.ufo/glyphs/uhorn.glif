@@ -1,71 +1,79 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="2">
-  <advance width="1106.4"/>
+  <advance width="1106"/>
   <unicode hex="01B0"/>
-  <guideline x="547.7" y="0.0" angle="82.9991"/>
+  <anchor x="414.2" y="-70" name="bottom"/>
   <anchor x="568.6" y="1124.8" name="top"/>
-  <anchor x="414.2" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="856.6" y="806.3" type="line"/>
       <point x="1010.8" y="806.3"/>
-      <point x="1156.0" y="884.4"/>
-      <point x="1156.0" y="1080.0" type="curve" smooth="yes"/>
-      <point x="1156.0" y="1094.1"/>
+      <point x="1156" y="884.4"/>
+      <point x="1156" y="1080" type="curve" smooth="yes"/>
+      <point x="1156" y="1094.1"/>
       <point x="1154.1" y="1118.5"/>
-      <point x="1151.3" y="1134.1" type="curve"/>
+      <point x="1151.3" y="1134.1" type="curve" name="n06"/>
       <point x="1113.7" y="1134.1" type="line" smooth="yes"/>
       <point x="1081.2" y="1134.1"/>
       <point x="1060.3" y="1115.2"/>
       <point x="1060.3" y="1081.2" type="curve" smooth="yes"/>
       <point x="1060.3" y="1044.6"/>
-      <point x="1095.2" y="1042.0"/>
+      <point x="1095.2" y="1042"/>
       <point x="1095.2" y="1002.7" type="curve" smooth="yes"/>
       <point x="1095.2" y="900.5"/>
       <point x="985.4" y="833.7"/>
-      <point x="860.0" y="833.7" type="curve"/>
+      <point x="860" y="833.7" type="curve"/>
     </contour>
     <contour>
-      <point x="848.5" y="986.0" type="line"/>
+      <point x="848.5" y="986" type="line" name="n17"/>
       <point x="778.1" y="398.2" type="line"/>
       <point x="778.9" y="380.2" type="line"/>
-      <point x="737.5" y="23.200000000000003" type="line"/>
+      <point x="737.5" y="23.2" type="line"/>
       <point x="737.5" y="10.6"/>
-      <point x="743.1" y="0.0"/>
-      <point x="759.3" y="0.0" type="curve" smooth="yes"/>
-      <point x="780.5" y="0.0" type="line"/>
-      <point x="899.3" y="986.0" type="line"/>
+      <point x="743.1" y="0" name="n22"/>
+      <point x="759.3" y="0" type="curve" smooth="yes"/>
+      <point x="780.5" y="0" type="line"/>
+      <point x="899.3" y="986" type="line"/>
     </contour>
     <contour>
-      <point x="201.1" y="986.0" type="line"/>
+      <point x="201.1" y="986" type="line"/>
       <point x="126.7" y="358.4" type="line"/>
       <point x="177.5" y="358.4" type="line"/>
-      <point x="251.9" y="986.0" type="line"/>
+      <point x="251.9" y="986" type="line"/>
     </contour>
     <contour>
       <point x="126.7" y="358.4" type="line"/>
       <point x="98.3" y="124.2"/>
       <point x="164.3" y="-12.4"/>
-      <point x="334.5" y="-12.4" type="curve" smooth="yes"/>
+      <point x="334.5" y="-12.4" type="curve" smooth="yes" name="n33"/>
       <point x="517.1" y="-12.4"/>
       <point x="707.7" y="166.8"/>
       <point x="810.7" y="447.4" type="curve"/>
       <point x="796.9" y="483.8" type="line"/>
       <point x="690.9" y="208.4"/>
-      <point x="512.9" y="31.200000000000003"/>
-      <point x="348.3" y="31.200000000000003" type="curve" smooth="yes"/>
-      <point x="201.9" y="31.200000000000003"/>
+      <point x="512.9" y="31.2"/>
+      <point x="348.3" y="31.2" type="curve" smooth="yes" name="n40"/>
+      <point x="201.9" y="31.2"/>
       <point x="152.7" y="151.4"/>
       <point x="177.5" y="358.4" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="537" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>I made it like upright 
-u-balck simillar to u-horn.</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>I made it like upright u-balck simillar to u-horn.</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-12.4" width="43.6" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="986" width="-20" />
+      <hstem pos="1134.1" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

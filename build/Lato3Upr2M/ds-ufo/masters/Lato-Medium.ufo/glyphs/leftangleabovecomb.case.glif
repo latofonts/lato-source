@@ -1,29 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftangleabovecomb.case" format="2">
-  <anchor x="0.0" y="2150.0" name="top"/>
-  <anchor x="0.0" y="1457.0" name="_Top"/>
+  <anchor x="0" y="1457" name="_Top"/>
+  <anchor x="0" y="2150" name="top"/>
   <outline>
     <contour>
-      <point x="97.8" y="1540.0" type="line"/>
-      <point x="237.0" y="1540.0" type="line"/>
-      <point x="237.0" y="1992.0" type="line"/>
-      <point x="97.8" y="1992.0" type="line"/>
+      <point x="97.8" y="1540" type="line" name="n00"/>
+      <point x="237" y="1540" type="line" name="n01"/>
+      <point x="237" y="1992" type="line"/>
+      <point x="97.8" y="1992" type="line"/>
     </contour>
     <contour>
-      <point x="-237.0" y="1866.0" type="line"/>
-      <point x="237.0" y="1866.0" type="line"/>
-      <point x="237.0" y="1992.0" type="line"/>
-      <point x="-237.0" y="1992.0" type="line"/>
+      <point x="-237" y="1866" type="line" name="n04"/>
+      <point x="237" y="1866" type="line"/>
+      <point x="237" y="1992" type="line"/>
+      <point x="-237" y="1992" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_angleleft=leftangleabovecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_angleleft=leftangleabovecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1561" width="-21" />
+      <hstem pos="1866" width="126" />
+      <vstem pos="97.8" width="139.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

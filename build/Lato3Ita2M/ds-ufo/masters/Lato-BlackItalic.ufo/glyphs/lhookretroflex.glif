@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lhookretroflex" format="2">
   <advance width="494"/>
   <unicode hex="026D"/>
-  <guideline x="255" y="0" angle="82.9991"/>
   <anchor x="324" y="1525" name="top"/>
   <anchor x="345" y="1525" name="Top"/>
   <anchor x="123" y="-421" name="bottom"/>
@@ -32,13 +31,24 @@
       <point x="310" y="-84"/>
       <point x="324" y="29" type="curve"/>
       <point x="336" y="125" type="line"/>
-      <point x="37" y="125" type="line"/>
+      <point x="336" y="125"/>
+      <point x="37" y="125"/>
+      <point x="37" y="125" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="255" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-358" width="223" />
+      <hstem pos="99" width="-21" />
+      <hstem pos="1499" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

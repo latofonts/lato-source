@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_tcaron" format="2">
-  <advance width="1308.62"/>
-  <guideline x="657.62" y="0.0" angle="82.9991"/>
+  <advance width="1309"/>
   <outline>
+    <component base="f_t"/>
     <contour>
-      <point x="1219.9" y="1473.32" type="line"/>
-      <point x="1126.78" y="1149.04" type="line"/>
+      <point x="1219.9" y="1473.32" type="line" name="n00"/>
+      <point x="1126.78" y="1149.04" type="line" name="n01"/>
       <point x="1170.58" y="1149.04" type="line" smooth="yes"/>
       <point x="1202.18" y="1149.04"/>
       <point x="1220.38" y="1155.04"/>
@@ -17,12 +17,19 @@
       <point x="1340.5" y="1473.32"/>
       <point x="1317.38" y="1473.32" type="curve" smooth="yes"/>
     </contour>
-    <component base="f_t"/>
   </outline>
+  <guideline angle="82.9991" x="575" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1170.04" width="-21" />
+      <hstem pos="1473.32" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

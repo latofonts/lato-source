@@ -1,19 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus.dnom" format="2">
-  <advance width="668.0"/>
-  <guideline x="314.9" y="0.0" angle="82.9991"/>
+  <advance width="668"/>
   <outline>
     <contour>
-      <point x="93.4" y="321.6" type="line"/>
-      <point x="507.0" y="321.6" type="line"/>
+      <point x="93.4" y="321.6" type="line" name="n00"/>
+      <point x="507" y="321.6" type="line"/>
       <point x="510.6" y="353.4" type="line"/>
-      <point x="97.2" y="353.4" type="line"/>
+      <point x="97.2" y="353.4" type="line" name="n03"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="315" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="321.6" width="31.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

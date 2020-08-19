@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qhook" format="2">
   <advance width="1065"/>
   <unicode hex="02A0"/>
-  <guideline x="541" y="0" angle="82.9991"/>
   <anchor x="963" y="1525" name="Top"/>
   <anchor x="963" y="1525" name="top"/>
   <anchor x="424" y="-421" name="bottom"/>
@@ -46,7 +45,9 @@
     </contour>
     <contour>
       <point x="714" y="1010" type="line"/>
-      <point x="1016" y="1010" type="line"/>
+      <point x="714" y="1010"/>
+      <point x="1016" y="1010"/>
+      <point x="1016" y="1010" type="curve"/>
       <point x="1033" y="1146" type="line" smooth="yes"/>
       <point x="1044" y="1235"/>
       <point x="1065" y="1263"/>
@@ -66,10 +67,20 @@
       <point x="729" y="1122" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="541" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-307" width="-21" />
+      <hstem pos="-16" width="256" />
+      <hstem pos="834" width="222" />
+      <hstem pos="1254" width="221" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

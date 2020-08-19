@@ -1,24 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colontriangularhalfmod" format="2">
-  <advance width="609.5"/>
+  <advance width="610"/>
   <unicode hex="02D1"/>
-  <guideline x="304.7" y="0.0" angle="82.9991"/>
-  <anchor x="330.2" y="1120.0" name="_top"/>
-  <anchor x="293.5" y="-70.0" name="bottom"/>
+  <anchor x="330.2" y="1120" name="_top"/>
+  <anchor x="293.5" y="-70" name="bottom"/>
   <outline>
     <contour>
-      <point x="464.4" y="626.0" type="line"/>
-      <point x="285.7" y="626.0" type="line"/>
+      <point x="464.4" y="626" type="line" name="n00"/>
+      <point x="285.7" y="626" type="line"/>
       <point x="340.8" y="465.8" type="line" smooth="yes"/>
       <point x="346.5" y="449.1"/>
-      <point x="360.3" y="449.0"/>
-      <point x="371.0" y="465.8" type="curve"/>
+      <point x="360.3" y="449"/>
+      <point x="371" y="465.8" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="299" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="626" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

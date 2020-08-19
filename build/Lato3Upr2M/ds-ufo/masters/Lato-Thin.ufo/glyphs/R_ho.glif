@@ -1,42 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rho" format="2">
-  <advance width="1133.4"/>
+  <advance width="1133"/>
   <unicode hex="03A1"/>
-  <anchor x="556.5" y="1498.9" name="Top"/>
   <anchor x="252.7" y="986.1" name="Bar"/>
-  <anchor x="765.0" y="646.2" name="tick"/>
+  <anchor x="556.5" y="1498.9" name="Top"/>
+  <anchor x="250.6" y="-70" name="bottom"/>
+  <anchor x="765" y="646.2" name="tick"/>
   <anchor x="556.5" y="1498.9" name="top"/>
-  <anchor x="250.6" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="255.1" y="588.2" type="line"/>
-      <point x="558.7" y="588.2" type="line" smooth="yes"/>
+      <point x="558.7" y="588.2" type="line" smooth="yes" name="n01"/>
       <point x="850.9" y="588.2"/>
       <point x="1043.9" y="759.8"/>
-      <point x="1043.9" y="998.0" type="curve" smooth="yes"/>
-      <point x="1043.9" y="1268.0"/>
-      <point x="875.1" y="1406.0"/>
-      <point x="558.7" y="1406.0" type="curve" smooth="yes"/>
-      <point x="222.9" y="1406.0" type="line"/>
-      <point x="222.9" y="0.0" type="line"/>
-      <point x="278.3" y="0.0" type="line"/>
+      <point x="1043.9" y="998" type="curve" smooth="yes" name="n04"/>
+      <point x="1043.9" y="1268"/>
+      <point x="875.1" y="1406"/>
+      <point x="558.7" y="1406" type="curve" smooth="yes" name="n07"/>
+      <point x="222.9" y="1406" type="line"/>
+      <point x="222.9" y="0" type="line" name="n09"/>
+      <point x="278.3" y="0" type="line" name="n10"/>
       <point x="278.3" y="1361.6" type="line"/>
-      <point x="558.7" y="1361.6" type="line" smooth="yes"/>
+      <point x="558.7" y="1361.6" type="line" smooth="yes" name="n12"/>
       <point x="843.9" y="1361.6"/>
-      <point x="988.5" y="1234.0"/>
-      <point x="988.5" y="998.0" type="curve" smooth="yes"/>
+      <point x="988.5" y="1234"/>
+      <point x="988.5" y="998" type="curve" smooth="yes" name="n15"/>
       <point x="988.5" y="792.4"/>
       <point x="822.9" y="632.8"/>
-      <point x="558.7" y="632.8" type="curve" smooth="yes"/>
+      <point x="558.7" y="632.8" type="curve" smooth="yes" name="n18"/>
       <point x="259.7" y="632.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>P=Rho</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>P=Rho</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="588.2" width="44.6" />
+      <hstem pos="1361.6" width="44.4" />
+      <vstem pos="222.9" width="55.4" />
+      <vstem pos="988.5" width="55.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

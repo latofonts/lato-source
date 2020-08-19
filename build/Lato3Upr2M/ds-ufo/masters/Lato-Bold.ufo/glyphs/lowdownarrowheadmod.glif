@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lowdownarrowheadmod" format="2">
-  <advance width="792.4"/>
+  <advance width="792"/>
   <unicode hex="02EF"/>
-  <anchor x="396.2" y="1120.0" name="_top"/>
+  <anchor x="396.2" y="1120" name="_top"/>
   <outline>
     <contour>
       <point x="304.42" y="-313.76" type="line"/>
-      <point x="396.2" y="-413.56" type="line"/>
+      <point x="396.2" y="-413.56" type="line" name="n01"/>
       <point x="638.26" y="-171.5" type="line"/>
-      <point x="538.46" y="-71.7" type="line"/>
+      <point x="538.46" y="-71.7" type="line" name="n03"/>
     </contour>
     <contour>
       <point x="253.94" y="-71.7" type="line"/>
@@ -18,9 +18,16 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-392.56" width="-21" />
+      <hstem pos="-71.7" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

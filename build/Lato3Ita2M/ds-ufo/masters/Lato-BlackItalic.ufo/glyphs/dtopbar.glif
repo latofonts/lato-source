@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dtopbar" format="2">
   <advance width="1099"/>
   <unicode hex="018C"/>
-  <guideline x="551" y="0" angle="82.9991"/>
   <anchor x="708" y="1525" name="Top"/>
   <anchor x="708" y="1525" name="top"/>
   <anchor x="488" y="-70" name="bottom"/>
@@ -53,12 +52,22 @@
       <point x="752" y="740" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="551" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=d</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=d</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="246" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="818" width="238" />
+      <hstem pos="1285" width="214" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

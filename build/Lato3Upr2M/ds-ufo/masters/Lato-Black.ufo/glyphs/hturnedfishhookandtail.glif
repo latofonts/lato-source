@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hturnedfishhookandtail" format="2">
   <advance width="1140"/>
   <unicode hex="02AF"/>
@@ -71,15 +71,28 @@
       <point x="1035" y="-111"/>
       <point x="1035" y="-25" type="curve" smooth="yes"/>
       <point x="1035" y="89" type="line"/>
-      <point x="725" y="89" type="line"/>
+      <point x="1035" y="89"/>
+      <point x="725" y="89"/>
+      <point x="725" y="89" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=u</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=u</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-357" width="221" />
+      <hstem pos="-19" width="244" />
+      <hstem pos="1040" width="-20" />
+      <hstem pos="1256" width="221" />
+      <vstem pos="95" width="310" />
+      <vstem pos="725" width="310" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

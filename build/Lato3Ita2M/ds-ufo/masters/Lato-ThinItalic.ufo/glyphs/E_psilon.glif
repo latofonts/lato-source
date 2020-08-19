@@ -1,45 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilon" format="2">
-  <advance width="1080.0"/>
+  <advance width="1080"/>
   <unicode hex="0395"/>
-  <guideline x="548.6" y="0.0" angle="82.9991"/>
-  <anchor x="710.0" y="1498.9" name="Top"/>
-  <anchor x="541.0" y="-70.0" name="bottom"/>
-  <anchor x="10.899999999999999" y="1120.0" name="onRight"/>
   <anchor x="573.6" y="702.8" name="Slash"/>
-  <anchor x="710.0" y="1498.9" name="top"/>
+  <anchor x="710" y="1498.9" name="Top"/>
+  <anchor x="541" y="-70" name="bottom"/>
+  <anchor x="10.9" y="1120" name="onRight"/>
+  <anchor x="710" y="1498.9" name="top"/>
   <outline>
     <contour>
-      <point x="364.3" y="1406.0" type="line"/>
-      <point x="309.9" y="1406.0" type="line"/>
-      <point x="137.1" y="0.0" type="line"/>
-      <point x="191.5" y="0.0" type="line"/>
+      <point x="364.3" y="1406" type="line"/>
+      <point x="309.9" y="1406" type="line"/>
+      <point x="137.1" y="0" type="line"/>
+      <point x="191.5" y="0" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="272.9" y="735.8" type="line"/>
-      <point x="266.1" y="690.8" type="line"/>
+      <point x="272.9" y="735.8" type="line" name="n04"/>
+      <point x="266.1" y="690.8" type="line" name="n05"/>
       <point x="873.7" y="690.8" type="line"/>
       <point x="880.5" y="735.8" type="line"/>
     </contour>
     <contour>
-      <point x="353.9" y="1406.0" type="line"/>
-      <point x="348.9" y="1360.0" type="line"/>
-      <point x="1068.5" y="1360.0" type="line"/>
-      <point x="1075.3" y="1406.0" type="line"/>
+      <point x="353.9" y="1406" type="line" name="n08"/>
+      <point x="348.9" y="1360" type="line" name="n09"/>
+      <point x="1068.5" y="1360" type="line"/>
+      <point x="1075.3" y="1406" type="line"/>
     </contour>
     <contour>
-      <point x="188.1" y="46.0" type="line"/>
-      <point x="181.3" y="0.0" type="line"/>
-      <point x="902.7" y="0.0" type="line"/>
-      <point x="909.5" y="46.0" type="line"/>
+      <point x="188.1" y="46" type="line" name="n12"/>
+      <point x="181.3" y="0" type="line"/>
+      <point x="902.7" y="0" type="line"/>
+      <point x="909.5" y="46" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="552" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>E=Epsilon</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>E=Epsilon</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="46" />
+      <hstem pos="690.8" width="45" />
+      <hstem pos="1360" width="46" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

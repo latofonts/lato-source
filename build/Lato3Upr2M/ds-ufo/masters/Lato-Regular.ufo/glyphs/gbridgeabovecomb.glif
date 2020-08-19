@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gbridgeabovecomb" format="2">
   <unicode hex="0346"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="0.0" y="1590.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1590" name="top"/>
   <outline>
     <contour>
-      <point x="211.92" y="1164.2" type="line"/>
-      <point x="333.6" y="1164.2" type="line"/>
+      <point x="211.92" y="1164.2" type="line" name="n00"/>
+      <point x="333.6" y="1164.2" type="line" name="n01"/>
       <point x="333.6" y="1426.2" type="line"/>
       <point x="211.92" y="1426.2" type="line"/>
     </contour>
@@ -14,23 +14,30 @@
       <point x="-333.6" y="1321.8" type="line"/>
       <point x="333.6" y="1321.8" type="line"/>
       <point x="333.6" y="1426.2" type="line"/>
-      <point x="-333.6" y="1426.2" type="line"/>
+      <point x="-333.6" y="1426.2" type="line" name="n07"/>
     </contour>
     <contour>
       <point x="-333.6" y="1164.2" type="line"/>
       <point x="-211.92" y="1164.2" type="line"/>
-      <point x="-211.92" y="1426.2" type="line"/>
+      <point x="-211.92" y="1426.2" type="line" name="n10"/>
       <point x="-333.6" y="1426.2" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_bridgebelow=bridgeabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_bridgebelow=bridgeabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <vstem pos="-333.6" width="121.68" />
+      <vstem pos="211.92" width="121.68" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

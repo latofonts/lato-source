@@ -1,25 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="boxLightUpAndLeft" format="2">
-  <advance width="1500.0"/>
+  <advance width="1500"/>
   <unicode hex="2518"/>
   <outline>
     <contour>
-      <point x="717.5" y="1700.0" type="line"/>
+      <point x="717.5" y="1700" type="line" name="n00"/>
       <point x="717.5" y="567.5" type="line"/>
-      <point x="782.5" y="567.5" type="line"/>
-      <point x="782.5" y="1700.0" type="line"/>
+      <point x="782.5" y="567.5" type="line" name="n02"/>
+      <point x="782.5" y="1700" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="-50.0" y="567.5" type="line"/>
+      <point x="-50" y="567.5" type="line"/>
       <point x="782.5" y="567.5" type="line"/>
-      <point x="782.5" y="632.5" type="line"/>
-      <point x="-50.0" y="632.5" type="line"/>
+      <point x="782.5" y="632.5" type="line" name="n06"/>
+      <point x="-50" y="632.5" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="567.5" width="65" />
+      <hstem pos="1700" width="-20" />
+      <vstem pos="717.5" width="65" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

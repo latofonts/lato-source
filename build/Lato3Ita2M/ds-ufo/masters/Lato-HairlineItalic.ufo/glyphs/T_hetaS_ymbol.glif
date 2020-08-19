@@ -1,30 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ThetaSymbol" format="2">
   <advance width="1458"/>
   <unicode hex="03F4"/>
-  <guideline x="733" y="0" angle="82.9991"/>
   <anchor x="837" y="1496" name="Top"/>
   <anchor x="837" y="1496" name="top"/>
   <anchor x="645" y="-70" name="bottom"/>
   <anchor x="19" y="1120" name="onRight"/>
   <anchor x="742" y="700" name="Slash"/>
   <outline>
+    <component base="O" xOffset="1"/>
     <contour>
       <point x="137" y="709" type="line"/>
       <point x="1305" y="709" type="line"/>
       <point x="1308" y="731" type="line"/>
       <point x="140" y="731" type="line"/>
     </contour>
-    <component base="O" xOffset="1"/>
   </outline>
+  <guideline angle="82.9991" x="733" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Theta</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Fitacyr=Thetasymbol</string>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Theta</string>
+    <key>note</key>
+    <string>Fitacyr=Thetasymbol</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="709" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zmod" format="2">
   <advance width="491"/>
   <unicode hex="1DBB"/>
-  <guideline x="248" y="0" angle="82.9991"/>
   <anchor x="223" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -26,12 +25,20 @@
       <point x="540" y="1372" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="248" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>z.sups=zmod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>z.sups=zmod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="921" width="160" />
+      <hstem pos="1299" width="160" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

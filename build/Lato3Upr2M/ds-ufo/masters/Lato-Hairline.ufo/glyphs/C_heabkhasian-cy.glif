@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cheabkhasian-cy" format="2">
   <advance width="1616"/>
   <unicode hex="04BC"/>
@@ -61,13 +61,26 @@
       <point x="178" y="806"/>
       <point x="334" y="806" type="curve" smooth="yes"/>
       <point x="374" y="806" type="line"/>
-      <point x="374" y="828" type="line"/>
+      <point x="374" y="806"/>
+      <point x="374" y="828"/>
+      <point x="374" y="828" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-10" width="20" />
+      <hstem pos="806" width="22" />
+      <hstem pos="1398" width="20" />
+      <vstem pos="74" width="45" />
+      <vstem pos="357" width="24" />
+      <vstem pos="1468" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

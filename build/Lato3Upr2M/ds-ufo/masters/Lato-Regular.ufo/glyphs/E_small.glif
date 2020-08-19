@@ -1,40 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Esmall" format="2">
-  <advance width="856.36"/>
+  <advance width="856"/>
   <unicode hex="1D07"/>
   <anchor x="615.96" y="1511.66" name="Top"/>
-  <anchor x="637.18" y="-70.0" name="bottom"/>
-  <anchor x="411.68" y="1120.0" name="top"/>
+  <anchor x="637.18" y="-70" name="bottom"/>
+  <anchor x="411.68" y="1120" name="top"/>
   <outline>
     <contour>
-      <point x="313.84000000000003" y="1012.4" type="line"/>
+      <point x="313.84" y="1012.4" type="line" name="n00"/>
       <point x="141.34" y="1012.4" type="line"/>
-      <point x="141.34" y="0.0" type="line"/>
-      <point x="313.84000000000003" y="0.0" type="line"/>
+      <point x="141.34" y="0" type="line"/>
+      <point x="313.84" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="296.5" y="577.12" type="line"/>
-      <point x="296.5" y="443.18" type="line"/>
+      <point x="296.5" y="577.12" type="line" name="n04"/>
+      <point x="296.5" y="443.18" type="line" name="n05"/>
       <point x="680.4" y="443.18" type="line"/>
       <point x="680.4" y="577.12" type="line"/>
     </contour>
     <contour>
-      <point x="296.5" y="1012.4" type="line"/>
-      <point x="296.5" y="873.14" type="line"/>
+      <point x="296.5" y="1012.4" type="line" name="n08"/>
+      <point x="296.5" y="873.14" type="line" name="n09"/>
       <point x="775.12" y="873.14" type="line"/>
       <point x="775.12" y="1012.4" type="line"/>
     </contour>
     <contour>
-      <point x="296.5" y="138.72000000000003" type="line"/>
-      <point x="296.5" y="0.0" type="line"/>
-      <point x="775.12" y="0.0" type="line"/>
-      <point x="775.58" y="138.72000000000003" type="line"/>
+      <point x="296.5" y="138.72" type="line" name="n12"/>
+      <point x="296.5" y="0" type="line" name="n13"/>
+      <point x="775.12" y="0" type="line"/>
+      <point x="775.58" y="138.72" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="138.72" />
+      <hstem pos="443.18" width="133.94" />
+      <hstem pos="873.14" width="139.26" />
+      <vstem pos="296.5" width="17.34" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

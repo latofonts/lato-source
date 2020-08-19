@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="b" format="2">
   <advance width="1097"/>
   <unicode hex="0062"/>
-  <guideline x="545" y="0" angle="82.9991"/>
   <anchor x="464" y="-70" name="bottom"/>
   <anchor x="702" y="1120" name="top"/>
   <anchor x="609" y="222" name="hook"/>
@@ -49,12 +48,22 @@
       <point x="321" y="300" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="545" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="238" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="810" width="246" />
+      <hstem pos="1500" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeru-cy" format="2">
   <advance width="1352"/>
   <unicode hex="044B"/>
-  <guideline y="1406"/>
   <anchor x="711" y="1120" name="top"/>
   <anchor x="676" y="-70" name="bottom"/>
   <outline>
@@ -39,12 +38,24 @@
       <point x="1168" y="980" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="20" />
+      <hstem pos="524" width="20" />
+      <hstem pos="980" width="-20" />
+      <vstem pos="184" width="24" />
+      <vstem pos="817" width="23" />
+      <vstem pos="1144" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,25 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="unaspiratedmod" format="2">
-  <advance width="1000.0"/>
+  <advance width="1000"/>
   <unicode hex="02ED"/>
   <outline>
     <contour>
-      <point x="72.2" y="1561.68" type="line"/>
+      <point x="72.2" y="1561.68" type="line" name="n00"/>
       <point x="927.8" y="1561.68" type="line"/>
       <point x="927.8" y="1720.52" type="line"/>
-      <point x="72.2" y="1720.52" type="line"/>
+      <point x="72.2" y="1720.52" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="72.2" y="1248.76" type="line"/>
+      <point x="72.2" y="1248.76" type="line" name="n04"/>
       <point x="927.8" y="1248.76" type="line"/>
       <point x="927.8" y="1407.6" type="line"/>
-      <point x="72.2" y="1407.6" type="line"/>
+      <point x="72.2" y="1407.6" type="line" name="n07"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1248.76" width="158.84" />
+      <hstem pos="1561.68" width="158.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

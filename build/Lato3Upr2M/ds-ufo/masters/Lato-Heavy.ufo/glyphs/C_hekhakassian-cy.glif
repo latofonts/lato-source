@@ -1,28 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chekhakassian-cy" format="2">
-  <advance width="1364.24"/>
+  <advance width="1364"/>
   <unicode hex="04CB"/>
   <anchor x="650.08" y="1521.52" name="Top"/>
+  <anchor x="1061.28" y="-70" name="bottom"/>
   <anchor x="650.08" y="1521.52" name="top"/>
-  <anchor x="1061.28" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Che-cy"/>
     <contour>
-      <point x="910.24" y="0.0" type="line"/>
-      <point x="910.24" y="233.2" type="line"/>
+      <point x="910.24" y="0" type="line" name="n00"/>
+      <point x="910.24" y="233.2" type="line" name="n01"/>
       <point x="708.24" y="233.2" type="line"/>
-      <point x="708.24" y="-331.84" type="line"/>
+      <point x="708.24" y="-331.84" type="line" name="n03"/>
       <point x="889.08" y="-331.84" type="line" smooth="yes"/>
       <point x="944.48" y="-331.84"/>
-      <point x="983.6800000000001" y="-297.04"/>
-      <point x="983.6800000000001" y="-246.04000000000002" type="curve"/>
-      <point x="983.6800000000001" y="0.0" type="line"/>
+      <point x="983.68" y="-297.04"/>
+      <point x="983.68" y="-246.04" type="curve" smooth="yes" name="n07"/>
+      <point x="983.68" y="0" type="line"/>
     </contour>
-    <component base="Che-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-310.84" width="-21" />
+      <hstem pos="0" width="233.2" />
+      <vstem pos="708.24" width="275.44" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

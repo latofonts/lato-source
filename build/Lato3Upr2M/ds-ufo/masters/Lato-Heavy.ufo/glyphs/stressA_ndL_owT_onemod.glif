@@ -1,31 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stressAndLowTonemod" format="2">
-  <advance width="1376.32"/>
+  <advance width="1376"/>
   <unicode hex="A721"/>
   <outline>
     <contour>
-      <point x="143.6" y="131.96" type="line"/>
-      <point x="374.8" y="131.96" type="line"/>
-      <point x="374.8" y="651.56" type="line"/>
+      <point x="143.6" y="131.96" type="line" name="n00"/>
+      <point x="374.8" y="131.96" type="line" name="n01"/>
+      <point x="374.8" y="651.56" type="line" name="n02"/>
       <point x="143.6" y="651.56" type="line"/>
     </contour>
     <contour>
       <point x="143.6" y="108.12" type="line"/>
-      <point x="1255.96" y="-147.28" type="line"/>
-      <point x="1255.96" y="64.80000000000001" type="line"/>
+      <point x="1255.96" y="-147.28" type="line" name="n05"/>
+      <point x="1255.96" y="64.8" type="line"/>
       <point x="143.6" y="320.2" type="line"/>
     </contour>
     <contour>
-      <point x="596.96" y="76.16" type="line"/>
-      <point x="828.28" y="76.16" type="line"/>
+      <point x="596.96" y="76.16" type="line" name="n08"/>
+      <point x="828.28" y="76.16" type="line" name="n09"/>
       <point x="828.28" y="443.64" type="line"/>
       <point x="596.96" y="443.64" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-126.28" width="-21" />
+      <hstem pos="651.56" width="-20" />
+      <vstem pos="143.6" width="231.2" />
+      <vstem pos="596.96" width="231.32" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

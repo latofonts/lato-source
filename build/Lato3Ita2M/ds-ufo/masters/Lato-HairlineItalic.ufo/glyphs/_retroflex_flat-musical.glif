@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_retroflex_flat-musical" format="2">
-  <guideline x="0" y="0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="138" y="2" type="line"/>
+      <point x="138" y="2" type="curve"/>
       <point x="124" y="-115" type="line" smooth="yes"/>
       <point x="105" y="-271"/>
       <point x="136" y="-375"/>
@@ -22,12 +21,22 @@
       <point x="126" y="-258"/>
       <point x="144" y="-115" type="curve"/>
       <point x="158" y="2" type="line"/>
+      <point x="158" y="2"/>
+      <point x="138" y="2"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-375" width="18" />
+      <hstem pos="2" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

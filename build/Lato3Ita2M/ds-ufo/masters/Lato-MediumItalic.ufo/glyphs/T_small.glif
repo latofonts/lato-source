@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tsmall" format="2">
-  <advance width="777.4"/>
+  <advance width="777"/>
   <unicode hex="1D1B"/>
-  <guideline x="426.8" y="0.0" angle="82.9991"/>
   <anchor x="586.8" y="1513.4" name="Top"/>
-  <anchor x="393.4" y="-70.0" name="bottom"/>
-  <anchor x="446.0" y="1120.0" name="top"/>
+  <anchor x="393.4" y="-70" name="bottom"/>
+  <anchor x="446" y="1120" name="top"/>
   <outline>
     <contour>
       <point x="524.4" y="971.4" type="line"/>
-      <point x="343.0" y="971.4" type="line"/>
-      <point x="224.0" y="0.0" type="line"/>
-      <point x="405.4" y="0.0" type="line"/>
+      <point x="343" y="971.4" type="line"/>
+      <point x="224" y="0" type="line" name="n02"/>
+      <point x="405.4" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="69.2" y="1015.4" type="line"/>
-      <point x="51.0" y="864.2" type="line"/>
+      <point x="69.2" y="1015.4" type="line" name="n04"/>
+      <point x="51" y="864.2" type="line" name="n05"/>
       <point x="790.4" y="864.2" type="line"/>
       <point x="808.6" y="1015.4" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="416" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="864.2" width="151.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

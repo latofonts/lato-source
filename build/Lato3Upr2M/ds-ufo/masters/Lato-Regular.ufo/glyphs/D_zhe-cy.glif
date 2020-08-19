@@ -1,47 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dzhe-cy" format="2">
-  <advance width="1470.82"/>
+  <advance width="1471"/>
   <unicode hex="040F"/>
   <anchor x="735.68" y="1511.66" name="Top"/>
+  <anchor x="735.68" y="-421" name="bottom"/>
   <anchor x="735.68" y="1511.66" name="top"/>
-  <anchor x="735.68" y="-421.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="646.38" y="0.0" type="line"/>
-      <point x="646.38" y="-348.66" type="line"/>
+      <point x="646.38" y="0" type="line"/>
+      <point x="646.38" y="-348.66" type="line" name="n01"/>
       <point x="761.6" y="-348.66" type="line" smooth="yes"/>
       <point x="798.3" y="-348.66"/>
       <point x="823.9" y="-325.76"/>
-      <point x="823.9" y="-291.76" type="curve" smooth="yes"/>
-      <point x="823.9" y="151.60000000000002" type="line"/>
-      <point x="703.58" y="147.92000000000002" type="line"/>
-      <point x="702.2" y="93.08000000000001" type="line"/>
+      <point x="823.9" y="-291.76" type="curve" smooth="yes" name="n05"/>
+      <point x="823.9" y="151.6" type="line"/>
+      <point x="703.58" y="147.92" type="line"/>
+      <point x="702.2" y="93.08" type="line"/>
     </contour>
     <contour>
-      <point x="377.5" y="1432.4" type="line"/>
+      <point x="377.5" y="1432.4" type="line" name="n09"/>
       <point x="182.86" y="1432.4" type="line"/>
-      <point x="182.86" y="0.0" type="line"/>
-      <point x="377.5" y="0.0" type="line"/>
+      <point x="182.86" y="0" type="line"/>
+      <point x="377.5" y="0" type="line" name="n12"/>
     </contour>
     <contour>
-      <point x="356.54" y="151.60000000000002" type="line"/>
-      <point x="356.54" y="0.0" type="line"/>
-      <point x="1176.76" y="0.0" type="line"/>
-      <point x="1176.76" y="151.60000000000002" type="line"/>
+      <point x="356.54" y="151.6" type="line" name="n13"/>
+      <point x="356.54" y="0" type="line" name="n14"/>
+      <point x="1176.76" y="0" type="line"/>
+      <point x="1176.76" y="151.6" type="line"/>
     </contour>
     <contour>
-      <point x="1287.96" y="1432.4" type="line"/>
-      <point x="1093.32" y="1432.4" type="line"/>
-      <point x="1093.32" y="0.0" type="line"/>
-      <point x="1287.96" y="0.0" type="line"/>
+      <point x="1287.96" y="1432.4" type="line" name="n17"/>
+      <point x="1093.32" y="1432.4" type="line" name="n18"/>
+      <point x="1093.32" y="0" type="line"/>
+      <point x="1287.96" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-327.66" width="-21" />
+      <hstem pos="0" width="151.6" />
+      <hstem pos="1432.4" width="-20" />
+      <vstem pos="356.54" width="20.96" />
+      <vstem pos="646.38" width="177.52" />
+      <vstem pos="1093.32" width="194.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dieresis_macron" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="335.68" y="1292.48" type="curve"/>
+      <point x="335.68" y="1292.48" type="curve" smooth="yes"/>
       <point x="335.68" y="1369.28"/>
       <point x="271.8" y="1432.72"/>
-      <point x="195.44" y="1432.72" type="curve" smooth="yes"/>
+      <point x="195.44" y="1432.72" type="curve" smooth="yes" name="n03"/>
       <point x="123.32" y="1432.72"/>
-      <point x="59.879999999999995" y="1369.28"/>
-      <point x="59.879999999999995" y="1292.48" type="curve" smooth="yes"/>
-      <point x="59.879999999999995" y="1217.68"/>
+      <point x="59.88" y="1369.28"/>
+      <point x="59.88" y="1292.48" type="curve" smooth="yes"/>
+      <point x="59.88" y="1217.68"/>
       <point x="123.32" y="1157.36"/>
-      <point x="195.44" y="1157.36" type="curve" smooth="yes"/>
+      <point x="195.44" y="1157.36" type="curve" smooth="yes" name="n09"/>
       <point x="271.8" y="1157.36"/>
       <point x="335.68" y="1217.68"/>
     </contour>
@@ -32,16 +32,23 @@
       <point x="740.12" y="1217.68"/>
     </contour>
     <contour>
-      <point x="101.0" y="1540.64" type="line"/>
-      <point x="699.0" y="1540.64" type="line"/>
-      <point x="699.0" y="1699.48" type="line"/>
-      <point x="101.0" y="1699.48" type="line"/>
+      <point x="101" y="1540.64" type="line" name="n24"/>
+      <point x="699" y="1540.64" type="line"/>
+      <point x="699" y="1699.48" type="line"/>
+      <point x="101" y="1699.48" type="line" name="n27"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1157.36" width="275.36" />
+      <hstem pos="1540.64" width="158.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

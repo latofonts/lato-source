@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="indepartingtonemod" format="2">
-  <advance width="1000.0"/>
+  <advance width="1000"/>
   <unicode hex="02EA"/>
-  <guideline x="500.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="146.0" y="130.0" type="line"/>
-      <point x="279.78" y="130.0" type="line"/>
-      <point x="279.78" y="881.48" type="line"/>
-      <point x="146.0" y="881.48" type="line"/>
+      <point x="146" y="130" type="line" name="n00"/>
+      <point x="279.78" y="130" type="line"/>
+      <point x="279.78" y="881.48" type="line" name="n02"/>
+      <point x="146" y="881.48" type="line"/>
     </contour>
     <contour>
-      <point x="146.0" y="130.0" type="line"/>
-      <point x="684.6" y="130.0" type="line"/>
+      <point x="146" y="130" type="line"/>
+      <point x="684.6" y="130" type="line"/>
       <point x="684.6" y="246.12" type="line"/>
-      <point x="146.0" y="246.12" type="line"/>
+      <point x="146" y="246.12" type="line" name="n07"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="500" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="130" width="116.12" />
+      <hstem pos="881.48" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

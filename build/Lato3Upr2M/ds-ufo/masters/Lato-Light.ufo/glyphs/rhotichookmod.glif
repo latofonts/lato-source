@@ -1,44 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rhotichookmod" format="2">
-  <advance width="750.0"/>
+  <advance width="750"/>
   <unicode hex="02DE"/>
   <outline>
     <contour>
-      <point x="152.5" y="588.0" type="line"/>
-      <point x="339.0" y="664.0" type="line"/>
-      <point x="372.25" y="742.75" type="line"/>
+      <point x="152.5" y="588" type="line"/>
+      <point x="339" y="664" type="line"/>
+      <point x="372.25" y="742.75" type="line" name="n02"/>
       <point x="152.5" y="655.5" type="line"/>
     </contour>
     <contour>
       <point x="372.25" y="742.75" type="line"/>
       <point x="320.25" y="694.75" type="line"/>
-      <point x="320.25" y="613.5" type="line" smooth="yes"/>
-      <point x="320.25" y="520.0"/>
+      <point x="320.25" y="613.5" type="line" smooth="yes" name="n06"/>
+      <point x="320.25" y="520"/>
       <point x="369.5" y="437.5"/>
-      <point x="496.25" y="437.5" type="curve" smooth="yes"/>
+      <point x="496.25" y="437.5" type="curve" smooth="yes" name="n09"/>
       <point x="547.75" y="437.5"/>
       <point x="586.5" y="450.25"/>
       <point x="627.75" y="468.25" type="curve"/>
       <point x="618.75" y="496.5" type="line"/>
-      <point x="614.0" y="514.5"/>
+      <point x="614" y="514.5"/>
       <point x="602.75" y="517.25"/>
-      <point x="596.5" y="517.25" type="curve"/>
+      <point x="596.5" y="517.25" type="curve" smooth="yes"/>
       <point x="583.75" y="517.25"/>
       <point x="555.5" y="497.75"/>
-      <point x="503.75" y="497.75" type="curve" smooth="yes"/>
+      <point x="503.75" y="497.75" type="curve" smooth="yes" name="n19"/>
       <point x="421.5" y="497.75"/>
       <point x="386.75" y="551.75"/>
-      <point x="386.75" y="630.25" type="curve" smooth="yes"/>
-      <point x="386.75" y="696.0" type="line" smooth="yes"/>
+      <point x="386.75" y="630.25" type="curve" smooth="yes" name="n22"/>
+      <point x="386.75" y="696" type="line" smooth="yes"/>
       <point x="386.75" y="705.25"/>
       <point x="385.25" y="714.75"/>
-      <point x="381.25" y="723.25" type="curve"/>
+      <point x="381.25" y="723.25" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="437.5" width="60.25" />
+      <hstem pos="742.75" width="-20" />
+      <vstem pos="320.25" width="66.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

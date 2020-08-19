@@ -1,26 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tbar" format="2">
-  <advance width="751.92"/>
+  <advance width="752"/>
   <unicode hex="0167"/>
-  <anchor x="347.04" y="1444.46" name="top"/>
-  <anchor x="459.98" y="-70.0" name="bottom"/>
   <anchor x="421.74" y="721.84" name="Slash"/>
   <anchor x="315.28" y="485.98" name="bar"/>
+  <anchor x="459.98" y="-70" name="bottom"/>
+  <anchor x="347.04" y="1444.46" name="top"/>
   <outline>
+    <component base="t" xOffset="2.44"/>
     <contour>
-      <point x="58.84" y="540.08" type="line"/>
+      <point x="58.84" y="540.08" type="line" name="n00"/>
       <point x="717.24" y="540.08" type="line"/>
       <point x="717.24" y="694.24" type="line"/>
-      <point x="58.84" y="694.24" type="line"/>
+      <point x="58.84" y="694.24" type="line" name="n03"/>
     </contour>
-    <component base="t" xOffset="2.44"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="540.08" width="154.16" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

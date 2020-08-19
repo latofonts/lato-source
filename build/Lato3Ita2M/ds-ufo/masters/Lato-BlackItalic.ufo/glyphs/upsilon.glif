@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upsilon" format="2">
   <advance width="1051"/>
   <unicode hex="03C5"/>
-  <guideline x="522" y="0" angle="82.9991"/>
   <anchor x="544" y="1120" name="top"/>
   <anchor x="419" y="-70" name="bottom"/>
   <outline>
@@ -38,10 +37,18 @@
       <point x="439" y="1039" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="522" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="235" />
+      <hstem pos="1039" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

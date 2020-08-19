@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblwidebrevebelow" format="2">
-  <advance width="2234.78"/>
+  <advance width="2235"/>
   <outline>
     <contour>
-      <point x="1117.5" y="-285.06" type="curve"/>
+      <point x="1117.5" y="-285.06" type="curve" smooth="yes" name="n00"/>
       <point x="721.36" y="-285.06"/>
-      <point x="446.84000000000003" y="-223.82"/>
-      <point x="141.32" y="-113.35999999999999" type="curve"/>
+      <point x="446.84" y="-223.82"/>
+      <point x="141.32" y="-113.36" type="curve" name="n03"/>
       <point x="76.6" y="-277.56" type="line"/>
       <point x="355.3" y="-393.92"/>
       <point x="698.24" y="-468.86"/>
-      <point x="1117.5" y="-468.86" type="curve"/>
+      <point x="1117.5" y="-468.86" type="curve" smooth="yes" name="n07"/>
       <point x="1536.76" y="-468.86"/>
       <point x="1879.7" y="-393.92"/>
       <point x="2158.18" y="-277.56" type="curve"/>
-      <point x="2093.46" y="-113.35999999999999" type="line"/>
+      <point x="2093.46" y="-113.36" type="line"/>
       <point x="1788.16" y="-223.82"/>
       <point x="1513.42" y="-285.06"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-468.86" width="183.8" />
+      <hstem pos="-113.36" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

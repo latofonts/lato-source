@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="interrobang" format="2">
   <advance width="1061"/>
   <unicode hex="203D"/>
   <outline>
+    <component base="period" xOffset="220"/>
     <contour>
       <point x="474" y="1264" type="line"/>
       <point x="479" y="1230"/>
@@ -39,12 +40,21 @@
       <point x="481" y="1462"/>
       <point x="433" y="1444" type="curve"/>
     </contour>
-    <component base="period" xOffset="220"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="541" width="-21" />
+      <hstem pos="1220" width="254" />
+      <hstem pos="1496" width="-20" />
+      <vstem pos="595" width="120" />
+      <vstem pos="715" width="283" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

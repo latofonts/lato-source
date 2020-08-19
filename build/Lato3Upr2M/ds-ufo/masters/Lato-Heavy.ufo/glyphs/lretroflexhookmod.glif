@@ -1,31 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lretroflexhookmod" format="2">
-  <advance width="372.32"/>
+  <advance width="372"/>
   <unicode hex="1DA9"/>
-  <anchor x="247.12" y="1120.0" name="tonos"/>
-  <anchor x="186.16" y="-70.0" name="bottom"/>
+  <anchor x="186.16" y="-70" name="bottom"/>
+  <anchor x="247.12" y="1120" name="tonos"/>
   <outline>
     <contour>
-      <point x="63.28" y="1091.04" type="line" smooth="yes"/>
+      <point x="63.28" y="1091.04" type="line" smooth="yes" name="n00"/>
       <point x="63.28" y="994.92"/>
-      <point x="114.48" y="915.08"/>
+      <point x="114.48" y="915.08" name="n02"/>
       <point x="213.52" y="915.08" type="curve" smooth="yes"/>
       <point x="273.44" y="915.08"/>
-      <point x="349.84000000000003" y="943.72"/>
-      <point x="349.84000000000003" y="998.12" type="curve" smooth="yes"/>
-      <point x="349.84000000000003" y="1056.28" type="line"/>
+      <point x="349.84" y="943.72"/>
+      <point x="349.84" y="998.12" type="curve" smooth="yes"/>
+      <point x="349.84" y="1056.28" type="line"/>
       <point x="293.32" y="1056.28" type="line" smooth="yes"/>
       <point x="264.76" y="1056.28"/>
       <point x="255.12" y="1071.92"/>
-      <point x="255.12" y="1102.48" type="curve"/>
-      <point x="255.12" y="1610.12" type="line"/>
+      <point x="255.12" y="1102.48" type="curve" smooth="yes" name="n11"/>
+      <point x="255.12" y="1610.12" type="line" name="n12"/>
       <point x="63.28" y="1610.12" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="936.08" width="-21" />
+      <hstem pos="1610.12" width="-20" />
+      <vstem pos="63.28" width="191.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ereversed-cy" format="2">
   <advance width="910"/>
   <unicode hex="044D"/>
-  <guideline y="1406"/>
-  <guideline x="428" y="0" angle="82.9991"/>
   <anchor x="465" y="1120" name="top"/>
   <anchor x="400" y="-70" name="bottom"/>
   <outline>
@@ -48,12 +46,22 @@
       <point x="121" y="881" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
+  <guideline angle="82.9991" x="428" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-12" width="20" />
+      <hstem pos="491" width="20" />
+      <hstem pos="976" width="20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,10 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LstrokeSmall" format="2">
   <advance width="822"/>
   <unicode hex="1D0C"/>
   <anchor x="302" y="1120" name="top"/>
   <anchor x="475" y="-70" name="bottom"/>
   <outline>
+    <component base="Lsmall" xOffset="48"/>
     <contour>
       <point x="51" y="275" type="line"/>
       <point x="355" y="425" type="line"/>
@@ -21,12 +22,18 @@
       <point x="51" y="508"/>
       <point x="51" y="487" type="curve" smooth="yes"/>
     </contour>
-    <component base="Lsmall" xOffset="48"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="296" width="-21" />
+      <hstem pos="813" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

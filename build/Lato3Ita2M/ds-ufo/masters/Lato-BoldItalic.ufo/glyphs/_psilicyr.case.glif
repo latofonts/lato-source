@@ -1,29 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_psilicyr.case" format="2">
-  <advance width="736.0"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
-  <anchor x="465.96000000000004" y="1464.24" name="_Top"/>
-  <anchor x="462.84" y="1120.0" name="_onRight"/>
+  <advance width="736"/>
+  <anchor x="465.96" y="1464.24" name="_Top"/>
+  <anchor x="462.84" y="1120" name="_onRight"/>
   <outline>
     <contour>
       <point x="626.38" y="1678.28" type="curve"/>
       <point x="584.5" y="1687.64" type="line"/>
       <point x="581.74" y="1616.9"/>
       <point x="558.2" y="1593.62"/>
-      <point x="499.6" y="1580.5" type="curve"/>
+      <point x="499.6" y="1580.5" type="curve" smooth="yes"/>
       <point x="465.52" y="1572.48"/>
       <point x="451.72" y="1561.34"/>
-      <point x="449.15999999999997" y="1540.96" type="curve"/>
-      <point x="444.26" y="1492.08" type="line"/>
+      <point x="449.16" y="1540.96" type="curve" smooth="yes"/>
+      <point x="444.26" y="1492.08" type="line" name="n08"/>
       <point x="599.16" y="1490.52"/>
       <point x="683.08" y="1582.44"/>
-      <point x="698.1" y="1708.16" type="curve" smooth="yes"/>
+      <point x="698.1" y="1708.16" type="curve"/>
       <point x="708.22" y="1803.8"/>
-      <point x="668.28" y="1874.06"/>
-      <point x="581.0" y="1874.06" type="curve" smooth="yes"/>
+      <point x="668.28" y="1874.06" name="n13"/>
+      <point x="581" y="1874.06" type="curve" smooth="yes"/>
       <point x="508.1" y="1874.06"/>
       <point x="460.92" y="1824.42"/>
-      <point x="452.24" y="1756.54" type="curve" smooth="yes"/>
+      <point x="452.24" y="1756.54" type="curve"/>
       <point x="446.9" y="1702.36"/>
       <point x="471.48" y="1652.72"/>
       <point x="559.76" y="1652.72" type="curve" smooth="yes"/>
@@ -31,12 +30,20 @@
       <point x="611.04" y="1666.96"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_psilicyr=_psilicyr.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_psilicyr=_psilicyr.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1513.08" width="-21" />
+      <hstem pos="1874.06" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,13 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="retroflexhookcomb" format="2">
   <unicode hex="0322"/>
-  <guideline x="1" y="0" angle="82.9991"/>
   <anchor x="0" y="-470" name="bottom"/>
   <anchor x="-126" y="-84" name="_bottom"/>
   <outline>
     <contour>
       <point x="-111" y="-20" type="line"/>
-      <point x="-133" y="-20" type="line"/>
+      <point x="-111" y="-20"/>
+      <point x="-133" y="-20"/>
+      <point x="-133" y="-20" type="curve"/>
       <point x="-147" y="-134" type="line" smooth="yes"/>
       <point x="-161" y="-251"/>
       <point x="-117" y="-341"/>
@@ -27,14 +28,22 @@
       <point x="-125" y="-136" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="1" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_hookretroflex=retroflexhookcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_hookretroflex=retroflexhookcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-341" width="19" />
+      <hstem pos="-20" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

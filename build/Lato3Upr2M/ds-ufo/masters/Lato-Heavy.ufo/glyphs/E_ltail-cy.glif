@@ -1,25 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eltail-cy" format="2">
-  <advance width="1585.3600000000001"/>
+  <advance width="1585"/>
   <unicode hex="04C5"/>
   <anchor x="872.24" y="1521.28" name="Top"/>
+  <anchor x="677.24" y="-70" name="bottom"/>
   <anchor x="872.24" y="1521.28" name="top"/>
-  <anchor x="677.24" y="-70.0" name="bottom"/>
   <outline>
+    <component base="El-cy"/>
     <contour>
-      <point x="1350.72" y="233.2" type="line"/>
-      <point x="1350.72" y="0.0" type="line"/>
-      <point x="1215.8" y="0.0" type="line"/>
-      <point x="1108.68" y="-341.52" type="line"/>
+      <point x="1350.72" y="233.2" type="line" name="n00"/>
+      <point x="1350.72" y="0" type="line" name="n01"/>
+      <point x="1215.8" y="0" type="line"/>
+      <point x="1108.68" y="-341.52" type="line" name="n03"/>
       <point x="1401.84" y="-341.52" type="line"/>
       <point x="1562.72" y="233.2" type="line"/>
     </contour>
-    <component base="El-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-320.52" width="-21" />
+      <hstem pos="0" width="233.2" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

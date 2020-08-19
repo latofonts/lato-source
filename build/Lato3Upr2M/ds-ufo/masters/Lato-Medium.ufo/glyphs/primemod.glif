@@ -1,26 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="primemod" format="2">
-  <advance width="660.0"/>
+  <advance width="660"/>
   <unicode hex="02B9"/>
   <unicode hex="2032"/>
   <outline>
     <contour>
-      <point x="325.0" y="1610.0" type="line"/>
-      <point x="195.2" y="973.2" type="line"/>
+      <point x="325" y="1610" type="line" name="n00"/>
+      <point x="195.2" y="973.2" type="line" name="n01"/>
       <point x="279.8" y="973.2" type="line" smooth="yes"/>
       <point x="305.4" y="973.2"/>
       <point x="321.4" y="993.2"/>
-      <point x="329.0" y="1010.0" type="curve"/>
-      <point x="514.2" y="1518.6" type="line" smooth="yes"/>
-      <point x="535.0" y="1568.0"/>
-      <point x="507.0" y="1610.0"/>
-      <point x="455.2" y="1610.0" type="curve" smooth="yes"/>
+      <point x="329" y="1010" type="curve"/>
+      <point x="514.2" y="1518.6" type="line"/>
+      <point x="535" y="1568"/>
+      <point x="507" y="1610"/>
+      <point x="455.2" y="1610" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="994.2" width="-21" />
+      <hstem pos="1610" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

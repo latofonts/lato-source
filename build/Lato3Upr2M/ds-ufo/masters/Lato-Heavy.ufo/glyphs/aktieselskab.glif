@@ -1,16 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aktieselskab" format="2">
-  <advance width="1697.96"/>
+  <advance width="1698"/>
   <unicode hex="214D"/>
   <anchor x="390.4" y="-282.76" name="bottom"/>
   <outline>
+    <component base="Amod" xOffset="-11.92" yOffset="-212.76"/>
     <contour>
-      <point x="287.48" y="0.0" type="line"/>
-      <point x="493.32" y="0.0" type="line" smooth="yes"/>
-      <point x="531.0" y="0.0"/>
+      <point x="287.48" y="0" type="line" name="n00"/>
+      <point x="493.32" y="0" type="line" smooth="yes"/>
+      <point x="531" y="0"/>
       <point x="558.12" y="17.84"/>
-      <point x="576.2" y="41.44" type="curve"/>
-      <point x="1661.0" y="1452.8" type="line"/>
+      <point x="576.2" y="41.44" type="curve" smooth="yes"/>
+      <point x="1661" y="1452.8" type="line" name="n05"/>
       <point x="1460.44" y="1452.8" type="line" smooth="yes"/>
       <point x="1413.72" y="1452.8"/>
       <point x="1390.36" y="1431.44"/>
@@ -20,35 +21,35 @@
       <point x="1641.64" y="671.36" type="line"/>
       <point x="1582.24" y="719.36"/>
       <point x="1482.28" y="752.8"/>
-      <point x="1377.28" y="752.8" type="curve" smooth="yes"/>
+      <point x="1377.28" y="752.8" type="curve" smooth="yes" name="n13"/>
       <point x="1189.56" y="752.8"/>
       <point x="1083.56" y="636.36"/>
-      <point x="1083.56" y="518.08" type="curve" smooth="yes"/>
+      <point x="1083.56" y="518.08" type="curve" smooth="yes" name="n16"/>
       <point x="1083.56" y="228.64"/>
       <point x="1443.12" y="326.96"/>
-      <point x="1443.12" y="213.28" type="curve" smooth="yes"/>
+      <point x="1443.12" y="213.28" type="curve" smooth="yes" name="n19"/>
       <point x="1443.12" y="176.64"/>
       <point x="1423.64" y="160.4"/>
-      <point x="1362.64" y="160.4" type="curve" smooth="yes"/>
+      <point x="1362.64" y="160.4" type="curve" smooth="yes" name="n22"/>
       <point x="1271.12" y="160.4"/>
       <point x="1222.76" y="216.36"/>
       <point x="1170.68" y="216.36" type="curve" smooth="yes"/>
       <point x="1150.72" y="216.36"/>
-      <point x="1131.0" y="203.8"/>
+      <point x="1131" y="203.8"/>
       <point x="1120.96" y="189.36" type="curve"/>
       <point x="1053.36" y="85.44" type="line"/>
-      <point x="1120.92" y="28.439999999999998"/>
+      <point x="1120.92" y="28.44"/>
       <point x="1246.24" y="-12.6"/>
-      <point x="1346.8" y="-12.6" type="curve" smooth="yes"/>
+      <point x="1346.8" y="-12.6" type="curve" smooth="yes" name="n32"/>
       <point x="1539.2" y="-12.6"/>
       <point x="1649.28" y="100.52"/>
-      <point x="1649.28" y="243.68" type="curve" smooth="yes"/>
+      <point x="1649.28" y="243.68" type="curve" smooth="yes" name="n35"/>
       <point x="1649.28" y="497.08"/>
       <point x="1287.96" y="439.44"/>
-      <point x="1287.96" y="529.64" type="curve" smooth="yes"/>
+      <point x="1287.96" y="529.64" type="curve" smooth="yes" name="n38"/>
       <point x="1287.96" y="564.88"/>
       <point x="1314.68" y="579.68"/>
-      <point x="1372.0" y="579.68" type="curve" smooth="yes"/>
+      <point x="1372" y="579.68" type="curve" smooth="yes" name="n41"/>
       <point x="1444.92" y="579.68"/>
       <point x="1496.24" y="537.8"/>
       <point x="1535.24" y="537.8" type="curve" smooth="yes"/>
@@ -56,12 +57,22 @@
       <point x="1571.28" y="547.6"/>
       <point x="1585.48" y="568.2" type="curve"/>
     </contour>
-    <component base="Amod" xOffset="-11.920000000000002" yOffset="-212.76"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-12.6" width="173" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="579.68" width="173.12" />
+      <hstem pos="1452.8" width="-20" />
+      <vstem pos="1083.56" width="204.4" />
+      <vstem pos="1443.12" width="206.16" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

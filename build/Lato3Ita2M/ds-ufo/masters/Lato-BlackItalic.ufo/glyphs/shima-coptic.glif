@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shima-coptic" format="2">
   <advance width="1109"/>
   <unicode hex="03ED"/>
-  <guideline x="537" y="0" angle="82.9991"/>
   <anchor x="578" y="1525" name="Top"/>
   <anchor x="578" y="1525" name="top"/>
   <anchor x="487" y="-70" name="bottom"/>
@@ -63,10 +62,20 @@
       <point x="376" y="276"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="537" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="230" />
+      <hstem pos="780" width="220" />
+      <hstem pos="1219" width="246" />
+      <hstem pos="1506" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

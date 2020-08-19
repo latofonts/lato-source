@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ystroke" format="2">
-  <advance width="1075.8"/>
+  <advance width="1076"/>
   <unicode hex="024F"/>
-  <guideline x="479.0" y="0.0" angle="82.9991"/>
-  <anchor x="630.2" y="1120.4" name="top"/>
   <anchor x="352.4" y="-420.6" name="bottom"/>
+  <anchor x="630.2" y="1120.4" name="top"/>
   <outline>
+    <component base="y" xyScale="9.10383e-21" xOffset="70.8" yOffset="0.4"/>
     <contour>
       <point x="46.8" y="614.2" type="line"/>
-      <point x="335.2" y="614.2" type="line"/>
+      <point x="335.2" y="614.2" type="line" name="n01"/>
       <point x="352.6" y="625.6" type="line"/>
       <point x="783.6" y="625.6" type="line"/>
       <point x="801.4" y="614.2" type="line"/>
@@ -16,16 +16,22 @@
       <point x="1070.4" y="739.2" type="line"/>
       <point x="862.6" y="739.2" type="line"/>
       <point x="837.6" y="739.2" type="line"/>
-      <point x="338.6" y="739.2" type="line"/>
+      <point x="338.6" y="739.2" type="line" name="n09"/>
       <point x="318.6" y="739.2" type="line"/>
       <point x="62.4" y="739.2" type="line"/>
     </contour>
-    <component base="y" xOffset="70.8" yOffset="0.4"/>
   </outline>
+  <guideline angle="82.9991" x="428" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="614.2" width="125" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

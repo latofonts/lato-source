@@ -1,19 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notequal.onum_pnum" format="2">
-  <advance width="1080.0"/>
+  <advance width="1080"/>
   <outline>
+    <component base="equal.onum_pnum" xOffset="1.7"/>
     <contour>
-      <point x="367.0" y="135.8" type="line"/>
+      <point x="367" y="135.8" type="line" name="n00"/>
       <point x="408.8" y="135.8" type="line"/>
-      <point x="764.2" y="988.8" type="line"/>
+      <point x="764.2" y="988.8" type="line" name="n02"/>
       <point x="724.4" y="988.8" type="line"/>
     </contour>
-    <component base="equal.onum_pnum" xOffset="1.7"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="156.8" width="-21" />
+      <hstem pos="988.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,34 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fermatacomb" format="2">
   <unicode hex="0352"/>
-  <guideline x="-143.84"/>
-  <guideline x="-411.84" y="0.0" angle="82.9991"/>
-  <anchor x="-30.0" y="997.0" name="_top"/>
-  <anchor x="40.0" y="1708.0" name="top"/>
+  <anchor x="-30" y="997" name="_top"/>
+  <anchor x="40" y="1708" name="top"/>
   <outline>
     <contour>
-      <point x="101.76" y="1249.5" type="curve"/>
-      <point x="109.0" y="1311.9"/>
-      <point x="66.02000000000001" y="1363.28"/>
-      <point x="9.24" y="1363.28" type="curve" smooth="yes"/>
+      <point x="101.76" y="1249.5" type="curve" smooth="yes"/>
+      <point x="109" y="1311.9"/>
+      <point x="66.02" y="1363.28"/>
+      <point x="9.24" y="1363.28" type="curve" smooth="yes" name="n03"/>
       <point x="-46.84" y="1363.28"/>
       <point x="-99.84" y="1311.9"/>
-      <point x="-107.08000000000001" y="1249.5" type="curve" smooth="yes"/>
-      <point x="-114.32000000000001" y="1188.56"/>
-      <point x="-72.80000000000001" y="1137.18"/>
-      <point x="-16.72" y="1137.18" type="curve" smooth="yes"/>
+      <point x="-107.08" y="1249.5" type="curve" smooth="yes"/>
+      <point x="-114.32" y="1188.56"/>
+      <point x="-72.8" y="1137.18"/>
+      <point x="-16.72" y="1137.18" type="curve" smooth="yes" name="n09"/>
       <point x="40.6" y="1137.18"/>
-      <point x="94.52000000000001" y="1188.56"/>
+      <point x="94.52" y="1188.56"/>
     </contour>
     <contour>
-      <point x="31.64" y="1557.86" type="curve"/>
+      <point x="31.64" y="1557.86" type="curve" smooth="yes" name="n12"/>
       <point x="-179.8" y="1557.86"/>
       <point x="-281.44" y="1434.98"/>
       <point x="-300.38" y="1265.08" type="curve"/>
       <point x="-194.9" y="1265.08" type="line"/>
       <point x="-181.28" y="1384.42"/>
       <point x="-110.16" y="1465.34"/>
-      <point x="21.0" y="1465.34" type="curve" smooth="yes"/>
+      <point x="21" y="1465.34" type="curve" smooth="yes" name="n19"/>
       <point x="151.16" y="1465.34"/>
       <point x="204.28" y="1384.42"/>
       <point x="190.66" y="1265.08" type="curve"/>
@@ -37,14 +35,23 @@
       <point x="243.08" y="1557.86"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-146" y="0"/>
+  <guideline angle="82.9991" x="-414" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_fermata=fermatacomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_fermata=fermatacomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1137.18" width="226.1" />
+      <hstem pos="1465.34" width="92.52" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbar" format="2">
   <advance width="1007"/>
   <unicode hex="0127"/>
-  <guideline x="502" y="0" angle="82.9991"/>
   <anchor x="279" y="1496" name="Top"/>
   <anchor x="279" y="1496" name="top"/>
   <anchor x="433" y="-70" name="bottom"/>
@@ -45,10 +44,20 @@
       <point x="825" y="628" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="502" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="974" width="20" />
+      <hstem pos="1170" width="20" />
+      <hstem pos="1440" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

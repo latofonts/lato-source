@@ -1,32 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotaafrican" format="2">
-  <advance width="694.44"/>
+  <advance width="694"/>
   <unicode hex="0196"/>
   <anchor x="296.6" y="1521.52" name="Top"/>
+  <anchor x="424.28" y="-70" name="bottom"/>
   <anchor x="296.6" y="1521.52" name="top"/>
-  <anchor x="424.28" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="145.56" y="325.6" type="line" smooth="yes"/>
+      <point x="145.56" y="325.6" type="line" smooth="yes" name="n00"/>
       <point x="145.56" y="135.32"/>
       <point x="246.64" y="-11.24"/>
-      <point x="440.12" y="-11.24" type="curve" smooth="yes"/>
+      <point x="440.12" y="-11.24" type="curve" smooth="yes" name="n03"/>
       <point x="553.32" y="-11.24"/>
       <point x="662.92" y="20.16"/>
       <point x="662.92" y="117.56" type="curve" smooth="yes"/>
       <point x="662.92" y="216.44" type="line"/>
-      <point x="559.04" y="216.44" type="line" smooth="yes"/>
+      <point x="559.04" y="216.44" type="line" smooth="yes" name="n08"/>
       <point x="476.12" y="216.44"/>
       <point x="447.64" y="254.2"/>
-      <point x="447.64" y="342.32" type="curve"/>
-      <point x="447.64" y="1453.68" type="line"/>
+      <point x="447.64" y="342.32" type="curve" smooth="yes" name="n11"/>
+      <point x="447.64" y="1453.68" type="line" name="n12"/>
       <point x="145.56" y="1453.68" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-11.24" width="227.68" />
+      <hstem pos="1453.68" width="-20" />
+      <vstem pos="145.56" width="302.08" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

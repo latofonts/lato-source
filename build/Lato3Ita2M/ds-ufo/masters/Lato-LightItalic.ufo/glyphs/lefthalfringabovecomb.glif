@@ -1,36 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lefthalfringabovecomb" format="2">
   <unicode hex="0351"/>
-  <guideline x="-123.5"/>
-  <guideline x="-391.5" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="1137.0" name="_top"/>
-  <anchor x="83.0" y="1707.0" name="top"/>
+  <anchor x="0" y="1137" name="_top"/>
+  <anchor x="83" y="1707" name="top"/>
   <outline>
     <contour>
-      <point x="67.0" y="1224.25" type="line"/>
+      <point x="67" y="1224.25" type="line"/>
       <point x="-4.5" y="1224.25"/>
       <point x="-48.75" y="1279.5"/>
       <point x="-39.75" y="1363.25" type="curve" smooth="yes"/>
       <point x="-29.75" y="1446.5"/>
       <point x="26.75" y="1503.75"/>
       <point x="97.75" y="1503.75" type="curve"/>
-      <point x="103.5" y="1556.75" type="line"/>
-      <point x="-3.0" y="1556.75"/>
+      <point x="97.75" y="1503.75"/>
+      <point x="103.5" y="1556.75"/>
+      <point x="103.5" y="1556.75" type="curve" name="n09"/>
+      <point x="-3" y="1556.75"/>
       <point x="-87.25" y="1476.25"/>
       <point x="-100.5" y="1363.5" type="curve" smooth="yes"/>
       <point x="-112.75" y="1250.5"/>
       <point x="-46.25" y="1171.25"/>
-      <point x="60.5" y="1171.25" type="curve"/>
+      <point x="60.5" y="1171.25" type="curve" name="n15"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-122" y="0"/>
+  <guideline angle="82.9991" x="-390" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringleft=lefthalfringabovecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringleft=lefthalfringabovecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1171.25" width="385.5" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

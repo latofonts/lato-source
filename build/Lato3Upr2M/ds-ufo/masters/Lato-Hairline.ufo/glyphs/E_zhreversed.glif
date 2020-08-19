@@ -1,15 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ezhreversed" format="2">
   <advance width="1154"/>
   <unicode hex="01B8"/>
-  <guideline y="1406"/>
   <anchor x="508" y="1120" name="top"/>
   <anchor x="573" y="1496" name="Top"/>
   <anchor x="542" y="-70" name="bottom"/>
   <outline>
     <contour>
       <point x="725" y="815" type="line"/>
-      <point x="720" y="834" type="line"/>
+      <point x="725" y="815"/>
+      <point x="720" y="834"/>
+      <point x="720" y="834" type="curve"/>
       <point x="648" y="834" type="line" smooth="yes"/>
       <point x="266" y="834"/>
       <point x="123" y="660"/>
@@ -56,10 +57,20 @@
       <point x="1044" y="1400" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="20" />
+      <hstem pos="814" width="20" />
+      <hstem pos="1378" width="22" />
+      <vstem pos="123" width="24" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o-cy" format="2">
   <advance width="1162"/>
   <unicode hex="043E"/>
-  <guideline x="592"/>
   <anchor x="583" y="1120" name="top"/>
   <anchor x="583" y="-70" name="bottom"/>
   <outline>
@@ -35,14 +34,24 @@
       <point x="725" y="224"/>
     </contour>
   </outline>
+  <guideline angle="90" x="592" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>o=ocyr</string>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>o=ocyr</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="240" />
+      <hstem pos="816" width="240" />
+      <vstem pos="51" width="320" />
+      <vstem pos="791" width="320" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

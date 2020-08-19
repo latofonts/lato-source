@@ -1,23 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overlinecomb.case" format="2">
-  <anchor x="0.0" y="2289.0" name="top"/>
-  <anchor x="0.0" y="1827.0" name="_Top"/>
+  <anchor x="0" y="1827" name="_Top"/>
+  <anchor x="0" y="2289" name="top"/>
   <outline>
     <contour>
-      <point x="-619.2" y="1912.8" type="line"/>
+      <point x="-619.2" y="1912.8" type="line" name="n00"/>
       <point x="619.2" y="1912.8" type="line"/>
       <point x="619.2" y="2118.6" type="line"/>
-      <point x="-619.2" y="2118.6" type="line"/>
+      <point x="-619.2" y="2118.6" type="line" name="n03"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_overline=overlinecomb.case</string>
-      <key>public.markColor</key>
-      <string>1,0.6,0.994,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_overline=overlinecomb.case</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1912.8" width="205.8" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

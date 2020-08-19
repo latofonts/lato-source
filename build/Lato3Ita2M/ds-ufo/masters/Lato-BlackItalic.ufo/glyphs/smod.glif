@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="smod" format="2">
   <advance width="472"/>
   <unicode hex="02E2"/>
-  <guideline x="236" y="0" angle="82.9991"/>
   <anchor x="214" y="-70" name="bottom"/>
   <outline>
     <contour>
@@ -46,12 +45,20 @@
       <point x="531" y="1314" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="236" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>s.sups=smod</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>s.sups=smod</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="913" width="554" />
+      <hstem pos="1315" width="152" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,26 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowheadrightheadupbelowcomb" format="2">
   <unicode hex="0356"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <anchor x="0.0" y="-563.0" name="bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-563" name="bottom"/>
   <outline>
     <contour>
       <point x="-165.638" y="-376.242" type="line"/>
       <point x="-78.378" y="-295.976" type="line"/>
-      <point x="-311.66" y="-62.694" type="line"/>
+      <point x="-311.66" y="-62.694" type="line" name="n02"/>
       <point x="-398.92" y="-149.954" type="line"/>
     </contour>
     <contour>
       <point x="-398.92" y="-441.998" type="line"/>
-      <point x="-311.66" y="-529.258" type="line"/>
+      <point x="-311.66" y="-529.258" type="line" name="n05"/>
       <point x="-78.378" y="-295.976" type="line"/>
       <point x="-165.638" y="-215.71" type="line"/>
     </contour>
     <contour>
       <point x="245.57" y="-224.958" type="line"/>
       <point x="165.304" y="-137.698" type="line"/>
-      <point x="-67.97800000000001" y="-370.98" type="line"/>
-      <point x="19.282000000000004" y="-458.24" type="line"/>
+      <point x="-67.978" y="-370.98" type="line"/>
+      <point x="19.282" y="-458.24" type="line"/>
     </contour>
     <contour>
       <point x="311.326" y="-458.24" type="line"/>
@@ -30,13 +30,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_arrowheadsrightupbelow=arrowheadsrightupbelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_arrowheadsrightupbelow=arrowheadsrightupbelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-508.258" width="-21" />
+      <hstem pos="-62.694" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

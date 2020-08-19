@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mhook" format="2">
   <advance width="1596"/>
   <unicode hex="0271"/>
-  <guideline x="801" y="0" angle="82.9991"/>
   <anchor x="722" y="-70" name="bottom"/>
   <anchor x="890" y="1120" name="top"/>
   <outline>
@@ -63,7 +62,9 @@
     </contour>
     <contour>
       <point x="1443" y="86" type="line"/>
-      <point x="1137" y="86" type="line"/>
+      <point x="1443" y="86"/>
+      <point x="1137" y="86"/>
+      <point x="1137" y="86" type="curve"/>
       <point x="1123" y="-29" type="line" smooth="yes"/>
       <point x="1112" y="-117"/>
       <point x="1090" y="-145"/>
@@ -83,10 +84,20 @@
       <point x="1432" y="-5" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="801" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-358" width="223" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="800" width="256" />
+      <hstem pos="1040" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

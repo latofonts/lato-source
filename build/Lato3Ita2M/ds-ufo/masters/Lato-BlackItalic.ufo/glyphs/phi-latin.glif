@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="phi-latin" format="2">
   <advance width="1509"/>
   <unicode hex="0278"/>
-  <guideline x="760"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="781" y="1120" name="top"/>
   <anchor x="632" y="-421" name="bottom"/>
   <outline>
@@ -51,12 +49,22 @@
       <point x="773" y="-328" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="760" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>phi=philat</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>phi=philat</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-307" width="-21" />
+      <hstem pos="-16" width="222" />
+      <hstem pos="833" width="222" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

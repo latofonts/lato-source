@@ -1,29 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhedescender-cy" format="2">
-  <advance width="2127.28"/>
+  <advance width="2127"/>
   <unicode hex="0496"/>
-  <guideline x="1063.52" y="0.0" angle="82.9991"/>
   <anchor x="1120.12" y="1521.52" name="Top"/>
+  <anchor x="923.32" y="-70" name="bottom"/>
   <anchor x="1120.12" y="1521.52" name="top"/>
-  <anchor x="923.32" y="-70.0" name="bottom"/>
   <outline>
+    <component base="Zhe-cy"/>
     <contour>
-      <point x="1789.32" y="0.0" type="line"/>
-      <point x="1747.08" y="-342.4" type="line"/>
+      <point x="1789.32" y="0" type="line"/>
+      <point x="1747.08" y="-342.4" type="line" name="n01"/>
       <point x="1921.76" y="-342.4" type="line" smooth="yes"/>
       <point x="1975.4" y="-342.4"/>
-      <point x="2017.3600000000001" y="-308.48"/>
-      <point x="2022.76" y="-259.24" type="curve" smooth="yes"/>
-      <point x="2082.7200000000003" y="224.4" type="line"/>
-      <point x="1825.96" y="224.4" type="line"/>
-      <point x="1859.68" y="0.0" type="line"/>
+      <point x="2017.36" y="-308.48"/>
+      <point x="2022.76" y="-259.24" type="curve"/>
+      <point x="2082.72" y="224.4" type="line"/>
+      <point x="1825.96" y="224.4" type="line" name="n07"/>
+      <point x="1859.68" y="0" type="line" name="n08"/>
     </contour>
-    <component base="Zhe-cy"/>
   </outline>
+  <guideline angle="82.9991" x="972" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-321.4" width="-21" />
+      <hstem pos="0" width="224.4" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,36 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horncomb" format="2">
   <unicode hex="031B"/>
-  <anchor x="162.0" y="-70.0" name="bottom"/>
-  <anchor x="-220.0" y="795.0" name="_onRight"/>
-  <anchor x="0.0" y="1325.0" name="top"/>
+  <anchor x="-220" y="795" name="_onRight"/>
+  <anchor x="162" y="-70" name="bottom"/>
+  <anchor x="0" y="1325" name="top"/>
   <outline>
     <contour>
-      <point x="-184.952" y="753.728" type="line"/>
+      <point x="-184.952" y="753.728" type="line" name="n00"/>
       <point x="60.27" y="753.728"/>
       <point x="184.286" y="887.652"/>
-      <point x="184.286" y="1071.636" type="curve" smooth="yes"/>
-      <point x="184.286" y="1110.292"/>
+      <point x="184.286" y="1071.64" type="curve" smooth="yes" name="n03"/>
+      <point x="184.286" y="1110.29"/>
       <point x="178.954" y="1148.95"/>
-      <point x="170.952" y="1175.618" type="curve"/>
-      <point x="63.366" y="1175.618" type="line" smooth="yes"/>
-      <point x="-12.914000000000001" y="1175.618"/>
-      <point x="-48.894000000000005" y="1144.302"/>
-      <point x="-48.894000000000005" y="1088.666" type="curve" smooth="yes"/>
-      <point x="-48.894000000000005" y="1028.016"/>
-      <point x="-3.2240000000000038" y="1014.0360000000001"/>
-      <point x="-3.2240000000000038" y="970.03" type="curve" smooth="yes"/>
-      <point x="-3.2240000000000038" y="902.99"/>
-      <point x="-69.26400000000001" y="848.982"/>
+      <point x="170.952" y="1175.62" type="curve" name="n06"/>
+      <point x="63.366" y="1175.62" type="line" smooth="yes"/>
+      <point x="-12.914" y="1175.62"/>
+      <point x="-48.894" y="1144.3"/>
+      <point x="-48.894" y="1088.67" type="curve" smooth="yes" name="n10"/>
+      <point x="-48.894" y="1028.02"/>
+      <point x="-3.224" y="1014.04"/>
+      <point x="-3.224" y="970.03" type="curve" smooth="yes" name="n13"/>
+      <point x="-3.224" y="902.99"/>
+      <point x="-69.264" y="848.982"/>
       <point x="-185.286" y="848.982" type="curve"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="774.728" width="-21" />
+      <hstem pos="1175.618" width="-20" />
+      <vstem pos="-48.894" width="233.18" />
+      <vstem pos="-3.224" width="187.51" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

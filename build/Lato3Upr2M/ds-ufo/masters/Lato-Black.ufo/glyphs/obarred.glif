@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obarred" format="2">
   <advance width="1162"/>
   <unicode hex="0275"/>
-  <guideline x="592"/>
   <anchor x="583" y="1120" name="top"/>
   <anchor x="583" y="-70" name="bottom"/>
   <outline>
@@ -41,12 +40,23 @@
       <point x="282" y="610" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="592" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=o</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=o</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="240" />
+      <hstem pos="448" width="162" />
+      <hstem pos="816" width="240" />
+      <vstem pos="253" width="118" />
+      <vstem pos="791" width="320" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

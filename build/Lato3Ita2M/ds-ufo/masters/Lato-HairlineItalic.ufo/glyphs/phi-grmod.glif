@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="phi-grmod" format="2">
   <advance width="643"/>
   <unicode hex="1D60"/>
-  <guideline x="318"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="619" y="1120" name="top"/>
   <anchor x="311" y="-70" name="bottom"/>
   <outline>
@@ -51,10 +49,20 @@
       <point x="347" y="729" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="318" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="750" width="-21" />
+      <hstem pos="902" width="506" />
+      <hstem pos="1390" width="18" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

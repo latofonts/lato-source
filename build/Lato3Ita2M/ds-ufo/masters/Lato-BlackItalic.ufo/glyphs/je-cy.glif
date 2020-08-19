@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="je-cy" format="2">
   <advance width="516"/>
   <unicode hex="0458"/>
-  <guideline x="267"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="222" y="473" name="bar"/>
   <anchor x="340" y="1525" name="Top"/>
   <anchor x="340" y="1525" name="top"/>
@@ -42,12 +40,22 @@
       <point x="507" y="1218"/>
     </contour>
   </outline>
+  <guideline angle="90" x="267" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>j=jecyr</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>j=jecyr</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="232" />
+      <hstem pos="1040" width="-20" />
+      <hstem pos="1134" width="374" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

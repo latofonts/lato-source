@@ -1,18 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dblbreveinverted.case" format="2">
-  <advance width="2090.08"/>
-  <guideline x="1044.6" y="0.0" angle="82.9991"/>
+  <advance width="2090"/>
   <outline>
     <contour>
-      <point x="1179.56" y="1730.72" type="curve"/>
+      <point x="1179.56" y="1730.72" type="curve" smooth="yes" name="n00"/>
       <point x="1546.12" y="1730.72"/>
       <point x="1795.28" y="1669.56"/>
-      <point x="2067.44" y="1558.4" type="curve"/>
+      <point x="2067.44" y="1558.4" type="curve" name="n03"/>
       <point x="2158.28" y="1734.56" type="line"/>
       <point x="1914.84" y="1852.12"/>
-      <point x="1598.88" y="1929.3600000000001"/>
-      <point x="1203.68" y="1929.3600000000001" type="curve"/>
-      <point x="809.36" y="1929.3600000000001"/>
+      <point x="1598.88" y="1929.36"/>
+      <point x="1203.68" y="1929.36" type="curve" smooth="yes" name="n07"/>
+      <point x="809.36" y="1929.36"/>
       <point x="474.12" y="1852.12"/>
       <point x="202.04" y="1734.56" type="curve"/>
       <point x="249.28" y="1558.4" type="line"/>
@@ -20,12 +19,20 @@
       <point x="813.24" y="1730.72"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="939" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dblwidebreveinverted=_dblbreveinverted.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dblwidebreveinverted=_dblbreveinverted.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1579.4" width="-21" />
+      <hstem pos="1730.72" width="198.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

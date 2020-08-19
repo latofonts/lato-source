@@ -1,46 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_fermata.case" format="2">
-  <advance width="800.0"/>
-  <guideline x="446.92"/>
+  <advance width="800"/>
   <anchor x="398.44" y="1518.62" name="_Top"/>
   <outline>
     <contour>
-      <point x="539.46" y="1617.1" type="curve"/>
+      <point x="539.46" y="1617.1" type="curve" smooth="yes"/>
       <point x="539.46" y="1693.9"/>
       <point x="475.58" y="1756.56"/>
-      <point x="398.44" y="1756.56" type="curve" smooth="yes"/>
+      <point x="398.44" y="1756.56" type="curve" smooth="yes" name="n03"/>
       <point x="323.98" y="1756.56"/>
       <point x="261.32" y="1693.9"/>
-      <point x="261.32" y="1617.1" type="curve" smooth="yes"/>
+      <point x="261.32" y="1617.1" type="curve" smooth="yes" name="n06"/>
       <point x="261.32" y="1541.52"/>
       <point x="323.98" y="1478.86"/>
-      <point x="398.44" y="1478.86" type="curve" smooth="yes"/>
+      <point x="398.44" y="1478.86" type="curve" smooth="yes" name="n09"/>
       <point x="475.58" y="1478.86"/>
       <point x="539.46" y="1541.52"/>
     </contour>
     <contour>
-      <point x="400.0" y="1969.62" type="curve"/>
+      <point x="400" y="1969.62" type="curve" smooth="yes" name="n12"/>
       <point x="134.56" y="1969.62"/>
-      <point x="36.75999999999999" y="1829.46"/>
-      <point x="36.75999999999999" y="1639.16" type="curve"/>
-      <point x="194.04" y="1639.16" type="line"/>
+      <point x="36.76" y="1829.46"/>
+      <point x="36.76" y="1639.16" type="curve" name="n15"/>
+      <point x="194.04" y="1639.16" type="line" name="n16"/>
       <point x="194.04" y="1763.54"/>
       <point x="256.1" y="1843.98"/>
-      <point x="399.22" y="1843.98" type="curve" smooth="yes"/>
+      <point x="399.22" y="1843.98" type="curve" smooth="yes" name="n19"/>
       <point x="542.34" y="1843.98"/>
       <point x="603.62" y="1763.54"/>
-      <point x="603.62" y="1639.16" type="curve"/>
-      <point x="762.46" y="1639.16" type="line"/>
+      <point x="603.62" y="1639.16" type="curve" name="n22"/>
+      <point x="762.46" y="1639.16" type="line" name="n23"/>
       <point x="762.46" y="1829.46"/>
       <point x="665.44" y="1969.62"/>
     </contour>
   </outline>
+  <guideline angle="90" x="436" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_fermata=_fermata.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_fermata=_fermata.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1478.86" width="277.7" />
+      <hstem pos="1843.98" width="125.64" />
+      <vstem pos="36.76" width="157.28" />
+      <vstem pos="261.32" width="501.14" />
+      <vstem pos="603.62" width="158.84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

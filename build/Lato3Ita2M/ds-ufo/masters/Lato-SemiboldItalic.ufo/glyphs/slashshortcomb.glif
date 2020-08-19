@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashshortcomb" format="2">
   <unicode hex="0337"/>
-  <guideline x="-59.998" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="450.254" y="1073.942" type="line"/>
-      <point x="359.668" y="1073.942" type="line" smooth="yes"/>
-      <point x="312.706" y="1073.942"/>
-      <point x="278.736" y="1043.302"/>
-      <point x="248.76" y="996.674" type="curve"/>
-      <point x="-450.588" y="-92.652" type="line"/>
+      <point x="450.254" y="1073.94" type="line" name="n00"/>
+      <point x="359.668" y="1073.94" type="line" smooth="yes"/>
+      <point x="312.706" y="1073.94"/>
+      <point x="278.736" y="1043.3"/>
+      <point x="248.76" y="996.674" type="curve" smooth="yes"/>
+      <point x="-450.588" y="-92.652" type="line" name="n05"/>
       <point x="-360.67" y="-92.652" type="line" smooth="yes"/>
       <point x="-319.038" y="-92.652"/>
       <point x="-276.406" y="-61.68"/>
-      <point x="-245.098" y="-11.387999999999998" type="curve" smooth="yes"/>
+      <point x="-245.098" y="-11.388" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-58" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-71.652" width="-21" />
+      <hstem pos="1073.942" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

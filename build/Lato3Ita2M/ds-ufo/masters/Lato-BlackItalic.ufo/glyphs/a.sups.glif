@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="a.sups" format="2">
   <advance width="552"/>
-  <guideline x="283" y="0" angle="82.9991"/>
   <outline>
     <contour>
       <point x="577" y="1249" type="line"/>
@@ -36,7 +35,9 @@
     </contour>
     <contour>
       <point x="393" y="991" type="curve"/>
-      <point x="385" y="1108" type="line"/>
+      <point x="393" y="991"/>
+      <point x="385" y="1108"/>
+      <point x="385" y="1108" type="curve"/>
       <point x="347" y="1063"/>
       <point x="329" y="1054"/>
       <point x="303" y="1054" type="curve" smooth="yes"/>
@@ -57,10 +58,20 @@
       <point x="326" y="938"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="283" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="921" width="-20" />
+      <hstem pos="913" width="331" />
+      <hstem pos="1120" width="349" />
+      <hstem pos="1304" width="165" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

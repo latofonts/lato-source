@@ -1,37 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arighthalfring" format="2">
-  <advance width="401.038"/>
+  <advance width="401"/>
   <unicode hex="1E9A"/>
-  <guideline x="368.0"/>
-  <guideline x="100.0" y="0.0" angle="82.9991"/>
-  <anchor x="127.332" y="1125.994" name="_top"/>
   <anchor x="309.372" y="1609.22" name="Top"/>
+  <anchor x="127.332" y="1125.99" name="_top"/>
+  <anchor x="182.36" y="-70" name="bottom"/>
   <anchor x="309.372" y="1609.22" name="top"/>
-  <anchor x="182.36" y="-70.0" name="bottom"/>
   <outline>
     <contour>
-      <point x="179.716" y="1183.7359999999999" type="line"/>
-      <point x="306.682" y="1183.7359999999999"/>
-      <point x="404.33" y="1268.394"/>
-      <point x="417.994" y="1399.698" type="curve" smooth="yes"/>
-      <point x="433.324" y="1530.336"/>
-      <point x="355.008" y="1614.996"/>
-      <point x="227.708" y="1614.996" type="curve"/>
-      <point x="215.718" y="1503.756" type="line"/>
-      <point x="264.754" y="1503.756"/>
-      <point x="297.438" y="1467.722"/>
-      <point x="289.102" y="1399.032" type="curve" smooth="yes"/>
-      <point x="281.76599999999996" y="1330.674"/>
-      <point x="240.742" y="1294.976"/>
-      <point x="191.706" y="1294.976" type="curve"/>
+      <point x="179.716" y="1183.74" type="line" name="n00"/>
+      <point x="306.682" y="1183.74"/>
+      <point x="404.33" y="1268.39"/>
+      <point x="417.994" y="1399.7" type="curve"/>
+      <point x="433.324" y="1530.34"/>
+      <point x="355.008" y="1615"/>
+      <point x="227.708" y="1615" type="curve" name="n06"/>
+      <point x="227.708" y="1615"/>
+      <point x="215.718" y="1503.76"/>
+      <point x="215.718" y="1503.76" type="curve"/>
+      <point x="264.754" y="1503.76"/>
+      <point x="297.438" y="1467.72"/>
+      <point x="289.102" y="1399.03" type="curve" smooth="yes"/>
+      <point x="281.766" y="1330.67"/>
+      <point x="240.742" y="1294.98"/>
+      <point x="191.706" y="1294.98" type="curve"/>
     </contour>
   </outline>
+  <guideline angle="90" x="368" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_halfringright=arighthalfring</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_halfringright=arighthalfring</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1183.736" width="431.26" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

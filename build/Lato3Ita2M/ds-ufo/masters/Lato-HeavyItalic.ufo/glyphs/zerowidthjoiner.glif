@@ -1,21 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerowidthjoiner" format="2">
   <unicode hex="200D"/>
-  <guideline x="0.0" y="0.0" angle="82.9991"/>
-  <anchor x="-111.7724" y="1492.0256" name="_top"/>
+  <anchor x="-111.24" y="1491.48" name="_top"/>
   <outline>
+    <component base="_multiply" xScale="0.785984" yScale="0.785984" xOffset="-410.56" yOffset="611.72"/>
     <contour>
-      <point x="-33.4" y="-390.0" type="line"/>
-      <point x="33.4" y="-390.0" type="line"/>
-      <point x="33.4" y="1617.56" type="line"/>
+      <point x="-33.4" y="-390" type="line" name="n00"/>
+      <point x="33.4" y="-390" type="line"/>
+      <point x="33.4" y="1617.56" type="line" name="n02"/>
       <point x="-33.4" y="1617.56" type="line"/>
     </contour>
-    <component base="_multiply" xScale="0.785984" yScale="0.785984" xOffset="-410.56" yOffset="611.72"/>
   </outline>
+  <guideline angle="82.9991" x="0" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-369" width="-21" />
+      <hstem pos="1617.56" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,40 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="elhook-cy" format="2">
-  <advance width="1301.24"/>
+  <advance width="1301"/>
   <unicode hex="0513"/>
-  <anchor x="724.2" y="1120.0" name="top"/>
-  <anchor x="565.56" y="-70.0" name="bottom"/>
   <anchor x="844.84" y="1521.52" name="Top"/>
+  <anchor x="565.56" y="-70" name="bottom"/>
+  <anchor x="724.2" y="1120" name="top"/>
   <outline>
+    <component base="el-cy"/>
     <contour>
-      <point x="1042.24" y="-34.92" type="line" smooth="yes"/>
-      <point x="1042.24" y="-118.08000000000001"/>
+      <point x="1042.24" y="-34.92" type="line" smooth="yes" name="n00"/>
+      <point x="1042.24" y="-118.08"/>
       <point x="1021.36" y="-161.64"/>
       <point x="955.96" y="-161.64" type="curve" smooth="yes"/>
       <point x="920.72" y="-161.64"/>
       <point x="895.2" y="-150.96"/>
-      <point x="873.88" y="-150.96" type="curve" smooth="yes"/>
+      <point x="873.88" y="-150.96" type="curve" smooth="yes" name="n06"/>
       <point x="852.4" y="-150.96"/>
       <point x="825.4" y="-160.64"/>
       <point x="813.72" y="-203.84" type="curve"/>
       <point x="792.36" y="-316.44" type="line"/>
-      <point x="860.0" y="-345.76"/>
+      <point x="860" y="-345.76"/>
       <point x="912.32" y="-358.28"/>
-      <point x="972.68" y="-358.28" type="curve" smooth="yes"/>
+      <point x="972.68" y="-358.28" type="curve" smooth="yes" name="n13"/>
       <point x="1198.16" y="-358.28"/>
       <point x="1282.24" y="-184.76"/>
-      <point x="1282.24" y="-12.920000000000002" type="curve" smooth="yes"/>
-      <point x="1282.24" y="206.56" type="line"/>
-      <point x="1092.68" y="206.56" type="line"/>
-      <point x="1092.68" y="0.0" type="line"/>
-      <point x="1042.24" y="0.0" type="line"/>
+      <point x="1282.24" y="-12.92" type="curve" smooth="yes" name="n16"/>
+      <point x="1282.24" y="206.56" type="line" name="n17"/>
+      <point x="1282.24" y="206.56"/>
+      <point x="1092.68" y="206.56"/>
+      <point x="1092.68" y="206.56" type="curve"/>
+      <point x="1092.68" y="0" type="line" name="n21"/>
+      <point x="1042.24" y="0" type="line"/>
     </contour>
-    <component base="el-cy"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-358.28" width="207.32" />
+      <hstem pos="-150.96" width="150.96" />
+      <hstem pos="206.56" width="-20" />
+      <vstem pos="1042.24" width="240" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

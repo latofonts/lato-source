@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dieresis_caron" format="2">
-  <advance width="800.0"/>
-  <anchor x="400.0" y="1120.0" name="_top"/>
+  <advance width="800"/>
+  <anchor x="400" y="1120" name="_top"/>
   <outline>
     <contour>
-      <point x="322.24" y="1288.64" type="curve"/>
+      <point x="322.24" y="1288.64" type="curve" smooth="yes"/>
       <point x="322.24" y="1351.04"/>
       <point x="269.4" y="1402.96"/>
-      <point x="207.92" y="1402.96" type="curve" smooth="yes"/>
+      <point x="207.92" y="1402.96" type="curve" smooth="yes" name="n03"/>
       <point x="148.76" y="1402.96"/>
-      <point x="96.83999999999999" y="1351.04"/>
-      <point x="96.83999999999999" y="1288.64" type="curve" smooth="yes"/>
-      <point x="96.83999999999999" y="1228.24"/>
+      <point x="96.84" y="1351.04"/>
+      <point x="96.84" y="1288.64" type="curve" smooth="yes"/>
+      <point x="96.84" y="1228.24"/>
       <point x="148.76" y="1178.48"/>
-      <point x="207.92" y="1178.48" type="curve" smooth="yes"/>
+      <point x="207.92" y="1178.48" type="curve" smooth="yes" name="n09"/>
       <point x="269.4" y="1178.48"/>
       <point x="322.24" y="1228.24"/>
     </contour>
@@ -32,14 +32,14 @@
       <point x="703.16" y="1228.24"/>
     </contour>
     <contour>
-      <point x="317.48" y="1481.32" type="line"/>
+      <point x="317.48" y="1481.32" type="line" name="n24"/>
       <point x="446.88" y="1481.32" type="line"/>
       <point x="446.88" y="1512.92"/>
       <point x="412.26" y="1566.28"/>
-      <point x="385.36" y="1593.72" type="curve"/>
+      <point x="385.36" y="1593.72" type="curve" smooth="yes"/>
       <point x="257.2" y="1730.32" type="line"/>
       <point x="248.88" y="1737.56"/>
-      <point x="233.16" y="1744.8"/>
+      <point x="233.16" y="1744.8" name="n31"/>
       <point x="217.44" y="1744.8" type="curve" smooth="yes"/>
       <point x="93.6" y="1744.8" type="line"/>
     </contour>
@@ -57,9 +57,17 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1178.48" width="224.48" />
+      <hstem pos="1481.32" width="-20" />
+      <hstem pos="1744.8" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

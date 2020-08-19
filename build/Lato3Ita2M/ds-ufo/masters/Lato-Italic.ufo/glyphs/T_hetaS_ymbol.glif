@@ -1,30 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ThetaSymbol" format="2">
-  <advance width="1491.48"/>
+  <advance width="1491"/>
   <unicode hex="03F4"/>
-  <guideline x="734.62" y="0.0" angle="82.9991"/>
-  <anchor x="858.06" y="1511.66" name="Top"/>
-  <anchor x="858.06" y="1511.66" name="top"/>
-  <anchor x="663.9" y="-70.0" name="bottom"/>
-  <anchor x="17.92" y="1120.0" name="onRight"/>
   <anchor x="762.52" y="715.12" name="Slash"/>
+  <anchor x="858.06" y="1511.66" name="Top"/>
+  <anchor x="663.9" y="-70" name="bottom"/>
+  <anchor x="17.92" y="1120" name="onRight"/>
+  <anchor x="858.06" y="1511.66" name="top"/>
   <outline>
+    <component base="O" xOffset="0.46"/>
     <contour>
-      <point x="255.8" y="659.3199999999999" type="line"/>
-      <point x="1254.24" y="659.3199999999999" type="line"/>
+      <point x="255.8" y="659.32" type="line" name="n00"/>
+      <point x="1254.24" y="659.32" type="line"/>
       <point x="1271.82" y="800.66" type="line"/>
-      <point x="272.84000000000003" y="800.66" type="line"/>
+      <point x="272.84" y="800.66" type="line" name="n03"/>
     </contour>
-    <component base="O" xOffset="0.45999999999999996"/>
   </outline>
+  <guideline angle="82.9991" x="733" y="0"/>
   <lib>
-    <dict>
-      <key>advance</key>
-      <string>=Theta</string>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>Fitacyr=Thetasymbol</string>
-    </dict>
+  <dict>
+    <key>advance</key>
+    <string>=Theta</string>
+    <key>note</key>
+    <string>Fitacyr=Thetasymbol</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="659.32" width="141.34" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

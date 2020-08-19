@@ -1,21 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tshe-cy" format="2">
-  <advance width="1410.0"/>
+  <advance width="1410"/>
   <unicode hex="040B"/>
-  <guideline x="604.02" y="0.0" angle="82.9991"/>
   <anchor x="614.8" y="1518.62" name="Top"/>
+  <anchor x="779.2" y="-70" name="bottom"/>
   <anchor x="614.8" y="1518.62" name="top"/>
-  <anchor x="779.2" y="-70.0" name="bottom"/>
   <outline>
     <contour>
       <point x="731.84" y="1382.98" type="line"/>
       <point x="472.06" y="1382.98" type="line"/>
-      <point x="302.84" y="0.0" type="line"/>
-      <point x="561.62" y="0.0" type="line"/>
+      <point x="302.84" y="0" type="line" name="n02"/>
+      <point x="561.62" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="131.8" y="1446.02" type="line"/>
-      <point x="106.96" y="1238.38" type="line"/>
+      <point x="131.8" y="1446.02" type="line" name="n04"/>
+      <point x="106.96" y="1238.38" type="line" name="n05"/>
       <point x="1093.26" y="1238.38" type="line"/>
       <point x="1118.88" y="1446.02" type="line"/>
     </contour>
@@ -32,12 +31,20 @@
       <point x="1265.68" y="-0.78" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="597" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1238.38" width="207.64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

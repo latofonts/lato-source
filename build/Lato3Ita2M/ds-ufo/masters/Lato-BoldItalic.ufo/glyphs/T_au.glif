@@ -1,32 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tau" format="2">
-  <advance width="1113.76"/>
+  <advance width="1114"/>
   <unicode hex="03A4"/>
-  <guideline x="548.04" y="0.0" angle="82.9991"/>
-  <anchor x="665.1" y="1518.62" name="Top"/>
-  <anchor x="470.98" y="-70.0" name="bottom"/>
   <anchor x="595.74" y="721.84" name="Slash"/>
+  <anchor x="665.1" y="1518.62" name="Top"/>
+  <anchor x="470.98" y="-70" name="bottom"/>
   <anchor x="665.1" y="1518.62" name="top"/>
   <outline>
     <contour>
       <point x="788.78" y="1446.8" type="line"/>
       <point x="529.22" y="1446.8" type="line"/>
-      <point x="352.53999999999996" y="0.0" type="line"/>
-      <point x="610.54" y="0.0" type="line"/>
+      <point x="352.54" y="0" type="line" name="n02"/>
+      <point x="610.54" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="131.7" y="1446.8" type="line"/>
-      <point x="106.3" y="1231.36" type="line"/>
+      <point x="131.7" y="1446.8" type="line" name="n04"/>
+      <point x="106.3" y="1231.36" type="line" name="n05"/>
       <point x="1158.02" y="1231.36" type="line"/>
       <point x="1184.98" y="1446.8" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="534" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>T=Tau</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>T=Tau</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1231.36" width="215.44" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

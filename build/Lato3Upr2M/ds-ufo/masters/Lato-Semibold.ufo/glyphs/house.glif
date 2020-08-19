@@ -1,50 +1,59 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="house" format="2">
-  <advance width="1525.992"/>
+  <advance width="1526"/>
   <unicode hex="2302"/>
-  <guideline x="852.33"/>
   <outline>
     <contour>
-      <point x="114.04599999999999" y="973.28" type="line"/>
-      <point x="114.04599999999999" y="0.0" type="line"/>
-      <point x="273.906" y="0.0" type="line"/>
-      <point x="273.906" y="973.28" type="line"/>
+      <point x="114.046" y="973.28" type="line" name="n00"/>
+      <point x="114.046" y="0" type="line" name="n01"/>
+      <point x="273.906" y="0" type="line"/>
+      <point x="273.906" y="973.28" type="line" name="n03"/>
     </contour>
     <contour>
-      <point x="114.04599999999999" y="0.0" type="line"/>
-      <point x="762.996" y="0.0" type="line"/>
+      <point x="114.046" y="0" type="line"/>
+      <point x="762.996" y="0" type="line"/>
       <point x="762.996" y="159.86" type="line"/>
-      <point x="114.04599999999999" y="159.86" type="line"/>
+      <point x="114.046" y="159.86" type="line" name="n07"/>
     </contour>
     <contour>
       <point x="177.662" y="818.086" type="line"/>
-      <point x="826.612" y="1286.746" type="line"/>
-      <point x="762.996" y="1442.938" type="line"/>
-      <point x="114.04599999999999" y="973.28" type="line"/>
+      <point x="826.612" y="1286.75" type="line"/>
+      <point x="762.996" y="1442.94" type="line"/>
+      <point x="114.046" y="973.28" type="line"/>
     </contour>
     <contour>
-      <point x="1252.086" y="973.28" type="line"/>
-      <point x="1252.086" y="0.0" type="line"/>
-      <point x="1411.946" y="0.0" type="line"/>
-      <point x="1411.946" y="973.28" type="line"/>
+      <point x="1252.09" y="973.28" type="line" name="n12"/>
+      <point x="1252.09" y="0" type="line"/>
+      <point x="1411.95" y="0" type="line"/>
+      <point x="1411.95" y="973.28" type="line" name="n15"/>
     </contour>
     <contour>
-      <point x="1411.946" y="159.86" type="line"/>
+      <point x="1411.95" y="159.86" type="line"/>
       <point x="762.996" y="159.86" type="line"/>
-      <point x="762.996" y="0.0" type="line"/>
-      <point x="1411.946" y="0.0" type="line"/>
+      <point x="762.996" y="0" type="line"/>
+      <point x="1411.95" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="1411.946" y="973.28" type="line"/>
-      <point x="762.996" y="1443.606" type="line"/>
-      <point x="699.38" y="1287.414" type="line"/>
+      <point x="1411.95" y="973.28" type="line"/>
+      <point x="762.996" y="1443.61" type="line" name="n21"/>
+      <point x="699.38" y="1287.41" type="line"/>
       <point x="1348.33" y="818.086" type="line"/>
     </contour>
   </outline>
+  <guideline angle="90" x="849" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="0" width="159.86" />
+      <hstem pos="1443.606" width="-20" />
+      <vstem pos="114.046" width="159.86" />
+      <vstem pos="1252.086" width="159.86" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

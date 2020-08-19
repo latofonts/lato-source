@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kappa" format="2">
-  <advance width="1370.98"/>
+  <advance width="1371"/>
   <unicode hex="039A"/>
   <anchor x="716.04" y="1518.62" name="Top"/>
-  <anchor x="679.78" y="-70.0" name="bottom"/>
+  <anchor x="679.78" y="-70" name="bottom"/>
   <anchor x="716.04" y="1518.62" name="top"/>
   <outline>
     <contour>
-      <point x="429.94" y="1446.8" type="line"/>
-      <point x="161.01999999999998" y="1446.8" type="line"/>
-      <point x="161.01999999999998" y="0.0" type="line"/>
-      <point x="429.94" y="0.0" type="line"/>
+      <point x="429.94" y="1446.8" type="line" name="n00"/>
+      <point x="161.02" y="1446.8" type="line"/>
+      <point x="161.02" y="0" type="line" name="n02"/>
+      <point x="429.94" y="0" type="line"/>
     </contour>
     <contour>
       <point x="368.9" y="635.36" type="line"/>
       <point x="514.58" y="635.36" type="line" smooth="yes"/>
       <point x="577.02" y="635.36"/>
       <point x="605.74" y="621.8"/>
-      <point x="631.06" y="586.0" type="curve" smooth="yes"/>
-      <point x="1039.82" y="53.0" type="line"/>
+      <point x="631.06" y="586" type="curve"/>
+      <point x="1039.82" y="53" type="line"/>
       <point x="1062.3" y="19.6"/>
-      <point x="1087.02" y="0.0"/>
-      <point x="1150.7" y="0.0" type="curve" smooth="yes"/>
-      <point x="1388.46" y="0.0" type="line"/>
-      <point x="886.4200000000001" y="677.32" type="line"/>
-      <point x="823.6600000000001" y="769.72"/>
+      <point x="1087.02" y="0"/>
+      <point x="1150.7" y="0" type="curve" smooth="yes"/>
+      <point x="1388.46" y="0" type="line"/>
+      <point x="886.42" y="677.32" type="line"/>
+      <point x="823.66" y="769.72"/>
       <point x="749.06" y="788.2"/>
       <point x="617.3" y="788.2" type="curve"/>
       <point x="632.3" y="741.2" type="line"/>
@@ -35,20 +35,28 @@
       <point x="1119.62" y="1446.8" type="line" smooth="yes"/>
       <point x="1065.06" y="1446.8"/>
       <point x="1030.54" y="1431.88"/>
-      <point x="997.8199999999999" y="1388.68" type="curve"/>
+      <point x="997.82" y="1388.68" type="curve"/>
       <point x="598.54" y="885.92" type="line"/>
       <point x="574.78" y="854.36"/>
-      <point x="542.74" y="841.0"/>
-      <point x="492.74" y="841.0" type="curve" smooth="yes"/>
-      <point x="372.02" y="841.0" type="line"/>
+      <point x="542.74" y="841"/>
+      <point x="492.74" y="841" type="curve" smooth="yes"/>
+      <point x="372.02" y="841" type="line" name="n31"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>K=Kappa</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>K=Kappa</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1446.8" width="-20" />
+      <vstem pos="372.02" width="57.92" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

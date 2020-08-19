@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="a.sups" format="2">
   <advance width="590"/>
   <outline>
@@ -35,7 +35,9 @@
     </contour>
     <contour>
       <point x="376" y="990" type="curve"/>
-      <point x="353" y="1111" type="line"/>
+      <point x="376" y="990"/>
+      <point x="353" y="1111"/>
+      <point x="353" y="1111" type="curve"/>
       <point x="317" y="1066"/>
       <point x="297" y="1059"/>
       <point x="266" y="1059" type="curve" smooth="yes"/>
@@ -57,9 +59,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="920" width="-20" />
+      <hstem pos="912" width="334" />
+      <hstem pos="1117" width="354" />
+      <hstem pos="1299" width="172" />
+      <vstem pos="27" width="205" />
+      <vstem pos="328" width="36" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

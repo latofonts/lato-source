@@ -1,30 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adiota" format="2">
-  <advance width="470.298"/>
-  <guideline x="234.982" y="0.0" angle="82.9991"/>
-  <anchor x="392.968" y="1120.0" name="tonos"/>
+  <advance width="470"/>
+  <anchor x="392.968" y="1120" name="tonos"/>
   <outline>
     <contour>
-      <point x="135.04399999999998" y="188.276" type="line" smooth="yes"/>
+      <point x="135.044" y="188.276" type="line" smooth="yes"/>
       <point x="121.38" y="79.628"/>
       <point x="165.038" y="-6.668"/>
-      <point x="269.678" y="-6.668" type="curve" smooth="yes"/>
+      <point x="269.678" y="-6.668" type="curve" smooth="yes" name="n03"/>
       <point x="329.984" y="-6.668"/>
-      <point x="408.246" y="21.642000000000003"/>
-      <point x="415.24" y="74.59400000000001" type="curve"/>
-      <point x="422.23400000000004" y="131.546" type="line"/>
-      <point x="363.25800000000004" y="131.546" type="line" smooth="yes"/>
+      <point x="408.246" y="21.642"/>
+      <point x="415.24" y="74.594" type="curve" smooth="yes"/>
+      <point x="422.234" y="131.546" type="line"/>
+      <point x="363.258" y="131.546" type="line" smooth="yes" name="n08"/>
       <point x="327.892" y="131.546"/>
-      <point x="318.208" y="155.56400000000002"/>
-      <point x="323.546" y="199.598" type="curve"/>
-      <point x="375.55" y="625.298" type="line"/>
+      <point x="318.208" y="155.564"/>
+      <point x="323.546" y="199.598" type="curve" smooth="yes"/>
+      <point x="375.55" y="625.298" type="line" name="n12"/>
       <point x="188.38" y="625.298" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="217" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-6.668" width="138.214" />
+      <hstem pos="625.298" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

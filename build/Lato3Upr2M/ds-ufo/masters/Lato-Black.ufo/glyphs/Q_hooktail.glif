@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Qhooktail" format="2">
   <advance width="1562"/>
   <unicode hex="024A"/>
@@ -44,7 +44,9 @@
     </contour>
     <contour>
       <point x="1421" y="89" type="line"/>
-      <point x="1083" y="89" type="line"/>
+      <point x="1421" y="89"/>
+      <point x="1083" y="89"/>
+      <point x="1083" y="89" type="curve"/>
       <point x="1083" y="72" type="line" smooth="yes"/>
       <point x="1083" y="-173"/>
       <point x="1198" y="-356"/>
@@ -65,9 +67,20 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="231" />
+      <hstem pos="-11" width="293" />
+      <hstem pos="1189" width="287" />
+      <hstem pos="1460" width="-20" />
+      <vstem pos="64" width="347" />
+      <vstem pos="1083" width="338" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

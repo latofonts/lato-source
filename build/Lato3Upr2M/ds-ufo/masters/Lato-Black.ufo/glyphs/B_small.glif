@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Bsmall" format="2">
   <advance width="1016"/>
   <unicode hex="0299"/>
-  <guideline y="1406"/>
   <anchor x="600" y="1120" name="top"/>
   <anchor x="501" y="-70" name="bottom"/>
   <outline>
@@ -45,12 +44,24 @@
       <point x="105" y="1040" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="1406"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>vecyr=Bsmall</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>vecyr=Bsmall</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="213" />
+      <hstem pos="527" width="35" />
+      <hstem pos="837" width="203" />
+      <vstem pos="105" width="294" />
+      <vstem pos="659" width="272" />
+      <vstem pos="677" width="285" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mcomb" format="2">
   <unicode hex="036B"/>
-  <anchor x="0.0" y="1721.0" name="top"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="0" y="1721" name="top"/>
   <outline>
     <contour>
-      <point x="-217.75" y="1120.0" type="line"/>
+      <point x="-217.75" y="1120" type="line" name="n00"/>
       <point x="-217.75" y="1457.25" type="line"/>
       <point x="-219.25" y="1461.25" type="line"/>
-      <point x="-226.0" y="1528.0" type="line"/>
+      <point x="-226" y="1528" type="line" name="n03"/>
       <point x="-229.75" y="1536.5"/>
-      <point x="-234.5" y="1542.0"/>
-      <point x="-244.5" y="1542.0" type="curve" smooth="yes"/>
-      <point x="-282.75" y="1542.0" type="line"/>
-      <point x="-282.75" y="1120.0" type="line"/>
+      <point x="-234.5" y="1542"/>
+      <point x="-244.5" y="1542" type="curve" smooth="yes"/>
+      <point x="-282.75" y="1542" type="line" name="n07"/>
+      <point x="-282.75" y="1120" type="line"/>
     </contour>
     <contour>
-      <point x="32.0" y="1120.0" type="line"/>
-      <point x="32.0" y="1389.25" type="line"/>
+      <point x="32" y="1120" type="line"/>
+      <point x="32" y="1389.25" type="line" name="n10"/>
       <point x="-33.25" y="1389.25" type="line"/>
-      <point x="-33.25" y="1120.0" type="line"/>
+      <point x="-33.25" y="1120" type="line"/>
     </contour>
     <contour>
       <point x="16.75" y="1389.25" type="line"/>
       <point x="16.75" y="1483.5"/>
       <point x="-20.75" y="1548.5"/>
-      <point x="-100.0" y="1548.5" type="curve" smooth="yes"/>
+      <point x="-100" y="1548.5" type="curve" smooth="yes" name="n16"/>
       <point x="-160.75" y="1548.5"/>
-      <point x="-204.0" y="1509.5"/>
-      <point x="-238.0" y="1456.75" type="curve"/>
-      <point x="-231.0" y="1416.25" type="line"/>
-      <point x="-202.0" y="1465.75"/>
-      <point x="-163.0" y="1497.25"/>
-      <point x="-114.75" y="1497.25" type="curve" smooth="yes"/>
+      <point x="-204" y="1509.5"/>
+      <point x="-238" y="1456.75" type="curve"/>
+      <point x="-231" y="1416.25" type="line"/>
+      <point x="-202" y="1465.75"/>
+      <point x="-163" y="1497.25"/>
+      <point x="-114.75" y="1497.25" type="curve" smooth="yes" name="n23"/>
       <point x="-62.75" y="1497.25"/>
-      <point x="-33.25" y="1459.0"/>
+      <point x="-33.25" y="1459"/>
       <point x="-33.25" y="1389.25" type="curve"/>
     </contour>
     <contour>
-      <point x="282.75" y="1120.0" type="line"/>
-      <point x="282.75" y="1389.25" type="line"/>
-      <point x="217.5" y="1389.25" type="line"/>
-      <point x="217.5" y="1120.0" type="line"/>
+      <point x="282.75" y="1120" type="line"/>
+      <point x="282.75" y="1389.25" type="line" name="n28"/>
+      <point x="217.5" y="1389.25" type="line" name="n29"/>
+      <point x="217.5" y="1120" type="line"/>
     </contour>
     <contour>
       <point x="282.75" y="1389.25" type="line"/>
       <point x="282.75" y="1490.75"/>
-      <point x="231.0" y="1548.5"/>
+      <point x="231" y="1548.5"/>
       <point x="146.25" y="1548.5" type="curve" smooth="yes"/>
       <point x="70.5" y="1548.5"/>
-      <point x="-2.5" y="1502.0"/>
-      <point x="-2.5" y="1389.25" type="curve"/>
-      <point x="32.0" y="1389.25" type="line"/>
-      <point x="32.0" y="1460.25"/>
+      <point x="-2.5" y="1502"/>
+      <point x="-2.5" y="1389.25" type="curve" name="n37"/>
+      <point x="32" y="1389.25" type="line"/>
+      <point x="32" y="1460.25"/>
       <point x="76.5" y="1497.25"/>
       <point x="128.5" y="1497.25" type="curve" smooth="yes"/>
       <point x="185.75" y="1497.25"/>
@@ -61,13 +61,23 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_m=mcomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_m=mcomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1141" width="-21" />
+      <hstem pos="1497.25" width="51.25" />
+      <vstem pos="-282.75" width="56.75" />
+      <vstem pos="-2.5" width="34.5" />
+      <vstem pos="217.5" width="65.25" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

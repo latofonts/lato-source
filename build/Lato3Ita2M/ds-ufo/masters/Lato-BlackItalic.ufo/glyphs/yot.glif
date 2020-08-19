@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yot" format="2">
   <advance width="500"/>
   <unicode hex="03F3"/>
-  <guideline x="267"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="214" y="473" name="bar"/>
   <anchor x="332" y="1525" name="Top"/>
   <anchor x="332" y="1525" name="top"/>
@@ -42,12 +40,22 @@
       <point x="499" y="1218"/>
     </contour>
   </outline>
+  <guideline angle="90" x="267" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>j=yot</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>j=yot</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-356" width="232" />
+      <hstem pos="1040" width="-20" />
+      <hstem pos="1134" width="374" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

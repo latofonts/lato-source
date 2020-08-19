@@ -1,41 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildedoublecomb" format="2">
   <unicode hex="0360"/>
-  <guideline x="-134.25" y="0.0" angle="82.9991"/>
-  <anchor x="0.0" y="1037.0" name="_top"/>
-  <anchor x="50.0" y="1610.0" name="top"/>
+  <anchor x="0" y="1037" name="_top"/>
+  <anchor x="50" y="1610" name="top"/>
   <outline>
     <contour>
-      <point x="864.75" y="1449.25" type="curve"/>
-      <point x="788.0" y="1449.25" type="line"/>
-      <point x="774.25" y="1335.0"/>
-      <point x="668.75" y="1273.0"/>
-      <point x="469.0" y="1273.0" type="curve" smooth="yes"/>
-      <point x="115.5" y="1273.0"/>
-      <point x="-94.0" y="1464.75"/>
-      <point x="-457.25" y="1464.75" type="curve" smooth="yes"/>
+      <point x="864.75" y="1449.25" type="curve" name="n00"/>
+      <point x="788" y="1449.25" type="line"/>
+      <point x="774.25" y="1335"/>
+      <point x="668.75" y="1273"/>
+      <point x="469" y="1273" type="curve" smooth="yes" name="n04"/>
+      <point x="115.5" y="1273"/>
+      <point x="-94" y="1464.75"/>
+      <point x="-457.25" y="1464.75" type="curve" smooth="yes" name="n07"/>
       <point x="-714.5" y="1464.75"/>
       <point x="-847.25" y="1368.75"/>
-      <point x="-865.75" y="1218.0" type="curve"/>
-      <point x="-789.75" y="1218.0" type="line"/>
+      <point x="-865.75" y="1218" type="curve"/>
+      <point x="-789.75" y="1218" type="line"/>
       <point x="-775.25" y="1332.25"/>
-      <point x="-670.5" y="1394.0"/>
-      <point x="-470.0" y="1394.0" type="curve" smooth="yes"/>
-      <point x="-116.5" y="1394.0"/>
-      <point x="93.0" y="1202.75"/>
-      <point x="456.25" y="1202.75" type="curve" smooth="yes"/>
+      <point x="-670.5" y="1394"/>
+      <point x="-470" y="1394" type="curve" smooth="yes" name="n14"/>
+      <point x="-116.5" y="1394"/>
+      <point x="93" y="1202.75"/>
+      <point x="456.25" y="1202.75" type="curve" smooth="yes" name="n17"/>
       <point x="712.75" y="1202.75"/>
       <point x="846.25" y="1298.25"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="-134" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dblwidetilde=dbltildecomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dblwidetilde=dbltildecomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="1202.75" width="70.25" />
+      <hstem pos="1394" width="70.75" />
+      <hstem pos="1449.25" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

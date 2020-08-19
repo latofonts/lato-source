@@ -1,50 +1,57 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fermatacomb" format="2">
   <unicode hex="0352"/>
-  <guideline x="-143.336"/>
-  <guideline x="-411.336" y="0.0" angle="82.9991"/>
-  <anchor x="-30.0" y="997.0" name="_top"/>
-  <anchor x="40.0" y="1708.0" name="top"/>
+  <anchor x="-30" y="997" name="_top"/>
+  <anchor x="40" y="1708" name="top"/>
   <outline>
     <contour>
-      <point x="113.60400000000001" y="1240.05" type="curve"/>
-      <point x="121.60000000000001" y="1310.01"/>
-      <point x="73.958" y="1367.312"/>
-      <point x="9.996" y="1367.312" type="curve" smooth="yes"/>
-      <point x="-52.636" y="1367.312"/>
+      <point x="113.604" y="1240.05" type="curve" smooth="yes"/>
+      <point x="121.6" y="1310.01"/>
+      <point x="73.958" y="1367.31"/>
+      <point x="9.996" y="1367.31" type="curve" smooth="yes" name="n03"/>
+      <point x="-52.636" y="1367.31"/>
       <point x="-111.936" y="1310.01"/>
       <point x="-119.932" y="1240.05" type="curve" smooth="yes"/>
-      <point x="-127.928" y="1171.424"/>
-      <point x="-81.62" y="1114.122"/>
-      <point x="-18.988" y="1114.122" type="curve" smooth="yes"/>
-      <point x="45.64" y="1114.122"/>
-      <point x="105.608" y="1171.424"/>
+      <point x="-127.928" y="1171.42"/>
+      <point x="-81.62" y="1114.12"/>
+      <point x="-18.988" y="1114.12" type="curve" smooth="yes" name="n09"/>
+      <point x="45.64" y="1114.12"/>
+      <point x="105.608" y="1171.42"/>
     </contour>
     <contour>
-      <point x="33.656" y="1571.594" type="curve"/>
-      <point x="-194.92000000000002" y="1571.594"/>
-      <point x="-298.576" y="1439.642"/>
-      <point x="-318.902" y="1259.032" type="curve"/>
-      <point x="-193.01" y="1259.032" type="line"/>
-      <point x="-179.012" y="1381.018"/>
-      <point x="-110.664" y="1461.686"/>
-      <point x="21.0" y="1461.686" type="curve" smooth="yes"/>
-      <point x="151.664" y="1461.686"/>
-      <point x="202.012" y="1381.018"/>
-      <point x="188.014" y="1259.032" type="curve"/>
-      <point x="315.238" y="1259.032" type="line"/>
-      <point x="335.898" y="1439.642"/>
-      <point x="262.23199999999997" y="1571.594"/>
+      <point x="33.656" y="1571.59" type="curve" smooth="yes" name="n12"/>
+      <point x="-194.92" y="1571.59"/>
+      <point x="-298.576" y="1439.64"/>
+      <point x="-318.902" y="1259.03" type="curve"/>
+      <point x="-193.01" y="1259.03" type="line"/>
+      <point x="-179.012" y="1381.02"/>
+      <point x="-110.664" y="1461.69"/>
+      <point x="21" y="1461.69" type="curve" smooth="yes" name="n19"/>
+      <point x="151.664" y="1461.69"/>
+      <point x="202.012" y="1381.02"/>
+      <point x="188.014" y="1259.03" type="curve"/>
+      <point x="315.238" y="1259.03" type="line"/>
+      <point x="335.898" y="1439.64"/>
+      <point x="262.232" y="1571.59"/>
     </contour>
   </outline>
+  <guideline angle="90" x="-146" y="0"/>
+  <guideline angle="82.9991" x="-414" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_fermata=fermatacomb</string>
-      <key>public.markColor</key>
-      <string>0.805,0.6,1,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_fermata=fermatacomb</string>
+  <key>public.markColor</key>
+  <string>0.805,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="1114.122" width="253.19" />
+      <hstem pos="1461.686" width="109.908" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

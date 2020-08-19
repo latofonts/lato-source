@@ -1,31 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="2">
-  <advance width="1208.4"/>
+  <advance width="1208"/>
   <unicode hex="0054"/>
-  <anchor x="607.96" y="1521.52" name="Top"/>
-  <anchor x="607.96" y="-70.0" name="bottom"/>
   <anchor x="642.04" y="724.64" name="Slash"/>
+  <anchor x="607.96" y="1521.52" name="Top"/>
+  <anchor x="607.96" y="-70" name="bottom"/>
   <anchor x="607.96" y="1521.52" name="top"/>
   <outline>
     <contour>
-      <point x="754.6" y="1381.2" type="line"/>
-      <point x="454.28" y="1381.2" type="line"/>
-      <point x="454.28" y="0.0" type="line"/>
-      <point x="754.6" y="0.0" type="line"/>
+      <point x="754.6" y="1381.2" type="line" name="n00"/>
+      <point x="454.28" y="1381.2" type="line" name="n01"/>
+      <point x="454.28" y="0" type="line" name="n02"/>
+      <point x="754.6" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="29.88" y="1452.8" type="line"/>
-      <point x="29.88" y="1203.76" type="line"/>
+      <point x="29.88" y="1452.8" type="line" name="n04"/>
+      <point x="29.88" y="1203.76" type="line" name="n05"/>
       <point x="1178.52" y="1203.76" type="line"/>
       <point x="1178.52" y="1452.8" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="1203.76" width="249.04" />
+      <vstem pos="454.28" width="300.32" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

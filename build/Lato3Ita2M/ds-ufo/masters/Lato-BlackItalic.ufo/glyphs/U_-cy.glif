@@ -1,11 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="U-cy" format="2">
   <advance width="1252"/>
   <unicode hex="0423"/>
-  <guideline y="663"/>
-  <guideline y="381"/>
-  <guideline x="627"/>
-  <guideline x="100" y="0" angle="82.9991"/>
   <anchor x="693" y="1525" name="Top"/>
   <anchor x="693" y="1525" name="top"/>
   <anchor x="380" y="-70" name="bottom"/>
@@ -47,12 +43,23 @@
       <point x="74" y="1459" type="line"/>
     </contour>
   </outline>
+  <guideline angle="0" x="0" y="663"/>
+  <guideline angle="0" x="0" y="381"/>
+  <guideline angle="90" x="627" y="0"/>
+  <guideline angle="82.9991" x="100" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.6,0.997,1,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-16" width="267" />
+      <hstem pos="1459" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

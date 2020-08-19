@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t_t_idotless_ogonek" format="2">
   <advance width="1860"/>
-  <guideline x="942" y="0" angle="82.9991"/>
   <anchor x="1543" y="-70" name="_bottom"/>
   <outline>
+    <component base="ogonek" xOffset="1143"/>
     <contour>
       <point x="203" y="962" type="line"/>
       <point x="133" y="404" type="line" smooth="yes"/>
@@ -83,14 +83,23 @@
       <point x="1678" y="0" type="line"/>
       <point x="1805" y="1037" type="line"/>
     </contour>
-    <component base="ogonek" xOffset="1143"/>
   </outline>
+  <guideline angle="82.9991" x="942" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>public.markColor</key>
-      <string>0.999,1,0.6,0</string>
-    </dict>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="5" width="-21" />
+      <hstem pos="0" width="236" />
+      <hstem pos="823" width="214" />
+      <hstem pos="1338" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

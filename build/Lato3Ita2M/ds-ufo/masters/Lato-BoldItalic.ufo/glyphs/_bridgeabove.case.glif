@@ -1,33 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_bridgeabove.case" format="2">
-  <advance width="732.06"/>
-  <guideline x="365.64" y="0.0" angle="82.9991"/>
+  <advance width="732"/>
   <outline>
     <contour>
-      <point x="461.74" y="35.339999999999996" type="line"/>
-      <point x="623.26" y="35.339999999999996" type="line"/>
+      <point x="461.74" y="35.34" type="line" name="n00"/>
+      <point x="623.26" y="35.34" type="line"/>
       <point x="657.84" y="318.22" type="line"/>
       <point x="496.32" y="318.22" type="line"/>
     </contour>
     <contour>
-      <point x="-19.14" y="180.1" type="line"/>
+      <point x="-19.14" y="180.1" type="line" name="n04"/>
       <point x="641.02" y="180.1" type="line"/>
       <point x="657.84" y="318.22" type="line"/>
-      <point x="-2.3200000000000003" y="318.22" type="line"/>
+      <point x="-2.32" y="318.22" type="line" name="n07"/>
     </contour>
     <contour>
-      <point x="-37.46" y="35.339999999999996" type="line"/>
-      <point x="124.84" y="35.339999999999996" type="line"/>
+      <point x="-37.46" y="35.34" type="line"/>
+      <point x="124.84" y="35.34" type="line"/>
       <point x="159.2" y="318.22" type="line"/>
-      <point x="-2.3200000000000003" y="318.22" type="line"/>
+      <point x="-2.32" y="318.22" type="line"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="336" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_bridgebelow=_bridgeabove.case</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_bridgebelow=_bridgeabove.case</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="56.34" width="-21" />
+      <hstem pos="180.1" width="138.12" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

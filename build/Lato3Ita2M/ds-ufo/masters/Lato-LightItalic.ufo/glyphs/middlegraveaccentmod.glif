@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="middlegraveaccentmod" format="2">
-  <advance width="736.0"/>
+  <advance width="736"/>
   <unicode hex="02F4"/>
-  <guideline x="368.0" y="0.0" angle="82.9991"/>
   <outline>
     <contour>
-      <point x="210.75" y="943.25" type="line"/>
-      <point x="456.0" y="655.5" type="line"/>
-      <point x="465.0" y="644.5"/>
-      <point x="474.5" y="643.5"/>
+      <point x="210.75" y="943.25" type="line" name="n00"/>
+      <point x="456" y="655.5" type="line" smooth="yes"/>
+      <point x="465" y="644.5"/>
+      <point x="474.5" y="643.5" name="n03"/>
       <point x="489.25" y="643.5" type="curve" smooth="yes"/>
       <point x="549.5" y="643.5" type="line"/>
       <point x="364.25" y="920.75" type="line"/>
@@ -17,10 +16,18 @@
       <point x="310.25" y="943.25" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <guideline angle="82.9991" x="368" y="0"/>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="664.5" width="-21" />
+      <hstem pos="943.25" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

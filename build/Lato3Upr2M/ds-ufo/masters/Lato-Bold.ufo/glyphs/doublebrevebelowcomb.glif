@@ -1,34 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doublebrevebelowcomb" format="2">
   <unicode hex="035C"/>
-  <anchor x="0.0" y="-550.0" name="bottom"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-550" name="bottom"/>
   <outline>
     <contour>
-      <point x="0.0" y="-285.06" type="curve"/>
+      <point x="0" y="-285.06" type="curve" smooth="yes" name="n00"/>
       <point x="-396.14" y="-285.06"/>
       <point x="-670.66" y="-223.82"/>
-      <point x="-976.18" y="-113.35999999999999" type="curve"/>
+      <point x="-976.18" y="-113.36" type="curve" name="n03"/>
       <point x="-1040.9" y="-277.56" type="line"/>
       <point x="-762.2" y="-393.92"/>
       <point x="-419.26" y="-468.86"/>
-      <point x="0.0" y="-468.86" type="curve"/>
+      <point x="0" y="-468.86" type="curve" smooth="yes" name="n07"/>
       <point x="419.26" y="-468.86"/>
       <point x="762.2" y="-393.92"/>
       <point x="1040.68" y="-277.56" type="curve"/>
-      <point x="975.96" y="-113.35999999999999" type="line"/>
+      <point x="975.96" y="-113.36" type="line"/>
       <point x="670.66" y="-223.82"/>
       <point x="395.92" y="-285.06"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-      <key>note</key>
-      <string>_dblwidebrevebelow=dblbrevebelowcomb</string>
-      <key>public.markColor</key>
-      <string>0.6,1,0.602,0</string>
-    </dict>
+  <dict>
+    <key>note</key>
+    <string>_dblwidebrevebelow=dblbrevebelowcomb</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="-468.86" width="183.8" />
+      <hstem pos="-113.36" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>

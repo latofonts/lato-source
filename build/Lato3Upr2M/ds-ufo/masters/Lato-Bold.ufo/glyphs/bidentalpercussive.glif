@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bidentalpercussive" format="2">
-  <advance width="1065.0"/>
+  <advance width="1065"/>
   <unicode hex="02AD"/>
-  <anchor x="533.0" y="1518.62" name="Top"/>
-  <anchor x="533.0" y="1518.62" name="top"/>
-  <anchor x="533.0" y="-70.0" name="bottom"/>
+  <anchor x="533" y="1518.62" name="Top"/>
+  <anchor x="533" y="-70" name="bottom"/>
+  <anchor x="533" y="1518.62" name="top"/>
   <outline>
     <contour>
-      <point x="264.62" y="574.94" type="line"/>
-      <point x="96.75999999999999" y="574.94" type="line"/>
-      <point x="96.75999999999999" y="0.0" type="line"/>
-      <point x="264.62" y="0.0" type="line"/>
+      <point x="264.62" y="574.94" type="line" name="n00"/>
+      <point x="96.76" y="574.94" type="line"/>
+      <point x="96.76" y="0" type="line" name="n02"/>
+      <point x="264.62" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="257.84000000000003" y="574.94" type="line"/>
-      <point x="257.84000000000003" y="351.7" type="line"/>
+      <point x="257.84" y="574.94" type="line" name="n04"/>
+      <point x="257.84" y="351.7" type="line" name="n05"/>
       <point x="886.82" y="351.7" type="line"/>
       <point x="886.82" y="574.94" type="line"/>
     </contour>
     <contour>
-      <point x="968.24" y="574.94" type="line"/>
-      <point x="800.38" y="574.94" type="line"/>
-      <point x="800.38" y="0.0" type="line"/>
-      <point x="968.24" y="0.0" type="line"/>
+      <point x="968.24" y="574.94" type="line" name="n08"/>
+      <point x="800.38" y="574.94" type="line" name="n09"/>
+      <point x="800.38" y="0" type="line"/>
+      <point x="968.24" y="0" type="line"/>
     </contour>
     <contour>
       <point x="264.62" y="1446.8" type="line"/>
-      <point x="96.75999999999999" y="1446.8" type="line"/>
-      <point x="96.75999999999999" y="871.86" type="line"/>
+      <point x="96.76" y="1446.8" type="line"/>
+      <point x="96.76" y="871.86" type="line"/>
       <point x="264.62" y="871.86" type="line"/>
     </contour>
     <contour>
-      <point x="257.84000000000003" y="1446.8" type="line"/>
-      <point x="257.84000000000003" y="1223.56" type="line"/>
+      <point x="257.84" y="1446.8" type="line" name="n16"/>
+      <point x="257.84" y="1223.56" type="line" name="n17"/>
       <point x="886.82" y="1223.56" type="line"/>
       <point x="886.82" y="1446.8" type="line"/>
     </contour>
@@ -44,9 +44,19 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data></data>
-    </dict>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="n00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="351.7" width="223.24" />
+      <hstem pos="1223.56" width="223.24" />
+      <vstem pos="257.84" width="6.78" />
+      <vstem pos="800.38" width="167.86" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
   </lib>
 </glyph>
