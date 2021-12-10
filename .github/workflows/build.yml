@@ -1,0 +1,72 @@
+name: build
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    tags:
+      - "*"
+  pull_request:
+
+jobs:
+  build:
+    name: Build fonts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install pip packages
+        run: |
+          pip install fonttools fontmake afdko psautohint
+
+      # - name: Process cache
+      #   id: cache
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ${{ env.TEBAKO_DIR }}/${{ env.DEPS }}
+      #     key: ${{ github.workflow }}-${{ matrix.os }}-${{ matrix.env.CC }}-${{ hashFiles('key.txt') }}-v01
+
+      - name: Build fonts
+        run: |
+          python3 tools/03_build_lato_fontmake.py
+
+      - name: Package fonts
+        run: |
+          mkdir -p dist
+          zip -r dist/lato-static-otf.zip ../build/Lato3Ita2M/static-otf/* ../build/Lato3Upr2M/static-otf/*
+          zip -r dist/lato-static-ttf.zip ../build/Lato3Ita2M/static-ttf/* ../build/Lato3Upr2M/static-ttf/*
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: lato-static-fonts
+          path: dist/
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: lato-static-fonts
+          path: dist
+
+      - uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: dist/lato-static-otf.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: dist/lato-static-ttf.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
